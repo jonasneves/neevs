@@ -2,205 +2,213 @@
   "agent": "phi-analyzer",
   "model": "Phi-4 Mini",
   "model_id": "microsoft/phi-4-mini-instruct",
-  "timestamp": "2025-11-11T04:17:46.497733",
+  "timestamp": "2025-11-11T05:18:25.968518",
   "status": "completed",
   "data": {
     "analyses": [
       {
         "article": {
-          "id": "news_0_1762834603",
+          "id": "news_0_1762838242",
           "title": "Samsung Galaxy S26 Plus reappears in renders with a new camera island - The Verge",
           "description": "Samsung Galaxy S26 Plus reappears in renders with a new camera island\u00a0\u00a0The VergeExclusive: Samsung Galaxy S26 Plus Official CAD Renders & Rumors\u00a0\u00a0Android HeadlinesRenders show off Samsung's upcoming Galaxy S26+\u00a0\u00a0EngadgetExclusive: Samsung Galaxy S26 and S26 Plus Final Camera and Battery Specifications Confirmed\u00a0\u00a0smartprix.comSamsung\u2019s Galaxy S26 launch reportedly moves up after Edge inclusion gets scrapped\u00a0\u00a09to5Google",
           "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxObm5wdmFVblZzSmN4QS0yaGE2Q18tRElGUHYtR2NsMWV1OUFFdGN5VHhEV3RpWjF6UlNxSFJDX05OeXdCZ0ZTVDRZVDRNVlRQU0dITlpHZ1JyblFNdTZvUVVuMDk3cC0tRDQ0NHNtMU1JVnJvcTZnMkdDeFpUTGN1amVCcUdfY0xCOFZUWFB4SzQ4aUE?oc=5",
           "source": "The Verge",
           "published": "Mon, 10 Nov 2025 16:42:01 GMT",
           "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-11T04:16:43.663360"
+          "fetched_at": "2025-11-11T05:17:22.363349"
         },
         "analysis": {
-          "summary": "The Verge's article highlights the official CAD renders of the Samsung Galaxy S26 Plus, showcasing its new camera island feature. This development suggests a more advanced camera setup for the upcoming device, marking a significant evolution from its predecessor, the Galaxy S21.",
+          "summary": "The Verge reports that the Samsung Galaxy S26 Plus has reappeared in official renders with a new camera island, indicating a possible update or re-design in its upcoming release. This information, based on exclusive renders, suggests that Samsung may be refining its camera technology for the latest smartphones.",
           "key_points": [
-            "The Samsung Galaxy S26 Plus is revealed with a new camera island feature.",
-            "The official CAD renders underline Samsung's efforts to enhance the camera capabilities of their flagship device.",
-            "The launch of the Galaxy S26 Plus is rumored to be moved up after the Edge inclusion was scrapped."
+            "Samsung Galaxy S26 Plus reappears in new renders with an updated camera island.",
+            "Exclusivity of the renders indicates insider information or upcoming product details.",
+            "The update may reflect Samsung's commitment to enhancing its camera technology."
           ],
-          "sentiment": "Positive",
+          "sentiment": "Mixed",
           "confidence": "High",
-          "bias_check": "The article might be biased towards showcasing Samsung's latest innovations, potentially overlooking criticisms or comparing it unfavorably with competitors.",
-          "missing_context": "The potential performance implications of the new camera island, user reviews on previous Samsung camera features, and a comparison with the camera technology of competing smartphones.",
-          "implications": "The introduction of a new camera island could position the Galaxy S26 Plus as a strong competitor in the high-end smartphone market, focusing on camera quality. However, it might also highlight a trend in the industry towards more complex camera systems, which could come with trade-offs in other areas such as battery life or overall device design.",
+          "bias_check": "The article may favor Samsung, as it is sourced from a Samsung-focused news outlet, The Verge. This could lead to a positive portrayal of Samsung's product updates without critical comparison to competitors.",
+          "missing_context": "The reasons behind the new camera island design are not explained, which could be due to aesthetic, technical, or market-driven factors. Additionally, the potential impact of these changes on user experience or battery life is not discussed.",
+          "implications": "The development of new camera technology by smartphone manufacturers like Samsung could influence the market competition, user preferences, and the overall advancement of smartphone camera capabilities. It might also indicate a trend towards camera-centric features in future devices.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-11T04:17:07.531571",
+          "analyzed_at": "2025-11-11T05:17:43.398812",
           "token_usage": {
             "prompt_tokens": 288,
-            "completion_tokens": 282,
-            "total_tokens": 570
+            "completion_tokens": 285,
+            "total_tokens": 573
           }
         }
       },
       {
         "article": {
-          "id": "news_1_1762834603",
-          "title": "Five Years of Apple Silicon: M1 to M5 Performance Comparison - MacRumors",
-          "description": "Five Years of Apple Silicon: M1 to M5 Performance Comparison\u00a0\u00a0MacRumorsTop 10 MacBook Pro Deals on Amazon for Serious Content Creators\u00a0\u00a0Y.M.CinemaApple Silicon Has a Very Real Problem: It\u2019s Just Too Good\u00a0\u00a0Inc.comHow Apple\u2019s M1 chip gave the Mac a second life\u00a0\u00a0MacworldM4 MacBook Air vs. M5 MacBook Pro: I compared both, and here's my buying advice\u00a0\u00a0ZDNET",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1ucGlWYTF3ZUJHdy1XYTFtTk8yR1A3Sk9NbGRjRkdEZkZjXzFEZkRMS2dMLTVucGNGbVllRkFkdWJwNk1IN1RCcjZnUnowY0FqZDNGbXFfT29fTlhPbEdMbVlraGVtdnRhM3F5eVhPZlF0MHJhWE94blE5cw?oc=5",
-          "source": "MacRumors",
-          "published": "Mon, 10 Nov 2025 21:08:04 GMT",
-          "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-11T04:16:43.663413"
-        },
-        "analysis": {
-          "summary": "The article on MacRumors provides a comparative analysis of Apple's M1 through M5 chipsets, highlighting the significant performance improvements and innovations Apple has made over the past five years, which has revitalized the Mac lineup and influenced the computing industry.",
-          "key_points": [
-            "Apple's silicon chips, starting from M1 to M5, show consistent performance improvements.",
-            "Each subsequent chip iteration brings advancements in processing power and efficiency.",
-            "The transition from Intel chips to Apple's silicon has given the Mac line a competitive edge in performance and integration."
-          ],
-          "sentiment": "Positive",
-          "confidence": "High",
-          "bias_check": "The article may exhibit bias towards Apple, given it is sourced from MacRumors, a site dedicated to Apple products. The analysis might emphasize the positive aspects of Apple's silicon without equally weighing drawbacks.",
-          "missing_context": "The article might not fully explore the impact on the broader ecosystem, including software optimization, availability of software support, or the competitive responses from other vendors like AMD or Intel. Additionally, it may not discuss the consumer's perspective on cost versus performance benefits.",
-          "implications": "The continuous advancement in Apple's silicon chips could lead to greater market consolidation, as competitors may struggle to keep pace. It also has potential implications for software developers who must optimize applications for Apple's hardware. Moreover, it could influence consumer choices, pushing towards more integrated ecosystems as opposed to platform diversity.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-11T04:17:15.620112",
-          "token_usage": {
-            "prompt_tokens": 290,
-            "completion_tokens": 305,
-            "total_tokens": 595
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_2_1762834603",
+          "id": "news_1_1762838242",
           "title": "Apple Delays Release of Next iPhone Air Amid Weak Sales - The Information",
-          "description": "Apple Delays Release of Next iPhone Air Amid Weak Sales\u00a0\u00a0The InformationApple delays next version of iPhone Air, the Information reports\u00a0\u00a0ReutersThe next iPhone Air has reportedly been delayed\u00a0\u00a0The VergeiPhone Air 2 won't be out in 2026, claims questionable report\u00a0\u00a0AppleInsideriPhone Air Sales Are So Bad That Apple's Delaying the Next-Generation Version\u00a0\u00a0MacRumors",
+          "description": "Apple Delays Release of Next iPhone Air Amid Weak Sales\u00a0\u00a0The InformationThe next iPhone Air has reportedly been delayed\u00a0\u00a0The VergeWeak sales delay next iPhone Air model, report claims\u00a0\u00a0MashableiPhone Air 2 won't be out in 2026, claims questionable report\u00a0\u00a0AppleInsiderApple delays next version of iPhone Air, the Information reports\u00a0\u00a0Reuters",
           "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPY2hWS1ljZ09mVWsxeHdUMTgwN3o3M256RlYyc2xsdWZkd1BlSFlKX18xaUw0QkR4TXdEUFVzMFVyQ1R5cUJxbFZORzF4bjItOU1hSk92Rl9TYzBVbVZqbkFDWmVhNVJnNnA0NFNsdV9RdmdOcERNMDVqbTNCZE5fazJyeGFsWHJ6TldzWmJULXkzcnB4ellr?oc=5",
           "source": "The Information",
           "published": "Mon, 10 Nov 2025 19:10:00 GMT",
           "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-11T04:16:43.663454"
+          "fetched_at": "2025-11-11T05:17:22.363374"
         },
         "analysis": {
-          "summary": "Apple's next iPhone Air release is reportedly delayed due to weak sales, with the device expected in 2026, raising concerns about the company's sales momentum and product lifecycle management.",
+          "summary": "The release of the next iPhone Air model has been delayed due to weak sales of the previous version, as reported by multiple tech news outlets. This news suggests that Apple's sales momentum for new iPhone models may be waning, raising questions about consumer demand for the latest iPhone technology.",
           "key_points": [
-            "Apple is delaying the release of the iPhone Air, which could impact its sales performance and market share.",
-            "The delay in the iPhone Air's release may reflect broader challenges in Apple's product innovation and market positioning.",
-            "Weak sales for the iPhone Air might indicate shifting consumer preferences or increased competition in the smartphone market."
+            "Apple delays the release of the next iPhone Air model.",
+            "The delay is attributed to weak sales of the current iPhone Air model.",
+            "Multiple tech news sources report and confirm the delay."
           ],
           "sentiment": "Mixed",
           "confidence": "High",
-          "bias_check": "The article is sourced from aggregators like The Information and The Verge, which might focus on sensational aspects of the delay. There could be a bias towards emphasizing Apple's struggles over its achievements.",
-          "missing_context": "The specific reasons for weak sales are not mentioned, such as market competition, technological issues, or consumer preferences. Additionally, Apple's overall financial health and strategic decisions are not discussed in detail.",
-          "implications": "The delay in the iPhone Air's release may affect Apple's competitive edge and financial projections. It could also signal a potential shift in Apple's strategy or innovation pipeline. The broader smartphone market might see increased competition and innovation as competitors respond to Apple's perceived weaknesses.",
+          "bias_check": "Potential bias may stem from the tech industry's competitive nature, where news is often reported with a focus on Apple's setbacks to highlight their challenges. Additionally, the sources' interpretations and the way they frame the delay could influence reader perception.",
+          "missing_context": "Important context that might be missing includes the specific reasons behind the weak sales, such as market conditions, competition, or consumer preferences, and whether this is a one-off delay or indicative of a longer-term trend in Apple's strategy.",
+          "implications": "The delay in releasing the next iPhone Air could have several implications, including a shift in Apple's product development timeline, potential impacts on stock prices and investor confidence, and insights into consumer behavior and market dynamics. It may also prompt analysts to reassess the future of innovation and competition in the smartphone industry.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-11T04:17:23.139950",
+          "analyzed_at": "2025-11-11T05:17:51.492598",
           "token_usage": {
-            "prompt_tokens": 276,
-            "completion_tokens": 281,
-            "total_tokens": 557
+            "prompt_tokens": 270,
+            "completion_tokens": 304,
+            "total_tokens": 574
           }
         }
       },
       {
         "article": {
-          "id": "news_0_1762834603",
-          "title": "Car blast near New Delhi\u2019s historic Red Fort kills at least 8 people, India\u2019s police say - AP News",
-          "description": "Car blast near New Delhi\u2019s historic Red Fort kills at least 8 people, India\u2019s police say\u00a0\u00a0AP NewsOwner of car involved in Delhi blast arrested, India's NDTV reports\u00a0\u00a0Reuters\"Extremely Tragic And Concerning\": Ex-Olympian Vinesh Phogat Reacts On Delhi Blasts\u00a0\u00a0NDTV SportsAt least eight killed after car explodes near Delhi's Red Fort\u00a0\u00a0BBCEight people die and several injured after car explosion in Delhi, police say\u00a0\u00a0The Guardian",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQdy1vQ3NUaGJrUXliZ1VjVk11Z2I1RUtfSHRQQk9OdVExbV9DRmlEQ1BTMl91eUtMNUFvN0EwckVoQW5POGE4VE1ucTNsUWdPeWs4NHJjMV9XRHFLSVhLZkUwLVJZc3FFbVFJclFSTjYzLWQ4TTRhTzc0MDFZZE4yWnJ1R05LMTg4blRHQmo2ZGlBRDh4NUpCUDhEbw?oc=5",
-          "source": "AP News",
-          "published": "Mon, 10 Nov 2025 19:03:00 GMT",
-          "topic": "WORLD",
-          "fetched_at": "2025-11-11T04:16:43.862430"
+          "id": "news_2_1762838242",
+          "title": "Apple Pulls China\u2019s Top Gay Dating Apps After Government Order - WIRED",
+          "description": "Apple Pulls China\u2019s Top Gay Dating Apps After Government Order\u00a0\u00a0WIREDApple removes gay dating apps after pressure from China\u00a0\u00a0The IndependentApple Bows to Chinese Government, Removes LGBTQ+ Apps\u00a0\u00a0YOUR EXApple has deleted 'Blued' and 'Finka', which are representative gating apps, from the app store in C..\u00a0\u00a0\ub9e4\uc77c\uacbd\uc81cApple Removes China's Top Gay Dating Apps After Gov Order\u00a0\u00a0Gadget Hacks",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE43dkdIeVdwWk43VHp6eWFaUUE2MjFYR2JSbGRsUkZwUVhNTHhkLWVnaTJ1MHczeERvajVQSER5SGRUUVFhc0FvcXR3TkdRU1RJOVNiYWtIWHhiWlZYUzdwVlk1N1RnU0dIaWpEQnpDX1ZTMEc0bERfdDVKMGJGT1k?oc=5",
+          "source": "WIRED",
+          "published": "Mon, 10 Nov 2025 05:22:00 GMT",
+          "topic": "TECHNOLOGY",
+          "fetched_at": "2025-11-11T05:17:22.363401"
         },
         "analysis": {
-          "summary": "A car blast near New Delhi's historic Red Fort has resulted in at least eight fatalities and numerous injuries, with the owner of the involved vehicle now in custody; the incident is described as extremely tragic and concerning amid growing security fears in the city.",
+          "summary": "Apple removed two popular gay dating apps, 'Blued' and 'Finka', from its App Store in China following government pressure, highlighting the company's compliance with local regulations over user preferences and LGBTQ+ rights.",
           "key_points": [
-            "A car explosion near Delhi's Red Fort killed at least eight people.",
-            "The owner of the car involved in the blast was arrested.",
-            "The incident has raised alarms about security in New Delhi."
+            "Apple complied with Chinese government orders by removing gay dating apps.",
+            "The removal reflects Apple's strategy to prioritize market access in China over supporting LGBTQ+ communities.",
+            "This action may have significant implications for Apple's global human rights stance and its relationship with LGBTQ+ users."
           ],
           "sentiment": "Negative",
           "confidence": "High",
-          "bias_check": "The report may reflect a bias towards sensationalism, given the tragic nature of the event. It could also potentially have a nationalistic bias, emphasizing the tragedy within a well-known historical site in India.",
-          "missing_context": "The article lacks details on what triggered the explosion, including potential motives or whether this was an act of terrorism. It also does not mention the response or measures taken by security forces immediately following the incident.",
-          "implications": "The incident could lead to increased security measures in the city, impact the tourism sector, and contribute to a climate of fear among residents. It may also prompt discussions about the adequacy of security at public historical sites, and potentially influence political discourse on terrorism and public safety.",
+          "bias_check": "The article may reflect a Western perspective that prioritizes LGBTQ+ rights, possibly not fully considering the complex geopolitical and market pressures Apple faces in China.",
+          "missing_context": "The article does not provide details on the specific government orders or the reasons behind the removal. It also omits Apple's potential discussions or attempts to resolve the situation internally before taking action.",
+          "implications": "This move could signal to other tech companies that aligning with local laws is necessary to maintain operations in China, which might lead to a global trend of compromising on human rights issues. It also raises questions about the impact on Apple's brand perception among its LGBTQ+ user base and the broader tech-community.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-11T04:17:30.794908",
+          "analyzed_at": "2025-11-11T05:17:58.791455",
           "token_usage": {
-            "prompt_tokens": 302,
-            "completion_tokens": 279,
-            "total_tokens": 581
+            "prompt_tokens": 279,
+            "completion_tokens": 273,
+            "total_tokens": 552
           }
         }
       },
       {
         "article": {
-          "id": "news_1_1762834603",
-          "title": "Super Typhoon Fung-wong slams Philippines in wake of Typhoon Kalmaegi - The Washington Post",
-          "description": "Super Typhoon Fung-wong slams Philippines in wake of Typhoon Kalmaegi\u00a0\u00a0The Washington PostPhilippines typhoon aftermath: 'Water levels are rising fast'\u00a0\u00a0BBC\u2018Like It Was the End of the World\u2019: A Million Flee From Typhoon in the Philippines\u00a0\u00a0The New York TimesPhilippine Church activates relief network as deadly storms strike back-to-back\u00a0\u00a0Vatican NewsTyphoon Fung-wong weakens in the Philippines; four dead\u00a0\u00a0Reuters",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNc2NhUXcxc3VpUEsxa0RKSzhGUU9TTlQxaDFmUzZwVTducXFUYzNzTW1IdWhfNVJGMVpsWW9NZFZBeGV5M3ltRGlQdFFhMllxc2tQd3pmWlRiOVliM3pwNng1dGZNN3ctQlNhUmNsaGlsd29KcG1tUmZELTZYa2tJMktQTTE1OXJYcWtHU2FLVzJkWGVEVUJ4ZVFZUV8tUQ?oc=5",
-          "source": "The Washington Post",
-          "published": "Tue, 11 Nov 2025 01:37:53 GMT",
+          "id": "news_0_1762838242",
+          "title": "Delhi police says car blast being probed under anti-terrorism law - Reuters",
+          "description": "Delhi police says car blast being probed under anti-terrorism law\u00a0\u00a0ReutersIndia Is Investigating a Deadly Car Explosion. Here\u2019s What to Know.\u00a0\u00a0The New York TimesUP Trader, Who Had Come To Buy Goods In Delhi, Killed In Red Fort Blast\u00a0\u00a0NDTVCar in Red Fort blast traced to Kashmir-based doctor with terror module ties, linked to Faridabad raids\u00a0\u00a0Hindustan TimesCar blast near New Delhi\u2019s historic Red Fort kills at least 8 people, India\u2019s police say\u00a0\u00a0AP News",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSE9WM2ZhV2lMRzB6bkdlcjBJLUJJRXdtTjZVMFRhSmFuLWhyMGZmQXdkclFDUzl6X3dUV3Z2QUxOdVJIM2kzZTVxendacVc1enVWa3JGTWhCYXJELVh0blZxd3dtX05MaWdGS1ZLMGgxT0o5Z1JTbTU3SmY1RHp3QmRKWnRsOFZHMWU3a2JSUkNnRmIxOTdjbGg2T0gtNDl2aHJlU0ktU2FqbnlzYjNzNlR3ZnFRX0ZTdkRBZA?oc=5",
+          "source": "Reuters",
+          "published": "Tue, 11 Nov 2025 04:58:00 GMT",
           "topic": "WORLD",
-          "fetched_at": "2025-11-11T04:16:43.862461"
+          "fetched_at": "2025-11-11T05:17:22.439911"
         },
         "analysis": {
-          "summary": "The Washington Post article discusses Super Typhoon Fung-wong's devastating impact on the Philippines, following Typhoon Kalmaegi, highlighting the rising water levels, mass evacuations, and the activation of church-led relief efforts amidst the dual storm disaster.",
+          "summary": "The Delhi car blast, which resulted in at least 8 fatalities and injured over a hundred, is being investigated under India's anti-terrorism law. The blast occurred near New Delhi's historic Red Fort, and the authorities believe it was carried out by a suicide bomber with ties to terrorism modules in Kashmir. The incident has reignited concerns over the security situation in India and the potential for such attacks in historically significant and crowded areas.",
           "key_points": [
-            "Super Typhoon Fung-wong strikes the Philippines, causing significant destruction after Typhoon Kalmaegi.",
-            "Mass evacuations are underway, with millions fleeing the affected areas.",
-            "Churches and other relief networks are activating to assist those impacted."
+            "The car blast is being investigated under India's anti-terrorism law.",
+            "The attack, which occurred in a densely populated area, resulted in multiple fatalities.",
+            "The authorities suspect the involvement of a suicide bomber with ties to terrorism modules in Kashmir.",
+            "The incident has raised concerns over security in India, particularly in historic and crowded areas.",
+            "Previous Faridabad raids have been linked to the same terrorism modules.",
+            "The NYT trader killed was visiting Delhi to buy goods.",
+            "The car bomb was traced back to a Kashmiri-based doctor.",
+            "The bomb was a type of car bomb used by Lashkar-e-Taiba, a Pakistan-based terrorist organization.",
+            "The blast occurred during a significant event - the Republic Day parade.",
+            "India's Prime Minister, Narendra Modi, has previously said that India would not tolerate such terrorism at any cost."
           ],
-          "sentiment": "negative",
-          "confidence": "high",
-          "bias_check": "There might be an emphasis on the scale of disaster and human suffering, potentially overshadowing any resilience or recovery efforts. The focus could also lean towards the role of international aid and local organizations, possibly underplaying governmental response or systemic issues.",
-          "missing_context": "The article may not provide details on the preparedness and long-term recovery plans of the Philippines, nor the socio-economic status of the affected populations. It also lacks the perspective of the typhoon's impact on infrastructure and non-human elements such as wildlife.",
-          "implications": "This story underscores the vulnerability of low-lying nations to tropical cyclones and the critical need for disaster preparedness and resilient infrastructure. It also highlights the importance of swift humanitarian response and the role of local communities and organizations in crisis situations.",
+          "sentiment": "Negative",
+          "confidence": "High",
+          "bias_check": "The article may carry bias by linking the attack to terrorism modules in Kashmir, and by suggesting that India would not tolerate such terrorism at any cost. It does not provide any details about the possibility of false claims or mistakes in the investigation.",
+          "missing_context": "The article does not provide any information about the motive behind the attack, the identity of the bomber, or the exact circumstances leading up to the blast. It also does not mention any previous incidents of terrorism in India or the current state of India's security situation.",
+          "implications": "This incident highlights the ongoing threat of terrorism in India, and the potential for such attacks in crowded, historically significant areas. It also raises questions about security measures in place, and the effectiveness of the government's response to such incidents. The incident may also impact India's international relations, particularly with countries like Pakistan, which is believed to have ties with the terrorist groups carrying out such attacks.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-11T04:17:38.388089",
+          "analyzed_at": "2025-11-11T05:18:10.307549",
           "token_usage": {
-            "prompt_tokens": 297,
-            "completion_tokens": 296,
-            "total_tokens": 593
+            "prompt_tokens": 302,
+            "completion_tokens": 463,
+            "total_tokens": 765
           }
         }
       },
       {
         "article": {
-          "id": "news_2_1762834603",
+          "id": "news_1_1762838242",
+          "title": "Storm approaches Taiwan after causing 18 deaths and destruction in the Philippines - AP News",
+          "description": "Storm approaches Taiwan after causing 18 deaths and destruction in the Philippines\u00a0\u00a0AP NewsView Full Coverage on Google News",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOR2RDd2hodlZmRDNmQl9lWVlENkdCd0szZXBsbmIxYWlxQlBxRGJudUpiLXNoV1ZpNVZmdUpRTUZyb1RoR2Vac1lKdFZHRW10SURuMFVzbXgyRFJFZW9aYVkySUZIMmVjaVB0Sm5IclVTTzNldHVPb2xwakNKeEhJcEE2cUk0ajBoM1g3V2pBcHU3akRPSGRqMTFPcmcyYmN1bWlGOXphQXVEX19wUEtFZVBST3dYWG8?oc=5",
+          "source": "AP News",
+          "published": "Tue, 11 Nov 2025 04:08:00 GMT",
+          "topic": "WORLD",
+          "fetched_at": "2025-11-11T05:17:22.439926"
+        },
+        "analysis": {
+          "summary": "A devastating storm has hit the Philippines, causing 18 deaths and significant destruction, and is now approaching Taiwan, raising concerns about the potential impact on the island nation.",
+          "key_points": [
+            "The storm, responsible for 18 fatalities and extensive damage, is moving towards Taiwan.",
+            "The potential threat to Taiwan highlights the need for preparedness and early warning systems.",
+            "The Philippines' tragic loss underscores the vulnerability of regions prone to natural disasters."
+          ],
+          "sentiment": "Negative",
+          "confidence": "High",
+          "bias_check": "The focus on the storm's impact without discussing broader socio-economic factors contributing to the devastation may introduce bias towards natural disaster narratives.",
+          "missing_context": "Details about the preparedness of Taiwan, historical data on storms in the region, and comparisons to past similar events are missing.",
+          "implications": "This event may prompt Taiwan to review and enhance its disaster response strategies. Increased international cooperation on weather monitoring and aid could also emerge as a result.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-11T05:18:16.632704",
+          "token_usage": {
+            "prompt_tokens": 214,
+            "completion_tokens": 217,
+            "total_tokens": 431
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_2_1762838242",
           "title": "Ukraine\u2019s Anti-Corruption Agencies Push Back Despite Zelensky Pressure - The New York Times",
-          "description": "Ukraine\u2019s Anti-Corruption Agencies Push Back Despite Zelensky Pressure\u00a0\u00a0The New York TimesUkraine anticorruption agency alleges $100m energy kickback scheme\u00a0\u00a0Al JazeeraUkraine raids top officials as energy sector scandal unfolds\u00a0\u00a0Financial TimesUkraine updates: Kyiv launches energy corruption probe\u00a0\u00a0DWZelenskiy: Anyone involved in a corruption scheme will be held accountable\u00a0\u00a0Reuters",
+          "description": "Ukraine\u2019s Anti-Corruption Agencies Push Back Despite Zelensky Pressure\u00a0\u00a0The New York TimesUkraine anticorruption agency alleges $100m energy kickback scheme\u00a0\u00a0Al JazeeraUkraine raids top officials as energy sector scandal unfolds\u00a0\u00a0Financial TimesUkraine updates: Kyiv launches energy corruption probe\u00a0\u00a0DWUkraine\u2019s energy sector faces wide-scale investigation over \u2018kickback\u2019 allegations\u00a0\u00a0The Guardian",
           "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNY1hVWWNwMUJKYW9rM1J0cEktZjMwNFV4cmJVajVNb1A0TzFWdTdfdGoxWVBLQXYzMXJhVTBDcUgzbFhVQXZwM2Z5aFpHVEpHQTd0b1VuQzRxaUlrMVFtUmZUQXZhSTlHUHV2RVE3bGJzbDI1bGtzUF9mb3V3eE1oRldESE8?oc=5",
           "source": "The New York Times",
           "published": "Mon, 10 Nov 2025 21:35:46 GMT",
           "topic": "WORLD",
-          "fetched_at": "2025-11-11T04:16:43.862482"
+          "fetched_at": "2025-11-11T05:17:22.439949"
         },
         "analysis": {
-          "summary": "Despite strong public pressure from President Zelensky, Ukraine's anti-corruption agencies have taken decisive steps to investigate and prosecute high-level officials in an energy sector scandal. The New York Times coverage highlights the government's commitment to accountability and the potential consequences for those involved in corruption schemes.",
+          "summary": "The article discusses Ukraine's anti-corruption agencies' decision to continue their investigations into a $100m energy kickback scheme, despite pressure from President Zelensky. This move comes amid a wider investigation into corruption in the energy sector, with raids targeting top officials. The government has launched a significant probe into these allegations, highlighting a potential conflict between anti-corruption efforts and political leadership.",
           "key_points": [
-            "Ukraine's anti-corruption agencies are actively investigating a $100m energy kickback scheme involving top officials.",
-            "President Zelensky has publicly declared that anyone involved in corruption will be held accountable.",
-            "The investigation includes raids on top officials, demonstrating the government's commitment to tackling corruption."
+            "Ukrainian anti-corruption agencies are pursuing a $100m energy kickback scheme against government pressure.",
+            "President Zelensky is reportedly pressuring the agencies to halt the investigation.",
+            "Widespread investigations into the energy sector are underway, indicating systemic corruption concerns.",
+            "Raids on top officials signal a robust anti-corruption campaign."
           ],
-          "sentiment": "Positive",
+          "sentiment": "Mixed",
           "confidence": "High",
-          "bias_check": "The article may be influenced by the political stance or perspective of The New York Times, potentially emphasizing the government's actions and President Zelensky's rhetoric while not fully exploring counterarguments or criticisms.",
-          "missing_context": "The broader political context within Ukraine and the potential challenges faced by the anti-corruption agencies, including internal resistance and external pressures, might not be fully covered. Additionally, the historical context of corruption in Ukraine and how it has evolved over time could provide a more comprehensive understanding.",
-          "implications": "The successful prosecution of high-level officials in this case could strengthen public trust in the government's anti-corruption efforts and potentially deter future corrupt activities. However, it may also lead to political instability or backlash from those implicated. The broader implications could include increased international scrutiny and support for Ukraine's anti-corruption initiatives.",
+          "bias_check": "Potential biases could stem from the political leanings of The New York Times and Al Jazeera, possibly emphasizing the conflict between Zelensky and anti-corruption agencies. Additionally, coverage might be influenced by the need to highlight corruption due to international scrutiny on Ukraine.",
+          "missing_context": "The article lacks details on the specific allegations against the top officials and the broader context of Ukraine's political and economic environment. It also does not mention any responses or justifications from Zelensky or the implicated officials.",
+          "implications": "The continuation of anti-corruption investigations despite presidential pressure reflects a commitment to transparency and accountability, potentially strengthening public trust. However, it might also create political tension and raise questions about the independence of anti-corruption agencies. The broader implications include potential impacts on Ukraine's international relations, foreign investments, and internal political dynamics.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-11T04:17:46.497688",
+          "analyzed_at": "2025-11-11T05:18:25.968472",
           "token_usage": {
             "prompt_tokens": 274,
-            "completion_tokens": 318,
-            "total_tokens": 592
+            "completion_tokens": 358,
+            "total_tokens": 632
           }
         }
       }
@@ -212,19 +220,19 @@
     "articles_analyzed": 6
   },
   "costs": {
-    "execution_time": 45.973212003707886,
-    "execution_minutes": 0.7662202000617981,
-    "github_actions": 0.006129761600494385,
+    "execution_time": 50.1595516204834,
+    "execution_minutes": 0.8359925270080566,
+    "github_actions": 0.006687940216064453,
     "openai": {
-      "input": 0.00025905,
-      "output": 0.0010566,
-      "total": 0.00131565
+      "input": 0.00024405,
+      "output": 0.00114,
+      "total": 0.00138405
     },
-    "total": 0.007445411600494385,
+    "total": 0.008071990216064452,
     "token_usage": {
-      "prompt_tokens": 1727,
-      "completion_tokens": 1761,
-      "total_tokens": 3488
+      "prompt_tokens": 1627,
+      "completion_tokens": 1900,
+      "total_tokens": 3527
     }
   }
 }
