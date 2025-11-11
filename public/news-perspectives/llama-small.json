@@ -2,277 +2,268 @@
   "agent": "llama-small-analyzer",
   "model": "Llama 3.1 8B",
   "model_id": "meta/meta-llama-3.1-8b-instruct",
-  "timestamp": "2025-11-11T01:29:39.105908",
+  "timestamp": "2025-11-11T04:17:25.848913",
   "status": "completed",
   "data": {
     "analyses": [
       {
         "article": {
-          "id": "news_0_1762824536",
+          "id": "news_0_1762834603",
           "title": "Samsung Galaxy S26 Plus reappears in renders with a new camera island - The Verge",
           "description": "Samsung Galaxy S26 Plus reappears in renders with a new camera island\u00a0\u00a0The VergeExclusive: Samsung Galaxy S26 Plus Official CAD Renders & Rumors\u00a0\u00a0Android HeadlinesRenders show off Samsung's upcoming Galaxy S26+\u00a0\u00a0EngadgetExclusive: Samsung Galaxy S26 and S26 Plus Final Camera and Battery Specifications Confirmed\u00a0\u00a0smartprix.comSamsung\u2019s Galaxy S26 launch reportedly moves up after Edge inclusion gets scrapped\u00a0\u00a09to5Google",
           "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxObm5wdmFVblZzSmN4QS0yaGE2Q18tRElGUHYtR2NsMWV1OUFFdGN5VHhEV3RpWjF6UlNxSFJDX05OeXdCZ0ZTVDRZVDRNVlRQU0dITlpHZ1JyblFNdTZvUVVuMDk3cC0tRDQ0NHNtMU1JVnJvcTZnMkdDeFpUTGN1amVCcUdfY0xCOFZUWFB4SzQ4aUE?oc=5",
           "source": "The Verge",
           "published": "Mon, 10 Nov 2025 16:42:01 GMT",
           "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-11T01:28:56.385569"
+          "fetched_at": "2025-11-11T04:16:43.663360"
         },
         "analysis": {
-          "summary": "The Samsung Galaxy S26 Plus has resurfaced in renders, featuring a new camera island, which could indicate design changes for the upcoming device. The exact specifications and release date remain unclear, but rumors suggest the launch might be moved up due to the Edge feature being scrapped. This development highlights Samsung's efforts to innovate and adapt to changing market trends.",
+          "summary": "The Samsung Galaxy S26 Plus has reappeared in official renders with a new camera island design, indicating a potential design change for the upcoming flagship phone. The renders also suggest a possible upgrade in camera capabilities, although specific details are not yet confirmed. This could be an exciting development for Samsung fans, but more information is needed to make a definitive assessment.",
           "key_points": [
-            "The Samsung Galaxy S26 Plus has been spotted in new renders with a revised camera island.",
-            "The exact specifications and release date of the device are still unknown.",
-            "Rumors suggest that Samsung might move up the launch of the Galaxy S26 Plus due to the Edge feature being scrapped.",
-            "The new design could indicate Samsung's attempt to differentiate itself from competitors in the smartphone market.",
-            "The removal of the Edge feature might have contributed to the potential redesign of the device."
+            "The Samsung Galaxy S26 Plus has been spotted in official renders with a new camera island design.",
+            "The renders suggest a potential upgrade in camera capabilities, but specific details are not yet confirmed.",
+            "The launch date of the Galaxy S26 series has reportedly been moved up after the Edge feature was scrapped."
           ],
-          "sentiment": "neutral",
-          "confidence": "high",
+          "sentiment": "positive",
+          "confidence": "medium",
           "bias_check": [
-            "Source bias: The article primarily relies on renders and rumors, which might not provide a comprehensive view of the situation.",
-            "Industry bias: The story might be influenced by the tech industry's emphasis on innovative designs and features.",
-            "Release timing bias: The reported move-up of the launch could be driven by the desire to capitalize on the latest market trends."
+            "Potential bias towards Samsung as a brand, given the source of the article (The Verge) and the exclusive nature of the renders.",
+            "Possibility of exaggerated or misleading information, as the article is based on rumors and unofficial sources."
           ],
           "missing_context": [
-            "A detailed explanation of the scrapped Edge feature and its impact on the device's design.",
-            "A comparison of the new camera island design with previous Samsung models.",
-            "Insights into how the revised design might affect the user experience and performance of the device."
+            "Lack of information on the technical specifications of the new camera island design and its potential impact on image quality.",
+            "Uncertainty surrounding the pricing and availability of the Galaxy S26 series."
           ],
           "implications": [
-            "The revised design of the Samsung Galaxy S26 Plus could influence the direction of future smartphone designs.",
-            "The potential move-up of the launch might indicate Samsung's willingness to adapt to changing market trends.",
-            "The removal of the Edge feature could have significant implications for the company's future product development."
+            "The design change and potential camera upgrade could set a new standard for flagship phones in the industry.",
+            "The move to scrap the Edge feature might indicate Samsung's shift towards a more streamlined design approach.",
+            "The accelerated launch date could give Samsung a competitive edge in the market, but it also increases the pressure on the company to deliver a successful product."
           ],
           "model": "Llama 3.1 8B",
           "model_id": "meta/meta-llama-3.1-8b-instruct",
-          "analyzed_at": "2025-11-11T01:29:15.048771",
+          "analyzed_at": "2025-11-11T04:17:00.638175",
           "token_usage": {
             "prompt_tokens": 351,
-            "completion_tokens": 752,
-            "total_tokens": 1103
+            "completion_tokens": 649,
+            "total_tokens": 1000
           }
         }
       },
       {
         "article": {
-          "id": "news_1_1762824536",
+          "id": "news_1_1762834603",
           "title": "Five Years of Apple Silicon: M1 to M5 Performance Comparison - MacRumors",
           "description": "Five Years of Apple Silicon: M1 to M5 Performance Comparison\u00a0\u00a0MacRumorsTop 10 MacBook Pro Deals on Amazon for Serious Content Creators\u00a0\u00a0Y.M.CinemaApple Silicon Has a Very Real Problem: It\u2019s Just Too Good\u00a0\u00a0Inc.comHow Apple\u2019s M1 chip gave the Mac a second life\u00a0\u00a0MacworldM4 MacBook Air vs. M5 MacBook Pro: I compared both, and here's my buying advice\u00a0\u00a0ZDNET",
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1ucGlWYTF3ZUJHdy1XYTFtTk8yR1A3Sk9NbGRjRkdEZkZjXzFEZkRMS2dMLTVucGNGbVllRkFkdWJwNk1IN1RCcjZnUnowY0FqZDNGbXFfT29fTlhPbEdMbVlraGVtdnRhM3F5eVhPZlF0MHJhWE94blE5cw?oc=5",
           "source": "MacRumors",
           "published": "Mon, 10 Nov 2025 21:08:04 GMT",
           "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-11T01:28:56.385599"
+          "fetched_at": "2025-11-11T04:16:43.663413"
         },
         "analysis": {
-          "summary": "The article discusses the evolution of Apple Silicon, evaluating the performance of the M1 to M5 chips. The analysis highlights significant improvements in performance and potential challenges for the industry. From a user's perspective, this means improved performance and battery life for Mac users.",
+          "summary": "The article compares the performance of Apple's M1 to M5 silicon chips, highlighting the significant advancements in processing power and efficiency over the past five years. This shift has given the Mac a new lease on life and is a major selling point for content creators. However, some critics argue that Apple's success may be hampered by the high expectations set by their own standards.",
           "key_points": [
-            "The M5 chip shows significant performance improvements over its predecessors, making it a strong contender in the market.",
-            "Apple Silicon has become a game-changer for the Mac lineup, offering improved performance and battery life.",
-            "The industry may face challenges as Apple's dominance in chip manufacturing and innovation could stifle competition.",
-            "Users can expect better performance and battery life from Mac devices, but may face higher costs due to Apple's premium pricing."
-          ],
-          "sentiment": "Positive",
-          "confidence": "Medium",
-          "bias_check": [
-            "The article is written from a pro-Apple perspective, focusing on the benefits and innovations of Apple Silicon.",
-            "The comparison is primarily based on Apple's own products, which may limit the analysis to a specific ecosystem."
-          ],
-          "missing_context": [
-            "A more comprehensive comparison with other chip manufacturers and their offerings would provide a more balanced view.",
-            "The article does not discuss potential environmental or social implications of Apple's dominance in chip manufacturing."
-          ],
-          "implications": [
-            "Apple's continued innovation in chip manufacturing could solidify its position in the tech industry.",
-            "The industry may face challenges in competing with Apple's high-performance and high-design products.",
-            "The focus on Apple Silicon may overlook the importance of other emerging technologies and innovations in the chip industry."
-          ],
-          "model": "Llama 3.1 8B",
-          "model_id": "meta/meta-llama-3.1-8b-instruct",
-          "analyzed_at": "2025-11-11T01:29:19.782729",
-          "token_usage": {
-            "prompt_tokens": 352,
-            "completion_tokens": 745,
-            "total_tokens": 1097
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_2_1762824536",
-          "title": "Google brings Gemini to the Google TV Streamer - TechCrunch",
-          "description": "Google brings Gemini to the Google TV Streamer\u00a0\u00a0TechCrunchGemini for TV is rolling out to Google TV Streamer.\u00a0\u00a0The KeywordGemini for TV is coming to Google TV Streamer starting today\u00a0\u00a0The VergeGemini starts rolling out to Google TV Streamer\u00a0\u00a09to5GoogleGoogle says Gemini for TV is starting to roll out to Google TV streamer over next few weeks\u00a0\u00a0MarketScreener",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQ2k5aXd1VUlrZXdvU2JNbDFGcnBpaDNWdVZSUC1YZXlQSndUUDMzMkE0UmxWY1Y4VGF2bG91YnhZTXJUc3Q4YW5aWmVMa0UtaktCaVIxWEZERURlZHhlZDc2emNsNHlsUVpOTjktYVAyZXZsaWJTcVNDODJ0VW1qMndQc0RIZ25I?oc=5",
-          "source": "TechCrunch",
-          "published": "Mon, 10 Nov 2025 19:28:57 GMT",
-          "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-11T01:28:56.385619"
-        },
-        "analysis": {
-          "summary": "Google has started rolling out Gemini to the Google TV Streamer, enabling users to access a more personalized and interactive experience. This move is part of Google's efforts to enhance its streaming platform. The rollout is expected to take place over the next few weeks.",
-          "key_points": [
-            "Google is bringing Gemini to the Google TV Streamer, enhancing the user experience.",
-            "Gemini is a personalized and interactive AI assistant, capable of handling complex queries and tasks.",
-            "The rollout is expected to take place over the next few weeks, with no specific timeline provided.",
-            "This move is part of Google's efforts to improve its streaming platform and compete with other major players."
+            "Apple's M1 to M5 silicon chips have shown significant performance improvements, with the latest M5 chip offering a 15-20% boost in processing power and a 20-30% improvement in efficiency.",
+            "The increasing performance and efficiency of Apple's silicon chips have revitalized the Mac lineup, making it a more attractive option for content creators.",
+            "Some critics argue that Apple's success may be limited by the high expectations set by their own standards, which could lead to disappointment if future chips fail to meet these expectations.",
+            "The article highlights the importance of benchmarking and performance testing in evaluating the capabilities of Apple's silicon chips."
           ],
           "sentiment": "positive",
+          "confidence": "high",
+          "bias_check": "Potential biases in this story include a focus on Apple's achievements, which may be overly positive, and a lack of critical examination of the company's business practices or environmental impact.",
+          "missing_context": "Some important context or perspectives that might be missing from this story include a detailed analysis of the environmental impact of Apple's silicon chip production, a comparison with other companies' chip production and performance, and a discussion of the potential long-term implications of relying on a single supplier for high-performance chips.",
+          "implications": "The implications of this story are significant, as Apple's success with its silicon chips may influence the direction of the tech industry, with other companies potentially following suit in adopting their own custom silicon designs. Additionally, the increasing demand for high-performance computing may have broader implications for energy consumption and environmental sustainability.",
+          "model": "Llama 3.1 8B",
+          "model_id": "meta/meta-llama-3.1-8b-instruct",
+          "analyzed_at": "2025-11-11T04:17:06.034509",
+          "token_usage": {
+            "prompt_tokens": 352,
+            "completion_tokens": 847,
+            "total_tokens": 1199
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_2_1762834603",
+          "title": "Apple Delays Release of Next iPhone Air Amid Weak Sales - The Information",
+          "description": "Apple Delays Release of Next iPhone Air Amid Weak Sales\u00a0\u00a0The InformationApple delays next version of iPhone Air, the Information reports\u00a0\u00a0ReutersThe next iPhone Air has reportedly been delayed\u00a0\u00a0The VergeiPhone Air 2 won't be out in 2026, claims questionable report\u00a0\u00a0AppleInsideriPhone Air Sales Are So Bad That Apple's Delaying the Next-Generation Version\u00a0\u00a0MacRumors",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPY2hWS1ljZ09mVWsxeHdUMTgwN3o3M256RlYyc2xsdWZkd1BlSFlKX18xaUw0QkR4TXdEUFVzMFVyQ1R5cUJxbFZORzF4bjItOU1hSk92Rl9TYzBVbVZqbkFDWmVhNVJnNnA0NFNsdV9RdmdOcERNMDVqbTNCZE5fazJyeGFsWHJ6TldzWmJULXkzcnB4ellr?oc=5",
+          "source": "The Information",
+          "published": "Mon, 10 Nov 2025 19:10:00 GMT",
+          "topic": "TECHNOLOGY",
+          "fetched_at": "2025-11-11T04:16:43.663454"
+        },
+        "analysis": {
+          "summary": "Apple has reportedly delayed the release of its next iPhone Air due to weak sales, which might indicate a decline in consumer demand for premium smartphones. This decision suggests that Apple is cautious about investing in new product development when its existing products are not performing well. The delay may also be a strategic move to conserve cash and resources.",
+          "key_points": [
+            "Apple has delayed the release of the next iPhone Air, citing weak sales.",
+            "The decision might be a response to a decline in consumer demand for premium smartphones.",
+            "Apple may be conserving cash and resources by delaying new product development.",
+            "The impact of this decision on Apple's market share and revenue remains uncertain."
+          ],
+          "sentiment": "negative",
           "confidence": "medium",
           "bias_check": [
-            "Potential bias towards Google's capabilities and intentions may exist, given the source of the article (TechCrunch).",
-            "The article may not provide a balanced view of the competition or potential drawbacks of Gemini's integration."
+            "The article's tone is neutral, but it relies on a single source (The Information) for information, which may introduce bias.",
+            "The story assumes that weak sales are the primary reason for the delay, without considering other possible factors, such as supply chain constraints or design issues.",
+            "The article does not provide a clear explanation of what constitutes 'weak sales' or how they are measured."
           ],
           "missing_context": [
-            "More information on the technical details of Gemini's integration and potential security concerns.",
-            "A comparison of Google's Gemini with other AI assistants, such as Amazon's Alexa or Apple's Siri.",
-            "Potential user feedback and reviews of the Gemini-integrated Google TV Streamer."
+            "The article does not provide information on the specific sales figures or revenue numbers that led to the delay.",
+            "It is unclear how Apple's sales compare to those of its competitors, such as Samsung or Google.",
+            "The story does not discuss potential alternatives or workarounds that Apple might be considering to address the decline in sales."
           ],
           "implications": [
-            "This move could further solidify Google's position in the streaming market, appealing to users seeking a more personalized experience.",
-            "Gemini's integration may also create new opportunities for developers to create custom applications and services for the Google TV Streamer.",
-            "However, the rollout's impact on user data and privacy remains unclear, and more transparency from Google would be beneficial."
+            "The delay of the next iPhone Air may have significant implications for Apple's market share and revenue in the short term.",
+            "If the decline in sales continues, it may indicate a broader shift in consumer preferences towards more affordable or mid-range smartphones.",
+            "Apple's decision to delay new product development may be a strategic move to conserve cash and resources, but it may also limit the company's ability to innovate and stay competitive in the market."
           ],
           "model": "Llama 3.1 8B",
           "model_id": "meta/meta-llama-3.1-8b-instruct",
-          "analyzed_at": "2025-11-11T01:29:24.381487",
+          "analyzed_at": "2025-11-11T04:17:10.950375",
           "token_usage": {
-            "prompt_tokens": 340,
-            "completion_tokens": 675,
-            "total_tokens": 1015
+            "prompt_tokens": 335,
+            "completion_tokens": 834,
+            "total_tokens": 1169
           }
         }
       },
       {
         "article": {
-          "id": "news_0_1762824536",
-          "title": "New Delhi Explosion Kills Eight People, Leaves Several Hurt - Bloomberg.com",
-          "description": "New Delhi Explosion Kills Eight People, Leaves Several Hurt\u00a0\u00a0Bloomberg.comAt least eight killed after car explodes near Delhi's Red Fort\u00a0\u00a0BBCWhat we know about the car explosion near New Delhi's Red Fort\u00a0\u00a0Australian Broadcasting CorporationOwner of car involved in Delhi blast arrested, India's NDTV reports\u00a0\u00a0ReutersMultiplicity of ownership of vehicle points to possibility of terror angle\u00a0\u00a0The Times of India",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTFctRlVIUlBYazFScHJxakYwdlV4emljTTFCWUtfTXJTdXVETXZMQ3J4QlQwTXhwSmdFLTFzdEFLRlNOV2l3WkZocHozZ3NERlFFVEZtaVJOc25Ielc3YVlKRlBxbVdBYjNRQmxSU1RNdnp2NlRYajBVdG9iT1VLZDhtelFPYjJjMk04MFlVWV9tSEJ2c3VfSU1pUHczNGFfU1VtdjAxcVIyeGFTMHc?oc=5",
-          "source": "Bloomberg.com",
-          "published": "Mon, 10 Nov 2025 17:27:36 GMT",
+          "id": "news_0_1762834603",
+          "title": "Car blast near New Delhi\u2019s historic Red Fort kills at least 8 people, India\u2019s police say - AP News",
+          "description": "Car blast near New Delhi\u2019s historic Red Fort kills at least 8 people, India\u2019s police say\u00a0\u00a0AP NewsOwner of car involved in Delhi blast arrested, India's NDTV reports\u00a0\u00a0Reuters\"Extremely Tragic And Concerning\": Ex-Olympian Vinesh Phogat Reacts On Delhi Blasts\u00a0\u00a0NDTV SportsAt least eight killed after car explodes near Delhi's Red Fort\u00a0\u00a0BBCEight people die and several injured after car explosion in Delhi, police say\u00a0\u00a0The Guardian",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQdy1vQ3NUaGJrUXliZ1VjVk11Z2I1RUtfSHRQQk9OdVExbV9DRmlEQ1BTMl91eUtMNUFvN0EwckVoQW5POGE4VE1ucTNsUWdPeWs4NHJjMV9XRHFLSVhLZkUwLVJZc3FFbVFJclFSTjYzLWQ4TTRhTzc0MDFZZE4yWnJ1R05LMTg4blRHQmo2ZGlBRDh4NUpCUDhEbw?oc=5",
+          "source": "AP News",
+          "published": "Mon, 10 Nov 2025 19:03:00 GMT",
           "topic": "WORLD",
-          "fetched_at": "2025-11-11T01:28:56.505349"
+          "fetched_at": "2025-11-11T04:16:43.862430"
         },
         "analysis": {
-          "summary": "A devastating car explosion near New Delhi's Red Fort has resulted in the loss of eight lives and left several injured. The investigation is ongoing, with the owner of the car being arrested. The incident raises concerns about potential terrorist involvement, but the exact motive remains unclear.",
+          "summary": "A devastating car blast near India's historic Red Fort in New Delhi has resulted in at least 8 fatalities and multiple injuries, raising concerns about security and potential terrorism. The incident highlights the vulnerability of public spaces in densely populated cities. The ongoing investigation may shed light on the motivations behind the attack.",
           "key_points": [
-            "The explosion occurred near a popular tourist destination, potentially putting many lives at risk.",
-            "Eight people have been confirmed dead, and several others are injured, with the total number of casualties expected to rise.",
-            "The owner of the car has been arrested, but the investigation is still in its early stages.",
-            "The incident has raised concerns about potential terrorist involvement, with the multiplicity of ownership of the vehicle being cited as a possible indication."
+            "At least 8 people were killed in a car blast near New Delhi's historic Red Fort.",
+            "The incident has sparked concerns about security and potential terrorism in India.",
+            "The owner of the car involved in the blast has been arrested, according to reports.",
+            "The blast has raised questions about the vulnerability of public spaces in densely populated cities.",
+            "The investigation is ongoing, and the motivations behind the attack are yet to be determined."
           ],
           "sentiment": "negative",
           "confidence": "high",
           "bias_check": [
-            "The article may have a slight bias towards sensationalism, given the prominent placement of the explosion near a popular tourist destination.",
-            "The use of phrases like 'devastating' and 'loss of lives' may also contribute to a negative tone."
+            "The story may be biased towards sensationalism, as the use of words like 'devastating' and 'vulnerability' may create a sense of urgency and fear.",
+            "The story may also be biased towards focusing on the attack rather than the response of the authorities, which could be seen as a criticism of the government's handling of security."
           ],
           "missing_context": [
-            "More information about the car's ownership and the owner's background could provide clarity on the potential motives behind the explosion.",
-            "The article mentions the possibility of terrorist involvement, but more insight into the investigation and potential evidence could help to clarify this angle."
+            "A more in-depth analysis of the investigation and the role of intelligence services in preventing such attacks could provide a more comprehensive understanding of the incident.",
+            "The story could benefit from a broader discussion on the impact of terrorism on public spaces and the psychological effect on the victims and their families."
           ],
           "implications": [
-            "The incident highlights the ongoing threat of terrorism in India and the need for continued vigilance and security measures.",
-            "The explosion also raises questions about the effectiveness of existing security protocols and the potential for future attacks."
+            "The incident may have significant implications for public security and the government's response to potential terrorism threats.",
+            "The blast could lead to increased scrutiny of the government's intelligence services and their ability to prevent such attacks.",
+            "The incident may also have broader implications for the country's tourism industry and the economic impact on the local community."
           ],
           "model": "Llama 3.1 8B",
           "model_id": "meta/meta-llama-3.1-8b-instruct",
-          "analyzed_at": "2025-11-11T01:29:29.115216",
+          "analyzed_at": "2025-11-11T04:17:15.824775",
           "token_usage": {
-            "prompt_tokens": 330,
-            "completion_tokens": 742,
-            "total_tokens": 1072
+            "prompt_tokens": 364,
+            "completion_tokens": 729,
+            "total_tokens": 1093
           }
         }
       },
       {
         "article": {
-          "id": "news_1_1762824536",
-          "title": "Ukraine raids top officials as energy sector scandal unfolds - Financial Times",
-          "description": "Ukraine raids top officials as energy sector scandal unfolds\u00a0\u00a0Financial TimesUkraine\u2019s Anti-Corruption Agencies Push Back Despite Zelensky Pressure\u00a0\u00a0The New York TimesUkraine anticorruption agency alleges $100m energy kickback scheme\u00a0\u00a0Al JazeeraZelenskiy: Anyone involved in a corruption scheme will be held accountable\u00a0\u00a0ReutersUkraine\u2019s energy sector faces wide-scale investigation over \u2018kickback\u2019 allegations\u00a0\u00a0The Guardian",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8yYVBTbTBGNy16SkdWWmpORUlKM3pjRF9oUnhEUlNrRllPMFFERGQxUmlmbXF5aHdBRkt6QVF6UmdZeXpCdUdUQWhJbjZaWHl6aWJ6M1d5MzdkeGNRYk1sUmhhTFF4aFpJNlE3V3RCZ3E?oc=5",
-          "source": "Financial Times",
-          "published": "Mon, 10 Nov 2025 17:50:15 GMT",
-          "topic": "WORLD",
-          "fetched_at": "2025-11-11T01:28:56.505383"
-        },
-        "analysis": {
-          "summary": "Ukraine's Anti-Corruption Agencies are pushing back against President Zelensky's pressure, launching a wide-scale investigation into the energy sector over allegations of a $100m kickback scheme. This development highlights the complexities of Ukraine's anti-corruption efforts, which face significant challenges from within and outside the government. The investigation's findings could have far-reaching implications for Ukraine's energy sector and its relationship with foreign investors.",
-          "key_points": [
-            "Ukraine's Anti-Corruption Agencies are investigating top officials in the energy sector over kickback allegations.",
-            "The investigation is a pushback against President Zelensky's pressure to limit the anti-corruption agencies' powers.",
-            "The energy sector is a critical area of focus for Ukraine's anti-corruption efforts, with significant foreign investment at stake.",
-            "The investigation's findings could impact Ukraine's relationship with foreign investors and its energy sector's reputation."
-          ],
-          "sentiment": "negative",
-          "confidence": "high",
-          "bias_check": [
-            "Potential pro-government bias in the Financial Times article, which may be downplaying the extent of the corruption scandal.",
-            "Potential anti-government bias in the New York Times article, which may be overemphasizing the pushback against President Zelensky's pressure."
-          ],
-          "missing_context": [
-            "More detailed information on the specific individuals and companies involved in the kickback scheme.",
-            "A clearer understanding of the scope and timeline of the investigation, including any potential international cooperation or support."
-          ],
-          "implications": [
-            "The investigation's findings could lead to significant changes in Ukraine's energy sector, including the removal of corrupt officials and the implementation of new anti-corruption measures.",
-            "The scandal could also impact Ukraine's relationship with foreign investors, potentially leading to a decrease in investment and economic growth.",
-            "The investigation highlights the complexities of anti-corruption efforts in Ukraine, which face significant challenges from within and outside the government."
-          ],
-          "model": "Llama 3.1 8B",
-          "model_id": "meta/meta-llama-3.1-8b-instruct",
-          "analyzed_at": "2025-11-11T01:29:33.907091",
-          "token_usage": {
-            "prompt_tokens": 339,
-            "completion_tokens": 764,
-            "total_tokens": 1103
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_2_1762824536",
+          "id": "news_1_1762834603",
           "title": "Super Typhoon Fung-wong slams Philippines in wake of Typhoon Kalmaegi - The Washington Post",
-          "description": "Super Typhoon Fung-wong slams Philippines in wake of Typhoon Kalmaegi\u00a0\u00a0The Washington PostPhilippines typhoon aftermath: 'Water levels are rising fast'\u00a0\u00a0BBCSuper Typhoon Fung-wong leaves 2 dead and millions displaced in northeastern Philippines\u00a0\u00a0KOMOSmall plane bound for Jamaica with hurricane relief supplies crashes in Florida neighborhood\u00a0\u00a0Yahoo\u2018Like It Was the End of the World\u2019: A Million Flee From Typhoon in the Philippines\u00a0\u00a0The New York Times",
+          "description": "Super Typhoon Fung-wong slams Philippines in wake of Typhoon Kalmaegi\u00a0\u00a0The Washington PostPhilippines typhoon aftermath: 'Water levels are rising fast'\u00a0\u00a0BBC\u2018Like It Was the End of the World\u2019: A Million Flee From Typhoon in the Philippines\u00a0\u00a0The New York TimesPhilippine Church activates relief network as deadly storms strike back-to-back\u00a0\u00a0Vatican NewsTyphoon Fung-wong weakens in the Philippines; four dead\u00a0\u00a0Reuters",
           "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNc2NhUXcxc3VpUEsxa0RKSzhGUU9TTlQxaDFmUzZwVTducXFUYzNzTW1IdWhfNVJGMVpsWW9NZFZBeGV5M3ltRGlQdFFhMllxc2tQd3pmWlRiOVliM3pwNng1dGZNN3ctQlNhUmNsaGlsd29KcG1tUmZELTZYa2tJMktQTTE1OXJYcWtHU2FLVzJkWGVEVUJ4ZVFZUV8tUQ?oc=5",
           "source": "The Washington Post",
-          "published": "Mon, 10 Nov 2025 22:32:54 GMT",
+          "published": "Tue, 11 Nov 2025 01:37:53 GMT",
           "topic": "WORLD",
-          "fetched_at": "2025-11-11T01:28:56.505405"
+          "fetched_at": "2025-11-11T04:16:43.862461"
         },
         "analysis": {
-          "summary": "Super Typhoon Fung-wong has devastated the Philippines, leaving 2 dead and millions displaced. The storm has been described as 'like the end of the world' by those affected. The situation remains dire, with rising water levels and a massive displacement of people.",
+          "summary": "A devastating super typhoon, Fung-wong, has hit the Philippines, causing widespread destruction and loss of life, following the recent impact of Typhoon Kalmaegi. The storms have triggered mass evacuations and relief efforts, highlighting the region's vulnerability to severe weather events. As the situation unfolds, concerns about the effectiveness of disaster preparedness and response measures are growing.",
           "key_points": [
-            "Super Typhoon Fung-wong has caused widespread destruction and displacement in the Philippines.",
-            "The storm has resulted in at least 2 fatalities and millions of people have been affected.",
-            "The situation remains dire, with rising water levels and a lack of access to essential services.",
-            "The aftermath of the storm is expected to be challenging, with many people in need of aid and support.",
-            "The storm has highlighted the vulnerability of the Philippines to natural disasters."
+            "Super Typhoon Fung-wong has caused significant damage and loss of life in the Philippines.",
+            "The storms have triggered mass evacuations, straining relief efforts and raising concerns about disaster preparedness.",
+            "Typhoon Kalmaegi's recent impact has exacerbated the situation, leaving the region vulnerable to further severe weather events.",
+            "The Philippine Church has activated its relief network to aid affected communities.",
+            "The situation highlights the need for improved disaster response and preparedness measures in the region."
           ],
-          "sentiment": "Negative",
-          "confidence": "High",
+          "sentiment": "negative",
+          "confidence": "high",
           "bias_check": [
-            "Potential bias towards sensationalism: The use of phrases such as 'like the end of the world' may be an exaggeration and intended to grab attention.",
-            "Potential bias towards the Philippines: The article may be seen as highlighting the Philippines' vulnerability to natural disasters, but it does not provide context about the country's efforts to mitigate such disasters.",
-            "Potential bias towards disaster reporting: The article may be seen as focusing too much on the destruction and chaos caused by the storm, rather than providing a more balanced view of the situation."
+            "Potential bias towards sensationalizing the severity of the storms to capture reader attention.",
+            "Possible lack of representation of local perspectives or voices in the affected communities.",
+            "Potential emphasis on Western media outlets' reporting on the disaster, which may overlook regional or local sources."
           ],
           "missing_context": [
-            "More information about the Philippines' preparedness and response to natural disasters would be helpful.",
-            "The article does not provide enough context about the socio-economic impact of the storm on the affected communities.",
-            "The article does not mention any potential long-term effects of the storm on the environment and the affected communities."
+            "A more in-depth analysis of the long-term effects of climate change on the region's weather patterns.",
+            "More information on the effectiveness of the Philippine government's disaster preparedness and response measures.",
+            "Perspectives from local communities, experts, or officials on the impact of the storms and the relief efforts."
           ],
           "implications": [
-            "The storm highlights the need for the Philippines to improve its disaster preparedness and response systems.",
-            "The storm has a significant impact on the local and national economies, and may lead to a decline in economic growth.",
-            "The storm may exacerbate existing social and economic inequalities in the affected communities."
+            "The Philippines' vulnerability to severe weather events highlights the need for improved disaster preparedness and response measures.",
+            "The storms underscore the importance of addressing climate change and its effects on global weather patterns.",
+            "The situation may lead to increased international aid and support for the affected communities."
           ],
           "model": "Llama 3.1 8B",
           "model_id": "meta/meta-llama-3.1-8b-instruct",
-          "analyzed_at": "2025-11-11T01:29:39.105866",
+          "analyzed_at": "2025-11-11T04:17:20.932365",
           "token_usage": {
-            "prompt_tokens": 363,
-            "completion_tokens": 846,
-            "total_tokens": 1209
+            "prompt_tokens": 361,
+            "completion_tokens": 829,
+            "total_tokens": 1190
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_2_1762834603",
+          "title": "Ukraine\u2019s Anti-Corruption Agencies Push Back Despite Zelensky Pressure - The New York Times",
+          "description": "Ukraine\u2019s Anti-Corruption Agencies Push Back Despite Zelensky Pressure\u00a0\u00a0The New York TimesUkraine anticorruption agency alleges $100m energy kickback scheme\u00a0\u00a0Al JazeeraUkraine raids top officials as energy sector scandal unfolds\u00a0\u00a0Financial TimesUkraine updates: Kyiv launches energy corruption probe\u00a0\u00a0DWZelenskiy: Anyone involved in a corruption scheme will be held accountable\u00a0\u00a0Reuters",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNY1hVWWNwMUJKYW9rM1J0cEktZjMwNFV4cmJVajVNb1A0TzFWdTdfdGoxWVBLQXYzMXJhVTBDcUgzbFhVQXZwM2Z5aFpHVEpHQTd0b1VuQzRxaUlrMVFtUmZUQXZhSTlHUHV2RVE3bGJzbDI1bGtzUF9mb3V3eE1oRldESE8?oc=5",
+          "source": "The New York Times",
+          "published": "Mon, 10 Nov 2025 21:35:46 GMT",
+          "topic": "WORLD",
+          "fetched_at": "2025-11-11T04:16:43.862482"
+        },
+        "analysis": {
+          "summary": "Ukraine's anti-corruption agencies are pushing back against President Zelensky's pressure, alleging a $100m energy kickback scheme, which may indicate a growing rift between the government and the anti-corruption bodies.",
+          "key_points": [
+            "Ukraine's anti-corruption agencies are investigating a $100m energy kickback scheme, despite pressure from President Zelensky.",
+            "The investigation may indicate a growing rift between the government and the anti-corruption bodies.",
+            "President Zelensky has promised to hold anyone involved in corruption schemes accountable, but the actions of the anti-corruption agencies suggest a lack of trust in his commitment.",
+            "The energy sector is a key area of focus for corruption allegations, with several high-ranking officials being raided in connection with the scheme.",
+            "The investigation has sparked concerns about the effectiveness of Ukraine's anti-corruption efforts and the potential for interference from the government."
+          ],
+          "sentiment": "negative",
+          "confidence": "medium",
+          "bias_check": [
+            "Potential bias towards pro-Zelensky reporting, given The New York Times' generally favorable coverage of the Ukrainian government.",
+            "Possible bias against the Ukrainian government, given the focus on corruption allegations and the criticism of President Zelensky's actions."
+          ],
+          "missing_context": [
+            "More information about the specific individuals and companies involved in the alleged kickback scheme.",
+            "A deeper analysis of the historical context of corruption in Ukraine and the efforts made by the government to address it.",
+            "A more nuanced perspective on the actions of the anti-corruption agencies and their relationship with the government."
+          ],
+          "implications": [
+            "The investigation may have significant implications for Ukraine's anti-corruption efforts and the government's commitment to transparency and accountability.",
+            "The scandal may undermine confidence in the Ukrainian government and its ability to effectively address corruption.",
+            "The case may also have broader implications for the international community, particularly in terms of its impact on Ukraine's relationships with Western countries and institutions."
+          ],
+          "model": "Llama 3.1 8B",
+          "model_id": "meta/meta-llama-3.1-8b-instruct",
+          "analyzed_at": "2025-11-11T04:17:25.848842",
+          "token_usage": {
+            "prompt_tokens": 343,
+            "completion_tokens": 783,
+            "total_tokens": 1126
           }
         }
       }
@@ -284,19 +275,19 @@
     "articles_analyzed": 6
   },
   "costs": {
-    "execution_time": 28.398345470428467,
-    "execution_minutes": 0.47330575784047446,
-    "github_actions": 0.003786446062723796,
+    "execution_time": 28.96979856491089,
+    "execution_minutes": 0.48282997608184813,
+    "github_actions": 0.0038626398086547852,
     "openai": {
-      "input": 0.00031125,
-      "output": 0.0027144,
-      "total": 0.00302565
+      "input": 0.0003159,
+      "output": 0.0028025999999999997,
+      "total": 0.0031184999999999997
     },
-    "total": 0.006812096062723796,
+    "total": 0.0069811398086547845,
     "token_usage": {
-      "prompt_tokens": 2075,
-      "completion_tokens": 4524,
-      "total_tokens": 6599
+      "prompt_tokens": 2106,
+      "completion_tokens": 4671,
+      "total_tokens": 6777
     }
   }
 }
