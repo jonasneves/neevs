@@ -1,0 +1,352 @@
+{
+  "agent": "agent-a-paper-fetcher",
+  "timestamp": "2025-11-11T04:16:35.113437",
+  "status": "completed",
+  "data": {
+    "papers": [
+      {
+        "id": "2511.07419v1",
+        "title": "Routing Manifold Alignment Improves Generalization of Mixture-of-Experts\n  LLMs",
+        "authors": [
+          "Zhongyang Li",
+          "Ziyue Li",
+          "Tianyi Zhou"
+        ],
+        "abstract": "Sparse Mixture-of-Experts (MoE) have been widely adopted in recent large\nlanguage models since it can efficiently scale up the model capability without\nincreasing the inference cost. However, evaluations on broad downstream tasks\nreveal a consistent suboptimality of the routers in existing MoE LLMs, which\nresults in a severe performance gap (e.g., 10-20% in accuracy) to the optimal\nrouting. In this paper, we show that aligning the manifold of routing weights\nwith that of task embedding can effec...",
+        "published": "2025-11-10T18:59:53Z",
+        "updated": "2025-11-10T18:59:53Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.07419v1",
+        "abs_url": "https://arxiv.org/abs/2511.07419v1",
+        "categories": [
+          "cs.LG"
+        ],
+        "primary_category": "cs.LG"
+      },
+      {
+        "id": "2511.07418v1",
+        "title": "Lightning Grasp: High Performance Procedural Grasp Synthesis with\n  Contact Fields",
+        "authors": [
+          "Zhao-Heng Yin",
+          "Pieter Abbeel"
+        ],
+        "abstract": "Despite years of research, real-time diverse grasp synthesis for dexterous\nhands remains an unsolved core challenge in robotics and computer graphics. We\npresent Lightning Grasp, a novel high-performance procedural grasp synthesis\nalgorithm that achieves orders-of-magnitude speedups over state-of-the-art\napproaches, while enabling unsupervised grasp generation for irregular,\ntool-like objects. The method avoids many limitations of prior approaches, such\nas the need for carefully tuned energy fun...",
+        "published": "2025-11-10T18:59:44Z",
+        "updated": "2025-11-10T18:59:44Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.07418v1",
+        "abs_url": "https://arxiv.org/abs/2511.07418v1",
+        "categories": [
+          "cs.RO",
+          "cs.AI",
+          "cs.CV",
+          "cs.DC",
+          "cs.GR"
+        ],
+        "primary_category": "cs.RO"
+      },
+      {
+        "id": "2511.07417v1",
+        "title": "Language Generation with Infinite Contamination",
+        "authors": [
+          "Anay Mehrotra",
+          "Grigoris Velegkas",
+          "Xifan Yu",
+          "Felix Zhou"
+        ],
+        "abstract": "We study language generation in the limit, where an algorithm observes an\nadversarial enumeration of strings from an unknown target language $K$ and must\neventually generate new, unseen strings from $K$. Kleinberg and Mullainathan\n[KM24] proved that generation is achievable in surprisingly general settings.\nBut their generator suffers from ``mode collapse,'' producing from an\never-smaller subset of the target. To address this, Kleinberg and Wei [KW25]\nrequire the generator's output to be ``dense...",
+        "published": "2025-11-10T18:59:39Z",
+        "updated": "2025-11-10T18:59:39Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.07417v1",
+        "abs_url": "https://arxiv.org/abs/2511.07417v1",
+        "categories": [
+          "stat.ML",
+          "cs.AI",
+          "cs.CL",
+          "cs.DS",
+          "cs.LG"
+        ],
+        "primary_category": "stat.ML"
+      },
+      {
+        "id": "2511.07416v1",
+        "title": "Robot Learning from a Physical World Model",
+        "authors": [
+          "Jiageng Mao",
+          "Sicheng He",
+          "Hao-Ning Wu",
+          "Yang You",
+          "Shuyang Sun"
+        ],
+        "abstract": "We introduce PhysWorld, a framework that enables robot learning from video\ngeneration through physical world modeling. Recent video generation models can\nsynthesize photorealistic visual demonstrations from language commands and\nimages, offering a powerful yet underexplored source of training signals for\nrobotics. However, directly retargeting pixel motions from generated videos to\nrobots neglects physics, often resulting in inaccurate manipulations. PhysWorld\naddresses this limitation by coupli...",
+        "published": "2025-11-10T18:59:07Z",
+        "updated": "2025-11-10T18:59:07Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.07416v1",
+        "abs_url": "https://arxiv.org/abs/2511.07416v1",
+        "categories": [
+          "cs.RO",
+          "cs.AI",
+          "cs.CV"
+        ],
+        "primary_category": "cs.RO"
+      },
+      {
+        "id": "2511.07413v1",
+        "title": "DigiData: Training and Evaluating General-Purpose Mobile Control Agents",
+        "authors": [
+          "Yuxuan Sun",
+          "Manchen Wang",
+          "Shengyi Qian",
+          "William R. Wong",
+          "Eric Gan"
+        ],
+        "abstract": "AI agents capable of controlling user interfaces have the potential to\ntransform human interaction with digital devices. To accelerate this\ntransformation, two fundamental building blocks are essential: high-quality\ndatasets that enable agents to achieve complex and human-relevant goals, and\nrobust evaluation methods that allow researchers and practitioners to rapidly\nenhance agent performance. In this paper, we introduce DigiData, a large-scale,\nhigh-quality, diverse, multi-modal dataset design...",
+        "published": "2025-11-10T18:57:35Z",
+        "updated": "2025-11-10T18:57:35Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.07413v1",
+        "abs_url": "https://arxiv.org/abs/2511.07413v1",
+        "categories": [
+          "cs.AI",
+          "cs.CL",
+          "cs.HC",
+          "cs.LG"
+        ],
+        "primary_category": "cs.AI"
+      },
+      {
+        "id": "2511.07410v1",
+        "title": "Using Vision Language Models as Closed-Loop Symbolic Planners for\n  Robotic Applications: A Control-Theoretic Perspective",
+        "authors": [
+          "Hao Wang",
+          "Sathwik Karnik",
+          "Bea Lim",
+          "Somil Bansal"
+        ],
+        "abstract": "Large Language Models (LLMs) and Vision Language Models (VLMs) have been\nwidely used for embodied symbolic planning. Yet, how to effectively use these\nmodels for closed-loop symbolic planning remains largely unexplored. Because\nthey operate as black boxes, LLMs and VLMs can produce unpredictable or costly\nerrors, making their use in high-level robotic planning especially challenging.\nIn this work, we investigate how to use VLMs as closed-loop symbolic planners\nfor robotic applications from a con...",
+        "published": "2025-11-10T18:56:56Z",
+        "updated": "2025-11-10T18:56:56Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.07410v1",
+        "abs_url": "https://arxiv.org/abs/2511.07410v1",
+        "categories": [
+          "cs.RO",
+          "cs.AI"
+        ],
+        "primary_category": "cs.RO"
+      },
+      {
+        "id": "2511.07406v1",
+        "title": "Entangled Schr\u00f6dinger Bridge Matching",
+        "authors": [
+          "Sophia Tang",
+          "Yinuo Zhang",
+          "Pranam Chatterjee"
+        ],
+        "abstract": "Simulating trajectories of multi-particle systems on complex energy\nlandscapes is a central task in molecular dynamics (MD) and drug discovery, but\nremains challenging at scale due to computationally expensive and long\nsimulations. Previous approaches leverage techniques such as flow or\nSchr\\\"odinger bridge matching to implicitly learn joint trajectories through\ndata snapshots. However, many systems, including biomolecular systems and\nheterogeneous cell populations, undergo dynamic interactions ...",
+        "published": "2025-11-10T18:55:35Z",
+        "updated": "2025-11-10T18:55:35Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.07406v1",
+        "abs_url": "https://arxiv.org/abs/2511.07406v1",
+        "categories": [
+          "cs.LG",
+          "q-bio.BM"
+        ],
+        "primary_category": "cs.LG"
+      },
+      {
+        "id": "2511.07405v1",
+        "title": "SPOT: An Annotated French Corpus and Benchmark for Detecting Critical\n  Interventions in Online Conversations",
+        "authors": [
+          "Manon Berriche",
+          "C\u00e9lia Nouri",
+          "Chlo\u00e9 Clavel",
+          "Jean-Philippe Cointet"
+        ],
+        "abstract": "We introduce SPOT (Stopping Points in Online Threads), the first annotated\ncorpus translating the sociological concept of stopping point into a\nreproducible NLP task. Stopping points are ordinary critical interventions that\npause or redirect online discussions through a range of forms (irony, subtle\ndoubt or fragmentary arguments) that frameworks like counterspeech or social\ncorrection often overlook. We operationalize this concept as a binary\nclassification task and provide reliable annotation ...",
+        "published": "2025-11-10T18:54:40Z",
+        "updated": "2025-11-10T18:54:40Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.07405v1",
+        "abs_url": "https://arxiv.org/abs/2511.07405v1",
+        "categories": [
+          "cs.CL",
+          "cs.CY"
+        ],
+        "primary_category": "cs.CL"
+      },
+      {
+        "id": "2511.07403v1",
+        "title": "SpatialThinker: Reinforcing 3D Reasoning in Multimodal LLMs via Spatial\n  Rewards",
+        "authors": [
+          "Hunar Batra",
+          "Haoqin Tu",
+          "Hardy Chen",
+          "Yuanze Lin",
+          "Cihang Xie"
+        ],
+        "abstract": "Multimodal large language models (MLLMs) have achieved remarkable progress in\nvision-language tasks, but they continue to struggle with spatial\nunderstanding. Existing spatial MLLMs often rely on explicit 3D inputs or\narchitecture-specific modifications, and remain constrained by large-scale\ndatasets or sparse supervision. To address these limitations, we introduce\nSpatialThinker, a 3D-aware MLLM trained with RL to integrate structured spatial\ngrounding with multi-step reasoning. The model simul...",
+        "published": "2025-11-10T18:52:47Z",
+        "updated": "2025-11-10T18:52:47Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.07403v1",
+        "abs_url": "https://arxiv.org/abs/2511.07403v1",
+        "categories": [
+          "cs.CV",
+          "cs.AI",
+          "cs.CL",
+          "cs.LG"
+        ],
+        "primary_category": "cs.CV"
+      },
+      {
+        "id": "2511.07399v1",
+        "title": "StreamDiffusionV2: A Streaming System for Dynamic and Interactive Video\n  Generation",
+        "authors": [
+          "Tianrui Feng",
+          "Zhi Li",
+          "Shuo Yang",
+          "Haocheng Xi",
+          "Muyang Li"
+        ],
+        "abstract": "Generative models are reshaping the live-streaming industry by redefining how\ncontent is created, styled, and delivered. Previous image-based streaming\ndiffusion models have powered efficient and creative live streaming products\nbut have hit limits on temporal consistency due to the foundation of\nimage-based designs. Recent advances in video diffusion have markedly improved\ntemporal consistency and sampling efficiency for offline generation. However,\noffline generation systems primarily optimize...",
+        "published": "2025-11-10T18:51:28Z",
+        "updated": "2025-11-10T18:51:28Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.07399v1",
+        "abs_url": "https://arxiv.org/abs/2511.07399v1",
+        "categories": [
+          "cs.CV",
+          "cs.LG"
+        ],
+        "primary_category": "cs.CV"
+      },
+      {
+        "id": "2511.07398v1",
+        "title": "Solving bilevel optimization via sequential minimax optimization",
+        "authors": [
+          "Zhaosong Lu",
+          "Sanyou Mei"
+        ],
+        "abstract": "In this paper we propose a sequential minimax optimization (SMO) method for\nsolving a class of constrained bilevel optimization problems in which the\nlower-level part is a possibly nonsmooth convex optimization problem, while the\nupper-level part is a possibly nonconvex optimization problem. Specifically,\nSMO applies a first-order method to solve a sequence of minimax subproblems,\nwhich are obtained by employing a hybrid of modified augmented Lagrangian and\npenalty schemes on the bilevel optimiz...",
+        "published": "2025-11-10T18:51:05Z",
+        "updated": "2025-11-10T18:51:05Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.07398v1",
+        "abs_url": "https://arxiv.org/abs/2511.07398v1",
+        "categories": [
+          "math.OC",
+          "cs.LG",
+          "cs.NA",
+          "math.NA",
+          "stat.ML",
+          "90C26, 90C30, 90C47, 90C99, 65K05"
+        ],
+        "primary_category": "math.OC"
+      },
+      {
+        "id": "2511.07397v1",
+        "title": "ConvFill: Model Collaboration for Responsive Conversational Voice Agents",
+        "authors": [
+          "Vidya Srinivas",
+          "Zachary Englhardt",
+          "Maximus Powers",
+          "Shwetak Patel",
+          "Vikram Iyer"
+        ],
+        "abstract": "Deploying conversational voice agents with large language models faces a\ncritical challenge: cloud-based foundation models provide deep reasoning and\ndomain knowledge but introduce latency that disrupts natural conversation,\nwhile on-device models respond immediately but lack sophistication. We propose\nconversational infill, a task where a lightweight on-device model generates\ncontextually appropriate dialogue while seamlessly incorporating streaming\nknowledge from a powerful backend model. This...",
+        "published": "2025-11-10T18:50:30Z",
+        "updated": "2025-11-10T18:50:30Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.07397v1",
+        "abs_url": "https://arxiv.org/abs/2511.07397v1",
+        "categories": [
+          "cs.CL"
+        ],
+        "primary_category": "cs.CL"
+      },
+      {
+        "id": "2511.07396v1",
+        "title": "C3PO: Optimized Large Language Model Cascades with Probabilistic Cost\n  Constraints for Reasoning",
+        "authors": [
+          "Antonios Valkanas",
+          "Soumyasundar Pal",
+          "Pavel Rumiantsev",
+          "Yingxue Zhang",
+          "Mark Coates"
+        ],
+        "abstract": "Large language models (LLMs) have achieved impressive results on complex\nreasoning tasks, but their high inference cost remains a major barrier to\nreal-world deployment. A promising solution is to use cascaded inference, where\nsmall, cheap models handle easy queries, and only the hardest examples are\nescalated to more powerful models. However, existing cascade methods typically\nrely on supervised training with labeled data, offer no theoretical\ngeneralization guarantees, and provide limited cont...",
+        "published": "2025-11-10T18:50:27Z",
+        "updated": "2025-11-10T18:50:27Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.07396v1",
+        "abs_url": "https://arxiv.org/abs/2511.07396v1",
+        "categories": [
+          "cs.LG"
+        ],
+        "primary_category": "cs.LG"
+      },
+      {
+        "id": "2511.07392v1",
+        "title": "Surgical Agent Orchestration Platform for Voice-directed Patient Data\n  Interaction",
+        "authors": [
+          "Hyeryun Park",
+          "Byung Mo Gu",
+          "Jun Hee Lee",
+          "Byeong Hyeon Choi",
+          "Sekeun Kim"
+        ],
+        "abstract": "In da Vinci robotic surgery, surgeons' hands and eyes are fully engaged in\nthe procedure, making it difficult to access and manipulate multimodal patient\ndata without interruption. We propose a voice-directed Surgical Agent\nOrchestrator Platform (SAOP) built on a hierarchical multi-agent framework,\nconsisting of an orchestration agent and three task-specific agents driven by\nLarge Language Models (LLMs). These LLM-based agents autonomously plan, refine,\nvalidate, and reason to map voice commands...",
+        "published": "2025-11-10T18:47:24Z",
+        "updated": "2025-11-10T18:47:24Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.07392v1",
+        "abs_url": "https://arxiv.org/abs/2511.07392v1",
+        "categories": [
+          "cs.CL",
+          "cs.AI"
+        ],
+        "primary_category": "cs.CL"
+      },
+      {
+        "id": "2511.07390v1",
+        "title": "A Diffusion Model to Shrink Proteins While Maintaining Their Function",
+        "authors": [
+          "Ethan Baron",
+          "Alan N. Amin",
+          "Ruben Weitzman",
+          "Debora Marks",
+          "Andrew Gordon Wilson"
+        ],
+        "abstract": "Many proteins useful in modern medicine or bioengineering are challenging to\nmake in the lab, fuse with other proteins in cells, or deliver to tissues in\nthe body, because their sequences are too long. Shortening these sequences\ntypically involves costly, time-consuming experimental campaigns. Ideally, we\ncould instead use modern models of massive databases of sequences from nature\nto learn how to propose shrunken proteins that resemble sequences found in\nnature. Unfortunately, these models stru...",
+        "published": "2025-11-10T18:46:24Z",
+        "updated": "2025-11-10T18:46:24Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.07390v1",
+        "abs_url": "https://arxiv.org/abs/2511.07390v1",
+        "categories": [
+          "cs.LG",
+          "q-bio.QM"
+        ],
+        "primary_category": "cs.LG"
+      }
+    ],
+    "count": 15,
+    "categories": [
+      "cs.AI",
+      "cs.LG",
+      "cs.CL"
+    ],
+    "fetch_date": "2025-11-11"
+  },
+  "metadata": {
+    "source": "arXiv API",
+    "query": "cat:cs.AI OR cat:cs.LG OR cat:cs.CL",
+    "deduplication": {
+      "total_fetched": 15,
+      "new_papers": 15,
+      "duplicates_filtered": 0,
+      "last_fetch": null
+    }
+  },
+  "costs": {
+    "execution_time": 0.4720296859741211,
+    "execution_minutes": 0.007867161432902019,
+    "github_actions": 6.293729146321615e-05,
+    "openai": {
+      "input": 0,
+      "output": 0,
+      "total": 0
+    },
+    "total": 6.293729146321615e-05,
+    "token_usage": {}
+  }
+}
