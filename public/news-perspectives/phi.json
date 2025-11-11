@@ -2,25 +2,191 @@
   "agent": "phi-analyzer",
   "model": "Phi-4 Mini",
   "model_id": "microsoft/phi-4-mini-instruct",
-  "timestamp": "2025-11-11T12:14:56.805436",
+  "timestamp": "2025-11-11T18:13:24.143891",
   "status": "completed",
   "data": {
     "analyses": [
       {
         "article": {
-          "id": "news_0_1762863124",
+          "id": "news_0_1762884591",
+          "title": "Introducing iPhone Pocket: a beautiful way to wear and carry iPhone - Apple",
+          "description": "Introducing iPhone Pocket: a beautiful way to wear and carry iPhone\u00a0\u00a0AppleApple is now selling a $150 sling for your iPhone made by the same designer who created Steve Jobs' iconic black turtleneck\u00a0\u00a0FortuneApple and Issey Miyake Unite for the iPhone Pocket\u2014\u201cIt\u2019s a Moment of Connecting the Dots\u201d\u00a0\u00a0VogueApple made a $230 crossbody\u2026 sock\u00a0\u00a0The VergeThe iPhone Pocket Is the Apple Accessory You Never Saw Coming\u00a0\u00a0CNET",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZTdIQkdDOWJZWXFzY3dteUR2MWNVbTJ1bktEcTNybkRZMl9oOFluUEEwdGd2ZDhlX0cydjBkS19IQ3gzb291TmRUSzdrNWpGbTYzSjFVNWItaHU5S0hfM0JPMk83WF9xZHpvV2E5TkFTa1JCSUUydXVqclVVcjlqdjJFaHh1blFTcEg3QlUyRGRjTTRSV0lCR2phT2FtekVOQnlVeTR2dzdIdw?oc=5",
+          "source": "Apple",
+          "published": "Tue, 11 Nov 2025 09:03:25 GMT",
+          "topic": "TECHNOLOGY",
+          "fetched_at": "2025-11-11T18:09:51.541780"
+        },
+        "analysis": {
+          "summary": "Apple has introduced the iPhone Pocket, a $150 accessory designed by Issey Miyake for a stylish, wearable way to carry an iPhone. The product, which pairs with the iPhone 12, 11, and 12 Pro models, is a rigid sleeve that allows the phone to be worn over the shoulder like a crossbody bag, featuring a silicone loop at the bottom for attaching a carabiner.",
+          "key_points": [
+            "The iPhone Pocket is a $150 wearable accessory crafted by Issey Miyake.",
+            "It is designed as a rigid, shoulder-worn sleeve for iPhone 12, 11, and 12 Pro models.",
+            "Apple's collaboration with designer Issey Miyake highlights a trend of merging fashion with technology.",
+            "The accessory is not sold directly by Apple but through third-party retailers, which may affect consumer perception."
+          ],
+          "sentiment": "Mixed",
+          "confidence": "High",
+          "bias_check": "The story might exhibit a positive bias towards Apple\u2019s high-end collaborations and may overlook potential drawbacks, such as the limited utility for users who do not own the specified iPhone models.",
+          "missing_context": "Comparison to other similar products, such as Apple's own cuff or other designer collaborations, and the practicality of wearing the iPhone in this manner could be missing.",
+          "implications": "The introduction of the iPhone Pocket reflects Apple's strategy to enter the fashion accessory market, potentially increasing brand prestige and attracting tech-savvy fashion enthusiasts. However, it may also highlight the exclusivity and limited utility of the product for a broader audience.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-11T18:10:16.657730",
+          "token_usage": {
+            "prompt_tokens": 296,
+            "completion_tokens": 343,
+            "total_tokens": 639
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_1_1762884591",
           "title": "Weak sales delay next iPhone Air model, report claims - Mashable",
-          "description": "Weak sales delay next iPhone Air model, report claims\u00a0\u00a0MashableApple Delays Release of Next iPhone Air Amid Weak Sales\u00a0\u00a0The InformationThe next iPhone Air has reportedly been delayed\u00a0\u00a0The VergeApple reportedly punts on the next iPhone Air\u00a0\u00a0FortuneApple delays next version of iPhone Air, the Information reports\u00a0\u00a0Reuters",
+          "description": "Weak sales delay next iPhone Air model, report claims\u00a0\u00a0MashableApple delays next version of iPhone Air, the Information reports\u00a0\u00a0ReutersApple pulls plug on iPhone Air 2 after weak sales of debut model: report\u00a0\u00a0New York PostApple Explores Adding Second Camera to Next iPhone Air to Boost Sales\u00a0\u00a0The InformationThe next iPhone Air has reportedly been delayed\u00a0\u00a0The Verge",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE96QU9QVlFWeVNDYldsSWZ6cnAwamNJTnNwaWl0dEV5aWJUNXhjb3lIY2R3YVZQNVZHTUhVMlNydnp6OHlVbGJiVi1KRTk3aUd0S2FLRU9GMkZ1blk?oc=5",
           "source": "Mashable",
           "published": "Tue, 11 Nov 2025 03:20:29 GMT",
           "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-11T12:12:04.020090"
+          "fetched_at": "2025-11-11T18:09:51.541808"
         },
         "analysis": {
-          "summary": "{\n  \"summary\": \"Weak sales of the iPhone Air have reportedly led Apple to delay the release of its next model, catching the attention of major tech news outlets including Mashable, The Verge, and Fortune. The news highlights Apple's cautious approach in managing consumer demand and inventory.\"\n\n  \"k",
+          "summary": "Recent reports claim that Apple's next iPhone Air model has been delayed due to weak sales of the debut model, prompting speculation about additional features like a second camera to boost sales. The Verge and other sources highlight the timing and possible reasons behind the delay.",
           "key_points": [
-            "{\n  \"summary\": \"Weak sales of the iPhone Air have reportedly led Apple to delay the release of its next model, catching the attention of major tech news outlets including Mashable, The Verge, and Fortune. The news highlights Apple's cautious approach in managing consumer demand and inventory.\"\n\n  \"key_points\": [\n    \"Weak iPhone Air sales have led to a delay in the next iPhone Air model.\",\n    \"Apple's decision to delay reflects sensitivity to market demand and sales performance.\",\n    \"Major tech news outlets have reported the delay, indicating significant industry interest.\"\n  ],\n\n  \"sentiment\": \"Mixed\",\n  \"confidence\": \"High\",\n  \"bias_check\": \"The article may reflect a bias towards emphasizing Apple's struggles with product sales and inventory management, potentially overplaying the situation or focusing on negative aspects.\",\n  \"missing_context\": \"The article does not provide specific sales figures, market comparisons, or consumer opinions, which could offer a more nuanced understanding of the sales performance and the impact of the delay.\",\n  \"implications\": \"This story could impact investor perceptions of Apple\u2019s product strategy and market position. It also highlights the importance of consumer demand in driving technological innovations and the potential for Apple to reconsider its product development timelines and strategies.\"\n}"
+            "Weak sales of the debut iPhone Air model have reportedly led to a delay in the next Air model.",
+            "Speculation about adding a second camera to the next iPhone Air to improve sales.",
+            "The delay in the next Air model's release could impact Apple's product cycle and market expectations."
+          ],
+          "sentiment": "Mixed",
+          "confidence": "High",
+          "bias_check": "The article may reflect a bias towards sensationalizing sales figures and speculations, which can sometimes be exaggerated or not fully verified. Additionally, it may lean on the narrative of competition and innovation in the smartphone market.",
+          "missing_context": "Important context that might be missing includes the actual sales figures of the iPhone Air, the reasons behind the decision to delay (beyond speculation), and Apple's historical approach to product launches and iterations. Also, the competitive landscape and how the iPhone Air compares to other models in the market are not detailed.",
+          "implications": "The delay and possible changes to the next iPhone Air model may affect Apple's product strategy, consumer expectations, and market positioning. It could also influence investor sentiment and the competitive dynamics in the smartphone industry, especially regarding innovation and market adaptation.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-11T18:10:25.045789",
+          "token_usage": {
+            "prompt_tokens": 272,
+            "completion_tokens": 315,
+            "total_tokens": 587
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_2_1762884591",
+          "title": "Mophie Launches Juice Pack Charging Cases for iPhone Air and iPhone 17 Pro - MacRumors",
+          "description": "Mophie Launches Juice Pack Charging Cases for iPhone Air and iPhone 17 Pro\u00a0\u00a0MacRumorsMophie Juice Pack gives iPhone 17 Pro or Air a big battery boost\u00a0\u00a0Cult of MacMorphie's new battery case makes the iPhone Air thick again\u00a0\u00a0Currently.comMophie\u2019s new battery cases bring extra power to the iPhone Air and iPhone 17 Pro\u00a0\u00a0HardwareZoneMophie Launches Juice Pack Battery Cases For iPhone Air And iPhone 17 Pro Models\u00a0\u00a0bgr.com",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE8xS1I0cUZmclhhbkY5enJOZ1lrU3hSSDNlajFFcDB1RDI1Z21PR3FMSi1SdkNtQTYzeXVadkVEOGRkaGpBZUp2ZndWSHZvRXJ5Z2RWMkVkU0xYdlFWQnBXVl9sMDZzN2ljTC1GT0JMRVQ2SW5fQzMyRURB?oc=5",
+          "source": "MacRumors",
+          "published": "Tue, 11 Nov 2025 01:15:37 GMT",
+          "topic": "TECHNOLOGY",
+          "fetched_at": "2025-11-11T18:09:51.541831"
+        },
+        "analysis": {
+          "summary": "Mophie has introduced Juice Pack charging cases that offer substantial battery enhancements for the iPhone Air and iPhone 17 Pro, promising to extend usage time and convenience for users who need a quick power boost or are always on the go.",
+          "key_points": [
+            "Mophie Juice Pack cases significantly increase battery life for iPhone Air and iPhone 17 Pro.",
+            "The added bulk of the cases may affect the slim profile of the newer iPhone models.",
+            "Mophie cases are a solution for users who require longer battery life without owning a second phone or a car charger."
+          ],
+          "sentiment": "Mixed",
+          "confidence": "High",
+          "bias_check": "The positive sentiment towards Mophie's product may overshadow other potential issues like the added bulk or cost. There might be an implicit bias towards Mophie's brand reputation for accessories.",
+          "missing_context": "The article doesn't mention the impact on the phone's form factor or the case's comfort and ease of use. It also doesn't compare the cost of the cases to the alternative solutions for extended battery life, such as carrying a power bank.",
+          "implications": "The launch of Mophie's Juice Pack cases could drive market competition for similar accessories, potentially leading to innovation in battery case technology. It also reflects consumer demand for portable and convenient charging solutions, which could influence future smartphone designs and specifications.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-11T18:10:32.515382",
+          "token_usage": {
+            "prompt_tokens": 306,
+            "completion_tokens": 296,
+            "total_tokens": 602
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_3_1762884591",
+          "title": "The Google Play Store's new tweak makes your phone's battery life a priority - Android Police",
+          "description": "The Google Play Store's new tweak makes your phone's battery life a priority\u00a0\u00a0Android PoliceGoogle Play will soon warn about apps that cause excessive battery drain\u00a0\u00a09to5GoogleGoogle is cracking down on Android apps that drain your battery\u00a0\u00a0Android CentralGoogle\u2019s about to name and shame the Android apps killing your battery\u00a0\u00a0PhoneArenaGoogle launches new Android metric to help reduce battery drain from background processes\u00a0\u00a0PocketGamer.biz",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQb29hX0pCN0JKWDh5aURmel85TlFqTXBtSGpjalBqSzFWc1VpYVVwUUgtLW1uXzNOYVBFV0RDVjJVRVhSSkFLSnRMbnZmWUJ0dWdYSVRTOWdJREJUcWhRWmlZODdfb1BVNG9TY3pMRXZ2ekUzNEFSbFhYdndXWGtLdlBpOW82eUM4RTRNT3hZTGs2TnFRUjByLWp0Zw?oc=5",
+          "source": "Android Police",
+          "published": "Tue, 11 Nov 2025 05:40:00 GMT",
+          "topic": "TECHNOLOGY",
+          "fetched_at": "2025-11-11T18:09:51.541853"
+        },
+        "analysis": {
+          "summary": "The Google Play Store is introducing a new feature to alert users about apps that excessively drain their phone's battery, reflecting a commitment to improving user experience and device longevity. While this move is generally positive, it may also affect the revenue of developers whose apps are flagged as battery hogs.",
+          "key_points": [
+            "Google Play Store will soon warn users about apps that cause excessive battery drain.",
+            "This feature could potentially impact app developers negatively by reducing user engagement with their apps.",
+            "Users will benefit from better battery life and awareness regarding their app usage."
+          ],
+          "sentiment": "Mixed",
+          "confidence": "High",
+          "bias_check": "The article might be biased towards portraying this change as a positive user-centric initiative, potentially downplaying any negative repercussions for app developers. Additionally, the sources mentioned (9to5Google, Android Central, PhoneArena, PocketGamer.biz) could have varying editorial stances that influence the overall sentiment presented.",
+          "missing_context": "The article does not provide information on how Google will define 'excessive battery drain' or the process for app developers to contest or rectify such claims. The potential impact on app developers' revenue and user engagement needs a more detailed exploration as well.",
+          "implications": "The introduction of this feature could lead to better battery management for users but might also pressure app developers to optimize their apps more effectively. Over time, this could result in higher quality applications and possibly a shift in the app market dynamics, with more emphasis on efficiency and user experience. However, there could be an initial period of adjustment where some developers struggle with the new requirements.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-11T18:10:41.872507",
+          "token_usage": {
+            "prompt_tokens": 281,
+            "completion_tokens": 346,
+            "total_tokens": 627
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_4_1762884591",
+          "title": "Siri Shortcuts now works with Samsung SmartThings routines - The Verge",
+          "description": "Siri Shortcuts now works with Samsung SmartThings routines\u00a0\u00a0The VergeGot both an iPhone and a Galaxy at home? Samsung's new update makes them play nice\u00a0\u00a0PhoneArenaSamsung SmartThings for iPhone Gets Siri Shortcuts Support and Enhanced Apple Watch Features\u00a0\u00a0MacRumorsYou can now use your iPhone to run Samsung \u2018routine\u2019, Siri can trigger\u2026\u00a0\u00a0Hindustan TimesYou can now ask Siri to run your Samsung SmartThings routines\u00a0\u00a09to5Mac",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQc0RIQU1qYXRvLVRVeEE4R3NzUFBtNXVlX0VlWlcxNVkzZVc2SkhKblQtRHRxRDhXcjZ1dlI1cEpLeHNRQ0htT0F3d0pzOU11VkNTdHlsTDZ2M20zampSMFMzMXh2SHU4bGNCMVFOMEJMVjVDT2VVZXhWc2ZfZEtnajNoU2pYcVlIeEE?oc=5",
+          "source": "The Verge",
+          "published": "Mon, 10 Nov 2025 22:49:43 GMT",
+          "topic": "TECHNOLOGY",
+          "fetched_at": "2025-11-11T18:09:51.541874"
+        },
+        "analysis": {
+          "summary": "Apple's Siri Shortcuts are now integrated with Samsung's SmartThings, allowing users to control connected Samsung devices using voice commands on their iPhones, enhancing interoperability between the two ecosystems.",
+          "key_points": [
+            "Apple and Samsung have collaborated to enable Siri to control SmartThings routines, bridging the gap between iOS and Android ecosystems.",
+            "This integration allows users of both iPhone and Galaxy devices in a shared household to streamline their smart home setup.",
+            "The update signifies a step towards greater integration and convenience between Apple's and Samsung's smart home platforms."
+          ],
+          "sentiment": "Positive",
+          "confidence": "High",
+          "bias_check": "The article may have a positive bias towards Apple, as it highlights a feature that benefits iPhone users and potentially creates a competitive edge over Samsung's ecosystem.",
+          "missing_context": "The article does not discuss the limitations or potential issues with the integration, such as compatibility challenges or the extent of control granted by Siri over SmartThings routines.",
+          "implications": "This collaboration may lead to increased cross-platform adoption of smart home devices, fostering a more interconnected and convenient user experience. It also may prompt other tech companies to seek similar integrations to stay competitive.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-11T18:10:49.775138",
+          "token_usage": {
+            "prompt_tokens": 287,
+            "completion_tokens": 260,
+            "total_tokens": 547
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_0_1762884591",
+          "title": "Modi Vows Justice as Police Suspect Terrorism in Deadly New Delhi Blast - The New York Times",
+          "description": "Modi Vows Justice as Police Suspect Terrorism in Deadly New Delhi Blast\u00a0\u00a0The New York TimesIndia's Modi vows not to spare those behind Delhi car blast\u00a0\u00a0ReutersModi says those behind Delhi blast that killed eight 'will not be spared'\u00a0\u00a0BBCWhat to know about the car explosion near New Delhi\u2019s historic Red Fort\u00a0\u00a0AP NewsBlast Near Red Fort Triggered By Panic, IED Was Unfinished: Sources\u00a0\u00a0NDTV",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQN0J0d3F1dUZNVmgwNlh5WWlHLWpxbW1sQVgwR29oaVZZMlBmZHQzcGZJQzZZdm45MVZIWF9Id2lyN3dyRUZHN2Q1cmloUVMxYy1JU1hweTFSalZ0T2hwRF92OUYzWGdUbDZUM1d2R1JKZEg3QmJSOWVCbjEycnBjRUMwcTF4Zw?oc=5",
+          "source": "The New York Times",
+          "published": "Tue, 11 Nov 2025 08:02:36 GMT",
+          "topic": "WORLD",
+          "fetched_at": "2025-11-11T18:09:51.670954"
+        },
+        "analysis": {
+          "summary": "{\n  \"summary\": \"Prime Minister Narendra Modi has vowed that justice will be served against those responsible for the deadly car bomb explosion near India's Red Fort in New Delhi, signaling a strong stance against terrorism. This incident has raised concerns over security in a major Indian city, and ",
+          "key_points": [
+            "{\n  \"summary\": \"Prime Minister Narendra Modi has vowed that justice will be served against those responsible for the deadly car bomb explosion near India's Red Fort in New Delhi, signaling a strong stance against terrorism. This incident has raised concerns over security in a major Indian city, and Modi's declaration reflects the government's commitment to take stern action against terrorism.\",\n  \"key_points\": [\n    \"Narendra Modi vows justice for those behind the New Delhi car bomb explosion.\",\n    \"The attack, which occurred near Red Fort, resulted in multiple casualties and injuries.\",\n    \"The incident has heightened security concerns in India, a country that has faced several terrorist attacks over the years.\"\n  ],\n  \"sentiment\": \"Mixed\",\n  \"confidence\": \"High\",\n  \"bias_check\": \"The article may reflect a nationalistic bias by focusing on the government's response rather than diving into the complexities of the terrorist motives or the effectiveness of the government's counter-terrorism measures. The perspective of the victims and their families might not be sufficiently highlighted.\",\n  \"missing_context\": \"The article lacks information on the investigation process, the suspected group or groups behind the attack, and any previous incidents that might have set a precedent for such an attack. Additionally, it does not touch upon the political implications of Modi's strong statements or the impact of this incident on India's foreign policy.\",\n  \"implications\": \"This incident underscores the persistent threat of terrorism in India and may influence the government's future counter-terrorism strategies and security policies. Modi's vow for justice could also have political repercussions, affecting public opinion and the ruling party's position on the political and the the, the and the, the or the, and the and the, and the, the, the and the among the, the, the, and the, the and the, the, the, the and the and the, the, the, and the, the and the and the, the, the, the, the of the,"
           ],
           "sentiment": "neutral",
           "confidence": "medium",
@@ -29,477 +195,310 @@
           "implications": "",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-11T12:12:27.529796",
+          "analyzed_at": "2025-11-11T18:11:13.060424",
           "token_usage": {
-            "prompt_tokens": 261,
-            "completion_tokens": 259,
-            "total_tokens": 520
+            "prompt_tokens": 292,
+            "completion_tokens": 1000,
+            "total_tokens": 1292
           }
         }
       },
       {
         "article": {
-          "id": "news_1_1762863124",
-          "title": "Google Play will soon warn about apps that cause excessive battery drain - 9to5Google",
-          "description": "Google Play will soon warn about apps that cause excessive battery drain\u00a0\u00a09to5GoogleGoogle is cracking down on apps that secretly drain your battery\u00a0\u00a0Android AuthorityThe Google Play Store's new tweak makes your phone's battery life a priority\u00a0\u00a0Android PoliceAndroid phone users may soon get a \u2018battery\u2019 warning before downloading these apps\u00a0\u00a0Hindustan TimesHow Google and Samsung are teaming up to fix Android battery drain, suggests report\u00a0\u00a0MSN",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBMMXpjbUluanJuWFUzSXljRTdWeE9DZy05NFhUX1luQ0lwWnVsS3ZlNU1MQWRyOWFOV3lsdXkxRDV3blZMQVZ0b2NSTEZ0N3JGR2xrRjkzZllpM1pjbThxay1wa0ZWWjZIenNsR3VUa3NFUW8?oc=5",
-          "source": "9to5Google",
-          "published": "Mon, 10 Nov 2025 23:29:00 GMT",
-          "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-11T12:12:04.020142"
+          "id": "news_1_1762884591",
+          "title": "A suicide bomber targets an Islamabad court, killing 12 people and wounding 27, minister says - AP News",
+          "description": "A suicide bomber targets an Islamabad court, killing 12 people and wounding 27, minister says\u00a0\u00a0AP NewsSuicide bombing in Islamabad kills 12, says Pakistan's interior minister\u00a0\u00a0BBCPakistan \u2018in a State of War\u2019 After Explosion Kills 12 in Capital\u00a0\u00a0The New York TimesAt least 12 killed in Islamabad suicide attack \u2013 the most deadly assault in the Pakistani capital since 2008\u00a0\u00a0CNNSuicide bombing in Pakistan capital kills 12, raises regional tension\u00a0\u00a0Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNUEk5WTFpdHZCdGhGR3NFbWhzM05jSTNWUDQ4RjRZU2hZQXZfZmYtWWZuNG81aTJTUjVtamNkVHNwTFJzVHpBaEc1RmN6Q2JfdV9ZNzFscDNDdjlrUy1pMXJSUWo4QzZ0WHMyZkRLYzNydWg2QmxidnVnLWpyNkhYcXZuRDhRd3AzSW1USTc4NjN0bnIxZHZhc0t6VWY2U2hiaGdmeFRiX25zbzd6clE1WlJOcWdCQ2hESUVMSy1VX1BzQQ?oc=5",
+          "source": "AP News",
+          "published": "Tue, 11 Nov 2025 16:49:00 GMT",
+          "topic": "WORLD",
+          "fetched_at": "2025-11-11T18:09:51.670990"
         },
         "analysis": {
-          "summary": "Google Play Store will soon start warning users about apps that may cause excessive battery drain, reflecting Google's efforts to improve user experience by ensuring that apps are more energy-efficient and possibly due to partnerships like the one with Samsung to address Android battery issues.",
+          "summary": "A suicide bomber targeted an Islamabad court, resulting in 12 deaths and 27 injuries, as per Pakistan's interior minister. The attack marks the deadliest assault in the Pakistani capital since 2008 and has heightened regional tensions.",
           "key_points": [
-            "Google will add battery drain warnings to the Google Play Store to inform users about apps that may consume excessive battery.",
-            "This initiative may help users make more informed decisions about app installations and potentially extend the battery life of their devices.",
-            "The move indicates a growing concern over app performance and battery life, which is a common issue for Android users."
+            "The suicide bombing in Islamabad's court resulted in 12 fatalities and 27 injuries.",
+            "This attack is the deadliest in the Pakistani capital since 2008.",
+            "Regional tensions have been raised due to the incident.",
+            "The incident underscores the ongoing security challenges in Pakistan."
           ],
-          "sentiment": "Mixed",
+          "sentiment": "Negative",
           "confidence": "High",
-          "bias_check": "The perspective may be biased towards Google's positive actions and user benefits without fully addressing potential developer challenges or the technical feasibility of the solution.",
-          "missing_context": "The article does not provide information on how Google will determine excessive battery drain, the criteria for warnings, or the reaction from developers and app stores.",
-          "implications": "This could lead to a shift in app development practices, with a greater focus on energy efficiency. It may also influence user behavior, leading to more cautious app installs and possibly increased demand for battery-saving features. However, it could also potentially limit app availability and affect app developers' revenue models.",
+          "bias_check": "The report may exhibit bias by focusing on the immediate impact and casualties without providing a broader context of the underlying issues leading to such attacks. Sensationalism might be present due to the violent nature of the act.",
+          "missing_context": "The article does not provide background on the political and social conditions in Pakistan that might contribute to such attacks. It also omits any mention of the motivations behind the bomber or any ongoing efforts to improve security.",
+          "implications": "The attack may lead to increased security measures, potential government crackdowns, and could affect regional relations. It also highlights the persistent threat of terrorism in Pakistan and may have implications for international relations and humanitarian concerns.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-11T12:12:42.517309",
+          "analyzed_at": "2025-11-11T18:11:20.652826",
           "token_usage": {
-            "prompt_tokens": 288,
-            "completion_tokens": 286,
-            "total_tokens": 574
+            "prompt_tokens": 303,
+            "completion_tokens": 283,
+            "total_tokens": 586
           }
         }
       },
       {
         "article": {
-          "id": "news_2_1762863124",
-          "title": "HomePod mini refresh looking more likely, as B&H lists it as \u2018discontinued\u2019 - 9to5Mac",
-          "description": "HomePod mini refresh looking more likely, as B&H lists it as \u2018discontinued\u2019\u00a0\u00a09to5MacB&H Lists HomePod Mini as Discontinued Amid Refresh Rumors\u00a0\u00a0MacRumorsReport: New Apple TV and HomePod mini could launch shortly, but don\u2019t be too hopeful\u00a0\u00a09to5MacNew HomePod may be coming soon, but where's the HomePod with screen everyone wants?\u00a0\u00a0MacworldApple TV and HomePod Mini Get Secret November Refresh\u00a0\u00a0Gadget Hacks",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9xUG92aFE2TW9nTE51djFJTW1wQWtzZFpBTVZuUXV3azZTd0tRR3g4TmE1SWUxRVdUMjhmYUJsVzVkR2kyZGw4VnJxN1poRUpBa3JyTWh5ZmJkQTZUcnpTdGRzMUJqcHpkbmc?oc=5",
-          "source": "9to5Mac",
-          "published": "Mon, 10 Nov 2025 23:37:00 GMT",
-          "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-11T12:12:04.020215"
+          "id": "news_2_1762884591",
+          "title": "Malian TikToker killed by suspected jihadists after pro-army posts - CNN",
+          "description": "Malian TikToker killed by suspected jihadists after pro-army posts\u00a0\u00a0CNNView Full Coverage on Google News",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9xblpmeGxIcXE5N05XZ3Zzd2hmeHhGVEVqbkhpSkVLSE0yM25ocU9wOENKSkdaRkRHRlVQQzVPaTBZV1lXdzNMbW9jSlZybnVkM2w1eU4taWVaMDAxV2hQWlVWZUlDamVOdkIxRUZ6Yw?oc=5",
+          "source": "CNN",
+          "published": "Tue, 11 Nov 2025 12:39:10 GMT",
+          "topic": "WORLD",
+          "fetched_at": "2025-11-11T18:09:51.671004"
         },
         "analysis": {
-          "summary": "The HomePod mini may be getting a refresh, as B&H has listed it as 'discontinued'. However, no new model has been confirmed, and the HomePod with a screen remains highly desired. Apple may be planning to release new versions of Apple TV and HomePod mini soon, but the exact details are still unclear.",
+          "summary": "A Malian TikToker was killed by suspected jihadists following his posts in support of the Malian army, highlighting the severe risks faced by social media influencers in conflict zones.",
           "key_points": [
-            "The HomePod mini may be getting a refresh, as B&H has listed it as 'discontinued'.",
-            "No new model has been confirmed, and the HomePod with a screen remains highly desired.",
-            "Apple may be planning to release new versions of Apple TV and HomePod mini soon, but the exact details are still unclear."
+            "The TikToker's social media activity led to fatal consequences.",
+            "The attack underscores the dangers of expressing political opinions in volatile regions.",
+            "It raises questions about the safety of digital influencers in conflict areas."
           ],
-          "sentiment": "Mixed",
+          "sentiment": "Negative",
           "confidence": "High",
-          "bias_check": "The article may be biased towards generating hype and excitement around potential new Apple products, which may not be confirmed.",
-          "missing_context": "The article doesn't provide any context or details about the rumored HomePod refresh, such as its features, specifications, or release date.",
-          "implications": "The article may increase consumer interest and speculation about potential new Apple products, which could impact Apple's sales and market share. However, the lack of concrete information may also lead to disappointment or confusion among consumers.",
+          "bias_check": "The article may reflect a Western-centric perspective, emphasizing the dangers faced by individuals expressing Western-aligned views in conflict zones. It may also be influenced by the sensational nature of violence against social media figures.",
+          "missing_context": "Details about the specific political and social dynamics in Mali, the nature of the TikToker's posts, and the broader context of the conflict in which he was involved. Information about other similar incidents and their outcomes is also missing.",
+          "implications": "This incident raises concerns about the personal risks faced by individuals who use social media to engage in political discourse in conflict zones. It also highlights the potential for social media to be used both as a tool for expression and a target for violence.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-11T12:12:51.440903",
+          "analyzed_at": "2025-11-11T18:11:27.692725",
           "token_usage": {
-            "prompt_tokens": 307,
-            "completion_tokens": 261,
+            "prompt_tokens": 215,
+            "completion_tokens": 267,
+            "total_tokens": 482
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_3_1762884591",
+          "title": "Russian forces roll 'Mad Max'-style into battered Ukrainian city of Pokrovsk, video shows - Reuters",
+          "description": "Russian forces roll 'Mad Max'-style into battered Ukrainian city of Pokrovsk, video shows\u00a0\u00a0ReutersUkraine\u2019s Hardest Winter\u00a0\u00a0Foreign AffairsRussian forces ride into Pokrovsk, Ukraine in 'Mad Max'-style video\u00a0\u00a0NBC NewsPokrovsk: Where Putin Shattered His Teeth\u00a0\u00a0Center for European Policy Analysis (CEPA)Russian Offensive Campaign Assessment, November 10, 2025\u00a0\u00a0Institute for the Study of War",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOR0hKQmJNQTg2RDlOMTFyVUFXcXNhaS1LcG5TS0IzejhpV2FFblBJSG0tYm5QbTJUN2txYm94clZDalgxY192T3JSeTJlSUd5Y0dYY3RKR1p5cnlrS1gzN1YwNTRFY2NsdEl0WW1UTlZmTFk1TUM3bmlNY0xXVGhHeFRldUJ0a3BUQ3Q4a0JkTzR0MFdNVGFKVWRvcnpqbEVYRGdrQzBfUVlVcngwSE5KeHp4MXNPNHpuSFpEbG1n?oc=5",
+          "source": "Reuters",
+          "published": "Tue, 11 Nov 2025 15:05:24 GMT",
+          "topic": "WORLD",
+          "fetched_at": "2025-11-11T18:09:51.671025"
+        },
+        "analysis": {
+          "summary": "The article discusses a Russian offensive in the Ukrainian city of Pokrovsk, described as 'Mad Max'-style, showcasing the devastation and intensity of the conflict. It highlights the brutal nature of the conflict and its impact on the local population and infrastructure.",
+          "key_points": [
+            "Russian forces are conducting a fierce and destructive campaign in Pokrovsk, Ukraine.",
+            "The 'Mad Max'-style description emphasizes the severity and destruction of the offensive.",
+            "The conflict is highlighted as a significant event in Ukraine's ongoing struggle for independence and sovereignty."
+          ],
+          "sentiment": "Negative",
+          "confidence": "High",
+          "bias_check": "The article may carry biases from its sources, such as Reuters and NBC News, which could impact the framing of the conflict. Additionally, the use of 'Mad Max'-style description may sensationalize the event.",
+          "missing_context": "Further context about the strategic objectives of the Russian offensive, the response from the Ukrainian government and military, and the broader geopolitical implications of this conflict could provide a more comprehensive understanding.",
+          "implications": "The continuing conflict in Ukraine, characterized by such intense and destructive tactics, could have significant implications for regional stability, international relations, and humanitarian conditions. It also raises concerns about the escalation of war and the potential for further violence.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-11T18:11:35.179329",
+          "token_usage": {
+            "prompt_tokens": 287,
+            "completion_tokens": 281,
             "total_tokens": 568
           }
         }
       },
       {
         "article": {
-          "id": "news_3_1762863124",
-          "title": "OLED Display Coming to M6 Pro/Max MacBook Pro, Not Base M6 Model - MacRumors",
-          "description": "OLED Display Coming to M6 Pro/Max MacBook Pro, Not Base M6 Model\u00a0\u00a0MacRumorsReport: OLED MacBook Pro redesign may be exclusive to M6 Pro and M6 Max models\u00a0\u00a09to5MacMacBooky Pro will get a new design next year! However, not all versions will offer it\u00a0\u00a0Letem sv\u011btem ApplemApple Plans Major Redesign for 2026 MacBook Pro with OLED Touchscreen \u2014 But Base Model Misses Out\u00a0\u00a0The Hans IndiaThe long-awaited MacBook Pro design refresh could cost a pretty penny\u00a0\u00a0Digital Trends",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE00aUdMTFhXUlZLNE1qVG9PWGtqcEhZVm9mZWhydzVBVy13UEhYSnBJajFKSU5aUDZtLVNNMGdtQ3B4NHdQRHdRb293WkIxT2JoRUpLTjhkMFFMQXZQMDBHN3JMcE5XVWNoQnBxTk9lN2s2dXdsRU9aZXh3WVFDUQ?oc=5",
-          "source": "MacRumors",
-          "published": "Mon, 10 Nov 2025 10:54:11 GMT",
-          "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-11T12:12:04.020265"
+          "id": "news_4_1762884591",
+          "title": "As Iraqis Vote for a Parliament, U.S. Presses to Rid Country of Iran\u2019s Influence - The New York Times",
+          "description": "As Iraqis Vote for a Parliament, U.S. Presses to Rid Country of Iran\u2019s Influence\u00a0\u00a0The New York TimesDispatch from Baghdad: Don\u2019t confuse the calm around Iraq\u2019s election with stability\u00a0\u00a0Atlantic CouncilIraqis vote in a parliamentary election marked by tight security and a major political boycott\u00a0\u00a0abcnews.go.comIraqis hold little hope for change as polls close in election\u00a0\u00a0Al JazeeraIraqis vote in election they expect to bring little reform\u00a0\u00a0Reuters",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNQjlmVHlPMkhVWlExelp1V3Ntb2Jhb1FDanVKc1ZCWlZDajQ5OFlVQm5USjVLcllHUklSWmk4LUJYQy1iaTU0R2I4TTM2WWtQUjdJZGxTdF9OdDh0WWt4MHd5UEJJZFJEdHd2SXZjM2dOMXRCdEJVWW53X3ZMRkJPaS16NU40TjlrX2l5SjdYYi1FNms?oc=5",
+          "source": "The New York Times",
+          "published": "Tue, 11 Nov 2025 05:01:09 GMT",
+          "topic": "WORLD",
+          "fetched_at": "2025-11-11T18:09:51.671046"
         },
         "analysis": {
-          "summary": "The MacBook Pro is rumored to receive an OLED display upgrade, but only the high-end M6 Pro and Max models will feature this enhancement, leaving the base M6 model without the upgraded display. This decision could be based on targeting different market segments, with the Pro and Max models appealing to users who value premium display quality and are willing to pay more for it.",
+          "summary": "The New York Times article discusses Iraq's parliamentary election amidst tight security and political boycotts, with Iraqis harboring little hope for significant change, while the U.S. appears to be pushing to diminish Iran's influence in the country. The election process is marked by a sense of unease and skepticism about the potential for reform.",
           "key_points": [
-            "OLED display upgrade is exclusive to M6 Pro and Max MacBook Pro models.",
-            "Base M6 model does not receive the OLED display enhancement.",
-            "The upgrade could be a strategy to target different consumer segments with varying budgets."
+            "Iraqis participate in elections despite expecting little reform and apprehension about Iran's influence.",
+            "The United States is actively working to reduce Iran's sway in Iraq's political landscape.",
+            "The election is conducted under tight security, with a significant political boycott, reflecting a lack of confidence in the political system."
           ],
           "sentiment": "Mixed",
           "confidence": "High",
-          "bias_check": "The article is based on rumors and may not have confirmed information from Apple. There could be a bias towards speculation and consumer expectations.",
-          "missing_context": "The article does not provide information about the cost implications of the OLED upgrade or Apple's reasoning behind the segmentation strategy. It also lacks details on the technological advancements in OLED displays or how they might benefit the Pro and Max models.",
-          "implications": "The move could reinforce the differentiation between MacBook Pro models, potentially affecting consumer choice and Apple's brand positioning. It may also impact the market perception of what constitutes a 'Pro' MacBook versus a 'Max' MacBook, influencing purchasing decisions and potentially affecting the resale value of the base M6 model.",
+          "bias_check": "The article may reflect a Western perspective that is generally critical of Iranian influence in the region, potentially overlooking the complexities of Iraqi society's views on Iran.",
+          "missing_context": "The historical context of U.S.-Iran relations, the deep-rooted political tensions within Iraq, and the diverse opinions among the Iraqi population regarding Iran's influence are not fully explored.",
+          "implications": "The election could either lead to increased U.S. influence in Iraq or exacerbate existing tensions. The outcome may also affect the balance of power in the Middle East and the future of Iraq's political stability.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-11T12:13:05.718892",
+          "analyzed_at": "2025-11-11T18:11:43.128697",
           "token_usage": {
-            "prompt_tokens": 319,
-            "completion_tokens": 307,
-            "total_tokens": 626
+            "prompt_tokens": 303,
+            "completion_tokens": 292,
+            "total_tokens": 595
           }
         }
       },
       {
         "article": {
-          "id": "news_4_1762863124",
-          "title": "Introducing iPhone Pocket: a beautiful way to wear and carry iPhone - Apple",
-          "description": "Introducing iPhone Pocket: a beautiful way to wear and carry iPhone\u00a0\u00a0AppleApple and Issey Miyake Unite for the iPhone Pocket\u2014\u201cIt\u2019s a Moment of Connecting the Dots\u201d\u00a0\u00a0vogue.comApple made a $230 crossbody\u2026 sock\u00a0\u00a0The VergeApple launches iPhone Pocket: a limited edition designer strap accessory\u00a0\u00a09to5Macissey miyake & apple craft 3D-knitted 'iPhone pocket' as a wearable way to carry your device\u00a0\u00a0Designboom",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZTdIQkdDOWJZWXFzY3dteUR2MWNVbTJ1bktEcTNybkRZMl9oOFluUEEwdGd2ZDhlX0cydjBkS19IQ3gzb291TmRUSzdrNWpGbTYzSjFVNWItaHU5S0hfM0JPMk83WF9xZHpvV2E5TkFTa1JCSUUydXVqclVVcjlqdjJFaHh1blFTcEg3QlUyRGRjTTRSV0lCR2phT2FtekVOQnlVeTR2dzdIdw?oc=5",
-          "source": "Apple",
-          "published": "Tue, 11 Nov 2025 09:03:25 GMT",
-          "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-11T12:12:04.020304"
+          "id": "news_0_1762884591",
+          "title": "US flight cancellations and delays to get worse even if shutdown ends - The Guardian",
+          "description": "US flight cancellations and delays to get worse even if shutdown ends\u00a0\u00a0The GuardianDozens more Las Vegas flights canceled as FAA cuts enter day 5\u00a0\u00a0KSNVWhen the shutdown ends, air travel will still take a long time to get back to normal\u00a0\u00a0CNNFlight disruptions will persist even after shutdown ends, airlines warn\u00a0\u00a0The Washington PostFlight cancellations inch up to 6% one day after Senate passes bill to end shutdown\u00a0\u00a0NBC News",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZmVTWlk1S2pObVBGNURCMEd5TVZjVEt4TERyTWFTWUpjdUtYSGpaaTVJMnl6OWdPcGNZbjczX2lyWDV3SE9GUG9ISTFaSmpSd2tOc0lQMHh1SHF5ajFPZldsMGJSNUZmMTZudUE5V0lJeUZHOVpWVDhSU3lnRkFCN3lNdkVsMWVDN05FSXl3QS1IdWxUbGZDUA?oc=5",
+          "source": "The Guardian",
+          "published": "Tue, 11 Nov 2025 15:41:00 GMT",
+          "topic": "BUSINESS",
+          "fetched_at": "2025-11-11T18:09:51.718220"
         },
         "analysis": {
-          "summary": "Apple has launched the iPhone Pocket, a designer strap accessory that allows users to wear their iPhone on the belt, featuring a collaboration with Issey Miyake. The product is described as a limited edition, high-end, and fashionable way to carry an iPhone, with a unique, knitted design.",
+          "summary": "The article from The Guardian reports that flight cancellations and delays in the US are expected to worsen even after the government shutdown ends, with airlines warning that significant disruptions will persist and take a long time to resolve, as the Federal Aviation Administration (FAA) faces workforce shortages and other operational challenges.",
           "key_points": [
-            "Apple collaborates with Issey Miyake for the iPhone Pocket, blending technology and fashion.",
-            "The iPhone Pocket is marketed as a luxurious, limited edition accessory, targeting Apple enthusiasts who want a stylish way to carry their device.",
-            "The collaboration between Apple and Miyake is presented as a 'Moment of Connecting the Dots,' emphasizing the fusion of their respective brands."
+            "Flight cancellations and delays are expected to worsen even after the government shutdown ends due to FAA's operational challenges.",
+            "Airlines predict that it will take a long time for air travel to return to normal operations post-shutdown.",
+            "The workforce at the FAA will need to be rebuilt, leading to continued disruptions."
+          ],
+          "sentiment": "Mixed",
+          "confidence": "High",
+          "bias_check": "The article may present a perspective that emphasizes the negative impact of the shutdown without acknowledging any potential positive outcomes or improvements that could occur post-shutdown.",
+          "missing_context": "It might be beneficial to include information on how airlines and the FAA are planning to address these issues, as well as the extent of the workforce reduction and the timeline for recovery.",
+          "implications": "This story implies that the effects of the government shutdown on the aviation industry will be long-lasting and could have a broader impact on the economy and travel plans of individuals and businesses.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-11T18:12:50.994609",
+          "token_usage": {
+            "prompt_tokens": 282,
+            "completion_tokens": 274,
+            "total_tokens": 556
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_1_1762884591",
+          "title": "SoftBank's $5.8 billion Nvidia stake sale stirs fresh AI bubble fears - Reuters",
+          "description": "SoftBank's $5.8 billion Nvidia stake sale stirs fresh AI bubble fears\u00a0\u00a0ReutersSoftBank sells its entire stake in Nvidia for $5.83 billion\u00a0\u00a0CNBCSoftBank Sells Its Nvidia Stake for $5.8 Billion to Fund OpenAI Bet - WSJ\u00a0\u00a0The Wall Street JournalAI stock boom delivers bumper quarter for Japan's SoftBank\u00a0\u00a0Yahoo FinanceSoftbank dumps its entire Nvidia portfolio worth $5.8 billion as its CEO goes all-in on OpenAI to the tune of $30 billion\u00a0\u00a0Fortune",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZ21sM0NnXzQ4RU1KZ01ydVhhQVJhY0pydmdjb1YxcnNMd1JUMFlWVVNNM3MzRGlsSDVzRGpaREZwckh0UjlWdnJXRTA3WjBOb3JTRGVOY2EtVWNtejlzREJjRld4MS1YeGpDbVBXTlNJdFpPVEs2SzIxLXdPSDBJZV9wSlFEYWh4cDJ4WGx2aG1talhrM2FGUlJjMWxrV0FBZjVQS1pZQUxMM0xPRm45NDl0eTdrRTNsUmhCMFlQUHlyeW8?oc=5",
+          "source": "Reuters",
+          "published": "Tue, 11 Nov 2025 14:55:12 GMT",
+          "topic": "BUSINESS",
+          "fetched_at": "2025-11-11T18:09:51.718245"
+        },
+        "analysis": {
+          "summary": "SoftBank's decision to sell its $5.8 billion stake in Nvidia has raised concerns about the potential for an AI bubble, as the sale coincides with the company's significant investment in OpenAI, highlighting a rush to capitalize on the booming AI sector that could lead to inflated valuations and market instability.",
+          "key_points": [
+            "SoftBank's $5.8 billion Nvidia stake sale may indicate a cooling-off period for the company's aggressive investment strategy in AI-related stocks.",
+            "The timing of the Nvidia sale raises questions about the sustainability of the current AI stock boom and the potential for a market correction.",
+            "SoftBank's $30 billion bet on OpenAI represents a high-risk, high-reward approach that could either contribute to or exacerbate AI market volatility."
+          ],
+          "sentiment": "Mixed",
+          "confidence": "High",
+          "bias_check": "The article may reflect a bias towards pessimism regarding AI market growth and could be influenced by concerns about speculative investments. It also focuses on SoftBank's actions without providing broader market context.",
+          "missing_context": "The story could benefit from additional information on the overall health of the AI sector, including sales figures and cash flow of AI companies, as well as SoftBank's financial position. It also lacks a discussion of Nvidia's and OpenAI's strategic plans and how they fit into the larger tech landscape.",
+          "implications": "SoftBank's sales and investments may influence other investors' behavior, contributing to market volatility. The AI industry's growth trajectory and the sustainability of current investment trends are also at stake.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-11T18:13:00.034847",
+          "token_usage": {
+            "prompt_tokens": 306,
+            "completion_tokens": 334,
+            "total_tokens": 640
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_2_1762884591",
+          "title": "Nvidia-backed CoreWeave's shares fall as data center delay hits annual revenue forecast - Yahoo Finance",
+          "description": "Nvidia-backed CoreWeave's shares fall as data center delay hits annual revenue forecast\u00a0\u00a0Yahoo FinanceView Full Coverage on Google News",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOd3BfQzhiUVVtSjl3ZUNPanNDaXpuWTNORlJWR0VwdzVpYTREZ2ZHTWFMZ3hXMUFHQU9QUWRqV1dWU0NCYlV5aFVsU2pqYnl6R3VjT3pLNm5NM0RhVDZUempCaUY4M2YyT010MjZTaXBBcHBkWFFvMVltbjM4d2gyX2dNU2tGdUVaYVE?oc=5",
+          "source": "Yahoo Finance",
+          "published": "Tue, 11 Nov 2025 10:26:31 GMT",
+          "topic": "BUSINESS",
+          "fetched_at": "2025-11-11T18:09:51.718254"
+        },
+        "analysis": {
+          "summary": "Nvidia-backed CoreWeave's stock drops amid a revised lower-than-expected annual revenue forecast due to delays in data center projects, signaling potential execution challenges and market reaction to revenue expectations.",
+          "key_points": [
+            "CoreWeave's annual revenue forecast has been lowered due to delays in data center deployments.",
+            "The delay is attributed to 'operational challenges,' although specifics were not detailed.",
+            "Nvidia's backing of CoreWeave may influence market perceptions, and the delay could impact Nvidia's own data center and AI strategy."
+          ],
+          "sentiment": "negative",
+          "confidence": "high",
+          "bias_check": "The source, Yahoo Finance, may have a neutral stance, but the focus on the negative impact without context on Nvidia's overall market strategy or CoreWeave's future plans could skew the reader's perception. The sentiment might also be influenced by the immediate market reaction to the news.",
+          "missing_context": "The impact of the delay on CoreWeave's long-term strategy and how this fits into Nvidia's grander vision for data centers and AI infrastructure. Details on any mitigations or corrective actions being taken by CoreWeave or Nvidia would also be useful.",
+          "implications": "This news could affect investor confidence not only in CoreWeave but potentially in similar ventures backed by Nvidia. It may also prompt a re-evaluation of Nvidia's market position in the data center space and raise questions about the execution capabilities of its partners.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-11T18:13:08.120451",
+          "token_usage": {
+            "prompt_tokens": 220,
+            "completion_tokens": 315,
+            "total_tokens": 535
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_3_1762884591",
+          "title": "Texas Roadhouse Veterans Day Deal 2025: Top Freebies, discounts and where to get them \u2014 All restaurant deals - The Economic Times",
+          "description": "Texas Roadhouse Veterans Day Deal 2025: Top Freebies, discounts and where to get them \u2014 All restaurant deals\u00a0\u00a0The Economic TimesVeterans Day free meals 2025: Where vets and military can eat and drink free Tuesday\u00a0\u00a0AxiosTexas Roadhouse offers free meal vouchers on Veterans Day. How to get one.\u00a0\u00a0USA Today2025 Veterans Day deals and discounts\u00a0\u00a0The American LegionRestaurants offer free Veterans Day meals to past and current military members nationwide\u00a0\u00a0Fox News",
+          "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQUy1DaC1VckJDck16OVE5TEt1UEdLVU1kM3VCVTdmOXY5X0JBV0ltNDVsdUtFQ2h3ektSVHJNaUlvcS1UcUZOaG42cXBZbmFSY2FsUFNscWJrYndKb1hhNFpuM3JKNUhLWjZHNGsxZl9YZnJQN2NZdnlPYmVSOTdhQUg2dXoxOEotcUp1TTNWZFdhNV82enBxMVRTTFNiUU5Dc3piQ3dsdXFDMTlKaWRGczV3RmFZSU5WY1ZiM3FuTXh5RW9URm43NTEwVzZDVF9QYjk4S2Q5VER6X1lCeXhDaGo5V0lhTlp4bXdaY2YycmhLSUxaNVp4TjNWMDdzS0QwVEtYNnlLcTJoYlI2?oc=5",
+          "source": "The Economic Times",
+          "published": "Tue, 11 Nov 2025 13:16:23 GMT",
+          "topic": "BUSINESS",
+          "fetched_at": "2025-11-11T18:09:51.718286"
+        },
+        "analysis": {
+          "summary": "The article highlights Texas Roadhouse's initiative to offer free meal vouchers on Veterans Day 2025, as part of an ongoing effort to honor military members with complimentary dining experiences. It also mentions nationwide restaurant deals provided by organizations like The American Legion and Fox News.",
+          "key_points": [
+            "Texas Roadhouse will provide free meal vouchers on Veterans Day 2025.",
+            "Nationwide initiatives by organizations like The American Legion and Fox News are offering free meals to veterans.",
+            "These efforts are part of the recognition and appreciation of military members by various establishments."
           ],
           "sentiment": "Positive",
           "confidence": "High",
-          "bias_check": "The article may exhibit bias by promoting Apple products through a collaboration with a high-profile fashion brand, potentially overshadowing other viewpoints on the necessity or practicality of the accessory.",
-          "missing_context": "The article does not mention the practicality or actual user experience of the iPhone Pocket. It also lacks information on its cost compared to other carrying solutions, such as cases or wallets, and whether it addresses any specific needs or solutions.",
-          "implications": "This collaboration between Apple and Issey Miyake could reinforce the trend of luxury tech fashion accessories, potentially influencing other companies to create similar products. However, it also raises questions about the sustainability of such high-cost, limited-edition accessories given the growing consumer concern over environmental issues and the practicality of such items for the average consumer.",
+          "bias_check": "The article primarily focuses on positive initiatives and may not mention any negative aspects or limitations of these deals, such as the potential for reduced revenue for participating restaurants or logistical challenges.",
+          "missing_context": "The article does not provide details on the availability and accessibility of these vouchers, nor does it mention any potential restrictions or eligibility criteria for veterans. Additionally, it does not discuss the broader context of why these initiatives are important or how they compare to other forms of veteran appreciation.",
+          "implications": "These initiatives reflect a commendable effort to honor veterans and show appreciation for their service. However, they also highlight the broader societal responsibility to support and recognize those who have served in the military. The success of such programs can set a precedent for similar efforts by other organizations and establishments.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-11T12:13:20.360819",
+          "analyzed_at": "2025-11-11T18:13:16.292712",
           "token_usage": {
-            "prompt_tokens": 296,
-            "completion_tokens": 337,
-            "total_tokens": 633
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_0_1762863124",
-          "title": "Police Investigate Deadly New Delhi Blast as Possible Terrorist Attack - The New York Times",
-          "description": "Police Investigate Deadly New Delhi Blast as Possible Terrorist Attack\u00a0\u00a0The New York TimesDelhi blast: The night that shook India's capital city\u00a0\u00a0BBCDelhi Explosion Puts India on High Alert; China+1 Back in Focus\u00a0\u00a0Bloomberg.comIndia police investigate final moments of vehicle in fatal Delhi blast\u00a0\u00a0The GuardianDelhi Blast's Telegram Link: How Messaging App Became Playground For Terrorists\u00a0\u00a0NDTV",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQN0J0d3F1dUZNVmgwNlh5WWlHLWpxbW1sQVgwR29oaVZZMlBmZHQzcGZJQzZZdm45MVZIWF9Id2lyN3dyRUZHN2Q1cmloUVMxYy1JU1hweTFSalZ0T2hwRF92OUYzWGdUbDZUM1d2R1JKZEg3QmJSOWVCbjEycnBjRUMwcTF4Zw?oc=5",
-          "source": "The New York Times",
-          "published": "Tue, 11 Nov 2025 08:25:40 GMT",
-          "topic": "WORLD",
-          "fetched_at": "2025-11-11T12:12:04.066652"
-        },
-        "analysis": {
-          "summary": "The New York Times reports that Indian police are investigating a deadly blast in Delhi as a potential terrorist attack, with the incident causing heightened security alerts and international focus on the region, particularly China. The incident, which involved a vehicle explosion, has been captured on social media, raising concerns about the use of messaging apps as a platform for terror activities.",
-          "key_points": [
-            "A deadly blast in Delhi is being investigated as a possible terrorist attack by Indian police.",
-            "The explosion has caused significant casualties and raised security concerns in India.",
-            "The incident has drawn international attention, particularly from China.",
-            "Social media has played a role in capturing the event, highlighting the dangers of such platforms being used by terrorists."
-          ],
-          "sentiment": "Mixed",
-          "confidence": "High",
-          "bias_check": "The article may reflect a bias towards security concerns and international political tensions, particularly involving China.",
-          "missing_context": "The article does not provide details on the motive behind the attack or the specific group that might be responsible, which could be crucial for understanding the incident's context.",
-          "implications": "The incident could lead to increased security measures and international relations strain between India and China, as well as a reassessment of the use of social media platforms in terrorist activities.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-11T12:13:33.754370",
-          "token_usage": {
-            "prompt_tokens": 281,
-            "completion_tokens": 277,
-            "total_tokens": 558
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_1_1762863124",
-          "title": "A suicide bomber targets an Islamabad court, killing 12 people and wounding 27, minister says - AP News",
-          "description": "A suicide bomber targets an Islamabad court, killing 12 people and wounding 27, minister says\u00a0\u00a0AP NewsSuicide attack outside Islamabad court kills 12, interior minister says\u00a0\u00a0BBC12 killed in deadliest attack on Pakistan\u2019s heartland in almost a decade\u00a0\u00a0The Washington PostSuicide bombing kills at least 12 in Islamabad\u00a0\u00a0Financial TimesIslamabad bomb blast live: 12 dead in Pakistan capital in \u2018suicide attack\u2019\u00a0\u00a0Al Jazeera",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNUEk5WTFpdHZCdGhGR3NFbWhzM05jSTNWUDQ4RjRZU2hZQXZfZmYtWWZuNG81aTJTUjVtamNkVHNwTFJzVHpBaEc1RmN6Q2JfdV9ZNzFscDNDdjlrUy1pMXJSUWo4QzZ0WHMyZkRLYzNydWg2QmxidnVnLWpyNkhYcXZuRDhRd3AzSW1USTc4NjN0bnIxZHZhc0t6VWY2U2hiaGdmeFRiX25zbzd6clE1WlJOcWdCQ2hESUVMSy1VX1BzQQ?oc=5",
-          "source": "AP News",
-          "published": "Tue, 11 Nov 2025 10:56:00 GMT",
-          "topic": "WORLD",
-          "fetched_at": "2025-11-11T12:12:04.066687"
-        },
-        "analysis": {
-          "summary": "A suicide bomber targeted an Islamabad court, killing 12 and wounding 27. This marks the deadliest attack on Pakistan\u2019s heartland in nearly a decade, highlighting a persistent security challenge in the country.",
-          "key_points": [
-            "The attack resulted in 12 fatalities and 27 injuries.",
-            "This incident represents the deadliest attack in the heartland region of Pakistan in almost ten years.",
-            "The use of a suicide bomber indicates a high level of commitment and planning by the attackers.",
-            "The attack occurred in a highly populated and sensitive area, causing widespread panic and highlighting vulnerabilities in security.",
-            "The Pakistani government and security forces are facing increased scrutiny over their ability to protect civilians."
-          ],
-          "sentiment": "Negative",
-          "confidence": "High",
-          "bias_check": "The article may emphasize the tragedy and the failure of security measures, potentially ignoring any possible complexities or contributing factors to the attack. It could also contain inherent biases depending on the publication\u2019s political stance.",
-          "missing_context": "Context on the specific motives behind the attack and statements from the perpetrators or their affiliates might be missing. Additionally, the broader geopolitical context or any precedents of similar attacks could provide more insight.",
-          "implications": "The attack underscores the ongoing security challenges in Pakistan and may impact the country's political landscape, potentially leading to heightened security measures and international concern. The incident could also affect public sentiment and trust in the government\u2019s ability to protect its citizens.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-11T12:13:41.710315",
-          "token_usage": {
-            "prompt_tokens": 295,
-            "completion_tokens": 314,
+            "prompt_tokens": 304,
+            "completion_tokens": 305,
             "total_tokens": 609
           }
         }
       },
       {
         "article": {
-          "id": "news_2_1762863124",
-          "title": "Iraqis vote in election they expect to bring little reform - Reuters",
-          "description": "Iraqis vote in election they expect to bring little reform\u00a0\u00a0ReutersAs Iraqis Vote for a Parliament, U.S. Presses to Rid Country of Iran\u2019s Influence\u00a0\u00a0The New York TimesIraq parliamentary elections: What we know\u00a0\u00a0Al JazeeraIraqis vote in a parliamentary election marked by tight security and a major political boycott\u00a0\u00a0abcnews.go.comIraq\u2019s displaced Yazidis and security forces cast ballots in early voting in parliament election\u00a0\u00a0AP News",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZUpIWDVyVUpJU2tPeEt5Vmh2Sm9IV3A3eUo2ak1NMHBrQXdQaFZyNkgzQTVuaHNMVHpjT0lrbEQwdzlXT3M4TDk0R1BrbE5BaHNFYWZ2THpfVUluTDBta2t2X0M2V3dlUEZWM1pGY05ZckVZSDM3TkJSdGhfMmhUdXZiajV6UzNsZUJpVWNVMEM2STN3VnN4dXVTLUZsSElQR2Vhc3BGVllmQQ?oc=5",
-          "source": "Reuters",
-          "published": "Tue, 11 Nov 2025 09:08:44 GMT",
-          "topic": "WORLD",
-          "fetched_at": "2025-11-11T12:12:04.066710"
-        },
-        "analysis": {
-          "summary": "Iraqi voters participated in a parliamentary election amidst tight security and a significant political boycott, with expectations of minimal reform and concerns about Iranian influence in the country, as the U.S. urged a reduction of Iran's impact.",
-          "key_points": [
-            "Iraqis participated in a parliamentary election with low expectations for substantial change.",
-            "The election was characterized by tight security and a major political boycott, reflecting political tensions.",
-            "There were concerns about Iran's influence in Iraq and the U.S. pressuring for a reduction of that influence."
-          ],
-          "sentiment": "Mixed",
-          "confidence": "High",
-          "bias_check": "Potential biases may include the framing of Iraqi voter expectations as predominantly negative, and the portrayal of the U.S. as an external influencer without sufficient context on Iraqi sovereignty or public sentiment.",
-          "missing_context": "The underlying reasons for the political boycott, the political landscape of Iraq, and the role of various factions in the election process are not fully explored.",
-          "implications": "The election results could affect Iraq's political future, its relations with Iran and the U.S., and the prospects for internal reforms. The low expectations of reform and the political dynamics at play may also influence regional stability and international relations.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-11T12:13:53.818545",
-          "token_usage": {
-            "prompt_tokens": 284,
-            "completion_tokens": 270,
-            "total_tokens": 554
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_3_1762863124",
-          "title": "New 'Lucifer' bee with devil-like horns found in Australia - BBC",
-          "description": "New 'Lucifer' bee with devil-like horns found in Australia\u00a0\u00a0BBCDemonic horns and a devilish name: New 'Lucifer' bee discovered in Australia\u00a0\u00a0NBC NewsScientists discover new \"lucifer\" bee with devil-like horns lurking in critically endangered wildflower in Australia\u00a0\u00a0CBS NewsBee species with horns discovered and named \u2018Lucifer\u2019\u00a0\u00a0The TelegraphAustralia\u2019s Newly Discovered Horned \u201cDevil\u201d Bee Will Have You Buzzing\u00a0\u00a0Yahoo",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9xVGNsWmkxZ2NHMkVlWm9DRDRwaFVqZi1oOU5YUTVQTlhHMm9ucHRSYXhnRTh0X3RmM2MzcGR3SlNzc0dLcUFySVRmTEprUGkweW8wSUh6RUV2QdIBX0FVX3lxTE9wOGRqVlhOTzE4NE9uZHd5YjVCVUpQSlIwdEsyanpuOGJDX3pKWFdOaXJ6SGZocTdiNnlXMXJVUmREYlNROVJ6Y3FfcXdVYkVHOEgwbzNIdWhNSHRrMzlR?oc=5",
-          "source": "BBC",
-          "published": "Tue, 11 Nov 2025 02:29:59 GMT",
-          "topic": "WORLD",
-          "fetched_at": "2025-11-11T12:12:04.066730"
-        },
-        "analysis": {
-          "summary": "The discovery of a new bee species named 'Lucifer' with striking, devil-like horns in Australia has sparked interest and some concern among scientists and the public, given the species' rare and endangered status in its native habitat.",
-          "key_points": [
-            "A new bee species with horn-like structures has been discovered in Australia.",
-            "The species, named 'Lucifer', is critically endangered and inhabits a vulnerable wildflower habitat.",
-            "The unique appearance of the 'Lucifer' bee has generated media attention, highlighting both its novelty and the conservation implications."
-          ],
-          "sentiment": "Mixed",
-          "confidence": "High",
-          "bias_check": "The article might exaggerate the 'devilish' aspect for sensationalism. Public fascination with 'Lucifer' may overshadow the critical conservation message. The naming convention reflects a Western influence, potentially ignoring indigenous perspectives on biodiversity.",
-          "missing_context": "The extent of the threats to the 'Lucifer' bee's habitat, such as climate change, habitat destruction, or pesticide use, is not detailed. Additionally, there is no mention of conservation efforts or potential risks to the bee from human activity.",
-          "implications": "The discovery raises awareness about Australia's unique biodiversity and the importance of habitat conservation. However, it also underscores the urgent need to protect endangered species and their environments. There may be implications for conservation funding and policy, as well as for the scientific community's ongoing research into Australia's biodiversity.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-11T12:14:01.809803",
-          "token_usage": {
-            "prompt_tokens": 286,
-            "completion_tokens": 311,
-            "total_tokens": 597
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_4_1762863124",
-          "title": "'No turning back': More and more Ukrainian women join the army to fight Russia - NPR",
-          "description": "'No turning back': More and more Ukrainian women join the army to fight Russia\u00a0\u00a0NPRWomen\u2019s Role and Career Growth in Ukraine\u2019s Armed Forces\u00a0\u00a0mezha.netMothers, fighters, activists: the millennial women who are holding Ukraine together\u00a0\u00a0KOHA.net",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNakRkMlVNWDdsTWdtNFRuUjJBcC1MQi1CQy1VYTFCTGZaeDF4MjVqNTF0em54QWFRWWZzWHlzdVBNTUJxMnozcWZHVm9lZjdCSVp6V001SUU2TlpXdC1yZnZsNjduYlNCa1BkWGFSQ2RuZHFRMGx6Y1cyWTZseTIwYjMwWURJTVNoWEM3aGM0dTNJZw?oc=5",
-          "source": "NPR",
-          "published": "Tue, 11 Nov 2025 10:00:00 GMT",
-          "topic": "WORLD",
-          "fetched_at": "2025-11-11T12:12:04.066744"
-        },
-        "analysis": {
-          "summary": "The article discusses the increasing involvement of Ukrainian women in the country's armed forces to fight against Russia, highlighting their roles as mothers, fighters, and activists. It showcases the significant contribution of millennials in holding Ukraine together during the conflict.",
-          "key_points": [
-            "Ukrainian women are joining the army in greater numbers to support their country.",
-            "Women are taking on various roles, including combat positions, which reflects a shift in gender norms within the Ukrainian armed forces.",
-            "The participation of women is a testament to their resilience and commitment to Ukraine's sovereignty and resistance against Russian aggression."
-          ],
-          "sentiment": "Positive",
-          "confidence": "High",
-          "bias_check": "The source may have a pro-Ukrainian bias, emphasizing the positive role of women in the conflict. The perspective may underrepresent the challenges and risks faced by these women.",
-          "missing_context": "The article does not provide information on the training and preparedness of these women, the support systems in place for them, or the international response to their involvement. It also does not discuss the potential impact on post-conflict society and gender norms.",
-          "implications": "The broader implications include a shift in traditional gender roles within Ukraine, potential changes in societal perceptions of women, and the possibility of setting a precedent for female military involvement in other countries. There may also be long-term effects on the country's defense capabilities and international relations.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-11T12:14:16.652541",
-          "token_usage": {
-            "prompt_tokens": 249,
-            "completion_tokens": 303,
-            "total_tokens": 552
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_0_1762863124",
-          "title": "Stock futures are little changed after big rally in prior session; tech shares under pressure: Live updates - CNBC",
-          "description": "Stock futures are little changed after big rally in prior session; tech shares under pressure: Live updates\u00a0\u00a0CNBCStocks Rallied Through Shutdown but Wall Street Eyes More Gains\u00a0\u00a0Bloomberg.comStock Market Today: S&P 500 Futures Weaken; Senate Passes Measure to End Shutdown \u2014 Live Updates\u00a0\u00a0The Wall Street JournalMorning Bid: Reopening rebound runs on, with rate cuts in sight\u00a0\u00a0ReutersStock Markets Suffer Amnesia Amid Shutdown Breakthrough. The Crucial Issue They\u2019re Forgetting.\u00a0\u00a0Barron's",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9LbHFPSV9xOXEwSVB2aTdMYTlGYzBVM1FCN0I2NUlmSlVWVWl3TS1NTVBEekhxSkF3bHNid0xWS0hqQ216Y0Jab0psSzBQeVQ1OEpCNFN0QzFiWUJiOVRnTnFpT0VleF9ma3kzMkxWYjFQblVIbmlF0gF8QVVfeXFMUEJqY0NpaFA2NlBNbFJmMXEycGRQSXJVbVVocDdaWlM1WE9tU0pNOGtReHlZMklSWDFuRzFGX0hzVnNJa1dQT1hWRkhmNlpoTVpnc2RualJteDVHZThDV1BUdko2MlIxbXgwYXhHRU1KVm5mUGlta3BHc0xmSg?oc=5",
-          "source": "CNBC",
-          "published": "Tue, 11 Nov 2025 11:45:00 GMT",
+          "id": "news_4_1762884591",
+          "title": "Rage and ruined holidays: how the Marriott-Sonder meltdown unraveled into chaos for customers - Business Insider",
+          "description": "Rage and ruined holidays: how the Marriott-Sonder meltdown unraveled into chaos for customers\u00a0\u00a0Business InsiderSonder Abruptly Goes Out of Business After Marriott Terminates Licensing Deal\u00a0\u00a0The New York TimesCollapse of Sonder, a Marriott-backed hotel chain, leaves guests stranded mid-stay\u00a0\u00a0CNNSonder announces bankruptcy plans; tells guests to vacate hotel rooms: 'People were scrambling'\u00a0\u00a0CNBC\u2018We\u2019re obviously still adjusting\u2019: Denver landlords react to Sonder\u2019s liquidation\u00a0\u00a0BusinessDen",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZnNoSWpUQkhodkhMZ2pOdHZqcWpBWTV0VG1yeEcyXzc5V2ZTejJoeTd1azZWMlBZOHdvZllRWlYtczNtSU8xT1N0R0ctS2RMcVZWVUxEdF9NTWZ4QUdHOHhnVXhBTU4zdHV5enRzNC1TVU56OVYtb2VjRlVUZHF5ZktrbVA2V0p6UmttTlJsbUhucWhYWlI0OHFrclJiZjRCT2xqSUhaeHI1N0hwU2k4WFNBblNiZU84eG5rdEdrMFk?oc=5",
+          "source": "Business Insider",
+          "published": "Tue, 11 Nov 2025 10:33:00 GMT",
           "topic": "BUSINESS",
-          "fetched_at": "2025-11-11T12:12:04.169935"
+          "fetched_at": "2025-11-11T18:09:51.718309"
         },
         "analysis": {
-          "summary": "After a significant rally in the previous session, stock futures are little changed, with tech shares experiencing pressure, suggesting cautious optimism despite concerns about potential further gains.",
+          "summary": "The Marriott-backed hotel chain Sonder collapsed, leaving guests stranded and causing widespread frustration as they scrambled to find alternative accommodations, and the company announced bankruptcy and liquidation plans, impacting both travelers and local landlords.",
           "key_points": [
-            "Stock futures remained steady post-rally, indicating a mixed market reaction.",
-            "Tech shares, often driving market sentiment, are facing downward pressure.",
-            "The market is in a state of amnesia, focusing on the shutdown resolution while overlooking other critical issues."
-          ],
-          "sentiment": "Mixed",
-          "confidence": "High",
-          "bias_check": "The article may exhibit a bias towards highlighting negative sentiments in the market, particularly in the tech sector, possibly overshadowing positive aspects.",
-          "missing_context": "Details about the reasons behind the recent rally, the overall market conditions, or the specific factors pressuring tech shares are not provided. Additionally, there are no insights into the potential impact of the recent shutdown resolution on the market.",
-          "implications": "The market's mixed reaction could indicate uncertainty among investors about the sustainability of recent gains. The pressure on tech shares might lead to sector-specific adjustments in investment strategies. The broader market's focus on the shutdown issue may temporarily overshadow other fundamental factors influencing the economy.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-11T12:14:23.411281",
-          "token_usage": {
-            "prompt_tokens": 304,
-            "completion_tokens": 260,
-            "total_tokens": 564
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_1_1762863124",
-          "title": "Trump Defends 50-Year Mortgage Plan, Calling It \u2018Not a Big Deal\u2019 - Bloomberg.com",
-          "description": "Trump Defends 50-Year Mortgage Plan, Calling It \u2018Not a Big Deal\u2019\u00a0\u00a0Bloomberg.comTrump just floated a 50-year mortgage. Is that a good idea?\u00a0\u00a0CNNWhy Trump's push for a 50-year mortgage could backfire\u00a0\u00a0Business InsiderTrump proposes 50-year mortgage, but some say homeowner savings would be minimal\u00a0\u00a0CNBCWhat the Trump administration's 50-year mortgage plan could mean for homebuyers\u00a0\u00a0CBS News",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQbzh1SVBYS3JwV1hxZ1hDbC1QSFR4Y3pWVVcxU21GSTdvbVRKWFF0cHR5RWRQb0hqSTRpa3FqNXhQNFBVWjVWdmJRQjlUUVZ6TGRqNXN6RXgzREZISVBSeV80aHRrWnlMVUNPUVVPUlpFc0NRclFOTGFzbEFvUUplbm9GMEtMOXVCT3MtUkN3M1AzRklJbVpnU3RGNUNQQWJrbnNnN1FZaUdhUk11a2lhS01B?oc=5",
-          "source": "Bloomberg.com",
-          "published": "Tue, 11 Nov 2025 01:19:00 GMT",
-          "topic": "BUSINESS",
-          "fetched_at": "2025-11-11T12:12:04.169966"
-        },
-        "analysis": {
-          "summary": "President Trump defends his controversial proposal for a 50-year mortgage plan, calling it 'not a big deal,' and various news outlets analyze the potential impacts, highlighting skepticism about the financial benefits for homeowners and concerns about the plan's implementation and broader economic implications.",
-          "key_points": [
-            "Trump's 50-year mortgage proposal aims to make homeownership more accessible by extending the length of mortgage terms.",
-            "Critics argue the savings for homeowners would be minimal and that the plan could lead to higher interest rates or increased home prices.",
-            "Supporters, including Trump, believe it would help first-time buyers enter the housing market more easily."
-          ],
-          "sentiment": "mixed",
-          "confidence": "medium",
-          "bias_check": "The analysis may be biased towards an economic perspective, possibly underrepresenting the political motivations behind the proposal.",
-          "missing_context": "The potential long-term economic impacts and the current housing market conditions, such as interest rates and home prices, are not discussed in detail.",
-          "implications": "The proposal could significantly alter the housing market dynamics, potentially affecting interest rates and home prices. It also reflects Trump's ongoing focus on making homeownership more attainable, which aligns with his political base but may not be well-received by the broader public or financial experts.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-11T12:14:30.683324",
-          "token_usage": {
-            "prompt_tokens": 289,
-            "completion_tokens": 278,
-            "total_tokens": 567
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_2_1762863124",
-          "title": "Flight disruptions will persist even after shutdown ends, airlines warn - The Washington Post",
-          "description": "Flight disruptions will persist even after shutdown ends, airlines warn\u00a0\u00a0The Washington PostWhen the shutdown ends, air travel will still take a long time to get back to normal\u00a0\u00a0CNNSenate moves toward ending shutdown as travelers deal with major flight disruptions\u00a0\u00a0Fox NewsThe essential, invisible job at the center of the shutdown flight problems\u00a0\u00a0USA TodayFrustration grows at Boston's Logan Airport as government shutdown causes flight cancellations to rise\u00a0\u00a0CBS News",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQd3d2Mk5Xa29nZmlBZWhxUE1YWklaUTlCN1U2R3BrUEZ0MVJ3Vmh6NWZOMkQwWTBKLUo0ekFYMkZpdVlwUE5FNDRUVHNEZkhXVVpkbUpYQzJDem8yUGNLSWdmUjZCRVBya2xzZ0JtTTRpZEk2cmstcHhxVVkybWl0X2RXd2RITzhXbVVGV0xmSUpFZnRhRUctdEh3?oc=5",
-          "source": "The Washington Post",
-          "published": "Tue, 11 Nov 2025 11:13:54 GMT",
-          "topic": "BUSINESS",
-          "fetched_at": "2025-11-11T12:12:04.169989"
-        },
-        "analysis": {
-          "summary": "The article reports that even after the government shutdown ends, air travel disruptions will continue, with airlines warning that normalcy won't be restored quickly. The closure has caused significant flight cancellations, and frustration is high among passengers and at major transportation hubs like Boston's Logan Airport.",
-          "key_points": [
-            "Air travel will remain disrupted even after the government shutdown ends.",
-            "Airlines are preparing for a slow return to normal operations.",
-            "Significant frustration and inconvenience for passengers and at major airports."
+            "Marriott's licensing deal with Sonder ended abruptly, leading to the hotel chain's collapse.",
+            "Customers were left stranded mid-stay, creating significant travel disruptions.",
+            "Sonder declared bankruptcy and asked guests to vacate, causing financial and logistical challenges.",
+            "Local landlords and businesses were also affected by the liquidation of the hotel chain."
           ],
           "sentiment": "Negative",
           "confidence": "High",
-          "bias_check": "The article may present a predominantly negative perspective, focusing on disruptions and frustration without much coverage of any positive or mitigating factors or perspectives from airlines or government officials.",
-          "missing_context": "The article does not provide detailed reasons for the flight disruptions, nor does it mention any measures being taken by airlines or the government to mitigate the impacts, which would offer a more balanced view. Additionally, there is no discussion of the economic impacts of the shutdown on the airline industry or passenger travel habits in the longer term.",
-          "implications": "The prolonged disruptions in air travel could have significant economic impacts, including loss of revenue for airlines and airports, and inconvenience for travelers who may be unable to reach important destinations. This could also affect travel-related industries and lead to broader economic consequences.",
+          "bias_check": "The article may exhibit bias by focusing predominantly on the negative aspects and impact on customers and local businesses, potentially overlooking any positive intentions or efforts made by Marriott or Sonder.",
+          "missing_context": "The article does not provide insights into the reasons behind the abrupt end of the licensing deal between Marriott and Sonder, nor does it discuss any potential legal or financial disputes that might have contributed to the chain's collapse.",
+          "implications": "The dissolution of Sonder can have broader implications for the hospitality industry, including increased caution among travelers regarding hotel investments, potential scrutiny of partnerships between major hotel chains and smaller entities, and the economic impact on regions heavily reliant on tourism and hospitality services.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-11T12:14:38.176576",
+          "analyzed_at": "2025-11-11T18:13:24.143854",
           "token_usage": {
-            "prompt_tokens": 284,
-            "completion_tokens": 291,
-            "total_tokens": 575
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_3_1762863124",
-          "title": "Why CoreWeave (CRWV) Is Down 16.4% After Major AI Partnerships and Q3 Earnings Miss - Yahoo Finance",
-          "description": "Why CoreWeave (CRWV) Is Down 16.4% After Major AI Partnerships and Q3 Earnings Miss\u00a0\u00a0Yahoo FinanceCoreWeave Faces Earnings Pressure as Cracks Appear in AI Trade\u00a0\u00a0Yahoo FinanceNvidia-backed CoreWeave's shares fall as data center delay hits annual revenue forecast\u00a0\u00a0ReutersCoreWeave's stock slides on weak guidance even as revenue more than doubles\u00a0\u00a0CNBCCoreWeave earnings: 5 key details to watch as the stock eyes a turnaround\u00a0\u00a0MarketWatch",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBYZ0lid0ZmbnliYWhHNmVuWkZyM0ZYdFVjcE5GSVU5aHhPZGh3N3NoSmVmbVVVX05acU1uczVqYjRHaUxOSjU3UFc1aWZ3OC1POTdsOWtrSnh6X1dOUWhXRDVfai10U3lSZ291bEwzQlhXTU04cG5TT0xzRy0?oc=5",
-          "source": "Yahoo Finance",
-          "published": "Tue, 11 Nov 2025 06:06:00 GMT",
-          "topic": "BUSINESS",
-          "fetched_at": "2025-11-11T12:12:04.170008"
-        },
-        "analysis": {
-          "summary": "CoreWeave (CRWV), an AI-driven networking company backed by Nvidia, experienced a significant stock drop after missing its third-quarter earnings expectations and showcasing a 16.4% decline, despite having secured major partnerships and doubling its revenue. The earnings miss, attributed to data center delays, has raised concerns about the company's ability to deliver on its ambitious growth plans and has led to a reassessment of its stock by investors.",
-          "key_points": [
-            "CoreWeave's stock plummeted following the earnings report, which fell short of expectations despite a revenue increase.",
-            "Data center delays have negatively impacted the company's revenue forecast for the year.",
-            "The company's partnership with Nvidia highlights its strategic position in the AI sector, yet the earnings miss raises concerns about its operational execution.",
-            "Investors are now closely scrutinizing CoreWeave's performance and future earnings guidance."
-          ],
-          "sentiment": "Mixed",
-          "confidence": "High",
-          "bias_check": "The article may present a bias towards portraying CoreWeave's challenges as more significant than they are by focusing on the earnings miss and stock decline without equally emphasizing any positive developments or longer-term strategic advantages.",
-          "missing_context": "The story could benefit from additional context regarding industry trends, the competitive landscape, and CoreWeave's historical performance, which could offer a more balanced view of the company's position. It also doesn't mention any specific actions CoreWeave is taking to address the challenges it faces.",
-          "implications": "This event might signal caution for investors in the AI-driven networking sector, especially those considering companies with similar growth trajectories but facing operational hurdles. It could also influence Nvidia's investment strategy and partnerships within the industry.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-11T12:14:47.477087",
-          "token_usage": {
-            "prompt_tokens": 308,
-            "completion_tokens": 360,
-            "total_tokens": 668
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_4_1762863124",
-          "title": "What's open and what's closed in Minnesota on Veterans Day 2025 - Bring Me The News",
-          "description": "What's open and what's closed in Minnesota on Veterans Day 2025\u00a0\u00a0Bring Me The NewsHere\u2019s what\u2019s open and closed on Veterans Day\u00a0\u00a0CNNAre stores and banks open on Veterans Day? See what's operating on Nov. 11.\u00a0\u00a0CBS NewsIs the stock market open on Veterans Day? See holiday schedule\u00a0\u00a0USA TodayIs Costco open on Veterans Day 2025? What holidays is Costco closed? See holiday hours\u00a0\u00a0Bergen Record",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQekc2bW1qeTdXQUt4SlhYdnJVQW5rSlkwa0NveTEyMk1YUlFIZnlUbE1WRDBsRGY2T015N2kzZ1I5MTYxQ21jbzBDaUMyMW5LSHNRUGRyNVN1d0FXOVhxSDdRMG53aTlXbVVzMk9US1Q4ZGFhVjVEeTJ5NGlLazFpOFdkNUNlVDhNN0Q1Zk5zZVEwRjluc2g3d1pYQ09HR1ljaENVbkhBYVhPWGMt?oc=5",
-          "source": "Bring Me The News",
-          "published": "Mon, 10 Nov 2025 20:39:47 GMT",
-          "topic": "BUSINESS",
-          "fetched_at": "2025-11-11T12:12:04.170031"
-        },
-        "analysis": {
-          "summary": "The article provides a list of businesses in Minnesota that will be open or closed on Veterans Day 2025, including retail stores, banks, and Costco, and also mentions the stock market's schedule for the holiday. It aims to guide individuals on where they can shop, work, and trade on that day, highlighting that some businesses close while others remain operational, and that financial markets are closed.",
-          "key_points": [
-            "Veterans Day in Minnesota 2025 includes a mix of closed and open businesses, reflecting diverse holiday policies.",
-            "Financial markets are closed on Veterans Day, indicating a universal holiday observance for trading activities.",
-            "Retailers like Costco have specific holiday hours or closures, which may affect consumer shopping plans."
-          ],
-          "sentiment": "neutral",
-          "confidence": "high",
-          "bias_check": "The article may imply a bias towards the importance of Veterans Day observance and the impact on business operations, without exploring the reasons behind the closures or the significance of Veterans Day itself. It also assumes uniformity in holiday observance across all sectors without considering any exceptions or local variations.",
-          "missing_context": "The article does not provide historical context about Veterans Day, nor does it discuss the significance of the holiday. It also lacks mention of any exceptions to the listed closures, such as emergency services or specific community needs. The perspectives of those who observe the holiday and their reasons for why certain businesses are closed might be omitted.",
-          "implications": "The implications of this story are that Veterans Day can significantly impact businesses, particularly retail and financial sectors, by altering consumer behavior and limiting trading activities. It also reflects a broader societal recognition of the holiday, with businesses adjusting their operations accordingly. This can have implications for workers and employees, who may need to adjust their schedules.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-11T12:14:56.805384",
-          "token_usage": {
-            "prompt_tokens": 290,
-            "completion_tokens": 382,
-            "total_tokens": 672
+            "prompt_tokens": 297,
+            "completion_tokens": 286,
+            "total_tokens": 583
           }
         }
       }
@@ -511,19 +510,19 @@
     "articles_analyzed": 15
   },
   "costs": {
-    "execution_time": 155.7219066619873,
-    "execution_minutes": 2.595365111033122,
-    "github_actions": 0.020762920888264976,
+    "execution_time": 195.92585062980652,
+    "execution_minutes": 3.2654308438301087,
+    "github_actions": 0.02612344675064087,
     "openai": {
-      "input": 0.00065115,
-      "output": 0.0026976,
-      "total": 0.00334875
+      "input": 0.0006376499999999999,
+      "output": 0.0031182000000000002,
+      "total": 0.0037558500000000002
     },
-    "total": 0.024111670888264977,
+    "total": 0.029879296750640872,
     "token_usage": {
-      "prompt_tokens": 4341,
-      "completion_tokens": 4496,
-      "total_tokens": 8837
+      "prompt_tokens": 4251,
+      "completion_tokens": 5197,
+      "total_tokens": 9448
     }
   }
 }
