@@ -2,524 +2,530 @@
   "agent": "gpt-mini-analyzer",
   "model": "GPT-4o Mini",
   "model_id": "openai/gpt-4o-mini",
-  "timestamp": "2025-11-11T06:13:35.217213",
+  "timestamp": "2025-11-11T12:15:11.839042",
   "status": "completed",
   "data": {
     "analyses": [
       {
         "article": {
-          "id": "news_0_1762841428",
-          "title": "Samsung Galaxy S26 Plus reappears in renders with a new camera island - The Verge",
-          "description": "Samsung Galaxy S26 Plus reappears in renders with a new camera island\u00a0\u00a0The VergeExclusive: Samsung Galaxy S26 Plus Official CAD Renders & Rumors\u00a0\u00a0Android HeadlinesRenders show off Samsung's upcoming Galaxy S26+\u00a0\u00a0EngadgetExclusive: Samsung Galaxy S26 and S26 Plus Final Camera and Battery Specifications Confirmed\u00a0\u00a0smartprix.comSamsung\u2019s Galaxy S26 launch reportedly moves up after Edge inclusion gets scrapped\u00a0\u00a09to5Google",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxObm5wdmFVblZzSmN4QS0yaGE2Q18tRElGUHYtR2NsMWV1OUFFdGN5VHhEV3RpWjF6UlNxSFJDX05OeXdCZ0ZTVDRZVDRNVlRQU0dITlpHZ1JyblFNdTZvUVVuMDk3cC0tRDQ0NHNtMU1JVnJvcTZnMkdDeFpUTGN1amVCcUdfY0xCOFZUWFB4SzQ4aUE?oc=5",
-          "source": "The Verge",
-          "published": "Mon, 10 Nov 2025 16:42:01 GMT",
+          "id": "news_0_1762863124",
+          "title": "Weak sales delay next iPhone Air model, report claims - Mashable",
+          "description": "Weak sales delay next iPhone Air model, report claims\u00a0\u00a0MashableApple Delays Release of Next iPhone Air Amid Weak Sales\u00a0\u00a0The InformationThe next iPhone Air has reportedly been delayed\u00a0\u00a0The VergeApple reportedly punts on the next iPhone Air\u00a0\u00a0FortuneApple delays next version of iPhone Air, the Information reports\u00a0\u00a0Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE96QU9QVlFWeVNDYldsSWZ6cnAwamNJTnNwaWl0dEV5aWJUNXhjb3lIY2R3YVZQNVZHTUhVMlNydnp6OHlVbGJiVi1KRTk3aUd0S2FLRU9GMkZ1blk?oc=5",
+          "source": "Mashable",
+          "published": "Tue, 11 Nov 2025 03:20:29 GMT",
           "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-11T06:10:28.119206"
+          "fetched_at": "2025-11-11T12:12:04.020090"
         },
         "analysis": {
-          "summary": "The article discusses the latest renders of the Samsung Galaxy S26 Plus, highlighting a new camera island design that suggests significant changes in its aesthetic and functionality. As the launch approaches, rumors about specifications and potential design shifts, including the scrapping of the Edge inclusion, are also circulating.",
+          "summary": "The reported delay of the next iPhone Air model reflects Apple's struggle with weak sales, suggesting that consumer demand may not be aligning with their product strategy. This situation raises questions about the company's future product lineup and its ability to innovate in a saturated market.",
           "key_points": [
-            "New camera island design indicates a potential shift in focus towards photography capabilities.",
-            "Renders suggest a refined aesthetic that may appeal to both existing Samsung users and new customers.",
-            "The launch timeline appears to be accelerated, possibly indicating Samsung's confidence in the S26 series.",
-            "Speculations about the scrapping of the Edge inclusion point to a strategic move to simplify product offerings.",
-            "Leaked specifications suggest improvements in battery life and camera features, reinforcing Samsung's competitive stance in the market."
+            "Apple has reportedly delayed the release of the next iPhone Air due to weak sales performance.",
+            "This delay highlights potential challenges in Apple's market strategy, particularly in the competitive smartphone sector.",
+            "Analysts speculate that consumer interest in new iPhone models may be waning, prompting Apple to reassess its upcoming releases.",
+            "The news may impact investor confidence and could lead to a re-evaluation of Apple's growth projections.",
+            "This situation could open opportunities for competitors to fill any gaps in the market created by Apple's delays."
           ],
-          "sentiment": "positive",
+          "sentiment": "negative",
           "confidence": "medium",
-          "bias_check": "The Verge may have a bias towards promoting new technology products, especially from major brands like Samsung. Their focus on design and specifications could lead to an emphasis on the positive aspects while downplaying potential drawbacks.",
-          "missing_context": "There is a lack of context regarding consumer sentiment towards previous models, particularly the Galaxy S25 series, and how those experiences might influence the reception of the S26 Plus. Additionally, the competitive landscape with other brands like Apple and Google isn't fully explored.",
-          "implications": "The redesign and rumored features of the Galaxy S26 Plus could signal Samsung's strategy to reclaim market share against rivals by focusing on user experience enhancements. This shift might also lead to increased consumer expectations and pressure on Samsung to deliver innovative solutions that differentiate their products in a saturated market.",
+          "bias_check": "The article may carry a bias towards sensationalizing Apple's challenges, potentially downplaying any positive aspects of their overall business performance. It may also reflect a tech media tendency to focus on negative news, which can skew perceptions of the company's health.",
+          "missing_context": "The article may not provide insights into Apple's overall financial performance, including other product lines that may be performing well. Additionally, it lacks consumer sentiment analysis that could explain the reasons behind the weak sales, such as economic factors or shifts in consumer preferences.",
+          "implications": "The delay of the iPhone Air could signify broader trends in consumer electronics, where innovation fatigue sets in. It also raises concerns about Apple's competitive edge and highlights the necessity for the company to adapt to changing market dynamics to maintain its status as a market leader.",
           "model": "GPT-4o Mini",
           "model_id": "openai/gpt-4o-mini",
-          "analyzed_at": "2025-11-11T06:10:47.915186",
+          "analyzed_at": "2025-11-11T12:12:24.447716",
+          "token_usage": {
+            "prompt_tokens": 297,
+            "completion_tokens": 393,
+            "total_tokens": 690
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_1_1762863124",
+          "title": "Google Play will soon warn about apps that cause excessive battery drain - 9to5Google",
+          "description": "Google Play will soon warn about apps that cause excessive battery drain\u00a0\u00a09to5GoogleGoogle is cracking down on apps that secretly drain your battery\u00a0\u00a0Android AuthorityThe Google Play Store's new tweak makes your phone's battery life a priority\u00a0\u00a0Android PoliceAndroid phone users may soon get a \u2018battery\u2019 warning before downloading these apps\u00a0\u00a0Hindustan TimesHow Google and Samsung are teaming up to fix Android battery drain, suggests report\u00a0\u00a0MSN",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBMMXpjbUluanJuWFUzSXljRTdWeE9DZy05NFhUX1luQ0lwWnVsS3ZlNU1MQWRyOWFOV3lsdXkxRDV3blZMQVZ0b2NSTEZ0N3JGR2xrRjkzZllpM1pjbThxay1wa0ZWWjZIenNsR3VUa3NFUW8?oc=5",
+          "source": "9to5Google",
+          "published": "Mon, 10 Nov 2025 23:29:00 GMT",
+          "topic": "TECHNOLOGY",
+          "fetched_at": "2025-11-11T12:12:04.020142"
+        },
+        "analysis": {
+          "summary": "Google Play's new initiative to warn users about apps that cause excessive battery drain reflects a growing concern for user experience and device longevity. This move aims to enhance user awareness and control over app performance, potentially leading to a more sustainable app ecosystem on Android devices.",
+          "key_points": [
+            "The new warning system will alert users before downloading apps known for high battery consumption.",
+            "This initiative is part of a broader effort by Google to improve user experience and device performance on Android.",
+            "The move may encourage developers to optimize their apps for better battery efficiency to avoid negative feedback.",
+            "Users will likely benefit from increased transparency regarding app performance, leading to more informed choices.",
+            "This feature could influence competition among app developers, prompting them to prioritize battery efficiency."
+          ],
+          "sentiment": "positive",
+          "confidence": "high",
+          "bias_check": "Potential biases may stem from the source's affiliation with tech companies, which could lead to an overly positive portrayal of Google's initiative without addressing potential drawbacks. Additionally, there may be underlying assumptions about user knowledge and behavior regarding app downloads.",
+          "missing_context": "The article may not discuss the technical challenges developers face in optimizing battery usage or the historical context of user complaints regarding battery drain. Insights into how this initiative will be enforced or the effectiveness of similar past measures could provide a more rounded understanding.",
+          "implications": "This development could shift the dynamics of app development, prioritizing user-centric design principles and potentially reducing the prevalence of poorly optimized applications. It may also influence user behavior, leading to greater demand for transparency in app performance, which could have long-term effects on app market strategies.",
+          "model": "GPT-4o Mini",
+          "model_id": "openai/gpt-4o-mini",
+          "analyzed_at": "2025-11-11T12:12:34.933777",
           "token_usage": {
             "prompt_tokens": 324,
-            "completion_tokens": 356,
+            "completion_tokens": 434,
+            "total_tokens": 758
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_2_1762863124",
+          "title": "HomePod mini refresh looking more likely, as B&H lists it as \u2018discontinued\u2019 - 9to5Mac",
+          "description": "HomePod mini refresh looking more likely, as B&H lists it as \u2018discontinued\u2019\u00a0\u00a09to5MacB&H Lists HomePod Mini as Discontinued Amid Refresh Rumors\u00a0\u00a0MacRumorsReport: New Apple TV and HomePod mini could launch shortly, but don\u2019t be too hopeful\u00a0\u00a09to5MacNew HomePod may be coming soon, but where's the HomePod with screen everyone wants?\u00a0\u00a0MacworldApple TV and HomePod Mini Get Secret November Refresh\u00a0\u00a0Gadget Hacks",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9xUG92aFE2TW9nTE51djFJTW1wQWtzZFpBTVZuUXV3azZTd0tRR3g4TmE1SWUxRVdUMjhmYUJsVzVkR2kyZGw4VnJxN1poRUpBa3JyTWh5ZmJkQTZUcnpTdGRzMUJqcHpkbmc?oc=5",
+          "source": "9to5Mac",
+          "published": "Mon, 10 Nov 2025 23:37:00 GMT",
+          "topic": "TECHNOLOGY",
+          "fetched_at": "2025-11-11T12:12:04.020215"
+        },
+        "analysis": {
+          "summary": "The article discusses the likelihood of a refresh for the HomePod mini, as retailer B&H has listed the product as 'discontinued.' This raises questions about Apple's future product launches and the potential for new features or models, particularly in relation to the ongoing speculation around a HomePod with a screen.",
+          "key_points": [
+            "B&H's listing of the HomePod mini as 'discontinued' suggests that Apple may be planning to release an updated version soon.",
+            "Speculation surrounds the possibility of new features or enhancements in the upcoming HomePod mini refresh.",
+            "There is a growing desire among consumers for a HomePod with a screen, which has not yet been addressed by Apple.",
+            "This situation appears to correlate with rumors of a new Apple TV launch, indicating a potential broader strategy for the home device ecosystem.",
+            "The timing of these changes could impact Apple's competitive positioning against other smart home devices."
+          ],
+          "sentiment": "mixed",
+          "confidence": "medium",
+          "bias_check": "Potential biases include an optimistic view of Apple's innovation capabilities and a consumer-centric perspective that may overlook supply chain or manufacturing challenges.",
+          "missing_context": "The article does not provide insights into consumer demand for the HomePod mini or details on how its discontinuation could affect existing users. There\u2019s also a lack of information on how this refresh might compare to competitors\u2019 products.",
+          "implications": "If a refresh is indeed forthcoming, it could signal Apple's commitment to maintaining its foothold in the smart home market amid increasing competition. However, the lack of a HomePod with a screen could mean missed opportunities to capture a segment of consumers looking for more integrated smart home solutions.",
+          "model": "GPT-4o Mini",
+          "model_id": "openai/gpt-4o-mini",
+          "analyzed_at": "2025-11-11T12:12:45.107937",
+          "token_usage": {
+            "prompt_tokens": 343,
+            "completion_tokens": 455,
+            "total_tokens": 798
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_3_1762863124",
+          "title": "OLED Display Coming to M6 Pro/Max MacBook Pro, Not Base M6 Model - MacRumors",
+          "description": "OLED Display Coming to M6 Pro/Max MacBook Pro, Not Base M6 Model\u00a0\u00a0MacRumorsReport: OLED MacBook Pro redesign may be exclusive to M6 Pro and M6 Max models\u00a0\u00a09to5MacMacBooky Pro will get a new design next year! However, not all versions will offer it\u00a0\u00a0Letem sv\u011btem ApplemApple Plans Major Redesign for 2026 MacBook Pro with OLED Touchscreen \u2014 But Base Model Misses Out\u00a0\u00a0The Hans IndiaThe long-awaited MacBook Pro design refresh could cost a pretty penny\u00a0\u00a0Digital Trends",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE00aUdMTFhXUlZLNE1qVG9PWGtqcEhZVm9mZWhydzVBVy13UEhYSnBJajFKSU5aUDZtLVNNMGdtQ3B4NHdQRHdRb293WkIxT2JoRUpLTjhkMFFMQXZQMDBHN3JMcE5XVWNoQnBxTk9lN2s2dXdsRU9aZXh3WVFDUQ?oc=5",
+          "source": "MacRumors",
+          "published": "Mon, 10 Nov 2025 10:54:11 GMT",
+          "topic": "TECHNOLOGY",
+          "fetched_at": "2025-11-11T12:12:04.020265"
+        },
+        "analysis": {
+          "summary": "The article discusses the upcoming redesign of the MacBook Pro, specifically highlighting that the new OLED display feature will only be available in the M6 Pro and M6 Max models, excluding the base M6 model. This decision may impact consumer choices and perceptions of value within Apple's product lineup.",
+          "key_points": [
+            "The MacBook Pro is set for a redesign in 2026, introducing OLED displays.",
+            "Only the M6 Pro and M6 Max variants will feature the OLED display, leaving the base model without this advancement.",
+            "The exclusivity of advanced features in higher-end models may influence consumer purchasing decisions.",
+            "This redesign follows a trend of Apple focusing on increasing differentiation between model tiers.",
+            "There are concerns about the potential cost implications for consumers wanting the new OLED technology."
+          ],
+          "sentiment": "mixed",
+          "confidence": "medium",
+          "bias_check": "The source (MacRumors) is an Apple-focused publication, which may lead to a pro-Apple bias in reporting. They might emphasize the positives of the news while downplaying customer dissatisfaction with the exclusion of the base model.",
+          "missing_context": "The article does not provide insight into consumer demand for OLED displays and how this decision may affect sales. Additionally, it lacks details on how this will compare to competitors in the market, such as Dell or HP, who may offer similar features in their base models.",
+          "implications": "The decision to limit OLED displays to the higher-tier MacBook Pro models could reinforce Apple's premium branding strategy but might alienate budget-conscious consumers. This could also lead to increased pressure on Apple to justify price differences as consumers seek better value in a competitive laptop market.",
+          "model": "GPT-4o Mini",
+          "model_id": "openai/gpt-4o-mini",
+          "analyzed_at": "2025-11-11T12:13:10.207946",
+          "token_usage": {
+            "prompt_tokens": 355,
+            "completion_tokens": 597,
+            "total_tokens": 952
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_4_1762863124",
+          "title": "Introducing iPhone Pocket: a beautiful way to wear and carry iPhone - Apple",
+          "description": "Introducing iPhone Pocket: a beautiful way to wear and carry iPhone\u00a0\u00a0AppleApple and Issey Miyake Unite for the iPhone Pocket\u2014\u201cIt\u2019s a Moment of Connecting the Dots\u201d\u00a0\u00a0vogue.comApple made a $230 crossbody\u2026 sock\u00a0\u00a0The VergeApple launches iPhone Pocket: a limited edition designer strap accessory\u00a0\u00a09to5Macissey miyake & apple craft 3D-knitted 'iPhone pocket' as a wearable way to carry your device\u00a0\u00a0Designboom",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZTdIQkdDOWJZWXFzY3dteUR2MWNVbTJ1bktEcTNybkRZMl9oOFluUEEwdGd2ZDhlX0cydjBkS19IQ3gzb291TmRUSzdrNWpGbTYzSjFVNWItaHU5S0hfM0JPMk83WF9xZHpvV2E5TkFTa1JCSUUydXVqclVVcjlqdjJFaHh1blFTcEg3QlUyRGRjTTRSV0lCR2phT2FtekVOQnlVeTR2dzdIdw?oc=5",
+          "source": "Apple",
+          "published": "Tue, 11 Nov 2025 09:03:25 GMT",
+          "topic": "TECHNOLOGY",
+          "fetched_at": "2025-11-11T12:12:04.020304"
+        },
+        "analysis": {
+          "summary": "Apple's introduction of the iPhone Pocket, a limited edition wearable accessory designed in collaboration with Issey Miyake, showcases the brand's commitment to merging fashion with technology. Priced at $230, this unique item highlights the ongoing trend of wearable tech but also raises questions about consumerism and practicality.",
+          "key_points": [
+            "The iPhone Pocket is a crossbody accessory that allows users to carry their iPhone in a stylish manner.",
+            "Collaboration with renowned designer Issey Miyake emphasizes Apple's focus on high-end design and fashion.",
+            "The pricing of $230 positions the iPhone Pocket as a luxury item, appealing to affluent consumers.",
+            "The product reflects a growing trend of integrating technology with fashion, potentially influencing future accessory designs.",
+            "Limited edition status may create a sense of exclusivity, which can drive demand among collectors and brand enthusiasts."
+          ],
+          "sentiment": "mixed",
+          "confidence": "medium",
+          "bias_check": "The story may exhibit a bias towards consumerism and luxury branding, as it is presented by an Apple-led narrative that emphasizes style over functionality. Additionally, it may underrepresent criticisms regarding the practicality and sustainability of high-priced accessories.",
+          "missing_context": "The article does not address consumer reactions beyond the initial launch, nor does it delve into the practicality versus desirability debate surrounding luxury tech accessories. Insights into sustainability and the impact of high pricing on broader economic trends may also be absent.",
+          "implications": "This product launch could signify a shift in how tech companies approach market segmentation, targeting affluent consumers who prioritize aesthetics. It may also encourage other tech brands to explore fashion collaborations, leading to a more significant merger of technology and lifestyle products in the market.",
+          "model": "GPT-4o Mini",
+          "model_id": "openai/gpt-4o-mini",
+          "analyzed_at": "2025-11-11T12:13:23.293512",
+          "token_usage": {
+            "prompt_tokens": 332,
+            "completion_tokens": 466,
+            "total_tokens": 798
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_0_1762863124",
+          "title": "Police Investigate Deadly New Delhi Blast as Possible Terrorist Attack - The New York Times",
+          "description": "Police Investigate Deadly New Delhi Blast as Possible Terrorist Attack\u00a0\u00a0The New York TimesDelhi blast: The night that shook India's capital city\u00a0\u00a0BBCDelhi Explosion Puts India on High Alert; China+1 Back in Focus\u00a0\u00a0Bloomberg.comIndia police investigate final moments of vehicle in fatal Delhi blast\u00a0\u00a0The GuardianDelhi Blast's Telegram Link: How Messaging App Became Playground For Terrorists\u00a0\u00a0NDTV",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQN0J0d3F1dUZNVmgwNlh5WWlHLWpxbW1sQVgwR29oaVZZMlBmZHQzcGZJQzZZdm45MVZIWF9Id2lyN3dyRUZHN2Q1cmloUVMxYy1JU1hweTFSalZ0T2hwRF92OUYzWGdUbDZUM1d2R1JKZEg3QmJSOWVCbjEycnBjRUMwcTF4Zw?oc=5",
+          "source": "The New York Times",
+          "published": "Tue, 11 Nov 2025 08:25:40 GMT",
+          "topic": "WORLD",
+          "fetched_at": "2025-11-11T12:12:04.066652"
+        },
+        "analysis": {
+          "summary": "The recent deadly blast in New Delhi is being investigated as a possible terrorist attack, raising concerns about security in India's capital. This incident has prompted a nationwide alert and has implications for regional stability, particularly in the context of India's ongoing geopolitical tensions.",
+          "key_points": [
+            "The blast occurred in a busy area of New Delhi, leading to immediate casualties and widespread fear among residents.",
+            "Authorities are exploring links to terrorist networks, particularly through encrypted messaging platforms like Telegram, which have been used for coordination and planning.",
+            "The incident has heightened security measures across the city and has triggered discussions on the efficacy of India\u2019s counter-terrorism strategies.",
+            "The possible involvement of foreign elements or groups could exacerbate existing geopolitical tensions, especially with neighboring countries.",
+            "Public sentiment is likely to shift toward increased support for stringent security policies, potentially affecting civil liberties."
+          ],
+          "sentiment": "negative",
+          "confidence": "medium",
+          "bias_check": "The coverage by The New York Times may reflect a Western perspective on security issues in India, potentially lacking nuance regarding local sentiments and the complexities of India's internal politics. There could also be a tendency to sensationalize terrorist threats, which may skew public perception.",
+          "missing_context": "The article might not adequately address the historical context of terrorism in India, including previous incidents and how they have shaped public policy. It may also overlook grassroots perspectives on security and the impact of such incidents on marginalized communities.",
+          "implications": "This event underscores the persistent threat of terrorism in urban areas and could lead to increased government surveillance and security measures. It may also affect India's foreign policy, especially in relation to its neighbors, and heighten public anxiety, potentially resulting in a cycle of fear and repression.",
+          "model": "GPT-4o Mini",
+          "model_id": "openai/gpt-4o-mini",
+          "analyzed_at": "2025-11-11T12:13:35.476685",
+          "token_usage": {
+            "prompt_tokens": 317,
+            "completion_tokens": 363,
             "total_tokens": 680
           }
         }
       },
       {
         "article": {
-          "id": "news_1_1762841428",
-          "title": "Apple delays next version of iPhone Air, the Information reports - Reuters",
-          "description": "Apple delays next version of iPhone Air, the Information reports\u00a0\u00a0ReutersApple Delays Release of Next iPhone Air Amid Weak Sales\u00a0\u00a0The InformationWeak sales delay next iPhone Air model, report claims\u00a0\u00a0MashableThe next iPhone Air has reportedly been delayed\u00a0\u00a0The VergeiPhone Air 2 won't be out in 2026, claims questionable report\u00a0\u00a0AppleInsider",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNbTVvN0I5bE5NR3VkQi02aWIwUVA3bE4xYUJuV05Xa19VaW9SZGxkNTVkSjdGRHg0NUhjUmZxMmk0cEc3ekRuM2IzeHB0SU9CbGdGclRlYUtKWDU1Q1JHUk03UWRxbS1XYXdnUWh0ZHVrMHFoX25QZFNaUFhFd1NYeElpSHFueFRPQkxMSGdFSlI2eW9aNld6RUJWb0dMeDZsM1JpRTZZRFNUYzRQMmdQaQ?oc=5",
-          "source": "Reuters",
-          "published": "Mon, 10 Nov 2025 19:33:39 GMT",
-          "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-11T06:10:28.119254"
-        },
-        "analysis": {
-          "summary": "Apple's decision to delay the release of the next iPhone Air model appears to stem from weaker-than-expected sales, as reported by multiple outlets. This delay raises questions about the current demand for Apple's product lineup and the company's strategy moving forward.",
-          "key_points": [
-            "The next version of the iPhone Air has been delayed, reportedly due to weak sales figures.",
-            "The delay has implications for Apple's product roadmap and could indicate broader challenges in the smartphone market.",
-            "Multiple sources are reporting on this delay, suggesting a consensus on the issue among industry insiders.",
-            "The timing of the release could affect Apple's market position, especially in a competitive landscape with other smartphone manufacturers."
-          ],
-          "sentiment": "negative",
-          "confidence": "medium",
-          "bias_check": "Potential biases may stem from the reporting sources, as some may have vested interests in portraying Apple in a negative light or may overstate the impact of sales figures on product delays. Additionally, the tech media often focuses on sensational aspects of product delays, which might skew the narrative.",
-          "missing_context": "A deeper analysis of market trends, consumer behavior, and Apple's overall sales performance would provide a more comprehensive view. It's also important to consider how external factors, such as economic conditions or supply chain issues, may have influenced this decision.",
-          "implications": "This delay could impact Apple's stock performance and investor confidence, as well as its competitive edge in the smartphone market. It may also signal a shift in consumer preferences or indicate that Apple is taking a more cautious approach to product launches amid changing market dynamics.",
-          "model": "GPT-4o Mini",
-          "model_id": "openai/gpt-4o-mini",
-          "analyzed_at": "2025-11-11T06:10:54.347442",
-          "token_usage": {
-            "prompt_tokens": 304,
-            "completion_tokens": 382,
-            "total_tokens": 686
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_2_1762841428",
-          "title": "Nintendo announces its Black Friday and Cyber Monday 2025 sale: Switch 2 bundles, Switch game deals and more - Engadget",
-          "description": "Nintendo announces its Black Friday and Cyber Monday 2025 sale: Switch 2 bundles, Switch game deals and more\u00a0\u00a0EngadgetNintendo Announces Holiday Offers for Black Friday and Cyber Monday 2025 - News - Nintendo Official Site\u00a0\u00a0NintendoNintendo Announces Black Friday Sale on Switch Games and Accessories\u00a0\u00a0IGNNintendo\u2019s upcoming Black Friday sale includes up to $30 off Switch classics\u00a0\u00a0The VergeNintendo Black Friday 2025 Deals Announced: See All Switch Games Discounted\u00a0\u00a0VICE",
-          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQTTAtOUx0Vms1SFNOY3VVcURrTnVSWWprT0RvX2NUTzJvRVU1Zlg4RTFSQktuME1IMWNjSndJLTh4d3pJMzdITlcwckdLMzJYblVjaVZtUFFxdjM4SWh4VktPVDVJdTJqX2R4OXpvZzFNUzhFbEdHVmxPZl95aVJYc3V2STRESnM4dFoxWTFpdEZCdm9BY2s1emdlV2RJNmtNcVVWeUw1V2c0MG11dHV0aHpHVVg1NTJRU3ZLNExDbnpSblB5eUIzcFg4MDFrWjZ5WTZ1cGRIeWlaT2NfQ0w3QjFvVGR3aEE?oc=5",
-          "source": "Engadget",
-          "published": "Mon, 10 Nov 2025 15:52:23 GMT",
-          "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-11T06:10:28.119305"
-        },
-        "analysis": {
-          "summary": "Nintendo's announcement of its Black Friday and Cyber Monday 2025 sale highlights various promotions, including bundles for the anticipated Switch 2 and discounts on popular Switch games. This strategic move aims to boost sales during the competitive holiday shopping season.",
-          "key_points": [
-            "Nintendo is offering bundles for the highly anticipated Switch 2, indicating confidence in its new console.",
-            "Discounts include up to $30 off on classic Switch games, appealing to both new and loyal customers.",
-            "The promotions are strategically timed for Black Friday and Cyber Monday, two key shopping events that significantly impact retail sales.",
-            "This sale could help Nintendo maintain its market share amid increasing competition from other gaming companies.",
-            "The announcement reflects Nintendo's ongoing commitment to engage its consumer base with attractive offers."
-          ],
-          "sentiment": "positive",
-          "confidence": "medium",
-          "bias_check": "Potential biases in this story may stem from the source's affiliation with gaming culture, potentially leading to an overly enthusiastic portrayal of Nintendo's sales strategies. The article may also reflect a bias towards consumerism and holiday shopping practices.",
-          "missing_context": "The article lacks context regarding the competitive landscape of the gaming industry, particularly how Nintendo's sales strategies compare to rivals like Sony and Microsoft. Additionally, there is no mention of how past sales have performed, which could give insight into the effectiveness of these promotions.",
-          "implications": "The success of this sale could have significant implications for Nintendo's overall market strategy and financial performance in 2025. Moreover, it may influence consumer purchasing behaviors and set trends for future sales events in the gaming industry.",
-          "model": "GPT-4o Mini",
-          "model_id": "openai/gpt-4o-mini",
-          "analyzed_at": "2025-11-11T06:11:25.361959",
-          "token_usage": {
-            "prompt_tokens": 336,
-            "completion_tokens": 612,
-            "total_tokens": 948
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_3_1762841428",
-          "title": "Banned and Restricted Announcement \u2013 November 10, 2025 - Magic: The Gathering",
-          "description": "Banned and Restricted Announcement \u2013 November 10, 2025\u00a0\u00a0Magic: The Gathering\u2018Magic: The Gathering\u2019 Ends the Tyrannical Scourge of This Lil\u2019 Guy\u00a0\u00a0GizmodoVivi Ornitier One Of Three Magic Cards Banned In Standard\u00a0\u00a0Star City GamesMagic: The Gathering\u2019s November 10th Ban Update\u00a0\u00a0Hipsters of the CoastBreaking News: MTG Bans in 6 Formats on November 10th!\u00a0\u00a0Card Game Base",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxObF9SVjdXWXJnbUR2S2RUdHA5UjEwTmhSeV9BYjJQRGtlX29JYlBfcEpXS2NwZzR1RGJqUXRwM0xoSV85MEJJVnJ1OFNfZkZvYkdXcjk2WE5UdXZPaTc3RGhVNk9Vbm9QRFdXM2kxSktBeU5tSDBoYVo0ZzdpY1ZlUS1aV2tGNmxvOFhUME5EMA?oc=5",
-          "source": "Magic: The Gathering",
-          "published": "Mon, 10 Nov 2025 16:07:30 GMT",
-          "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-11T06:10:28.119354"
-        },
-        "analysis": {
-          "summary": "The recent Banned and Restricted Announcement for Magic: The Gathering on November 10, 2025, signals significant changes in gameplay dynamics, particularly with the banning of Vivi Ornitier and two other cards in the Standard format. This decision reflects the ongoing efforts by Wizards of the Coast to maintain balance and fairness in competitive play.",
-          "key_points": [
-            "Three cards, including Vivi Ornitier, have been banned in the Standard format, indicating a shift in the competitive landscape.",
-            "The decision is part of a broader strategy by Wizards of the Coast to address potential power imbalances and ensure a diverse metagame.",
-            "Bans in multiple formats suggest that the impact of certain cards was felt across various gameplay styles, indicating their overpowered nature.",
-            "Community reaction can vary widely, with some players supporting the bans for fairness while others may feel disenfranchised by the changes.",
-            "This announcement positions Wizards of the Coast to proactively manage gameplay before issues escalate further."
-          ],
-          "sentiment": "mixed",
-          "confidence": "medium",
-          "bias_check": "Potential biases in this story may stem from the perspectives of vocal community members who either support or oppose the bans. Additionally, media outlets may have a bias toward sensationalizing the implications of card bans based on their audience's preferences.",
-          "missing_context": "The article may lack in-depth analysis of why these specific cards were deemed problematic, including game statistics, player feedback, or historical context regarding similar bans. It also may not explore the economic impact on players who invested in these cards.",
-          "implications": "The bans could lead to a shift in player strategies and deck compositions, potentially revitalizing the competitive scene. However, they may also alienate a segment of the player base who favored the banned cards, impacting community engagement and spending on Magic: The Gathering products.",
-          "model": "GPT-4o Mini",
-          "model_id": "openai/gpt-4o-mini",
-          "analyzed_at": "2025-11-11T06:11:31.861546",
-          "token_usage": {
-            "prompt_tokens": 333,
-            "completion_tokens": 391,
-            "total_tokens": 724
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_4_1762841428",
-          "title": "Apple AirPods 4 Drop to a New All-Time Low Price Ahead of Black Friday (Today Only) - IGN",
-          "description": "Apple AirPods 4 Drop to a New All-Time Low Price Ahead of Black Friday (Today Only)\u00a0\u00a0IGNApple AirPods 4 earbuds land at $85 ahead of Black Friday with the best discount yet\u00a0\u00a0CNNThe Best Deals Today: Apple AirPods 4, Yakuza 0 Director's Cut, Seven Samurai 4K Blu-ray, and More\u00a0\u00a0IGNApple deals of the week: Record-low prices on AirPods and Apple Watches\u00a0\u00a0Yahoo! TechApple Drops Black Friday Bombshell, AirPods 4 Now Selling for Cheaper Than Budget No-Name Earbuds\u00a0\u00a0Gizmodo",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRzIwUHVvQlJUT243SnpWVDc1Zm5pQk00N3BmOXh4MXNvOFRqQURkc3ZfZ2FWRDdKRlZKWTFQM292LWU5eDNoMUN0TEJOUVEzR1BSRTROWkN1cDhLQVhZUEVTT0o0SGFHY2ZaQ0FuMTQ1NVNGaDRTTnZDaTlmcUYzVHlrTWVkSVI4UDQ1TUpOMVlZdWpnNDNMOFpxSmZwNUxXM3RYRjhhLWdxcTNqMVB3?oc=5",
-          "source": "IGN",
-          "published": "Mon, 10 Nov 2025 15:27:54 GMT",
-          "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-11T06:10:28.119420"
-        },
-        "analysis": {
-          "summary": "The article highlights a significant price drop for the Apple AirPods 4, now available for $85, marking a record low ahead of Black Friday sales. This announcement positions Apple as a competitive player in the audio market, especially against budget alternatives.",
-          "key_points": [
-            "The price drop to $85 represents an unprecedented discount for the AirPods 4, suggesting a strategic move by Apple to increase sales volume during the holiday shopping season.",
-            "The timing of the discount, just before Black Friday, indicates an effort to capture early holiday shoppers and enhance brand visibility among competing products.",
-            "Comparisons to budget no-name earbuds emphasize Apple's value proposition, showcasing quality and brand recognition in contrast to cheaper alternatives."
-          ],
-          "sentiment": "positive",
-          "confidence": "medium",
-          "bias_check": "Potential biases may stem from the source's affiliation with tech and gaming culture, which could influence the framing of Apple products as superior or more desirable despite price drops. Additionally, the emphasis on record low prices may overlook consumer concerns about product longevity and usability.",
-          "missing_context": "The article lacks information on how the discount affects overall market competition, consumer behavior trends during Black Friday, and any potential impact on Apple's brand perception. It also doesn't discuss customer satisfaction or reviews of the AirPods 4, which could provide insights into whether the product's reduced price reflects a decrease in quality or just a marketing strategy.",
-          "implications": "This price drop may signal a shift in the audio product market dynamics, as major brands like Apple compete more aggressively with budget alternatives. It also raises questions about consumer expectations for pricing and quality, potentially leading to a reevaluation of brand loyalty in the face of more affordable options.",
-          "model": "GPT-4o Mini",
-          "model_id": "openai/gpt-4o-mini",
-          "analyzed_at": "2025-11-11T06:11:37.927600",
-          "token_usage": {
-            "prompt_tokens": 360,
-            "completion_tokens": 362,
-            "total_tokens": 722
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_0_1762841428",
-          "title": "New Delhi Explosion Kills Eight People, Leaves Several Hurt - Bloomberg.com",
-          "description": "New Delhi Explosion Kills Eight People, Leaves Several Hurt\u00a0\u00a0Bloomberg.comIndia Is Investigating a Deadly Car Explosion. Here\u2019s What to Know.\u00a0\u00a0The New York TimesIndia police investigate vehicle involved in fatal Delhi explosion\u00a0\u00a0The GuardianDelhi red fort blast live: Terrorism law invoked in India after 9 killed\u00a0\u00a0Al JazeeraUP Trader, Who Had Come To Buy Goods In Delhi, Killed In Red Fort Blast\u00a0\u00a0NDTV",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTFctRlVIUlBYazFScHJxakYwdlV4emljTTFCWUtfTXJTdXVETXZMQ3J4QlQwTXhwSmdFLTFzdEFLRlNOV2l3WkZocHozZ3NERlFFVEZtaVJOc25Ielc3YVlKRlBxbVdBYjNRQmxSU1RNdnp2NlRYajBVdG9iT1VLZDhtelFPYjJjMk04MFlVWV9tSEJ2c3VfSU1pUHczNGFfU1VtdjAxcVIyeGFTMHc?oc=5",
-          "source": "Bloomberg.com",
-          "published": "Tue, 11 Nov 2025 03:20:00 GMT",
-          "topic": "WORLD",
-          "fetched_at": "2025-11-11T06:10:28.251418"
-        },
-        "analysis": {
-          "summary": "A tragic car explosion in New Delhi has resulted in the deaths of eight individuals and left several others injured. As authorities investigate the incident, it raises concerns about security and public safety in a city with a history of violence and unrest.",
-          "key_points": [
-            "The explosion occurred at a high-profile location, prompting immediate investigations by local authorities.",
-            "Initial reports indicate that terrorism laws are being invoked, indicating a serious threat perception.",
-            "Victims include a trader who was in the city for business, highlighting the potential impact on commerce and tourism.",
-            "The incident has sparked discussions about the adequacy of security measures in urban areas of India.",
-            "The response from the government and law enforcement will likely play a crucial role in shaping public perception and future policies."
-          ],
-          "sentiment": "negative",
-          "confidence": "high",
-          "bias_check": "Potential biases may stem from media framing that could sensationalize the event or politicize the response, particularly given the historical context of terrorism in India.",
-          "missing_context": "There may be a lack of information regarding the motivations behind the explosion, historical patterns of violence in the region, and the government's previous track record in handling such incidents.",
-          "implications": "This incident may lead to heightened security measures in urban areas, increased scrutiny of law enforcement effectiveness, and could potentially affect the political landscape as citizens demand accountability and safety.",
-          "model": "GPT-4o Mini",
-          "model_id": "openai/gpt-4o-mini",
-          "analyzed_at": "2025-11-11T06:12:05.337282",
-          "token_usage": {
-            "prompt_tokens": 319,
-            "completion_tokens": 387,
-            "total_tokens": 706
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_1_1762841428",
-          "title": "Taiwan evacuates 3,000 as it awaits Typhoon Fung-wong - Reuters",
-          "description": "Taiwan evacuates 3,000 as it awaits Typhoon Fung-wong\u00a0\u00a0ReutersTaiwan issues land warning for Typhoon Fung-Wong\u00a0\u00a0Focus TaiwanSea alert raised as Fung-wong moves northward\u00a0\u00a0Taipei TimesTyphoon Fung-wong: T1 to remain in force in Hong Kong; stronger signal unlikely\u00a0\u00a0South China Morning PostA woman holds her umbrella amidst strong winds and rain as Typhoon Fung-wong approaches, in Taipei\u00a0\u00a0Reuters Connect",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPTW13UEI3ajA5a1lhd1lZYU55SjdlWktjRllxYmpHclZPMXdRaFhILW0tVnhEZ2tYd2Z1VlZqQWphSEl0dmJEUnFzbFZ4NGVkajkwRW1MMWc4ZTJmTFh2d0JQUFZKWktEMzFiRUVJR1JkdEVJSU5OMXFYZFBfQngxX3JodUNZSXctakFRMU9rc0JFNFYtVFFvSVhKcEFqVnZsVTNuSXpxTmYzYm9OTnFB?oc=5",
-          "source": "Reuters",
-          "published": "Tue, 11 Nov 2025 04:45:00 GMT",
-          "topic": "WORLD",
-          "fetched_at": "2025-11-11T06:10:28.251451"
-        },
-        "analysis": {
-          "summary": "Taiwan has initiated the evacuation of approximately 3,000 residents as Typhoon Fung-wong approaches, demonstrating a proactive approach to disaster management. This response underscores the heightened alertness in the region as the typhoon intensifies and moves northward, affecting not only Taiwan but potentially neighboring areas.",
-          "key_points": [
-            "Taiwan's government is prioritizing public safety by evacuating residents in at-risk areas ahead of Typhoon Fung-wong's landfall.",
-            "Typhoon Fung-wong's trajectory poses a significant threat as it approaches populated regions, which necessitates timely governmental action to protect citizens.",
-            "The issuance of land warnings reflects a systematic approach to disaster preparedness in Taiwan, which has historically faced severe weather events.",
-            "The situation is compounded by existing infrastructure challenges and previous experiences with typhoons, highlighting the ongoing need for robust emergency response systems in the region.",
-            "Regional impacts may extend beyond Taiwan, potentially affecting neighboring areas such as Hong Kong, as indicated by the issuance of alerts and warnings."
-          ],
-          "sentiment": "positive",
-          "confidence": "medium",
-          "bias_check": "The article may exhibit a bias towards highlighting government responsiveness and disaster preparedness, potentially downplaying the risks or consequences faced by the affected populations.",
-          "missing_context": "The article lacks in-depth analysis of the historical impact of previous typhoons on Taiwan's infrastructure and economy, as well as the emotional and psychological toll on residents facing evacuation. Additionally, it does not provide information on the effectiveness of past evacuation efforts or contingency plans in place.",
-          "implications": "The proactive measures taken by Taiwan in the face of Typhoon Fung-wong may set a precedent for disaster management in the region, emphasizing the importance of preparedness. However, it also raises questions about the resilience of local communities, the adequacy of response measures, and the long-term implications of climate change on weather patterns in East Asia.",
-          "model": "GPT-4o Mini",
-          "model_id": "openai/gpt-4o-mini",
-          "analyzed_at": "2025-11-11T06:12:16.586874",
-          "token_usage": {
-            "prompt_tokens": 324,
-            "completion_tokens": 509,
-            "total_tokens": 833
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_2_1762841428",
-          "title": "Super Typhoon Fung-wong slams Philippines in wake of Typhoon Kalmaegi - The Washington Post",
-          "description": "Super Typhoon Fung-wong slams Philippines in wake of Typhoon Kalmaegi\u00a0\u00a0The Washington PostPhilippines typhoon aftermath: 'Water levels are rising fast'\u00a0\u00a0BBCPhilippines digs out from Typhoon Fung-wong as death toll climbs to 18\u00a0\u00a0YahooStorm approaches Taiwan after causing 18 deaths and destruction in the Philippines\u00a0\u00a0AP NewsPhilippine Church activates relief network as deadly storms strike back-to-back\u00a0\u00a0Vatican News",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNc2NhUXcxc3VpUEsxa0RKSzhGUU9TTlQxaDFmUzZwVTducXFUYzNzTW1IdWhfNVJGMVpsWW9NZFZBeGV5M3ltRGlQdFFhMllxc2tQd3pmWlRiOVliM3pwNng1dGZNN3ctQlNhUmNsaGlsd29KcG1tUmZELTZYa2tJMktQTTE1OXJYcWtHU2FLVzJkWGVEVUJ4ZVFZUV8tUQ?oc=5",
-          "source": "The Washington Post",
-          "published": "Tue, 11 Nov 2025 02:11:45 GMT",
-          "topic": "WORLD",
-          "fetched_at": "2025-11-11T06:10:28.251470"
-        },
-        "analysis": {
-          "summary": "Super Typhoon Fung-wong has wreaked havoc in the Philippines, following closely on the heels of Typhoon Kalmaegi. The storms have resulted in at least 18 fatalities and significant destruction, prompting a humanitarian response as the nation grapples with the aftermath of consecutive natural disasters.",
-          "key_points": [
-            "Super Typhoon Fung-wong struck shortly after Typhoon Kalmaegi, compounding the devastation in the region.",
-            "The death toll has risen to at least 18, highlighting the immediate human cost of these storms.",
-            "Rising water levels and destruction of infrastructure pose ongoing risks for affected communities.",
-            "Relief efforts are being mobilized by various organizations, including the Philippine Church, to address the urgent needs of those impacted.",
-            "The storms underscore the increasing frequency and intensity of typhoons in the Philippines, likely exacerbated by climate change."
-          ],
-          "sentiment": "negative",
-          "confidence": "high",
-          "bias_check": "Potential biases in this story could stem from the media's focus on death tolls and destruction, which may overshadow ongoing resilience efforts and recovery initiatives. Additionally, the framing of natural disasters in the context of climate change could reflect a certain ideological stance.",
-          "missing_context": "The article may lack context regarding the long-term recovery strategies being implemented in the Philippines, the capacity of local governments to respond to such disasters, and the role of international aid. Furthermore, there may be limited discussion on the socio-economic factors that exacerbate vulnerability in affected areas.",
-          "implications": "This series of typhoons highlights the urgent need for enhanced disaster preparedness and climate resilience strategies in the Philippines. It may also draw attention to the need for global cooperation in addressing climate change and supporting vulnerable nations. The humanitarian response will likely have long-term implications for governance and community recovery efforts.",
-          "model": "GPT-4o Mini",
-          "model_id": "openai/gpt-4o-mini",
-          "analyzed_at": "2025-11-11T06:12:22.749188",
-          "token_usage": {
-            "prompt_tokens": 328,
-            "completion_tokens": 435,
-            "total_tokens": 763
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_3_1762841428",
-          "title": "Former French President Sarkozy released from prison pending appeal in conspiracy case - AP News",
-          "description": "Former French President Sarkozy released from prison pending appeal in conspiracy case\u00a0\u00a0AP NewsFormer French president Sarkozy released from prison after three weeks\u00a0\u00a0BBCNicolas Sarkozy says he wants to \u2018prove his innocence\u2019 as he is released from prison\u00a0\u00a0The GuardianFrench appeals court orders Sarkozy's release from jail\u00a0\u00a0Le Monde.frSarkozy Freed From Paris Jail \u2018Nightmare\u2019 After Just 20 Days\u00a0\u00a0Bloomberg.com",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOelVOLV9UazZQeS0tM2sxcWxVRW1qaXd4ZmxaZ0thc21nS3N5V25vbkptY2hsRmg2VnRGaWc3VnpVcm9xSEZjY0hCOG1sRGFXWWItS0c0SkFXY3NoblBSU1B4VWxueGRMVDBONlJhaHE1T1dTN3M3cGdMRjB0MkJRcEwzZkFpY18xc1lTTzMyVVg2S0k?oc=5",
+          "id": "news_1_1762863124",
+          "title": "A suicide bomber targets an Islamabad court, killing 12 people and wounding 27, minister says - AP News",
+          "description": "A suicide bomber targets an Islamabad court, killing 12 people and wounding 27, minister says\u00a0\u00a0AP NewsSuicide attack outside Islamabad court kills 12, interior minister says\u00a0\u00a0BBC12 killed in deadliest attack on Pakistan\u2019s heartland in almost a decade\u00a0\u00a0The Washington PostSuicide bombing kills at least 12 in Islamabad\u00a0\u00a0Financial TimesIslamabad bomb blast live: 12 dead in Pakistan capital in \u2018suicide attack\u2019\u00a0\u00a0Al Jazeera",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNUEk5WTFpdHZCdGhGR3NFbWhzM05jSTNWUDQ4RjRZU2hZQXZfZmYtWWZuNG81aTJTUjVtamNkVHNwTFJzVHpBaEc1RmN6Q2JfdV9ZNzFscDNDdjlrUy1pMXJSUWo4QzZ0WHMyZkRLYzNydWg2QmxidnVnLWpyNkhYcXZuRDhRd3AzSW1USTc4NjN0bnIxZHZhc0t6VWY2U2hiaGdmeFRiX25zbzd6clE1WlJOcWdCQ2hESUVMSy1VX1BzQQ?oc=5",
           "source": "AP News",
-          "published": "Mon, 10 Nov 2025 19:57:00 GMT",
+          "published": "Tue, 11 Nov 2025 10:56:00 GMT",
           "topic": "WORLD",
-          "fetched_at": "2025-11-11T06:10:28.251492"
+          "fetched_at": "2025-11-11T12:12:04.066687"
         },
         "analysis": {
-          "summary": "Former French President Nicolas Sarkozy has been released from prison after serving three weeks of a one-year sentence related to a conspiracy case, pending an appeal. Sarkozy expresses his determination to prove his innocence, framing his imprisonment as a 'nightmare' and suggesting a desire to reclaim his reputation.",
+          "summary": "A suicide bombing outside a court in Islamabad has resulted in the deaths of at least 12 individuals and injuries to 27 others, marking one of the deadliest attacks in Pakistan in nearly a decade. This incident has raised concerns about security in the capital and the resurgence of extremist violence in the region.",
           "key_points": [
-            "Sarkozy was sentenced to one year in prison for conspiracy, with a portion of that potentially being served under home confinement.",
-            "His release comes after a French appeals court ruled in favor of allowing him to appeal the case outside of prison.",
-            "Sarkozy has publicly declared his intent to prove his innocence, indicating a combative stance against the legal proceedings.",
-            "The case has significant political ramifications, as Sarkozy is a prominent figure in French politics and former head of state.",
-            "This incident highlights ongoing issues related to political corruption and accountability in France."
-          ],
-          "sentiment": "mixed",
-          "confidence": "medium",
-          "bias_check": "Potential biases may arise from the media's portrayal of Sarkozy as a victim of political persecution versus a legitimate offender facing legal consequences. Different outlets may emphasize either his political stature or the legal integrity of the case, which can shape public perception.",
-          "missing_context": "The article lacks detailed information about the nature of the conspiracy charges against Sarkozy and the potential impact of his release on public opinion and the political landscape in France. Additionally, the responses from various political factions or legal experts are not included, which could provide a more rounded view of the situation.",
-          "implications": "Sarkozy's release pending appeal could set a precedent for how political figures in France navigate legal challenges, potentially influencing future cases involving high-profile individuals. It also raises questions about the integrity of the judicial system and the balance between accountability and political influence, particularly in the context of ongoing debates about corruption in French politics.",
-          "model": "GPT-4o Mini",
-          "model_id": "openai/gpt-4o-mini",
-          "analyzed_at": "2025-11-11T06:12:42.373004",
-          "token_usage": {
-            "prompt_tokens": 312,
-            "completion_tokens": 484,
-            "total_tokens": 796
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_4_1762841428",
-          "title": "Japan and China exchange barbs after prime minister's remarks over Taiwan - Politico",
-          "description": "Japan and China exchange barbs after prime minister's remarks over Taiwan\u00a0\u00a0PoliticoChinese diplomat threatens to cut off new Japanese PM's head over Taiwan comments\u00a0\u00a0Fox NewsJapan and China in growing row after PM Takaichi says Taiwan conflict could trigger military deployment\u00a0\u00a0The GuardianChinese official threatens to behead Japanese PM over Taiwan row\u00a0\u00a0The TelegraphExplainer: Why did Japan PM's Taiwan remarks cause such a stir?\u00a0\u00a0Reuters",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxONEw2Mm5YR0gyem1fc0dfa2NqN005S3FxMlJ0UGtuVFViUkZ4b2piY3EtLXJaaG1lajJiVkFLYkI0MU5PM2dnZGlwMXpqTTdZNkxUWlVQYXdmb2VselViMWlzc3hrc3hLWGFxNDROeDdxUmZDUi1HaHZvdlRybll5TlAyNHR2c0FMcERoQ19pQTZ5aTJKazduZmlVUlNGVjc5U0c2NmpIQ3V0eHhIMFJnX0VPX05BOGxBaVFjM01vbw?oc=5",
-          "source": "Politico",
-          "published": "Tue, 11 Nov 2025 04:50:00 GMT",
-          "topic": "WORLD",
-          "fetched_at": "2025-11-11T06:10:28.251509"
-        },
-        "analysis": {
-          "summary": "Tensions between Japan and China have escalated following remarks by Japan's Prime Minister regarding the potential military implications of a conflict over Taiwan. China's strong reaction, including threats against the Japanese leader, underscores the fragile state of diplomatic relations in the region, particularly concerning issues of sovereignty and military presence.",
-          "key_points": [
-            "Japan's Prime Minister Takaichi suggested that a conflict over Taiwan could lead to a military response from Japan, indicating a potential shift in Japan's defense posture.",
-            "China's diplomatic response was notably aggressive, with threats directed toward Japan's leadership, showcasing the sensitivity of Taiwan-related discussions.",
-            "This exchange highlights the broader geopolitical tensions in East Asia, particularly as both nations navigate their roles in regional security dynamics.",
-            "The incident reflects long-standing historical grievances and nationalistic sentiments that can quickly escalate into hostile rhetoric.",
-            "Media coverage varies significantly, with different outlets framing the narrative to emphasize contrasting perspectives on military readiness and diplomatic decorum."
-          ],
-          "sentiment": "negative",
-          "confidence": "medium",
-          "bias_check": "The article may exhibit bias based on the outlet's perspectives, particularly regarding how Japanese and Chinese actions are interpreted. Politico's framing may emphasize the confrontational aspects due to its audience, potentially downplaying the diplomatic nuances.",
-          "missing_context": "The article lacks deeper context regarding the historical relations between Japan and China, particularly concerning past conflicts and ongoing territorial disputes. Additionally, insights into the strategic military alliances in the region, such as Japan's relationship with the U.S., would provide a more comprehensive understanding.",
-          "implications": "The exchange could signify a turning point in Japan's military strategy, potentially aligning it more closely with U.S. interests in countering China's influence. This situation may also encourage regional partners to reassess their security strategies, leading to an arms race or increased military cooperation among allies, which could further destabilize the region.",
-          "model": "GPT-4o Mini",
-          "model_id": "openai/gpt-4o-mini",
-          "analyzed_at": "2025-11-11T06:12:51.845013",
-          "token_usage": {
-            "prompt_tokens": 317,
-            "completion_tokens": 488,
-            "total_tokens": 805
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_0_1762841428",
-          "title": "Canceled flights live updates with thousands more flights scratched in U.S. over government shutdown - CBS News",
-          "description": "Canceled flights live updates with thousands more flights scratched in U.S. over government shutdown\u00a0\u00a0CBS News\u2018What Was the Point?\u2019 Travelers Battle Airport Disruptions Amid Shutdown Talks.\u00a0\u00a0The New York TimesFAA orders airport closure for Phoenix Sky Harbor. Commercial flights continue\u00a0\u00a0The Arizona RepublicMore flight cancellations after shutdown\u2019s worst day for air travel\u00a0\u00a0The Washington PostFlight reductions increase to 6% on Tuesday\u00a0\u00a0The Hill",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQOG9WaU0xSUE3WWFqS2FVLUlDRVNwdXlHWlJ3T1ZtWXVFMWgyTmdVMWxCUVRjYjZ2NllwQ0twVnhGWWdhdE03QlNmc3NGN005VjFmYkdUUzRxQmM4T211bXhhYWlWdUZYUnMya1ZSNFpoZEJzRm1peG43YkhoX1M3d1pB0gGHAUFVX3lxTE9oTTRoZ2loRFRFQUd1bzlVc1k3TkZRS01ocjBDR0VkLWlzbXozYldiYUFKYzl3N3NDcW9mQ2I0LWg5YzlJUzdZZTdkWTEwYk9MNUJvU2FaRGctYUd6ZVpCMTNnaVRNekpZZUozWUZRczRaN2E3MUpxZTk0UW1lTkIydjN0MnJMaw?oc=5",
-          "source": "CBS News",
-          "published": "Tue, 11 Nov 2025 00:56:00 GMT",
-          "topic": "BUSINESS",
-          "fetched_at": "2025-11-11T06:10:28.355629"
-        },
-        "analysis": {
-          "summary": "The ongoing government shutdown has led to significant disruptions in air travel across the United States, with thousands of flights canceled and airports like Phoenix Sky Harbor facing operational challenges. Travelers are expressing frustration as the situation worsens amid stalled negotiations in Congress.",
-          "key_points": [
-            "The Federal Aviation Administration (FAA) has ordered airport closures, particularly impacting major hubs such as Phoenix Sky Harbor.",
-            "The shutdown has resulted in a 6% reduction in commercial flights, exacerbating travel chaos.",
-            "Travelers are battling not only cancellations but also the uncertainty and stress stemming from the ongoing political stalemate regarding government funding."
+            "The attack occurred outside a court in Islamabad, a significant location that underscores the vulnerability of public spaces in urban areas.",
+            "This bombing is described as the deadliest attack in Pakistan's capital in almost ten years, highlighting a troubling trend of increasing violence.",
+            "The incident has implications for national security policies and the effectiveness of counter-terrorism measures in Pakistan.",
+            "Government officials and law enforcement agencies may face increased scrutiny regarding their ability to prevent such attacks.",
+            "Public sentiment may shift towards a demand for stricter security measures, affecting civil liberties and the political landscape."
           ],
           "sentiment": "negative",
           "confidence": "high",
-          "bias_check": "Potential biases might stem from framing the shutdown as a political failure, which could influence reader perceptions of responsibility. Additionally, media sources may prioritize traveler frustrations over the broader political context, leading to a one-sided narrative.",
-          "missing_context": "The article may lack perspectives from government officials about the reasons behind the shutdown, as well as insights into how long-term operational changes might impact air travel beyond immediate disruptions. There may also be insufficient coverage of the economic impact on airlines and related industries.",
-          "implications": "This situation highlights the vulnerability of critical infrastructure to political decisions, raising questions about the effectiveness of government operations during a shutdown. It may also lead to increased public scrutiny of government accountability and the need for reforms to prevent similar occurrences in the future.",
+          "bias_check": "Potential biases in this story may arise from the framing of the attack as part of a larger narrative about terrorism in Pakistan, which can lead to oversimplification of complex socio-political issues. Additionally, media outlets may have varying emphasis on the government's response or the impact on civil liberties.",
+          "missing_context": "The article does not provide sufficient context regarding the motivations behind the attack, the identity of the perpetrators, or the historical background of similar incidents in Pakistan. Additionally, it lacks an examination of the socio-political environment that may have contributed to this violence.",
+          "implications": "The bombing could lead to a reevaluation of security strategies within Pakistan, potentially resulting in increased militarization of urban areas and heightened tensions between the state and citizens. It may also inspire fear and anxiety among the population, affecting daily life and trust in government institutions. Furthermore, this incident could provoke discussions about the root causes of extremism, including socio-economic factors and political disenfranchisement.",
           "model": "GPT-4o Mini",
           "model_id": "openai/gpt-4o-mini",
-          "analyzed_at": "2025-11-11T06:12:58.766579",
+          "analyzed_at": "2025-11-11T12:13:43.718646",
+          "token_usage": {
+            "prompt_tokens": 331,
+            "completion_tokens": 557,
+            "total_tokens": 888
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_2_1762863124",
+          "title": "Iraqis vote in election they expect to bring little reform - Reuters",
+          "description": "Iraqis vote in election they expect to bring little reform\u00a0\u00a0ReutersAs Iraqis Vote for a Parliament, U.S. Presses to Rid Country of Iran\u2019s Influence\u00a0\u00a0The New York TimesIraq parliamentary elections: What we know\u00a0\u00a0Al JazeeraIraqis vote in a parliamentary election marked by tight security and a major political boycott\u00a0\u00a0abcnews.go.comIraq\u2019s displaced Yazidis and security forces cast ballots in early voting in parliament election\u00a0\u00a0AP News",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZUpIWDVyVUpJU2tPeEt5Vmh2Sm9IV3A3eUo2ak1NMHBrQXdQaFZyNkgzQTVuaHNMVHpjT0lrbEQwdzlXT3M4TDk0R1BrbE5BaHNFYWZ2THpfVUluTDBta2t2X0M2V3dlUEZWM1pGY05ZckVZSDM3TkJSdGhfMmhUdXZiajV6UzNsZUJpVWNVMEM2STN3VnN4dXVTLUZsSElQR2Vhc3BGVllmQQ?oc=5",
+          "source": "Reuters",
+          "published": "Tue, 11 Nov 2025 09:08:44 GMT",
+          "topic": "WORLD",
+          "fetched_at": "2025-11-11T12:12:04.066710"
+        },
+        "analysis": {
+          "summary": "The recent Iraqi parliamentary elections are characterized by widespread skepticism among voters regarding the potential for meaningful reform. Despite the tight security and early voting measures, many Iraqis believe that the election will not yield significant changes in governance or reduce foreign influence, particularly from Iran.",
+          "key_points": [
+            "A significant portion of the Iraqi populace is participating in the elections with low expectations for reform.",
+            "The elections are taking place under tight security measures, suggesting concerns about safety and stability.",
+            "There is a notable political boycott, indicating disillusionment with the election process among some groups.",
+            "U.S. interests are focused on diminishing Iranian influence in Iraq, highlighting geopolitical tensions.",
+            "The early voting included displaced populations, such as Yazidis, underscoring ongoing humanitarian challenges."
+          ],
+          "sentiment": "negative",
+          "confidence": "high",
+          "bias_check": "Potential biases may stem from the reporting outlet's geopolitical stance, particularly concerning U.S. influence and Iranian presence in Iraq. The portrayal of Iraqi voters' sentiments could be influenced by the outlet's framing of foreign intervention.",
+          "missing_context": "The article may lack perspectives from grassroots movements advocating for reform or voices from those who are hopeful about the electoral process. Additionally, the historical context of previous elections and their outcomes would provide a clearer understanding of current voter sentiment.",
+          "implications": "The low expectations for reform in this election could lead to increased political apathy and disengagement among the populace, which may further entrench existing governance issues. Additionally, ongoing foreign influence, especially from Iran, could complicate Iraq's path to sovereignty and stability, affecting regional dynamics.",
+          "model": "GPT-4o Mini",
+          "model_id": "openai/gpt-4o-mini",
+          "analyzed_at": "2025-11-11T12:13:53.619298",
           "token_usage": {
             "prompt_tokens": 320,
-            "completion_tokens": 393,
-            "total_tokens": 713
+            "completion_tokens": 465,
+            "total_tokens": 785
           }
         }
       },
       {
         "article": {
-          "id": "news_1_1762841428",
-          "title": "Buffett Says He\u2019s \u2018Going Quiet,\u2019 Picking Up Donation Pace - Bloomberg.com",
-          "description": "Buffett Says He\u2019s \u2018Going Quiet,\u2019 Picking Up Donation Pace\u00a0\u00a0Bloomberg.comWarren Buffett: \u2018I\u2019m going quiet\u2019\u00a0\u00a0CNN\u2018Going Quiet\u2019: Nine Big Takeaways From Warren Buffett\u2019s Last Letter as CEO\u00a0\u00a0The Wall Street JournalWarren Buffett\u2019s Berkshire Hathaway Farewell: \u2018I\u2019m Going Quiet\u2019\u00a0\u00a0The New York TimesWarren Buffett will no longer write annual letter, speak at Berkshire Hathaway shareholder meeting\u00a0\u00a0Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWHBPTjE0RUFQNnJBYkhSWFZkRGpYNzk1Wk5PckZsNE9ha3hFeXNleFF5bkFUU01iNWJyQlRoY21tUGduRHBEM3dwRUlrNmMzOUlldG5KV3BRSlpROGNwZ3U5VGcxTldKc3Zqc0JxNFhqNmVldGk1bHFUWElhUE9lZE9uLUNyMS02VUtIYlN0ZF8tcWNDQlYySUtvb0JNbG5KaVZ5ZU16b0k3TnU2R01WdA?oc=5",
-          "source": "Bloomberg.com",
-          "published": "Mon, 10 Nov 2025 21:42:51 GMT",
-          "topic": "BUSINESS",
-          "fetched_at": "2025-11-11T06:10:28.355655"
+          "id": "news_3_1762863124",
+          "title": "New 'Lucifer' bee with devil-like horns found in Australia - BBC",
+          "description": "New 'Lucifer' bee with devil-like horns found in Australia\u00a0\u00a0BBCDemonic horns and a devilish name: New 'Lucifer' bee discovered in Australia\u00a0\u00a0NBC NewsScientists discover new \"lucifer\" bee with devil-like horns lurking in critically endangered wildflower in Australia\u00a0\u00a0CBS NewsBee species with horns discovered and named \u2018Lucifer\u2019\u00a0\u00a0The TelegraphAustralia\u2019s Newly Discovered Horned \u201cDevil\u201d Bee Will Have You Buzzing\u00a0\u00a0Yahoo",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9xVGNsWmkxZ2NHMkVlWm9DRDRwaFVqZi1oOU5YUTVQTlhHMm9ucHRSYXhnRTh0X3RmM2MzcGR3SlNzc0dLcUFySVRmTEprUGkweW8wSUh6RUV2QdIBX0FVX3lxTE9wOGRqVlhOTzE4NE9uZHd5YjVCVUpQSlIwdEsyanpuOGJDX3pKWFdOaXJ6SGZocTdiNnlXMXJVUmREYlNROVJ6Y3FfcXdVYkVHOEgwbzNIdWhNSHRrMzlR?oc=5",
+          "source": "BBC",
+          "published": "Tue, 11 Nov 2025 02:29:59 GMT",
+          "topic": "WORLD",
+          "fetched_at": "2025-11-11T12:12:04.066730"
         },
         "analysis": {
-          "summary": "Warren Buffett has announced that he will be stepping back from his public persona, ceasing to write annual letters and speak at Berkshire Hathaway's shareholder meetings, while simultaneously increasing his philanthropic efforts. This shift suggests a desire for a quieter legacy as he focuses on donating more of his wealth.",
+          "summary": "The recent discovery of a new bee species named 'Lucifer,' characterized by its devil-like horns, highlights both the marvels of biodiversity and the precarious state of Australia's ecosystems. This finding raises awareness about the critical habitats these creatures depend on, particularly in the face of environmental threats.",
           "key_points": [
-            "Buffett will no longer participate in public communications related to Berkshire Hathaway, marking a significant change in his engagement with shareholders.",
-            "He emphasizes an increased pace in his charitable donations, which may reflect a strategic shift in how he wishes to be remembered.",
-            "This decision might indicate a broader trend among billionaires who are reevaluating their public roles and responsibilities."
+            "The 'Lucifer' bee has been discovered in a critically endangered wildflower habitat in Australia, emphasizing the urgent need for conservation efforts.",
+            "The distinctive horns of the bee contribute to its unique identification and have sparked interest in entomological research.",
+            "This discovery may serve as a reminder of the biodiversity present in Australia, which is often overshadowed by discussions of extinction and habitat loss."
           ],
-          "sentiment": "neutral",
+          "sentiment": "positive",
           "confidence": "medium",
-          "bias_check": "Potential biases could stem from the media's framing of Buffett as a benevolent figure, possibly overshadowing criticisms of wealth concentration or the effectiveness of philanthropic efforts.",
-          "missing_context": "The article lacks discussion about the potential motivations behind Buffett's decision, such as age, health considerations, or changing dynamics in corporate governance and philanthropy. Additionally, it does not address how this change will impact Berkshire Hathaway's future leadership and shareholder relations.",
-          "implications": "Buffett's withdrawal from public life may set a precedent for other prominent figures in business, signaling a shift towards quieter, more private philanthropy. It may also influence how future generations of investors engage with companies and philanthropies, potentially reducing the public scrutiny and pressure on corporate leaders.",
+          "bias_check": "Potential biases include sensationalism in the naming of the bee and framing it as a 'devilish' entity, which may detract from the serious conservation issues it represents. Additionally, media coverage can sometimes prioritize novelty over ecological significance.",
+          "missing_context": "The article might lack detailed information on the ecological role of the 'Lucifer' bee, how its discovery fits into broader trends in biodiversity, and the specific threats to its habitat that led to its classification as critically endangered.",
+          "implications": "This finding underscores the importance of preserving unique ecosystems in Australia and may inspire further research into species that are yet to be discovered. It also raises awareness about the broader implications of biodiversity loss and habitat destruction, prompting discussions on conservation strategies.",
           "model": "GPT-4o Mini",
           "model_id": "openai/gpt-4o-mini",
-          "analyzed_at": "2025-11-11T06:13:09.946503",
+          "analyzed_at": "2025-11-11T12:14:05.362454",
           "token_usage": {
-            "prompt_tokens": 319,
-            "completion_tokens": 617,
-            "total_tokens": 936
+            "prompt_tokens": 322,
+            "completion_tokens": 566,
+            "total_tokens": 888
           }
         }
       },
       {
         "article": {
-          "id": "news_2_1762841428",
-          "title": "CoreWeave\u2019s earnings report highlights $56 billion in contracted revenue, but its guidance and share price tick down amid AI infrastructure bubble fears - Yahoo Finance",
-          "description": "CoreWeave\u2019s earnings report highlights $56 billion in contracted revenue, but its guidance and share price tick down amid AI infrastructure bubble fears\u00a0\u00a0Yahoo FinanceCoreWeave's stock slides on weak guidance even as revenue more than doubles\u00a0\u00a0CNBCCoreWeave Faces Earnings Pressure as Cracks Appear in AI Trade\u00a0\u00a0Yahoo FinanceCoreWeave Reports Strong Revenue. The Stock Is Wavering.\u00a0\u00a0Barron'sCoreWeave flags hit from data center delay, shares fall\u00a0\u00a0Reuters",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQeFYxZElPeDNRdE8zWkpmekFGX3czaUJnQm9ZOVBQZ3gxQ0JDMGhqQ1ZPQVVFQWNpVmhBY0txcTNCYkM2NnhRQVd4R1NXMXA5amViSlAybmh3N0M1cm5HTGFWWjIyM2JIZC1pbWpaYjVCTnk4d3lkeUF1OEJ5WEplSFFBZVh3M1lDRk01RVlB?oc=5",
-          "source": "Yahoo Finance",
-          "published": "Tue, 11 Nov 2025 01:22:00 GMT",
-          "topic": "BUSINESS",
-          "fetched_at": "2025-11-11T06:10:28.355676"
+          "id": "news_4_1762863124",
+          "title": "'No turning back': More and more Ukrainian women join the army to fight Russia - NPR",
+          "description": "'No turning back': More and more Ukrainian women join the army to fight Russia\u00a0\u00a0NPRWomen\u2019s Role and Career Growth in Ukraine\u2019s Armed Forces\u00a0\u00a0mezha.netMothers, fighters, activists: the millennial women who are holding Ukraine together\u00a0\u00a0KOHA.net",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNakRkMlVNWDdsTWdtNFRuUjJBcC1MQi1CQy1VYTFCTGZaeDF4MjVqNTF0em54QWFRWWZzWHlzdVBNTUJxMnozcWZHVm9lZjdCSVp6V001SUU2TlpXdC1yZnZsNjduYlNCa1BkWGFSQ2RuZHFRMGx6Y1cyWTZseTIwYjMwWURJTVNoWEM3aGM0dTNJZw?oc=5",
+          "source": "NPR",
+          "published": "Tue, 11 Nov 2025 10:00:00 GMT",
+          "topic": "WORLD",
+          "fetched_at": "2025-11-11T12:12:04.066744"
         },
         "analysis": {
-          "summary": "CoreWeave's recent earnings report showcases a remarkable $56 billion in contracted revenue, indicating significant growth in demand for AI infrastructure. However, the company's weaker guidance and declining share price raise concerns about potential market saturation and the sustainability of growth in the AI sector.",
+          "summary": "The article highlights the increasing participation of Ukrainian women in the military amid the ongoing conflict with Russia, emphasizing their roles as soldiers, mothers, and activists. This shift not only showcases women's determination to defend their country but also reflects changing gender dynamics within Ukraine's armed forces.",
           "key_points": [
-            "CoreWeave reported a doubling of revenue, indicating strong demand for its services in AI infrastructure.",
-            "Despite high contracted revenue, the company's guidance was lower than expected, leading to a decline in its share price.",
-            "Market fears about an AI infrastructure bubble are affecting investor confidence, as seen in the stock's reaction.",
-            "Delays in data center expansion are cited as a contributing factor to the weak guidance and stock performance.",
-            "The situation exemplifies the volatility in the tech sector, particularly related to AI and its infrastructure needs."
+            "An increasing number of Ukrainian women are enlisting in the military as the conflict with Russia continues.",
+            "Women are taking on diverse roles beyond traditional expectations, contributing significantly to the war effort.",
+            "The participation of women in the armed forces challenges historical gender norms and promotes a more inclusive military environment.",
+            "The article also touches on the personal sacrifices these women make, highlighting the emotional and social aspects of their involvement.",
+            "Women's growing presence in the military may lead to long-term changes in societal attitudes towards gender roles in Ukraine."
+          ],
+          "sentiment": "positive",
+          "confidence": "medium",
+          "bias_check": "Potential biases may stem from a Western-centric perspective that emphasizes women's empowerment without fully acknowledging the complexities of war. The article may also lean towards a narrative that glorifies military participation without addressing the potential consequences of prolonged conflict.",
+          "missing_context": "The article may lack perspectives from women who choose not to enlist, highlighting the varied experiences and opinions within Ukrainian society. Additionally, it could benefit from discussing the impact of such mobilization on family structures, children's welfare, and post-war reintegration challenges for female soldiers.",
+          "implications": "The increasing involvement of women in the military may reshape societal norms in Ukraine, potentially leading to greater gender equality in various sectors post-conflict. It also raises questions about the future role of women in the country's governance and societal rebuilding efforts after the war.",
+          "model": "GPT-4o Mini",
+          "model_id": "openai/gpt-4o-mini",
+          "analyzed_at": "2025-11-11T12:14:13.416898",
+          "token_usage": {
+            "prompt_tokens": 285,
+            "completion_tokens": 399,
+            "total_tokens": 684
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_0_1762863124",
+          "title": "Stock futures are little changed after big rally in prior session; tech shares under pressure: Live updates - CNBC",
+          "description": "Stock futures are little changed after big rally in prior session; tech shares under pressure: Live updates\u00a0\u00a0CNBCStocks Rallied Through Shutdown but Wall Street Eyes More Gains\u00a0\u00a0Bloomberg.comStock Market Today: S&P 500 Futures Weaken; Senate Passes Measure to End Shutdown \u2014 Live Updates\u00a0\u00a0The Wall Street JournalMorning Bid: Reopening rebound runs on, with rate cuts in sight\u00a0\u00a0ReutersStock Markets Suffer Amnesia Amid Shutdown Breakthrough. The Crucial Issue They\u2019re Forgetting.\u00a0\u00a0Barron's",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9LbHFPSV9xOXEwSVB2aTdMYTlGYzBVM1FCN0I2NUlmSlVWVWl3TS1NTVBEekhxSkF3bHNid0xWS0hqQ216Y0Jab0psSzBQeVQ1OEpCNFN0QzFiWUJiOVRnTnFpT0VleF9ma3kzMkxWYjFQblVIbmlF0gF8QVVfeXFMUEJqY0NpaFA2NlBNbFJmMXEycGRQSXJVbVVocDdaWlM1WE9tU0pNOGtReHlZMklSWDFuRzFGX0hzVnNJa1dQT1hWRkhmNlpoTVpnc2RualJteDVHZThDV1BUdko2MlIxbXgwYXhHRU1KVm5mUGlta3BHc0xmSg?oc=5",
+          "source": "CNBC",
+          "published": "Tue, 11 Nov 2025 11:45:00 GMT",
+          "topic": "BUSINESS",
+          "fetched_at": "2025-11-11T12:12:04.169935"
+        },
+        "analysis": {
+          "summary": "The article discusses the cautious state of stock futures following a significant rally in the previous session, particularly highlighting the pressure on tech shares. Despite the recent market gains, investors remain alert to potential volatility, especially in light of legislative actions to avert a government shutdown.",
+          "key_points": [
+            "Stock futures show little change after a notable rally, indicating market indecision.",
+            "Tech shares are experiencing downward pressure, which could influence the broader market.",
+            "Legislative measures to end a potential government shutdown have passed, but their impact on market stability is still uncertain.",
+            "Market participants are closely monitoring economic indicators and potential interest rate adjustments.",
+            "There is a sense of 'amnesia' in the markets as investors overlook significant underlying risks."
           ],
           "sentiment": "mixed",
           "confidence": "medium",
-          "bias_check": "The article may exhibit a bias towards sensationalism, focusing on the negative aspects of the stock's performance while underrepresenting the significant revenue growth. Additionally, there may be a tendency to amplify concerns about an AI bubble without presenting counterarguments or alternative views.",
-          "missing_context": "The article lacks information on the broader market conditions affecting AI companies, such as competition, regulatory challenges, or macroeconomic factors. Insights into CoreWeave's strategic plans to address the guidance issues and investor sentiment regarding the overall AI market could provide a more balanced view.",
-          "implications": "This story highlights the precarious nature of investment in rapidly evolving sectors like AI. While growth prospects remain strong, investor caution might lead to increased volatility in stock prices. It raises questions about the long-term sustainability of AI infrastructure demand and could influence funding and strategic decisions within the tech industry.",
+          "bias_check": "Potential biases could stem from the media's focus on sensational market movements, potentially downplaying the underlying economic conditions or investor sentiment. Additionally, there may be a bias towards highlighting tech sector challenges due to its prominence in the market.",
+          "missing_context": "The article lacks deeper analysis on the reasons behind the tech sector's pressure, such as specific earnings reports or economic data that might be influencing investor sentiment. Moreover, it does not address the long-term implications of government actions on market stability.",
+          "implications": "The current state of stock futures, combined with the pressures on tech shares, suggests a precarious situation for investors. If the tech sector continues to falter, it could lead to broader market corrections, impacting consumer confidence and economic growth. Furthermore, ongoing uncertainties about legislative decisions and interest rate policies may contribute to a climate of caution among investors.",
           "model": "GPT-4o Mini",
           "model_id": "openai/gpt-4o-mini",
-          "analyzed_at": "2025-11-11T06:13:18.871370",
+          "analyzed_at": "2025-11-11T12:14:27.681520",
           "token_usage": {
-            "prompt_tokens": 341,
-            "completion_tokens": 450,
-            "total_tokens": 791
+            "prompt_tokens": 340,
+            "completion_tokens": 439,
+            "total_tokens": 779
           }
         }
       },
       {
         "article": {
-          "id": "news_3_1762841428",
-          "title": "Is the stock market open on Veterans Day? Will banks be closed? - MarketWatch",
-          "description": "Is the stock market open on Veterans Day? Will banks be closed?\u00a0\u00a0MarketWatchVeterans Day: What's open, what's closed\u00a0\u00a0ABC7 Los AngelesWhat's open, closed on Veterans Day 2025? Here's what to know\u00a0\u00a0USA TodayWhy you won\u2019t have to check your mailbox on Tuesday\u00a0\u00a0The HillIs Veterans Day a bank holiday? See what's closed on Tuesday\u00a0\u00a0Austin American-Statesman",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNYktvOVpTeFZzVEQtMjhkSFZnVTVkZ3cwNWhubWJkVTIzLWUxR1VGUTJWak1YYjVzWnZmSE43eDd5RHl2TV9kcmRvVGMyZVdwMXhMUkttQ25IVHFsQ2pjS0lPNkRkY2Jza1lEdXZ3UTFYbU9fZUVKVXpiQVdkOUk4cDFzSS1ZekZUdnQ3a3hqVTNqbWZDMFh3aHMtQnBtNHVNaVlxMkJUTQ?oc=5",
-          "source": "MarketWatch",
-          "published": "Mon, 10 Nov 2025 16:59:00 GMT",
+          "id": "news_1_1762863124",
+          "title": "Trump Defends 50-Year Mortgage Plan, Calling It \u2018Not a Big Deal\u2019 - Bloomberg.com",
+          "description": "Trump Defends 50-Year Mortgage Plan, Calling It \u2018Not a Big Deal\u2019\u00a0\u00a0Bloomberg.comTrump just floated a 50-year mortgage. Is that a good idea?\u00a0\u00a0CNNWhy Trump's push for a 50-year mortgage could backfire\u00a0\u00a0Business InsiderTrump proposes 50-year mortgage, but some say homeowner savings would be minimal\u00a0\u00a0CNBCWhat the Trump administration's 50-year mortgage plan could mean for homebuyers\u00a0\u00a0CBS News",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQbzh1SVBYS3JwV1hxZ1hDbC1QSFR4Y3pWVVcxU21GSTdvbVRKWFF0cHR5RWRQb0hqSTRpa3FqNXhQNFBVWjVWdmJRQjlUUVZ6TGRqNXN6RXgzREZISVBSeV80aHRrWnlMVUNPUVVPUlpFc0NRclFOTGFzbEFvUUplbm9GMEtMOXVCT3MtUkN3M1AzRklJbVpnU3RGNUNQQWJrbnNnN1FZaUdhUk11a2lhS01B?oc=5",
+          "source": "Bloomberg.com",
+          "published": "Tue, 11 Nov 2025 01:19:00 GMT",
           "topic": "BUSINESS",
-          "fetched_at": "2025-11-11T06:10:28.355696"
+          "fetched_at": "2025-11-11T12:12:04.169966"
         },
         "analysis": {
-          "summary": "The article discusses whether the stock market and banks will be open on Veterans Day, emphasizing that both are closed in observance of the holiday. It provides clarity for investors and consumers regarding financial operations on this federal holiday.",
+          "summary": "The article discusses former President Trump's defense of a proposed 50-year mortgage plan, which he downplays as a non-issue. Critics question the plan's viability, suggesting that it offers minimal savings for homeowners while potentially increasing long-term debt burdens.",
           "key_points": [
-            "Veterans Day is a federal holiday, leading to the closure of the stock market.",
-            "Most banks will also be closed, affecting regular banking operations.",
-            "The article highlights the importance of planning ahead for financial activities on holidays.",
-            "It connects the observance of Veterans Day with broader societal respect for military service."
+            "Trump promotes the 50-year mortgage as a flexible option for homebuyers, claiming it could help them afford homes.",
+            "Critics argue that extending mortgage terms could lead to higher overall interest payments and increased financial risk for homeowners.",
+            "The proposal has sparked debate among financial experts, with some suggesting it may exacerbate existing housing market challenges.",
+            "The idea appears to be politically motivated, aiming to appeal to a demographic struggling with housing affordability.",
+            "The plan's reception varies across political lines, with supporters emphasizing potential benefits and opponents highlighting long-term drawbacks."
+          ],
+          "sentiment": "mixed",
+          "confidence": "medium",
+          "bias_check": "The article may exhibit bias based on the sources selected for commentary, particularly if they predominantly feature critics of Trump's policies without balanced representation of supportive voices or data.",
+          "missing_context": "The article lacks a comprehensive discussion of the current housing market conditions, historical precedents for long-term mortgages, and comparative analysis with other financial instruments that could serve homebuyers better.",
+          "implications": "The broader implications of this proposal could affect housing affordability dynamics, influence lending practices, and shape political narratives surrounding economic recovery, particularly in the context of a divided electorate.",
+          "model": "GPT-4o Mini",
+          "model_id": "openai/gpt-4o-mini",
+          "analyzed_at": "2025-11-11T12:14:46.009026",
+          "token_usage": {
+            "prompt_tokens": 325,
+            "completion_tokens": 462,
+            "total_tokens": 787
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_2_1762863124",
+          "title": "Flight disruptions will persist even after shutdown ends, airlines warn - The Washington Post",
+          "description": "Flight disruptions will persist even after shutdown ends, airlines warn\u00a0\u00a0The Washington PostWhen the shutdown ends, air travel will still take a long time to get back to normal\u00a0\u00a0CNNSenate moves toward ending shutdown as travelers deal with major flight disruptions\u00a0\u00a0Fox NewsThe essential, invisible job at the center of the shutdown flight problems\u00a0\u00a0USA TodayFrustration grows at Boston's Logan Airport as government shutdown causes flight cancellations to rise\u00a0\u00a0CBS News",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQd3d2Mk5Xa29nZmlBZWhxUE1YWklaUTlCN1U2R3BrUEZ0MVJ3Vmh6NWZOMkQwWTBKLUo0ekFYMkZpdVlwUE5FNDRUVHNEZkhXVVpkbUpYQzJDem8yUGNLSWdmUjZCRVBya2xzZ0JtTTRpZEk2cmstcHhxVVkybWl0X2RXd2RITzhXbVVGV0xmSUpFZnRhRUctdEh3?oc=5",
+          "source": "The Washington Post",
+          "published": "Tue, 11 Nov 2025 11:13:54 GMT",
+          "topic": "BUSINESS",
+          "fetched_at": "2025-11-11T12:12:04.169989"
+        },
+        "analysis": {
+          "summary": "The article highlights that even after a government shutdown ends, airlines anticipate ongoing flight disruptions due to staffing shortages and other systemic issues. Travelers can expect delays and cancellations to persist as the industry struggles to return to normal operations.",
+          "key_points": [
+            "Airlines have warned that flight disruptions will continue even after the shutdown concludes.",
+            "The shutdown has exacerbated existing staffing issues, leading to increased cancellations and delays.",
+            "Travelers at major airports are experiencing growing frustration as they deal with the impacts of the shutdown.",
+            "Government agencies and airlines are under pressure to address the disruptions quickly.",
+            "Industry experts suggest that restoring normalcy may take longer than anticipated due to the complexity of operational challenges."
+          ],
+          "sentiment": "negative",
+          "confidence": "medium",
+          "bias_check": "Potential biases may stem from the airlines' vested interests in downplaying the shutdown's effects or from a critical stance towards government inefficiency. The narrative may also lean towards emphasizing the negative traveler experiences over systemic solutions.",
+          "missing_context": "The article may lack perspectives from government officials who could explain the reasons for the shutdown and its impacts on aviation. Additionally, insights from industry analysts on long-term solutions to prevent future disruptions could provide a more rounded view.",
+          "implications": "The ongoing disruptions may lead to a decline in consumer confidence in air travel, potentially affecting airline revenues and the broader tourism industry. Furthermore, this situation could prompt discussions about the need for reform in government operations and better crisis management within the airline industry.",
+          "model": "GPT-4o Mini",
+          "model_id": "openai/gpt-4o-mini",
+          "analyzed_at": "2025-11-11T12:14:54.735967",
+          "token_usage": {
+            "prompt_tokens": 320,
+            "completion_tokens": 440,
+            "total_tokens": 760
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_3_1762863124",
+          "title": "Why CoreWeave (CRWV) Is Down 16.4% After Major AI Partnerships and Q3 Earnings Miss - Yahoo Finance",
+          "description": "Why CoreWeave (CRWV) Is Down 16.4% After Major AI Partnerships and Q3 Earnings Miss\u00a0\u00a0Yahoo FinanceCoreWeave Faces Earnings Pressure as Cracks Appear in AI Trade\u00a0\u00a0Yahoo FinanceNvidia-backed CoreWeave's shares fall as data center delay hits annual revenue forecast\u00a0\u00a0ReutersCoreWeave's stock slides on weak guidance even as revenue more than doubles\u00a0\u00a0CNBCCoreWeave earnings: 5 key details to watch as the stock eyes a turnaround\u00a0\u00a0MarketWatch",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBYZ0lid0ZmbnliYWhHNmVuWkZyM0ZYdFVjcE5GSVU5aHhPZGh3N3NoSmVmbVVVX05acU1uczVqYjRHaUxOSjU3UFc1aWZ3OC1POTdsOWtrSnh6X1dOUWhXRDVfai10U3lSZ291bEwzQlhXTU04cG5TT0xzRy0?oc=5",
+          "source": "Yahoo Finance",
+          "published": "Tue, 11 Nov 2025 06:06:00 GMT",
+          "topic": "BUSINESS",
+          "fetched_at": "2025-11-11T12:12:04.170008"
+        },
+        "analysis": {
+          "summary": "CoreWeave's stock has plummeted by 16.4% following disappointing Q3 earnings despite securing significant AI partnerships. This paradox raises questions about the sustainability of the company's growth outlook amid operational challenges, particularly with delayed data center expansions impacting revenue forecasts.",
+          "key_points": [
+            "CoreWeave reported a revenue increase of over 100%, yet still missed earnings expectations, signaling potential operational inefficiencies.",
+            "The company's major partnerships in the AI sector have not translated into immediate financial success, highlighting the complexity of scaling AI-related ventures.",
+            "Delayed data center expansions are cited as a key factor in reduced annual revenue forecasts, which may indicate deeper issues in execution.",
+            "Investor sentiment appears to be reacting more to guidance and future outlook than to the current revenue figures, showcasing a forward-looking market perspective.",
+            "The volatility in CoreWeave's stock reflects broader uncertainties in the AI market, where hype does not always align with sustainable business models."
+          ],
+          "sentiment": "negative",
+          "confidence": "medium",
+          "bias_check": "The article may exhibit bias by focusing on the negative stock performance and earnings miss without adequately emphasizing the potential long-term benefits of the AI partnerships. Additionally, the framing could reflect a bearish market sentiment towards tech stocks that miss short-term expectations.",
+          "missing_context": "The article may lack a detailed analysis of the competitive landscape in the AI space, particularly how CoreWeave's partnerships position it relative to rivals. It also doesn't explore investor expectations and the historical context of earnings misses in tech sectors, which may have different implications.",
+          "implications": "CoreWeave's struggles may serve as a cautionary tale for other companies in the AI space, emphasizing the importance of not only securing partnerships but also executing operationally. Furthermore, this situation could influence investor confidence in similar tech stocks and impact future funding and valuation strategies across the sector.",
+          "model": "GPT-4o Mini",
+          "model_id": "openai/gpt-4o-mini",
+          "analyzed_at": "2025-11-11T12:15:05.738251",
+          "token_usage": {
+            "prompt_tokens": 344,
+            "completion_tokens": 397,
+            "total_tokens": 741
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_4_1762863124",
+          "title": "What's open and what's closed in Minnesota on Veterans Day 2025 - Bring Me The News",
+          "description": "What's open and what's closed in Minnesota on Veterans Day 2025\u00a0\u00a0Bring Me The NewsHere\u2019s what\u2019s open and closed on Veterans Day\u00a0\u00a0CNNAre stores and banks open on Veterans Day? See what's operating on Nov. 11.\u00a0\u00a0CBS NewsIs the stock market open on Veterans Day? See holiday schedule\u00a0\u00a0USA TodayIs Costco open on Veterans Day 2025? What holidays is Costco closed? See holiday hours\u00a0\u00a0Bergen Record",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQekc2bW1qeTdXQUt4SlhYdnJVQW5rSlkwa0NveTEyMk1YUlFIZnlUbE1WRDBsRGY2T015N2kzZ1I5MTYxQ21jbzBDaUMyMW5LSHNRUGRyNVN1d0FXOVhxSDdRMG53aTlXbVVzMk9US1Q4ZGFhVjVEeTJ5NGlLazFpOFdkNUNlVDhNN0Q1Zk5zZVEwRjluc2g3d1pYQ09HR1ljaENVbkhBYVhPWGMt?oc=5",
+          "source": "Bring Me The News",
+          "published": "Mon, 10 Nov 2025 20:39:47 GMT",
+          "topic": "BUSINESS",
+          "fetched_at": "2025-11-11T12:12:04.170031"
+        },
+        "analysis": {
+          "summary": "The article outlines what establishments in Minnesota will be open or closed on Veterans Day 2025, providing practical information for residents and visitors. It serves as a guide for planning activities on this federal holiday, which honors military veterans.",
+          "key_points": [
+            "Certain government offices and banks will be closed in observance of Veterans Day.",
+            "Retailers such as Costco may have specific holiday hours, affecting shopping plans.",
+            "Public transportation schedules may also vary on this day.",
+            "The article highlights the importance of checking local listings for specific hours of operation.",
+            "Veterans Day is significant for honoring those who served, which can impact community events and activities."
           ],
           "sentiment": "neutral",
           "confidence": "high",
-          "bias_check": "The article may reflect a bias towards the importance of federal holidays, emphasizing their significance without exploring differing opinions on their impact on commerce.",
-          "missing_context": "It does not address how the closure of financial institutions on holidays might affect economic activities or investment strategies, nor does it consider the perspective of those who may advocate for a more flexible approach to holiday observances.",
-          "implications": "Understanding the closure of financial markets and banks on Veterans Day informs investors and consumers about the importance of timing in financial decisions, potentially affecting market behavior and consumer spending patterns during holiday seasons.",
+          "bias_check": "The article may exhibit bias by focusing primarily on operational hours rather than the significance of Veterans Day itself, which could downplay the holiday's importance.",
+          "missing_context": "The article lacks a discussion on the historical significance of Veterans Day and how it affects community engagement or veteran services available on this day.",
+          "implications": "Understanding the open/closed status of businesses on Veterans Day can guide consumer behavior and community participation in remembrance activities, potentially influencing economic activity in the region.",
           "model": "GPT-4o Mini",
           "model_id": "openai/gpt-4o-mini",
-          "analyzed_at": "2025-11-11T06:13:28.272994",
+          "analyzed_at": "2025-11-11T12:15:11.839001",
           "token_usage": {
-            "prompt_tokens": 314,
-            "completion_tokens": 561,
-            "total_tokens": 875
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_4_1762841428",
-          "title": "\u2018Sold POTUS a bill of goods\u2019: WH furious with Pulte over 50-year mortgage - Politico",
-          "description": "\u2018Sold POTUS a bill of goods\u2019: WH furious with Pulte over 50-year mortgage\u00a0\u00a0PoliticoTrump proposes 50-year mortgage plan as housing costs soar\u00a0\u00a0abcnews.go.comTrump's 50-year mortgage proposal: What would it mean for homebuyers?\u00a0\u00a0Fox BusinessTrump proposes 50-year mortgage, but some say homeowner savings would be minimal\u00a0\u00a0CNBCMove over, 30-year mortgage. The Trump White House is working on a 50-year option to break the housing market gridlock\u00a0\u00a0Fortune",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQW9CZ09TNldNcEFEeXkzSXpnNXlNRFlYMU03eGN4bmljdmI5bU04WnNLMTRRRTBpQm1NYy0wWDZpZnppRHdGQW1TM2dHZmRsbUd1Vjg4Vm1MTEFzRGxFNU9GX0VqNjBKZFFjVVhQYnd2TVRNWjU0c3IwSHFfVkoxUElmaVh5RThJbzRINUY5eWxMTVdHUGdMY3ZCOTlKWVhHV2RDYU5mY0dyQk9wcDR4MFpvc0lCVUY5ckE?oc=5",
-          "source": "Politico",
-          "published": "Mon, 10 Nov 2025 22:45:00 GMT",
-          "topic": "BUSINESS",
-          "fetched_at": "2025-11-11T06:10:28.355718"
-        },
-        "analysis": {
-          "summary": "The article discusses the backlash from the White House towards Pulte Group over President Trump's proposal for a 50-year mortgage option, aimed at alleviating housing market issues. Critics argue that the plan may not significantly benefit homeowners and could exacerbate long-term financial burdens.",
-          "key_points": [
-            "The proposal for a 50-year mortgage is intended to address skyrocketing housing costs and provide more accessible options for buyers.",
-            "The White House expressed frustration with Pulte Group, suggesting they misled the President regarding the viability and benefits of the 50-year mortgage.",
-            "Critics highlight that while extending mortgage terms may lower monthly payments, it also increases total interest paid over the life of the loan, potentially offering minimal savings.",
-            "The proposal has sparked a debate on whether such long-term mortgages are a viable solution to current housing market challenges.",
-            "The reaction from the White House indicates a lack of consensus on effective strategies to tackle the housing crisis."
-          ],
-          "sentiment": "mixed",
-          "confidence": "medium",
-          "bias_check": "Potential biases in the article could stem from the political affiliation of the publication and the framing of the issue, which may portray the proposal in a negative light due to its controversial nature. Additionally, the source's alignment with the current administration could influence how dissenting opinions are presented.",
-          "missing_context": "The article may lack perspectives from housing experts or economists who could provide a more comprehensive analysis of the 50-year mortgage's potential impacts. Furthermore, it does not address the broader economic factors contributing to rising housing costs, such as inflation and supply chain issues, which could influence the effectiveness of this proposal.",
-          "implications": "The discussion around the 50-year mortgage highlights the ongoing struggles in the housing market and the need for innovative solutions. If implemented, this proposal could set a precedent for longer mortgage terms, impacting future housing policies and consumer behavior. However, the backlash from industry leaders and experts could lead to revisions or abandonment of the plan, emphasizing the importance of stakeholder engagement in policy-making.",
-          "model": "GPT-4o Mini",
-          "model_id": "openai/gpt-4o-mini",
-          "analyzed_at": "2025-11-11T06:13:35.217164",
-          "token_usage": {
-            "prompt_tokens": 343,
-            "completion_tokens": 478,
-            "total_tokens": 821
+            "prompt_tokens": 326,
+            "completion_tokens": 390,
+            "total_tokens": 716
           }
         }
       }
@@ -531,19 +537,19 @@
     "articles_analyzed": 15
   },
   "costs": {
-    "execution_time": 174.19445180892944,
-    "execution_minutes": 2.9032408634821576,
-    "github_actions": 0.023225926907857262,
+    "execution_time": 173.7024974822998,
+    "execution_minutes": 2.8950416247049966,
+    "github_actions": 0.023160332997639973,
     "openai": {
-      "input": 0.0007341,
-      "output": 0.004143,
-      "total": 0.0048771
+      "input": 0.00073215,
+      "output": 0.0040938,
+      "total": 0.00482595
     },
-    "total": 0.02810302690785726,
+    "total": 0.027986282997639972,
     "token_usage": {
-      "prompt_tokens": 4894,
-      "completion_tokens": 6905,
-      "total_tokens": 11799
+      "prompt_tokens": 4881,
+      "completion_tokens": 6823,
+      "total_tokens": 11704
     }
   }
 }
