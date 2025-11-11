@@ -1,0 +1,393 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { Icon } from 'astro-icon/components';
+import fs from 'fs';
+import path from 'path';
+
+// Load perspectives data
+let perspectives: any[] = [];
+let metadata: any = {};
+let loadError: string | null = null;
+
+try {
+  const perspectivesPath = path.join(process.cwd(), 'public', 'news-perspectives.json');
+  const perspectivesContent = fs.readFileSync(perspectivesPath, 'utf-8');
+  const perspectivesData = JSON.parse(perspectivesContent);
+
+  perspectives = perspectivesData.data.articles || [];
+  metadata = perspectivesData.metadata || {};
+} catch (error: any) {
+  loadError = error.message;
+  console.error('Error loading perspectives:', error);
+}
+
+// Helper function to get sentiment color
+function getSentimentColor(sentiment: string): string {
+  const colors = {
+    'positive': 'bg-green-100 text-green-800 border-green-300',
+    'negative': 'bg-red-100 text-red-800 border-red-300',
+    'neutral': 'bg-gray-100 text-gray-800 border-gray-300',
+    'mixed': 'bg-yellow-100 text-yellow-800 border-yellow-300',
+  };
+  return colors[sentiment.toLowerCase() as keyof typeof colors] || 'bg-gray-100 text-gray-800 border-gray-300';
+}
+
+// Helper function to get sentiment icon
+function getSentimentIcon(sentiment: string): string {
+  const icons = {
+    'positive': '😊',
+    'negative': '😟',
+    'neutral': '😐',
+    'mixed': '🤔',
+  };
+  return icons[sentiment.toLowerCase() as keyof typeof icons] || '❓';
+}
+
+// Format timestamp
+const lastUpdated = metadata.generated_at || new Date().toLocaleString('en-US', {
+  month: 'short',
+  day: 'numeric',
+  year: 'numeric',
+  hour: '2-digit',
+  minute: '2-digit',
+});
+
+// Model metadata for legend
+interface ModelMeta {
+  emoji: string;
+  bgClass: string;
+  borderClass: string;
+  textClass: string;
+}
+
+const modelMetaMap: Record<string, ModelMeta> = {
+  'GPT-4o Mini': { emoji: '🟢', bgClass: 'bg-green-50', borderClass: 'border-green-200', textClass: 'text-green-900' },
+  'Llama 3.1 8B': { emoji: '🔵', bgClass: 'bg-blue-50', borderClass: 'border-blue-200', textClass: 'text-blue-900' },
+  'Phi-4 Mini': { emoji: '🟡', bgClass: 'bg-yellow-50', borderClass: 'border-yellow-200', textClass: 'text-yellow-900' },
+  'Mistral Small': { emoji: '🟣', bgClass: 'bg-purple-50', borderClass: 'border-purple-200', textClass: 'text-purple-900' },
+  'GPT-4o': { emoji: '🟢', bgClass: 'bg-green-50', borderClass: 'border-green-200', textClass: 'text-green-900' },
+  'Llama 3.1 405B': { emoji: '🔵', bgClass: 'bg-blue-50', borderClass: 'border-blue-200', textClass: 'text-blue-900' },
+  'DeepSeek-V3': { emoji: '🟣', bgClass: 'bg-purple-50', borderClass: 'border-purple-200', textClass: 'text-purple-900' },
+  'Grok 3': { emoji: '🟠', bgClass: 'bg-orange-50', borderClass: 'border-orange-200', textClass: 'text-orange-900' },
+};
+
+const defaultModelMeta: ModelMeta = { emoji: '🤖', bgClass: 'bg-gray-50', borderClass: 'border-gray-200', textClass: 'text-gray-900' };
+---
+
+<Layout title="AI News Bias Detector - Neevs">
+  <main class="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100">
+    <!-- Header -->
+    <header class="bg-white border-b border-slate-200 shadow-sm sticky top-0 z-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+        <div class="flex items-center justify-between">
+          <div>
+            <h1 class="text-3xl font-bold text-slate-900 flex items-center gap-3">
+              <span class="text-4xl">🔍</span>
+              <span>AI News Bias Detector</span>
+            </h1>
+            <p class="mt-2 text-slate-600 text-lg">
+              Compare how ChatGPT, Llama, and other AI models see the same story differently
+            </p>
+            <p class="mt-1 text-slate-500 text-sm">
+              Expose AI bias • Understand multiple perspectives • Think critically
+            </p>
+          </div>
+          <a href="/" class="text-slate-600 hover:text-slate-900 transition">
+            <Icon name="lucide:home" class="w-6 h-6" />
+          </a>
+        </div>
+
+        <!-- AI Models Legend - Dynamic based on available models -->
+        <div class="mt-4 flex flex-wrap gap-3">
+          {Array.from(new Set(perspectives.flatMap(a => a.perspectives.map((p: any) => p.model)))).map((model: any) => {
+            const meta = modelMetaMap[model] || defaultModelMeta;
+            return (
+              <div class={`flex items-center gap-2 px-3 py-1 ${meta.bgClass} rounded-full border ${meta.borderClass}`}>
+                <span class="text-2xl">{meta.emoji}</span>
+                <span class={`text-sm font-medium ${meta.textClass}`}>{model}</span>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+    </header>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      {loadError ? (
+        <div class="bg-yellow-50 border border-yellow-200 rounded-lg p-6 text-center">
+          <p class="text-yellow-800">⚠️ No perspectives data available yet. The pipeline will run automatically.</p>
+          <p class="text-sm text-yellow-600 mt-2">Error: {loadError}</p>
+        </div>
+      ) : (
+        <>
+          <!-- Last Updated -->
+          <div class="mb-6 text-center">
+            <p class="text-slate-500 text-sm">
+              Last updated: <span class="font-medium">{lastUpdated}</span>
+            </p>
+          </div>
+
+          <!-- Articles Grid -->
+          <div class="space-y-8">
+            {perspectives.map((item) => {
+              const article = item.article;
+              const articlePerspectives = item.perspectives || [];
+              const consensus = item.consensus || {};
+
+              return (
+                <article class="bg-white rounded-xl shadow-lg overflow-hidden border border-slate-200 hover:shadow-xl transition-shadow">
+                  <!-- Article Header -->
+                  <div class="bg-gradient-to-r from-slate-50 to-white p-6 border-b border-slate-200">
+                    <div class="flex items-start justify-between gap-4">
+                      <div class="flex-1">
+                        <h2 class="text-2xl font-bold text-slate-900 mb-2">
+                          {article.title}
+                        </h2>
+                        <div class="flex items-center gap-4 text-sm text-slate-600 mb-3">
+                          <span class="flex items-center gap-1">
+                            <Icon name="lucide:newspaper" class="w-4 h-4" />
+                            {article.source}
+                          </span>
+                          <span class="flex items-center gap-1">
+                            <Icon name="lucide:tag" class="w-4 h-4" />
+                            {article.topic}
+                          </span>
+                          {article.url && (
+                            <a
+                              href={article.url}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              class="flex items-center gap-1 text-blue-600 hover:text-blue-800 transition"
+                            >
+                              <Icon name="lucide:external-link" class="w-4 h-4" />
+                              Read Original
+                            </a>
+                          )}
+                        </div>
+
+                        <!-- Social Share Buttons -->
+                        <div class="flex items-center gap-2">
+                          <span class="text-xs text-slate-500 mr-1">Share:</span>
+                          <a
+                            href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(`See how different AIs interpret: ${article.title}`)}&url=${encodeURIComponent('https://neevs.io/perspectives')}`}
+                            target="_blank"
+                            rel="noopener"
+                            class="px-3 py-1 bg-sky-100 hover:bg-sky-200 text-sky-700 text-xs font-medium rounded-md transition flex items-center gap-1"
+                            title="Share on Twitter"
+                          >
+                            <Icon name="lucide:twitter" class="w-3 h-3" />
+                            Tweet
+                          </a>
+                          <button
+                            onclick={`navigator.clipboard.writeText('https://neevs.io/perspectives'); alert('Link copied!');`}
+                            class="px-3 py-1 bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-medium rounded-md transition flex items-center gap-1"
+                            title="Copy link"
+                          >
+                            <Icon name="lucide:link" class="w-3 h-3" />
+                            Copy
+                          </button>
+                        </div>
+                      </div>
+
+                      <!-- Consensus Indicator -->
+                      {consensus.agreement_percentage !== undefined && (
+                        <div class="text-center">
+                          <div class={`px-4 py-2 rounded-lg border ${getSentimentColor(consensus.dominant_sentiment)}`}>
+                            <div class="text-2xl mb-1">
+                              {getSentimentIcon(consensus.dominant_sentiment)}
+                            </div>
+                            <div class="text-xs font-medium uppercase">
+                              {consensus.agreement_percentage}% agree
+                            </div>
+                            <div class="text-xs opacity-75">
+                              {consensus.dominant_sentiment}
+                            </div>
+                          </div>
+                        </div>
+                      )}
+                    </div>
+                  </div>
+
+                  <!-- AI Perspectives Grid -->
+                  <div class="grid grid-cols-1 md:grid-cols-2 gap-4 p-6">
+                    {articlePerspectives.map((perspective: any) => {
+                      const modelColors = {
+                        // Low tier models
+                        'GPT-4o Mini': 'border-green-300 bg-green-50',
+                        'Llama 3.1 8B': 'border-blue-300 bg-blue-50',
+                        'Phi-4 Mini': 'border-yellow-300 bg-yellow-50',
+                        'Mistral Small': 'border-purple-300 bg-purple-50',
+                        // High tier models
+                        'GPT-4o': 'border-green-400 bg-green-100',
+                        'Llama 3.1 405B': 'border-blue-400 bg-blue-100',
+                        'DeepSeek-V3': 'border-purple-400 bg-purple-100',
+                        'Grok 3': 'border-orange-400 bg-orange-100',
+                      };
+                      const borderColor = modelColors[perspective.model as keyof typeof modelColors] || 'border-gray-300 bg-gray-50';
+
+                      return (
+                        <div class={`rounded-lg border-2 ${borderColor} p-4 hover:shadow-md transition-shadow`}>
+                          <!-- Model Header -->
+                          <div class="flex items-center justify-between mb-3">
+                            <div class="flex items-center gap-2">
+                              <span class="text-2xl">{perspective.emoji}</span>
+                              <span class="font-bold text-slate-900">{perspective.model}</span>
+                            </div>
+                            <span class={`text-xs px-2 py-1 rounded border ${getSentimentColor(perspective.sentiment)}`}>
+                              {perspective.sentiment}
+                            </span>
+                          </div>
+
+                          <!-- Summary -->
+                          <div class="mb-3">
+                            <p class="text-slate-700 text-sm leading-relaxed">
+                              {perspective.summary}
+                            </p>
+                          </div>
+
+                          <!-- Key Points (Collapsible) -->
+                          {perspective.key_points && perspective.key_points.length > 0 && (
+                            <details class="mb-2">
+                              <summary class="cursor-pointer text-xs font-semibold text-slate-600 hover:text-slate-900 flex items-center gap-1">
+                                <Icon name="lucide:chevron-right" class="w-3 h-3" />
+                                Key Points
+                              </summary>
+                              <ul class="mt-2 space-y-1 ml-4">
+                                {perspective.key_points.map((point: string) => (
+                                  <li class="text-xs text-slate-600 list-disc">{point}</li>
+                                ))}
+                              </ul>
+                            </details>
+                          )}
+
+                          <!-- Bias Check (Collapsible) -->
+                          {perspective.bias_check && (
+                            <details class="mb-2">
+                              <summary class="cursor-pointer text-xs font-semibold text-slate-600 hover:text-slate-900 flex items-center gap-1">
+                                <Icon name="lucide:alert-triangle" class="w-3 h-3" />
+                                Bias Check
+                              </summary>
+                              <p class="mt-2 text-xs text-slate-600 ml-4">
+                                {perspective.bias_check}
+                              </p>
+                            </details>
+                          )}
+
+                          <!-- Confidence -->
+                          <div class="mt-2 flex items-center justify-between">
+                            <span class="text-xs text-slate-500">
+                              Confidence: <span class="font-medium">{perspective.confidence}</span>
+                            </span>
+                          </div>
+                        </div>
+                      );
+                    })}
+                  </div>
+
+                  {/* Show message if no perspectives available */}
+                  {articlePerspectives.length === 0 && (
+                    <div class="p-6 text-center text-slate-500">
+                      <p>No AI perspectives available for this article yet.</p>
+                    </div>
+                  )}
+                </article>
+              );
+            })}
+          </div>
+
+          {perspectives.length === 0 && (
+            <div class="bg-white rounded-xl shadow-lg p-12 text-center">
+              <div class="text-6xl mb-4">📰</div>
+              <h2 class="text-2xl font-bold text-slate-900 mb-2">No News Available Yet</h2>
+              <p class="text-slate-600">
+                The news perspectives pipeline will run automatically every 6 hours.
+              </p>
+            </div>
+          )}
+        </>
+      )}
+    </div>
+
+    <!-- Email Subscription CTA -->
+    <div class="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <div class="bg-gradient-to-r from-blue-50 to-indigo-50 border-2 border-blue-200 rounded-2xl p-8 text-center shadow-lg">
+        <h3 class="text-2xl font-bold text-slate-900 mb-3">Get This in Your Inbox Daily</h3>
+        <p class="text-slate-600 mb-6">
+          See how AI models interpret today's top story. Free, unbiased, eye-opening.
+        </p>
+        <form id="email-subscribe-form" class="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
+          <input
+            type="email"
+            id="email-input"
+            placeholder="your@email.com"
+            required
+            class="flex-1 px-4 py-3 rounded-lg border-2 border-blue-300 focus:border-blue-500 focus:outline-none text-slate-900"
+          />
+          <button
+            type="submit"
+            class="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition-colors shadow-md hover:shadow-lg"
+          >
+            Subscribe
+          </button>
+        </form>
+        <p class="text-xs text-slate-500 mt-3">
+          No spam. Unsubscribe anytime. Updates daily at 8 AM EST.
+        </p>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-white border-t border-slate-200 mt-12">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 text-center">
+        <div class="mb-4">
+          <a href="/" class="text-2xl font-bold text-slate-900 hover:text-blue-600 transition">
+            Neevs
+          </a>
+        </div>
+        <p class="text-slate-600 text-sm mb-3">
+          Automated insights from AI-powered channels
+        </p>
+        <p class="text-slate-500 text-xs">
+          <a href="https://github.com/jonasneves/neevs" target="_blank" rel="noopener" class="hover:text-slate-700 underline">
+            Built with AgentFlow
+          </a>
+          {' • '}
+          <a href="/how-it-works" class="hover:text-slate-700 underline">How it works</a>
+          {' • '}
+          <a href="/" class="hover:text-slate-700 underline">Browse all channels</a>
+        </p>
+        <p class="text-slate-400 text-xs mt-4">
+          🚀 Create your own AI Scout • Runs on GitHub Actions • Free hosting
+        </p>
+      </div>
+    </footer>
+  </main>
+
+  <script>
+    // Email subscription handler (placeholder - integrate with your email service)
+    document.getElementById('email-subscribe-form')?.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const emailInput = document.getElementById('email-input') as HTMLInputElement;
+      const email = emailInput.value;
+
+      // TODO: Integrate with email service (Mailchimp, ConvertKit, etc.)
+      alert(`Thanks for subscribing! We'll send updates to ${email} (Email service integration coming soon)`);
+
+      emailInput.value = '';
+    });
+  </script>
+</Layout>
+
+<style>
+  details summary {
+    transition: all 0.2s;
+  }
+
+  details[open] summary {
+    margin-bottom: 0.5rem;
+  }
+
+  details[open] summary svg {
+    transform: rotate(90deg);
+  }
+</style>

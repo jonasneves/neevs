@@ -1,0 +1,94 @@
+---
+interface Props {
+  paper: {
+    title: string;
+    authors: string[];
+    abstract?: string;
+    categories?: string[];
+    pdf_url?: string;
+    abs_url?: string;
+  };
+}
+
+const { paper } = Astro.props;
+---
+
+<div class="paper-card">
+    <div class="paper-title">{paper.title}</div>
+    {paper.authors && (
+        <div class="paper-authors">
+            {paper.authors.slice(0, 3).join(', ')}
+            {paper.authors.length > 3 && ` et al.`}
+        </div>
+    )}
+    {paper.abstract && (
+        <div class="paper-abstract">
+            {paper.abstract.length > 300
+                ? paper.abstract.slice(0, 300) + '...'
+                : paper.abstract}
+        </div>
+    )}
+    <div class="paper-meta">
+        {paper.categories && paper.categories.map(cat => (
+            <span class="badge category-badge">{cat}</span>
+        ))}
+    </div>
+    {(paper.pdf_url || paper.abs_url) && (
+        <div class="paper-links">
+            {paper.pdf_url && <a href={paper.pdf_url} target="_blank" rel="noopener">📄 PDF</a>}
+            {paper.abs_url && <a href={paper.abs_url} target="_blank" rel="noopener">🔗 Abstract</a>}
+        </div>
+    )}
+</div>
+
+<style>
+    .paper-card {
+        background: #ecf0f1;
+        border-radius: 10px;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-left: 4px solid #3498db;
+    }
+
+    .paper-title {
+        font-weight: bold;
+        color: #2c3e50;
+        margin-bottom: 8px;
+        font-size: 1.1rem;
+    }
+
+    .paper-authors {
+        color: #7f8c8d;
+        font-size: 0.9rem;
+        margin-bottom: 8px;
+    }
+
+    .paper-abstract {
+        color: #34495e;
+        font-size: 0.95rem;
+        margin: 10px 0;
+        line-height: 1.5;
+    }
+
+    .paper-meta {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        margin-top: 10px;
+    }
+
+    .paper-links {
+        margin-top: 10px;
+    }
+
+    .paper-links a {
+        color: #3498db;
+        text-decoration: none;
+        margin-right: 15px;
+        font-weight: bold;
+    }
+
+    .paper-links a:hover {
+        text-decoration: underline;
+    }
+</style>

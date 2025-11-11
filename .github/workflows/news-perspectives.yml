@@ -1,0 +1,272 @@
+name: News Perspectives Pipeline
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'  # Run every 6 hours
+  workflow_dispatch:
+    inputs:
+      max_articles_per_topic:
+        description: 'Number of articles to fetch per topic'
+        required: false
+        default: '3'
+        type: choice
+        options:
+          - '1'
+          - '3'
+          - '5'
+          - '10'
+      topics:
+        description: 'News topics to fetch (comma-separated)'
+        required: false
+        default: 'TECHNOLOGY,WORLD'
+        type: string
+      # Low Tier Models (15 req/min, 150 req/day)
+      use_gpt_mini:
+        description: '🟢 GPT-4o Mini (OpenAI - Low tier)'
+        required: false
+        default: true
+        type: boolean
+      use_llama_small:
+        description: '🔵 Llama 3.1 8B (Meta - Low tier)'
+        required: false
+        default: true
+        type: boolean
+      use_phi_mini:
+        description: '🟡 Phi-4 Mini (Microsoft - Low tier)'
+        required: false
+        default: true
+        type: boolean
+      use_mistral_small:
+        description: '🟣 Mistral Small (Mistral AI - Low tier)'
+        required: false
+        default: false
+        type: boolean
+      # High Tier Models (10 req/min, 50 req/day)
+      use_gpt_4o:
+        description: '🟢 GPT-4o (OpenAI - High tier)'
+        required: false
+        default: false
+        type: boolean
+      use_llama_405b:
+        description: '🔵 Llama 3.1 405B (Meta - High tier)'
+        required: false
+        default: false
+        type: boolean
+      use_deepseek_v3:
+        description: '🟣 DeepSeek-V3 (DeepSeek - High tier)'
+        required: false
+        default: false
+        type: boolean
+      use_grok_3:
+        description: '🟠 Grok 3 (xAI - High tier)'
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+
+jobs:
+  # Stage 1: Fetch News from Google News
+  fetch-news:
+    name: "Fetch News"
+    uses: ./.github/workflows/_reusable-agent-runner.yml
+    with:
+      agent_module: 'agents.news_perspectives.news_fetcher'
+      agent_id: 'news-fetcher'
+      python_deps: 'requests'
+      needs_openai: false
+      extra_env: |
+        NEWS_MAX_ARTICLES_PER_TOPIC=${{ github.event.inputs.max_articles_per_topic || '5' }}
+        NEWS_TOPICS=${{ github.event.inputs.topics || 'TECHNOLOGY,WORLD,BUSINESS' }}
+
+  # Stage 2: Parallel AI Model Analysis
+  # LOW TIER MODELS (Better rate limits: 15 req/min, 150 req/day)
+  analyze-gpt-mini:
+    name: "🟢 GPT-4o Mini"
+    needs: fetch-news
+    if: github.event.inputs.use_gpt_mini == 'true' || github.event_name == 'schedule'
+    uses: ./.github/workflows/_reusable-agent-runner.yml
+    with:
+      agent_module: 'agents.news_perspectives.gpt_mini_analyzer'
+      agent_id: 'gpt-mini-analyzer'
+      python_deps: 'openai'
+      needs_openai: false
+    secrets:
+      GH_MODELS_TOKEN: ${{ secrets.GH_MODELS_TOKEN }}
+
+  analyze-llama-small:
+    name: "🔵 Llama 3.1 8B"
+    needs: fetch-news
+    if: github.event.inputs.use_llama_small == 'true' || github.event_name == 'schedule'
+    uses: ./.github/workflows/_reusable-agent-runner.yml
+    with:
+      agent_module: 'agents.news_perspectives.llama_small_analyzer'
+      agent_id: 'llama-small-analyzer'
+      python_deps: 'openai'
+      needs_openai: false
+    secrets:
+      GH_MODELS_TOKEN: ${{ secrets.GH_MODELS_TOKEN }}
+
+  analyze-phi-mini:
+    name: "🟡 Phi-4 Mini"
+    needs: fetch-news
+    if: github.event.inputs.use_phi_mini == 'true' || github.event_name == 'schedule'
+    uses: ./.github/workflows/_reusable-agent-runner.yml
+    with:
+      agent_module: 'agents.news_perspectives.phi_analyzer'
+      agent_id: 'phi-analyzer'
+      python_deps: 'openai'
+      needs_openai: false
+    secrets:
+      GH_MODELS_TOKEN: ${{ secrets.GH_MODELS_TOKEN }}
+
+  analyze-mistral-small:
+    name: "🟣 Mistral Small"
+    needs: fetch-news
+    if: github.event.inputs.use_mistral_small == 'true'
+    uses: ./.github/workflows/_reusable-agent-runner.yml
+    with:
+      agent_module: 'agents.news_perspectives.mistral_analyzer'
+      agent_id: 'mistral-analyzer'
+      python_deps: 'openai'
+      needs_openai: false
+    secrets:
+      GH_MODELS_TOKEN: ${{ secrets.GH_MODELS_TOKEN }}
+
+  # HIGH TIER MODELS (Restrictive rate limits: 10 req/min, 50 req/day)
+  analyze-gpt:
+    name: "🟢 GPT-4o (High)"
+    needs: fetch-news
+    if: github.event.inputs.use_gpt_4o == 'true'
+    uses: ./.github/workflows/_reusable-agent-runner.yml
+    with:
+      agent_module: 'agents.news_perspectives.gpt_analyzer'
+      agent_id: 'gpt-analyzer'
+      python_deps: 'openai'
+      needs_openai: false
+    secrets:
+      GH_MODELS_TOKEN: ${{ secrets.GH_MODELS_TOKEN }}
+
+  analyze-llama:
+    name: "🔵 Llama 3.1 405B (High)"
+    needs: fetch-news
+    if: github.event.inputs.use_llama_405b == 'true'
+    uses: ./.github/workflows/_reusable-agent-runner.yml
+    with:
+      agent_module: 'agents.news_perspectives.llama_analyzer'
+      agent_id: 'llama-analyzer'
+      python_deps: 'openai'
+      needs_openai: false
+    secrets:
+      GH_MODELS_TOKEN: ${{ secrets.GH_MODELS_TOKEN }}
+
+  analyze-deepseek:
+    name: "🟣 DeepSeek-V3 (High)"
+    needs: fetch-news
+    if: github.event.inputs.use_deepseek_v3 == 'true'
+    uses: ./.github/workflows/_reusable-agent-runner.yml
+    with:
+      agent_module: 'agents.news_perspectives.deepseek_analyzer'
+      agent_id: 'deepseek-analyzer'
+      python_deps: 'openai'
+      needs_openai: false
+    secrets:
+      GH_MODELS_TOKEN: ${{ secrets.GH_MODELS_TOKEN }}
+
+  analyze-grok:
+    name: "🟠 Grok 3 (High)"
+    needs: fetch-news
+    if: github.event.inputs.use_grok_3 == 'true'
+    uses: ./.github/workflows/_reusable-agent-runner.yml
+    with:
+      agent_module: 'agents.news_perspectives.grok_analyzer'
+      agent_id: 'grok-analyzer'
+      python_deps: 'openai'
+      needs_openai: false
+    secrets:
+      GH_MODELS_TOKEN: ${{ secrets.GH_MODELS_TOKEN }}
+
+  # Stage 3: Synthesize All Perspectives
+  synthesize-perspectives:
+    name: "Synthesize Perspectives"
+    needs: [analyze-gpt-mini, analyze-llama-small, analyze-phi-mini, analyze-mistral-small, analyze-gpt, analyze-llama, analyze-deepseek, analyze-grok]
+    if: always() && !cancelled()
+    uses: ./.github/workflows/_reusable-agent-runner.yml
+    with:
+      agent_module: 'agents.news_perspectives.perspective_synthesizer'
+      agent_id: 'perspective-synthesizer'
+      python_deps: ''
+      needs_openai: false
+
+  # Stage 4: Deploy Results to GitHub Pages
+  deploy-results:
+    name: "Deploy Results"
+    needs: synthesize-perspectives
+    if: always() && !cancelled() && needs.synthesize-perspectives.result == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+
+      - name: Pull latest changes
+        run: git pull origin ${{ github.ref_name }}
+
+      - name: Copy data files to public
+        run: |
+          mkdir -p public/news-perspectives
+          # Copy perspectives data for frontend
+          cp data/news_perspectives/perspectives.json public/news-perspectives.json || echo "No perspectives.json found"
+
+          # Copy individual model analyses for detailed view
+          # Low tier models
+          cp data/news_perspectives/gpt_mini_analysis.json public/news-perspectives/gpt-mini.json 2>/dev/null || echo "No GPT Mini analysis"
+          cp data/news_perspectives/llama_small_analysis.json public/news-perspectives/llama-small.json 2>/dev/null || echo "No Llama Small analysis"
+          cp data/news_perspectives/phi_analysis.json public/news-perspectives/phi.json 2>/dev/null || echo "No Phi analysis"
+          cp data/news_perspectives/mistral_analysis.json public/news-perspectives/mistral.json 2>/dev/null || echo "No Mistral analysis"
+          # High tier models
+          cp data/news_perspectives/gpt_analysis.json public/news-perspectives/gpt.json 2>/dev/null || echo "No GPT-4o analysis"
+          cp data/news_perspectives/llama_analysis.json public/news-perspectives/llama.json 2>/dev/null || echo "No Llama 405B analysis"
+          cp data/news_perspectives/deepseek_analysis.json public/news-perspectives/deepseek.json 2>/dev/null || echo "No DeepSeek analysis"
+          cp data/news_perspectives/grok_analysis.json public/news-perspectives/grok.json 2>/dev/null || echo "No Grok analysis"
+          cp data/news_perspectives/news.json public/news-perspectives/news.json 2>/dev/null || echo "No news data"
+
+      - name: Commit and push artifacts
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add public/news-perspectives.json public/news-perspectives/*.json
+          git diff --staged --quiet || git commit -m "Deploy: Updated news perspectives - $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git push
+
+      - name: Write deployment summary
+        run: |
+          echo "# 🌍 News Perspectives Deployment" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Pipeline:** News Perspectives (Multi-AI Analysis)" >> $GITHUB_STEP_SUMMARY
+          echo "**Status:** ✅ Completed" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**AI Models Analyzed:**" >> $GITHUB_STEP_SUMMARY
+          # Count available analysis files
+          [ -f data/news_perspectives/gpt_mini_analysis.json ] && echo "- 🟢 GPT-4o Mini (Low tier)" >> $GITHUB_STEP_SUMMARY
+          [ -f data/news_perspectives/llama_small_analysis.json ] && echo "- 🔵 Llama 3.1 8B (Low tier)" >> $GITHUB_STEP_SUMMARY
+          [ -f data/news_perspectives/phi_analysis.json ] && echo "- 🟡 Phi-4 Mini (Low tier)" >> $GITHUB_STEP_SUMMARY
+          [ -f data/news_perspectives/mistral_analysis.json ] && echo "- 🟣 Mistral Small (Low tier)" >> $GITHUB_STEP_SUMMARY
+          [ -f data/news_perspectives/gpt_analysis.json ] && echo "- 🟢 GPT-4o (High tier)" >> $GITHUB_STEP_SUMMARY
+          [ -f data/news_perspectives/llama_analysis.json ] && echo "- 🔵 Llama 3.1 405B (High tier)" >> $GITHUB_STEP_SUMMARY
+          [ -f data/news_perspectives/deepseek_analysis.json ] && echo "- 🟣 DeepSeek-V3 (High tier)" >> $GITHUB_STEP_SUMMARY
+          [ -f data/news_perspectives/grok_analysis.json ] && echo "- 🟠 Grok 3 (High tier)" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Published Files:**" >> $GITHUB_STEP_SUMMARY
+          echo "- \`news-perspectives.json\` - Combined perspectives from all AI models" >> $GITHUB_STEP_SUMMARY
+          echo "- \`news-perspectives/*.json\` - Individual model analyses" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Deployment Time:** $(date -u +%Y-%m-%dT%H:%M:%SZ)" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "---" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "🚀 GitHub Pages will rebuild automatically with the new data." >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**View Live:** [https://neevs.io/perspectives](https://neevs.io/perspectives)" >> $GITHUB_STEP_SUMMARY

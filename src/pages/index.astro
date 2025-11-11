@@ -1,0 +1,574 @@
+---
+import Layout from '../layouts/Layout.astro';
+import ReportCard from '../components/ReportCard.astro';
+import { Icon } from 'astro-icon/components';
+import fs from 'fs';
+import path from 'path';
+
+// Load weekly digest artifacts
+let academicArtifacts = [];
+let dukeLocalArtifacts = [];
+
+try {
+  // Load the latest digest
+  const digestPath = path.join(process.cwd(), 'public', 'academic-research-digest.json');
+  const digestContent = fs.readFileSync(digestPath, 'utf-8');
+  const digestData = JSON.parse(digestContent);
+  const digest = digestData.data.digest;
+
+  // Extract digest date from timestamp (format: YYYY-MM-DD)
+  const digestDate = digestData.timestamp ? digestData.timestamp.split('T')[0] : null;
+  const formattedDate = digestDate
+    ? new Date(digestDate).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })
+    : new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+
+  // Count total papers in digest
+  const totalPapers = digest.sections?.reduce((sum: number, section: any) =>
+    sum + (section.papers?.length || 0), 0) || 0;
+
+  // Create a card for the latest weekly digest
+  academicArtifacts = [
+    {
+      title: digest.title || "Weekly Research Roundup",
+      description: digest.subtitle || "Engaging weekly digest of trending research papers with social buzz tracking and editorial analysis.",
+      href: "/artifacts/research-roundup", // Latest digest always loads from /academic-research-digest.json
+      icon: "lucide:newspaper",
+      status: "active" as const,
+      lastUpdated: formattedDate,
+      agents: `${totalPapers} papers`,
+    },
+  ];
+
+  // Try to load archived digests from public/digests/
+  try {
+    const digestsDir = path.join(process.cwd(), 'public', 'digests');
+    if (fs.existsSync(digestsDir)) {
+      const digestFiles = fs.readdirSync(digestsDir)
+        .filter(file => file.endsWith('.json') && file.startsWith('academic-research-'))
+        .sort()
+        .reverse(); // Most recent first
+
+      // Track unique dates to avoid showing multiple digests from the same day
+      const seenDates = new Set<string>();
+      // Add the latest digest date to seen dates
+      if (digestDate) {
+        seenDates.add(digestDate);
+      }
+
+      for (const file of digestFiles) {
+        // Stop after 5 unique dates
+        if (seenDates.size >= 6) break; // 6 because we already have the latest (1 + 5 archives)
+
+        const archiveTimestamp = file.replace('.json', '');
+        const archivePath = path.join(digestsDir, file);
+        const archiveContent = fs.readFileSync(archivePath, 'utf-8');
+        const archiveData = JSON.parse(archiveContent);
+
+        // Extract date part from timestamp (academic-research-YYYY-MM-DD-HHMMSS -> YYYY-MM-DD)
+        const timestampPart = archiveTimestamp.replace('academic-research-', '');
+        const dateParts = timestampPart.split('-');
+        const archiveDatePart = dateParts.slice(0, 3).join('-'); // YYYY-MM-DD
+
+        // Skip if we've already shown a digest from this date
+        if (seenDates.has(archiveDatePart)) {
+          continue;
+        }
+
+        const archiveDigest = archiveData.data.digest;
+        const archiveFormattedDate = new Date(archiveDatePart).toLocaleDateString('en-US', {
+          month: 'short', day: 'numeric', year: 'numeric'
+        });
+
+        const archiveTotalPapers = archiveDigest.sections?.reduce((sum: number, section: any) =>
+          sum + (section.papers?.length || 0), 0) || 0;
+
+        academicArtifacts.push({
+          title: archiveDigest.title || "Weekly Research Roundup",
+          description: archiveDigest.subtitle || "Weekly digest of trending research papers",
+          href: `/artifacts/research-roundup?timestamp=${archiveTimestamp}`,
+          icon: "lucide:newspaper",
+          status: "completed" as const,
+          lastUpdated: archiveFormattedDate,
+          agents: `${archiveTotalPapers} papers`,
+        });
+
+        // Mark this date as seen
+        seenDates.add(archiveDatePart);
+      }
+    }
+  } catch (archiveError) {
+    console.log('No archived digests found:', archiveError);
+  }
+} catch (error) {
+  console.error('Failed to load digest:', error);
+  // Fallback to single card
+  academicArtifacts = [
+    {
+      title: "Weekly Research Roundup",
+      description: "Engaging weekly digest of trending research papers with social buzz tracking and editorial analysis.",
+      href: "/artifacts/research-roundup",
+      icon: "lucide:newspaper",
+      status: "active" as const,
+      lastUpdated: new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }),
+    },
+  ];
+}
+
+// Load Duke Local artifacts
+try {
+  const dukeDigestPath = path.join(process.cwd(), 'public', 'duke-local-digest.json');
+  const dukeDigestContent = fs.readFileSync(dukeDigestPath, 'utf-8');
+  const dukeDigestData = JSON.parse(dukeDigestContent);
+  const dukeDigest = dukeDigestData.data.digest;
+
+  const dukeDate = dukeDigestData.timestamp ? dukeDigestData.timestamp.split('T')[0] : null;
+  const dukeFormattedDate = dukeDate
+    ? new Date(dukeDate).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })
+    : new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+
+  const totalPosts = dukeDigestData.data?.post_count || 0;
+
+  dukeLocalArtifacts = [
+    {
+      title: dukeDigest.title || "Duke Daily Digest",
+      description: dukeDigest.subtitle || "Your daily roundup of what's happening on the Duke campus",
+      href: "/artifacts/duke-daily",
+      icon: "lucide:school",
+      status: "active" as const,
+      lastUpdated: dukeFormattedDate,
+      agents: `${totalPosts} posts`,
+    },
+  ];
+} catch (error) {
+  console.log('Duke Local digest not found (may not have run yet)');
+  dukeLocalArtifacts = [];
+}
+
+// Load market analysis artifacts
+let marketAnalysisArtifacts = [];
+try {
+  const marketAnalysisPath = path.join(process.cwd(), 'public', 'market-analysis.json');
+  const marketAnalysisContent = fs.readFileSync(marketAnalysisPath, 'utf-8');
+  const marketAnalysisData = JSON.parse(marketAnalysisContent);
+  const digest = marketAnalysisData.data.digest;
+
+  const digestDate = marketAnalysisData.timestamp ? marketAnalysisData.timestamp.split('T')[0] : null;
+  const formattedDate = digestDate
+    ? new Date(digestDate).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })
+    : new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+
+  // Count crypto and stocks
+  const cryptoCount = digest.crypto_section?.items?.length || 0;
+  const stocksCount = digest.stocks_section?.items?.length || 0;
+  const totalAssets = cryptoCount + stocksCount;
+
+  marketAnalysisArtifacts = [
+    {
+      title: digest.title || "Market Analysis",
+      description: digest.subtitle || "Real-time crypto and stock market analysis with AI-powered insights",
+      href: "/artifacts/market-pulse",
+      icon: "lucide:trending-up",
+      status: "active" as const,
+      lastUpdated: formattedDate,
+      agents: `${totalAssets} assets tracked`,
+    },
+  ];
+} catch (error) {
+  console.log('Market analysis data not found (may not have run yet)');
+  marketAnalysisArtifacts = [];
+}
+
+// Load news perspectives artifacts
+let newsPerspectivesArtifacts = [];
+try {
+  const perspectivesPath = path.join(process.cwd(), 'public', 'news-perspectives.json');
+  const perspectivesContent = fs.readFileSync(perspectivesPath, 'utf-8');
+  const perspectivesData = JSON.parse(perspectivesContent);
+
+  const perspectivesDate = perspectivesData.timestamp ? perspectivesData.timestamp.split('T')[0] : null;
+  const perspectivesFormattedDate = perspectivesDate
+    ? new Date(perspectivesDate).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })
+    : new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+
+  const articlesCount = perspectivesData.data?.count || 0;
+  const modelsCount = perspectivesData.data?.models?.length || 4;
+
+  newsPerspectivesArtifacts = [
+    {
+      title: "AI News Bias Detector",
+      description: "Compare how ChatGPT, Llama, and other AIs see the same story - expose bias and think critically",
+      href: "/perspectives",
+      icon: "lucide:search-check",
+      status: "active" as const,
+      lastUpdated: perspectivesFormattedDate,
+      agents: `${articlesCount} articles × ${modelsCount} AI models`,
+    },
+  ];
+} catch (error) {
+  console.log('News perspectives data not found (may not have run yet)');
+  newsPerspectivesArtifacts = [];
+}
+
+// Organize artifacts by pipeline
+const pipelines = [
+  {
+    id: "news-perspectives",
+    name: "AI News Bias Detector",
+    description: "Compare how ChatGPT, Llama, and other AI models interpret the same story differently - expose AI bias and think critically",
+    status: newsPerspectivesArtifacts.length > 0 ? "active" as const : "planned" as const,
+    artifacts: newsPerspectivesArtifacts,
+    meta: {
+      schedule: "Every 6 hours",
+      dataSource: "Google News",
+      aiTask: "Multi-AI comparison, bias detection, sentiment analysis",
+    },
+  },
+  {
+    id: "academic-research",
+    name: "Academic Research Pipeline",
+    description: "Weekly digest of trending research papers with social buzz tracking",
+    status: "active" as const,
+    artifacts: academicArtifacts,
+    meta: {
+      schedule: "Weekly (Sundays)",
+      dataSource: "arXiv API, Twitter/X, Reddit",
+      aiTask: "Paper summarization, trend analysis",
+    },
+  },
+  {
+    id: "duke-local",
+    name: "Duke Local Pipeline",
+    description: "Daily digest of Duke campus discussions from r/duke",
+    status: dukeLocalArtifacts.length > 0 ? "active" as const : "planned" as const,
+    artifacts: dukeLocalArtifacts,
+    meta: {
+      schedule: dukeLocalArtifacts.length > 0 ? "Daily" : "Daily",
+      dataSource: "Reddit r/duke",
+      aiTask: "Topic clustering, sentiment tracking",
+    },
+  },
+  {
+    id: "market-analysis",
+    name: "Market Analysis Pipeline",
+    description: "Real-time crypto and stock market analysis with AI insights",
+    status: marketAnalysisArtifacts.length > 0 ? "active" as const : "planned" as const,
+    artifacts: marketAnalysisArtifacts,
+    meta: {
+      schedule: marketAnalysisArtifacts.length > 0 ? "Daily (6 AM EST)" : "Daily (6 AM EST)",
+      dataSource: "CoinGecko, Yahoo Finance, News APIs",
+      aiTask: "Sentiment analysis, trend prediction",
+    },
+  },
+  {
+    id: "social-trends",
+    name: "Social Trends Pipeline",
+    description: "Social media analysis and trending topics",
+    status: "planned" as const,
+    artifacts: [],
+    meta: {
+      schedule: "Daily",
+      dataSource: "Twitter/X, Reddit, Hacker News",
+      aiTask: "Trend detection, topic modeling",
+    },
+  },
+];
+---
+
+<Layout title="Neevs - Automated AI Insights" description="Discover AI-powered channels that analyze news, research, and trends">
+    <div class="page-header">
+        <h1 class="page-title">Neevs</h1>
+        <p class="page-description">
+            Automated insights from AI-powered channels · Subscribe to what matters
+        </p>
+        <div class="highlight-badges">
+            <span class="highlight-badge">
+                <Icon name="lucide:zap" class="badge-icon" />
+                <span>Always Fresh</span>
+            </span>
+            <span class="highlight-badge">
+                <Icon name="lucide:rocket" class="badge-icon" />
+                <span>Fully Automated</span>
+            </span>
+            <span class="highlight-badge">
+                <Icon name="lucide:sparkles" class="badge-icon" />
+                <span>AI-Powered</span>
+            </span>
+        </div>
+        <p class="page-subdescription">
+            Free to read · Subscribe to channels you love · Built with AgentFlow
+        </p>
+    </div>
+
+    <h2 class="pipelines-section-title">Browse All Channels</h2>
+
+    <div class="pipelines-section">
+        {pipelines.map(pipeline => (
+            <div class="pipeline-container">
+                <div class="pipeline-header">
+                    <div class="pipeline-title-row">
+                        <h2 class="pipeline-title">{pipeline.name}</h2>
+                        <span class={`pipeline-status status-${pipeline.status}`}>
+                            {pipeline.status}
+                        </span>
+                    </div>
+                    <p class="pipeline-description">{pipeline.description}</p>
+
+                    {pipeline.meta && (
+                        <div class="pipeline-meta">
+                            <div class="meta-item">
+                                <span class="meta-label">{pipeline.status === 'planned' ? 'Planned Schedule:' : 'Schedule:'}</span>
+                                <span class="meta-value">{pipeline.meta.schedule}</span>
+                            </div>
+                            <div class="meta-item">
+                                <span class="meta-label">Data Source:</span>
+                                <span class="meta-value">{pipeline.meta.dataSource}</span>
+                            </div>
+                            <div class="meta-item">
+                                <span class="meta-label">AI Task:</span>
+                                <span class="meta-value">{pipeline.meta.aiTask}</span>
+                            </div>
+                        </div>
+                    )}
+                </div>
+
+                {pipeline.artifacts.length > 0 ? (
+                    <div class="artifacts-container">
+                        <div class="artifacts-grid">
+                            {pipeline.artifacts.map(artifact => (
+                                <ReportCard {...artifact} />
+                            ))}
+                        </div>
+                    </div>
+                ) : (
+                    <div class="no-artifacts">
+                        <p>No artifacts generated yet • Pipeline coming soon</p>
+                    </div>
+                )}
+            </div>
+        ))}
+    </div>
+</Layout>
+
+<style>
+    .page-header {
+        text-align: center;
+        max-width: 52rem;
+        margin: 0 auto var(--space-12);
+    }
+
+    .page-title {
+        font-size: var(--font-size-4xl);
+        font-weight: 700;
+        letter-spacing: -0.04em;
+        color: var(--color-text-primary);
+        margin-bottom: var(--space-3);
+    }
+
+    .page-description {
+        font-size: var(--font-size-lg);
+        color: var(--color-text-secondary);
+        font-weight: 400;
+        line-height: 1.6;
+        margin: 0 0 var(--space-6);
+    }
+
+    .highlight-badges {
+        display: flex;
+        flex-wrap: wrap;
+        gap: var(--space-2);
+        justify-content: center;
+        margin-bottom: var(--space-4);
+    }
+
+    .highlight-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: var(--space-2);
+        padding: var(--space-2) var(--space-4);
+        background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+        border: 1px solid #fbbf24;
+        border-radius: var(--radius-full);
+        font-size: var(--font-size-sm);
+        font-weight: 600;
+        color: #92400e;
+        box-shadow: 0 2px 4px rgba(251, 191, 36, 0.2);
+        transition: all var(--transition-base);
+    }
+
+    .badge-icon {
+        width: 16px;
+        height: 16px;
+        flex-shrink: 0;
+    }
+
+    .highlight-badge:hover {
+        transform: translateY(-1px);
+        box-shadow: 0 4px 8px rgba(251, 191, 36, 0.3);
+    }
+
+    .page-subdescription {
+        font-size: var(--font-size-sm);
+        color: var(--color-text-tertiary);
+        margin: 0;
+    }
+
+    /* Pipelines Section */
+    .pipelines-section-title {
+        font-size: var(--font-size-2xl);
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: var(--space-8);
+        color: var(--color-text-primary);
+        letter-spacing: -0.02em;
+        max-width: 72rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .pipelines-section {
+        max-width: 72rem;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: var(--space-8);
+    }
+
+    .pipeline-container {
+        border: 1px solid var(--color-border-light);
+        border-radius: var(--radius-lg);
+        padding: var(--space-6);
+        background: var(--color-bg-primary);
+        transition: all var(--transition-base);
+        box-shadow: var(--shadow-sm);
+    }
+
+    .pipeline-container:hover {
+        border-color: var(--color-border-medium);
+        box-shadow: var(--shadow-md);
+    }
+
+    .pipeline-header {
+        margin-bottom: var(--space-4);
+    }
+
+    .pipeline-title-row {
+        display: flex;
+        align-items: center;
+        gap: var(--space-3);
+        margin-bottom: var(--space-2);
+        flex-wrap: wrap;
+    }
+
+    .pipeline-title {
+        font-size: var(--font-size-xl);
+        font-weight: 600;
+        color: var(--color-text-primary);
+        margin: 0;
+        letter-spacing: -0.02em;
+    }
+
+    .pipeline-status {
+        padding: var(--space-1) var(--space-3);
+        border-radius: var(--radius-full);
+        font-size: var(--font-size-xs);
+        font-weight: 500;
+        text-transform: capitalize;
+    }
+
+    .status-active {
+        background: rgba(22, 163, 74, 0.1);
+        color: var(--color-accent-success);
+    }
+
+    .status-planned {
+        background: rgba(156, 163, 175, 0.1);
+        color: var(--color-text-tertiary);
+    }
+
+    .pipeline-description {
+        font-size: var(--font-size-base);
+        color: var(--color-text-secondary);
+        margin: 0 0 var(--space-4);
+        line-height: 1.5;
+    }
+
+    .pipeline-meta {
+        display: flex;
+        gap: var(--space-6);
+        flex-wrap: wrap;
+        padding: var(--space-4);
+        background: var(--color-bg-secondary);
+        border-radius: var(--radius-md);
+        font-size: var(--font-size-sm);
+    }
+
+    .meta-item {
+        display: flex;
+        align-items: baseline;
+        gap: var(--space-2);
+    }
+
+    .meta-label {
+        color: var(--color-text-tertiary);
+        font-weight: 500;
+    }
+
+    .meta-value {
+        color: var(--color-text-primary);
+        font-weight: 600;
+    }
+
+    .artifacts-container {
+        display: flex;
+        flex-direction: column;
+        gap: var(--space-4);
+    }
+
+    .artifacts-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        gap: var(--space-4);
+    }
+
+    .no-artifacts {
+        padding: var(--space-8);
+        text-align: center;
+        border: 2px dashed var(--color-border-light);
+        border-radius: var(--radius-md);
+        background: var(--color-bg-secondary);
+    }
+
+    .no-artifacts p {
+        margin: 0;
+        color: var(--color-text-tertiary);
+        font-size: var(--font-size-sm);
+    }
+
+    @media (max-width: 768px) {
+        .page-title {
+            font-size: var(--font-size-3xl);
+        }
+
+        .page-description {
+            font-size: var(--font-size-lg);
+        }
+
+        .highlight-badge {
+            font-size: var(--font-size-xs);
+            padding: var(--space-1) var(--space-3);
+        }
+
+        .artifacts-grid {
+            grid-template-columns: 1fr;
+        }
+
+        .pipeline-container {
+            padding: var(--space-6);
+        }
+
+        .pipeline-meta {
+            flex-direction: column;
+            gap: var(--space-3);
+        }
+    }
+</style>

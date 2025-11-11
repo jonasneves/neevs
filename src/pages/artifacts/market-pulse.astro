@@ -1,0 +1,584 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { Icon } from 'astro-icon/components';
+---
+
+<Layout title="Market Pulse" description="Real-time market analysis with AI-powered insights across stocks and crypto">
+    <article class="market-pulse">
+        <div id="content" class="content-wrapper">
+            <div class="loading-state">
+                <Icon name="lucide:loader-2" class="spinner" />
+                <p>Loading market data...</p>
+            </div>
+        </div>
+    </article>
+</Layout>
+
+<style>
+    html {
+        scroll-behavior: smooth;
+    }
+
+    .market-pulse {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .loading-state {
+        text-align: center;
+        padding: var(--space-20) var(--space-6);
+    }
+
+    .spinner {
+        width: 40px;
+        height: 40px;
+        animation: spin 1s linear infinite;
+        margin: 0 auto var(--space-4);
+        color: var(--color-accent-primary);
+    }
+
+    @keyframes spin {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+    }
+
+    /* Header */
+    :global(.market-header) {
+        background: linear-gradient(135deg, #10b981, #3b82f6);
+        color: white;
+        padding: var(--space-16) var(--space-8);
+        text-align: center;
+        border-radius: var(--radius-lg);
+        margin-bottom: var(--space-12);
+    }
+
+    :global(.market-title) {
+        font-size: var(--font-size-4xl);
+        font-weight: 700;
+        margin-bottom: var(--space-3);
+        line-height: 1.2;
+        color: white;
+    }
+
+    :global(.market-subtitle) {
+        font-size: var(--font-size-xl);
+        opacity: 0.95;
+        margin-bottom: var(--space-6);
+        color: white;
+    }
+
+    :global(.market-meta) {
+        display: flex;
+        justify-content: center;
+        gap: var(--space-6);
+        font-size: var(--font-size-sm);
+        opacity: 0.9;
+        flex-wrap: wrap;
+    }
+
+    /* Summary Box */
+    :global(.summary-box) {
+        background: var(--color-bg-elevated);
+        border: 1px solid var(--color-border-light);
+        border-radius: var(--radius-lg);
+        padding: var(--space-8);
+        margin-bottom: var(--space-12);
+    }
+
+    :global(.summary-headline) {
+        font-size: var(--font-size-2xl);
+        font-weight: 600;
+        color: var(--color-text-primary);
+        margin-bottom: var(--space-4);
+    }
+
+    :global(.summary-content) {
+        color: var(--color-text-secondary);
+        line-height: 1.8;
+        font-size: var(--font-size-base);
+        margin-bottom: var(--space-6);
+    }
+
+    :global(.market-stats) {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: var(--space-4);
+        margin-top: var(--space-6);
+    }
+
+    :global(.stat-card) {
+        background: var(--color-bg-secondary);
+        padding: var(--space-4);
+        border-radius: var(--radius-md);
+        text-align: center;
+    }
+
+    :global(.stat-label) {
+        font-size: var(--font-size-sm);
+        color: var(--color-text-tertiary);
+        margin-bottom: var(--space-2);
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+    }
+
+    :global(.stat-value) {
+        font-size: var(--font-size-xl);
+        font-weight: 600;
+        color: var(--color-text-primary);
+    }
+
+    :global(.sentiment-indicator) {
+        display: inline-flex;
+        align-items: center;
+        gap: var(--space-2);
+        padding: var(--space-2) var(--space-4);
+        border-radius: var(--radius-sm);
+        font-weight: 600;
+        font-size: var(--font-size-sm);
+    }
+
+    :global(.sentiment-indicator.bullish) {
+        background: rgba(16, 185, 129, 0.1);
+        color: #10b981;
+    }
+
+    :global(.sentiment-indicator.bearish) {
+        background: rgba(239, 68, 68, 0.1);
+        color: #ef4444;
+    }
+
+    :global(.sentiment-indicator.neutral) {
+        background: rgba(107, 114, 128, 0.1);
+        color: #6b7280;
+    }
+
+    /* Section Headers */
+    :global(.section-container) {
+        margin-bottom: var(--space-16);
+    }
+
+    :global(.section-header) {
+        font-size: var(--font-size-2xl);
+        color: var(--color-text-primary);
+        margin-bottom: var(--space-6);
+        padding-bottom: var(--space-3);
+        border-bottom: 2px solid var(--color-border-medium);
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        gap: var(--space-3);
+    }
+
+    :global(.section-analysis) {
+        background: var(--color-bg-elevated);
+        border: 1px solid var(--color-border-light);
+        border-radius: var(--radius-lg);
+        padding: var(--space-6);
+        margin-bottom: var(--space-8);
+        line-height: 1.7;
+        color: var(--color-text-secondary);
+    }
+
+    /* Asset Cards */
+    :global(.asset-grid) {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: var(--space-6);
+        margin-bottom: var(--space-8);
+    }
+
+    :global(.asset-card) {
+        background: var(--color-bg-elevated);
+        border: 1px solid var(--color-border-light);
+        border-radius: var(--radius-lg);
+        padding: var(--space-6);
+        transition: all var(--transition-base);
+    }
+
+    :global(.asset-card:hover) {
+        border-color: var(--color-border-medium);
+        box-shadow: var(--shadow-sm);
+    }
+
+    :global(.asset-card.gaining) {
+        border-left: 4px solid #10b981;
+    }
+
+    :global(.asset-card.losing) {
+        border-left: 4px solid #ef4444;
+    }
+
+    :global(.asset-header) {
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        margin-bottom: var(--space-4);
+    }
+
+    :global(.asset-info h3) {
+        font-size: var(--font-size-xl);
+        font-weight: 600;
+        color: var(--color-text-primary);
+        margin-bottom: var(--space-1);
+    }
+
+    :global(.asset-name) {
+        font-size: var(--font-size-sm);
+        color: var(--color-text-tertiary);
+    }
+
+    :global(.asset-price) {
+        font-size: var(--font-size-2xl);
+        font-weight: 700;
+        color: var(--color-text-primary);
+        margin-bottom: var(--space-2);
+    }
+
+    :global(.asset-change) {
+        display: flex;
+        align-items: center;
+        gap: var(--space-2);
+        font-weight: 600;
+        font-size: var(--font-size-base);
+    }
+
+    :global(.asset-change.positive) {
+        color: #10b981;
+    }
+
+    :global(.asset-change.negative) {
+        color: #ef4444;
+    }
+
+    :global(.asset-meta) {
+        display: flex;
+        justify-content: space-between;
+        margin-top: var(--space-4);
+        padding-top: var(--space-4);
+        border-top: 1px solid var(--color-border-light);
+        font-size: var(--font-size-sm);
+        color: var(--color-text-tertiary);
+    }
+
+    /* Indices Bar */
+    :global(.indices-bar) {
+        display: flex;
+        gap: var(--space-4);
+        margin-bottom: var(--space-8);
+        flex-wrap: wrap;
+    }
+
+    :global(.index-item) {
+        flex: 1;
+        min-width: 200px;
+        background: var(--color-bg-elevated);
+        border: 1px solid var(--color-border-light);
+        border-radius: var(--radius-md);
+        padding: var(--space-5);
+    }
+
+    :global(.index-name) {
+        font-size: var(--font-size-sm);
+        color: var(--color-text-tertiary);
+        margin-bottom: var(--space-2);
+        font-weight: 500;
+    }
+
+    :global(.index-price) {
+        font-size: var(--font-size-xl);
+        font-weight: 700;
+        color: var(--color-text-primary);
+        margin-bottom: var(--space-2);
+    }
+
+    :global(.index-change) {
+        font-weight: 600;
+    }
+
+    /* Highlights */
+    :global(.highlights-section) {
+        background: linear-gradient(to bottom, rgba(59, 130, 246, 0.05), transparent);
+        border: 1px solid var(--color-border-light);
+        border-radius: var(--radius-lg);
+        padding: var(--space-8);
+        margin-bottom: var(--space-12);
+    }
+
+    :global(.highlights-section h3) {
+        font-size: var(--font-size-xl);
+        font-weight: 600;
+        color: var(--color-text-primary);
+        margin-bottom: var(--space-6);
+    }
+
+    :global(.highlight-item) {
+        padding: var(--space-4);
+        margin-bottom: var(--space-4);
+        background: var(--color-bg-elevated);
+        border-radius: var(--radius-md);
+        border-left: 3px solid var(--color-accent-primary);
+    }
+
+    :global(.highlight-label) {
+        font-size: var(--font-size-xs);
+        color: var(--color-text-tertiary);
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        margin-bottom: var(--space-2);
+    }
+
+    :global(.highlight-value) {
+        font-size: var(--font-size-lg);
+        font-weight: 600;
+        color: var(--color-text-primary);
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+        :global(.market-title) {
+            font-size: var(--font-size-3xl);
+        }
+
+        :global(.asset-grid) {
+            grid-template-columns: 1fr;
+        }
+
+        :global(.indices-bar) {
+            flex-direction: column;
+        }
+    }
+</style>
+
+<script>
+    async function loadMarketData() {
+        const content = document.getElementById('content');
+        if (!content) return;
+
+        try {
+            const response = await fetch('/market-analysis.json');
+            if (!response.ok) {
+                throw new Error('Market data not available');
+            }
+
+            const data = await response.json();
+            const digest = data.data.digest;
+
+            const html = renderMarketDigest(digest);
+            content.innerHTML = html;
+
+        } catch (error) {
+            console.error('Error loading market data:', error);
+            content.innerHTML = renderMockData();
+        }
+    }
+
+    function renderMarketDigest(digest: any) {
+        const generatedDate = new Date(digest.generated_at).toLocaleDateString('en-US', {
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric',
+            hour: '2-digit',
+            minute: '2-digit'
+        });
+
+        let html = `
+            <header class="market-header">
+                <h1 class="market-title">${digest.title}</h1>
+                <p class="market-subtitle">${digest.subtitle}</p>
+                <div class="market-meta">
+                    <span>📊 ${digest.metadata.assets_tracked} Assets Tracked</span>
+                    <span>🕐 Updated ${generatedDate}</span>
+                </div>
+            </header>
+
+            <div class="summary-box">
+                <h2 class="summary-headline">${digest.summary.headline}</h2>
+                <div class="summary-content">${formatText(digest.summary.content)}</div>
+
+                <div class="market-stats">
+                    <div class="stat-card">
+                        <div class="stat-label">Market Sentiment</div>
+                        <div class="stat-value">
+                            <span class="sentiment-indicator ${digest.summary.stats.market_sentiment.label.toLowerCase().replace(' ', '-')}">
+                                ${digest.summary.stats.market_sentiment.emoji} ${digest.summary.stats.market_sentiment.label}
+                            </span>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">Crypto Market Cap</div>
+                        <div class="stat-value">${digest.summary.stats.total_crypto_market_cap}</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">Avg Crypto Change</div>
+                        <div class="stat-value" style="color: ${getChangeColor(digest.summary.stats.crypto_24h_avg_change)}">${digest.summary.stats.crypto_24h_avg_change}</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">Avg Indices Change</div>
+                        <div class="stat-value" style="color: ${getChangeColor(digest.summary.stats.indices_avg_change)}">${digest.summary.stats.indices_avg_change}</div>
+                    </div>
+                </div>
+            </div>
+        `;
+
+        // Stock Market Section
+        html += `
+            <div class="section-container">
+                <h2 class="section-header">
+                    📈 ${digest.stocks_section.title}
+                </h2>
+
+                <div class="indices-bar">
+        `;
+
+        for (const index of digest.stocks_section.indices) {
+            const changeClass = index.is_gaining ? 'positive' : 'negative';
+            html += `
+                <div class="index-item">
+                    <div class="index-name">${index.name}</div>
+                    <div class="index-price">${index.price_formatted}</div>
+                    <div class="index-change ${changeClass}">
+                        ${index.is_gaining ? '▲' : '▼'} ${index.change_formatted} (${index.change_percent_formatted})
+                    </div>
+                </div>
+            `;
+        }
+
+        html += `</div>`;
+
+        html += `<div class="section-analysis">${digest.stocks_section.analysis}</div>`;
+
+        html += `<div class="asset-grid">`;
+        for (const stock of digest.stocks_section.stocks) {
+            const cardClass = stock.is_gaining ? 'gaining' : 'losing';
+            const changeClass = stock.is_gaining ? 'positive' : 'negative';
+            html += `
+                <div class="asset-card ${cardClass}">
+                    <div class="asset-header">
+                        <div class="asset-info">
+                            <h3>${stock.symbol}</h3>
+                        </div>
+                    </div>
+                    <div class="asset-price">${stock.price_formatted}</div>
+                    <div class="asset-change ${changeClass}">
+                        ${stock.is_gaining ? '▲' : '▼'} ${stock.change_formatted} (${stock.change_percent_formatted})
+                    </div>
+                    <div class="asset-meta">
+                        <span>Volume: ${stock.volume_formatted}</span>
+                    </div>
+                </div>
+            `;
+        }
+        html += `</div></div>`;
+
+        // Crypto Section
+        html += `
+            <div class="section-container">
+                <h2 class="section-header">
+                    💎 ${digest.crypto_section.title}
+                </h2>
+
+                <div class="section-analysis">${digest.crypto_section.analysis}</div>
+
+                <div class="asset-grid">
+        `;
+
+        for (const crypto of digest.crypto_section.items) {
+            const cardClass = crypto.is_gaining ? 'gaining' : 'losing';
+            const changeClass = crypto.is_gaining ? 'positive' : 'negative';
+            html += `
+                <div class="asset-card ${cardClass}">
+                    <div class="asset-header">
+                        <div class="asset-info">
+                            <h3>${crypto.symbol}</h3>
+                            <div class="asset-name">${crypto.name}</div>
+                        </div>
+                    </div>
+                    <div class="asset-price">${crypto.price_formatted}</div>
+                    <div class="asset-change ${changeClass}">
+                        24h: ${crypto.is_gaining ? '▲' : '▼'} ${crypto.change_24h_formatted}
+                    </div>
+                    <div class="asset-meta">
+                        <span>Rank #${crypto.rank}</span>
+                        <span>MCap: ${crypto.market_cap_formatted}</span>
+                    </div>
+                </div>
+            `;
+        }
+
+        html += `</div></div>`;
+
+        // Highlights
+        if (digest.highlights) {
+            html += `
+                <div class="highlights-section">
+                    <h3>📌 Market Highlights</h3>
+            `;
+
+            if (digest.highlights.biggest_crypto_mover) {
+                const mover = digest.highlights.biggest_crypto_mover;
+                html += `
+                    <div class="highlight-item">
+                        <div class="highlight-label">Biggest Crypto Mover</div>
+                        <div class="highlight-value">
+                            ${mover.name} (${mover.symbol}) ${mover.direction === 'up' ? '📈' : '📉'} ${mover.change_formatted}
+                        </div>
+                    </div>
+                `;
+            }
+
+            if (digest.highlights.biggest_stock_mover) {
+                const mover = digest.highlights.biggest_stock_mover;
+                html += `
+                    <div class="highlight-item">
+                        <div class="highlight-label">Biggest Stock Mover</div>
+                        <div class="highlight-value">
+                            ${mover.symbol} ${mover.direction === 'up' ? '📈' : '📉'} ${mover.change_formatted}
+                        </div>
+                    </div>
+                `;
+            }
+
+            if (digest.highlights.market_leader) {
+                const leader = digest.highlights.market_leader;
+                html += `
+                    <div class="highlight-item">
+                        <div class="highlight-label">Leading Index</div>
+                        <div class="highlight-value">
+                            ${leader.name} 🏆 ${leader.change_formatted}
+                        </div>
+                    </div>
+                `;
+            }
+
+            html += `</div>`;
+        }
+
+        return html;
+    }
+
+    function formatText(text: string) {
+        // Convert markdown-style bold to HTML
+        return text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+                   .replace(/\n\n/g, '</p><p>')
+                   .replace(/^(.+)$/g, '<p>$1</p>');
+    }
+
+    function getChangeColor(changeStr: string) {
+        const value = parseFloat(changeStr);
+        return value >= 0 ? '#10b981' : '#ef4444';
+    }
+
+    function renderMockData() {
+        return `
+            <div style="text-align: center; padding: var(--space-20); color: var(--color-text-tertiary);">
+                <h2>Market analysis coming soon!</h2>
+                <p>The pipeline will generate fresh market insights twice daily.</p>
+                <p style="margin-top: var(--space-4); font-size: var(--font-size-sm);">
+                    Run the pipeline manually with: <code>gh workflow run main-market-analysis.yml</code>
+                </p>
+            </div>
+        `;
+    }
+
+    document.addEventListener('DOMContentLoaded', loadMarketData);
+</script>

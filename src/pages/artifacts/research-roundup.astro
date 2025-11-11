@@ -1,0 +1,746 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { Icon } from 'astro-icon/components';
+---
+
+<Layout title="Weekly Research Roundup" description="AI, science, and the bleeding edge - explained like you're smart but not a PhD">
+    <article class="roundup">
+        <div id="content" class="content-wrapper">
+            <div class="loading-state">
+                <Icon name="lucide:loader-2" class="spinner" />
+                <p>Loading this week's digest...</p>
+            </div>
+        </div>
+    </article>
+</Layout>
+
+<style>
+    /* Smooth scrolling for anchor links */
+    html {
+        scroll-behavior: smooth;
+    }
+
+    /* Layout */
+    .roundup {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .loading-state {
+        text-align: center;
+        padding: var(--space-20) var(--space-6);
+    }
+
+    .spinner {
+        width: 40px;
+        height: 40px;
+        animation: spin 1s linear infinite;
+        margin: 0 auto var(--space-4);
+        color: var(--color-accent-primary);
+    }
+
+    @keyframes spin {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+    }
+
+    /* Header Styles */
+    :global(.digest-header) {
+        background: linear-gradient(135deg, var(--color-accent-primary), var(--color-accent-secondary));
+        color: white;
+        padding: var(--space-16) var(--space-8);
+        text-align: center;
+        border-radius: var(--radius-lg);
+        margin-bottom: var(--space-12);
+    }
+
+    :global(.digest-title) {
+        font-size: var(--font-size-4xl);
+        font-weight: 700;
+        margin-bottom: var(--space-3);
+        line-height: 1.2;
+        letter-spacing: -0.03em;
+        color: white;
+    }
+
+    :global(.digest-subtitle) {
+        font-size: var(--font-size-xl);
+        opacity: 0.95;
+        font-style: italic;
+        margin-bottom: var(--space-6);
+        color: white;
+    }
+
+    :global(.digest-meta) {
+        display: flex;
+        justify-content: center;
+        gap: var(--space-6);
+        font-size: var(--font-size-sm);
+        opacity: 0.9;
+        flex-wrap: wrap;
+    }
+
+    :global(.digest-meta span) {
+        display: flex;
+        align-items: center;
+        gap: var(--space-2);
+    }
+
+    /* Intro Box */
+    :global(.intro-box) {
+        font-size: var(--font-size-lg);
+        color: var(--color-text-secondary);
+        margin-bottom: var(--space-12);
+        padding: var(--space-8);
+        background: var(--color-bg-elevated);
+        border: 1px solid var(--color-border-light);
+        border-radius: var(--radius-lg);
+        line-height: 1.8;
+    }
+
+    :global(.intro-box strong) {
+        color: var(--color-text-primary);
+    }
+
+    /* Section Styles */
+    :global(.digest-section) {
+        margin-bottom: var(--space-16);
+    }
+
+    :global(.section-header) {
+        font-size: var(--font-size-2xl);
+        color: var(--color-text-primary);
+        margin-bottom: var(--space-4);
+        padding-bottom: var(--space-3);
+        border-bottom: 2px solid var(--color-border-medium);
+        font-weight: 600;
+    }
+
+    :global(.section-commentary) {
+        font-size: var(--font-size-base);
+        color: var(--color-text-secondary);
+        margin-bottom: var(--space-6);
+        line-height: 1.7;
+    }
+
+    /* Paper Card - Editorial Style */
+    :global(.paper-feature) {
+        margin: var(--space-6) 0;
+        padding: var(--space-8);
+        background: var(--color-bg-elevated);
+        border: 1px solid var(--color-border-light);
+        border-radius: var(--radius-lg);
+        transition: all var(--transition-base);
+    }
+
+    :global(.paper-feature:hover) {
+        border-color: var(--color-border-medium);
+        box-shadow: var(--shadow-sm);
+    }
+
+    :global(.paper-feature.editors-pick) {
+        background: linear-gradient(to bottom, rgba(37, 99, 235, 0.03), transparent);
+        border: 2px solid var(--color-accent-primary);
+    }
+
+    :global(.pick-badge) {
+        display: inline-block;
+        background: var(--color-accent-primary);
+        color: white;
+        padding: var(--space-1) var(--space-3);
+        border-radius: var(--radius-sm);
+        font-size: var(--font-size-xs);
+        font-weight: 600;
+        margin-bottom: var(--space-4);
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+    }
+
+    :global(.buzz-indicator) {
+        display: inline-block;
+        background: rgba(37, 99, 235, 0.1);
+        color: var(--color-accent-primary);
+        padding: var(--space-1) var(--space-3);
+        border-radius: var(--radius-sm);
+        font-size: var(--font-size-xs);
+        font-weight: 600;
+        margin-bottom: var(--space-4);
+        margin-left: var(--space-2);
+    }
+
+    :global(.paper-feature h3) {
+        font-size: var(--font-size-xl);
+        color: var(--color-text-primary);
+        margin-bottom: var(--space-3);
+        line-height: 1.4;
+        font-weight: 600;
+    }
+
+    :global(.paper-authors) {
+        color: var(--color-text-tertiary);
+        font-size: var(--font-size-sm);
+        margin-bottom: var(--space-4);
+    }
+
+    :global(.paper-commentary) {
+        margin: var(--space-4) 0;
+        font-size: var(--font-size-base);
+        line-height: 1.7;
+        color: var(--color-text-secondary);
+    }
+
+    :global(.paper-commentary p) {
+        margin-bottom: var(--space-3);
+    }
+
+    /* Why This Matters Box */
+    :global(.why-matters) {
+        background: linear-gradient(to bottom, rgba(37, 99, 235, 0.05), transparent);
+        padding: var(--space-6);
+        border-left: 3px solid var(--color-accent-primary);
+        margin: var(--space-6) 0;
+        border-radius: var(--radius-md);
+    }
+
+    :global(.why-matters h4) {
+        color: var(--color-accent-primary);
+        margin-bottom: var(--space-3);
+        font-size: var(--font-size-base);
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+    }
+
+    :global(.why-matters p) {
+        color: var(--color-text-secondary);
+        line-height: 1.7;
+    }
+
+    /* Tags */
+    :global(.paper-tags) {
+        display: flex;
+        gap: var(--space-2);
+        flex-wrap: wrap;
+        margin: var(--space-4) 0;
+    }
+
+    :global(.tag) {
+        display: inline-block;
+        background: var(--color-bg-tertiary);
+        color: var(--color-text-secondary);
+        padding: var(--space-1) var(--space-3);
+        border-radius: var(--radius-sm);
+        font-size: var(--font-size-xs);
+        font-weight: 500;
+    }
+
+    /* Read More Link */
+    :global(.read-more) {
+        display: inline-flex;
+        align-items: center;
+        gap: var(--space-2);
+        color: var(--color-accent-primary);
+        text-decoration: none;
+        font-weight: 600;
+        font-size: var(--font-size-sm);
+        margin-top: var(--space-4);
+        transition: color var(--transition-fast);
+    }
+
+    :global(.read-more:hover) {
+        color: var(--color-accent-secondary);
+    }
+
+    /* Honorable Mentions */
+    :global(.honorable-mentions) {
+        background: var(--color-bg-elevated);
+        border: 1px solid var(--color-border-light);
+        padding: var(--space-8);
+        border-radius: var(--radius-lg);
+        margin: var(--space-12) 0;
+    }
+
+    :global(.honorable-mentions h3) {
+        color: var(--color-text-primary);
+        margin-bottom: var(--space-6);
+        font-size: var(--font-size-xl);
+        font-weight: 600;
+    }
+
+    :global(.honorable-mentions ul) {
+        list-style: none;
+    }
+
+    :global(.honorable-mentions li) {
+        padding: var(--space-4);
+        margin: var(--space-3) 0;
+        background: var(--color-bg-secondary);
+        border-radius: var(--radius-md);
+        border-left: 3px solid var(--color-accent-primary);
+    }
+
+    :global(.honorable-mentions li strong) {
+        color: var(--color-text-primary);
+        display: block;
+        margin-bottom: var(--space-2);
+        font-weight: 600;
+    }
+
+    /* Parting Thoughts */
+    :global(.parting-thoughts) {
+        font-size: var(--font-size-base);
+        color: var(--color-text-secondary);
+        margin: var(--space-12) 0;
+        padding: var(--space-8);
+        background: var(--color-bg-elevated);
+        border: 1px solid var(--color-border-light);
+        border-radius: var(--radius-lg);
+        line-height: 1.7;
+    }
+
+    :global(.parting-thoughts strong) {
+        color: var(--color-text-primary);
+    }
+
+    /* CTA Box */
+    :global(.cta-box) {
+        background: linear-gradient(135deg, var(--color-accent-primary), var(--color-accent-secondary));
+        color: white;
+        padding: var(--space-8);
+        text-align: center;
+        border-radius: var(--radius-lg);
+        margin: var(--space-12) 0;
+    }
+
+    :global(.cta-box h3) {
+        margin-bottom: var(--space-3);
+        font-size: var(--font-size-xl);
+        color: white;
+        font-weight: 600;
+    }
+
+    :global(.cta-box p) {
+        margin-bottom: var(--space-6);
+        opacity: 0.95;
+        color: white;
+    }
+
+    :global(.cta-button) {
+        background: white;
+        color: var(--color-accent-primary);
+        border: none;
+        padding: var(--space-3) var(--space-8);
+        font-size: var(--font-size-base);
+        border-radius: var(--radius-md);
+        cursor: pointer;
+        font-weight: 600;
+        transition: transform var(--transition-base);
+    }
+
+    :global(.cta-button:hover) {
+        transform: scale(1.05);
+    }
+
+    /* Buzz Indicators */
+    :global(.buzz-stats) {
+        font-size: var(--font-size-sm);
+        color: var(--color-text-tertiary);
+        margin-bottom: var(--space-3);
+        padding: var(--space-2) var(--space-3);
+        background: rgba(37, 99, 235, 0.05);
+        border-radius: var(--radius-md);
+        border-left: 3px solid var(--color-accent-primary);
+    }
+
+    :global(.buzz-score) {
+        font-weight: 600;
+        color: var(--color-accent-primary);
+    }
+
+    :global(.buzz-link) {
+        color: var(--color-text-secondary);
+        text-decoration: none;
+        transition: color var(--transition-base);
+    }
+
+    :global(.buzz-link:hover) {
+        color: var(--color-accent-primary);
+        text-decoration: underline;
+    }
+
+    /* Archive Section */
+    :global(.archive-section) {
+        margin-top: var(--space-16);
+        padding-top: var(--space-12);
+        border-top: 2px solid var(--color-border-light);
+    }
+
+    :global(.archive-section h2) {
+        font-size: var(--font-size-2xl);
+        color: var(--color-text-primary);
+        margin-bottom: var(--space-6);
+        font-weight: 600;
+    }
+
+    :global(.archive-list) {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    :global(.archive-list li) {
+        padding: var(--space-4);
+        margin-bottom: var(--space-3);
+        background: var(--color-bg-elevated);
+        border: 1px solid var(--color-border-light);
+        border-radius: var(--radius-md);
+        transition: all var(--transition-base);
+    }
+
+    :global(.archive-list li:hover) {
+        border-color: var(--color-border-medium);
+        box-shadow: var(--shadow-sm);
+    }
+
+    :global(.archive-list a) {
+        text-decoration: none;
+        color: var(--color-text-primary);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: var(--space-4);
+    }
+
+    :global(.archive-list a:hover .archive-title) {
+        color: var(--color-accent-primary);
+    }
+
+    :global(.archive-title) {
+        font-weight: 600;
+        transition: color var(--transition-base);
+    }
+
+    :global(.archive-date) {
+        color: var(--color-text-tertiary);
+        font-size: var(--font-size-sm);
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+        :global(.digest-header) {
+            padding: var(--space-12) var(--space-6);
+        }
+
+        :global(.digest-title) {
+            font-size: var(--font-size-3xl);
+        }
+
+        :global(.digest-subtitle) {
+            font-size: var(--font-size-lg);
+        }
+
+        :global(.section-header) {
+            font-size: var(--font-size-xl);
+        }
+
+        :global(.paper-feature) {
+            padding: var(--space-6);
+        }
+
+        :global(.paper-feature h3) {
+            font-size: var(--font-size-lg);
+        }
+    }
+</style>
+
+<script>
+    async function loadDigest() {
+        const content = document.getElementById('content');
+        if (!content) return;
+
+        // Check if loading an archived digest
+        const urlParams = new URLSearchParams(window.location.search);
+        const archiveTimestamp = urlParams.get('timestamp') || urlParams.get('date');
+
+        try {
+            // Load digest data (either latest or archived)
+            const digestUrl = archiveTimestamp
+                ? `/digests/${archiveTimestamp}.json`
+                : '/academic-research-digest.json';
+
+            const response = await fetch(digestUrl);
+            if (!response.ok) {
+                throw new Error('Digest not available');
+            }
+
+            const data = await response.json();
+            const digest = data.data.digest;
+
+            let html = renderDigest(digest, archiveTimestamp);
+
+            // Only show archive list if viewing latest digest
+            if (!archiveTimestamp) {
+                try {
+                    const archiveHtml = await renderArchive();
+                    html += archiveHtml;
+                } catch (e) {
+                    console.log('No archive available yet');
+                }
+            }
+
+            content.innerHTML = html;
+
+            // Scroll to anchor if present in URL
+            if (window.location.hash) {
+                setTimeout(() => {
+                    const element = document.querySelector(window.location.hash);
+                    if (element) {
+                        element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    }
+                }, 100);
+            }
+        } catch (error) {
+            console.error('Error loading digest:', error);
+            content.innerHTML = renderMockDigest();
+        }
+    }
+
+    async function renderArchive() {
+        // For now, we'll scan for archive files by trying common dates
+        // In production, you'd want a manifest file
+        const archives: Array<{date: string, title: string, file: string}> = [];
+
+        // Try to load recent weeks (last 8 weeks)
+        const today = new Date();
+        for (let i = 7; i <= 56; i += 7) {
+            const pastDate = new Date(today);
+            pastDate.setDate(pastDate.getDate() - i);
+            const dateStr = pastDate.toISOString().split('T')[0];
+
+            try {
+                const response = await fetch(`/digests/${dateStr}.json`);
+                if (response.ok) {
+                    const data = await response.json();
+                    archives.push({
+                        date: dateStr,
+                        title: data.data.digest.title,
+                        file: dateStr
+                    });
+                }
+            } catch (e) {
+                // File doesn't exist, skip
+            }
+        }
+
+        if (archives.length === 0) {
+            return '';
+        }
+
+        let html = `
+            <div class="archive-section">
+                <h2>Previous Digests</h2>
+                <ul class="archive-list">
+        `;
+
+        for (const archive of archives) {
+            const formattedDate = new Date(archive.date).toLocaleDateString('en-US', {
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric'
+            });
+            html += `
+                <li>
+                    <a href="?date=${archive.file}">
+                        <span class="archive-title">${archive.title}</span>
+                        <span class="archive-date">${formattedDate}</span>
+                    </a>
+                </li>
+            `;
+        }
+
+        html += `
+                </ul>
+            </div>
+        `;
+
+        return html;
+    }
+
+    function renderDigest(digest: any, archiveTimestamp: string | null = null) {
+        const currentDate = new Date().toLocaleDateString('en-US', {
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric'
+        });
+
+        let html = '';
+
+        // Show "Back to Latest" if viewing archive
+        if (archiveTimestamp) {
+            html += `
+                <div style="margin-bottom: var(--space-6); text-align: center;">
+                    <a href="/artifacts/research-roundup" style="color: var(--color-accent-primary); text-decoration: none; font-weight: 600;">
+                        ← Back to Latest Digest
+                    </a>
+                </div>
+            `;
+        }
+
+        html += `
+            <header class="digest-header">
+                <h1 class="digest-title">${digest.title}</h1>
+                <p class="digest-subtitle">${digest.subtitle}</p>
+                <div class="digest-meta">
+                    <span>${currentDate}</span>
+                    <span>AI-Curated Research</span>
+                    <span>${estimateReadTime(digest)} min read</span>
+                </div>
+            </header>
+
+            <div class="intro-box">
+                <strong>This week:</strong> ${digest.intro}
+            </div>
+        `;
+
+        // Render sections
+        for (const section of digest.sections) {
+            html += `
+                <section class="digest-section">
+                    <h2 class="section-header">${section.title}</h2>
+                    <p class="section-commentary">${section.commentary}</p>
+            `;
+
+            for (const paper of section.papers) {
+                const isEditorsPick = digest.editors_pick?.paper?.id === paper.id;
+                html += renderPaper(paper, isEditorsPick, digest.editors_pick?.reason);
+            }
+
+            html += `</section>`;
+        }
+
+        // Honorable mentions
+        if (digest.honorable_mentions?.length > 0) {
+            html += `
+                <div class="honorable-mentions">
+                    <h3>Also Worth Your Time</h3>
+                    <ul>
+            `;
+            for (const paper of digest.honorable_mentions) {
+                html += `
+                    <li>
+                        <strong>${paper.title}</strong>
+                        <p style="color: var(--color-text-secondary); font-size: var(--font-size-sm); margin-top: var(--space-2);">
+                            ${paper.analysis.tldr}
+                        </p>
+                    </li>
+                `;
+            }
+            html += `</ul></div>`;
+        }
+
+        // Parting thoughts
+        html += `
+            <div class="parting-thoughts">
+                <strong>Parting Thoughts:</strong> ${digest.parting_thoughts}
+            </div>
+
+            <div class="cta-box">
+                <h3>Want these delivered weekly?</h3>
+                <p>Join researchers who start their Monday with our roundup.</p>
+                <button class="cta-button">Subscribe for Free</button>
+            </div>
+        `;
+
+        return html;
+    }
+
+    function renderPaper(paper: any, isEditorsPick: boolean, pickReason: string | null) {
+        const analysis = paper.analysis;
+        const buzz = paper.buzz;
+
+        let html = `<article id="${paper.id}" class="paper-feature ${isEditorsPick ? 'editors-pick' : ''}">`;
+
+        if (isEditorsPick) {
+            html += `<span class="pick-badge">Editor's Pick</span>`;
+        }
+
+        if (buzz?.trending) {
+            html += `<span class="buzz-indicator">Trending on ${getBuzzSource(buzz)}</span>`;
+        }
+
+        if (buzz && buzz.buzz_score > 30) {
+            html += `<div class="buzz-stats">`;
+            html += `<span class="buzz-score" title="Social buzz score">Buzz: ${buzz.buzz_score}/100</span>`;
+            if (buzz.hacker_news) {
+                html += ` | <a href="https://news.ycombinator.com/item?id=${buzz.hacker_news.hn_id}" target="_blank" class="buzz-link">HN: ${buzz.hacker_news.points} pts, ${buzz.hacker_news.comments} comments</a>`;
+            }
+            if (buzz.reddit) {
+                html += ` | <a href="${buzz.reddit.url}" target="_blank" class="buzz-link">Reddit: ${buzz.reddit.upvotes} upvotes</a>`;
+            }
+            html += `</div>`;
+        }
+
+        html += `
+            <h3>${paper.title}</h3>
+            <p class="paper-authors">${paper.authors.slice(0, 3).join(', ')}${paper.authors.length > 3 ? ' et al.' : ''}</p>
+
+            <div class="paper-commentary">
+                <p>${analysis.eli5}</p>
+            </div>
+        `;
+
+        if (isEditorsPick && pickReason) {
+            html += `
+                <div class="why-matters">
+                    <h4>Why This Matters</h4>
+                    <p>${pickReason}</p>
+                </div>
+            `;
+        } else if (analysis.why_care) {
+            html += `
+                <div class="why-matters">
+                    <h4>Why This Matters</h4>
+                    <p>${analysis.why_care}</p>
+                </div>
+            `;
+        }
+
+        if (paper.categories) {
+            html += `<div class="paper-tags">`;
+            for (const cat of paper.categories.slice(0, 3)) {
+                html += `<span class="tag">${cat}</span>`;
+            }
+            html += `</div>`;
+        }
+
+        if (paper.pdf_url) {
+            html += `<a href="${paper.pdf_url}" target="_blank" class="read-more">Read the full paper →</a>`;
+        }
+
+        html += `</article>`;
+        return html;
+    }
+
+    function getBuzzSource(buzz: any) {
+        const sources = [];
+        if (buzz.hacker_news?.found) sources.push('HN');
+        if (buzz.reddit?.found) sources.push('Reddit');
+        return sources.join(' & ') || 'social media';
+    }
+
+    function estimateReadTime(digest: any) {
+        const paperCount = digest.sections.reduce((sum: number, s: any) => sum + s.papers.length, 0);
+        return Math.max(5, Math.ceil(paperCount * 2.5));
+    }
+
+    function renderMockDigest() {
+        return `
+            <div style="text-align: center; padding: var(--space-20); color: var(--color-text-tertiary);">
+                <h2>Weekly digest coming soon!</h2>
+                <p>Check back Monday for this week's research roundup.</p>
+            </div>
+        `;
+    }
+
+    document.addEventListener('DOMContentLoaded', loadDigest);
+</script>

@@ -1,0 +1,92 @@
+name: Duke Local Pipeline
+
+on:
+  schedule:
+    - cron: '0 12 * * *'  # Run daily at 12 PM UTC (8 AM EST)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  # Stage 1: Fetch Posts from Reddit
+  fetch-posts:
+    name: "Fetch Posts"
+    uses: ./.github/workflows/_reusable-agent-runner.yml
+    with:
+      agent_module: 'agents.duke_local.reddit_fetcher'
+      agent_id: 'agent-a'
+      python_deps: ''
+      needs_openai: false
+
+  # Stage 2: Categorize Posts with AI
+  categorize-posts:
+    name: "Categorize Posts"
+    needs: fetch-posts
+    uses: ./.github/workflows/_reusable-agent-runner.yml
+    with:
+      agent_module: 'agents.duke_local.post_categorizer'
+      agent_id: 'agent-b'
+      python_deps: 'openai'
+      needs_openai: true
+    secrets:
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+
+  # Stage 3: Generate Daily Digest
+  generate-digest:
+    name: "Generate Digest"
+    needs: categorize-posts
+    uses: ./.github/workflows/_reusable-agent-runner.yml
+    with:
+      agent_module: 'agents.duke_local.digest_writer'
+      agent_id: 'agent-c'
+      python_deps: 'openai'
+      needs_openai: true
+    secrets:
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+
+  # Stage 4: Deploy Results to GitHub Pages
+  deploy-results:
+    name: "Deploy Results"
+    needs: [categorize-posts, generate-digest]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+
+      - name: Pull latest changes
+        run: git pull origin ${{ github.ref_name }}
+
+      - name: Copy data files to public
+        run: |
+          mkdir -p public/digests
+          # Copy only the latest digest and archives (frontend needs these)
+          cp data/duke_local/digest.json public/duke-local-digest.json || echo "No digest.json found"
+          cp -r data/duke_local/digests/duke-local-*.json public/digests/ 2>/dev/null || echo "No digest archives found"
+
+      - name: Commit and push artifacts
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add public/*-digest.json public/digests/*.json
+          git diff --staged --quiet || git commit -m "Deploy: Updated Duke Local data - $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git push
+
+      - name: Write deployment summary
+        run: |
+          echo "# GitHub Pages Deployment" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Pipeline:** Duke Local" >> $GITHUB_STEP_SUMMARY
+          echo "**Status:** Completed" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Published Files:**" >> $GITHUB_STEP_SUMMARY
+          echo "- \`duke-local-digest.json\` - Latest daily digest" >> $GITHUB_STEP_SUMMARY
+          echo "- \`digests/duke-local-*.json\` - Digest archives" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Deployment Time:** $(date -u +%Y-%m-%dT%H:%M:%SZ)" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "---" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "GitHub Pages will rebuild automatically with the new data." >> $GITHUB_STEP_SUMMARY

@@ -1,0 +1,172 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = "AI-Powered Research and Analysis" } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content={description}>
+    <title>{title}</title>
+</head>
+<body>
+    <div class="layout">
+        <header class="header">
+            <div class="container">
+                <nav class="nav">
+                    <a href="/" class="logo">
+                        <img src="/logo.png" alt="AgentFlow" class="logo-image" />
+                        <span class="logo-text">AgentFlow</span>
+                    </a>
+                    <div class="nav-links">
+                        <a href="/how-it-works" class="nav-link">How It Works</a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <main class="main">
+            <div class="container">
+                <slot />
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <p class="footer-text">Powered by GitHub Actions + AI • All pipelines run serverless • Only pay for AI API usage</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
+
+<style>
+    .layout {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Header Styles */
+    .header {
+        background: var(--color-bg-primary);
+        border-bottom: 1px solid var(--color-border-light);
+        position: sticky;
+        top: 0;
+        z-index: 50;
+        backdrop-filter: blur(8px);
+        background: rgba(255, 255, 255, 0.95);
+    }
+
+    .nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 4rem;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+        gap: var(--space-2);
+        color: var(--color-text-primary);
+        font-weight: 600;
+        font-size: var(--font-size-lg);
+        text-decoration: none;
+        transition: opacity var(--transition-fast);
+    }
+
+    .logo:hover {
+        opacity: 0.7;
+    }
+
+    .logo-image {
+        height: 32px;
+        width: auto;
+    }
+
+    .logo-text {
+        letter-spacing: -0.02em;
+    }
+
+    .nav-links {
+        display: flex;
+        align-items: center;
+        gap: var(--space-6);
+    }
+
+    .nav-link {
+        color: var(--color-text-secondary);
+        font-size: var(--font-size-base);
+        font-weight: 500;
+        text-decoration: none;
+        transition: color var(--transition-fast);
+        position: relative;
+    }
+
+    .nav-link:hover {
+        color: var(--color-text-primary);
+    }
+
+    .nav-link::after {
+        content: '';
+        position: absolute;
+        bottom: -4px;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background: var(--color-accent-primary);
+        transition: width var(--transition-base);
+    }
+
+    .nav-link:hover::after {
+        width: 100%;
+    }
+
+    /* Main Content */
+    .main {
+        flex: 1;
+        padding: var(--space-12) 0;
+    }
+
+    /* Footer Styles */
+    .footer {
+        background: var(--color-bg-primary);
+        border-top: 1px solid var(--color-border-light);
+        padding: var(--space-8) 0;
+    }
+
+    .footer-text {
+        text-align: center;
+        font-size: var(--font-size-sm);
+        color: var(--color-text-tertiary);
+        margin: 0;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+        .main {
+            padding: var(--space-8) 0;
+        }
+
+        .footer {
+            padding: var(--space-6) 0;
+        }
+
+        .nav-links {
+            gap: var(--space-4);
+        }
+
+        .nav-link {
+            font-size: var(--font-size-sm);
+        }
+    }
+</style>

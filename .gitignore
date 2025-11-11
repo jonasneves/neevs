@@ -1,0 +1,48 @@
+# build output
+dist/
+.output/
+.vercel/
+
+# generated types
+.astro/
+
+# dependencies
+node_modules/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# environment variables
+.env
+.env.production
+
+# macOS-specific files
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Generated data files (CI/CD will commit when needed)
+# Keep these ignored for local development
+data/*/
+!data/.gitkeep
+
+# Agent execution logs
+*.log
+agent-*-execution.log
+
+# Temporary files
+*.tmp
+*.temp
+.cache/

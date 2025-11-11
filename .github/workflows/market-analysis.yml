@@ -1,0 +1,114 @@
+name: Market Analysis Pipeline
+
+on:
+  schedule:
+    - cron: '0 9,21 * * *'  # Run twice daily at 9 AM and 9 PM UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  # Stage 1: Fetch Market Data
+  fetch-market-data:
+    name: "Fetch Market Data"
+    uses: ./.github/workflows/_reusable-agent-runner.yml
+    with:
+      agent_module: 'agents.market_analysis.market_fetcher'
+      agent_id: 'agent-a-market'
+      python_deps: ''
+      needs_openai: false
+    secrets:
+      ALPHA_VANTAGE_API_KEY: ${{ secrets.ALPHA_VANTAGE_API_KEY }}
+
+  # Stage 2: Analyze Market Trends
+  analyze-market:
+    name: "Analyze Market"
+    needs: fetch-market-data
+    uses: ./.github/workflows/_reusable-agent-runner.yml
+    with:
+      agent_module: 'agents.market_analysis.market_analyzer'
+      agent_id: 'agent-b-market'
+      python_deps: 'openai'
+      needs_openai: true
+    secrets:
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+
+  # Stage 3: Generate Market Digest
+  generate-digest:
+    name: "Generate Digest"
+    needs: analyze-market
+    uses: ./.github/workflows/_reusable-agent-runner.yml
+    with:
+      agent_module: 'agents.market_analysis.digest_writer'
+      agent_id: 'agent-c-market'
+      python_deps: ''
+      needs_openai: false
+
+  # Stage 3.5: Generate Editorial Digest (John Oliver Style)
+  generate-editorial-digest:
+    name: "Generate Editorial Digest"
+    needs: generate-digest
+    uses: ./.github/workflows/_reusable-agent-runner.yml
+    with:
+      agent_module: 'agents.market_analysis.editorial_digest_writer'
+      agent_id: 'agent-d-market-editorial'
+      python_deps: 'openai'
+      needs_openai: true
+    secrets:
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+
+  # Stage 4: Deploy Results to GitHub Pages
+  deploy-results:
+    name: "Deploy Results"
+    needs: generate-editorial-digest
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+
+      - name: Pull latest changes
+        run: git pull origin ${{ github.ref_name }}
+
+      - name: Copy data files to public
+        run: |
+          mkdir -p public/digests
+          # Copy the latest market digest (frontend needs this)
+          cp data/market_analysis/digest.json public/market-analysis.json || echo "No digest.json found"
+
+          # Copy the John Oliver-style editorial digest
+          cp data/market_analysis/editorial_digest.json public/market-analysis-editorial.json || echo "No editorial_digest.json found"
+
+          # Archive historical digests with timestamp
+          TIMESTAMP=$(date -u +%Y-%m-%dT%H-%M-%S)
+          cp data/market_analysis/digest.json "public/digests/market-analysis-${TIMESTAMP}.json" || echo "No digest to archive"
+          cp data/market_analysis/editorial_digest.json "public/digests/market-analysis-editorial-${TIMESTAMP}.json" || echo "No editorial digest to archive"
+
+      - name: Commit and push artifacts
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add public/market-analysis.json public/market-analysis-editorial.json public/digests/market-analysis-*.json
+          git diff --staged --quiet || git commit -m "Deploy: Updated market analysis - $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git push
+
+      - name: Write deployment summary
+        run: |
+          echo "# GitHub Pages Deployment" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Pipeline:** Market Analysis" >> $GITHUB_STEP_SUMMARY
+          echo "**Status:** Completed" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Published Files:**" >> $GITHUB_STEP_SUMMARY
+          echo "- \`market-analysis.json\` - Latest market digest" >> $GITHUB_STEP_SUMMARY
+          echo "- \`market-analysis-editorial.json\` - John Oliver-style editorial digest" >> $GITHUB_STEP_SUMMARY
+          echo "- \`digests/market-analysis-*.json\` - Digest archives" >> $GITHUB_STEP_SUMMARY
+          echo "- \`digests/market-analysis-editorial-*.json\` - Editorial digest archives" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Deployment Time:** $(date -u +%Y-%m-%dT%H:%M:%SZ)" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "---" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "GitHub Pages will rebuild automatically with the new data." >> $GITHUB_STEP_SUMMARY

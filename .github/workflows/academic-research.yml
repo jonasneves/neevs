@@ -1,0 +1,112 @@
+name: Academic Research Pipeline
+
+on:
+  schedule:
+    - cron: '0 9 * * *'  # Run daily at 9 AM UTC
+  workflow_dispatch:
+    inputs:
+      max_papers:
+        description: 'Maximum number of papers to fetch'
+        required: false
+        default: '15'
+        type: choice
+        options:
+          - '10'
+          - '15'
+          - '20'
+          - '30'
+          - '50'
+      categories:
+        description: 'arXiv categories (comma-separated, e.g., cs.AI,cs.LG,cs.CL)'
+        required: false
+        default: 'cs.AI,cs.LG,cs.CL'
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  # Stage 1: Fetch Papers from arXiv
+  fetch-papers:
+    name: "Fetch Papers"
+    uses: ./.github/workflows/_reusable-agent-runner.yml
+    with:
+      agent_module: 'agents.academic_research.arxiv_fetcher'
+      agent_id: 'agent-a'
+      python_deps: 'requests'
+      needs_openai: false
+      extra_env: |
+        ARXIV_MAX_PAPERS=${{ github.event.inputs.max_papers || '15' }}
+        ARXIV_CATEGORIES=${{ github.event.inputs.categories || 'cs.AI,cs.LG,cs.CL' }}
+
+  # Stage 2: Analyze Papers with AI
+  analyze-papers:
+    name: "Analyze Papers"
+    needs: fetch-papers
+    uses: ./.github/workflows/_reusable-agent-runner.yml
+    with:
+      agent_module: 'agents.academic_research.paper_analyzer'
+      agent_id: 'agent-b'
+      python_deps: 'openai'
+      needs_openai: true
+    secrets:
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+
+  # Stage 3: Generate Weekly Digest
+  generate-digest:
+    name: "Generate Digest"
+    needs: analyze-papers
+    uses: ./.github/workflows/_reusable-agent-runner.yml
+    with:
+      agent_module: 'agents.academic_research.editorial_digest_writer'
+      agent_id: 'agent-e'
+      python_deps: 'openai'
+      needs_openai: true
+    secrets:
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+
+  # Stage 4: Deploy Results to GitHub Pages
+  deploy-results:
+    name: "Deploy Results"
+    needs: generate-digest
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+
+      - name: Pull latest changes
+        run: git pull origin ${{ github.ref_name }}
+
+      - name: Copy data files to public
+        run: |
+          mkdir -p public/digests
+          # Copy only the latest digest and archives (frontend needs these)
+          cp data/academic_research/digest.json public/academic-research-digest.json || echo "No digest.json found"
+          cp -r data/academic_research/digests/academic-research-*.json public/digests/ 2>/dev/null || echo "No digest archives found"
+
+      - name: Commit and push artifacts
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add public/*-digest.json public/digests/*.json
+          git diff --staged --quiet || git commit -m "Deploy: Updated artifacts data - $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git push
+
+      - name: Write deployment summary
+        run: |
+          echo "# GitHub Pages Deployment" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Pipeline:** Academic Research" >> $GITHUB_STEP_SUMMARY
+          echo "**Status:** Completed" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Published Files:**" >> $GITHUB_STEP_SUMMARY
+          echo "- \`academic-research-digest.json\` - Latest weekly digest" >> $GITHUB_STEP_SUMMARY
+          echo "- \`digests/academic-research-*.json\` - Digest archives" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Deployment Time:** $(date -u +%Y-%m-%dT%H:%M:%SZ)" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "---" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "GitHub Pages will rebuild automatically with the new data." >> $GITHUB_STEP_SUMMARY

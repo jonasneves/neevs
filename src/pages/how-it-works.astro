@@ -1,0 +1,351 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { Icon } from 'astro-icon/components';
+---
+
+<Layout title="How It Works - AgentFlow" description="Learn how AgentFlow uses GitHub Actions and AI to automate insights">
+    <div class="page-header">
+        <h1 class="page-title">How It Works</h1>
+        <p class="page-description">
+            AgentFlow leverages GitHub Actions and AI to create automated, serverless pipelines
+        </p>
+    </div>
+
+    <!-- How It Works Section -->
+    <div class="how-it-works">
+        <div class="workflow-steps">
+            <div class="workflow-step">
+                <div class="step-header">
+                    <div class="step-number">1</div>
+                    <div class="step-icon">
+                        <Icon name="lucide:clock" />
+                    </div>
+                </div>
+                <h3 class="step-title">Scheduled Trigger</h3>
+                <p class="step-description">GitHub Actions runs pipelines on a schedule (daily, weekly, etc.) or on-demand</p>
+            </div>
+            <div class="workflow-step">
+                <div class="step-header">
+                    <div class="step-number">2</div>
+                    <div class="step-icon">
+                        <Icon name="lucide:search" />
+                    </div>
+                </div>
+                <h3 class="step-title">Data Collection</h3>
+                <p class="step-description">Pipelines fetch data from APIs, websites, social media, research databases, or other sources</p>
+            </div>
+            <div class="workflow-step">
+                <div class="step-header">
+                    <div class="step-number">3</div>
+                    <div class="step-icon">
+                        <Icon name="lucide:sparkles" />
+                    </div>
+                </div>
+                <h3 class="step-title">AI Analysis</h3>
+                <p class="step-description">AI models process the data to extract insights, summarize content, and identify trends</p>
+            </div>
+            <div class="workflow-step">
+                <div class="step-header">
+                    <div class="step-number">4</div>
+                    <div class="step-icon">
+                        <Icon name="lucide:bar-chart-3" />
+                    </div>
+                </div>
+                <h3 class="step-title">Auto-Publish</h3>
+                <p class="step-description">Results are automatically generated as HTML reports and published to GitHub Pages</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="details-section">
+        <h2 class="section-title">The Stack</h2>
+        <div class="stack-cards">
+            <div class="stack-card">
+                <div class="stack-icon">
+                    <Icon name="lucide:github" />
+                </div>
+                <h3>GitHub Actions</h3>
+                <p>Free compute for running automated pipelines on schedule or on-demand</p>
+            </div>
+            <div class="stack-card">
+                <div class="stack-icon">
+                    <Icon name="lucide:globe" />
+                </div>
+                <h3>GitHub Pages</h3>
+                <p>Free hosting for static sites - perfect for publishing automated reports</p>
+            </div>
+            <div class="stack-card">
+                <div class="stack-icon">
+                    <Icon name="lucide:sparkles" />
+                </div>
+                <h3>AI APIs</h3>
+                <p>Pay-as-you-go AI processing - only pay for what you use, no infrastructure costs</p>
+            </div>
+            <div class="stack-card">
+                <div class="stack-icon">
+                    <Icon name="lucide:code-2" />
+                </div>
+                <h3>Astro</h3>
+                <p>Fast, modern web framework for building content-rich sites with minimal JavaScript</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="benefits-section">
+        <h2 class="section-title">Why AgentFlow?</h2>
+        <div class="benefits-grid">
+            <div class="benefit-card">
+                <Icon name="lucide:dollar-sign" class="benefit-icon" />
+                <h3>Cost Effective</h3>
+                <p>No servers to manage or pay for. Only pay for AI API usage.</p>
+            </div>
+            <div class="benefit-card">
+                <Icon name="lucide:zap" class="benefit-icon" />
+                <h3>Zero Maintenance</h3>
+                <p>GitHub handles infrastructure, scaling, and deployment automatically.</p>
+            </div>
+            <div class="benefit-card">
+                <Icon name="lucide:lock" class="benefit-icon" />
+                <h3>Secure & Reliable</h3>
+                <p>Built on GitHub's infrastructure with enterprise-grade security.</p>
+            </div>
+            <div class="benefit-card">
+                <Icon name="lucide:git-branch" class="benefit-icon" />
+                <h3>Version Controlled</h3>
+                <p>All code, data, and configurations are tracked in Git.</p>
+            </div>
+        </div>
+    </div>
+</Layout>
+
+<style>
+    .page-header {
+        text-align: center;
+        max-width: 52rem;
+        margin: 0 auto var(--space-12);
+    }
+
+    .page-title {
+        font-size: var(--font-size-4xl);
+        font-weight: 700;
+        letter-spacing: -0.04em;
+        color: var(--color-text-primary);
+        margin-bottom: var(--space-3);
+    }
+
+    .page-description {
+        font-size: var(--font-size-lg);
+        color: var(--color-text-secondary);
+        font-weight: 400;
+        line-height: 1.6;
+        margin: 0 0 var(--space-6);
+    }
+
+    /* How It Works Section */
+    .how-it-works {
+        background: var(--color-bg-primary);
+        border: 1px solid var(--color-border-light);
+        border-radius: var(--radius-lg);
+        padding: var(--space-8) var(--space-6);
+        margin-bottom: var(--space-16);
+        box-shadow: var(--shadow-sm);
+    }
+
+    .workflow-steps {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: var(--space-4);
+    }
+
+    .workflow-step {
+        position: relative;
+        padding: var(--space-6);
+        background: var(--color-bg-secondary);
+        border-radius: var(--radius-md);
+        border: 1px solid var(--color-border-light);
+        transition: all var(--transition-base);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .workflow-step:hover {
+        border-color: var(--color-border-medium);
+        box-shadow: var(--shadow-md);
+        transform: translateY(-2px);
+    }
+
+    .step-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: var(--space-4);
+    }
+
+    .step-number {
+        background: var(--color-accent-primary);
+        color: white;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 600;
+        font-size: var(--font-size-sm);
+        box-shadow: var(--shadow-md);
+        flex-shrink: 0;
+    }
+
+    .step-icon {
+        width: 32px;
+        height: 32px;
+        color: var(--color-accent-primary);
+        flex-shrink: 0;
+    }
+
+    .step-icon svg {
+        width: 100%;
+        height: 100%;
+    }
+
+    .step-title {
+        font-size: var(--font-size-base);
+        font-weight: 600;
+        margin-bottom: var(--space-2);
+        color: var(--color-text-primary);
+        line-height: 1.3;
+    }
+
+    .step-description {
+        color: var(--color-text-secondary);
+        font-size: var(--font-size-sm);
+        line-height: 1.6;
+    }
+
+    /* Details Section */
+    .details-section {
+        margin-bottom: var(--space-16);
+    }
+
+    .section-title {
+        font-size: var(--font-size-2xl);
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: var(--space-8);
+        color: var(--color-text-primary);
+        letter-spacing: -0.02em;
+    }
+
+    .stack-cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: var(--space-6);
+        max-width: 72rem;
+        margin: 0 auto;
+    }
+
+    .stack-card {
+        background: var(--color-bg-primary);
+        border: 1px solid var(--color-border-light);
+        border-radius: var(--radius-lg);
+        padding: var(--space-6);
+        text-align: center;
+        transition: all var(--transition-base);
+    }
+
+    .stack-card:hover {
+        border-color: var(--color-border-medium);
+        box-shadow: var(--shadow-md);
+        transform: translateY(-2px);
+    }
+
+    .stack-icon {
+        width: 48px;
+        height: 48px;
+        margin: 0 auto var(--space-4);
+        color: var(--color-accent-primary);
+    }
+
+    .stack-icon svg {
+        width: 100%;
+        height: 100%;
+    }
+
+    .stack-card h3 {
+        font-size: var(--font-size-lg);
+        font-weight: 600;
+        margin-bottom: var(--space-2);
+        color: var(--color-text-primary);
+    }
+
+    .stack-card p {
+        font-size: var(--font-size-sm);
+        color: var(--color-text-secondary);
+        line-height: 1.6;
+        margin: 0;
+    }
+
+    /* Benefits Section */
+    .benefits-section {
+        max-width: 72rem;
+        margin: 0 auto;
+    }
+
+    .benefits-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: var(--space-6);
+    }
+
+    .benefit-card {
+        background: var(--color-bg-secondary);
+        border: 1px solid var(--color-border-light);
+        border-radius: var(--radius-md);
+        padding: var(--space-6);
+        transition: all var(--transition-base);
+    }
+
+    .benefit-card:hover {
+        border-color: var(--color-border-medium);
+        box-shadow: var(--shadow-md);
+    }
+
+    .benefit-icon {
+        width: 40px;
+        height: 40px;
+        color: var(--color-accent-primary);
+        margin-bottom: var(--space-3);
+    }
+
+    .benefit-card h3 {
+        font-size: var(--font-size-base);
+        font-weight: 600;
+        margin-bottom: var(--space-2);
+        color: var(--color-text-primary);
+    }
+
+    .benefit-card p {
+        font-size: var(--font-size-sm);
+        color: var(--color-text-secondary);
+        line-height: 1.6;
+        margin: 0;
+    }
+
+    @media (max-width: 768px) {
+        .page-title {
+            font-size: var(--font-size-3xl);
+        }
+
+        .workflow-steps {
+            grid-template-columns: 1fr;
+        }
+
+        .stack-cards {
+            grid-template-columns: 1fr;
+        }
+
+        .benefits-grid {
+            grid-template-columns: 1fr;
+        }
+    }
+</style>

@@ -1,0 +1,354 @@
+{
+  "agent": "agent-c-digest-writer",
+  "timestamp": "2025-11-10T01:48:57.426819",
+  "status": "completed",
+  "data": {
+    "digest": {
+      "title": "Market Analysis Digest",
+      "subtitle": "Market Update \u2022 November 10, 2025",
+      "generated_at": "2025-11-10T01:48:57.426741",
+      "summary": {
+        "headline": "Daily Market Snapshot",
+        "content": "**Markets Rally on Tech Strength**\n\nBroad-based gains across equities and crypto with technology stocks leading the advance. AI infrastructure plays continue to attract capital while crypto markets stabilize.\n\n**Key Opportunity:** AI and semiconductor stocks showing momentum\n**Key Risk:** Elevated valuations require monitoring of macro conditions",
+        "stats": {
+          "total_crypto_market_cap": "$3.27T",
+          "crypto_24h_avg_change": "+3.42%",
+          "indices_avg_change": "+1.03%",
+          "market_sentiment": {
+            "label": "Very Bullish",
+            "emoji": "\ud83d\ude80",
+            "color": "green"
+          }
+        }
+      },
+      "crypto_section": {
+        "title": "\ud83d\udc8e Cryptocurrency Market",
+        "items": [
+          {
+            "symbol": "BTC",
+            "name": "Bitcoin",
+            "price": 105810,
+            "price_formatted": "$105,810.00",
+            "market_cap": 2110829840193,
+            "market_cap_formatted": "$2.11T",
+            "change_24h": 3.69738,
+            "change_24h_formatted": "+3.70%",
+            "change_7d": -3.8251752980611933,
+            "change_7d_formatted": "-3.83%",
+            "rank": 1,
+            "image": "https://coin-images.coingecko.com/coins/images/1/large/bitcoin.png?1696501400",
+            "is_gaining": true
+          },
+          {
+            "symbol": "ETH",
+            "name": "Ethereum",
+            "price": 3633.15,
+            "price_formatted": "$3,633.15",
+            "market_cap": 438269451301,
+            "market_cap_formatted": "$438.27B",
+            "change_24h": 6.86623,
+            "change_24h_formatted": "+6.87%",
+            "change_7d": -6.166522948564055,
+            "change_7d_formatted": "-6.17%",
+            "rank": 2,
+            "image": "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628",
+            "is_gaining": true
+          },
+          {
+            "symbol": "USDT",
+            "name": "Tether",
+            "price": 0.999787,
+            "price_formatted": "$0.9998",
+            "market_cap": 183443848647,
+            "market_cap_formatted": "$183.44B",
+            "change_24h": 0.00468,
+            "change_24h_formatted": "+0.00%",
+            "change_7d": -0.027900843898572045,
+            "change_7d_formatted": "-0.03%",
+            "rank": 3,
+            "image": "https://coin-images.coingecko.com/coins/images/325/large/Tether.png?1696501661",
+            "is_gaining": true
+          },
+          {
+            "symbol": "XRP",
+            "name": "XRP",
+            "price": 2.4,
+            "price_formatted": "$2.40",
+            "market_cap": 144358719507,
+            "market_cap_formatted": "$144.36B",
+            "change_24h": 5.23667,
+            "change_24h_formatted": "+5.24%",
+            "change_7d": -4.322838945092647,
+            "change_7d_formatted": "-4.32%",
+            "rank": 4,
+            "image": "https://coin-images.coingecko.com/coins/images/44/large/xrp-symbol-white-128.png?1696501442",
+            "is_gaining": true
+          },
+          {
+            "symbol": "BNB",
+            "name": "BNB",
+            "price": 1010.43,
+            "price_formatted": "$1,010.43",
+            "market_cap": 139107139155,
+            "market_cap_formatted": "$139.11B",
+            "change_24h": 1.82449,
+            "change_24h_formatted": "+1.82%",
+            "change_7d": -6.3872725937713275,
+            "change_7d_formatted": "-6.39%",
+            "rank": 5,
+            "image": "https://coin-images.coingecko.com/coins/images/825/large/bnb-icon2_2x.png?1696501970",
+            "is_gaining": true
+          }
+        ],
+        "analysis": "The cryptocurrency market shows mixed sentiment with Bitcoin maintaining stability above $94k while altcoins display varied performance. Solana leads gains with a 5.2% 24-hour increase, suggesting continued strength in the Layer-1 ecosystem. Market volatility remains elevated as traders await macro economic indicators.",
+        "top_performers": [
+          {
+            "symbol": "STETH",
+            "name": "Lido Staked Ether",
+            "price": 3629.97,
+            "market_cap": 31324612748,
+            "market_cap_rank": 8,
+            "change_24h": 7.04048,
+            "change_7d": -6.296926805202917,
+            "volume_24h": 47822174,
+            "image": "https://coin-images.coingecko.com/coins/images/13442/large/steth_logo.png?1696513206"
+          },
+          {
+            "symbol": "ETH",
+            "name": "Ethereum",
+            "price": 3633.15,
+            "market_cap": 438269451301,
+            "market_cap_rank": 2,
+            "change_24h": 6.86623,
+            "change_7d": -6.166522948564055,
+            "volume_24h": 29288394165,
+            "image": "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628"
+          },
+          {
+            "symbol": "SOL",
+            "name": "Solana",
+            "price": 166.83,
+            "market_cap": 92323928791,
+            "market_cap_rank": 6,
+            "change_24h": 5.75764,
+            "change_7d": -11.033328209503686,
+            "volume_24h": 5086386394,
+            "image": "https://coin-images.coingecko.com/coins/images/4128/large/solana.png?1718769756"
+          }
+        ],
+        "top_losers": [
+          {
+            "symbol": "USDC",
+            "name": "USDC",
+            "price": 0.999802,
+            "market_cap": 75757265573,
+            "market_cap_rank": 7,
+            "change_24h": -5e-05,
+            "change_7d": 0.0014651709990257703,
+            "volume_24h": 6902793573,
+            "image": "https://coin-images.coingecko.com/coins/images/6319/large/usdc.png?1696506694"
+          },
+          {
+            "symbol": "USDT",
+            "name": "Tether",
+            "price": 0.999787,
+            "market_cap": 183443848647,
+            "market_cap_rank": 3,
+            "change_24h": 0.00468,
+            "change_7d": -0.027900843898572045,
+            "volume_24h": 88492660310,
+            "image": "https://coin-images.coingecko.com/coins/images/325/large/Tether.png?1696501661"
+          },
+          {
+            "symbol": "TRX",
+            "name": "TRON",
+            "price": 0.291725,
+            "market_cap": 27599676912,
+            "market_cap_rank": 9,
+            "change_24h": 0.28274,
+            "change_7d": -2.147582731878104,
+            "volume_24h": 460902205,
+            "image": "https://coin-images.coingecko.com/coins/images/1094/large/tron-logo.png?1696502193"
+          }
+        ]
+      },
+      "stocks_section": {
+        "title": "\ud83d\udcca Stock Market",
+        "indices": [
+          {
+            "symbol": "SPY",
+            "name": "S&P 500",
+            "price": 587.5,
+            "price_formatted": "$587.50",
+            "change": 5.25,
+            "change_formatted": "+5.25",
+            "change_percent": 0.9,
+            "change_percent_formatted": "+0.90%",
+            "is_gaining": true
+          },
+          {
+            "symbol": "QQQ",
+            "name": "NASDAQ",
+            "price": 505.75,
+            "price_formatted": "$505.75",
+            "change": 8.5,
+            "change_formatted": "+8.50",
+            "change_percent": 1.71,
+            "change_percent_formatted": "+1.71%",
+            "is_gaining": true
+          },
+          {
+            "symbol": "DIA",
+            "name": "Dow Jones",
+            "price": 438.25,
+            "price_formatted": "$438.25",
+            "change": 2.1,
+            "change_formatted": "+2.10",
+            "change_percent": 0.48,
+            "change_percent_formatted": "+0.48%",
+            "is_gaining": true
+          }
+        ],
+        "stocks": [
+          {
+            "symbol": "AAPL",
+            "price": 228.5,
+            "price_formatted": "$228.50",
+            "change": 3.25,
+            "change_formatted": "+3.25",
+            "change_percent": 1.44,
+            "change_percent_formatted": "+1.44%",
+            "volume": 52000000,
+            "volume_formatted": "$52.00M",
+            "is_gaining": true
+          },
+          {
+            "symbol": "MSFT",
+            "price": 425.75,
+            "price_formatted": "$425.75",
+            "change": 5.5,
+            "change_formatted": "+5.50",
+            "change_percent": 1.31,
+            "change_percent_formatted": "+1.31%",
+            "volume": 28000000,
+            "volume_formatted": "$28.00M",
+            "is_gaining": true
+          },
+          {
+            "symbol": "GOOGL",
+            "price": 178.25,
+            "price_formatted": "$178.25",
+            "change": 2.75,
+            "change_formatted": "+2.75",
+            "change_percent": 1.57,
+            "change_percent_formatted": "+1.57%",
+            "volume": 22000000,
+            "volume_formatted": "$22.00M",
+            "is_gaining": true
+          },
+          {
+            "symbol": "NVDA",
+            "price": 148.5,
+            "price_formatted": "$148.50",
+            "change": 8.25,
+            "change_formatted": "+8.25",
+            "change_percent": 5.88,
+            "change_percent_formatted": "+5.88%",
+            "volume": 385000000,
+            "volume_formatted": "$385.00M",
+            "is_gaining": true
+          },
+          {
+            "symbol": "TSLA",
+            "price": 352.75,
+            "price_formatted": "$352.75",
+            "change": -5.25,
+            "change_formatted": "-5.25",
+            "change_percent": -1.47,
+            "change_percent_formatted": "-1.47%",
+            "volume": 95000000,
+            "volume_formatted": "$95.00M",
+            "is_gaining": false
+          }
+        ],
+        "analysis": "Equity markets posted gains across major indices with the NASDAQ leading at +1.71%, driven by strength in technology and AI-related stocks. NVIDIA's 5.88% surge highlights continued investor enthusiasm for AI infrastructure. Market breadth is positive with strong volume supporting the advance.",
+        "market_direction": "strongly_bullish",
+        "top_gainers": [
+          {
+            "symbol": "NVDA",
+            "price": 148.5,
+            "change": 8.25,
+            "change_percent": 5.88,
+            "volume": 385000000
+          },
+          {
+            "symbol": "GOOGL",
+            "price": 178.25,
+            "change": 2.75,
+            "change_percent": 1.57,
+            "volume": 22000000
+          },
+          {
+            "symbol": "AAPL",
+            "price": 228.5,
+            "change": 3.25,
+            "change_percent": 1.44,
+            "volume": 52000000
+          }
+        ],
+        "top_decliners": [
+          {
+            "symbol": "TSLA",
+            "price": 352.75,
+            "change": -5.25,
+            "change_percent": -1.47,
+            "volume": 95000000
+          },
+          {
+            "symbol": "MSFT",
+            "price": 425.75,
+            "change": 5.5,
+            "change_percent": 1.31,
+            "volume": 28000000
+          },
+          {
+            "symbol": "AAPL",
+            "price": 228.5,
+            "change": 3.25,
+            "change_percent": 1.44,
+            "volume": 52000000
+          }
+        ]
+      },
+      "highlights": {
+        "biggest_crypto_mover": {
+          "symbol": "STETH",
+          "name": "Lido Staked Ether",
+          "change": 7.04048,
+          "change_formatted": "+7.04%",
+          "direction": "up"
+        },
+        "biggest_stock_mover": {
+          "symbol": "NVDA",
+          "change": 5.88,
+          "change_formatted": "+5.88%",
+          "direction": "up"
+        },
+        "market_leader": {
+          "name": "NASDAQ",
+          "symbol": "QQQ",
+          "change": 1.71,
+          "change_formatted": "+1.71%"
+        }
+      },
+      "metadata": {
+        "assets_tracked": 15,
+        "indices_tracked": 3,
+        "last_updated": "2025-11-10T01:48:57.426817"
+      }
+    }
+  },
+  "costs": {
+    "total_usd": 0.0
+  }
+}
