@@ -33,11 +33,6 @@ __pycache__/
 *.pyd
 .Python
 
-# Generated data files (CI/CD will commit when needed)
-# Keep these ignored for local development
-data/*/
-!data/.gitkeep
-
 # Agent execution logs
 *.log
 agent-*-execution.log
