@@ -2,503 +2,507 @@
   "agent": "phi-analyzer",
   "model": "Phi-4 Mini",
   "model_id": "microsoft/phi-4-mini-instruct",
-  "timestamp": "2025-11-12T12:14:40.865972",
+  "timestamp": "2025-11-12T18:12:27.595343",
   "status": "completed",
   "data": {
     "analyses": [
       {
         "article": {
-          "id": "news_0_1762949542",
-          "title": "Sony made an official 240Hz PlayStation monitor with a built-in DualSense charging hook - Engadget",
-          "description": "Sony made an official 240Hz PlayStation monitor with a built-in DualSense charging hook\u00a0\u00a0EngadgetFirst look at PlayStation\u2019s 27\u201d Gaming Monitor\u00a0\u00a0PlayStation.BlogSony Announces 27-inch PlayStation Monitor, With VRR Support And DualSense Charging Hook\u00a0\u00a0IGNSony Unveils 27-Inch, 240Hz PlayStation Monitor That Charges Your PS5 Controller\u00a0\u00a0CNETSony's new 'PlayStation' gaming monitor is a relatively unexciting 27-inch 1440p model but it does have a DualSense charging hook\u00a0\u00a0PC Gamer",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQUTJXX1EyQ1NnUm41ZVByRVZXQ2R0eENzTXpDR1BxNmNqTzBsMGQzbnNnRVJxQ0JlWmpvWS03dW1WNkVHZGk3X1RJd2o1Z3J4LVVSSWZKNjBERDl4OHhkaWdNbXhvYXAwUE9UNW0wUVViUVczOHhJeFRfYjE0M0hWYjRJWERkR0NVSURXaHpIb19zMTBfUFhFUkJHZm9PNGRwYVh0bDBlWUItQncweFZMNTNhQ2doZUJJT2h2NzZ6enNzRzNXYnFUTHdyRUpIQ0lXNTRTOTJPUVZxT25iMWY0?oc=5",
-          "source": "Engadget",
-          "published": "Tue, 11 Nov 2025 23:06:59 GMT",
+          "id": "news_0_1762971013",
+          "title": "How to Capture the Northern Lights With Just Your Smartphone - The New York Times",
+          "description": "How to Capture the Northern Lights With Just Your Smartphone\u00a0\u00a0The New York TimesHow to capture the northern lights on your phone\u00a0\u00a0USA TodayNorthern lights tonight: How to best capture the aurora borealis on your phone\u00a0\u00a0FOX 4 News Dallas-Fort WorthYou may not see the lights, but your phone probably will\u00a0\u00a0KTSM 9 NewsHow to see the northern lights\u2014and why they\u2019re more common now\u00a0\u00a0Yahoo",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQaGN0TzhsSFo0NktmYVpQWXJCcHdWQTl6azNsWWRzcHRacGtZdTdyU2hIX0dOOVRGbTM3T3ExYXNQNmZpRU5HZ1FzRWp2bFZabDVRaTlHSXNLYWJKMEpuMDFranppcXA4Zmw5Sm5OUE9GdjdZR3BTeTlPSUZMNFJIRHhqQ2tXVXE3SjZv?oc=5",
+          "source": "The New York Times",
+          "published": "Wed, 12 Nov 2025 13:41:11 GMT",
           "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-12T12:12:22.271625"
+          "fetched_at": "2025-11-12T18:10:13.476474"
         },
         "analysis": {
-          "summary": "Sony announced a new 27-inch 240Hz PlayStation monitor with a built-in DualSense charging hook, adding VRR support and aiming to enhance gaming immersion. The monitor, however, is described as relatively unexciting compared to its features and competitors.",
+          "summary": "The article explores how smartphone users can capture the Northern Lights using their devices, highlighting the increased accessibility and technological advancements that make this possible. It also touches on the conditions under which the aurora borealis can be best viewed and photographed.",
           "key_points": [
-            "Sony introduces a 27-inch 240Hz PlayStation monitor with DualSense charging hook",
-            "Monitor includes VRR support for smoother gameplay",
-            "Product described as unexciting despite its features"
+            "Smartphones are now capable of capturing the Northern Lights, making this natural phenomenon more accessible to the general public.",
+            "Technological advancements in smartphone cameras and image processing software have improved the quality of aurora photography.",
+            "Understanding the best conditions for viewing and photographing the Northern Lights is crucial for successful photography."
           ],
-          "sentiment": "Mixed",
+          "sentiment": "Positive",
           "confidence": "High",
-          "bias_check": "The article might be biased towards emphasizing the new features and innovations while also noting its unexciting nature, potentially trying to appeal to both tech enthusiasts and skeptics.",
-          "missing_context": "There is no mention of competitor monitors or market trends, which could provide a better context for evaluating the monitor's significance.",
-          "implications": "The introduction of a PlayStation-specific monitor may strengthen Sony's ecosystem and brand loyalty, but it might also face competition from other brands offering similar or superior features.",
+          "bias_check": "The article may present a positive bias towards technological advancements and their impact on accessibility. It might overlook potential challenges or limitations of using smartphones for such photography.",
+          "missing_context": "The article does not mention potential environmental impacts of increased human activity in aurora viewing areas or the need for specific knowledge and skills in photography that still require professional equipment.",
+          "implications": "This story highlights the democratization of nature photography, allowing more people to experience and share the beauty of the Northern Lights. However, it could also lead to increased human traffic in sensitive natural areas, potentially disrupting wildlife and ecosystems.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-12T12:12:43.924738",
+          "analyzed_at": "2025-11-12T18:10:36.906408",
           "token_usage": {
-            "prompt_tokens": 318,
-            "completion_tokens": 237,
+            "prompt_tokens": 283,
+            "completion_tokens": 272,
             "total_tokens": 555
           }
         }
       },
       {
         "article": {
-          "id": "news_1_1762949542",
-          "title": "Google says new cloud-based \u201cPrivate AI Compute\u201d is just as secure as local processing - Ars Technica",
-          "description": "Google says new cloud-based \u201cPrivate AI Compute\u201d is just as secure as local processing\u00a0\u00a0Ars TechnicaPrivate AI Compute: our next step in building private and helpful AI\u00a0\u00a0blog.googleGoogle is introducing its own version of Apple\u2019s private AI cloud compute\u00a0\u00a0The VergeGoogle makes Pixel 10 Magic Cue \u2018more timely\u2019 with cloud-based \u2018Private AI Compute\u2019\u00a0\u00a09to5GoogleGoogle Launches 'Private AI Compute' \u2014 Secure AI Processing with On-Device-Level Privacy\u00a0\u00a0The Hacker News",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNX0dzNVE5SGRzSXd5Tk14ZWZJTmMyMDdaUzdEMkFzS1Zuc2E0bFpVSFk3eXpQODlxWGJGVTBISkdtempvcUlfUVJVZEk4RWtNVkRtZWhRMWp3N2RwZV9QR1pDWmYyMGpZY3pTbFZfcVZTY3UtTjlQNFBHUFRseHM1dXRTNjhsUXk5dms5bEl4QXpSUHpwYzE0RjN6eENfMTJEejEzSHJWR29JY3g4ZFphV1Ywb1B2cVY4Z0VhMUJvRlNwQQ?oc=5",
-          "source": "Ars Technica",
-          "published": "Tue, 11 Nov 2025 21:34:10 GMT",
+          "id": "news_1_1762971013",
+          "title": "How AI Notification Summaries work on the Pixel 9 and 10 - 9to5Google",
+          "description": "How AI Notification Summaries work on the Pixel 9 and 10\u00a0\u00a09to5GoogleNovember Pixel Drop: 'Wicked: For Good' theme packs, Remix photos in Messages and more\u00a0\u00a0blog.googleGoogle Pixel update adds battery-saving maps mode, AI photo remixing, and smarter notifications\u00a0\u00a0TechCrunchGoogle Rolls Out Apple-Like Message Summaries for Pixel Phones\u00a0\u00a0Bloomberg.comPixel phones are getting notification summaries\u00a0\u00a0The Verge",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5IQkcyTEdDOWtkeHhncnF0NjVWa0laZ3IybUtwWlRnN3QyX3RlbG9oaU1VT1RjaXhTRDQ1MlR0QkVFREdoVlZTQzU2X1VZald5Wjl3ZnYySkh0Tjkyb2JZcUhyWkhXOTUxSnpTRUR3cHp3ZTFC?oc=5",
+          "source": "9to5Google",
+          "published": "Wed, 12 Nov 2025 14:05:00 GMT",
           "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-12T12:12:22.271653"
+          "fetched_at": "2025-11-12T18:10:13.476499"
         },
         "analysis": {
-          "summary": "Google introduces 'Private AI Compute,' a cloud-based service that offers enhanced security and privacy for AI processing, aiming to rival local processing capabilities and addressing growing concerns over data privacy in AI applications.",
+          "summary": "The Pixel 9 and 10 have introduced AI-powered notification summaries, allowing users to quickly review and dismiss messages, similar to Apple's summary feature. This feature is part of the Pixel's ongoing updates aimed at enhancing user experience and reducing distractions.",
           "key_points": [
-            "Google's new cloud-based 'Private AI Compute' is designed to provide secure, privacy-focused AI processing.",
-            "The service aims to compete with local processing by offering similar security levels for AI workloads.",
-            "The introduction of 'Private AI Compute' highlights Google's commitment to addressing privacy concerns in AI."
+            "Pixel 9 and 10 now feature AI-powered notification summaries.",
+            "This summary feature helps users quickly review and dismiss messages.",
+            "The update is part of Google's efforts to improve the user experience and minimize distractions."
           ],
           "sentiment": "Positive",
           "confidence": "High",
-          "bias_check": "The article may downplay potential privacy concerns or technical limitations of the service. There could also be an inherent bias towards Google's technology, given the source's relationship with the company.",
-          "missing_context": "Details about the specific security measures in place, comparisons with other cloud-based AI services, and potential costs associated with using 'Private AI Compute' are not provided.",
-          "implications": "The broader implications include increased competition in the secure AI processing space, potential shifts in how companies approach AI privacy, and enhanced trust from consumers concerned about data security. It also positions Google as a proactive player in addressing AI-related privacy concerns.",
+          "bias_check": "Potential bias towards Google and its Pixel range, as the article is sourced from Google's official blog.",
+          "missing_context": "The article does not compare the new feature with similar features from other smartphone brands, which could provide a more balanced view.",
+          "implications": "The introduction of AI-powered notification summaries by Google could set a new standard in the smartphone industry, pushing competitors to innovate similarly. It also reflects Google's commitment to leveraging AI for enhancing user experience, potentially leading to increased adoption of AI technologies in other areas of technology.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-12T12:12:51.219667",
+          "analyzed_at": "2025-11-12T18:10:43.503463",
           "token_usage": {
-            "prompt_tokens": 302,
-            "completion_tokens": 267,
-            "total_tokens": 569
+            "prompt_tokens": 290,
+            "completion_tokens": 242,
+            "total_tokens": 532
           }
         }
       },
       {
         "article": {
-          "id": "news_2_1762949542",
-          "title": "Apple Confounds Some Fans With $230 Knit iPhone Crossbody Carrier - Forbes",
-          "description": "Apple Confounds Some Fans With $230 Knit iPhone Crossbody Carrier\u00a0\u00a0ForbesIntroducing iPhone Pocket: a beautiful way to wear and carry iPhone\u00a0\u00a0AppleApple made a $230 crossbody\u2026 sock\u00a0\u00a0The VergeApple is now selling a $150 sling for your iPhone made by the same designer who created Steve Jobs' iconic black turtleneck\u00a0\u00a0FortuneApple and Issey Miyake Unite for the iPhone Pocket\u2014\u201cIt\u2019s a Moment of Connecting the Dots\u201d\u00a0\u00a0Vogue",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNQ1VpdV8xbnpGRnZCZm5jS0p0Tjd0Ymx1cDJ3NWljd2NMVGdCZ3JUQWxTNWEwYkpydWRFU242bGs2S3p3MGVuV283dWYyNUJ2cldnWlg4WFlHOTRkbXlVNndZMmQ4ZFBVUnZ1SjhSdnJVWHpVc0lDa0otdi02d0FzUmlYN3NRWTFNSE5SZl90NDcySktjVjFPSTh0MF9pcFVpZEU0LTYwNjZwUnI5YTQwZnpfUHpRLXY4WnplUlhHSkx0MDBHbWhqaFo1LTdmUlllSlN5clJMVENuNEM1MkE?oc=5",
-          "source": "Forbes",
-          "published": "Tue, 11 Nov 2025 20:06:07 GMT",
+          "id": "news_2_1762971013",
+          "title": "Review: New Framework Laptop 16 takes a fresh stab at the upgradeable laptop GPU - Ars Technica",
+          "description": "Review: New Framework Laptop 16 takes a fresh stab at the upgradeable laptop GPU\u00a0\u00a0Ars TechnicaFramework Laptop 16 (2025 upgrade) review: The RTX 5070 is the star\u00a0\u00a0EngadgetEthical electronics spending is one thing, but I'm just not a good enough person to buy the new Framework 16\u00a0\u00a0PC GamerFramework Laptop 16 (RTX 5070) review: Yes, you can upgrade the GPU\u00a0\u00a0Tom's HardwareFramework Laptop 16 Upgrade To AMD Ryzen AI 300 Series Benchmarks Review\u00a0\u00a0Phoronix",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOT0xxVGVFcU5FR3ZfMTJfOFEzMDMxMUpNOVd2SU1uRXprX3pTQmEzYjBMT05uUXBPMXFQRDRhT1dNRk12dDU1bHIzZFA1SjhxX29KLVRObWdMaDJUR0poUWU2ckF1Zngwd1FOZzlmYkUxTFNkcVpnZm91dzJEQlpZU2VfdGl5WjFLeVBJa285SEFaUnM4SG5vbmRxbHV6Z1lhV3U1WU5YLTQ4emt3QXRldm5CWDdldW1rZUxTWA?oc=5",
+          "source": "Ars Technica",
+          "published": "Wed, 12 Nov 2025 16:00:39 GMT",
           "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-12T12:12:22.271675"
+          "fetched_at": "2025-11-12T18:10:13.476518"
         },
         "analysis": {
-          "summary": "Apple's new $230 iPhone Pocket, a knit crossbody carrier designed by the same artisan who crafted Steve Jobs' black turtleneck, has generated mixed reactions among fans. While the product is praised for its unique and aesthetically pleasing design, its high price and unconventional style have left some Apple enthusiasts somewhat perplexed.",
+          "summary": "The Framework Laptop 16 with its new RTX 5070 GPU offers a unique upgradeable design compared to traditional laptops, but it comes at a high cost, which may not appeal to all consumers. While the ability to upgrade the GPU is a significant plus, ethical concerns about electronic waste and the practicality for average users are raised.",
           "key_points": [
-            "Apple's $230 iPhone Pocket, a knit crossbody carrier, designed by the same artisan as Steve Jobs' iconic black turtleneck.",
-            "Mixed reactions from Apple fans: appreciation for design but skepticism over high price and style.",
-            "The product emphasizes Apple's trend of unique, high-end accessories."
+            "Framework Laptop 16 offers an upgradeable GPU design, which is a novel approach in the laptop market.",
+            "The high price point of the Framework Laptop 16 makes it less accessible to the average consumer.",
+            "The concept of an upgradeable laptop raises questions about the ethical implications of electronic waste."
           ],
           "sentiment": "mixed",
           "confidence": "high",
-          "bias_check": "The article may emphasize the novelty and craftsmanship of the iPhone Pocket over its practicality and potential alternative carriers, reflecting a bias towards unique Apple products.",
-          "missing_context": "Details on the practicality and user experience of the iPhone Pocket are missing. Additionally, comparison with other new Apple accessories or carriers could provide a better context.",
-          "implications": "The introduction of such a high-priced, niche accessory could highlight Apple's focus on exclusivity and design over practicality for some. It may also influence consumer expectations for future Apple accessories, pushing them towards the premium and unique.",
+          "bias_check": "The reviewer's personal financial situation and views on electronic waste could bias the opinion that the Framework Laptop 16 is not worth the investment. The reviewer's perspective on the practicality of the upgradeable design may also be biased by their own technical expertise and use case scenarios.",
+          "missing_context": "Information about the target market for the Framework Laptop 16, such as professional gamers or tech enthusiasts, would be beneficial. The article also lacks details on the performance and user experience of the laptop, which are critical factors for potential buyers.",
+          "implications": "The Framework Laptop 16's approach to upgradeable GPUs could influence the laptop industry's future, pushing competitors to offer similar features. However, the high cost and potential ethical concerns could limit its market adoption and impact consumer behavior towards more sustainable electronic spending.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-12T12:12:58.747523",
+          "analyzed_at": "2025-11-12T18:10:51.927230",
           "token_usage": {
-            "prompt_tokens": 297,
-            "completion_tokens": 284,
-            "total_tokens": 581
+            "prompt_tokens": 314,
+            "completion_tokens": 331,
+            "total_tokens": 645
           }
         }
       },
       {
         "article": {
-          "id": "news_3_1762949542",
-          "title": "Apple Explores Adding Second Camera to Next iPhone Air to Boost Sales - The Information",
-          "description": "Apple Explores Adding Second Camera to Next iPhone Air to Boost Sales\u00a0\u00a0The InformationApple Delays Release of Next iPhone Air Amid Weak Sales\u00a0\u00a0The InformationThe next iPhone Air has reportedly been delayed\u00a0\u00a0The VergeWeak sales delay next iPhone Air model, report claims\u00a0\u00a0MashableApple is reportedly not giving up on its \u2018thinnest\u2019 iPhone, iPhone Air; but planning to solve its biggest\u00a0\u00a0The Times of India",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVjhYQm5Kc2ZCdWp1TUQ4aFFqMjJ5SHdyaFVKNXk3d25saUdHRVFYMExkZUR5T21xZHpnbXM5eUNON2NiQjg2NzFMaWc0WXRFbFY4bmtucWNKT0Y4czJaWEJ6RW1LYTdXTW1XVVNEV2l1Sllqcmk5dGRCRTNNSW4xMjRwQUZYWXRsSWRONVU5Mkw2bHBEU3I0UlNHV2xqT3ZZWUdEbkI1WQ?oc=5",
-          "source": "The Information",
-          "published": "Tue, 11 Nov 2025 09:27:24 GMT",
+          "id": "news_3_1762971013",
+          "title": "iPhone 18 Pro Max will be thicker and heavier than ever, says leaker - 9to5Mac",
+          "description": "iPhone 18 Pro Max will be thicker and heavier than ever, says leaker\u00a0\u00a09to5MacApple to Hide Selfie Camera Under Display of 20th Anniversary iPhone\u00a0\u00a0MacRumorsAnalyst Leaks Key Specs For iPhone 18 Pro, iPhone Fold, And iPhone Air 2\u00a0\u00a0bgr.comiPhone 18 Pro rear design now rumored to go in a different direction - GSMArena.com news\u00a0\u00a0GSMArena.comiPhone Fold rumors -- design, specs, release date\u00a0\u00a0AppleInsider",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMWRQRExJQ1o3S0RjNURucXVETW1INGNkdTBuemg4Um1VTV9FaWU4aTlFMHZpN0VfdjF4RUg4b2Y0VTluS3B0c3ZzNV9BcDlYcHExODNJRnJkcWxkdlI5UVdtM1RQS2MyaV90T0RROHlldXhHNFpkZVVOTXFhNmRUcGQzbHl2azcwMmRtdDJpanRRbEttYkpSN1VkLW5vdkNQ?oc=5",
+          "source": "9to5Mac",
+          "published": "Wed, 12 Nov 2025 14:26:00 GMT",
           "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-12T12:12:22.271696"
+          "fetched_at": "2025-11-12T18:10:13.476536"
         },
         "analysis": {
-          "summary": "Apple is reportedly considering adding a second camera to the next iPhone Air model to boost sales, as weak sales figures have led to a delay in its release. This move could be a strategic attempt to improve the phone's appeal and elevate its market performance.",
+          "summary": "Leaked sources suggest the upcoming iPhone 18 Pro Max will be thicker and heavier than previous models, potentially to accommodate a hidden selfie camera under the display, marking a notable design evolution for Apple's anniversary model.",
           "key_points": [
-            "Apple is facing weak sales for the next iPhone Air, leading to a delay in its release.",
-            "To address the issue, Apple is reportedly exploring the addition of a second camera to the iPhone Air.",
-            "The new feature may be aimed at making the iPhone Air more competitive and attractive to consumers."
+            "Leaked sources indicate an increase in size and weight for the iPhone 18 Pro Max.",
+            "A hidden selfie camera under the display is rumored, aligning with Apple's known design philosophy of innovation.",
+            "The design change may be part of the 20th anniversary celebration for the iPhone."
           ],
-          "sentiment": "Mixed",
+          "sentiment": "Neutral",
           "confidence": "High",
-          "bias_check": "The article does not provide any direct quotes from Apple or insiders, which might lead to speculation without confirmation. The tone is speculative, and future outcomes are uncertain.",
-          "missing_context": "The full reasons behind the weak sales of the iPhone Air are not detailed, nor is the overall performance of the iPhone Air compared to previous models. The impact of consumer preferences and market trends on the decision to add a second camera is also not discussed.",
-          "implications": "The potential addition of a second camera to the iPhone Air could signal a shift in Apple's strategic approach towards their smartphone lineup, possibly indicating a stronger focus on camera capabilities in response to market demand. It might also affect Apple's innovation trajectory and influence consumer expectations for future Apple products.",
+          "bias_check": "The source of the leak and the accuracy of the information provided by the leaker(s) are not verified, which could lead to misinformation or exaggeration of the features.",
+          "missing_context": "There is no official confirmation from Apple, so the information is speculative. Other factors such as market trends, competitor actions, and Apple\u2019s full product strategy could influence the final design but are not covered in the article.",
+          "implications": "If true, the rumored design could signal a new trend in smartphone aesthetics and functionality. It could also impact Apple's market position, depending on consumer reception of the new design and features.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-12T12:13:06.691063",
+          "analyzed_at": "2025-11-12T18:10:59.201845",
           "token_usage": {
-            "prompt_tokens": 286,
-            "completion_tokens": 309,
-            "total_tokens": 595
+            "prompt_tokens": 315,
+            "completion_tokens": 270,
+            "total_tokens": 585
           }
         }
       },
       {
         "article": {
-          "id": "news_4_1762949542",
-          "title": "Google Photos lets iPhone users edit images by describing changes - The Verge",
-          "description": "Google Photos lets iPhone users edit images by describing changes\u00a0\u00a0The Verge6 new things you can do with AI in Google Photos\u00a0\u00a0blog.googleGoogle Photos adds new AI features for editing, expands AI-powered search to over 100 countries\u00a0\u00a0TechCrunchYour Google Photos just got 3 huge Nano Banana image editing upgrades - for free\u00a0\u00a0ZDNETGoogle announces even more AI in Photos app, powered by Nano Banana\u00a0\u00a0Ars Technica",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBpMEdCbkxEWThmUXluTGxsd2l0eDlsTHlWdklJTjFjTnhsT1E3NDZCckJXM2FlYUpSaW45X291aGloV3pqNkdlMEl4UnV1c1hPbm1sNHk2QUxSYml0VEw2elZIbUVpeWliVVlITzZJY1JWLU55UkJ0ckluRFRpa1E?oc=5",
-          "source": "The Verge",
-          "published": "Tue, 11 Nov 2025 17:00:00 GMT",
+          "id": "news_4_1762971013",
+          "title": "Google Launches 'Private AI Compute' \u2014 Secure AI Processing with On-Device-Level Privacy - The Hacker News",
+          "description": "Google Launches 'Private AI Compute' \u2014 Secure AI Processing with On-Device-Level Privacy\u00a0\u00a0The Hacker NewsPrivate AI Compute: our next step in building private and helpful AI\u00a0\u00a0blog.googleGoogle says new cloud-based \u201cPrivate AI Compute\u201d is just as secure as local processing\u00a0\u00a0Ars TechnicaGoogle makes Pixel 10 Magic Cue \u2018more timely\u2019 with cloud-based \u2018Private AI Compute\u2019\u00a0\u00a09to5GoogleGoogle\u2019s latest AI move shows Apple is on the right track, at least in one way\u00a0\u00a09to5Mac",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE00SWJVT2RIVW5MblE0Z04xb0xYQWhRSTV0Ukg1ZHQzenZ4ckI2ZmQtbXdILTNCN25tVnFOa2RPbTAtZ2ZRVldyeFlGMGJXbnJjTzI1dG50eUJLOGlXa1kwTXhZMGF4YjI1Q3pTVG5XSVk3RlBIX2JmSEJzdEJUQQ?oc=5",
+          "source": "The Hacker News",
+          "published": "Wed, 12 Nov 2025 08:35:00 GMT",
           "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-12T12:12:22.271716"
+          "fetched_at": "2025-11-12T18:10:13.476558"
         },
         "analysis": {
-          "summary": "Google Photos has introduced a new feature that allows iPhone users to edit images by simply describing the changes they want to make, leveraging AI capabilities similar to Google's Pixel phone. This development enhances the user experience by simplifying photo editing and expanding Google's AI-powered search service to over 100 countries.",
+          "summary": "Google's new 'Private AI Compute' feature aims to enhance on-device privacy by securely processing AI tasks, potentially keeping users' data local and reducing dependency on cloud-based processing. However, concerns about the feature's effectiveness and broader implications for privacy and competition remain.",
           "key_points": [
-            "Google Photos now supports image edits using voice commands.",
-            "The feature is powered by AI, indicating a push towards more accessible and user-friendly photo editing tools.",
-            "AI-powered search in Google Photos has been expanded to over 100 countries."
+            "Google introduces 'Private AI Compute' for on-device, secure AI processing",
+            "Feature aims to improve privacy by keeping data local, potentially reducing cloud reliance",
+            "Concerns about the feature's effectiveness and broader privacy and competition implications persist",
+            "Apple's similar move suggests a trend towards more secure and private AI computing",
+            "Uncertainty about the overall impact on user privacy and data security"
           ],
-          "sentiment": "Positive",
-          "confidence": "High",
-          "bias_check": "The article may be biased towards highlighting Google's advancements positively, given its affiliation with Google. Potential biases include an emphasis on innovative features while downplaying any limitations or user concerns.",
-          "missing_context": "The article does not discuss any potential limitations or user feedback about the new features. There could be technical issues, such as the accuracy of AI in understanding voice commands or the processing time for edits. User privacy concerns related to the use of AI for editing and search might also be missing.",
-          "implications": "The broader implications include increased competition in the AI-driven photo editing and search space, potentially driving other tech companies to develop similar features. It also suggests a trend towards more interactive and accessible technology, where users can leverage AI without needing detailed technical knowledge. However, it raises questions about data privacy and the ethical use of AI in modifying user content.",
+          "sentiment": "mixed",
+          "confidence": "high",
+          "bias_check": "Possible bias towards Google's innovation and positive view of centralized services like Google and Apple. Limited perspective on the broader implications for smaller tech companies and users.",
+          "missing_context": "Details about how 'Private AI Compute' integrates with existing Google services, potential limitations of on-device processing, and comparison with competing technologies or features from other companies.",
+          "implications": "This development could shift the balance of power in the tech industry towards companies that prioritize privacy and security. It may also force competitors to innovate in similar directions. However, there's uncertainty about the net benefit for users' privacy, as more local processing could still pose risks if not properly secured. The move could also lead to a renewed focus on regulatory oversight and ethical considerations in AI development.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-12T12:13:15.060813",
+          "analyzed_at": "2025-11-12T18:11:07.354819",
+          "token_usage": {
+            "prompt_tokens": 310,
+            "completion_tokens": 308,
+            "total_tokens": 618
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_0_1762971013",
+          "title": "New bridge in south-west China collapses into mountainside - The Guardian",
+          "description": "New bridge in south-west China collapses into mountainside\u00a0\u00a0The GuardianMajor Chinese bridge collapses into river just months after opening to traffic\u00a0\u00a0Fox NewsHarrowing Video Shows Bridge Collapsing in China Less Than 1 Year After It Opened to Traffic\u00a0\u00a0People.comNewly opened 758-metre bridge in China collapses\u00a0\u00a0Sky NewsVideo shows part of newly built bridge in China collapsing in seconds\u00a0\u00a0The Washington Post",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQc3VycnV3Rk05NW0zZS00ck5XUjNVSUtQbVZ5SzVKaDUzRnRTU3VtYU52V0k3bTNyYXlueVpOb2pfTV9mN2hrdzFFcXdJaHhIOFgtY3huSWRfNGRXVkh0emstVmFKY3RzQldXZnlKaDBKbkp6ZDBSSlpVa092SjdicXNUenlpVUdlOXRSNGRtZFgyLVJDc2dBeTlsRklLZm9FVHVjTmpsNU1ZdjFZMkVQRw?oc=5",
+          "source": "The Guardian",
+          "published": "Wed, 12 Nov 2025 14:35:00 GMT",
+          "topic": "WORLD",
+          "fetched_at": "2025-11-12T18:10:13.628626"
+        },
+        "analysis": {
+          "summary": "A newly constructed 758-meter bridge in south-west China has catastrophically collapsed into a mountainside, just months after its inauguration and shortly after being showcased on multiple news outlets, raising questions about construction quality and safety oversight in the region.",
+          "key_points": [
+            "The collapse occurred less than a year after the bridge opened to traffic, raising concerns about construction standards and quality control.",
+            "Multiple media outlets, including The Guardian, Fox News, People.com, and The Washington Post, reported on the incident, indicating its significance and the widespread interest in the event.",
+            "The incident could have serious implications for infrastructure planning and public safety in China and possibly influence international perceptions of the country's building practices."
+          ],
+          "sentiment": "Negative",
+          "confidence": "High",
+          "bias_check": "The article might have an implicit bias towards highlighting the negative aspects of this incident, possibly overlooking successful infrastructure projects in China. There could also be a Western-centric perspective that emphasizes the narrative of failure and neglect.",
+          "missing_context": "It would be important to know if there were any prior signs or reports of structural issues with the bridge before its collapse. Additionally, details about the regulatory environment and historical safety records in Chinese construction projects would provide more context.",
+          "implications": "This incident may prompt stricter safety regulations and more rigorous oversight of infrastructure projects in China. It could also lead to a reevaluation of engineering standards and practices. For investors and international observers, this may affect perceptions of risk associated with Chinese construction projects.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-12T18:11:16.097790",
           "token_usage": {
             "prompt_tokens": 280,
-            "completion_tokens": 320,
-            "total_tokens": 600
+            "completion_tokens": 324,
+            "total_tokens": 604
           }
         }
       },
       {
         "article": {
-          "id": "news_0_1762949542",
-          "title": "Pakistan investigates suicide bombing that killed 12 outside an Islamabad court - abcnews.go.com",
-          "description": "Pakistan investigates suicide bombing that killed 12 outside an Islamabad court\u00a0\u00a0abcnews.go.comDeadly Blasts in India and Pakistan Set Region on Edge\u00a0\u00a0The New York TimesBlasts\u2014and Blame\u2014Raise Tensions Between India and Pakistan\u00a0\u00a0Time MagazineSuicide bombing in Islamabad kills 12, says Pakistan's interior minister\u00a0\u00a0BBCTwo blasts a day apart in India and Pakistan\u2019s capitals fray regional nerves in an already tense year\u00a0\u00a0CNN",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbHdlT1VVa2pyWF9qWWktejc0Vlotd2xybHFRbTNEczA3TmxFamRScVhHVXZfMWdiOEZYcVRhcXFZNElGZ093MEFuc1d5OG1TNktydFFfeGxMeE9Rbm5uTnc3UFlKc1cwUml6aWxHeDJOcXBxcGZOZkJlZGlNZVdBNC1fbUhQQjEwSUdJYXFxSjJNc29ZNnVNWG9BVDB4Qkc0ZVd0aEVVSUY2ck1pZk93ZkpMZ1YwVzd3WEtyMdIBwgFBVV95cUxPLWlDSEROajlkd3JILVUtZFd2ZUVUSTU0cVVfZkJwQnktTWNtV2Z1YnFWVk5jTGVnbUtJMnl4QkdTVC1Ma3JqcUJhQWR6bXh1ZEJwZTVubXphem5hLVdVTmEwWkc3RlhTakRIWDVULWM2Q3hGLWFIQnJzQlJvczRlUTlLemMtdUxMZnJEYW1LYkYzQWRreFFvOFpGQmF3cEdSS2tZeW5mQU93TzFNYmZUVEtXNWQzVXZFajJhY1FNZDFGQQ?oc=5",
-          "source": "abcnews.go.com",
-          "published": "Wed, 12 Nov 2025 08:18:20 GMT",
+          "id": "news_1_1762971013",
+          "title": "Who are India and Pakistan blaming for Delhi, Islamabad blasts? - Al Jazeera",
+          "description": "Who are India and Pakistan blaming for Delhi, Islamabad blasts?\u00a0\u00a0Al JazeeraDeadly Blasts in India and Pakistan Set Region on Edge\u00a0\u00a0The New York TimesPakistan: Suicide attack outside Islamabad court kills 12\u00a0\u00a0BBCSuicide bombing in Pakistan capital kills 12, raises regional tension\u00a0\u00a0ReutersPakistan opens investigation into Islamabad terror attack\u00a0\u00a0The Guardian",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOZmdfME8tcFRzYnAwT0VEX08ycGhzOURGQ1lNZlFkNG44b1F0LXBFaHUwdDJmMG1lbGlYWkVyZGRSSWVRM05DdU1tTEpNS0ROSVBwb1h4QmdkLWRybGJaUjFTaGhfMXFxb1VIcWJoTG1KdzhRZ242LWljeWZmU3pUQndFdjMxekRfeFZxazRZSjZQTzNZWlJHdzd1NjQ2YjdrRTVFNzl30gGrAUFVX3lxTE9XcldON1NaQkNOVFk1OWxsNy0xXzVESG85UzVPY2RVZEJvdVBUQlU0R244eVphQ2FCZXlyN1otRDN4UUR3aWE4YWUzMjdtVUJlcFN6QTdjaDlocTAyZ083dUw5bkc5LXdINU43VFR2MWkwU25SSHhYOFk1OTEtdjhfT2NaU1NHM010Y3p3SWxZanh3VG9JQ3laVVliWlE2X0V3ckhzU2RVZGw3aw?oc=5",
+          "source": "Al Jazeera",
+          "published": "Wed, 12 Nov 2025 13:47:33 GMT",
           "topic": "WORLD",
-          "fetched_at": "2025-11-12T12:12:22.443374"
+          "fetched_at": "2025-11-12T18:10:13.628655"
         },
         "analysis": {
-          "summary": "A tragic suicide bombing targeting an Islamabad court has resulted in 12 fatalities, prompting Pakistan's interior minister to investigate the heinous act. The explosion underscores the persistent violence in the region and the strained relations between India and Pakistan, as both nations experience similar attacks in their capitals.",
+          "summary": "The article discusses the blame placed by India and Pakistan on each other following the deadly blasts in Delhi and Islamabad, respectively, highlighting the ongoing tension and regional instability caused by these attacks. It also covers the immediate reactions and statements from various news outlets regarding the incidents and their impact on regional relations.",
           "key_points": [
-            "A suicide bombing in Islamabad has caused 12 deaths, raising concerns about security in Pakistan.",
-            "The attack highlights the ongoing tension between India and Pakistan, with both countries experiencing similar violent incidents.",
-            "Pakistan's interior minister is investigating the incident, reflecting the government's efforts to address and prevent such acts of terrorism."
+            "India and Pakistan are blaming each other for the recent blasts in their respective capitals.",
+            "The explosions have heightened regional tensions and prompted investigations in both countries.",
+            "Various news outlets report on the immediate aftermath and ongoing investigations, reflecting the international concern over the situation."
           ],
           "sentiment": "negative",
           "confidence": "high",
-          "bias_check": "The article may reflect Western perspectives on the geopolitical tensions between India and Pakistan, which could influence the framing of the narrative.",
-          "missing_context": "There might be information on the motives behind the suicide bombing, which could provide deeper insights into the incident. Also, perspectives from local residents, law enforcement, and political analysts in Pakistan might offer more comprehensive understanding.",
-          "implications": "This incident could lead to increased security measures and heightened international scrutiny of the region. It may also exacerbate the already tense relations between India and Pakistan, potentially influencing regional political dynamics and security policies.",
+          "bias_check": "The article may reflect the perspective of Al Jazeera, which is known for its critical stance towards the Indian government. Additionally, the choice of sources and the framing of the narrative could introduce a bias towards highlighting regional tensions.",
+          "missing_context": "Important context missing includes the historical background of India-Pakistan relations, specific details on the nature and perpetrators of the blasts, and any official statements from the governments or security agencies of both countries. The broader geopolitical implications and any ongoing peace process or conflict dynamics are also not detailed.",
+          "implications": "The blame game and heightened tensions between India and Pakistan following these blasts could have significant implications for regional stability, bilateral relations, and international diplomatic efforts. It may also impact the safety and security perceptions of citizens in both countries, potentially leading to increased military readiness and retaliatory actions.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-12T12:13:22.414016",
-          "token_usage": {
-            "prompt_tokens": 288,
-            "completion_tokens": 278,
-            "total_tokens": 566
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_1_1762949542",
-          "title": "Protesters break into COP30 venue in Brazil - BBC",
-          "description": "Protesters break into COP30 venue in Brazil\u00a0\u00a0BBCProtesters force their way into COP30 summit venue, clash with security\u00a0\u00a0CNNTussles break out between protesters and security at Cop30 in Brazil\u00a0\u00a0The GuardianProtesters confront security at main venue of UN climate talks\u00a0\u00a0abcnews.go.comProtesters and UN security clash at climate summit in Brazil\u00a0\u00a0Politico",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA0NDZVY0FpLXl0M1dyNm1hWWdlcTQxUkx1SVZ0VE5Bcm5ScjYwVGZxUzNPNEMwOHpIVm1PcURNWU1Pc1BjR3p5aW1LbjJPUmtzaFdmM0wzNHJNdw?oc=5",
-          "source": "BBC",
-          "published": "Wed, 12 Nov 2025 02:50:49 GMT",
-          "topic": "WORLD",
-          "fetched_at": "2025-11-12T12:12:22.443405"
-        },
-        "analysis": {
-          "summary": "Protesters stormed the COP30 venue in Brazil, leading to clashes with security, which disrupted the UN climate talks. The incident highlights significant tensions between activists and authorities regarding climate change action and policy.",
-          "key_points": [
-            "Protesters forcefully entered the COP30 summit venue.",
-            "Escalation of conflict between protesters and security forces.",
-            "Disruption of the main UN climate talks due to the unrest.",
-            "Underlying issues may include dissatisfaction with current climate policies and the pace of global action."
-          ],
-          "sentiment": "Mixed",
-          "confidence": "High",
-          "bias_check": "Potential bias may stem from the framing of the incident, either emphasizing the destructive aspects of the protest or overshadowing the protesters' intentions and messages. The article does not provide deep insight into the protesters' motivations or the broader context of their grievances.",
-          "missing_context": "Additional context regarding the specific demands or goals of the protesters, the historical context of climate activism in Brazil, and any preceding events leading to this point would provide a more comprehensive understanding.",
-          "implications": "The incident could lead to increased scrutiny and pressure on UN climate talks, potentially affecting international cooperation on climate action. It may also fuel further public discourse on the effectiveness and urgency of current climate policies, and the role of civil disobedience in driving change.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-12T12:13:30.144835",
+          "analyzed_at": "2025-11-12T18:11:24.237056",
           "token_usage": {
             "prompt_tokens": 267,
-            "completion_tokens": 290,
-            "total_tokens": 557
+            "completion_tokens": 321,
+            "total_tokens": 588
           }
         }
       },
       {
         "article": {
-          "id": "news_2_1762949542",
-          "title": "Turkish military plane crash in Georgia kills all 20 on board - AP News",
-          "description": "Turkish military plane crash in Georgia kills all 20 on board\u00a0\u00a0AP NewsTurkey confirms all 20 on board military cargo plane that crashed in Georgia killed \u2013 Europe live\u00a0\u00a0The GuardianTurkish military cargo plane crashes with at least 20 on board near Georgia and Azerbaijan border\u00a0\u00a0BBCTurkiye confirms all 20 soldiers die in army plane crash in Georgia\u00a0\u00a0Al JazeeraTurkish military cargo plane crashes near Azerbaijan-Georgia border, Turkish minister says\u00a0\u00a0abcnews.go.com",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNS2NmVjVXWjI0M0NWTE51aTRDeHVhWnRkZU5iMjk4Z3FMcWUyUnVnaXM1UUJlblBMYW9IVldXLXVlQmJlTEp4OExNdnhUZ28zdVJXWVZRY21tY3FDVFVaSV9obklpR1FqeWNIZTUwRHVmU1FLX2VWQmUyems1OFgyMWJiWm0tdTl0RmF6V0szRQ?oc=5",
+          "id": "news_2_1762971013",
+          "title": "Rumors swirl of a plot to oust Keir Starmer as the embattled British leader denies attacking his rivals - CNN",
+          "description": "Rumors swirl of a plot to oust Keir Starmer as the embattled British leader denies attacking his rivals\u00a0\u00a0CNNPMQs live: Keir Starmer says he 'never authorised' attacks on ministers\u00a0\u00a0BBCAllegra Stratton: No 10 Tell MPs It's the Bond Market, Stupid\u00a0\u00a0Bloomberg.comThe sharks are circling UK PM Keir Starmer as crunch points loom\u00a0\u00a0CNBCKeir Starmer under pressure over future of Morgan McSweeney amid briefing row\u00a0\u00a0The Guardian",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1ZY3ZjVTA4cW5pd2lCS2hJRVpJNG5kc1hsb0dkRFFTZTRucnIxUl9taEY4RDJUMGM4RU4tME96UmdMWGpIb1JUSTRWOUF6Zm0xd2l4aDVDYzBfYXE4cFBPQUJHLUlPbWhEc2lDTEd1c2JfOWktRGFGSFd0R0Q?oc=5",
+          "source": "CNN",
+          "published": "Wed, 12 Nov 2025 15:37:59 GMT",
+          "topic": "WORLD",
+          "fetched_at": "2025-11-12T18:10:13.628673"
+        },
+        "analysis": {
+          "summary": "Keir Starmer, the UK Prime Minister, is facing rumors of a potential plot to replace him, amid allegations of unauthorized attacks on ministers. Despite the mounting pressure, Starmer has denied authorizing these attacks, while the situation intensifies with key figures under scrutiny for their loyalty and actions within the government.",
+          "key_points": [
+            "Keir Starmer is rumored to be the target of a plot to oust him as UK PM.",
+            "Starmer denies authorizing attacks on ministers, amidst political turmoil.",
+            "Morgan McSweeney's future is uncertain, adding to the pressure on Starmer.",
+            "The situation is causing significant concern among MPs and the public."
+          ],
+          "sentiment": "mixed",
+          "confidence": "high",
+          "bias_check": "Potential biases include political leanings of the media outlets reporting the story, such as CNN's typically left-leaning perspective, which may influence the framing of the narrative.",
+          "missing_context": "Additional context on the specific allegations against Starmer and Morgan McSweeney, as well as the potential political motives behind the rumored plot, would provide a more comprehensive understanding.",
+          "implications": "The rumors of a plot to replace Keir Starmer could have significant implications for UK politics, potentially destabilizing the current government and impacting policy decisions. It also raises concerns about internal party dynamics and trust among MPs.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-12T18:11:35.302400",
+          "token_usage": {
+            "prompt_tokens": 308,
+            "completion_tokens": 297,
+            "total_tokens": 605
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_3_1762971013",
+          "title": "Israel\u2019s president says \u2018shocking\u2019 settler violence against Palestinians must end - AP News",
+          "description": "Israel\u2019s president says \u2018shocking\u2019 settler violence against Palestinians must end\u00a0\u00a0AP NewsIsraeli settlers set fire to Palestinian warehouse and land as West Bank attacks surge\u00a0\u00a0BBCMasked Israeli settlers attack Palestinian villages and IDF soldiers in the West Bank\u00a0\u00a0NBC NewsIsrael Arrests 4 After Jewish Extremist Attack in Occupied West Bank\u00a0\u00a0The New York TimesMasked Israeli settlers attack 2 Palestinian villages in the West Bank\u00a0\u00a0AP News",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZkppdHpfcUJQRHRXekRoZS01a3pzSEJuSm1fdVExU1BZbXZKa2FJX3l6YjlYV2lBWm51OVlWRnozdWd6ZUFJZVhDeklYN081SWZJSDVha3JWVno4bE94NmRURld4cURBNUZhTTJRcm41VEJXNGxaMWdadThONGpSZTJpZHlwVHpwU1FydXdCclM5dE9SVG1ORFVBUVR0dkZsdmwyVWR1R3B2dlU?oc=5",
           "source": "AP News",
-          "published": "Wed, 12 Nov 2025 10:41:00 GMT",
+          "published": "Wed, 12 Nov 2025 16:38:00 GMT",
           "topic": "WORLD",
-          "fetched_at": "2025-11-12T12:12:22.443428"
+          "fetched_at": "2025-11-12T18:10:13.628699"
         },
         "analysis": {
-          "summary": "A Turkish military cargo plane crashed near the Azerbaijan-Georgia border, killing all 20 onboard. The incident has raised questions about aviation safety and the geopolitical tensions in the region.",
+          "summary": "Israel's president condemns the rising settler violence against Palestinians, describing it as 'shocking' and calling for it to end, amid reports of settlers setting fire to Palestinian warehouses, attacking villages, and IDF soldiers.",
           "key_points": [
-            "The crash involved a Turkish military cargo plane with 20 soldiers on board, resulting in the total loss of life.",
-            "The crash occurred near the geopolitical volatile border between Azerbaijan and Georgia.",
-            "This incident has drawn attention to the importance of aviation safety and the potential risks associated with military operations in geopolitically sensitive areas."
+            "Israeli president calls for an end to settler violence against Palestinians.",
+            "Settlers have been reported to set fire to Palestinian properties and attack both villages and IDF soldiers.",
+            "The issue reflects a concerning trend of escalation in tensions between Israeli settlers and Palestinians."
           ],
           "sentiment": "Negative",
           "confidence": "High",
-          "bias_check": "The news article might have an implicit bias due to the geopolitical context, potentially framing the incident as a consequence of regional tensions without delving deeply into the specific aviation safety factors.",
-          "missing_context": "Important context might include the plane's flight path, the specific reasons for the flight, and any prior incidents or maintenance issues with the aircraft. Additionally, perspectives from the involved countries' governments and military officials would provide more insight into the causes and implications of the crash.",
-          "implications": "The broader implications of this story include heightened scrutiny of military aviation safety, potential diplomatic fallout between the affected countries, and increased awareness of the risks associated with military operations in geopolitically sensitive areas.",
+          "bias_check": "The article may reflect a negative bias towards Israeli settlers due to the nature of the violence reported. It's important to consider any potential biases in the sources or the way the information is presented.",
+          "missing_context": "Additional context about the underlying causes of the settler violence, the response from Israeli authorities, and the historical background of the tensions between Israelis and Palestinians is missing.",
+          "implications": "The increasing settler violence could further exacerbate the already tense situation in the West Bank, potentially leading to more violence and destabilization in the region. It also reflects on the internal divisions within Israel and could impact its international relations.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-12T12:13:44.111281",
-          "token_usage": {
-            "prompt_tokens": 290,
-            "completion_tokens": 283,
-            "total_tokens": 573
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_3_1762949542",
-          "title": "What the Looming Fall of a Ukrainian City Says About Putin\u2019s War - The Wall Street Journal",
-          "description": "What the Looming Fall of a Ukrainian City Says About Putin\u2019s War\u00a0\u00a0The Wall Street JournalUkraine\u2019s Hardest Winter\u00a0\u00a0Foreign AffairsRussian Offensive Campaign Assessment, November 11, 2025\u00a0\u00a0Institute for the Study of WarRussian forces roll 'Mad Max'-style into battered Ukrainian city of Pokrovsk, video shows\u00a0\u00a0ReutersRussian forces ride into Pokrovsk, Ukraine in 'Mad Max'-style video\u00a0\u00a0NBC News",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE54aklWRWd6VTE2Z0xBQ0lZRTVOLTM2dEhsckUxS0R2UEFnRG1GU1htTl9TQW1JbkRoYjBaaGVzSE5saHJZejZUb0pTZzdsRW10aFFuY2FheF9LRnNsOGd6aXhfbWRaXy1KN0xvWmxWcjByTWNFMkRvVA?oc=5",
-          "source": "The Wall Street Journal",
-          "published": "Wed, 12 Nov 2025 04:00:00 GMT",
-          "topic": "WORLD",
-          "fetched_at": "2025-11-12T12:12:22.443449"
-        },
-        "analysis": {
-          "summary": "The Wall Street Journal article discusses the severe implications of the fall of the Ukrainian city of Pokrovsk to Russian forces, portraying a grim scenario of a brutal military campaign and raising concerns about the future of the conflict and its impact on Ukraine and the international geopolitical landscape.",
-          "key_points": [
-            "Pokrovsk has fallen to Russian forces, showcasing the intensity and devastation of their offensive campaign.",
-            "The fall of Pokrovsk underscores the severe challenges faced by Ukraine in repelling Russian advances.",
-            "The use of 'Mad Max'-style imagery by Russian forces suggests a level of desperation and recklessness in their tactics."
-          ],
-          "sentiment": "Negative",
-          "confidence": "High",
-          "bias_check": "The article may have bias toward portraying the Russian offensive in a more negative light, focusing on the brutal aspects of the conflict. It might also emphasize the Ukrainian perspective and the challenges they face.",
-          "missing_context": "Important context might include the broader strategic objectives of the Russian offensive, the international response to the fall of Pokrovsk, and the resilience and countermeasures of Ukrainian forces.",
-          "implications": "The fall of Pokrovsk could have significant geopolitical implications, potentially altering the balance of power in the region and impacting international relations. It may lead to increased global attention and pressure on Russia, possibly affecting diplomatic efforts and sanctions. The broader narrative could also influence public opinion and the morale of both Ukrainian and international communities involved in the conflict.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-12T12:13:52.802242",
-          "token_usage": {
-            "prompt_tokens": 287,
-            "completion_tokens": 314,
-            "total_tokens": 601
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_4_1762949542",
-          "title": "The sharks are circling UK PM Keir Starmer's leadership, with crunch points coming - CNBC",
-          "description": "The sharks are circling UK PM Keir Starmer's leadership, with crunch points coming\u00a0\u00a0CNBCPMQs live: Keir Starmer to take questions from Kemi Badenoch\u00a0\u00a0BBCWes Streeting attacks \u2018toxic\u2019 No 10\u00a0\u00a0The TelegraphThin majorities and chaotic strategy push Labour MPs toward regime change\u00a0\u00a0The GuardianWes Streeting denies plotting to oust PM Keir Starmer\u00a0\u00a0NBC News",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPcWFIbWdUcEt3YzdYRTNTX2F2bE9lQlhva3poVFZYYVdWbmU1VUlzMVpmLWMxb2NQU2NXaHRVREJSeXJCT05yaGJaby1CNWlrWjFCMlF4SkZhbTZ0aVBwdDB5LVNWTEVoRHZ4aGhCaldObTFQcEJYRkM0aXZzVk1jb2V1emsxeElqaW5pa3F6Wjd2T2tiSGxIWUZ3VGdxbmJTWk1iX2RNWTFtd9IBrwFBVV95cUxNZWtqQjB0RGdXTGRVZmhaN0pJMWFnQTVnLTlRY2tXc09Wd2F6cllNWkJYT190UWVmWkRNak5tLWNyZlJVa1I0T1BVckFQQ0Y4ZkJ3UFZfWk5xME9iXzZyZHVQN2tsY1BmaHBwRzd2OU8xOHpmWFZteUtUajRCZnVQb2FWVWlZV1lad0Ewc3hDVXBYODI5QkdwWklkaG5DRW5WbW9EbzZMdW96ejBtSm13?oc=5",
-          "source": "CNBC",
-          "published": "Wed, 12 Nov 2025 11:02:16 GMT",
-          "topic": "WORLD",
-          "fetched_at": "2025-11-12T12:12:22.443469"
-        },
-        "analysis": {
-          "summary": "The article suggests that UK Prime Minister Keir Starmer is facing significant internal challenges, with condemnation from within his party and potential calls for regime change, reflecting a precarious political position amidst crises like the 'toxic' No. 10 culture.",
-          "key_points": [
-            "Keir Starmer's leadership is under scrutiny from within his own party.",
-            "There are calls for regime change, suggesting a lack of confidence in his ability to lead.",
-            "Wes Streeting's alleged plot to oust Starmer, although denied, adds to the tension within the Labour Party."
-          ],
-          "sentiment": "Negative",
-          "confidence": "High",
-          "bias_check": "The article may reflect a bias towards critical voices within the Labour Party and may not fully represent Starmer's supporters or the complexity of the political dynamics.",
-          "missing_context": "The article doesn't provide Starmer's perspective on the allegations against him, nor does it mention the public's reception to his leadership. It also omits any discussion about the specific crises or issues that are causing the leadership crisis.",
-          "implications": "If the Labour Party's internal strife continues, it could weaken the party's standing in subsequent elections. The potential for regime change within the party might result in a leadership contest that could further divide the party and affect its policies and approach to governance.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-12T12:14:00.268641",
+          "analyzed_at": "2025-11-12T18:11:42.424685",
           "token_usage": {
             "prompt_tokens": 285,
-            "completion_tokens": 292,
-            "total_tokens": 577
+            "completion_tokens": 269,
+            "total_tokens": 554
           }
         }
       },
       {
         "article": {
-          "id": "news_0_1762949542",
-          "title": "Why flight disruptions could linger even after the government shutdown ends - NPR",
-          "description": "Why flight disruptions could linger even after the government shutdown ends\u00a0\u00a0NPRPrivate Aviation Has Boomed During the Government Shutdown\u00a0\u00a0The New York TimesMore than 850 flights canceled in US early Wednesday, tracker says\u00a0\u00a0abcnews.go.comFlight cancellations up to 6% as FAA airport delays linger while shutdown bill advances\u00a0\u00a0NBC News\u2018Not going to get to Thanksgiving': Duffy warns of potential for major flight disruption\u00a0\u00a0NBC 5 Chicago",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOU0pXMVpwQWJRNjlwZmEzZEwxekpPNlFDZXA5YndqRHBoYVVWWDFQbmNUZEV3SERMdVhSM0FMcTdOY09xTzlIdDhXUnFpRkZfdE9UcnNHZlNzMnA2WGtoRzJYWHFhTGo5T3gzcV8tZ3NjUHdKdGZVYzhaNEN4b2FzTkwwYW1FdGhkRTJlQVNobkVyem02cDU4TFd4X3BzNjlHeU1Ec2MxWQ?oc=5",
-          "source": "NPR",
-          "published": "Wed, 12 Nov 2025 01:28:17 GMT",
-          "topic": "BUSINESS",
-          "fetched_at": "2025-11-12T12:12:22.572487"
+          "id": "news_4_1762971013",
+          "title": "Ukraine corruption scandal explained: The $100M plot rocking Zelenskyy - politico.eu",
+          "description": "Ukraine corruption scandal explained: The $100M plot rocking Zelenskyy\u00a0\u00a0politico.euZelenskyy fires ministers accused of involvement in bribery scheme as public outrage grows\u00a0\u00a0The GuardianUkraine energy sector corruption scandal: Justice minister suspended\u00a0\u00a0NBC NewsWhy Do Ukrainians Fight? A $100 Million Graft Case Shows Why\u00a0\u00a0Bloomberg.comUkraine justice, energy ministers submit resignations amid corruption probe\u00a0\u00a0Al Jazeera",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNek15bXBKU3pVQUdHdUZZdS1id21MTmgxQVBxdjZobDY5NEN3eTdMVFZnMThydUhiYkpVem1vSFdhMDYtOUxDVVpHcGh2MUMzU2dzelBGSmFkcTk1RVB1b3BnSFh0dVdoOFdKQW1sWnBIdDU4WVRjcE4wV2hrZkxtdFpzbzMyTHFwQ29ZVnNmTEowZWFVVW9rOERVQ2ZIVXpuT0U1d3hLZ3dNcm5oRGRYby1nLW85OFlWYVNtR3pB?oc=5",
+          "source": "politico.eu",
+          "published": "Wed, 12 Nov 2025 13:40:00 GMT",
+          "topic": "WORLD",
+          "fetched_at": "2025-11-12T18:10:13.628716"
         },
         "analysis": {
-          "summary": "The article discusses the potential for prolonged flight disruptions even after the government shutdown ends, with more than 850 flights already canceled, resulting in airport delays and a possible impact on Thanksgiving travel. The FAA's role in the crisis is highlighted, as well as the broader effects on private aviation and the economy.",
+          "summary": "A $100 million bribery scheme in Ukraine has led to the firing of several ministers, including the Justice and Energy ministers, amid growing public outrage and calls for accountability. This scandal reflects deep-seated corruption and challenges Zelenskyy's administration.",
           "key_points": [
-            "Over 850 flights canceled early Wednesday, with a potential 6% increase in cancellations.",
-            "Airport delays persist despite the FAA's efforts, due to staffing shortages caused by the government shutdown.",
-            "The shutdown's impact on transportation has already affected Thanksgiving travel, and disruptions may continue post-shutdown."
+            "Zelenskyy fires ministers involved in a $100 million bribery scheme.",
+            "Public outrage and demand for justice are increasing.",
+            "The scandal exposes systemic corruption within the Ukrainian government."
           ],
           "sentiment": "Negative",
           "confidence": "High",
-          "bias_check": "The article may present an overly negative view of the situation, focusing on the problems without discussing potential solutions or mitigating actions being taken by the FAA or airlines.",
-          "missing_context": "The article does not provide information on the percentage of the FAA workforce affected, the duration of the shutdown, or historical data on flight disruptions during similar events. It also lacks details on contingency plans by airlines and the government.",
-          "implications": "Prolonged flight disruptions can strain the economy, impact travel plans, and cause logistical challenges for businesses. The situation also underscores the vulnerability of critical infrastructure to government operations.",
+          "bias_check": "Potential bias may stem from the political leaning of the source, as politico.eu and the associated media outlets (The Guardian, NBC News, Bloomberg, Al Jazeera) may have their own political perspectives that could influence the narrative.",
+          "missing_context": "The article does not provide details on how the investigation was initiated, the extent of the alleged corruption, or the specific roles of those implicated. It also lacks information on the steps being taken to reform the government and prevent future corruption.",
+          "implications": "This scandal could undermine public trust in the Ukrainian government, complicate Zelenskyy's efforts to implement reforms, and impact Ukraine's relations with other countries. It highlights the need for stronger anti-corruption measures and transparency within the government.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-12T12:14:08.034650",
+          "analyzed_at": "2025-11-12T18:11:49.642895",
+          "token_usage": {
+            "prompt_tokens": 281,
+            "completion_tokens": 279,
+            "total_tokens": 560
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_0_1762971013",
+          "title": "Flight cancellations appear to improve, but disruptions are not over yet - The Washington Post",
+          "description": "Flight cancellations appear to improve, but disruptions are not over yet\u00a0\u00a0The Washington PostDuffy Won\u2019t Give Timeline to Restore Flights as Shutdown Appears Near End\u00a0\u00a0The New York TimesWhy flight delays will likely persist days after the shutdown ends \u2014 or longer\u00a0\u00a0AxiosFAA keeps flight cancellations at 6% as House is set to vote to end shutdown\u00a0\u00a0NBC News\u2018Not going to get to Thanksgiving': Duffy warns of potential for major flight disruption\u00a0\u00a0NBC 5 Chicago",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNTDN1dnBCUWhjSDNJa01HNmhYM3AxS1VrWXVQUlJha25NTVdwMG9seUhna3JLVmhmN2FFaTIzZkZQeGJUYVBIMmwwZkQyYVdfOUFQZnRfcjhTNGl6TXdLdmxRZi1yVzBKOWZIaElxcEgzaFNYRXVsTnRBRzZYeVlMeUhGYzdMdzJIVkk4WVdTdHJBWXNNNHdoYjJlM1plSWlyaFJ3am1hVQ?oc=5",
+          "source": "The Washington Post",
+          "published": "Wed, 12 Nov 2025 17:16:59 GMT",
+          "topic": "BUSINESS",
+          "fetched_at": "2025-11-12T18:10:13.810947"
+        },
+        "analysis": {
+          "summary": "Despite an improvement in flight cancellations, disruptions due to the government shutdown appear to persist, with concerns about reaching Thanksgiving without significant delays. The FAA's reported 6% cancellation rate contrasts with news of potential major disruptions, indicating a complex and uncertain situation for travelers.",
+          "key_points": [
+            "Flight cancellations have slightly improved but are far from returning to normal.",
+            "The FAA's 6% cancellation rate may not fully capture the extent of disruptions.",
+            "There is no clear timeline for when flights will return to normal operation, causing anxiety among travelers."
+          ],
+          "sentiment": "Mixed",
+          "confidence": "High",
+          "bias_check": "The story may present a bias towards highlighting disruptions and uncertainty, which could reflect an underlying concern about the political situation. Additionally, the sources mentioned might have an inherent bias based on their audience or editorial stance.",
+          "missing_context": "The article does not provide details on which flights are most affected, the number of passengers impacted, or how this compares to previous shutdowns. Information on contingency plans from airlines and government bodies might also be missing.",
+          "implications": "Prolonged flight disruptions can have significant economic and personal impacts, such as missed appointments, work commitments, and travel plans. It also may strain the relationship between the government and the public, as well as between the airlines and their customers.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-12T18:11:57.338443",
+          "token_usage": {
+            "prompt_tokens": 291,
+            "completion_tokens": 291,
+            "total_tokens": 582
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_1_1762971013",
+          "title": "US Mint in Philadelphia to press final penny as the 1-cent coin gets canceled - AP News",
+          "description": "US Mint in Philadelphia to press final penny as the 1-cent coin gets canceled\u00a0\u00a0AP NewsThe last-ever penny will be minted today in Philadelphia\u00a0\u00a0CNNUS Mint in Philadelphia set to press final penny\u00a0\u00a0The HillUS Mint to strike 'final circulating penny' on Wednesday, Nov. 12\u00a0\u00a0USA TodayPenny shortage threatens completion of Provo business\u2019s unique floor project\u00a0\u00a0KSLTV.com",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMzlVZmlPZ2o4OUZUNnNSb2Z3QW5rVHRSWVRKdWl6XzRTU2pzUFBzS1cxR0pQeVNrczh5QjI3Zkotak5NaEFXdjN0Y1JSRWgyUzdtU09jYkwwYXdTUUtZRmtoR2xPUEt5VXctWGxuc0tFZE1RaTlTVzNEUy1JaHlUdzVGbWduX1dJWU9FRFZxck1CNHBNQm5nNzB1dExteEJSWmN0Y1pPS3VVODNi?oc=5",
+          "source": "AP News",
+          "published": "Wed, 12 Nov 2025 16:53:00 GMT",
+          "topic": "BUSINESS",
+          "fetched_at": "2025-11-12T18:10:13.810974"
+        },
+        "analysis": {
+          "summary": "The US Mint will mint the last circulating penny, indicating the end of a longstanding tradition due to the coin's phasing out amid shortages. This decision may have both nostalgic and practical implications for American consumers and businesses.",
+          "key_points": [
+            "The last circulating penny will be minted by the US Mint.",
+            "The penny's cancellation is due to a shortage and cost concerns.",
+            "This marks the end of a century-old tradition of minting pennies in Philadelphia."
+          ],
+          "sentiment": "Mixed",
+          "confidence": "High",
+          "bias_check": "This story may lean towards focusing on the economic and logistical reasons for the penny's cancellation, possibly underplaying cultural or sentimental factors.",
+          "missing_context": "The article does not provide the reasons behind the penny's cancellation, such as specific economic factors or how long the shortage of pennies has been occurring. It also lacks discussion on the potential impact of this change on everyday transactions and the broader economy.",
+          "implications": "The move to discontinue the penny may lead to increased costs for transactions and a shift in how Americans process small amounts of money. It may also spark discussions on the value of the currency and the role of coins in modern society.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-12T18:12:04.122185",
           "token_usage": {
             "prompt_tokens": 279,
-            "completion_tokens": 285,
-            "total_tokens": 564
+            "completion_tokens": 262,
+            "total_tokens": 541
           }
         }
       },
       {
         "article": {
-          "id": "news_1_1762949542",
-          "title": "World oil and gas demand could grow until 2050, IEA says - Reuters",
-          "description": "World oil and gas demand could grow until 2050, IEA says\u00a0\u00a0ReutersThere\u2019s a New Forecast for Peak Oil Demand. It\u2019s Increasingly Cloudy.\u00a0\u00a0The New York TimesWorld Energy Outlook 2025 \u2013 Analysis\u00a0\u00a0IEA \u2013 International Energy AgencySupply boom in cheaper renewables will seal end of fossil fuel era, says IEA\u00a0\u00a0The GuardianIEA Now Says Oil Consumption Could Keep Growing to 2050\u00a0\u00a0Bloomberg.com",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQaTRhRlljbTduRlFLaXhCNzJIZXdyQTlDc0ZkMU52cTUyMzA0VWNvNHc3TTJlM1RIQVN2QmZMa1dBcTB5SG93MHVCaWFwWVJTZU40LTAzNC1zUE5nR1NfZjBzQzBaYU94QjBJVzhsblFsdEVKUndKWDBVMVVjRk1OeGNPMXJLWGF4cnR5S250TkRTUl9VVFN3WmxyLUhqVFk2WWpwWHBpQUtzZ0xtOFB1a3NVcVFKalBuSWVPdTVLc3JUMTVOS3c?oc=5",
-          "source": "Reuters",
-          "published": "Wed, 12 Nov 2025 06:50:00 GMT",
+          "id": "news_2_1762971013",
+          "title": "Atlanta Fed President to Step Down in February - The New York Times",
+          "description": "Atlanta Fed President to Step Down in February\u00a0\u00a0The New York TimesAtlanta Fed President Bostic says he'll leave position when his term expires in February\u00a0\u00a0CNBCAtlanta Fed chair steps down as Trump attacks central bank\u2019s independence\u00a0\u00a0The GuardianAtlanta Fed President Bostic to Retire Ahead of Reappointment Process\u00a0\u00a0The Wall Street JournalBostic announces retirement amid Trump push for more influence over Fed\u00a0\u00a0Reuters",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOc3M2dl9hQWhZX05jYXJTeW4wLXUwNndTamZYdkFuZ3BKZlJHVzNkaGd0YmVxU0VyTmRMU3NFNEx5SHB4QjZHM29KaU1vMTkyLWVyMHlHZVdWeUFLeFlnejBQdmFWYWdYQnB1VmFTZC1HcVk3X3kycHZMYVRYRW5CUDhiZw?oc=5",
+          "source": "The New York Times",
+          "published": "Wed, 12 Nov 2025 15:43:29 GMT",
           "topic": "BUSINESS",
-          "fetched_at": "2025-11-12T12:12:22.572515"
+          "fetched_at": "2025-11-12T18:10:13.810995"
         },
         "analysis": {
-          "summary": "The International Energy Agency (IEA) suggests that oil and gas demand could continue to grow until 2050, despite the rise of cheaper renewable energy sources, indicating a potential delay in the global transition to renewables. This outlook challenges the conventional belief that fossil fuel demand will peak and decline in favor of renewable energy.",
+          "summary": "Atlanta Fed President Raphael Bostic announced his intention to step down in February, amidst President Trump's criticism of the Federal Reserve's independence. The move highlights ongoing tensions between the Trump administration and the Fed over monetary policy decisions and raises questions about the future leadership and direction of the central bank.",
           "key_points": [
-            "IEA predicts sustained growth in oil and gas demand until 2050.",
-            "The forecast indicates a delay in the peak of fossil fuel demand despite renewable energy advancements.",
-            "Renewable energy sources are becoming cheaper, but fossil fuels remain integral to the energy mix."
+            "Raphael Bostic will step down as Atlanta Fed President in February.",
+            "Bostic's departure is amid President Trump's criticism of the Federal Reserve.",
+            "The event underscores the tension between the Trump administration and the Federal Reserve regarding monetary policy."
           ],
           "sentiment": "Mixed",
           "confidence": "High",
-          "bias_check": "The article may carry an inherent bias towards highlighting the challenges in transitioning to renewable energy, possibly overshadowing optimistic developments in the renewable sector.",
-          "missing_context": "The article might be missing detailed insights into the regions or sectors where renewable energy adoption is most rapid, as well as the specific policies or technological innovations that could accelerate the decline in fossil fuel use.",
-          "implications": "This forecast could influence global energy policies, investment decisions, and the pace at which countries commit to reducing carbon emissions and transitioning to a more sustainable energy mix. It also suggests that fossil fuel industries may continue to play a significant role in the global economy for the foreseeable future.",
+          "bias_check": "The article may reflect a bias towards highlighting the political implications over the economic aspects of Bostic's departure. The perspectives of Federal Reserve policy and its implications for the economy might be underemphasized.",
+          "missing_context": "The article does not provide Bostic's reasons for stepping down or the broader context of his tenure. Additionally, it lacks details on how his departure might affect the Fed's current operations and policy direction.",
+          "implications": "Bostic's departure could signal a shift in the Federal Reserve's leadership and approach, especially if new appointments align with President Trump's views. It may also affect investor confidence and market stability, depending on how the transition is managed and communicated.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-12T12:14:15.536390",
+          "analyzed_at": "2025-11-12T18:12:11.663802",
           "token_usage": {
-            "prompt_tokens": 287,
-            "completion_tokens": 293,
-            "total_tokens": 580
+            "prompt_tokens": 273,
+            "completion_tokens": 287,
+            "total_tokens": 560
           }
         }
       },
       {
         "article": {
-          "id": "news_2_1762949542",
-          "title": "Mega Millions Jackpot Nears $1 Billion\u2014Here\u2019s What The Winner Could Take Home After Taxes - Forbes",
-          "description": "Mega Millions Jackpot Nears $1 Billion\u2014Here\u2019s What The Winner Could Take Home After Taxes\u00a0\u00a0ForbesMega Millions jackpot nears $1 billion after there were no big winners in Tuesday\u2019s drawing\u00a0\u00a0CNNWinning Mega Millions numbers for the $900 million jackpot on Nov. 11, 2025: See all the prizes hit in Ohio\u00a0\u00a0WKYCMega Millions winning numbers, results for Tuesday, November 11, 2025: No jackpot winner\u00a0\u00a0Detroit Free PressThe Mega Millions jackpot nears $1 billion. Here are the 5 biggest wins ever\u00a0\u00a0qz.com",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOQm1fUGwteGV6VWROOU9POWJvem1yU3hpSFE2YzVwNnFITWM4cXhjS1JibHpyN0NwbWg5UXFCS3lidzd2My1DeFpIcGtLLVVEMWNxamhzMXRyV0hwdHgxT3JfZXEzOGI2VDBhemhhRWJRNUhzTTVISXNyQW1XSktvdktXTWZudVBya1JadGZZc2JVMXBRV0pVWTltR3M4eElCak15cVpWeEktWnMzLUJlWFRVeXlVVXZTc1JUVkpJRXJwa0k0enREcFpSVUdzQXZwcllrcEJUOFI?oc=5",
-          "source": "Forbes",
-          "published": "Wed, 12 Nov 2025 05:50:39 GMT",
-          "topic": "BUSINESS",
-          "fetched_at": "2025-11-12T12:12:22.572537"
-        },
-        "analysis": {
-          "summary": "The Mega Millions jackpot is approaching $1 billion, sparking excitement and interest, while also highlighting the significant tax implications for the winner. Despite the colossal prize, no one claimed the $900 million jackpot in the latest drawing, leaving the jackpot to grow even larger.",
-          "key_points": [
-            "The Mega Millions jackpot is nearing $1 billion, setting a new record.",
-            "The $900 million jackpot from the previous drawing remains unclaimed, increasing the next jackpot.",
-            "Winning the Mega Millions jackpot comes with substantial tax implications, significantly reducing the take-home amount."
-          ],
-          "sentiment": "Mixed",
-          "confidence": "High",
-          "bias_check": "The story may emphasize the record-breaking nature of the jackpot without equally discussing the frequency of unclaimed prizes and the rare nature of such massive winnings.",
-          "missing_context": "Details on the likelihood of winning the Mega Millions jackpot, the odds, and comparisons to previous jackpots. Information on the economic and personal impact on winners would also be beneficial.",
-          "implications": "The increasing jackpot size may attract more participation, potentially leading to a higher number of unclaimed prizes. The story also underscores the significant tax burden on lottery winners, which can be a deterrent for some. It reflects on the broader phenomenon of luck and wealth in society, as well as the role of lotteries in entertainment and revenue generation.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-12T12:14:23.476393",
-          "token_usage": {
-            "prompt_tokens": 319,
-            "completion_tokens": 293,
-            "total_tokens": 612
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_3_1762949542",
-          "title": "Google sues cybercriminal group behind E-ZPass, USPS text phishing scams - CNBC",
-          "description": "Google sues cybercriminal group behind E-ZPass, USPS text phishing scams\u00a0\u00a0CNBCGoogle launches a lawsuit targeting text message scammers\u00a0\u00a0NPRThis Is the Platform Google Claims Is Behind a \u2018Staggering\u2019 Scam Text Operation\u00a0\u00a0WIREDGoogle lawsuit accuses China-based cybercriminals of massive text-message phishing scams\u00a0\u00a0CBS NewsGoogle is trying to take down a group sending you all those spammy texts\u00a0\u00a0The Verge",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPOUZkWnNKeW9TU21MV2swbjZ4SVh0bzRVaDJJWHEta2lYM3hhTnQtVDJGZXFiNXZUX01wZk1GS0F6QnVQT09VUkpYY2FZdFpWUnZudWFOcFJya3dROV9ZWDNEbXFfVWtPbng0WVJfbnJCTWpFaUxpUVZpUnAxV3NiamNMSnI5ZXPSAYwBQVVfeXFMUE1ZXzdtUmkwNV9WMG1uN29ubXdqRWo1VWZScDRSdG1ZMXg2d1NSVS05aW93X1pnczcxQlU3RnNyUmh2aGpNZVdYaTg5b1BFMlZ2a3kxenVjTG9OVHdRNHRTR2pvd1pFUzFnUmJXdmJWcm8xdTF2bE4xX3V6WEJ3UnpmaC1JNzBSZGl6NmI?oc=5",
+          "id": "news_3_1762971013",
+          "title": "Toyota opens new U.S. battery plant, confirms $10 billion in new investments - CNBC",
+          "description": "Toyota opens new U.S. battery plant, confirms $10 billion in new investments\u00a0\u00a0CNBCRoundup: Mortgage demand / Government shutdown / $10B Toyota investment\u00a0\u00a0Baton Rouge Business ReportToyota to invest additional $10 billion in U.S. on \u2018future mobility efforts\u2019\u00a0\u00a0Automotive NewsToyota opens massive North Carolina EV battery factory\u00a0\u00a0AxiosToyota's $13.9 billion battery plant opens in North Carolina\u00a0\u00a0The Detroit News",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE42TEQ4NG1MNFhrMEdQUUZLMlJENmVLVHJaSk1rX0U5cDRsc1ZHTTlZX0tJVUdVZmIwT3duTFBhb05pcVVqOTlaWWpxby1Jd2IzeG8zb3I4SVNhOXhnZktVTmxjVU5ZZ0toMUVoVkJIVlhTajdzb2FvbzZvVDXSAYIBQVVfeXFMUG5TRGduMjFqelRBRVNtTTFqQm53X0VLQmliU0dVU193dTlfWFd6QjdsUGQ1Zk5Bekc4RmlBYVdMUXE3NGlRdm5fek9kV2xlcWNHVkxKRnRfS3BETVdYcGhmcTFTWEsyVUJCb1hLOW1tcWw4ZjhlRXBWVEVTQXRWWnl6QQ?oc=5",
           "source": "CNBC",
-          "published": "Wed, 12 Nov 2025 10:00:02 GMT",
+          "published": "Wed, 12 Nov 2025 16:10:47 GMT",
           "topic": "BUSINESS",
-          "fetched_at": "2025-11-12T12:12:22.572557"
+          "fetched_at": "2025-11-12T18:10:13.811016"
         },
         "analysis": {
-          "summary": "Google has filed a lawsuit against a cybercriminal group implicated in E-ZPass and USPS text phishing schemes, aiming to curb the widespread use of spammy texts from China-based hackers, reflecting the tech giant's commitment to combating malicious activity and protecting users.",
+          "summary": "Toyota's announcement of a $10 billion investment in a new U.S. battery plant in North Carolina signifies a major commitment to the electric vehicle (EV) industry, potentially influencing the U.S. economy, the automotive sector, and the future of mobility.",
           "key_points": [
-            "Google is taking legal action against a cybercrime group involved in phishing scams related to E-ZPass and USPS.",
-            "The lawsuit targets a China-based cybercriminal group accused of orchestrating a large-scale text-message phishing operation.",
-            "This move by Google signifies its proactive stance on cybersecurity and the fight against spam and phishing."
+            "Toyota's $10 billion investment in a new U.S. battery plant could significantly bolster the domestic EV industry.",
+            "The investment reflects growing global trends towards electrification and sustainable transportation.",
+            "This move may stimulate job creation and technological advancements in the U.S. automotive sector."
           ],
           "sentiment": "Positive",
           "confidence": "High",
-          "bias_check": "Potential biases include the framing of the cybercriminal group as predominantly China-based, which might not fully capture the global nature of cybercrime. Additionally, the story may lean towards portraying Google's actions as entirely benevolent without fully discussing potential limitations or controversies in legal actions against cyber criminals.",
-          "missing_context": "The article does not provide details on the effectiveness of this legal action in the long term, nor does it discuss the broader cybersecurity landscape. It also lacks information on how other companies are dealing with similar issues or what measures Google is taking beyond the lawsuit.",
-          "implications": "The lawsuit demonstrates Google's commitment to user protection and cybersecurity. It could potentially deter similar criminal activities by signaling that such actions will face legal consequences. However, it also raises questions about the effectiveness of legal actions against cybercrime and the evolving tactics of cybercriminals.",
+          "bias_check": "The article may emphasize Toyota's positive contributions to the U.S. economy and industry while not fully addressing potential challenges, such as the environmental impact of increased vehicle production or competitive responses from other car manufacturers.",
+          "missing_context": "The article does not mention the state of competition in the U.S. EV market, nor does it discuss the technological challenges of battery production. It also omits any comparison with Toyota's global strategy and efforts.",
+          "implications": "Toyota's investment in the U.S. could lead to increased production capacity for EVs, potentially accelerating the shift away from internal combustion engines. It may also encourage other automakers to invest in the U.S., leading to growth in the EV industry and related sectors.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-12T12:14:31.754325",
+          "analyzed_at": "2025-11-12T18:12:19.703513",
           "token_usage": {
-            "prompt_tokens": 281,
-            "completion_tokens": 327,
-            "total_tokens": 608
+            "prompt_tokens": 285,
+            "completion_tokens": 297,
+            "total_tokens": 582
           }
         }
       },
       {
         "article": {
-          "id": "news_4_1762949542",
-          "title": "Markets News, Nov. 11, 2025: Dow Jumps More Than 500 Points to Record Close; S&P 500 Ticks Higher, Nasdaq Slips as Tech Stocks Retreat - Investopedia",
-          "description": "Markets News, Nov. 11, 2025: Dow Jumps More Than 500 Points to Record Close; S&P 500 Ticks Higher, Nasdaq Slips as Tech Stocks Retreat\u00a0\u00a0InvestopediaStock market today: Dow jumps over 500 points to record close, Nvidia's slide drags on Nasdaq\u00a0\u00a0Yahoo FinanceUS Stocks Extend Rally Despite Mega-Cap Tech Underperformance\u00a0\u00a0Bloomberg.comDow\u2019s banner day points to investor pivot beyond S&P 500\u2019s top winners\u00a0\u00a0MarketWatchStock Market News, Nov. 11, 2025: Dow Jumps, Nasdaq Slips; ADP Data Points to Softer ",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBVUTVtSFM1SUJfV2k3aXhURjlOVmZlMi1TOEZTZU8tRlRsSFNlZWg5azhXckI1Y1NpNEI3ZVR5N3Ayd1JsaWNDLXI2SkxhczNPUlFFR19hSnAzRUdtWnEwLVhUSFNCRDJicjl5TVVtTQ?oc=5",
-          "source": "Investopedia",
-          "published": "Tue, 11 Nov 2025 22:13:43 GMT",
+          "id": "news_4_1762971013",
+          "title": "This Is the Platform Google Claims Is Behind a \u2018Staggering\u2019 Scam Text Operation - WIRED",
+          "description": "This Is the Platform Google Claims Is Behind a \u2018Staggering\u2019 Scam Text Operation\u00a0\u00a0WIREDGoogle sues cybercriminal group behind E-ZPass, USPS text phishing scams\u00a0\u00a0CNBCGoogle sues cybercriminals behind E-ZPass, USPS text scams\u00a0\u00a0The HillGoogle targets China-based scam operators sending Americans' toll fraud texts\u00a0\u00a0AxiosGoogle launches a lawsuit targeting text message scammers\u00a0\u00a0NPR",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9Cdjl3Y1BLbHhZb0pBbW8zU2NwNHAzZ3dvbFByV3FDOW5ReUtRQ01oM294ZEo1UjlKY0haYlJWb2l3MU9UckpWNFRFbmc4cVRNLWdnZTV4aVlRYkJ4VVF3d0JrLWJ6UHlNU0w2S2k2RjBNbG9WSDg4dS1zWGdGQQ?oc=5",
+          "source": "WIRED",
+          "published": "Wed, 12 Nov 2025 10:00:00 GMT",
           "topic": "BUSINESS",
-          "fetched_at": "2025-11-12T12:12:22.572588"
+          "fetched_at": "2025-11-12T18:10:13.811035"
         },
         "analysis": {
-          "summary": "On November 11, 2025, the Dow Jones Industrial Average surged over 500 points to a record close, while the S&P 500 and Nasdaq Composite showed modest gains, indicating investor optimism despite significant underperformance in mega-cap tech stocks, particularly Nvidia's slide. The ADP Employment Data suggested a softer job market, which could temper the enthusiasm.",
+          "summary": "Google has filed a lawsuit against a cybercriminal group, claiming they are responsible for a large-scale text scam operation involving E-ZPass and USPS phishing. The company alleges that these scammers, based in China, have been sending fraudulent texts to Americans, leading to significant financial losses and compromised personal information.",
           "key_points": [
-            "Dow Jones surged over 500 points to a record close.",
-            "S&P 500 and Nasdaq showed modest gains despite Nvidia's significant slide.",
-            "ADP Employment Data suggested a softer job market."
+            "Google's lawsuit targets a China-based cybercriminal group.",
+            "The scam involves E-ZPass and USPS text phishing.",
+            "Americans were the primary victims of these fraudulent texts.",
+            "Google aims to protect its users and hold the perpetrators accountable.",
+            "The case highlights increasing concerns over international cybercrime."
           ],
           "sentiment": "Mixed",
           "confidence": "High",
-          "bias_check": "The potential bias might stem from emphasizing market reactions to Nvidia's underperformance without considering broader economic indicators or sector-specific factors. The source, Investopedia, may also present the information with a slight bias towards long-term market trends rather than immediate reactions.",
-          "missing_context": "The analysis lacks context on the reasons behind Nvidia's slide and how it compares to other tech stocks. Additionally, there is no mention of the specific sectors within the S&P 500 that performed well or poorly, which could provide more nuanced insights. The impact of other major economic events or policy changes during this period is also missing.",
-          "implications": "The broader implications of this story suggest a shift in investor focus from mega-cap tech stocks to potentially other sectors, indicating a possible realignment of market sentiment. The softer ADP Employment Data could also signal caution among investors, as a weaker job market might affect consumer spending and economic growth. This could lead to a reassessment of risk and investment strategies across the financial markets.",
+          "bias_check": "The article may lean towards portraying Google as a victim, potentially underplaying the complexity of cybercrime and the challenges in combating international cyber threats.",
+          "missing_context": "The effectiveness of current international laws and cooperation in fighting cybercrime, the scale of the broader cyber threat landscape, and the specific responses from governmental and law enforcement agencies.",
+          "implications": "This story underscores the growing threat of international cybercrime and the challenges faced by companies in protecting their users. It also illustrates the importance of legal recourse and international cooperation in addressing these threats. The case may lead to increased scrutiny of cybercriminal activities and possibly stricter regulations and policies to combat phishing scams.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-12T12:14:40.865927",
+          "analyzed_at": "2025-11-12T18:12:27.595297",
           "token_usage": {
-            "prompt_tokens": 349,
-            "completion_tokens": 357,
-            "total_tokens": 706
+            "prompt_tokens": 280,
+            "completion_tokens": 299,
+            "total_tokens": 579
           }
         }
       }
@@ -510,19 +514,19 @@
     "articles_analyzed": 15
   },
   "costs": {
-    "execution_time": 122.98211741447449,
-    "execution_minutes": 2.0497019569079082,
-    "github_actions": 0.016397615655263265,
+    "execution_time": 117.36045694351196,
+    "execution_minutes": 1.9560076157251993,
+    "github_actions": 0.015648060925801593,
     "openai": {
-      "input": 0.00066225,
-      "output": 0.0026574,
-      "total": 0.00331965
+      "input": 0.00065115,
+      "output": 0.0026093999999999996,
+      "total": 0.0032605499999999996
     },
-    "total": 0.019717265655263265,
+    "total": 0.018908610925801594,
     "token_usage": {
-      "prompt_tokens": 4415,
-      "completion_tokens": 4429,
-      "total_tokens": 8844
+      "prompt_tokens": 4341,
+      "completion_tokens": 4349,
+      "total_tokens": 8690
     }
   }
 }
