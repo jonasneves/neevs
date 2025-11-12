@@ -1,12 +1,12 @@
 {
   "agent": "agent-a-reddit-fetcher",
-  "timestamp": "2025-11-11T12:02:49.614964",
+  "timestamp": "2025-11-12T12:02:49.519233",
   "status": "completed",
   "data": {
     "posts": [],
     "count": 0,
     "subreddit": "duke",
-    "fetch_date": "2025-11-11",
+    "fetch_date": "2025-11-12",
     "time_window": "7 days"
   },
   "metadata": {
@@ -14,15 +14,15 @@
     "subreddit": "r/duke"
   },
   "costs": {
-    "execution_time": 0.04979348182678223,
-    "execution_minutes": 0.0008298913637797038,
-    "github_actions": 6.63913091023763e-06,
+    "execution_time": 0.12697863578796387,
+    "execution_minutes": 0.0021163105964660646,
+    "github_actions": 1.6930484771728516e-05,
     "openai": {
       "input": 0,
       "output": 0,
       "total": 0
     },
-    "total": 6.63913091023763e-06,
+    "total": 1.6930484771728516e-05,
     "token_usage": {}
   }
 }
