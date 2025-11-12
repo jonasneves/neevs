@@ -2,504 +2,503 @@
   "agent": "phi-analyzer",
   "model": "Phi-4 Mini",
   "model_id": "microsoft/phi-4-mini-instruct",
-  "timestamp": "2025-11-12T00:31:48.907266",
+  "timestamp": "2025-11-12T06:13:16.217111",
   "status": "completed",
   "data": {
     "analyses": [
       {
         "article": {
-          "id": "news_0_1762907374",
-          "title": "Apple is now selling a $150 sling for your iPhone made by the same designer who created Steve Jobs' iconic black turtleneck - Fortune",
-          "description": "Apple is now selling a $150 sling for your iPhone made by the same designer who created Steve Jobs' iconic black turtleneck\u00a0\u00a0FortuneIntroducing iPhone Pocket: a beautiful way to wear and carry iPhone\u00a0\u00a0AppleApple made a $230 crossbody\u2026 sock\u00a0\u00a0The VergeApple unveils $229 iPhone Pocket described as 'a piece of cloth'\u00a0\u00a0Interesting EngineeringApple and Issey Miyake Unite for the iPhone Pocket\u2014\u201cIt\u2019s a Moment of Connecting the Dots\u201d\u00a0\u00a0Vogue",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQVFNjR3NqZnEzY1ZRbmFFX3ByN0VfTGtlTGdsZkpaV1NFOXJtNHZJY3VlNWJtcFlyc0pzSXVmTjVta0pTaE9zYjQ5QU1uYlQ4Uk0tZmFLUTV0aGxqZThhWHZQczlxbnp3ekR2dWNXS1h5UW80RUE3elhaY19YZ09jZUcyYTVueU9uTmt2S3lFcUFxZHppUmdoN055cWdkNENC?oc=5",
-          "source": "Fortune",
-          "published": "Tue, 11 Nov 2025 17:32:35 GMT",
+          "id": "news_0_1762927858",
+          "title": "Google says new cloud-based \u201cPrivate AI Compute\u201d is just as secure as local processing - Ars Technica",
+          "description": "Google says new cloud-based \u201cPrivate AI Compute\u201d is just as secure as local processing\u00a0\u00a0Ars TechnicaPrivate AI Compute: our next step in building private and helpful AI\u00a0\u00a0blog.googleGoogle is introducing its own version of Apple\u2019s private AI cloud compute\u00a0\u00a0The VergeGoogle makes Pixel 10 Magic Cue \u2018more timely\u2019 with cloud-based \u2018Private AI Compute\u2019\u00a0\u00a09to5GoogleGoogle\u2019s latest AI move shows Apple is on the right track, at least in one way\u00a0\u00a09to5Mac",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNX0dzNVE5SGRzSXd5Tk14ZWZJTmMyMDdaUzdEMkFzS1Zuc2E0bFpVSFk3eXpQODlxWGJGVTBISkdtempvcUlfUVJVZEk4RWtNVkRtZWhRMWp3N2RwZV9QR1pDWmYyMGpZY3pTbFZfcVZTY3UtTjlQNFBHUFRseHM1dXRTNjhsUXk5dms5bEl4QXpSUHpwYzE0RjN6eENfMTJEejEzSHJWR29JY3g4ZFphV1Ywb1B2cVY4Z0VhMUJvRlNwQQ?oc=5",
+          "source": "Ars Technica",
+          "published": "Tue, 11 Nov 2025 21:34:10 GMT",
           "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-12T00:29:34.673275"
+          "fetched_at": "2025-11-12T06:10:58.263451"
         },
         "analysis": {
-          "summary": "The article highlights Apple's launch of a $150 iPhone Pocket sling designed by Issey Miyake, the same designer who created Steve Jobs' famous black turtleneck. This new accessory aims to provide a stylish and practical way for iPhone users to carry their devices.",
+          "summary": "Google's announcement of its new cloud-based 'Private AI Compute' aims to provide secure and private AI processing similar to local computing, responding to increasing concerns over data privacy in the AI space, while also drawing comparisons to Apple's private AI cloud services.",
           "key_points": [
-            "Apple collaborated with Issey Miyake to create the iPhone Pocket, a $150 accessory.",
-            "The iPhone Pocket is designed to offer a stylish way to carry an iPhone.",
-            "The accessory is inspired by Steve Jobs' iconic black turtleneck, designed by Miyake."
+            "Google introduces a cloud-based 'Private AI Compute' to enhance data privacy and security.",
+            "The initiative is part of a broader trend of tech companies prioritizing private, secure AI solutions.",
+            "Comparisons are made to Apple's private AI services, suggesting a competitive and innovative AI market."
           ],
-          "sentiment": "Positive",
+          "sentiment": "Mixed",
           "confidence": "High",
-          "bias_check": "The article might be biased towards presenting Apple as innovative and stylish, potentially overlooking the actual utility and market demand for the product.",
-          "missing_context": "The article does not mention the availability of the iPhone Pocket in different markets or its competitive alternatives, which could impact consumer perception.",
-          "implications": "This collaboration could enhance Apple's brand image by associating it with a renowned designer and creating a new product line. However, the actual impact will depend on consumer response and the accessory's practicality.",
+          "bias_check": "The article may exhibit a bias towards promoting Google's innovation; comparisons to Apple could unduly elevate Google's services or implicitly criticize Apple's offerings.",
+          "missing_context": "The specifics of Google's 'Private AI Compute' technology, such as technical details and how it compares in terms of performance, cost, and accessibility to Apple's services, are not provided.",
+          "implications": "The move by Google reflects a growing industry focus on data privacy and security within AI, potentially influencing other tech companies to develop similar services. It also indicates a competitive landscape where companies strive to outdo each other in privacy and security, possibly leading to better products for consumers.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-12T00:29:55.524431",
+          "analyzed_at": "2025-11-12T06:11:21.544225",
           "token_usage": {
-            "prompt_tokens": 312,
-            "completion_tokens": 257,
-            "total_tokens": 569
+            "prompt_tokens": 303,
+            "completion_tokens": 278,
+            "total_tokens": 581
           }
         }
       },
       {
         "article": {
-          "id": "news_1_1762907374",
-          "title": "Google Pixel update adds battery-saving maps mode, AI photo remixing, and smarter notifications - TechCrunch",
-          "description": "Google Pixel update adds battery-saving maps mode, AI photo remixing, and smarter notifications\u00a0\u00a0TechCrunchNovember Pixel Drop: 'Wicked: For Good' theme packs, Remix photos in Messages and more\u00a0\u00a0blog.googleGoogle Rolls Out Apple-Like Message Summaries for Pixel Phones\u00a0\u00a0Bloomberg.comJournal app and Device health & support dashboard drop Pixel 10 exclusivity, more\u00a0\u00a09to5GooglePixel phones are getting notification summaries\u00a0\u00a0The Verge",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNOHNVeHNSaW9mTGJOUFJDUkZkQTYzZGRVYUk4UmFQZ3pILVVZbFlZWVkzWUVyNlJsejRURTloekdoY3BRRXdKTEJNck11NzRhYUNQS3FwcnhUQ2NEYi1Xc0IxRXFIdmtCNTBUZWk5YjJtMER1ekJEbU5OZm1kOTcxbzdEaUdCbERtd1RvYjMyYjhRYkhVLU5xbGlyTzE1S3JpODRIekJlblctVjdtdlRlNUZyNHprYmFWbGVmZC1fUWU5TG5uRFE0?oc=5",
-          "source": "TechCrunch",
-          "published": "Tue, 11 Nov 2025 19:00:00 GMT",
+          "id": "news_1_1762927858",
+          "title": "Apple Confounds Some Fans With $230 Knit iPhone Crossbody Carrier - Forbes",
+          "description": "Apple Confounds Some Fans With $230 Knit iPhone Crossbody Carrier\u00a0\u00a0ForbesIntroducing iPhone Pocket: a beautiful way to wear and carry iPhone\u00a0\u00a0AppleApple is now selling a $150 sling for your iPhone made by the same designer who created Steve Jobs' iconic black turtleneck\u00a0\u00a0FortuneApple made a $230 crossbody\u2026 sock\u00a0\u00a0The VergeApple and Issey Miyake Unite for the iPhone Pocket\u2014\u201cIt\u2019s a Moment of Connecting the Dots\u201d\u00a0\u00a0Vogue",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNQ1VpdV8xbnpGRnZCZm5jS0p0Tjd0Ymx1cDJ3NWljd2NMVGdCZ3JUQWxTNWEwYkpydWRFU242bGs2S3p3MGVuV283dWYyNUJ2cldnWlg4WFlHOTRkbXlVNndZMmQ4ZFBVUnZ1SjhSdnJVWHpVc0lDa0otdi02d0FzUmlYN3NRWTFNSE5SZl90NDcySktjVjFPSTh0MF9pcFVpZEU0LTYwNjZwUnI5YTQwZnpfUHpRLXY4WnplUlhHSkx0MDBHbWhqaFo1LTdmUlllSlN5clJMVENuNEM1MkE?oc=5",
+          "source": "Forbes",
+          "published": "Tue, 11 Nov 2025 20:06:07 GMT",
           "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-12T00:29:34.673317"
+          "fetched_at": "2025-11-12T06:10:58.263480"
         },
         "analysis": {
-          "summary": "The Google Pixel update introduces a battery-saving maps mode, AI photo remixing in Messages, and smarter notifications, which are significant enhancements aimed at improving user experience and device efficiency.",
+          "summary": "Forbes reports Apple has launched a $230 knit crossbody carrier for the iPhone, designed by the same company that made Steve Jobs' black turtleneck. The product, named iPhone Pocket, aims to connect the dots between Apple and Issey Miyake's design philosophies, creating a unique and expensive accessory for the tech-savvy consumer.",
           "key_points": [
-            "Introduction of a battery-saving mode for maps on Pixel phones.",
-            "AI-powered photo remixing feature added to Messages app.",
-            "New smarter notifications system, similar to Apple's approach."
+            "Apple has introduced a $230 knit crossbody carrier for the iPhone, designed by the same company that made Steve Jobs' iconic turtleneck.",
+            "The iPhone Pocket, priced at $230, represents a collaboration between Apple and Issey Miyake.",
+            "The product targets a niche market of Apple fans looking for unique, designer accessories."
           ],
-          "sentiment": "Positive",
-          "confidence": "High",
-          "bias_check": "The article may present a positive view of Google's updates, potentially overlooking any initial issues or bugs that users might encounter with the new features.",
-          "missing_context": "The article does not provide information on user reactions or any reported technical difficulties following the update. Additionally, it does not compare these features to those of competitors, except for a brief mention of Apple's similar feature.",
-          "implications": "The update could enhance user engagement and retention for Google Pixel users due to improved functionality and convenience. It may also prompt competitors to accelerate their development of similar features to stay competitive.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-12T00:30:02.126064",
-          "token_usage": {
-            "prompt_tokens": 289,
-            "completion_tokens": 230,
-            "total_tokens": 519
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_2_1762907374",
-          "title": "Google Photos lets iPhone users edit images by describing changes - The Verge",
-          "description": "Google Photos lets iPhone users edit images by describing changes\u00a0\u00a0The Verge6 new things you can do with AI in Google Photos\u00a0\u00a0blog.googleYour Google Photos just got 3 huge Nano Banana image editing upgrades - for free\u00a0\u00a0ZDNETGoogle Photos adds new AI features for editing, expands AI-powered search to over 100 countries\u00a0\u00a0TechCrunchGoogle announces even more AI in Photos app, powered by Nano Banana\u00a0\u00a0Ars Technica",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBpMEdCbkxEWThmUXluTGxsd2l0eDlsTHlWdklJTjFjTnhsT1E3NDZCckJXM2FlYUpSaW45X291aGloV3pqNkdlMEl4UnV1c1hPbm1sNHk2QUxSYml0VEw2elZIbUVpeWliVVlITzZJY1JWLU55UkJ0ckluRFRpa1E?oc=5",
-          "source": "The Verge",
-          "published": "Tue, 11 Nov 2025 17:00:00 GMT",
-          "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-12T00:29:34.673352"
-        },
-        "analysis": {
-          "summary": "Google Photos introduces AI-powered image editing features, allowing iPhone users to describe changes they want to make, like removing backgrounds or adjusting lighting, for free. This integration of AI aims to simplify photo editing and enhance user experience by leveraging Google's advancements in AI technology.",
-          "key_points": [
-            "Google Photos now includes AI-powered editing features that can be activated by describing desired changes.",
-            "This update is a free addition to Google Photos, showcasing Google's commitment to integrating AI into its services.",
-            "The feature is accessible to iPhone users, potentially expanding Google's user base and reinforcing its position as a leader in AI and photo editing tools."
-          ],
-          "sentiment": "positive",
+          "sentiment": "mixed",
           "confidence": "high",
-          "bias_check": "The article may present an overly optimistic view of the feature without discussing potential limitations or user experience issues. There's also an implicit assumption that users will find the AI's editing capabilities accurate and useful.",
-          "missing_context": "The article doesn't provide information on the specific capabilities of the editing AI, such as limits to its editing abilities or the quality of results. It also doesn't mention user feedback or any reported issues with the new features.",
-          "implications": "The integration of AI into Google Photos could lead to a shift in the photo editing landscape, with more users opting for AI-powered tools over traditional manual editing software. This could also drive competition among tech companies to develop or acquire similar AI technologies. However, there may be privacy implications with AI analyzing user photos, and the reliability of AI editing might concern some users.",
+          "bias_check": "The article might be biased towards Apple enthusiasts, highlighting the collaboration as a 'moment of connecting the dots' without critically evaluating the product's practicality or necessity.",
+          "missing_context": "The article does not provide information on how the $230 price point compares to typical accessory costs, nor does it discuss the practicality and utility of using a knit material for carrying an iPhone.",
+          "implications": "This collaboration between Apple and Issey Miyake might indicate a trend towards luxury and high-end accessories for tech products, potentially influencing other companies to create similarly niche products. It may also raise questions about consumer spending on non-essential accessories.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-12T00:30:10.977423",
+          "analyzed_at": "2025-11-12T06:11:29.766335",
           "token_usage": {
-            "prompt_tokens": 280,
-            "completion_tokens": 328,
+            "prompt_tokens": 297,
+            "completion_tokens": 311,
             "total_tokens": 608
           }
         }
       },
       {
         "article": {
-          "id": "news_3_1762907374",
-          "title": "Google makes Pixel 10 Magic Cue \u2018more timely\u2019 with cloud-based \u2018Private AI Compute\u2019 - 9to5Google",
-          "description": "Google makes Pixel 10 Magic Cue \u2018more timely\u2019 with cloud-based \u2018Private AI Compute\u2019\u00a0\u00a09to5GooglePrivate AI Compute: our next step in building private and helpful AI\u00a0\u00a0blog.googleGoogle is introducing its own version of Apple\u2019s private AI cloud compute\u00a0\u00a0The VergeGoogle says new cloud-based \u201cPrivate AI Compute\u201d is just as secure as local processing\u00a0\u00a0Ars TechnicaGoogle\u2019s latest AI move shows Apple is on the right track, at least in one way\u00a0\u00a09to5Mac",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBCekpjMFl0WU9CUU1QaEdWbFdmZHRfZFFJY1NfeUF4WEFzRHZIMzFHRTdCbHdTaVFpZ0FLV0NQdHJxbElDYjZpY2dub2VDWkpONFdDQTRoRjdWN1FDajcyOXhRRmEzcmdHMC1xS3UtWXN2V2xX?oc=5",
-          "source": "9to5Google",
-          "published": "Tue, 11 Nov 2025 19:01:00 GMT",
+          "id": "news_2_1762927858",
+          "title": "Sony made an official 240Hz PlayStation monitor with a built-in DualSense charging hook - Engadget",
+          "description": "Sony made an official 240Hz PlayStation monitor with a built-in DualSense charging hook\u00a0\u00a0EngadgetFirst look at PlayStation\u2019s 27\u201d Gaming Monitor\u00a0\u00a0PlayStation.BlogSony Announces 27-inch PlayStation Monitor, With VRR Support And DualSense Charging Hook\u00a0\u00a0IGNSony Unveils 27-Inch, 240Hz PlayStation Monitor That Charges Your PS5 Controller\u00a0\u00a0CNETSony is releasing a PlayStation Gaming Monitor, but it's only available in the US and Japan\u00a0\u00a0Eurogamer",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQUTJXX1EyQ1NnUm41ZVByRVZXQ2R0eENzTXpDR1BxNmNqTzBsMGQzbnNnRVJxQ0JlWmpvWS03dW1WNkVHZGk3X1RJd2o1Z3J4LVVSSWZKNjBERDl4OHhkaWdNbXhvYXAwUE9UNW0wUVViUVczOHhJeFRfYjE0M0hWYjRJWERkR0NVSURXaHpIb19zMTBfUFhFUkJHZm9PNGRwYVh0bDBlWUItQncweFZMNTNhQ2doZUJJT2h2NzZ6enNzRzNXYnFUTHdyRUpIQ0lXNTRTOTJPUVZxT25iMWY0?oc=5",
+          "source": "Engadget",
+          "published": "Tue, 11 Nov 2025 23:06:59 GMT",
           "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-12T00:29:34.673400"
+          "fetched_at": "2025-11-12T06:10:58.263502"
         },
         "analysis": {
-          "summary": "Google's Pixel 10 Magic Cue now offers improved timeliness through its new cloud-based 'Private AI Compute,' aiming to compete with Apple's approach to private AI solutions, according to tech outlets.",
+          "summary": "Sony is set to release a 240Hz PlayStation monitor with a DualSense charging hook, enhancing the gaming experience with higher refresh rates and convenience for PS5 controllers, but it's currently exclusive to the US and Japan.",
           "key_points": [
-            "Google introduces Private AI Compute, aiming to enhance the Pixel 10's Magic Cue with better timeliness.",
-            "The move positions Google as a competitor to Apple's private AI cloud computing, as reported by various tech blogs.",
-            "Google assures that the new cloud-based AI compute is as secure as local processing, addressing privacy concerns."
-          ],
-          "sentiment": "mixed",
-          "confidence": "high",
-          "bias_check": "The article is sourced from tech blogs that may have a favorable view towards Google or Apple, potentially introducing bias in the presentation of Google's new feature. The perspective of Apple users or competitors might be underrepresented.",
-          "missing_context": "The article doesn't mention how Google compares to other competitors like Microsoft or Amazon in terms of AI compute capabilities. Additionally, it does not discuss the potential financial implications for Google or the impact on the broader AI ecosystem.",
-          "implications": "This move by Google could intensify the competition in the AI cloud computing space, potentially leading to faster innovation but also increasing market fragmentation. It highlights the ongoing race between tech giants to lead in privacy-centric AI services.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-12T00:30:18.609046",
-          "token_usage": {
-            "prompt_tokens": 309,
-            "completion_tokens": 285,
-            "total_tokens": 594
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_4_1762907374",
-          "title": "Report: iPhone Air 2 is delayed until 2027 so Apple can add a second camera to it - 9to5Mac",
-          "description": "Report: iPhone Air 2 is delayed until 2027 so Apple can add a second camera to it\u00a0\u00a09to5MacApple Delays Release of Next iPhone Air Amid Weak Sales\u00a0\u00a0The InformationThe next iPhone Air has reportedly been delayed\u00a0\u00a0The VergeWeak sales delay next iPhone Air model, report claims\u00a0\u00a0MashableApple delays next version of iPhone Air, the Information reports\u00a0\u00a0Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1jR3dERTBaNUFGY3hLQzNzcllEam1fSUdLbnFYMHhuOU93ZUlua3RNa3NvaXVETFFqdWlhUkhXX0c0Rmh0UUtiS3hlcnpZQkNaZXhlTklHOEJRTFY0UkwtY0tLcmtYcGlCd1E?oc=5",
-          "source": "9to5Mac",
-          "published": "Tue, 11 Nov 2025 09:50:00 GMT",
-          "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-12T00:29:34.673458"
-        },
-        "analysis": {
-          "summary": "The next iPhone Air is reportedly delayed until 2027 to incorporate a second camera, according to various news sources. The decision comes amid weak sales of the previous iPhone models, suggesting Apple's strategy to improve features and potentially boost future sales.",
-          "key_points": [
-            "iPhone Air 2 delay until 2027 for second camera addition.",
-            "Weak sales of previous iPhone models influencing the delay.",
-            "Apple's strategy to enhance product features to stimulate demand."
-          ],
-          "sentiment": "mixed",
-          "confidence": "high",
-          "bias_check": "Sources may have varying degrees of access to insider information, leading to potential inaccuracies or speculation. The article may also reflect the author's bias towards Apple\u2019s innovation strategy or product sales performance.",
-          "missing_context": "Details about Apple's internal decision-making processes, the expected impact of a second camera on future sales, and comparison with competitors' camera technology and market trends might be missing. Consumer reactions and competitor responses are also not included.",
-          "implications": "Delaying the iPhone Air 2 can affect Apple's market strategy, consumer expectations, and competition. It reflects Apple's focus on innovation and feature enhancement, but also highlights challenges in maintaining sales momentum. Competitors may use this delay to strengthen their market position.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-12T00:30:26.233346",
-          "token_usage": {
-            "prompt_tokens": 293,
-            "completion_tokens": 275,
-            "total_tokens": 568
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_0_1762907374",
-          "title": "A suicide bomber targets an Islamabad court, killing 12 people and wounding 27, minister says - AP News",
-          "description": "A suicide bomber targets an Islamabad court, killing 12 people and wounding 27, minister says\u00a0\u00a0AP NewsPakistan \u2018in a State of War\u2019 After Explosion Kills 12 in Capital\u00a0\u00a0The New York TimesSuicide bombing in Islamabad kills 12, says Pakistan's interior minister\u00a0\u00a0BBCAt least 12 killed in Islamabad suicide attack \u2013 the most deadly assault in the Pakistani capital since 2008\u00a0\u00a0CNNPakistan says \u2018India proxies\u2019 behind Islamabad bombing: What we know so far\u00a0\u00a0Al Jazeera",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNUEk5WTFpdHZCdGhGR3NFbWhzM05jSTNWUDQ4RjRZU2hZQXZfZmYtWWZuNG81aTJTUjVtamNkVHNwTFJzVHpBaEc1RmN6Q2JfdV9ZNzFscDNDdjlrUy1pMXJSUWo4QzZ0WHMyZkRLYzNydWg2QmxidnVnLWpyNkhYcXZuRDhRd3AzSW1USTc4NjN0bnIxZHZhc0t6VWY2U2hiaGdmeFRiX25zbzd6clE1WlJOcWdCQ2hESUVMSy1VX1BzQQ?oc=5",
-          "source": "AP News",
-          "published": "Tue, 11 Nov 2025 18:53:00 GMT",
-          "topic": "WORLD",
-          "fetched_at": "2025-11-12T00:29:34.745121"
-        },
-        "analysis": {
-          "summary": "A suicide bomber attacked an Islamabad court, resulting in 12 deaths and 27 injuries, highlighting the ongoing security challenges in Pakistan. The incident has fueled speculation about external involvement, with Pakistan's interior minister labeling the situation as a state of war and accusing India of proxy involvement.",
-          "key_points": [
-            "A tragic suicide bombing in Islamabad court, causing significant casualties.",
-            "Pakistan's interior minister claims the incident represents a state of war, implying a high level of internal threat.",
-            "Accusations of India being behind the attack, suggesting geopolitical tensions influencing the situation."
-          ],
-          "sentiment": "Negative",
-          "confidence": "High",
-          "bias_check": "The article may exhibit bias by highlighting the involvement of India without providing concrete evidence, potentially inflaming regional tensions. The framing of the event as a 'state of war' by the minister could also be seen as an attempt to justify increased security measures or military action.",
-          "missing_context": "Additional context about the security measures in place at the time of the attack, the historical relationship between Pakistan and India, and the broader security situation in the region would be valuable for a more comprehensive understanding.",
-          "implications": "This incident underscores the persistent security challenges in Pakistan and may lead to heightened tensions between Pakistan and India. It might also prompt an escalation in counter-terrorism efforts and influence regional politics.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-12T00:30:34.205023",
-          "token_usage": {
-            "prompt_tokens": 306,
-            "completion_tokens": 294,
-            "total_tokens": 600
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_1_1762907374",
-          "title": "\u2018Lucifer\u2019 bee with horns discovered in Western Australia - The Washington Post",
-          "description": "\u2018Lucifer\u2019 bee with horns discovered in Western Australia\u00a0\u00a0The Washington PostNew 'Lucifer' bee with devil-like horns found in Australia\u00a0\u00a0BBCBees with 'devil-like horns' found in wildflowers by Australian researchers\u00a0\u00a0USA TodayDevilishly distinctive new bee species discovered in WA Goldfields\u00a0\u00a0Curtin UniversityScientists discover new \"lucifer\" bee with devil-like horns lurking in critically endangered wildflower in Australia\u00a0\u00a0CBS News",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQNXpza3R2QnJ3ZzItVFpjdi1RNk5JeWJRTFFvNllpV2ktckhWRGlBc3VnZUVrekdiZGRWTktiX1JCYURnRm8zNVh2RWZMMFZPc1BDckVxelRRUkRTOVhJRzctcEJIVlZWUVNYU0Rhbm1oOWgwb3IwWk16SUVtQVJjX3dSbEVTNVRidERjejA1TQ?oc=5",
-          "source": "The Washington Post",
-          "published": "Tue, 11 Nov 2025 23:30:27 GMT",
-          "topic": "WORLD",
-          "fetched_at": "2025-11-12T00:29:34.745156"
-        },
-        "analysis": {
-          "summary": "A unique species of bee with 'devil-like' horns, dubbed 'Lucifer,' has been discovered by researchers in Western Australia's Goldfields region, raising interest in its distinctiveness and potential conservation significance amidst the area's critically endangered wildflowers.",
-          "key_points": [
-            "The discovery of a new bee species, 'Lucifer,' with distinctive horns.",
-            "The finding took place in Western Australia's Goldfields where wildflowers are critically endangered.",
-            "The bee's unique characteristics may hold conservation and ecological importance."
+            "Sony's new PlayStation monitor boasts a 240Hz refresh rate, aimed at providing a smoother gaming experience.",
+            "The monitor includes a built-in DualSense charging hook, which simplifies controller charging during gameplay.",
+            "The product is currently exclusive to the US and Japan, which may limit its initial market impact."
           ],
           "sentiment": "Mixed",
           "confidence": "High",
-          "bias_check": "Potential bias towards sensationalism by emphasizing the 'devil-like' appearance, which may overshadow the scientific significance of the discovery. The emphasis on conservation without discussing the broader ecological context may also reflect a bias towards conservation narratives.",
-          "missing_context": "Details about the ecological role of the 'Lucifer' bee and its specific habitat requirements. Information on the broader biodiversity of the region and the conservation status of other species might also be missing.",
-          "implications": "The discovery of 'Lucifer' could have implications for conservation efforts to preserve the critically endangered wildflowers. It may also contribute to our understanding of bee diversity and evolution. However, it highlights the need for ongoing research and conservation strategies in the region.",
+          "bias_check": "The article may be biased towards showcasing Sony's innovations and advancements, potentially overlooking any possible limitations or drawbacks of the new monitor.",
+          "missing_context": "The article does not provide details on the price, availability, or competitors' responses, which are important for a comprehensive understanding of the product's market position.",
+          "implications": "This new monitor could influence the gaming monitor market and standards for future console-related peripherals, but its limited initial availability might impact its early reception and adoption.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-12T00:30:41.487480",
+          "analyzed_at": "2025-11-12T06:11:39.393362",
           "token_usage": {
-            "prompt_tokens": 284,
-            "completion_tokens": 283,
-            "total_tokens": 567
+            "prompt_tokens": 305,
+            "completion_tokens": 248,
+            "total_tokens": 553
           }
         }
       },
       {
         "article": {
-          "id": "news_2_1762907374",
-          "title": "Dominican Republic suffers nationwide power cut after 'cascade of failures' - BBC",
-          "description": "Dominican Republic suffers nationwide power cut after 'cascade of failures'\u00a0\u00a0BBCDominican Republic hit with widespread power outage\u00a0\u00a0CBS NewsFull blackout hits the Dominican Republic as crews scramble to restore power\u00a0\u00a0The Washington PostSanto Domingo faces transportation chaos amid nationwide blackout\u00a0\u00a0Dominican TodayDominican Republic Rapidly Restores Power After Nationwide Blackout\u00a0\u00a0Devdiscourse",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4yN2ZReHdGaHUxVl9GcWFZMjNEZTRIcDlaeHY0YTYxdUVTeFQ3eUV5Y1VNUEtacUhiamNhdG9wWWVDZ3ZzSjR1U29mMHFKTy1TMlJKZ2piVFcyZw?oc=5",
+          "id": "news_3_1762927858",
+          "title": "Next year\u2019s iPhone 18 lineup sounds like a major overhaul for Apple - 9to5Mac",
+          "description": "Next year\u2019s iPhone 18 lineup sounds like a major overhaul for Apple\u00a0\u00a09to5MacApple To Debut Under-Display Selfie Camera In Bezel-Free 20th Anniversary IPhone: Reports\u00a0\u00a0NasdaqiPhone 18 Pro may lose the two-tone look in 2026\u00a0\u00a0AppleInsideriPhone Fold to Feature Industry-First 24MP Under-Display Camera\u00a0\u00a0macrumors.com5-year iPhone pattern means the big change to the display you want is coming in 2027\u00a0\u00a0PhoneArena",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQXzU3dVhVNEJoZ0puaXNZZlNSQXRkc3d5aGF0djMyZUF0VFpMMUFrdXNfTG5leHBGVFFiYlVOSjA3ZnFpMmt1dHFmQ2QxN1c2Q2dxWkF4RmRQbFAtYmE3by1ZTVJ3V2wteEMzbGVUMjJpNklpb0tEUGdFWEJrQi02NGlyWmZFa0RKQ1Npc1piekY3Yl9INjN4QmhqZnE?oc=5",
+          "source": "9to5Mac",
+          "published": "Tue, 11 Nov 2025 15:11:00 GMT",
+          "topic": "TECHNOLOGY",
+          "fetched_at": "2025-11-12T06:10:58.263525"
+        },
+        "analysis": {
+          "summary": "The article suggests that Apple's iPhone 18 lineup will undergo a significant transformation, potentially including a new under-display selfie camera, changes to the display, and a possible end to the two-tone design. These changes are anticipated to align with Apple's 20th anniversary, and there is speculation about the release timeline and features.",
+          "key_points": [
+            "Apple's iPhone 18 may feature a new under-display selfie camera.",
+            "There could be a change in the display design, possibly ending the two-tone look.",
+            "The iPhone 18 is expected to be part of Apple's 20th anniversary launch."
+          ],
+          "sentiment": "Mixed",
+          "confidence": "High",
+          "bias_check": "The article's perspective may lean towards speculation and anticipation rather than concrete information, which can influence the sentiment. The source, 9to5Mac, is known for tech rumors, which can sometimes overstate the certainty of leaks and unconfirmed reports.",
+          "missing_context": "The article does not provide confirmation from Apple or the manufacturers regarding the features or release date, leaving the information speculative. The potential impact on the market and how consumers will receive these changes are also not discussed.",
+          "implications": "If these rumored features are confirmed, it could significantly influence consumer expectations and Apple's market positioning. However, premature expectations based on rumors can also lead to consumer disappointment or disappointment in the brand.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-12T06:11:47.015481",
+          "token_usage": {
+            "prompt_tokens": 311,
+            "completion_tokens": 301,
+            "total_tokens": 612
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_4_1762927858",
+          "title": "Microsoft November 2025 Patch Tuesday fixes 1 zero-day, 63 flaws - BleepingComputer",
+          "description": "Microsoft November 2025 Patch Tuesday fixes 1 zero-day, 63 flaws\u00a0\u00a0BleepingComputerThe November 2025 Security Update Review\u00a0\u00a0Zero Day InitiativePatch Now: Microsoft Flags Zero-Day & Critical Zero-Click Bugs\u00a0\u00a0Dark Reading | SecurityWindows Kernel 0\u2011day Vulnerability Actively Exploited in the Wild to Escalate Privilege\u00a0\u00a0CyberSecurityNewsAdobe Patches 29 Vulnerabilities\u00a0\u00a0SecurityWeek",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZ2xzcWVKWU14OFlUcTkzMW5fVEZHUGI5andYeEloY2lra1BqT09iNWVMVjQ5cEpsMk85dnJabTRmWFo4MXZ5bDNNVExXWU81enU5SFBLRHJHemJqUEpld0dMeXpZY3l4R3dJZHNOYUZUbWRiNDBhdEk5SGVZa19zZV9xdTdIQnBndmtDRGZVWEFWMjMtS3NjeW1pbW5MN2hHd3VyeV83cXRJVFZRdm9zVTFR0gG3AUFVX3lxTE55N2dHcVpsVmI4dEdqM0xDcTB3TkpIS0hzRDJyOGNYQ2w5SURqMzREVjNNcThOX3I4TEROQTk5UjdZTzExT25Dbkc2a2NhZGROQkljRm82ZTVmeGRpaV9oZlZoUDdjRVp0NjB4OFkyTWpqRlAtel9kbFZSRmhiYzZYMjJGd3h2UUNoakszdVp0a2xESEN4Ym1FRGYtMUpHUkgzSHdPUEU3RW9yUnctZ0xwUDhwZWRWaw?oc=5",
+          "source": "BleepingComputer",
+          "published": "Tue, 11 Nov 2025 18:45:29 GMT",
+          "topic": "TECHNOLOGY",
+          "fetched_at": "2025-11-12T06:10:58.263547"
+        },
+        "analysis": {
+          "summary": "Microsoft's November 2025 Patch Tuesday addressed 1 zero-day and 63 vulnerabilities, reflecting ongoing efforts to maintain Windows security. Despite the efforts, the presence of actively exploited zero-day vulnerabilities and a high number of flaws indicates persistent security challenges in the Windows ecosystem.",
+          "key_points": [
+            "Microsoft addresses 1 zero-day vulnerability and 63 flaws in November 2025 Patch Tuesday.",
+            "The continuing presence of actively exploited zero-day vulnerabilities raises concerns about the effectiveness of Microsoft's security measures.",
+            "The high number of vulnerabilities being patched suggests a complex and evolving threat landscape."
+          ],
+          "sentiment": "Mixed",
+          "confidence": "High",
+          "bias_check": "The article may focus on the negatives (vulnerabilities and exploits) more than positives (patches and updates provided). It may also emphasize Microsoft's challenges without acknowledging their efforts and success in maintaining the security of their system.",
+          "missing_context": "The article doesn't provide details on the severity of the zero-day vulnerability, the nature of the flaws addressed, or how these patches compare to previous ones. It also omits any information on the improvements made to Microsoft's security processes or the effectiveness of these patches in preventing exploits.",
+          "implications": "This story underscores the continuous arms race between cybersecurity professionals and threat actors. It highlights the importance of regular updates and patches for maintaining system security. However, it also raises concerns about the security posture of Windows and the potential risks to organizations relying on it. The presence of an actively exploited zero-day vulnerability could erode user trust and prompt users to consider alternative operating systems.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-12T06:11:55.957501",
+          "token_usage": {
+            "prompt_tokens": 290,
+            "completion_tokens": 336,
+            "total_tokens": 626
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_0_1762927858",
+          "title": "Protesters break into COP30 venue in Brazil - BBC",
+          "description": "Protesters break into COP30 venue in Brazil\u00a0\u00a0BBCProtesters confront security at main venue of UN climate talks\u00a0\u00a0abcnews.go.comTussles break out between protesters and security at Cop30 in Brazil\u00a0\u00a0The GuardianProtesters and UN security clash at climate summit in Brazil\u00a0\u00a0PoliticoIndigenous activists storm COP30 climate summit in Brazil, demanding action\u00a0\u00a0Al Jazeera",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA0NDZVY0FpLXl0M1dyNm1hWWdlcTQxUkx1SVZ0VE5Bcm5ScjYwVGZxUzNPNEMwOHpIVm1PcURNWU1Pc1BjR3p5aW1LbjJPUmtzaFdmM0wzNHJNdw?oc=5",
           "source": "BBC",
-          "published": "Tue, 11 Nov 2025 22:34:31 GMT",
+          "published": "Wed, 12 Nov 2025 02:50:49 GMT",
           "topic": "WORLD",
-          "fetched_at": "2025-11-12T00:29:34.745178"
+          "fetched_at": "2025-11-12T06:10:58.726442"
         },
         "analysis": {
-          "summary": "A series of 'cascade failures' led to a nationwide power outage in the Dominican Republic, disrupting transportation and causing chaos, although efforts to restore power were successful, as reported by multiple news outlets including BBC, CBS News, and The Washington Post.",
+          "summary": "Protesters clashed with UN security at the COP30 climate summit in Brazil, highlighting growing global unrest over inadequate climate action. Indigenous activists led the protests, demanding urgent and substantial measures to combat climate change.",
           "key_points": [
-            "Nationwide power outage in the Dominican Republic due to multiple failures.",
-            "Disruption of transportation and daily life across the country.",
-            "Efforts to restore power were eventually successful."
+            "Protesters, led by Indigenous activists, clashed with UN security at COP30 in Brazil.",
+            "The protests underscored the urgent need for substantial climate action, which some attendees felt was lacking.",
+            "The incident at the summit reflects broader global frustration and frustration with international climate policies."
           ],
-          "sentiment": "mixed",
-          "confidence": "high",
-          "bias_check": "The story might be biased towards highlighting the immediate impacts and challenges rather than long-term solutions or the effectiveness of the response.",
-          "missing_context": "The article does not provide details on the root causes of the failures, the response from government and utility companies, or the measures taken to prevent similar incidents in the future.",
-          "implications": "The outage highlights the vulnerability of infrastructure in the Dominican Republic and the need for improved planning and investment in power systems. It also underscores the importance of coordinated emergency response efforts and the potential impact of such outages on the economy and public safety.",
+          "sentiment": "Mixed",
+          "confidence": "High",
+          "bias_check": "The article may portray the protesters negatively due to the confrontational nature of the clashes. Additionally, the emphasis on the severity of the protests might overshadow the constructive dialogue that often happens at such summits.",
+          "missing_context": "The article does not provide specific details about the protesters' demands or the reactions from UN officials and other summit attendees. Additionally, it does not mention any efforts to de-escalate the situation or the progress made during the summit.",
+          "implications": "The incident at COP30 could affect international perceptions of climate negotiations, potentially leading to increased pressure on governments to take more decisive action. It may also highlight the growing tension between activists demanding rapid change and policymakers advocating for gradual implementation.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-12T00:30:54.441931",
+          "analyzed_at": "2025-11-12T06:12:03.346235",
           "token_usage": {
-            "prompt_tokens": 263,
-            "completion_tokens": 246,
-            "total_tokens": 509
+            "prompt_tokens": 267,
+            "completion_tokens": 288,
+            "total_tokens": 555
           }
         }
       },
       {
         "article": {
-          "id": "news_3_1762907374",
-          "title": "TikTok influencer who posted videos supporting military is publicly executed by armed men in Mali, authorities say - CBS News",
-          "description": "TikTok influencer who posted videos supporting military is publicly executed by armed men in Mali, authorities say\u00a0\u00a0CBS NewsView Full Coverage on Google News",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQdmwyamlOdXE2NWQyeGVYMDdZbWZoNkUwNlRZWnZNRWdDMGRtQXRja3p5V1lFZldUZEN1cnBBeE5MR0RabXFpTUtLWlVnTXdBTjQySmdHbGxBNFZDSXQxSVp4Q21rT2g5ZzF1dTBycS10RmJRS2U5YUpLWkh1d3FTeVpreVJtblBtRTRFeDNR0gGTAUFVX3lxTE00T3lZS25yMEx5R09QZlpfeXkwQnNJQnIxR3V3dVFRZ2JJVkhmajVISGFtbEltZkkyM21YWTRVQmdoYlNIeTFQbWZ1RGhrakYyNEpBbF8weGx4TzFpWFNJaVItUkwtRWFIa3JYVDdYLWhzbWhyellibFdOVndUMzFaa3ByZXl2WFRBMmpvY3JZV3dtVQ?oc=5",
+          "id": "news_1_1762927858",
+          "title": "Suicide bomber kills 12 outside Islamabad court as Pakistan violence rises - AP News",
+          "description": "Suicide bomber kills 12 outside Islamabad court as Pakistan violence rises\u00a0\u00a0AP NewsSuicide bombing in Islamabad kills 12, says Pakistan's interior minister\u00a0\u00a0BBCLive: Pakistan, India launch probes after blasts in Islamabad, New Delhi\u00a0\u00a0Al JazeeraAt least 12 killed in Islamabad suicide attack \u2013 the most deadly assault in the Pakistani capital since 2008\u00a0\u00a0CNNPakistan Taliban claim responsibility for deadly terror attack in Islamabad\u00a0\u00a0The Guardian",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNUEk5WTFpdHZCdGhGR3NFbWhzM05jSTNWUDQ4RjRZU2hZQXZfZmYtWWZuNG81aTJTUjVtamNkVHNwTFJzVHpBaEc1RmN6Q2JfdV9ZNzFscDNDdjlrUy1pMXJSUWo4QzZ0WHMyZkRLYzNydWg2QmxidnVnLWpyNkhYcXZuRDhRd3AzSW1USTc4NjN0bnIxZHZhc0t6VWY2U2hiaGdmeFRiX25zbzd6clE1WlJOcWdCQ2hESUVMSy1VX1BzQQ?oc=5",
+          "source": "AP News",
+          "published": "Wed, 12 Nov 2025 00:45:00 GMT",
+          "topic": "WORLD",
+          "fetched_at": "2025-11-12T06:10:58.726478"
+        },
+        "analysis": {
+          "summary": "A tragic suicide bombing in Islamabad, Pakistan, resulted in 12 fatalities, marking the deadliest attack in the capital since 2008. The incident has led to heightened tensions between Pakistan and India, with both nations launching investigations into the blasts in their respective capitals.",
+          "key_points": [
+            "The suicide bombing in Islamabad was the deadliest since 2008.",
+            "The attack has exacerbated tensions between Pakistan and India.",
+            "The Pakistan Taliban claimed responsibility for the attack."
+          ],
+          "sentiment": "Negative",
+          "confidence": "High",
+          "bias_check": "The article may exhibit bias by focusing on the immediate violence and political tensions without providing a comprehensive sociopolitical context or exploring underlying causes.",
+          "missing_context": "Important context might include information on the historical and socio-political conditions leading to such attacks, the impact on the local population and authorities, and the broader regional dynamics between Pakistan, Afghanistan, and India.",
+          "implications": "The attack highlights ongoing security challenges in Pakistan, potentially destabilizing the region further. It may influence diplomatic relations, domestic policies, and international counter-terrorism efforts. Additionally, it raises concerns about the effectiveness of Pakistan's counter-terrorism measures.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-12T06:12:10.517804",
+          "token_usage": {
+            "prompt_tokens": 282,
+            "completion_tokens": 263,
+            "total_tokens": 545
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_2_1762927858",
+          "title": "Newly constructed Hongqi Bridge in China partially collapses, dramatic video goes viral | Trending - Hindustan Times",
+          "description": "Newly constructed Hongqi Bridge in China partially collapses, dramatic video goes viral | Trending\u00a0\u00a0Hindustan TimesMoment newly opened bridge partially collapses in China\u00a0\u00a0BBCNew Bridge in Southwestern China Dramatically Collapses\u00a0\u00a0Bloomberg.comMajor Chinese bridge collapses into river just months after opening to traffic\u00a0\u00a0Fox NewsVideo Shows How a New Bridge Partly Collapsed in China\u2019s Southwest\u00a0\u00a0The New York Times",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNaTBOSzRSc2ZEQ2RhVkY0ckhRWE1oWEtia1ZXVlF2VnhDTDNFR0J5NmUzMk1FLTFNSHNmaHBob0FOczJ0TW9leTY2cFM4clF1VGUza1A2YXJ4eFc4YkJEN3hUc1lpT2dPaFBucVh6eHlHdEFXZlVub0czSG9iZjI2eVpqX1VJeTdjc0FYS2J3WHBmR2sxd3pVMTZxR1FlUnQxVzAzOWJtZ05vMElLYldLZ2JJbjVDRnd3VWRBZ21mTlJZUW5oSDZod1drbVowVVRwaWlrN0xHSUFBNEdWTjc1U9IB5gFBVV95cUxNN1p5ZHdBclVwUzB4WDlobXNRSEQ3bEVwRVlhbXlBNnY5cWNBanFROWE0M3R2eUJDTnB0RVJQTmJCRDZxZmdVNU1HdVYwR2hEQzVQVEZ4N3dzMGpSU0kydlRNZEtxOGlQVFg0YXFFZXdqY29xT29TTF9pN0p6VGFGZ09ZeWIwLUFVLU5VenRlYmRoUk9DakpCVUNvcWVudk9vek5oQ2R6cDllUzV2WWYzUHhVNlUySnhOc19Rb3ExLWxrcDBFVGdCV2R0VVFSM2hNdFdTRjM0RGNlLUc3UVYydDdHNW50UQ?oc=5",
+          "source": "Hindustan Times",
+          "published": "Tue, 11 Nov 2025 17:22:23 GMT",
+          "topic": "WORLD",
+          "fetched_at": "2025-11-12T06:10:58.726501"
+        },
+        "analysis": {
+          "summary": "A newly constructed Hongqi Bridge in Southwestern China partially collapsed and a dramatic video of the incident went viral, raising concerns about the bridge's safety and construction quality. The collapse happened just months after the bridge opened to traffic, causing significant public and media attention.",
+          "key_points": [
+            "A bridge in China partially collapsed, sparking viral videos and widespread concern.",
+            "The incident occurred shortly after the bridge's opening, indicating potential construction issues.",
+            "Media outlets, including BBC, Bloomberg, Fox News, and The New York Times, have reported on the collapse, highlighting the incident's widespread news coverage.",
+            "The safety and integrity of the bridge construction are under scrutiny following the collapse."
+          ],
+          "sentiment": "Negative",
+          "confidence": "High",
+          "bias_check": "The article may contain bias by focusing on the dramatic aspects of the collapse, potentially emphasizing negative perceptions without a balanced view. Coverage could also be influenced by the sensational nature of viral videos.",
+          "missing_context": "The article lacks details on the causes of the collapse, the bridge's design, and the condition of the surrounding infrastructure. Additionally, it does not provide information on the response from authorities or construction companies regarding the incident.",
+          "implications": "This incident could lead to increased scrutiny of construction practices in China, potential investigations into building codes and safety standards, and a reevaluation of infrastructure projects in the region. It may also impact public trust in new infrastructure developments and raise concerns about the safety of existing structures.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-12T06:12:23.465152",
+          "token_usage": {
+            "prompt_tokens": 283,
+            "completion_tokens": 321,
+            "total_tokens": 604
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_3_1762927858",
+          "title": "What the Looming Fall of a Ukrainian City Says About Putin\u2019s War - The Wall Street Journal",
+          "description": "What the Looming Fall of a Ukrainian City Says About Putin\u2019s War\u00a0\u00a0The Wall Street JournalRussian forces roll 'Mad Max'-style into battered Ukrainian city of Pokrovsk, video shows\u00a0\u00a0ReutersPokrovsk: Russian forces use fog cover to push further into key Ukraine town\u00a0\u00a0BBCUkraine\u2019s Hardest Winter\u00a0\u00a0Foreign AffairsRussian Offensive Campaign Assessment, November 10, 2025\u00a0\u00a0Institute for the Study of War",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE54aklWRWd6VTE2Z0xBQ0lZRTVOLTM2dEhsckUxS0R2UEFnRG1GU1htTl9TQW1JbkRoYjBaaGVzSE5saHJZejZUb0pTZzdsRW10aFFuY2FheF9LRnNsOGd6aXhfbWRaXy1KN0xvWmxWcjByTWNFMkRvVA?oc=5",
+          "source": "The Wall Street Journal",
+          "published": "Wed, 12 Nov 2025 04:00:00 GMT",
+          "topic": "WORLD",
+          "fetched_at": "2025-11-12T06:10:58.726522"
+        },
+        "analysis": {
+          "summary": "The article discusses the intensifying conflict in Ukraine, highlighting the Russian forces' advance into the Ukrainian city of Pokrovsk. It emphasizes the strategic significance of the city and the increasing desperation of the Ukrainian defense amid a harsh winter, suggesting that the situation may be precarious for Ukraine's resistance efforts.",
+          "key_points": [
+            "Russian forces are making significant advances into Pokrovsk, a key Ukrainian city.",
+            "The advance is facilitated by a combination of military strategy and environmental conditions, such as fog cover.",
+            "The situation is exacerbated by Ukraine's brutal winter, which is affecting both military operations and civilian resilience."
+          ],
+          "sentiment": "Negative",
+          "confidence": "High",
+          "bias_check": "The article may be biased towards showing the Ukrainian perspective, given the context and the sources mentioned. There may also be an implicit bias in portraying the Russian offensive as desperate or reliant on environmental conditions, which may not fully capture the strategic planning involved.",
+          "missing_context": "The article does not provide information on the broader geopolitical context, including international reactions, support for Ukraine, and the potential long-term implications of the conflict. Additionally, it doesn't mention any countermeasures or strategies being employed by Ukrainian forces to resist the advance.",
+          "implications": "The fall of a key city like Pokrovsk could have significant strategic and humanitarian implications. It may lead to further territorial gains for Russia, potentially shifting the balance of power in the region. The harsh winter conditions also raise concerns about the humanitarian situation, including civilian displacement and casualties. The international community's response and the potential for increased involvement by global powers could also be a crucial aspect of the unfolding situation.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-12T06:12:32.124353",
+          "token_usage": {
+            "prompt_tokens": 286,
+            "completion_tokens": 356,
+            "total_tokens": 642
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_4_1762927858",
+          "title": "Dominican Republic hit with widespread power outage - CBS News",
+          "description": "Dominican Republic hit with widespread power outage\u00a0\u00a0CBS NewsView Full Coverage on Google News",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA3ZEZ0TWZtNFE0aTFfeGtZQURkYVp3SDQydGNNVFhtR0c5VFk4Tkk4Zm5BQkFqQTFoWG5mUnJic1Y1X1YxRnh0T0V5Z3ppNXFRaDZUOGlsYjFBYzlTT3g2aWs5NmdIZnZBV1RKQTNCLWpfZHBpd0lLdXpHRlbSAYIBQVVfeXFMTjBreFF0RHFIQlRrSEdsZVpfNkhjMGJGQVE5ZENLb3hUQl9TZzV1d2JiVTB1b2l0Q3FhTEdfSWR6RzVobVRxc2FDODh1VkhGTVFYaGNFQTNFUjBWbkNYVHJjaGJxYkl4djFTSTJBWk1NLXdGdF9YaFR1eWhzbnJiY3M1UQ?oc=5",
           "source": "CBS News",
-          "published": "Tue, 11 Nov 2025 17:51:32 GMT",
+          "published": "Tue, 11 Nov 2025 22:44:00 GMT",
           "topic": "WORLD",
-          "fetched_at": "2025-11-12T00:29:34.745188"
+          "fetched_at": "2025-11-12T06:10:58.726531"
         },
         "analysis": {
-          "summary": "A TikTok influencer in Mali, known for supporting the military in videos, has reportedly been publicly executed by armed men, according to CBS News. This alarming event highlights the severe consequences faced by social media personalities in volatile regions.",
+          "summary": "A widespread power outage has occurred in the Dominican Republic, affecting many residents and businesses, causing disruptions and inconveniences. The incident has highlighted the country's infrastructure challenges despite its economic growth.",
           "key_points": [
-            "Public execution of a TikTok influencer for supporting the military.",
-            "The influencer's social media activities led to severe backlash.",
-            "The incident underscores the dangers of political expression in conflict zones.",
-            "The role of social media in inspiring and endangering individuals in unstable regions.",
-            "Government and military retaliation against perceived dissent."
-          ],
-          "sentiment": "Negative",
-          "confidence": "High",
-          "bias_check": "The account is from CBS News, known for its journalistic integrity, but there may be inherent biases in how conflict situations are reported or sensationalized for viewership.",
-          "missing_context": "Details about the specific context and reasons why the influencer supported the military, government\u2019s stance on dissent, and the broader socio-political environment in Mali are missing.",
-          "implications": "This incident raises serious concerns about freedom of expression, the risks faced by social media influencers in conflict zones, and the potential for state and non-state actors to target individuals for their online activities.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-12T00:31:02.009130",
-          "token_usage": {
-            "prompt_tokens": 226,
-            "completion_tokens": 270,
-            "total_tokens": 496
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_4_1762907374",
-          "title": "\u2018People were screaming for help\u2019: Delhi car blast witnesses describe scenes of horror - The Guardian",
-          "description": "\u2018People were screaming for help\u2019: Delhi car blast witnesses describe scenes of horror\u00a0\u00a0The GuardianIndia\u2019s Prime Minister Vows Justice After New Delhi Car Explosion Kills 8\u00a0\u00a0The New York TimesFirstFT: India\u2019s PM Narendra Modi says \u2018conspirators\u2019 behind New Delhi blast will be \u2018brought to justice\u2019\u00a0\u00a0Financial TimesDelhi Red Fort blast kills 13: What happened as police invoke \u2018terror\u2019 law?\u00a0\u00a0Al JazeeraBlast Near Red Fort Triggered By Panic, IED Was Unfinished: Sources\u00a0\u00a0NDTV",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQVDJqR2JUYlhIU1VCdzg4TzR2UTk1TnVpSlhzcnFCdWoxQ011RFdRd213WGRhVnF3dGtseFdBMVlvVTlFXzZIbk1vY2pqcTBJUnlYQzhDdjNLY2xaT3hnekY1ZXNITnRGOC1RMDU4elNINlJUWFBReEJHRU1CaHFZdjctY1VBbi1YY200Zg?oc=5",
-          "source": "The Guardian",
-          "published": "Tue, 11 Nov 2025 20:20:00 GMT",
-          "topic": "WORLD",
-          "fetched_at": "2025-11-12T00:29:34.745207"
-        },
-        "analysis": {
-          "summary": "Witnesses describe scenes of horror following a car bombing in New Delhi, with screams for help heard and a prime minister promising justice. The attack, which resulted in the deaths of eight individuals, has heightened concerns about ongoing security threats in the region.",
-          "key_points": [
-            "A car bombing in New Delhi has resulted in eight deaths and numerous injuries, with witnesses recounting screams for help.",
-            "Prime Minister Narendra Modi has vowed to bring the perpetrators to justice, highlighting the government's commitment to addressing the threat.",
-            "The incident has raised concerns about the safety and security in India's capital, with potential implications for public confidence and policy."
-          ],
-          "sentiment": "Negative",
-          "confidence": "High",
-          "bias_check": "The article may be biased towards highlighting the horror and chaos of the event without providing a balanced view of the situation, including the context or possible motives behind the attack.",
-          "missing_context": "Potentially missing are details on the motive behind the attack, the response and preparedness of security forces at the time, and the broader geopolitical context that might have contributed to the incident.",
-          "implications": "The broader implications include increased public concern over safety, potential changes in security policies, and the impact on India's international image. There may also be increased political pressure on the government to ensure such attacks do not recur.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-12T00:31:09.919107",
-          "token_usage": {
-            "prompt_tokens": 307,
-            "completion_tokens": 287,
-            "total_tokens": 594
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_0_1762907374",
-          "title": "Flight disruptions will persist even after shutdown ends, airlines warn - The Washington Post",
-          "description": "Flight disruptions will persist even after shutdown ends, airlines warn\u00a0\u00a0The Washington PostDuffy: Travel disruptions will get \"much worse\" if shutdown doesn't end soon\u00a0\u00a0AxiosAirlines Pushed Trump Officials Over Flight Cut Justification\u00a0\u00a0Bloomberg.comAmerican air travelers face ongoing disruptions as Senate moves to end shutdown\u00a0\u00a0Fox NewsWill the flight cuts impact my Thanksgiving travel?\u00a0\u00a0USA Today",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQd3d2Mk5Xa29nZmlBZWhxUE1YWklaUTlCN1U2R3BrUEZ0MVJ3Vmh6NWZOMkQwWTBKLUo0ekFYMkZpdVlwUE5FNDRUVHNEZkhXVVpkbUpYQzJDem8yUGNLSWdmUjZCRVBya2xzZ0JtTTRpZEk2cmstcHhxVVkybWl0X2RXd2RITzhXbVVGV0xmSUpFZnRhRUctdEh3?oc=5",
-          "source": "The Washington Post",
-          "published": "Tue, 11 Nov 2025 23:13:54 GMT",
-          "topic": "BUSINESS",
-          "fetched_at": "2025-11-12T00:29:34.809574"
-        },
-        "analysis": {
-          "summary": "The article discusses ongoing flight disruptions as a result of the government shutdown, with airlines warning that these issues will persist even after the shutdown ends. Experts predict that travel woes will worsen if the shutdown continues, affecting American air travelers significantly.",
-          "key_points": [
-            "Flight disruptions due to government shutdown continue and will not cease immediately after the shutdown ends.",
-            "Airlines are warning that travel disruptions will worsen if the shutdown persists.",
-            "American air travelers are facing significant challenges with potential negative impacts on their travel plans."
-          ],
-          "sentiment": "Negative",
-          "confidence": "High",
-          "bias_check": "The article may have biases towards emphasizing negative impacts and might not fully represent any potential positive aspects or mitigating measures being taken by airlines or the government.",
-          "missing_context": "The article does not provide context on the specific reasons behind the flight disruptions, the duration of the shutdown, or any government or airline strategies being employed to mitigate the situation.",
-          "implications": "Prolonged flight disruptions can lead to increased travel costs, missed connections, and overall frustration for travelers. The situation may also have broader economic impacts, affecting industries reliant on travel and commerce.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-12T00:31:17.096510",
-          "token_usage": {
-            "prompt_tokens": 271,
-            "completion_tokens": 253,
-            "total_tokens": 524
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_1_1762907374",
-          "title": "ByHeart Broadens Voluntary Recall While Investigation Continues - fda.gov",
-          "description": "ByHeart Broadens Voluntary Recall While Investigation Continues\u00a0\u00a0fda.govInfant Formula Recall Expands as Botulism Outbreak Grows\u00a0\u00a0The New York TimesByHeart recalls all baby formula sold nationwide as infant botulism outbreak grows\u00a0\u00a0abcnews.go.comInfant Botulism Outbreak Linked to Infant Formula, November 2025\u00a0\u00a0Centers for Disease Control and Prevention | CDC (.gov)NC parents urged to check pantries amid infant formula recall linked to botulism risk\u00a0\u00a0WRAL.com",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNbEZqR0l1S21OTTlQZEhRZE1rWEl6Nmpld0I3S1VBZ0ZBY2tLZGVDLU5kQXpyZ1FsUlVFWllwTjBoLWZuUUtUdllPLTUxeExlcWp6cWFCXy05d0lSYmxfUWx5YXpmNTJ4REYxdkY4WjkwQnIyS0FiRnZfbjNGOGp1bUhoQ0dOaE5Oazg3T2VTeG9pclBaMVREVnZlUDlhQnpnSW5vUUExNUlEYk16NkVSZEo5ZmNMQktqcHVkS0hIVE1Kc1hjNWN1dGhKNA?oc=5",
-          "source": "fda.gov",
-          "published": "Tue, 11 Nov 2025 17:10:00 GMT",
-          "topic": "BUSINESS",
-          "fetched_at": "2025-11-12T00:29:34.809599"
-        },
-        "analysis": {
-          "summary": "ByHeart has voluntarily recalled all its baby formula nationwide due to an ongoing infant botulism outbreak, as reported by the FDA. Parents are advised to check their pantries amidst concerns over the botulism risk associated with the recalled formula.",
-          "key_points": [
-            "ByHeart voluntarily recalls its baby formula nationwide due to an infant botulism outbreak.",
-            "Parents are urged to check their pantries for the recalled formula.",
-            "The CDC links the outbreak to the recalled infant formula."
-          ],
-          "sentiment": "Negative",
-          "confidence": "High",
-          "bias_check": "The article may show bias towards public health concerns, emphasizing the dangers of the recalled formula without providing details on the steps ByHeart is taking to address the issue. Additionally, the urgency in urging parents to check their pantries might generate unnecessary panic.",
-          "missing_context": "The article does not provide information on whether similar recalls have occurred before or if ByHeart had any prior issues with their formula. The article also lacks details on whether any other brands are affected by the same issue or if there are alternative recommendations for parents.",
-          "implications": "This recall has significant implications for public health, consumer trust, and the baby food industry. It highlights the need for stringent safety measures in food production and the critical role of regulatory bodies like the FDA in protecting public health. The recall may also impact the financial stability of ByHeart and could lead to increased scrutiny of other baby food brands.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-12T00:31:25.438215",
-          "token_usage": {
-            "prompt_tokens": 299,
-            "completion_tokens": 314,
-            "total_tokens": 613
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_2_1762907374",
-          "title": "Collapse of Sonder, a Marriott-backed hotel chain, leaves guests stranded mid-stay - CNN",
-          "description": "Collapse of Sonder, a Marriott-backed hotel chain, leaves guests stranded mid-stay\u00a0\u00a0CNNSonder Abruptly Goes Out of Business After Marriott Terminates Licensing Deal\u00a0\u00a0The New York TimesSan Francisco property-tech company, once worth $1.9B, suddenly goes belly-up\u00a0\u00a0SFGATESonder announces bankruptcy plans, reportedly tells guests to vacate hotel rooms\u00a0\u00a0USA TodayAirbnb rival Sonder abruptly shuts down, orders guests to leave: \"Our laptops were in plastic bags\"\u00a0\u00a0CBS News",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNR3lFc19zdzZKbkpVQkpZeFpNR0ZNOEgzQkRPNFlDamFwUG5KTFhWQVg4d3A3MGdCVlB6SVpxMUpuUmp5STgza1lISWQ4a25icTdwUnJELUF3cFpHNXBJbXAtS3ZwdzJrVTg1VnE4bjhmRjk5NDRhRzU0RUxfM2s1T2t3?oc=5",
-          "source": "CNN",
-          "published": "Tue, 11 Nov 2025 16:27:19 GMT",
-          "topic": "BUSINESS",
-          "fetched_at": "2025-11-12T00:29:34.809616"
-        },
-        "analysis": {
-          "summary": "Sonder, a Marriott-backed hotel chain, has gone bankrupt, leaving guests stranded with Marriott terminating its licensing deal. The San Francisco-based company, once valued at $1.9 billion, reportedly told guests to vacate their rooms, adding to the chaos and uncertainty surrounding the abrupt closure and bankruptcy filing.",
-          "key_points": [
-            "Sonder, a Marriott-backed hotel chain, has gone bankrupt and terminated its licensing agreement with Marriott.",
-            "Guests were left stranded and instructed to vacate their rooms, adding to the confusion and distress.",
-            "The company's abrupt shutdown and bankruptcy filing highlight potential instability in the hotel industry."
-          ],
-          "sentiment": "Negative",
-          "confidence": "High",
-          "bias_check": "The article may have a negative bias, focusing on the negative aspects of Sonder's closure and the impact on guests. It may also emphasize the company's recent struggles and failure to provide a balanced view of the situation.",
-          "missing_context": "Additional context about Sonder's reasons for going bankrupt, such as financial struggles, competitive pressures, or operational issues, would provide a more nuanced understanding of the situation.",
-          "implications": "This story highlights the potential volatility and instability in the hotel industry, especially for smaller hotel chains that may rely on partnerships with larger hotel brands. It also raises concerns about the impact of such closures on guests and the broader economy.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-12T00:31:33.564176",
-          "token_usage": {
-            "prompt_tokens": 297,
-            "completion_tokens": 293,
-            "total_tokens": 590
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_3_1762907374",
-          "title": "Nvidia-backed CoreWeave's shares fall as data center delay hits annual revenue forecast - Reuters",
-          "description": "Nvidia-backed CoreWeave's shares fall as data center delay hits annual revenue forecast\u00a0\u00a0ReutersCoreWeave CEO won't say if Core Scientific caused data center delays, both stocks plunge\u00a0\u00a0CNBCCoreWeave Earnings Beat Estimates. Why the Stock Dropped 16% Today.\u00a0\u00a0Barron'sCoreWeave Reports Doubling of Revenue From AI Boom\u00a0\u00a0The Wall Street JournalCoreWeave flags hit from data center delay, shares fall\u00a0\u00a0Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTUttYUMtUDZKNHJPRFl4ampvVTNlVUZ3RG1ZalN1RDJnZVYxak4wWmtZUFFQUVBvcmlFVVVQU016RURFTzdqdDFWY3VNNmV4VHpNVmRSUlZVa1Y0WlVpQnM5ZTdQS2tzN2ZFZGNmZWFfOFVvZ1pCa0RRbmtVMjlGQUR4QkxnX2JqWGQwbnpaVHc4MmZ3RmxjcXZNT3NobWZ4TWdBUjRUNXdOOTFhNmV5V2dYUm4xS2k1WGY0?oc=5",
-          "source": "Reuters",
-          "published": "Tue, 11 Nov 2025 14:53:06 GMT",
-          "topic": "BUSINESS",
-          "fetched_at": "2025-11-12T00:29:34.809631"
-        },
-        "analysis": {
-          "summary": "Nvidia-backed CoreWeave's shares decline due to a delay in data center construction, negatively impacting its annual revenue forecast and demonstrating the volatility in tech stocks dependent on infrastructure and project timelines.",
-          "key_points": [
-            "CoreWeave's revenue projections are affected by a delay in data center projects.",
-            "The stock price dropped by 16%, reflecting investor concerns over the company's ability to meet its financial targets.",
-            "CoreWeave's CEO has not commented on whether Core Scientific's actions caused the delays, leaving uncertainty about the root cause."
+            "The Dominican Republic experienced a significant power outage affecting a large portion of the population.",
+            "Infrastructure appears to be lacking, as evidenced by the widespread nature of the outage.",
+            "Economic growth may not be evenly distributed, leading to potential issues in public utilities."
           ],
           "sentiment": "negative",
           "confidence": "high",
-          "bias_check": "The article may contain bias by focusing on the negative impact of the delays without discussing CoreWeave's previous profitability or the typical nature of such setbacks in large infrastructure projects.",
-          "missing_context": "The broader context of the AI boom and CoreWeave's previous successes, and whether this delay is an anomaly or part of a larger trend in the industry, are not provided.",
-          "implications": "The situation underscores the risks associated with long-term tech projects and the importance of managing project timelines. It could also affect investor confidence in similar startups and their future project developments.",
+          "bias_check": "The article may exhibit bias by focusing on the negative aspects of the outage without providing context or mentioning efforts to resolve the issue. It might also unintentionally highlight the country's economic status by juxtaposing it with its infrastructure challenges.",
+          "missing_context": "Important context includes whether this is an isolated incident or part of a recurring problem. Additionally, information on what measures are being taken to prevent future outages, the resilience of the affected population, and the overall impact on the economy and daily life would provide a more comprehensive understanding.",
+          "implications": "The outage could have broader implications such as highlighting the need for investment in infrastructure, potentially influencing public policy, and affecting the country's image internationally. It may also impact the trust of both locals and international businesses in the government's ability to maintain essential services.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-12T00:31:40.891172",
+          "analyzed_at": "2025-11-12T06:12:39.665684",
           "token_usage": {
-            "prompt_tokens": 285,
-            "completion_tokens": 263,
-            "total_tokens": 548
+            "prompt_tokens": 202,
+            "completion_tokens": 290,
+            "total_tokens": 492
           }
         }
       },
       {
         "article": {
-          "id": "news_4_1762907374",
-          "title": "SoftBank Says It Sold Its Entire Nvidia Stake. The Chip Stock is Sliding. - Investopedia",
-          "description": "SoftBank Says It Sold Its Entire Nvidia Stake. The Chip Stock is Sliding.\u00a0\u00a0InvestopediaSoftBank sells its entire stake in Nvidia for $5.83 billion\u00a0\u00a0CNBCSoftBank Sells $5.8 Billion Stake in Nvidia to Pay for OpenAI Deals\u00a0\u00a0The New York TimesSoftBank fully cashed out its Nvidia stake for an even bigger AI bet\u00a0\u00a0MarketWatchSoftBank profit more than doubles to $16.6 billion on OpenAI gains\u00a0\u00a0Reuters",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOUTF6dU8wM2taekxKZTJha28zT243T3lIc0d1aE9JTHRlYlNzZWVpVDlmY1ctU1ZwVkVNZVVhZ0RXdUotWkMwbEhkT1RRdUp6ckpEdm9wQnoyeFFCM1YtQktOMGVHNnliSXVrbEpYOUhLQ1kyWUR0RFVidFVfRmtwbnZVc1RSQVg2bVk2aGw3MVZ1M09GVHprOURoYllWaHdobUZaRg?oc=5",
-          "source": "Investopedia",
-          "published": "Tue, 11 Nov 2025 17:27:37 GMT",
+          "id": "news_0_1762927858",
+          "title": "Flight disruptions will persist even after shutdown ends, airlines warn - The Washington Post",
+          "description": "Flight disruptions will persist even after shutdown ends, airlines warn\u00a0\u00a0The Washington PostPrivate Aviation Has Boomed During the Government Shutdown\u00a0\u00a0The New York TimesUS flight cancellations and delays to get worse even if shutdown ends\u00a0\u00a0The GuardianWill the flight cuts impact my Thanksgiving travel?\u00a0\u00a0USA TodayFlight cancellations up to 6% as FAA airport delays linger while shutdown bill advances\u00a0\u00a0NBC News",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQd3d2Mk5Xa29nZmlBZWhxUE1YWklaUTlCN1U2R3BrUEZ0MVJ3Vmh6NWZOMkQwWTBKLUo0ekFYMkZpdVlwUE5FNDRUVHNEZkhXVVpkbUpYQzJDem8yUGNLSWdmUjZCRVBya2xzZ0JtTTRpZEk2cmstcHhxVVkybWl0X2RXd2RITzhXbVVGV0xmSUpFZnRhRUctdEh3?oc=5",
+          "source": "The Washington Post",
+          "published": "Wed, 12 Nov 2025 04:43:34 GMT",
           "topic": "BUSINESS",
-          "fetched_at": "2025-11-12T00:29:34.809646"
+          "fetched_at": "2025-11-12T06:10:58.880558"
         },
         "analysis": {
-          "summary": "SoftBank has sold its entire $20 billion stake in Nvidia, a move reportedly made to fund its burgeoning AI ventures with companies like OpenAI. The stock market reacted negatively, with Nvidia shares dropping by 5% following the announcement, reflecting investor concerns about SoftBank's strategic shift and its implications on the company's future and the broader semiconductor industry.",
+          "summary": "Airlines warn that flight disruptions will continue even after the government shutdown ends, with the Federal Aviation Administration (FAA) facing staffing shortages due to furloughs. This situation has led to increased cancellations and delays, affecting holiday travel and causing significant inconvenience to passengers and airlines alike.",
           "key_points": [
-            "SoftBank sells its $20 billion Nvidia stake to invest in AI projects.",
-            "Nvidia's stock price drops by 5% following the announcement.",
-            "SoftBank's strategic pivot towards AI suggests a potential reshaping of its business portfolio."
+            "Airlines predict continued disruptions post-shutdown due to FAA staffing issues.",
+            "The government shutdown has caused significant flight cancellations and delays.",
+            "Holiday travel, particularly Thanksgiving, is severely impacted by the shutdown."
+          ],
+          "sentiment": "Negative",
+          "confidence": "High",
+          "bias_check": "The article may present a negative bias towards the government and its handling of the shutdown, focusing on the negative impacts without equally presenting any potential benefits or mitigating actions taken.",
+          "missing_context": "The article might not fully explore the reasons behind the shutdown and whether there are any broader economic or political benefits, if any, that might justify the current situation. It also lacks a perspective on how airlines are coping with the situation beyond just cancellations and delays.",
+          "implications": "The continuation of flight disruptions even after the shutdown could lead to long-term reputational damage for airlines, potential financial losses, and eroded consumer trust. It also highlights the vulnerability of critical infrastructure to political standoffs and the interconnectedness of government operations and public services.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-12T06:12:47.361571",
+          "token_usage": {
+            "prompt_tokens": 271,
+            "completion_tokens": 290,
+            "total_tokens": 561
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_1_1762927858",
+          "title": "World Energy Outlook 2025 \u2013 Analysis - IEA \u2013 International Energy Agency",
+          "description": "World Energy Outlook 2025 \u2013 Analysis\u00a0\u00a0IEA \u2013 International Energy AgencySupply boom in cheaper renewables will seal end of fossil fuel era, says IEA\u00a0\u00a0The GuardianThere\u2019s a New Forecast for Peak Oil Demand. It\u2019s Increasingly Cloudy.\u00a0\u00a0The New York TimesInfluential study sees momentum ebbing on cutting global CO2 emissions\u00a0\u00a0AxiosOil and gas demand to rise for 25 years without global change of course, says IEA\u00a0\u00a0Financial Times",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9iMkRMeVgwSW42N2t5S3hfMEd2VDZkWWN1elJITDJuX0VBVHZJc25HNDUwc3psYlhOeEFJcWUxRFRzcHhfc3JkN0pRNVgwSFhwcUphTEU1aGNWWlROOFp2a3lWdw?oc=5",
+          "source": "IEA \u2013 International Energy Agency",
+          "published": "Wed, 12 Nov 2025 05:00:00 GMT",
+          "topic": "BUSINESS",
+          "fetched_at": "2025-11-12T06:10:58.880590"
+        },
+        "analysis": {
+          "summary": "The IEA's World Energy Outlook 2025 highlights a significant shift towards cheaper renewable energy, suggesting an end to the fossil fuel era, although oil and gas demand is projected to rise over the next 25 years without global change, indicating continued reliance on these resources.",
+          "key_points": [
+            "Cheaper renewables are expected to become dominant, signaling an end to the fossil fuel era.",
+            "Oil and gas demand is projected to rise for the next 25 years without significant global change.",
+            "The momentum on cutting global CO2 emissions is reportedly slowing down."
           ],
           "sentiment": "Mixed",
           "confidence": "High",
-          "bias_check": "The article may present an optimistic view of SoftBank's move towards AI. It might also emphasize the negative market reaction without providing a balanced analysis of the potential long-term benefits of SoftBank's investment in AI.",
-          "missing_context": "The article does not provide SoftBank's specific reasons for selling the stake or the expected timeline for the AI investments. It also lacks details on SoftBank's financial health and how this sale might affect its overall strategy.",
-          "implications": "SoftBank's decision to divest from Nvidia could signal a broader industry trend where traditional tech companies shift focus towards AI and machine learning. It also raises questions about the sustainability of SoftBank's business model and its ability to successfully transition into AI-driven ventures.",
+          "bias_check": "The optimism about renewables may overshadow the challenges in transitioning away from fossil fuels. The article might underplay the complexities and potential barriers to reducing oil and gas demand.",
+          "missing_context": "The article does not provide information on the specific technologies or policies that would enable the transition to renewables. It also does not mention geopolitical factors, which can significantly impact energy markets and transitions.",
+          "implications": "The shift towards renewable energy could lead to economic and political changes, particularly in countries reliant on fossil fuel exports. However, the continued rise in oil and gas demand suggests that immediate and significant actions are needed globally to reduce carbon emissions and address climate change.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-12T00:31:48.907222",
+          "analyzed_at": "2025-11-12T06:12:54.795498",
           "token_usage": {
-            "prompt_tokens": 294,
-            "completion_tokens": 310,
-            "total_tokens": 604
+            "prompt_tokens": 293,
+            "completion_tokens": 285,
+            "total_tokens": 578
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_2_1762927858",
+          "title": "SoftBank\u2019s Shares Dive After Nvidia Sale Spooks AI-Wary Market - Bloomberg.com",
+          "description": "SoftBank\u2019s Shares Dive After Nvidia Sale Spooks AI-Wary Market\u00a0\u00a0Bloomberg.comSoftBank sells its entire stake in Nvidia for $5.83 billion\u00a0\u00a0CNBCTranscript: SoftBank divesting from Nvidia could be good, actually\u00a0\u00a0Financial TimesSoftBank's $5.8 billion Nvidia stake sale stirs fresh AI bubble fears\u00a0\u00a0ReutersSoftBank Sells $5.8 Billion Stake in Nvidia to Pay for OpenAI Deals\u00a0\u00a0The New York Times",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOR2FXeFdYNnB6eTFVT2J5S01CSzZYVEdpU2FCT3pZaXJabEZBYjFtNEROcjdFZi1FZTBmSnNxT0NITWhGcXBJQ2JMOWdRMUtqSjJZQ2N3RFZzU09PeFpzZGFIUFJrTXltTXJ1MllyVmZDTm9VQ1pEdWY0bXdjS1d3QVpEX0hRWUQ3OHBpeWk0SHhpaWY0UC1Pd3JMS1dhMDlsX194SDNLczNoZWRGNlVrak1USQ?oc=5",
+          "source": "Bloomberg.com",
+          "published": "Wed, 12 Nov 2025 04:37:00 GMT",
+          "topic": "BUSINESS",
+          "fetched_at": "2025-11-12T06:10:58.880611"
+        },
+        "analysis": {
+          "summary": "SoftBank's decision to sell its significant stake in Nvidia has triggered a negative reaction in the market, raising concerns about the potential burst of an AI bubble, despite the strategic move to divest and finance its forays into AI through OpenAI deals.",
+          "key_points": [
+            "SoftBank's $5.8 billion Nvidia stake sale is a strategic financial move that allows the company to focus on its AI ambitions.",
+            "The market's immediate negative reaction indicates a fear of an AI bubble that could burst, harming investors.",
+            "SoftBank's shift could signal a broader tech industry trend of re-evaluating investments in AI-driven companies."
+          ],
+          "sentiment": "Mixed",
+          "confidence": "High",
+          "bias_check": "The article's perspective may be biased towards market sentiment and might not fully account for SoftBank's long-term strategic goals or the potential positive outcomes of the Nvidia stake sale.",
+          "missing_context": "Details on the specific terms of SoftBank's agreement with Nvidia, the current state of SoftBank's financial health, and broader market trends in AI investments are not provided, which could affect the analysis.",
+          "implications": "SoftBank's sale of its Nvidia stake could lead to a reassessment of investment strategies by other companies in the AI sector, potentially affecting the market's stability and the direction of future AI innovations and investments.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-12T06:13:02.277897",
+          "token_usage": {
+            "prompt_tokens": 290,
+            "completion_tokens": 293,
+            "total_tokens": 583
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_3_1762927858",
+          "title": "Chick-Fil-A to test new menu item in Baltimore - WBFF",
+          "description": "Chick-Fil-A to test new menu item in Baltimore\u00a0\u00a0WBFFChick-fil-A to test two chicken and waffle sandwiches. See who's getting first bite.\u00a0\u00a0USA TodayChick-fil-A to test Chicken & Waffles sandwich in two cities\u00a0\u00a0YahooChick-Fil-A Wants To Introduce Chicken And Waffles, Lord Have Mercy\u00a0\u00a0OutKickChick-fil-A\u2019s New Test Menu Item Is What Fans Have Wanted \u2018For Years\u00a0\u00a0parade.com",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOQWRuYnY5a0JoYnAyUTNnTGpLUXdxRkRQS3lWd3REeENZN0ljSnVZc1RVOE9Kd1JLUG4zVzB5ZTJZM2xlYzBSclB0ZDF2TUl1YzdPN3hZZjJrc1k4dXh4WmNOc2EyRHZsX01lLXRlN3I5SVQ3dlVpa00xREdFeTdLWE5jT2hPaUhiY0lGRnhza1JqSmhPR3Rv?oc=5",
+          "source": "WBFF",
+          "published": "Tue, 11 Nov 2025 22:31:39 GMT",
+          "topic": "BUSINESS",
+          "fetched_at": "2025-11-12T06:10:58.880631"
+        },
+        "analysis": {
+          "summary": "Chick-Fil-A is testing a new Chicken & Waffles sandwich in Baltimore, a move that has excited long-time fans and sparked discussions about the brand's willingness to innovate. The test comes after a history of customer requests and reflects the fast-food chain's responsiveness to consumer interest.",
+          "key_points": [
+            "Chick-Fil-A is testing a new Chicken & Waffles sandwich in Baltimore.",
+            "The introduction of this item reflects customer demand and the brand's adaptability.",
+            "The test is being done in two cities, indicating a cautious approach to wider rollout."
+          ],
+          "sentiment": "positive",
+          "confidence": "high",
+          "bias_check": "The article may be biased towards promoting Chick-Fil-A's positive actions and innovation, without discussing any potential challenges or criticisms.",
+          "missing_context": "Details about the overall reception by customers and employees, as well as any logistical challenges faced during the test phase, are not provided.",
+          "implications": "This move could signal a shift in Chick-Fil-A's menu offerings towards more diverse and potentially more adult-oriented items, which might broaden its customer base but also challenge its brand identity.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-12T06:13:09.002522",
+          "token_usage": {
+            "prompt_tokens": 286,
+            "completion_tokens": 252,
+            "total_tokens": 538
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_4_1762927858",
+          "title": "Starbucks' barista strike could undermine its turnaround plan - BBC",
+          "description": "Starbucks' barista strike could undermine its turnaround plan\u00a0\u00a0BBCDowntown Disney Starbucks baristas are on strike and more SoCal locations could join them\u00a0\u00a0LAistStarbucks unionized workers say they'll strike on Nov. 13 if coffee giant doesn't finalize contract\u00a0\u00a0CBS NewsDowntown Disney Starbucks closed as baristas strike; other union stores may join\u00a0\u00a0KTLAUS lawmakers urge Starbucks CEO to restart union talks\u00a0\u00a0Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE00WEh5VXVjbS1vYWswczdCNXdFbUtETHJScUtXUVlZSVZtRnV4RmlTWG1sN2xIZlRPaWpTVEdaNUdtald0WHJTRVFmaVp0LWhCVEhHbzA1ODdwQdIBX0FVX3lxTE9vUWpwYzZhRG5ybUQ4ZGlFSjU1dHp6OFhhTm9GcXNRNDBRZUVNUjhpTlRCRUtyUjlwX3FFUENDOTM3YmkzSUp4b2RhLTctQkp6bkJrQzRYTm4wZjBWTXFz?oc=5",
+          "source": "BBC",
+          "published": "Wed, 12 Nov 2025 00:04:20 GMT",
+          "topic": "BUSINESS",
+          "fetched_at": "2025-11-12T06:10:58.880666"
+        },
+        "analysis": {
+          "summary": "The barista strike at Starbucks, set to escalate with potential expansion to more locations, poses significant risks to the company's efforts to recover from its financial struggles. Unionized workers are threatening to strike again if their contract issues remain unresolved, thereby threatening the smooth operation of the Starbucks turnaround plan.",
+          "key_points": [
+            "Barista strikes at Starbucks threaten the company's turnaround efforts.",
+            "Unionized workers are prepared to take industrial action again, impacting multiple locations.",
+            "Legislators are involved in trying to mediate the conflict between Starbucks management and unionized employees."
+          ],
+          "sentiment": "Negative",
+          "confidence": "High",
+          "bias_check": "The article may present a biased view emphasizing conflict rather than exploring the complexities of labor relations and corporate strategies. It also might not include Starbucks' perspective on the negotiations.",
+          "missing_context": "Details about the specific contract issues, Starbucks' financial status and the broader economic context affecting retail businesses, and the union's perspective on the negotiations could add depth to the analysis.",
+          "implications": "The ongoing labor dispute could affect Starbucks' brand reputation, financial performance, and operational efficiency. It may also set a precedent for other companies facing similar labor issues, influencing industry-wide strategies for handling union negotiations and worker relations.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-12T06:13:16.217054",
+          "token_usage": {
+            "prompt_tokens": 274,
+            "completion_tokens": 274,
+            "total_tokens": 548
           }
         }
       }
@@ -511,19 +510,19 @@
     "articles_analyzed": 15
   },
   "costs": {
-    "execution_time": 119.7251763343811,
-    "execution_minutes": 1.9954196055730185,
-    "github_actions": 0.015963356844584147,
+    "execution_time": 121.68280386924744,
+    "execution_minutes": 2.028046731154124,
+    "github_actions": 0.016224373849232993,
     "openai": {
-      "input": 0.00064725,
-      "output": 0.0025128,
-      "total": 0.00316005
+      "input": 0.000636,
+      "output": 0.0026316,
+      "total": 0.0032676
     },
-    "total": 0.019123406844584148,
+    "total": 0.019491973849232992,
     "token_usage": {
-      "prompt_tokens": 4315,
-      "completion_tokens": 4188,
-      "total_tokens": 8503
+      "prompt_tokens": 4240,
+      "completion_tokens": 4386,
+      "total_tokens": 8626
     }
   }
 }
