@@ -1,37 +1,360 @@
 {
   "agent": "agent-a-paper-fetcher",
-  "timestamp": "2025-11-11T09:03:27.097003",
+  "timestamp": "2025-11-12T09:04:17.490196",
   "status": "completed",
   "data": {
-    "papers": [],
-    "count": 0,
+    "papers": [
+      {
+        "id": "2012.13391v2",
+        "title": "I like fish, especially dolphins: Addressing Contradictions in Dialogue Modeling",
+        "authors": [
+          "Yixin Nie",
+          "Mary Williamson",
+          "Mohit Bansal",
+          "Douwe Kiela",
+          "Jason Weston"
+        ],
+        "abstract": "To quantify how well natural language understanding models can capture consistency in a general conversation, we introduce the DialoguE COntradiction DEtection task (DECODE) and a new conversational dataset containing both human-human and human-bot contradictory dialogues. We then compare a structured utterance-based approach of using pre-trained Transformer models for contradiction detection with the typical unstructured approach. Results reveal that: (i) our newly collected dataset is notably ...",
+        "published": "2020-12-24T18:47:49Z",
+        "updated": "2020-12-29T01:33:59Z",
+        "pdf_url": "https://arxiv.org/pdf/2012.13391v2",
+        "abs_url": "https://arxiv.org/abs/2012.13391v2",
+        "categories": [
+          "cs.CL",
+          "cs.AI",
+          "cs.LG"
+        ],
+        "primary_category": "cs.CL"
+      },
+      {
+        "id": "2012.14005v1",
+        "title": "Neural document expansion for ad-hoc information retrieval",
+        "authors": [
+          "Cheng Tang",
+          "Andrew Arnold"
+        ],
+        "abstract": "Recently, Nogueira et al. [2019] proposed a new approach to document expansion based on a neural Seq2Seq model, showing significant improvement on short text retrieval task. However, this approach needs a large amount of in-domain training data. In this paper, we show that this neural document expansion approach can be effectively adapted to standard IR tasks, where labels are scarce and many long documents are present....",
+        "published": "2020-12-27T20:00:08Z",
+        "updated": "2020-12-29T01:21:23Z",
+        "pdf_url": "https://arxiv.org/pdf/2012.14005v1",
+        "abs_url": "https://arxiv.org/abs/2012.14005v1",
+        "categories": [
+          "cs.IR",
+          "cs.AI",
+          "cs.CL",
+          "cs.LG"
+        ],
+        "primary_category": "cs.IR"
+      },
+      {
+        "id": "1905.02019v1",
+        "title": "Conditioning LSTM Decoder and Bi-directional Attention Based Question Answering System",
+        "authors": [
+          "Heguang Liu"
+        ],
+        "abstract": "Applying neural-networks on Question Answering has gained increasing popularity in recent years. In this paper, I implemented a model with Bi-directional attention flow layer, connected with a Multi-layer LSTM encoder, connected with one start-index decoder and one conditioning end-index decoder. I introduce a new end-index decoder layer, conditioning on start-index output. The Experiment shows this has increased model performance by 15.16%. For prediction, I proposed a new smart-span equation, ...",
+        "published": "2019-05-02T01:07:20Z",
+        "updated": "2019-05-07T00:35:02Z",
+        "pdf_url": "https://arxiv.org/pdf/1905.02019v1",
+        "abs_url": "https://arxiv.org/abs/1905.02019v1",
+        "categories": [
+          "cs.CL",
+          "cs.AI",
+          "cs.LG",
+          "stat.ML"
+        ],
+        "primary_category": "cs.CL"
+      },
+      {
+        "id": "1904.12848v6",
+        "title": "Unsupervised Data Augmentation for Consistency Training",
+        "authors": [
+          "Qizhe Xie",
+          "Zihang Dai",
+          "Eduard Hovy",
+          "Minh-Thang Luong",
+          "Quoc V. Le"
+        ],
+        "abstract": "Semi-supervised learning lately has shown much promise in improving deep learning models when labeled data is scarce. Common among recent approaches is the use of consistency training on a large amount of unlabeled data to constrain model predictions to be invariant to input noise. In this work, we present a new perspective on how to effectively noise unlabeled examples and argue that the quality of noising, specifically those produced by advanced data augmentation methods, plays a crucial role ...",
+        "published": "2019-04-29T17:56:59Z",
+        "updated": "2020-11-06T01:20:16Z",
+        "pdf_url": "https://arxiv.org/pdf/1904.12848v6",
+        "abs_url": "https://arxiv.org/abs/1904.12848v6",
+        "categories": [
+          "cs.LG",
+          "cs.AI",
+          "cs.CL",
+          "cs.CV",
+          "stat.ML"
+        ],
+        "primary_category": "cs.LG"
+      },
+      {
+        "id": "2006.04702v3",
+        "title": "CycleGT: Unsupervised Graph-to-Text and Text-to-Graph Generation via Cycle Training",
+        "authors": [
+          "Qipeng Guo",
+          "Zhijing Jin",
+          "Xipeng Qiu",
+          "Weinan Zhang",
+          "David Wipf"
+        ],
+        "abstract": "Two important tasks at the intersection of knowledge graphs and natural language processing are graph-to-text (G2T) and text-to-graph (T2G) conversion. Due to the difficulty and high cost of data collection, the supervised data available in the two fields are usually on the magnitude of tens of thousands, for example, 18K in the WebNLG~2017 dataset after preprocessing, which is far fewer than the millions of data for other tasks such as machine translation. Consequently, deep learning models for...",
+        "published": "2020-06-08T15:59:00Z",
+        "updated": "2020-12-11T01:00:58Z",
+        "pdf_url": "https://arxiv.org/pdf/2006.04702v3",
+        "abs_url": "https://arxiv.org/abs/2006.04702v3",
+        "categories": [
+          "cs.CL",
+          "cs.AI",
+          "cs.LG"
+        ],
+        "primary_category": "cs.CL"
+      },
+      {
+        "id": "2006.08331v1",
+        "title": "Probing Neural Dialog Models for Conversational Understanding",
+        "authors": [
+          "Abdelrhman Saleh",
+          "Tovly Deutsch",
+          "Stephen Casper",
+          "Yonatan Belinkov",
+          "Stuart Shieber"
+        ],
+        "abstract": "The predominant approach to open-domain dialog generation relies on end-to-end training of neural models on chat datasets. However, this approach provides little insight as to what these models learn (or do not learn) about engaging in dialog. In this study, we analyze the internal representations learned by neural open-domain dialog systems and evaluate the quality of these representations for learning basic conversational skills. Our results suggest that standard open-domain dialog systems str...",
+        "published": "2020-06-07T17:32:00Z",
+        "updated": "2020-08-04T00:02:37Z",
+        "pdf_url": "https://arxiv.org/pdf/2006.08331v1",
+        "abs_url": "https://arxiv.org/abs/2006.08331v1",
+        "categories": [
+          "cs.CL",
+          "cs.AI",
+          "cs.LG",
+          "stat.ML"
+        ],
+        "primary_category": "cs.CL"
+      },
+      {
+        "id": "2006.05986v2",
+        "title": "ClarQ: A large-scale and diverse dataset for Clarification Question Generation",
+        "authors": [
+          "Vaibhav Kumar",
+          "Alan W. black"
+        ],
+        "abstract": "Question answering and conversational systems are often baffled and need help clarifying certain ambiguities. However, limitations of existing datasets hinder the development of large-scale models capable of generating and utilising clarification questions. In order to overcome these limitations, we devise a novel bootstrapping framework (based on self-supervision) that assists in the creation of a diverse, large-scale dataset of clarification questions based on post-comment tuples extracted fro...",
+        "published": "2020-06-10T17:56:50Z",
+        "updated": "2020-06-12T00:21:14Z",
+        "pdf_url": "https://arxiv.org/pdf/2006.05986v2",
+        "abs_url": "https://arxiv.org/abs/2006.05986v2",
+        "categories": [
+          "cs.CL",
+          "cs.AI",
+          "cs.LG"
+        ],
+        "primary_category": "cs.CL"
+      },
+      {
+        "id": "2006.05635v1",
+        "title": "Data Augmentation for Training Dialog Models Robust to Speech Recognition Errors",
+        "authors": [
+          "Longshaokan Wang",
+          "Maryam Fazel-Zarandi",
+          "Aditya Tiwari",
+          "Spyros Matsoukas",
+          "Lazaros Polymenakos"
+        ],
+        "abstract": "Speech-based virtual assistants, such as Amazon Alexa, Google assistant, and Apple Siri, typically convert users' audio signals to text data through automatic speech recognition (ASR) and feed the text to downstream dialog models for natural language understanding and response generation. The ASR output is error-prone; however, the downstream dialog models are often trained on error-free text data, making them sensitive to ASR errors during inference time. To bridge the gap and make dialog model...",
+        "published": "2020-06-10T03:18:15Z",
+        "updated": "2020-06-11T00:24:39Z",
+        "pdf_url": "https://arxiv.org/pdf/2006.05635v1",
+        "abs_url": "https://arxiv.org/abs/2006.05635v1",
+        "categories": [
+          "cs.CL",
+          "cs.AI",
+          "cs.LG"
+        ],
+        "primary_category": "cs.CL"
+      },
+      {
+        "id": "2007.08557v1",
+        "title": "Unsupervised Text Generation by Learning from Search",
+        "authors": [
+          "Jingjing Li",
+          "Zichao Li",
+          "Lili Mou",
+          "Xin Jiang",
+          "Michael R. Lyu"
+        ],
+        "abstract": "In this work, we present TGLS, a novel framework to unsupervised Text Generation by Learning from Search. We start by applying a strong search algorithm (in particular, simulated annealing) towards a heuristically defined objective that (roughly) estimates the quality of sentences. Then, a conditional generative model learns from the search results, and meanwhile smooth out the noise of search. The alternation between search and learning can be repeated for performance bootstrapping. We demonstr...",
+        "published": "2020-07-09T04:34:48Z",
+        "updated": "2020-07-20T00:01:24Z",
+        "pdf_url": "https://arxiv.org/pdf/2007.08557v1",
+        "abs_url": "https://arxiv.org/abs/2007.08557v1",
+        "categories": [
+          "cs.CL",
+          "cs.AI",
+          "cs.IR",
+          "cs.LG",
+          "stat.ML"
+        ],
+        "primary_category": "cs.CL"
+      },
+      {
+        "id": "2010.04736v1",
+        "title": "Evaluating and Characterizing Human Rationales",
+        "authors": [
+          "Samuel Carton",
+          "Anirudh Rathore",
+          "Chenhao Tan"
+        ],
+        "abstract": "Two main approaches for evaluating the quality of machine-generated rationales are: 1) using human rationales as a gold standard; and 2) automated metrics based on how rationales affect model behavior. An open question, however, is how human rationales fare with these automatic metrics. Analyzing a variety of datasets and models, we find that human rationales do not necessarily perform well on these metrics. To unpack this finding, we propose improved metrics to account for model-dependent basel...",
+        "published": "2020-10-09T18:00:04Z",
+        "updated": "2020-10-13T00:00:30Z",
+        "pdf_url": "https://arxiv.org/pdf/2010.04736v1",
+        "abs_url": "https://arxiv.org/abs/2010.04736v1",
+        "categories": [
+          "cs.CL",
+          "cs.AI",
+          "cs.CY",
+          "cs.HC",
+          "cs.LG"
+        ],
+        "primary_category": "cs.CL"
+      },
+      {
+        "id": "2010.05738v1",
+        "title": "Using Type Information to Improve Entity Coreference Resolution",
+        "authors": [
+          "Sopan Khosla",
+          "Carolyn Rose"
+        ],
+        "abstract": "Coreference resolution (CR) is an essential part of discourse analysis. Most recently, neural approaches have been proposed to improve over SOTA models from earlier paradigms. So far none of the published neural models leverage external semantic knowledge such as type information. This paper offers the first such model and evaluation, demonstrating modest gains in accuracy by introducing either gold standard or predicted types. In the proposed approach, type information serves both to (1) improv...",
+        "published": "2020-10-12T14:32:39Z",
+        "updated": "2020-10-13T00:37:52Z",
+        "pdf_url": "https://arxiv.org/pdf/2010.05738v1",
+        "abs_url": "https://arxiv.org/abs/2010.05738v1",
+        "categories": [
+          "cs.CL",
+          "cs.AI",
+          "cs.LG"
+        ],
+        "primary_category": "cs.CL"
+      },
+      {
+        "id": "2010.16357v1",
+        "title": "A Cross-lingual Natural Language Processing Framework for Infodemic Management",
+        "authors": [
+          "Ridam Pal",
+          "Rohan Pandey",
+          "Vaibhav Gautam",
+          "Kanav Bhagat",
+          "Tavpritesh Sethi"
+        ],
+        "abstract": "The COVID-19 pandemic has put immense pressure on health systems which are further strained due to the misinformation surrounding it. Under such a situation, providing the right information at the right time is crucial. There is a growing demand for the management of information spread using Artificial Intelligence. Hence, we have exploited the potential of Natural Language Processing for identifying relevant information that needs to be disseminated amongst the masses. In this work, we present ...",
+        "published": "2020-10-30T16:26:35Z",
+        "updated": "2020-11-02T01:22:59Z",
+        "pdf_url": "https://arxiv.org/pdf/2010.16357v1",
+        "abs_url": "https://arxiv.org/abs/2010.16357v1",
+        "categories": [
+          "cs.CL",
+          "cs.AI",
+          "cs.LG"
+        ],
+        "primary_category": "cs.CL"
+      },
+      {
+        "id": "2010.02847v2",
+        "title": "Robustness and Reliability of Gender Bias Assessment in Word Embeddings: The Role of Base Pairs",
+        "authors": [
+          "Haiyang Zhang",
+          "Alison Sneyd",
+          "Mark Stevenson"
+        ],
+        "abstract": "It has been shown that word embeddings can exhibit gender bias, and various methods have been proposed to quantify this. However, the extent to which the methods are capturing social stereotypes inherited from the data has been debated. Bias is a complex concept and there exist multiple ways to define it. Previous work has leveraged gender word pairs to measure bias and extract biased analogies. We show that the reliance on these gendered pairs has strong limitations: bias measures based off of ...",
+        "published": "2020-10-06T16:09:05Z",
+        "updated": "2020-10-29T00:05:48Z",
+        "pdf_url": "https://arxiv.org/pdf/2010.02847v2",
+        "abs_url": "https://arxiv.org/abs/2010.02847v2",
+        "categories": [
+          "cs.CL",
+          "cs.AI",
+          "cs.LG"
+        ],
+        "primary_category": "cs.CL"
+      },
+      {
+        "id": "2010.02495v2",
+        "title": "Joint Turn and Dialogue level User Satisfaction Estimation on Multi-Domain Conversations",
+        "authors": [
+          "Praveen Kumar Bodigutla",
+          "Aditya Tiwari",
+          "Josep Valls Vargas",
+          "Lazaros Polymenakos",
+          "Spyros Matsoukas"
+        ],
+        "abstract": "Dialogue level quality estimation is vital for optimizing data driven dialogue management. Current automated methods to estimate turn and dialogue level user satisfaction employ hand-crafted features and rely on complex annotation schemes, which reduce the generalizability of the trained models. We propose a novel user satisfaction estimation approach which minimizes an adaptive multi-task loss function in order to jointly predict turn-level Response Quality labels provided by experts and explic...",
+        "published": "2020-10-06T05:53:13Z",
+        "updated": "2020-10-12T00:04:19Z",
+        "pdf_url": "https://arxiv.org/pdf/2010.02495v2",
+        "abs_url": "https://arxiv.org/abs/2010.02495v2",
+        "categories": [
+          "cs.CL",
+          "cs.AI",
+          "cs.LG"
+        ],
+        "primary_category": "cs.CL"
+      },
+      {
+        "id": "2010.01794v2",
+        "title": "GenAug: Data Augmentation for Finetuning Text Generators",
+        "authors": [
+          "Steven Y. Feng",
+          "Varun Gangal",
+          "Dongyeop Kang",
+          "Teruko Mitamura",
+          "Eduard Hovy"
+        ],
+        "abstract": "In this paper, we investigate data augmentation for text generation, which we call GenAug. Text generation and language modeling are important tasks within natural language processing, and are especially challenging for low-data regimes. We propose and evaluate various augmentation methods, including some that incorporate external knowledge, for finetuning GPT-2 on a subset of Yelp Reviews. We also examine the relationship between the amount of augmentation and the quality of the generated text....",
+        "published": "2020-10-05T05:46:39Z",
+        "updated": "2020-10-13T00:07:42Z",
+        "pdf_url": "https://arxiv.org/pdf/2010.01794v2",
+        "abs_url": "https://arxiv.org/abs/2010.01794v2",
+        "categories": [
+          "cs.CL",
+          "cs.AI",
+          "cs.LG"
+        ],
+        "primary_category": "cs.CL"
+      }
+    ],
+    "count": 15,
     "categories": [
       "cs.AI",
       "cs.LG",
       "cs.CL"
     ],
-    "fetch_date": "2025-11-11"
+    "fetch_date": "2025-11-12"
   },
   "metadata": {
     "source": "arXiv API",
     "query": "cat:cs.AI OR cat:cs.LG OR cat:cs.CL",
     "deduplication": {
       "total_fetched": 15,
-      "new_papers": 0,
-      "duplicates_filtered": 15,
-      "last_fetch": "2025-11-11T04:16:35.113437"
+      "new_papers": 15,
+      "duplicates_filtered": 0,
+      "last_fetch": "2025-11-11T09:03:27.097003"
     }
   },
   "costs": {
-    "execution_time": 0.22861385345458984,
-    "execution_minutes": 0.0038102308909098307,
-    "github_actions": 3.0481847127278646e-05,
+    "execution_time": 0.3721628189086914,
+    "execution_minutes": 0.00620271364847819,
+    "github_actions": 4.962170918782552e-05,
     "openai": {
       "input": 0,
       "output": 0,
       "total": 0
     },
-    "total": 3.0481847127278646e-05,
+    "total": 4.962170918782552e-05,
     "token_usage": {}
   }
 }
