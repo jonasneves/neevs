@@ -2,503 +2,503 @@
   "agent": "phi-analyzer",
   "model": "Phi-4 Mini",
   "model_id": "microsoft/phi-4-mini-instruct",
-  "timestamp": "2025-11-13T00:31:52.060447",
+  "timestamp": "2025-11-13T06:13:25.667028",
   "status": "completed",
   "data": {
     "analyses": [
       {
         "article": {
-          "id": "news_0_1762993781",
+          "id": "news_0_1763014268",
           "title": "Steam's new VR headset, Steam Frame, will support Android games - GamesIndustry.biz",
-          "description": "Steam's new VR headset, Steam Frame, will support Android games\u00a0\u00a0GamesIndustry.bizValve Announces Next-Gen Steam Machine, Says It's 'Over 6x More Powerful Than Steam Deck,' but There's No Price Yet\u00a0\u00a0IGNOur first look at the Steam Machine, Valve\u2019s ambitious new game console\u00a0\u00a0The VergeValve Announces Steam Machine, a New Video-Game Console\u00a0\u00a0Bloomberg.comI Tried Valve's Steam Frame, Machine and Controller: SteamOS Is Coming for Your Face and TV\u00a0\u00a0CNET",
+          "description": "Steam's new VR headset, Steam Frame, will support Android games\u00a0\u00a0GamesIndustry.bizSteam Machine Hands-On: First Impressions of Valve\u2019s New Console-Like Gaming PC\u00a0\u00a0IGNOur first look at the Steam Machine, Valve\u2019s ambitious new game console\u00a0\u00a0The VergeValve Announces Steam Machine, a New Video-Game Console\u00a0\u00a0Bloomberg.comPhil Spencer reminds everyone that Xbox is 'one of the largest publishers on Steam' as he congratulates Valve on its new hardware with all the enthusiasm of a man paying his taxes\u00a0\u00a0P",
           "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOTndDb01VcDFoRDNCWU1vd1BjclRyUEMzbjNYLWJKMUpDVHlMWlRmdzR1MlhrdUZDM1QzbDI4N1pfQjZYQ2N2ZnluWWJlM21vZDlQZEZlSTZoRkIxeWhrZHpXbTZWYXloQUtLNGNOU2Z5Tm1UUWRDak1iWU1XbUl6cEI0Yk9tdUs5MFRMb2JRc0s5LThG?oc=5",
           "source": "GamesIndustry.biz",
           "published": "Wed, 12 Nov 2025 21:43:14 GMT",
           "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-13T00:29:41.543386"
+          "fetched_at": "2025-11-13T06:11:08.317368"
         },
         "analysis": {
-          "summary": "Steam's new VR headset, Steam Frame, will bring Android games into the VR space, marking a significant expansion of the platform's capabilities. This move by Valve could potentially disrupt the VR market and change the way we engage with mobile and PC games in an immersive environment.",
+          "summary": "Steam's new VR headset, Steam Frame, is set to support Android games, potentially expanding the range of VR experiences available to gamers. This move may bolster Valve's position in the competitive VR market alongside companies like Oculus and HTC.",
           "key_points": [
-            "Steam Frame will support Android games, expanding its gaming library.",
-            "Valve's Steam Frame may challenge existing VR headsets by combining mobile and PC gaming experiences.",
-            "The announcement doesn't include pricing information, leaving consumers uncertain about investment."
+            "Steam Frame will support Android games, increasing its versatility.",
+            "Valve's Steam Machine is Valve's entry into the gaming console market.",
+            "Phil Spencer's comment highlights Xbox's significant presence on Steam despite Valve's new hardware."
           ],
           "sentiment": "Mixed",
           "confidence": "High",
-          "bias_check": "The article may lean towards excitement for Valve's innovation, which could overshadow potential drawbacks or criticisms from the industry.",
-          "missing_context": "Details about the technical specifications of Steam Frame, user reviews, and comparisons to existing VR headsets are missing.",
-          "implications": "Steam Frame could lead to increased adoption of VR technology and potentially alter the mobile gaming landscape by integrating with the Steam platform, influencing how games are developed and marketed.",
+          "bias_check": "The article may be biased towards Valve, given it comes from GamesIndustry.biz, which might have more positive coverage of Valve's initiatives compared to competitors.",
+          "missing_context": "The article does not mention potential competitors' responses or Valve's strategic goals beyond expanding their VR offerings. The impact on Valve's financial performance and market share is also not discussed.",
+          "implications": "Steam Frame's support for Android games could drive more developers to use Valve's platform, potentially increasing its market share in the VR space. This move might also intensify competition among VR headset manufacturers.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-13T00:30:02.607095",
+          "analyzed_at": "2025-11-13T06:11:31.254150",
           "token_usage": {
-            "prompt_tokens": 298,
-            "completion_tokens": 232,
-            "total_tokens": 530
+            "prompt_tokens": 303,
+            "completion_tokens": 251,
+            "total_tokens": 554
           }
         }
       },
       {
         "article": {
-          "id": "news_1_1762993781",
-          "title": "OpenAI says the brand-new GPT-5.1 is \u2018warmer\u2019 and has more \u2018personality\u2019 options - The Verge",
-          "description": "OpenAI says the brand-new GPT-5.1 is \u2018warmer\u2019 and has more \u2018personality\u2019 options\u00a0\u00a0The VergeGPT-5.1: A smarter, more conversational ChatGPT\u00a0\u00a0OpenAIOpenAI reboots ChatGPT experience with GPT-5.1 after mixed reviews of GPT-5\u00a0\u00a0VentureBeatOpenAI rolls out new ChatGPT personalities and speed updates\u00a0\u00a0AxiosOpenAI walks a tricky tightrope with GPT-5.1\u2019s eight new personalities\u00a0\u00a0Ars Technica",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQb044OUMyd2tkM3NyOUpnRGJYRjZGM2JNQ1FlMlhycm5nanBHMnNIS2VpMWlLYm9PZzdNRFo0WDlKVl9fZnF2STZxLTZZcE1yb3Facmc4ZXUwN1htcUE1OHpPYXk5UDBXWVlZemxqNUVQOElyR21YOU41aF9RX2RDdUNwcDByQQ?oc=5",
-          "source": "The Verge",
-          "published": "Wed, 12 Nov 2025 19:00:00 GMT",
+          "id": "news_1_1763014268",
+          "title": "Here\u2019s how to photograph the northern lights lighting up St. Louis skies this week - STLPR",
+          "description": "Here\u2019s how to photograph the northern lights lighting up St. Louis skies this week\u00a0\u00a0STLPRHow to Capture the Northern Lights With Just Your Smartphone\u00a0\u00a0The New York TimesNorthern lights tonight: How to best capture the aurora borealis on your phone\u00a0\u00a0FOX 4 News Dallas-Fort WorthHow to take photos of northern lights on your phone. Change your settings to this\u00a0\u00a0IndyStarYes, the northern lights could return to South Texas tonight. These tips will help you get the best photos on your phone.\u00a0\u00a0kens5.com",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWXdBZDA5ME8zWjI0OUZPQ05zb29pM0pMX2N6MFF2RnhmNXZGME1LakdZQV9SN1JGaG1FLUd0THl6Y0pEUFo2akpmN0RSaVdENFZKS2RVYzFnZ3lJeUFCU2ZtN2Rmc0FzdnZpYkI5TmNMckttaFdueTdwai13SDR5V1FmMkYxajlKeHFRcFE5d3g5ZThkZzlFUzdjbHVtWEpaeEpJREwwZ3kwRGE4?oc=5",
+          "source": "STLPR",
+          "published": "Wed, 12 Nov 2025 22:36:14 GMT",
           "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-13T00:29:41.543417"
+          "fetched_at": "2025-11-13T06:11:08.317400"
         },
         "analysis": {
-          "summary": "OpenAI's GPT-5.1 introduces improved conversational abilities, offering more personalities and addressing previous mixed reviews, aiming to enhance user engagement and experience.",
+          "summary": "The article offers practical advice on how to photograph the northern lights using smartphones, with resources from various news outlets providing tips on camera settings and location scouting. It includes references to the northern lights potentially appearing in St. Louis and South Texas, which is unusual given the natural phenomenon's typical geolocation range.",
           "key_points": [
-            "GPT-5.1 features eight new personalities for a more diverse and engaging interaction.",
-            "The new iteration is designed to be 'warmer' and more relatable, potentially addressing past criticisms.",
-            "OpenAI aims to refine ChatGPT's performance with updates in speed and conversational quality."
+            "Photographing northern lights requires specific camera settings, potentially different from smartphone default settings.",
+            "The northern lights are not limited to their traditional locations and may appear in unusual places, such as St. Louis and South Texas.",
+            "Multiple sources, including national news and local media, are providing tips for capturing the aurora borealis."
           ],
-          "sentiment": "Positive",
-          "confidence": "High",
-          "bias_check": "The article may present an optimistic view of the update without fully addressing potential shortcomings or user concerns that remain unresolved. The language used (e.g., 'warmer,' 'more personality') could be seen as marketing-driven rather than objective.",
-          "missing_context": "Details on how these updates specifically address previous criticisms are lacking. There is no mention of any ongoing issues with the new version or user feedback from early adopters. Comparing the improvements quantitatively or qualitatively to previous versions would provide a fuller picture.",
-          "implications": "The introduction of GPT-5.1 with enhanced personalities could lead to increased adoption and satisfaction among users, boosting OpenAI's reputation in AI conversational interfaces. It may also set a new standard for personalized AI interactions. However, it's crucial to monitor how these changes affect user trust and the ethical use of AI in communication.",
+          "sentiment": "mixed",
+          "confidence": "high",
+          "bias_check": "Potential biases may include sensationalism regarding the occurrence of northern lights in areas where they are typically not seen, which could mislead readers.",
+          "missing_context": "Important context about the rarity and scientific explanation for the northern lights appearing in unexpected locations should be included to avoid misleading readers.",
+          "implications": "The story could lead to increased public interest in photographing the northern lights but may also spread misinformation regarding their common locations. It's crucial for readers to understand the conditions under which such phenomena are usually visible.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-13T00:30:10.666874",
+          "analyzed_at": "2025-11-13T06:11:38.401606",
           "token_usage": {
-            "prompt_tokens": 310,
-            "completion_tokens": 306,
-            "total_tokens": 616
+            "prompt_tokens": 308,
+            "completion_tokens": 273,
+            "total_tokens": 581
           }
         }
       },
       {
         "article": {
-          "id": "news_2_1762993781",
-          "title": "Sony made an official 240Hz PlayStation monitor with a built-in DualSense charging hook - Engadget",
-          "description": "Sony made an official 240Hz PlayStation monitor with a built-in DualSense charging hook\u00a0\u00a0EngadgetFirst look at PlayStation\u2019s 27\u201d Gaming Monitor\u00a0\u00a0PlayStation.BlogSony Unveils 27-Inch, 240Hz PlayStation Monitor That Charges Your PS5 Controller\u00a0\u00a0CNETSony Announces 27-inch PlayStation Monitor, With VRR Support And DualSense Charging Hook\u00a0\u00a0IGNSony\u2019s new PlayStation gaming monitor has a charging stand for the DualSense controller\u00a0\u00a0The Verge",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQUTJXX1EyQ1NnUm41ZVByRVZXQ2R0eENzTXpDR1BxNmNqTzBsMGQzbnNnRVJxQ0JlWmpvWS03dW1WNkVHZGk3X1RJd2o1Z3J4LVVSSWZKNjBERDl4OHhkaWdNbXhvYXAwUE9UNW0wUVViUVczOHhJeFRfYjE0M0hWYjRJWERkR0NVSURXaHpIb19zMTBfUFhFUkJHZm9PNGRwYVh0bDBlWUItQncweFZMNTNhQ2doZUJJT2h2NzZ6enNzRzNXYnFUTHdyRUpIQ0lXNTRTOTJPUVZxT25iMWY0?oc=5",
-          "source": "Engadget",
-          "published": "Tue, 11 Nov 2025 23:06:59 GMT",
+          "id": "news_2_1763014268",
+          "title": "Sony\u2019s new PlayStation gaming monitor has a charging stand for the DualSense controller - The Verge",
+          "description": "Sony\u2019s new PlayStation gaming monitor has a charging stand for the DualSense controller\u00a0\u00a0The VergeFirst look at PlayStation\u2019s 27\u201d Gaming Monitor\u00a0\u00a0PlayStation.BlogSony made an official 240Hz PlayStation monitor with a built-in DualSense charging hook\u00a0\u00a0EngadgetSony Unveils 27-Inch, 240Hz PlayStation Monitor That Charges Your PS5 Controller\u00a0\u00a0CNETSony Announces 27-inch PlayStation Monitor, With VRR Support And DualSense Charging Hook\u00a0\u00a0IGN",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNlRQVXI0Y1lhajNGRUJhSEtiQml6OWF6WlRKUWhkb0R4QUZIc2ZNalRZMjc5NEtFVnVRdmJURF9pTnVnM2pVTzVYOEJlMk95SmRZd3JlVVFfNkZEbFJoNjU5NHFLYS1aejdZMGxDRkpVOWZ1Vzgwc2pZZ2lxbFdtZDNyUkE4b0J6WnBTTjhQQTQxdVAtcENLd3hXV2hTQzFDTk5weTlGb2dTZw?oc=5",
+          "source": "The Verge",
+          "published": "Wed, 12 Nov 2025 13:58:33 GMT",
           "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-13T00:29:41.543439"
+          "fetched_at": "2025-11-13T06:11:08.317422"
         },
         "analysis": {
-          "summary": "Sony unveiled an official 240Hz PlayStation monitor that includes a built-in DualSense charging hook, enhancing the gaming experience by reducing input lag and providing convenient charging for the PS5 controller. The monitor also features VRR (Variable Refresh Rate) support, making it a significant upgrade for gamers seeking a high-performance setup.",
+          "summary": "Sony's latest PlayStation monitor, the 27-inch 240Hz Gaming Monitor, introduces a charging stand for the DualSense controller, enhancing the user experience for gamers. This monitor, which also supports VRR and features a 240Hz refresh rate, is Sony's first official PlayStation gaming monitor designed to fully integrate with the PS5 ecosystem.",
           "key_points": [
-            "Official 240Hz PlayStation monitor release by Sony with DualSense charging hook.",
-            "Included VRR support for smoother gameplay.",
-            "Designed to reduce input lag, offering an enhanced gaming experience."
+            "Sony's 27-inch 240Hz PlayStation gaming monitor features a built-in charging stand for the DualSense controller.",
+            "The monitor supports VRR (Variable Refresh Rate), enhancing gaming performance.",
+            "This is the first official PlayStation monitor from Sony, designed to complement the PS5."
           ],
           "sentiment": "positive",
           "confidence": "high",
-          "bias_check": "Potential bias due to the positive association with Sony products and the anticipation of an enhanced gaming experience.",
-          "missing_context": "Market competition and how this new monitor compares to similar offerings from other companies.",
-          "implications": "This development could set a new standard for PlayStation monitors, possibly driving competitors to enhance their own gaming solutions, thereby benefiting gamers with improved performance and convenience.",
+          "bias_check": "The article may favor Sony's product by focusing on its innovative features without comparing it to competing monitors on the market.",
+          "missing_context": "There is no mention of the price of the monitor, its availability, or how it compares in terms of performance and features with other existing gaming monitors.",
+          "implications": "The launch of this monitor could set a new standard for PlayStation accessories, encouraging Sony to further integrate their hardware and software ecosystems. It may also influence other companies to innovate similarly.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-13T00:30:17.221897",
+          "analyzed_at": "2025-11-13T06:11:45.599218",
           "token_usage": {
-            "prompt_tokens": 302,
-            "completion_tokens": 224,
+            "prompt_tokens": 299,
+            "completion_tokens": 274,
+            "total_tokens": 573
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_3_1763014268",
+          "title": "OpenAI walks a tricky tightrope with GPT-5.1\u2019s eight new personalities - Ars Technica",
+          "description": "OpenAI walks a tricky tightrope with GPT-5.1\u2019s eight new personalities\u00a0\u00a0Ars TechnicaAvailable now: GPT-5.1 in Microsoft Copilot Studio\u00a0\u00a0MicrosoftOpenAI rolls out new ChatGPT personalities and speed updates\u00a0\u00a0AxiosOpenAI reboots ChatGPT experience with GPT-5.1 after mixed reviews of GPT-5\u00a0\u00a0VenturebeatOpenAI says the brand-new GPT-5.1 is \u2018warmer\u2019 and has more \u2018personality\u2019 options\u00a0\u00a0The Verge",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxONVJKTE1mRkhTVVptUHRzdllCRUNadUlYRTRKOGQxU3ZwZ2JtZWNXSW5KTTNpOGIyUHVKdmZhNXdzQllySkJJRDJXYWVqbTgzalZNRGFURWh6MGtBV3E5NnRhY1o4cER4XzRKc2pmdmNEd1pyMGtON3JpUV9hOXkxMm5oWXdMVTdMZXBOdUVIOE9NbTBWa3pXRTRSTUxlajNnemRZcHZzdmk?oc=5",
+          "source": "Ars Technica",
+          "published": "Wed, 12 Nov 2025 22:54:47 GMT",
+          "topic": "TECHNOLOGY",
+          "fetched_at": "2025-11-13T06:11:08.317445"
+        },
+        "analysis": {
+          "summary": "{\n  \"summary\": \"OpenAI's release of GPT-5.1 with eight new personalities and speed updates aims to address mixed reviews by improving the 'warmer' and more personable user experience, as it rolls out in Microsoft Copilot Studio.\"\n\n  \"key_points\": [\n    \"GPT-5.1 introduces eight new personalities to ",
+          "key_points": [
+            "{\n  \"summary\": \"OpenAI's release of GPT-5.1 with eight new personalities and speed updates aims to address mixed reviews by improving the 'warmer' and more personable user experience, as it rolls out in Microsoft Copilot Studio.\"\n\n  \"key_points\": [\n    \"GPT-5.1 introduces eight new personalities to enhance user interaction.\",\n    \"The updates aim to address previous mixed reviews by making the AI feel 'warmer' and more personable.\",\n    \"The new version is being integrated into Microsoft Copilot Studio, expanding its availability.\"\n  ]\n\n  \"sentiment\": \"Mixed\",\n  \"confidence\": \"High\",\n  \"bias_check\": \"The article may reflect a positive bias towards OpenAI's efforts to improve user experience, potentially downplaying criticisms or concerns.\",\n  \"missing_context\": \"Details on how well these new personalities and speed updates actually meet user needs or expectations are not provided. Also, the article does not mention any specific feedback or criticisms from users or experts.\",\n  \"implications\": \"The broader implications could involve improved user engagement and satisfaction with AI-driven tools, potential concerns about AI's influence on human interactions, and the ongoing challenge for AI developers to balance personality and functionality.\"\n}"
+          ],
+          "sentiment": "neutral",
+          "confidence": "medium",
+          "bias_check": "Unable to parse structured response",
+          "missing_context": "",
+          "implications": "",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-13T06:11:52.758205",
+          "token_usage": {
+            "prompt_tokens": 303,
+            "completion_tokens": 254,
+            "total_tokens": 557
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_4_1763014268",
+          "title": "Gemini in Google Drive can now make Audio Overviews of PDFs - 9to5Google",
+          "description": "Gemini in Google Drive can now make Audio Overviews of PDFs\u00a0\u00a09to5GoogleYou can turn giant PDFs into digestible audio overviews in Google Drive now - here's how\u00a0\u00a0ZDNETGoogle Drive learns a cool new trick from NotebookLM\u00a0\u00a0Android PoliceNotebookLM's most beloved feature is coming to Google Drive\u00a0\u00a0Android AuthorityGoogle: AI Now Reads Business Contracts Aloud as Podcasts\u00a0\u00a0heise online",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1FcUN2SjVSX1o4M092aGRydlF6b0NMeF9sSFRIR3NybmpUMkpkRUh1SnZCT2JFQ2piSXVNdXpnU3hZR3ZGTU5haURDb0dNTGNQY3JqeFY0WkxfWExRSW9Zc3dpYWhTbFZ3NWoycVB2aHo?oc=5",
+          "source": "9to5Google",
+          "published": "Tue, 11 Nov 2025 23:24:00 GMT",
+          "topic": "TECHNOLOGY",
+          "fetched_at": "2025-11-13T06:11:08.317464"
+        },
+        "analysis": {
+          "summary": "Google Drive now features Gemini, which can convert PDFs into audio summaries, enhancing accessibility and convenience for users. This integration allows for a deeper understanding of lengthy documents through audio podcasts.",
+          "key_points": [
+            "Google Drive integrated Gemini to convert PDFs into audio summaries.",
+            "The feature is designed to make lengthy documents more accessible.",
+            "This addition reflects Google's commitment to improving productivity tools with AI capabilities."
+          ],
+          "sentiment": "positive",
+          "confidence": "high",
+          "bias_check": "The article may showcase a positive bias towards Google's advancements and user-centric features without discussing potential drawbacks or limitations.",
+          "missing_context": "The article does not address potential challenges, such as the accuracy of the audio summaries, privacy concerns, or the learning curve for users adapting to this new feature. It also omits comparison with competitors' similar offerings.",
+          "implications": "Broader implications include increased productivity and accessibility for users, particularly those with visual impairments or those who prefer auditory learning. This development may also set a precedent for further AI integrations in productivity tools, pushing competitors to innovate similarly.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-13T06:11:59.154468",
+          "token_usage": {
+            "prompt_tokens": 281,
+            "completion_tokens": 238,
+            "total_tokens": 519
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_0_1763014268",
+          "title": "Israel's president says 'shocking' settler violence against Palestinians must end - NPR",
+          "description": "Israel's president says 'shocking' settler violence against Palestinians must end\u00a0\u00a0NPRIsrael\u2019s president says \u2018shocking\u2019 settler violence against Palestinians must end\u00a0\u00a0PoliticoIsraeli settlers set fire to Palestinian warehouse and land as West Bank attacks surge\u00a0\u00a0BBCIsrael Arrests 4 After Jewish Extremist Attack in Occupied West Bank\u00a0\u00a0The New York TimesMasked Israeli settlers attack Palestinian villages and IDF soldiers in the West Bank\u00a0\u00a0NBC News",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVmJrektnYkc4dWZRcS1TakRpZXZ4UFpNd2dOZ1BCVENydXFYMjBmcHA1UWsxNzM2eF9qRnBJNG1OOEFEY0JKaHBXMzJHckU4UHJKcWVxUFJ1NzhoOVFSYU9LQnh6Y0ZTTmZua1lQSERNVzlJMWJzZUlQMjJZNFBGanBrbmp2OURjSk9QanZNUldPUQ?oc=5",
+          "source": "NPR",
+          "published": "Wed, 12 Nov 2025 21:53:43 GMT",
+          "topic": "WORLD",
+          "fetched_at": "2025-11-13T06:11:08.764308"
+        },
+        "analysis": {
+          "summary": "Israel's president calls for an immediate end to the 'shocking' violence by settlers against Palestinians, as reports of attacks, such as setting fire to a Palestinian warehouse, surge. These incidents reflect escalating tensions in the West Bank, raising concerns about the humanitarian situation and the prospects for peace.",
+          "key_points": [
+            "Israeli president demands an end to settler violence.",
+            "Recent incidents include the burning of a Palestinian warehouse.",
+            "A surge in attacks signifies worsening tensions in the West Bank."
+          ],
+          "sentiment": "Negative",
+          "confidence": "High",
+          "bias_check": "The article may reflect a Western perspective, potentially emphasizing the humanitarian impact on Palestinians while less focus might be given to the reasons behind settler violence. It also presents information from a news outlet that may have its own editorial stance.",
+          "missing_context": "The broader political context of the Israeli-Palestinian conflict, including the historical and legal aspects of Israeli settlements, might be crucial for a deeper understanding. The motivations and perspectives of both settlers and Palestinians are not fully explored in this brief overview.",
+          "implications": "Increased violence could further deteriorate relations between Israelis and Palestinians, complicate peace negotiations, and potentially lead to international intervention or sanctions. It may also impact the daily lives and security of both communities, leading to a cycle of retaliation and further violence.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-13T06:12:06.959635",
+          "token_usage": {
+            "prompt_tokens": 286,
+            "completion_tokens": 294,
+            "total_tokens": 580
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_1_1763014268",
+          "title": "Fossil fuel emissions rise again - but renewables boom offers hope for climate - BBC",
+          "description": "Fossil fuel emissions rise again - but renewables boom offers hope for climate\u00a0\u00a0BBCGreenhouse Gas Emissions Head for a Record in 2025, Global Carbon Project Reports\u00a0\u00a0The New York TimesDespite surging renewables, fossil fuel emissions will hit record this year\u00a0\u00a0The Washington PostRelentless rise in carbon pollution from fossil fuels slightly dampens climate-fighting hopes\u00a0\u00a0AP NewsFossil fuel emissions rise again \u2013 but China's are levelling off\u00a0\u00a0New Scientist",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE02NVRYZDBtVUJkNEQ4RHI3TVY2YVUtT1Iwb1NiX0JQUnN3ZFZibFYxdEFvUGkwaG9hdGs0aTh6V0t5Q2Znbk5kV2RmX1dhVkhFM3I4akJPdGVBQQ?oc=5",
+          "source": "BBC",
+          "published": "Thu, 13 Nov 2025 03:16:15 GMT",
+          "topic": "WORLD",
+          "fetched_at": "2025-11-13T06:11:08.764361"
+        },
+        "analysis": {
+          "summary": "The article discusses the concerning rise in fossil fuel emissions, which are projected to hit a record in 2025, despite a boom in renewables. It highlights the mixed signals for climate action, with China's fossil fuel emissions leveling off offering a glimmer of hope.",
+          "key_points": [
+            "Fossil fuel emissions are expected to reach a record high in 2025.",
+            "Renewables are growing, providing some optimism for climate change efforts.",
+            "China's fossil fuel emissions are showing signs of plateauing, which is a positive development."
+          ],
+          "sentiment": "Mixed",
+          "confidence": "High",
+          "bias_check": "The article could exhibit a bias towards emphasizing the potential of renewables without equally stressing the urgency needed in reducing fossil fuel usage. Additionally, it may downplay the challenges faced by the renewable sector in scaling up to meet the global energy demand.",
+          "missing_context": "The article might be missing detailed information on the specific measures being taken to curb fossil fuel emissions, the rate of renewable energy deployment globally, and the regional disparities in emission trends. Also, it may not provide a comprehensive overview of the policies and technologies that are critical to achieving a sustainable transition.",
+          "implications": "The rise in fossil fuel emissions despite the growth of renewables indicates that current efforts might not be sufficient to meet climate goals. This story underscores the need for more aggressive strategies, stronger policies, and greater innovation in both renewable energy and carbon reduction technologies. The plateauing of China's emissions suggests that even major economies are making progress, but global emissions are still on an upward trajectory. It highlights the importance of international cooperation and shared responsibility in addressing climate change.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-13T06:12:15.941166",
+          "token_usage": {
+            "prompt_tokens": 291,
+            "completion_tokens": 356,
+            "total_tokens": 647
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_2_1763014268",
+          "title": "At least 37 dead after passenger bus falls into ravine in Peru - CBS News",
+          "description": "At least 37 dead after passenger bus falls into ravine in Peru\u00a0\u00a0CBS NewsPeru coach crash: At least 37 killed as bus plunges into ravine\u00a0\u00a0BBCBus crash in Peru's Arequipa kills 37\u00a0\u00a0ReutersPeru: Scores killed in bus accident in Arequipa region\u00a0\u00a0DWAt least 37 dead after a passenger bus falls into a ravine in Peru\u00a0\u00a0abcnews.go.com",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1qOTZDOTJudC14eElCZ2YyaW1oNWJmUk1PdWZ4LW9kT083NlFtaXlXa3J3eFphaFdWTWhRSGRHdmpsRld5Rm9jT2p0cTRnaHZtNFhlNnJNeDJEM1lMMWNXZExYVTVvTURuclJ1ODBXdUk1VnJXVmc1eHRZMNIBgAFBVV95cUxOZkFmSWZFMk82c0lwUlB0UWtoZ3dWMmNJX1RHdVVhRHh4cVAzRTN1RHJKSU5yQzE0QXkxRF9XVGEySHdQLXUzZzhWTE8yMTJBMXJab0ExbWNuUTJlYjNGWHVFc2lHSGxHbGhBMzF6bXBPUTZEVzQyUVoxMlF6dkgtYQ?oc=5",
+          "source": "CBS News",
+          "published": "Wed, 12 Nov 2025 19:47:26 GMT",
+          "topic": "WORLD",
+          "fetched_at": "2025-11-13T06:11:08.764398"
+        },
+        "analysis": {
+          "summary": "A tragic bus accident in the Arequipa region of Peru resulted in at least 37 fatalities when a passenger bus fell into a ravine. This incident highlights the potential dangers of road transportation in developing countries and raises concerns about vehicle safety standards and infrastructure maintenance in the region.",
+          "key_points": [
+            "A passenger bus fell into a ravine in Arequipa, Peru, killing at least 37 people.",
+            "The accident underscores the risk factors associated with road transportation in developing countries.",
+            "Concerns about vehicle safety standards and infrastructure maintenance are raised by the incident."
+          ],
+          "sentiment": "Negative",
+          "confidence": "High",
+          "bias_check": "Potential biases may include the focus on the fatalities without addressing possible contributory factors like road conditions, bus maintenance, or driver behavior. There may also be a lack of context regarding the socio-economic conditions of the region.",
+          "missing_context": "Important context might include details about the road conditions, the age and maintenance status of the bus, and the actions or inactions of local authorities in ensuring road safety. The socio-economic status of the passengers and the region might also provide deeper insights.",
+          "implications": "The broader implications of this story include the need for improved road safety measures, stricter vehicle maintenance standards, and better enforcement of transportation regulations in developing countries. It also highlights the human cost of inadequate infrastructure and the importance of investing in safety to prevent such tragedies.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-13T06:12:32.268070",
+          "token_usage": {
+            "prompt_tokens": 282,
+            "completion_tokens": 309,
+            "total_tokens": 591
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_3_1763014268",
+          "title": "New bridge in south-west China collapses into mountainside - The Guardian",
+          "description": "New bridge in south-west China collapses into mountainside\u00a0\u00a0The GuardianVideo Shows the Moment Part of a New Bridge in China Fell\u00a0\u00a0The New York TimesMajor Chinese bridge collapses into river just months after opening to traffic\u00a0\u00a0Fox NewsMoment newly opened bridge partially collapses in China\u00a0\u00a0BBCWATCH: Entire Section of China\u2019s Newly Opened Bridge Collapses, Crashing Into River Below\u00a0\u00a0Yahoo",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQc3VycnV3Rk05NW0zZS00ck5XUjNVSUtQbVZ5SzVKaDUzRnRTU3VtYU52V0k3bTNyYXlueVpOb2pfTV9mN2hrdzFFcXdJaHhIOFgtY3huSWRfNGRXVkh0emstVmFKY3RzQldXZnlKaDBKbkp6ZDBSSlpVa092SjdicXNUenlpVUdlOXRSNGRtZFgyLVJDc2dBeTlsRklLZm9FVHVjTmpsNU1ZdjFZMkVQRw?oc=5",
+          "source": "The Guardian",
+          "published": "Wed, 12 Nov 2025 14:35:00 GMT",
+          "topic": "WORLD",
+          "fetched_at": "2025-11-13T06:11:08.764437"
+        },
+        "analysis": {
+          "summary": "A newly constructed bridge in south-west China has partially collapsed, sending a section crashing into the river below, just months after its opening. The incident raises concerns about the quality and safety of infrastructure projects in the region.",
+          "key_points": [
+            "Partially collapsed bridge in south-west China",
+            "Section of bridge fell into the river below",
+            "Incident occurred just months after the bridge's opening",
+            "Potential concerns about infrastructure quality and safety"
+          ],
+          "sentiment": "Negative",
+          "confidence": "High",
+          "bias_check": "The article might be biased towards highlighting negative outcomes, potentially overlooking positive aspects or ongoing remedial efforts. It may also reflect regional or political biases depending on the source\u2019s perspective.",
+          "missing_context": "Detailed information on the extent of the construction, safety inspections, and any previous incidents or warnings about the bridge. Context on the economic impact and efforts to rebuild or reinforce the bridge would also be important.",
+          "implications": "This incident can lead to increased scrutiny and potential regulatory changes regarding infrastructure projects. It may also impact public trust in government and engineering practices, and highlight the need for better oversight and safety standards.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-13T06:12:39.217332",
+          "token_usage": {
+            "prompt_tokens": 273,
+            "completion_tokens": 253,
             "total_tokens": 526
           }
         }
       },
       {
         "article": {
-          "id": "news_3_1762993781",
-          "title": "Apple's passport-based Digital ID lands on iPhone and Apple Watch, starting at TSA - Axios",
-          "description": "Apple's passport-based Digital ID lands on iPhone and Apple Watch, starting at TSA\u00a0\u00a0AxiosApple introduces Digital ID, a new way to create and present an ID in Apple Wallet\u00a0\u00a0AppleiPhone Users Can Now Add Their Passport to Apple Wallet: Here's How to Do It\u00a0\u00a0CNETApple introduces a new Digital ID feature to make boarding flights easier\u00a0\u00a0EngadgetYou can now put your US passport into Apple Wallet for domestic travel\u00a0\u00a0theregister.com",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9HRFVKdEYxMWZBUGNnYUpQWTZtUU5HZmJxUlFOVVUzekYtd3dCWVJWckxNWkFDdERlbWl4Q2k1MzRLRlRtbUc0S040eUxmQXU5NWd2VGZZVXU5SXpaOU52ekJYYm1rRVRhbEdJQWtianpPM3FtblFlcnpR?oc=5",
-          "source": "Axios",
-          "published": "Wed, 12 Nov 2025 21:21:46 GMT",
-          "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-13T00:29:41.543461"
-        },
-        "analysis": {
-          "summary": "Apple's new Digital ID feature allows users to store their passport in Apple Wallet, simplifying the process of boarding flights and potentially reducing the need for physical passports. This integration with iPhones and Apple Watches represents a step towards more convenient and secure travel experiences for iOS users.",
-          "key_points": [
-            "Apple's Digital ID feature integrates passport storage into Apple Wallet.",
-            "The feature is available starting with the TSA for domestic travel.",
-            "This development could streamline international travel and enhance security measures."
-          ],
-          "sentiment": "Positive",
-          "confidence": "High",
-          "bias_check": "Potential bias could stem from Apple's brand loyalty among iOS users, leading to an overly positive portrayal of the feature's benefits without discussing possible limitations or privacy concerns.",
-          "missing_context": "The article does not discuss the potential privacy implications of storing sensitive information like passports in digital wallets, nor does it cover the exclusivity of the feature to iOS users, potentially leaving out the broader user base's perspective.",
-          "implications": "The introduction of Apple's Digital ID could lead to broader adoption of digital IDs and wallets for travel, potentially influencing industry standards. However, it also raises questions about privacy, security, and the digital divide between iOS users and those on other platforms.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-13T00:30:24.713227",
-          "token_usage": {
-            "prompt_tokens": 287,
-            "completion_tokens": 273,
-            "total_tokens": 560
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_4_1762993781",
-          "title": "Review: New Framework Laptop 16 takes a fresh stab at the upgradeable laptop GPU - Ars Technica",
-          "description": "Review: New Framework Laptop 16 takes a fresh stab at the upgradeable laptop GPU\u00a0\u00a0Ars TechnicaI Built a Fast Custom Gaming Laptop Nearly From Scratch With the Framework 16\u00a0\u00a0PCMagFramework Laptop 16 (RTX 5070) review: Yes, you can upgrade the GPU\u00a0\u00a0Tom's HardwareFramework Laptop 16 Upgrade To AMD Ryzen AI 300 Series Benchmarks Review\u00a0\u00a0PhoronixFramework Laptop 16 (2025 upgrade) review: The RTX 5070 is the star\u00a0\u00a0Engadget",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOT0xxVGVFcU5FR3ZfMTJfOFEzMDMxMUpNOVd2SU1uRXprX3pTQmEzYjBMT05uUXBPMXFQRDRhT1dNRk12dDU1bHIzZFA1SjhxX29KLVRObWdMaDJUR0poUWU2ckF1Zngwd1FOZzlmYkUxTFNkcVpnZm91dzJEQlpZU2VfdGl5WjFLeVBJa285SEFaUnM4SG5vbmRxbHV6Z1lhV3U1WU5YLTQ4emt3QXRldm5CWDdldW1rZUxTWA?oc=5",
-          "source": "Ars Technica",
-          "published": "Wed, 12 Nov 2025 16:00:39 GMT",
-          "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-13T00:29:41.543479"
-        },
-        "analysis": {
-          "summary": "The Framework Laptop 16 series, particularly the RTX 5070 model, offers a unique appeal to gamers and professionals with its promise of GPU upgradeability, setting it apart from competitors in a saturated market. The article reviews various aspects, including performance benchmarks, future upgrade potential, and comparisons with other systems.",
-          "key_points": [
-            "Framework Laptop 16's GPU upgradeability is a standout feature, offering a high degree of customization.",
-            "The RTX 5070 model has shown strong performance in benchmark tests, highlighting its competitive edge.",
-            "Potential users can look forward to future upgrades, including the AMD Ryzen AI 300 Series, enhancing longevity and value."
-          ],
-          "sentiment": "Positive",
-          "confidence": "High",
-          "bias_check": "The article is likely to favor the Framework Laptop 16 given its focus on the upgradeable GPU feature. The reviews from different sources might have varying levels of enthusiasm, which could introduce a bias towards positive reception.",
-          "missing_context": "It might be missing in-depth cost analysis and how the upgrade process compares to non-upgradeable laptops. The article does not discuss the average user experience, which could be quite different from the performance-focused audience it tends to cater to.",
-          "implications": "The Framework Laptop 16's ability to upgrade GPUs could shift market expectations, pushing competitors to offer similar features or risk being left behind. This could also influence consumer buying decisions, making upgradeability a more critical factor in the laptop market.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-13T00:30:32.769260",
-          "token_usage": {
-            "prompt_tokens": 306,
-            "completion_tokens": 318,
-            "total_tokens": 624
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_0_1762993781",
+          "id": "news_4_1763014268",
           "title": "Top Ukrainian ministers submit their resignations as the country is rocked by a corruption scandal - AP News",
-          "description": "Top Ukrainian ministers submit their resignations as the country is rocked by a corruption scandal\u00a0\u00a0AP NewsMajor corruption scandal engulfs top Zelensky allies\u00a0\u00a0BBCWhy Do Ukrainians Fight? A $100 Million Graft Case Shows Why\u00a0\u00a0Bloomberg.comUkraine corruption scandal explained: The $100M plot rocking Zelenskyy\u00a0\u00a0politico.euUkraine energy sector corruption scandal: Justice minister suspended\u00a0\u00a0NBC News",
+          "description": "Top Ukrainian ministers submit their resignations as the country is rocked by a corruption scandal\u00a0\u00a0AP NewsMajor corruption scandal engulfs top Zelensky allies\u00a0\u00a0BBCUkraine energy sector corruption scandal: Justice minister suspended\u00a0\u00a0NBC NewsWhy Do Ukrainians Fight? A $100 Million Graft Case Shows Why\u00a0\u00a0Bloomberg.comUkraine corruption scandal explained: The $100M plot rocking Zelenskyy\u00a0\u00a0politico.eu",
           "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNOUtYT2JhdlRKVVFqZ1lrNWx5cm1JRGJ4UURodTAycmE3a1Fqb1ZiMDc3UXhDUjREaFRPek11dURWVE1BZWxGZHg0Vm9JcnQ1Zzh3V1o2a0gtTUFrNVJCSmZNMWFiT0JsOFFMNDEyM1dTQVE0Z1ZCQmFUNm5ycjcyTGszUEtMLW9lb3lXYVY1X2hETDE4eFpqVVM3QVpBQQ?oc=5",
           "source": "AP News",
-          "published": "Wed, 12 Nov 2025 19:44:00 GMT",
+          "published": "Thu, 13 Nov 2025 01:28:00 GMT",
           "topic": "WORLD",
-          "fetched_at": "2025-11-13T00:29:41.721408"
+          "fetched_at": "2025-11-13T06:11:08.764472"
         },
         "analysis": {
-          "summary": "In response to a major corruption scandal involving the misappropriation of $100 million, top Ukrainian ministers, including energy and justice sector officials, have resigned. The scandal threatens to undermine President Zelensky's administration and raises questions about systemic corruption within the country.",
+          "summary": "Ukrainian ministers resign in the wake of a major corruption scandal involving close allies of President Zelensky, highlighting systemic issues within the country's political and energy sectors.",
           "key_points": [
-            "Top Ukrainian ministers resign in response to a $100 million corruption scandal.",
-            "The scandal involves key figures in President Zelensky's administration, raising concerns about systemic corruption.",
-            "The resignations could potentially destabilize Zelensky's government and undermine public trust."
+            "Resignations of top Ukrainian ministers due to corruption scandal",
+            "Government's efforts to contain the fallout from the scandal",
+            "Involvement of President Zelensky's allies in the corruption case",
+            "Potential impact on Ukraine's political stability and international relations",
+            "Need for comprehensive anti-corruption measures in Ukraine"
           ],
           "sentiment": "Negative",
           "confidence": "High",
-          "bias_check": "The article may reflect a Western perspective on corruption and governance, which could influence the framing of the scandal. There might be a bias towards portraying the scandal as a significant threat to democracy and governance in Ukraine.",
-          "missing_context": "The article does not provide details on the specific allegations, the responses from President Zelensky and other officials, or the broader political context in Ukraine. It also lacks information on how this scandal fits into the history of corruption in the country.",
-          "implications": "The scandal could lead to further political instability in Ukraine, potentially affecting its democratic progress and international relations. It also raises concerns about the effectiveness of anti-corruption measures and the rule of law in the country.",
+          "bias_check": "The article may reflect a Western perspective on corruption and governance, potentially overlooking local context or nuances. Additionally, the focus on Zelensky's allies might overshadow broader systemic issues.",
+          "missing_context": "The role of domestic and international politics in exacerbating or mitigating the corruption scandal, the historical context of corruption in Ukraine, and the specific details of the corruption case, including the alleged beneficiaries and methods of corruption.",
+          "implications": "The resignation of top ministers could lead to political instability and a loss of public trust in the government. The scandal may also affect Ukraine's international relations, especially with foreign governments and organizations involved in anti-corruption efforts. It underscores the need for stronger anti-corruption institutions and reforms in Ukraine.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-13T00:30:40.613537",
+          "analyzed_at": "2025-11-13T06:12:46.876557",
           "token_usage": {
             "prompt_tokens": 279,
-            "completion_tokens": 287,
-            "total_tokens": 566
+            "completion_tokens": 288,
+            "total_tokens": 567
           }
         }
       },
       {
         "article": {
-          "id": "news_1_1762993781",
-          "title": "Israeli president condemns \u2018serious\u2019 attack by settlers on West Bank villages - The Guardian",
-          "description": "Israeli president condemns \u2018serious\u2019 attack by settlers on West Bank villages\u00a0\u00a0The GuardianIsrael\u2019s president says \u2018shocking\u2019 settler violence against Palestinians in West Bank must end\u00a0\u00a0PBSIsraeli settlers set fire to Palestinian warehouse and land as West Bank attacks surge\u00a0\u00a0BBCIsrael Arrests 4 After Jewish Extremist Attack in Occupied West Bank\u00a0\u00a0The New York TimesIDF chief says army \u2018will not tolerate\u2019 extremist settler attacks in West Bank\u00a0\u00a0The Times of Israel",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQb3dVdmJoU1FqaGk2NGFxU0xmYVZrZzc4eVpLQU1sQjk2aS1vLVBQLTVpY2J0SGlGX2V2OTdiX3hVbnZCSlM3RjFEcnZOekM3TF8yc2FnbG1ZNnFPMmtUVjNUejdFSDlncFY4RWl4OEp2cDVncWhlVlcwZU5od3NKLVBCT2pJcDRNZjdzMXg5RUpSbW1iSVVFZWdDbXR1Y2c4c3Fnc1Z0Q2w?oc=5",
-          "source": "The Guardian",
-          "published": "Wed, 12 Nov 2025 20:14:00 GMT",
-          "topic": "WORLD",
-          "fetched_at": "2025-11-13T00:29:41.721448"
+          "id": "news_0_1763014268",
+          "title": "What will companies do without pennies? We asked McDonald's, Wendy's, Kroger and other top retailers. - CBS News",
+          "description": "What will companies do without pennies? We asked McDonald's, Wendy's, Kroger and other top retailers.\u00a0\u00a0CBS NewsU.S. Mint Presses Final Penny After More Than 200 Years\u00a0\u00a0The New York TimesUS Mint in Philadelphia presses final pennies as the 1-cent coin gets canceled\u00a0\u00a06abc PhiladelphiaThe last-ever penny was minted today in Philadelphia\u00a0\u00a0CNNNow that pennies are gone, here's how much it costs to make them and other coins\u00a0\u00a0WBAL-TV",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1PakFtVzZ0b2Y2OURiTFNvVy02dXA0VUczVFhCdFhERmpGYThYNDE4dVNvU3cxTFRWVWo2WWxQZHFibExPSmhpSmxZVkREeHFVRzIwMTRYN2NpRTJMdXJ3cHJ6TEcwMkxUaWplSXFUT21MdU1KOTdJM3ZXZ9IBgAFBVV95cUxPeVZyV3djRXJVRDRWQ3A4VDVHejB4WmdVSGJlM3VrbDcwWHFNbUVyQ1hSa19yd0g5dTVLMnZZcEFvR2pCX0NmTk5uVjJMeUNlUmxGUVFTUTJOVmZZeVFRMGZlTHFIY2lkUmpFVlF5NWJGTzRyZk1fNGJVT2hvWV9TeQ?oc=5",
+          "source": "CBS News",
+          "published": "Wed, 12 Nov 2025 23:25:00 GMT",
+          "topic": "BUSINESS",
+          "fetched_at": "2025-11-13T06:11:08.850135"
         },
         "analysis": {
-          "summary": "The Israeli president sharply condemns a serious attack by settlers on West Bank villages, expressing that settler violence must end, while the IDF chief vows to ensure that extremist actions will not be tolerated, as tensions rise in the region.",
+          "summary": "The CBS News article explores the implications of the U.S. Mint's decision to discontinue the penny, discussing how companies like McDonald's, Wendy's, and Kroger would handle transactions without this smallest denomination coin. It delves into the production costs of coins and the last minting of a penny, providing insights from various retailers about the potential fallout of the penny's disappearance.",
           "key_points": [
-            "Israeli president condemns settler violence in the West Bank.",
-            "IDF chief states the army will not tolerate extremist settler attacks.",
-            "Recent surge in West Bank attacks by settlers, including arson.",
-            "Israeli officials are taking steps to address the issue."
+            "The U.S. Mint has ceased production of the penny, marking the end of its 200+ year history.",
+            "Top retailers and companies are being questioned about how they will manage transactions without the penny.",
+            "The article highlights the cost of producing coins and how the discontinuation of the penny might impact small transactions."
           ],
-          "sentiment": "Negative",
-          "confidence": "High",
-          "bias_check": "The Guardian may have a critical stance towards Israeli policies, which could influence the framing of the events.",
-          "missing_context": "The motivations behind settler violence, the historical context of the West Bank conflict, and the scale of the response by Palestinian authorities might be underrepresented.",
-          "implications": "The condemnation and police response could signal a potential shift in policy towards settler violence, but the effectiveness of these measures and their impact on the Israeli-Palestinian conflict remain to be seen.",
+          "sentiment": "neutral",
+          "confidence": "high",
+          "bias_check": "Potential biases may include the perspective of retailers and companies, focusing on their concerns rather than broader economic or social implications. The article might also unintentionally favor a narrative that emphasizes potential problems with the penny's absence.",
+          "missing_context": "The article may not provide sufficient context on the reasons behind the penny's discontinuation or the broader economic rationale. Additionally, it might lack perspectives from economists or the general public on the impact of this decision.",
+          "implications": "The discontinuation of the penny could lead to changes in how transactions are handled, potentially affecting small purchases and the operational adjustments required by businesses. It also raises questions about the efficiency and sustainability of the U.S. currency system.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-13T00:30:47.455354",
+          "analyzed_at": "2025-11-13T06:12:55.242087",
           "token_usage": {
-            "prompt_tokens": 295,
-            "completion_tokens": 248,
-            "total_tokens": 543
+            "prompt_tokens": 300,
+            "completion_tokens": 323,
+            "total_tokens": 623
           }
         }
       },
       {
         "article": {
-          "id": "news_2_1762993781",
-          "title": "Who are India and Pakistan blaming for Delhi, Islamabad blasts? - Al Jazeera",
-          "description": "Who are India and Pakistan blaming for Delhi, Islamabad blasts?\u00a0\u00a0Al JazeeraTwo blasts a day apart in India and Pakistan\u2019s capitals fray regional nerves in an already tense year\u00a0\u00a0CNNSouth Asia on Edge\u00a0\u00a0The New York TimesSuicide bombing in Islamabad kills 12, says Pakistan's interior minister\u00a0\u00a0BBCUpdates: India, Pakistan launch probes after blasts in New Delhi, Islamabad\u00a0\u00a0Al Jazeera",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOZmdfME8tcFRzYnAwT0VEX08ycGhzOURGQ1lNZlFkNG44b1F0LXBFaHUwdDJmMG1lbGlYWkVyZGRSSWVRM05DdU1tTEpNS0ROSVBwb1h4QmdkLWRybGJaUjFTaGhfMXFxb1VIcWJoTG1KdzhRZ242LWljeWZmU3pUQndFdjMxekRfeFZxazRZSjZQTzNZWlJHdzd1NjQ2YjdrRTVFNzl30gGrAUFVX3lxTE9XcldON1NaQkNOVFk1OWxsNy0xXzVESG85UzVPY2RVZEJvdVBUQlU0R244eVphQ2FCZXlyN1otRDN4UUR3aWE4YWUzMjdtVUJlcFN6QTdjaDlocTAyZ083dUw5bkc5LXdINU43VFR2MWkwU25SSHhYOFk1OTEtdjhfT2NaU1NHM010Y3p3SWxZanh3VG9JQ3laVVliWlE2X0V3ckhzU2RVZGw3aw?oc=5",
-          "source": "Al Jazeera",
-          "published": "Wed, 12 Nov 2025 13:47:33 GMT",
-          "topic": "WORLD",
-          "fetched_at": "2025-11-13T00:29:41.721471"
+          "id": "news_1_1763014268",
+          "title": "Even When the Shutdown Ends, Flight Cancellations Won\u2019t - The Wall Street Journal",
+          "description": "Even When the Shutdown Ends, Flight Cancellations Won\u2019t\u00a0\u00a0The Wall Street JournalWhy flight disruptions could linger even after the government shutdown ends\u00a0\u00a0NPRFAA says flight cuts will stay at 6% because more air traffic controllers are coming to work\u00a0\u00a0abcnews.go.comThree Flights and Four Airports in One Day: Rolling the Shutdown Dice\u00a0\u00a0The Wall Street Journal\u2018Not going to get to Thanksgiving': Duffy warns of potential for major flight disruption\u00a0\u00a0NBC 5 Chicago",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNYlhRYVkxT292NTNXNEpjQjEza1BLTXhnWDlucGNKdUJwemZZRTlYb0QwTXEyN18tLTViZHdFamdZQk1uWV9uN3BISmJvNFZpZUU4RGVsbGs3elItZmNDaXNNamZUZEROaHkzZXVISXF4Z2lIX2g5VTJ1Q3BTd3NWZldIdlFGZGJCVlNwejRNQmVPUVFsRzZJcTNzcEhkY0NzMGc?oc=5",
+          "source": "The Wall Street Journal",
+          "published": "Thu, 13 Nov 2025 03:28:00 GMT",
+          "topic": "BUSINESS",
+          "fetched_at": "2025-11-13T06:11:08.850165"
         },
         "analysis": {
-          "summary": "After two bomb blasts in India's New Delhi and Pakistan's Islamabad, speculations are rampant about the perpetrators. Both countries blame each other and various other entities, heightening regional tensions in an already volatile year.",
+          "summary": "The article from The Wall Street Journal discusses the potential for continued flight disruptions in the aftermath of the U.S. government shutdown, despite the end of the shutdown itself. According to the Federal Aviation Administration (FAA), flight cuts will remain at 6% because more air traffic controllers are coming to work. The story also mentions concerns about major flight disruptions, potentially impacting Thanksgiving travel.",
           "key_points": [
-            "The bomb blasts in India and Pakistan's capitals have increased regional tensions.",
-            "Both India and Pakistan are blaming each other and others for the attacks, without conclusive evidence.",
-            "The situation is further complicated by the political climate and historical animosities between the two nations."
-          ],
-          "sentiment": "Negative",
-          "confidence": "High",
-          "bias_check": "The article does not provide specific perspectives from the governments or any independent investigations. It may be biased towards presenting the situation as entirely conflict-driven.",
-          "missing_context": "The article lacks details on the specifics of the bomb blasts (e.g., targets, casualties, suspects under investigation), and does not provide any background on the historical context of India-Pakistan relations or potential motives behind the attacks.",
-          "implications": "The bomb blasts heighten regional tensions and could potentially lead to retaliatory actions, further destabilizing the South Asian region. The blame game without clear evidence could undermine trust and cooperation between the two nations.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-13T00:30:54.762871",
-          "token_usage": {
-            "prompt_tokens": 279,
-            "completion_tokens": 266,
-            "total_tokens": 545
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_3_1762993781",
-          "title": "Coalition led by Iraqi PM Sudani comes first in Iraq\u2019s election, commission says - Reuters",
-          "description": "Coalition led by Iraqi PM Sudani comes first in Iraq\u2019s election, commission says\u00a0\u00a0ReutersIraq\u2019s Prime Minister Leads in Elections but May Struggle to Form a Government\u00a0\u00a0The New York TimesIraq holds parliamentary election boycotted by a major political group\u00a0\u00a0AP NewsIraqis vote in a parliamentary election marked by tight security and a major political boycott\u00a0\u00a0abcnews.go.comDispatch from Baghdad: Don\u2019t confuse the calm around Iraq\u2019s election with stability\u00a0\u00a0Atlantic Council",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNTDBXWWt0NDlCQ1dDdTNqZXQxdzNHT2tmQzhSbkJTakhONllIVEh1N0lVanRodFRhWS16UUdOM29yT2pad1NaTVdqWDZyOVpWQWhnV1p3Qko5N01TQUhNUlV2VWYzQ2xrV0cyT2Nab1lNRnU2eVhtbHBYSnZraEFXLXczYS16cmQ5NWU1SDFSc2VOTHZsa25iQ0w2WmRiMm04TjJjSlplOXlXOThVN1d6Y055QzJNSkFUX0FSN3VkdXg5MWlrZU43eFZlcw?oc=5",
-          "source": "Reuters",
-          "published": "Wed, 12 Nov 2025 20:04:53 GMT",
-          "topic": "WORLD",
-          "fetched_at": "2025-11-13T00:29:41.721492"
-        },
-        "analysis": {
-          "summary": "Iraq's Prime Minister Mustafa al-Kadhimi leads the parliamentary election, but the coalition's ability to form a government remains uncertain due to political boycotts and security concerns, casting doubt on the election's reflection of true democratic stability.",
-          "key_points": [
-            "Iraqi Prime Minister Mustafa al-Kadhimi's coalition leads in the election.",
-            "There are significant political boycotts and tight security, which may not represent the full spectrum of Iraqi political opinion.",
-            "The calm atmosphere during the election does not necessarily indicate long-term stability in Iraq."
+            "The FAA maintains a 6% flight cut even after the government shutdown ends due to increased staffing.",
+            "Concerns about significant flight disruptions persist, potentially affecting Thanksgiving travel.",
+            "The article suggests that the shutdown's impact on air traffic control staffing will continue to affect flights."
           ],
           "sentiment": "Mixed",
           "confidence": "High",
-          "bias_check": "The story might underplay the significance of the election results due to the coalition's potential struggles in forming a government. It also may not fully capture the sentiments of the excluded political groups who boycotted the election.",
-          "missing_context": "The reasons behind the major political boycott and the specific concerns of the boycotting factions are not detailed. Furthermore, the implications of the election results on future governance and internal security are not explicitly addressed.",
-          "implications": "The leadership of al-Kadhimi's coalition might face challenges in forming a stable government, potentially leading to continued political fragmentation and challenges in addressing pressing issues such as security and reconstruction. The political boycotts could indicate deep-seated divisions that may hinder national reconciliation and democratic progress.",
+          "bias_check": "The story might present a biased perspective by focusing on disruptions and potential negative impacts, while not discussing possible solutions or relief measures being taken.",
+          "missing_context": "The article could benefit from additional context on measures being taken by the FAA or airlines to mitigate the impact of the shutdown on flight operations.",
+          "implications": "The continued flight disruptions could impact travel plans, especially for holiday travel, and highlight the importance of having a well-functioning air traffic control system. It also raises questions about the impact of government shutdowns on essential services.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-13T00:31:05.126617",
+          "analyzed_at": "2025-11-13T06:13:02.402736",
           "token_usage": {
-            "prompt_tokens": 292,
-            "completion_tokens": 302,
-            "total_tokens": 594
+            "prompt_tokens": 294,
+            "completion_tokens": 267,
+            "total_tokens": 561
           }
         }
       },
       {
         "article": {
-          "id": "news_4_1762993781",
-          "title": "Labour Party\u2019s Internal Fight Goes Public, as Starmer\u2019s Trouble Grows - The New York Times",
-          "description": "Labour Party\u2019s Internal Fight Goes Public, as Starmer\u2019s Trouble Grows\u00a0\u00a0The New York TimesPMQs live: Keir Starmer says he 'never authorised' attacks on ministers\u00a0\u00a0BBCThe sharks are circling UK PM Keir Starmer as crunch points loom\u00a0\u00a0CNBC\u2018They\u2019ve lost their minds\u2019: Why Keir Starmer\u2019s government is in open warfare\u00a0\u00a0politico.euPressure grows on Starmer to sack chief of staff over briefing row\u00a0\u00a0The Guardian",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOb2dJN1VhUTdCTDRFbER5Xy1iOXNidWI0UDM3RHQxYmNMYWFyX29UQUhlbXZpUzJpSzhmOExxc0piQ1loY19uUkMwMXl1Wi1hczljMjlVRDhyc0F6QnZiYTA1OG5FRWR1NGpSM2JObjBiTnAwU1JHQmpDTkh1WFU2eHB4Zk5oT0pfLTdj?oc=5",
-          "source": "The New York Times",
-          "published": "Wed, 12 Nov 2025 22:13:04 GMT",
-          "topic": "WORLD",
-          "fetched_at": "2025-11-13T00:29:41.721512"
-        },
-        "analysis": {
-          "summary": "The Labour Party is embroiled in a public internal conflict, with Prime Minister Keir Starmer facing increasing criticism following his handling of a chief of staff briefing row. The controversy has led to calls for his potential removal from office, and the situation is exacerbating as the UK approaches critical junctures in its political landscape.",
-          "key_points": [
-            "Keir Starmer is under intense scrutiny after the Labour Party's internal issues became public.",
-            "The chief of staff briefing row has escalated tensions within the Labour Party, with some members calling for Starmer's resignation.",
-            "The incident is occurring amid multiple pressures on the government, including economic challenges and public backlash."
-          ],
-          "sentiment": "Negative",
-          "confidence": "High",
-          "bias_check": "The article may focus on the conflict and criticism, potentially overlooking any efforts or successes of the Labour Party or Keir Starmer. It might also emphasize negative aspects, making the overall sentiment appear more negative than warranted without acknowledging any mitigating factors.",
-          "missing_context": "The context surrounding the chief of staff briefing row, including the specific accusations and responses, may be missing, which could provide a clearer understanding of the situation. Additionally, the broader political climate and recent accomplishments or challenges faced by the Labour Party are not discussed.",
-          "implications": "The public nature of the Labour Party's internal conflict could erode trust in the party and its leadership, potentially affecting voter confidence and electoral outcomes. This situation also highlights the fragile nature of political leadership within the UK, where internal disputes can quickly become public and influence broader political dynamics.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-13T00:31:13.899012",
-          "token_usage": {
-            "prompt_tokens": 297,
-            "completion_tokens": 340,
-            "total_tokens": 637
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_0_1762993781",
+          "id": "news_2_1763014268",
           "title": "3 questions about Trump's 50-year mortgage plan - NPR",
-          "description": "3 questions about Trump's 50-year mortgage plan\u00a0\u00a0NPRAffordability is in crisis. The solution: You\u2019ll never own anything again\u00a0\u00a0CNNOpinion | A 50-Year Mortgage Is a Bad Deal\u00a0\u00a0The Wall Street JournalTrump floats 50-year mortgages \u2014 experts call it \u2018a horrible idea.\u2019 Here\u2019s why\u00a0\u00a0San Francisco ChronicleJosh Johnson Isn\u2019t Sold on Trump\u2019s 50-Year Mortgage Plan\u00a0\u00a0The New York Times",
+          "description": "3 questions about Trump's 50-year mortgage plan\u00a0\u00a0NPRAffordability is in crisis. The solution: You\u2019ll never own anything again\u00a0\u00a0CNN50-year mortgages? NFL kickoff rules? Here's where some of Trump's latest jaw-dropping musings stand\u00a0\u00a0AP News\u2018He\u2019s Actually Weakening the Economy\u2019: Why Trump\u2019s Strategy May Fail\u00a0\u00a0PoliticoJosh Johnson Isn\u2019t Sold on Trump\u2019s 50-Year Mortgage Plan\u00a0\u00a0The New York Times",
           "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOQjNPazJJOW9zT082OXdDTTFDS1oxN3JTMWptOEM1YktDMUowNDd4VGVKN2Zjazc5VXF1ZWpGLXA0SUdmWGI2U0VqU1M0MWdqOEoyQjNrMVFKUkc2Q1J6bDVXYmlxZU9sVUxabDhiLXI1eGNab2VyZXh4U3Nmd0I0OUNQNGRMR1RYQnlrZl9n?oc=5",
           "source": "NPR",
           "published": "Wed, 12 Nov 2025 23:22:08 GMT",
           "topic": "BUSINESS",
-          "fetched_at": "2025-11-13T00:29:41.982515"
+          "fetched_at": "2025-11-13T06:11:08.850187"
         },
         "analysis": {
-          "summary": "Trump's proposal of 50-year mortgages has been widely criticized by experts, who argue that it would make homeownership unaffordable and unsustainable, potentially exacerbating the housing affordability crisis.",
+          "summary": "The article discusses President Trump's proposal of 50-year mortgage plans, which has sparked controversy and debate. Critics argue that it could weaken the economy, while others question its feasibility and impact on homeownership and affordability.",
           "key_points": [
-            "Experts criticize Trump\u2019s 50-year mortgage plan as a bad idea due to increased long-term costs.",
-            "The proposal is seen as exacerbating the affordability crisis by making homeownership unaffordable.",
-            "There is a consensus that the plan could have negative repercussions on the housing market."
+            "Trump's 50-year mortgage plan is a controversial proposal.",
+            "Critics argue it may weaken the economy and reduce homeownership.",
+            "The proposal is seen by some as an attempt to make homeownership more affordable."
           ],
-          "sentiment": "Negative",
+          "sentiment": "Mixed",
           "confidence": "High",
-          "bias_check": "The article may reflect a bias towards traditional housing finance perspectives, potentially overlooking any untested or innovative aspects of Trump's proposal. It may also lean towards criticism due to the author's sources.",
-          "missing_context": "There may be a lack of context regarding Trump's motivations or the specific conditions that might make his plan viable under certain circumstances. Additionally, there's limited discussion on any counterarguments or potential benefits proposed by supporters of the plan.",
-          "implications": "The broader implications include a potential increase in housing costs, reduced homeownership rates, and a negative impact on the economy. It also raises questions about the future direction of U.S. housing policy and the role of government in facilitating affordable homeownership.",
+          "bias_check": "The article may lean towards skepticism of Trump's proposal, given the sources referenced (Politico, The New York Times).",
+          "missing_context": "The article does not provide detailed financial models or expert opinions on the economic impact of the 50-year mortgage plan, and it does not discuss the potential benefits for first-time homebuyers or those struggling with high housing costs.",
+          "implications": "The proposal could have significant implications for the housing market, financial institutions, and the broader economy. It may affect homeownership rates, housing affordability, and economic stability.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-13T00:31:21.431480",
+          "analyzed_at": "2025-11-13T06:13:09.062288",
           "token_usage": {
-            "prompt_tokens": 277,
-            "completion_tokens": 279,
-            "total_tokens": 556
+            "prompt_tokens": 280,
+            "completion_tokens": 243,
+            "total_tokens": 523
           }
         }
       },
       {
         "article": {
-          "id": "news_1_1762993781",
-          "title": "Goodbye penny: What comes next as US officially ends penny production - USA Today",
-          "description": "Goodbye penny: What comes next as US officially ends penny production\u00a0\u00a0USA TodayU.S. Mint Presses Final Penny After More Than 200 Years\u00a0\u00a0The New York TimesThe last-ever penny was minted today in Philadelphia\u00a0\u00a0CNNWhat will companies do without pennies? We asked McDonald's, Wendy's, Kroger and other top retailers.\u00a0\u00a0CBS NewsA penny short: US mints final 1-cent coins after over 230 years in circulation\u00a0\u00a0abcnews.go.com",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNMWt3UE9kUUtqYjNhR1ViaHZ3YlpVbkVjUjZrVkdPT2dGc2lXRVpVNHg3WVdZcHM3ZU9lMXEzWlZCMWNfT0VzT2JHbmI1SVR3bmRfVXpKbW9YWEZYbFZlUWhmeU9oei1qZXBtVEJSMEoyOVY0RWNObWt5VlRvcVNobHlSWG9EWFZWX0I3S2haT3JsUQ?oc=5",
-          "source": "USA Today",
-          "published": "Wed, 12 Nov 2025 20:49:17 GMT",
+          "id": "news_3_1763014268",
+          "title": "Asian Traders Cautious as Data Void Clouds Outlook: Markets Wrap - Bloomberg.com",
+          "description": "Asian Traders Cautious as Data Void Clouds Outlook: Markets Wrap\u00a0\u00a0Bloomberg.comStock market today: Dow closes above 48,000 for first time, Nasdaq slips with government shutdown vote on deck\u00a0\u00a0Yahoo FinanceYen squeezed, stocks firm as US shutdown set to lift\u00a0\u00a0ReutersTreasury yields move lower as end of the government shutdown nears\u00a0\u00a0CNBCThe government shutdown is over. Here\u2019s how stocks performed, and what could come next for the economy.\u00a0\u00a0MarketWatch",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOTXRpUXJkZ0UxVDczR2YyajVQMGJ4bFZ1clVfNmVKZ0dEX3luY0hDaFhqckRWNmgzaUNQS1dQY2ZWemwwX2V5SFFrS294blBLYXFSYmhMMGlVc2JaWWxZSnd1NkJHcGNrZnZCZEZhTExkdmlpdVdBTWRvQVpNUDlwWjdPd1JRUl9UVHNDd3ZOdVJxYmpa?oc=5",
+          "source": "Bloomberg.com",
+          "published": "Thu, 13 Nov 2025 02:59:00 GMT",
           "topic": "BUSINESS",
-          "fetched_at": "2025-11-13T00:29:41.982542"
+          "fetched_at": "2025-11-13T06:11:08.850207"
         },
         "analysis": {
-          "summary": "The U.S. Mint has officially ended the production of pennies, marking the end of a coin that has been in circulation for over 200 years. This decision has raised questions about the economic and practical implications for both retailers and consumers, who now face a world without the penny.",
+          "summary": "Asian traders are showing caution as the lack of data clouds economic outlook, amidst a backdrop of the US government shutdown and market fluctuations, with the Dow crossing 48,000 and the Nasdaq slipping. The government shutdown's end brings about varied market reactions, with potential implications for future economic performance.",
           "key_points": [
-            "The U.S. Mint has discontinued the production of pennies after more than 200 years.",
-            "Retailers and consumers are questioning the impact of the absence of this cent-value coin.",
-            "The penny's end may signal a shift towards more efficient currency management and technological advancements in transactions."
+            "Asian traders are cautious due to the absence of key data.",
+            "The US government shutdown has concluded, affecting market sentiment and stock performance.",
+            "The Dow reached a new milestone, while the Nasdaq experienced a slight decline."
+          ],
+          "sentiment": "Neutral",
+          "confidence": "High",
+          "bias_check": "The article may present a bias towards highlighting the uncertainty and volatility in the markets due to the data void, government shutdown, and mixed stock performances, potentially overshadowing positive economic indicators.",
+          "missing_context": "The article does not provide information on the specific economic sectors that are outperforming or underperforming, or the underlying reasons for the cautious stance among Asian traders. Additionally, it does not address how the end of the government shutdown might affect the economy in the medium to long term.",
+          "implications": "The cautious attitude of Asian traders could lead to reduced market activity, potentially impacting global trade flows and investment decisions. The mixed market performance and the end of the government shutdown may lead to a period of adjustment as investors reassess their strategies in light of new information and policy changes.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-13T06:13:17.241142",
+          "token_usage": {
+            "prompt_tokens": 293,
+            "completion_tokens": 305,
+            "total_tokens": 598
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_4_1763014268",
+          "title": "Asia-Pacific stocks edge mostly higher as U.S. House passes funding bill to end shutdown - CNBC",
+          "description": "Asia-Pacific stocks edge mostly higher as U.S. House passes funding bill to end shutdown\u00a0\u00a0CNBCAsian shares are mixed in cautious trading after a mixed day on Wall Street\u00a0\u00a0AP NewsAsian shares are mixed after Wall Street drifted around its records\u00a0\u00a0The HillEmerging-Market FX Set for Fifth Day of Losses This Month So Far\u00a0\u00a0Bloomberg.comAsia FX muted amid rate cut uncertainty, dollar steady with shutdown end in sight\u00a0\u00a0Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNbEhHaXhmRjlPZXZtMGFJVUpaanJrZjZhSmE0RlVBa1E0MUtySklLS2hQMnZYaElZb0FFa292T1RBWkNrQjBMSzVvSWJFRTJsSHMzd2ZIZTNxRjN2c2J5bV9xVkZ4NkU3TXVRaXk1NUlueFY1MjhvZTRvN3BaWTVoSWxaUm5WWDA5cTh2UWc2VVVzNTBMRVA4WGp4c1E5UnJOa3FvYzlNMDdQeFVY0gGyAUFVX3lxTE05MUpUZ1BmT0VCZ3BtZl9BTjRFejFCN0RTZFVoMjhuVTFDc1N2Z3JvNmVHZkxDbGM1YmxjdnNZNUlIZVZlbVp5RmQ1ZmlybS1mZDcwQ2YyMEhxalkwWWUtMUIyVFZuclJVYjdYQjJvOWdUN0tldk1wRFlHWXN6a1ZSakNEaE5rVE1jY20yU3EyZnBpVjZrVkU4Z3VPQ0FHcjI3WHZmWnRnVVlkYkFxaFR6TlE?oc=5",
+          "source": "CNBC",
+          "published": "Wed, 12 Nov 2025 23:48:07 GMT",
+          "topic": "BUSINESS",
+          "fetched_at": "2025-11-13T06:11:08.850224"
+        },
+        "analysis": {
+          "summary": "Following the U.S. House's passage of a funding bill to end the government shutdown, Asian-Pacific stocks are cautiously rising, signaling a potential positive impact on global markets. However, the situation remains uncertain with mixed reactions from Wall Street, showcasing the interconnectedness of U.S. domestic policies and global financial markets.",
+          "key_points": [
+            "U.S. House passes funding bill to end the government shutdown.",
+            "Asian-Pacific stocks show mixed reactions, with cautious optimism.",
+            "Mixed sentiments on Wall Street indicate uncertainty about the global market's response."
           ],
           "sentiment": "Mixed",
           "confidence": "High",
-          "bias_check": "The article might present a predominantly positive view of the penny's discontinuation, underplaying potential negative economic impacts. Additionally, the focus on consumer and retailer reactions might bias the narrative toward immediate concerns rather than long-term benefits.",
-          "missing_context": "The article does not provide historical context on the reasons behind the penny's production, such as inflation and the coin's declining purchasing power. It also omits perspectives from economists or policymakers who might have different views on this change.",
-          "implications": "The end of penny production could lead to significant changes in everyday transactions, requiring adjustments in how businesses handle cash. It might also reflect broader trends in currency usage, such as a move towards digital payments. However, there could be short-term disruptions, especially for those who are not yet accustomed to rounding or new rounding practices.",
+          "bias_check": "The article may reflect the overall optimism of the financial community but does not delve deeply into the potential risks or broader economic implications. It may also underrepresent the concerns of those wary of market reactions to political instability.",
+          "missing_context": "The article does not provide information on the specific measures included in the funding bill, the political context leading to the shutdown, or the potential long-term impact on U.S. politics and economics. Additionally, it lacks details on how Asian markets are individually responding to this development.",
+          "implications": "The passage of the funding bill could lead to increased investor confidence in the short term, potentially boosting Asian-Pacific markets. However, the mixed reactions from Wall Street suggest that there may still be underlying uncertainties, and the lack of a long-term strategy could pose risks. The situation underscores the global nature of financial markets and the significant influence of U.S. political events on international economic conditions.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-13T00:31:29.714149",
+          "analyzed_at": "2025-11-13T06:13:25.666988",
           "token_usage": {
             "prompt_tokens": 289,
-            "completion_tokens": 322,
-            "total_tokens": 611
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_2_1762993781",
-          "title": "Air travel chaos will linger long after the government reopens - The Verge",
-          "description": "Air travel chaos will linger long after the government reopens\u00a0\u00a0The VergeNearly 900 flights canceled in US early Wednesday\u00a0\u00a0abcnews.go.comSigns Suggest Air Traffic Crisis is Easing, but Restrictions Remain\u00a0\u00a0The New York TimesThree Flights and Four Airports in One Day: Rolling the Shutdown Dice\u00a0\u00a0The Wall Street JournalFlight cancellations appear to improve, but disruptions are not over yet\u00a0\u00a0The Washington Post",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVU83ZkxHNURyR0FmdHVwQVh4S3MwdkU2ek1KX1lndFVWbkQ0XzhySDdyVFFkc0F2OXFKRDB4cXhrX0loQWJsZURweW1XQXZMTFpvcXlCS2VTVUhFYjVqN0Uzd1RVbHBncDZKNGlkc0l3U01BNlBHZWRsOVVSMXVHUm1wQ2tncHJRMWhoU0o4bDR1TGJMVXRreU1n?oc=5",
-          "source": "The Verge",
-          "published": "Wed, 12 Nov 2025 16:30:54 GMT",
-          "topic": "BUSINESS",
-          "fetched_at": "2025-11-13T00:29:41.982561"
-        },
-        "analysis": {
-          "summary": "The Verge article suggests that despite some improvements in air travel, disruptions are expected to persist even after the government reopens, hinting at a prolonged period of chaos in the aviation sector due to the ongoing pandemic.",
-          "key_points": [
-            "Air travel disruptions are still ongoing despite partial government reopening.",
-            "Significant flight cancellations and airport congestion are reported.",
-            "The situation indicates a potential for a prolonged crisis in air travel."
-          ],
-          "sentiment": "Negative",
-          "confidence": "High",
-          "bias_check": "The article may focus on the negative aspects of the situation, potentially overshadowing any positive developments or improvements in air travel.",
-          "missing_context": "The article might not provide enough information on the specific reasons behind the continued disruptions, such as health and safety protocols, staffing shortages, or logistical challenges.",
-          "implications": "The prolonged disruptions in air travel could affect various sectors, including tourism, business travel, supply chains, and the economy at large. It may also lead to increased public frustration and anxiety about air travel safety.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-13T00:31:35.889288",
-          "token_usage": {
-            "prompt_tokens": 274,
-            "completion_tokens": 230,
-            "total_tokens": 504
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_3_1762993781",
-          "title": "Stock Market Today: Dow Tops 48000; Gold and Silver Rally - The Wall Street Journal",
-          "description": "Stock Market Today: Dow Tops 48000; Gold and Silver Rally\u00a0\u00a0The Wall Street JournalStock futures tick lower after Dow rallies to record high: Live updates\u00a0\u00a0CNBCStock market today: Dow closes above 48,000 for first time, Nasdaq slips with government shutdown vote on deck\u00a0\u00a0Yahoo FinanceValue stocks rally as Dow tops 48,000 for first time. What does it mean for 2026?\u00a0\u00a0MarketWatchDow Average Hits All-Time Highs Before House Vote: Markets Wrap\u00a0\u00a0Bloomberg.com",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOT0JPUHBtSHRIM1Ztcm9tWjVkSmZTYTJZNUZjUTVqSEh5eWU2c3VMb2JER2NCWlphejVJQlJyeDd3SmVzVWk4WnN0TWRJOXBWblh5cEY4VHdLY04yVmlEb3cyWS1fdnVoZzVsMnFlUkhETHRjSURzdTBla0g1X19WODVBZGtCT0E?oc=5",
-          "source": "The Wall Street Journal",
-          "published": "Wed, 12 Nov 2025 23:46:00 GMT",
-          "topic": "BUSINESS",
-          "fetched_at": "2025-11-13T00:29:41.982577"
-        },
-        "analysis": {
-          "summary": "The Dow Jones Industrial Average reached a record high of 48,000, indicating a strong market performance, while gold and silver prices rose, showing investor confidence in precious metals amidst volatility. This milestone suggests a positive market sentiment but could also be a precursor to a correction or continued growth depending on future economic data and geopolitical events.",
-          "key_points": [
-            "The Dow Jones Industrial Average hit a record high of 48,000, marking a significant milestone.",
-            "Gold and silver prices rallied, suggesting a flight to safety or investment in precious metals.",
-            "The stock market's performance could be influenced by upcoming government shutdown votes and other economic indicators."
-          ],
-          "sentiment": "Mixed",
-          "confidence": "High",
-          "bias_check": "The article may carry inherent optimism due to the record-breaking Dow high, potentially downplaying risks or negative market indicators. Also, the article is from a well-known financial publication which may have an inherent bias towards market positivity.",
-          "missing_context": "The article does not provide information on the overall health of the economy, specific sectors contributing to the Dow's rise, or the reasons behind the gold and silver rally. It also omits global market reactions and potential upcoming economic reports that might affect investor sentiment.",
-          "implications": "The record Dow high could indicate strong investor confidence in the U.S. economy, potentially leading to continued stock market growth. However, the subsequent government shutdown vote and other economic events could introduce volatility. The rise in precious metals may suggest a diversification strategy among investors, potentially signaling caution in more traditional investments.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-13T00:31:44.714926",
-          "token_usage": {
-            "prompt_tokens": 305,
-            "completion_tokens": 334,
-            "total_tokens": 639
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_4_1762993781",
-          "title": "Kim Kardashian\u2019s Skims Is Worth an Extra Billion Dollars - The New York Times",
-          "description": "Kim Kardashian\u2019s Skims Is Worth an Extra Billion Dollars\u00a0\u00a0The New York TimesKim Kardashian\u2019s Skims valued at $5bn after raising new funding\u00a0\u00a0The GuardianKim Kardashian Is Richer Than Ever After New Skims Funding Round\u00a0\u00a0ForbesKim Kardashian's SKIMS Now Worth $5 Billion\u00a0\u00a0E! News",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNby03MjJ6YWRmeE1KNzFSNC1JZ0lNNWNlVmhDVi16cGRIMUxEdzBjSHQ5Vk1qOFZZUWhBWVBvT0hqQTY5SGg1amxRWWM3eFNDTDJqcjhuTWJpY011OGxHTjJsNXQtbERPMGtid0w1cTY3dW0tVDR0SkZldWRZYWtlUkxKVy1CUG51aEdCbklOeU16TDc2dzFJbUttcWhPd3c?oc=5",
-          "source": "The New York Times",
-          "published": "Wed, 12 Nov 2025 13:10:40 GMT",
-          "topic": "BUSINESS",
-          "fetched_at": "2025-11-13T00:29:41.982595"
-        },
-        "analysis": {
-          "summary": "Kim Kardashian's Skims brand has surged in valuation after securing new funding, now worth $5 billion, reflecting its massive market impact and the success of its marketing strategy led by the reality star.",
-          "key_points": [
-            "Skims brand valuation reached $5 billion after a new funding round.",
-            "Kim Kardashian's influence in the fashion industry has significantly boosted Skims' market position.",
-            "The funding round underscores confidence from investors in the brand's future growth and profitability."
-          ],
-          "sentiment": "Positive",
-          "confidence": "High",
-          "bias_check": "The article may exhibit bias by focusing on Kim Kardashian's celebrity status and its potential overemphasis on her role instead of the brand's inherent value. It may also implicitly favor the success of high-profile brands.",
-          "missing_context": "The article does not discuss the challenges or criticisms faced by Skims, consumer reception in different markets, or comparisons with other similar brands. It also omits any potential controversies or operational issues within the company.",
-          "implications": "The story highlights the significant impact of celebrity endorsement in today's market and the potential for high valuations driven by branding and marketing strategies. It also reflects the growing trend of influencer-led companies achieving substantial financial success.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-13T00:31:52.060399",
-          "token_usage": {
-            "prompt_tokens": 260,
-            "completion_tokens": 268,
-            "total_tokens": 528
+            "completion_tokens": 331,
+            "total_tokens": 620
           }
         }
       }
@@ -510,19 +510,19 @@
     "articles_analyzed": 15
   },
   "costs": {
-    "execution_time": 115.71844792366028,
-    "execution_minutes": 1.9286407987276712,
-    "github_actions": 0.015429126389821371,
+    "execution_time": 120.9055004119873,
+    "execution_minutes": 2.0150916735331217,
+    "github_actions": 0.016120733388264974,
     "openai": {
-      "input": 0.0006525,
-      "output": 0.0025374,
-      "total": 0.0031899
+      "input": 0.00065415,
+      "output": 0.0025553999999999998,
+      "total": 0.00320955
     },
-    "total": 0.01861902638982137,
+    "total": 0.019330283388264972,
     "token_usage": {
-      "prompt_tokens": 4350,
-      "completion_tokens": 4229,
-      "total_tokens": 8579
+      "prompt_tokens": 4361,
+      "completion_tokens": 4259,
+      "total_tokens": 8620
     }
   }
 }
