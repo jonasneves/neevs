@@ -6,7 +6,7 @@ export const translations = {
 
     // Home Page
     'home.title': 'Neevs',
-    'home.subtitle': 'Automated insights from AI-powered channels · Subscribe to what matters',
+    'home.subtitle': 'Automated insights from AI-powered channels',
     'home.badge.fresh': 'Always Fresh',
     'home.badge.automated': 'Fully Automated',
     'home.badge.ai': 'AI-Powered',
@@ -84,7 +84,7 @@ export const translations = {
 
     // Home Page
     'home.title': 'Neevs',
-    'home.subtitle': 'Insights automatizados de canais com IA · Assine o que importa',
+    'home.subtitle': 'Insights automatizados de canais com IA',
     'home.badge.fresh': 'Sempre Atualizado',
     'home.badge.automated': 'Totalmente Automatizado',
     'home.badge.ai': 'Alimentado por IA',
