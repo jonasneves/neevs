@@ -28,23 +28,11 @@
     </tr>
     <tr>
       <td style="width: 150px;">
-        <a href="https://github.com/jonasneves/neevs/actions/workflows/duke-local.yml">
-          <img src="https://github.com/jonasneves/neevs/actions/workflows/duke-local.yml/badge.svg" alt="Duke Local" style="width: 100%; height: auto;">
-        </a>
-      </td>
-      <td><strong>Duke Local:</strong> Daily digest of Duke campus discussions from r/duke</td>
-    </tr>
-    <tr>
-      <td style="width: 150px;">
         <a href="https://github.com/jonasneves/neevs/actions/workflows/market-analysis.yml">
           <img src="https://github.com/jonasneves/neevs/actions/workflows/market-analysis.yml/badge.svg" alt="Market Analysis" style="width: 100%; height: auto;">
         </a>
       </td>
       <td><strong>Market Analysis:</strong> Real-time crypto and stock market analysis with AI insights</td>
-    </tr>
-    <tr>
-      <td style="width: 150px;"><em>Coming Soon</em></td>
-      <td><strong>Social Trends:</strong> Social media analysis and trending topics</td>
     </tr>
   </tbody>
 </table>
@@ -72,14 +60,12 @@ agents/                     # Agent pipelines
 ├── academic_research/      # Research digest pipeline
 ├── stock_monitor/          # Stock market monitoring
 ├── market_analysis/        # Market trends analysis
-├── duke_local/             # Duke community digest
 └── utils.py               # Shared utilities
 
 .github/workflows/          # GitHub Actions
 ├── news-perspectives.yml   # AI News Bias Detector scheduler
 ├── academic-research.yml   # Research pipeline scheduler
 ├── market-analysis.yml     # Market analysis scheduler
-├── duke-local.yml          # Duke Local scheduler
 └── deploy-site.yml         # GitHub Pages deployment
 
 src/                        # Frontend

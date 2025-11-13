@@ -7,7 +7,6 @@ import path from 'path';
 
 // Load weekly digest artifacts
 let academicArtifacts = [];
-let dukeLocalArtifacts = [];
 
 try {
   // Load the latest digest
@@ -114,36 +113,6 @@ try {
   ];
 }
 
-// Load Duke Local artifacts
-try {
-  const dukeDigestPath = path.join(process.cwd(), 'public', 'duke-local-digest.json');
-  const dukeDigestContent = fs.readFileSync(dukeDigestPath, 'utf-8');
-  const dukeDigestData = JSON.parse(dukeDigestContent);
-  const dukeDigest = dukeDigestData.data.digest;
-
-  const dukeDate = dukeDigestData.timestamp ? dukeDigestData.timestamp.split('T')[0] : null;
-  const dukeFormattedDate = dukeDate
-    ? new Date(dukeDate).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })
-    : new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
-
-  const totalPosts = dukeDigestData.data?.post_count || 0;
-
-  dukeLocalArtifacts = [
-    {
-      title: dukeDigest.title || "Duke Daily Digest",
-      description: dukeDigest.subtitle || "Your daily roundup of what's happening on the Duke campus",
-      href: "/artifacts/duke-daily",
-      icon: "lucide:school",
-      status: "active" as const,
-      lastUpdated: dukeFormattedDate,
-      agents: `${totalPosts} posts`,
-    },
-  ];
-} catch (error) {
-  console.log('Duke Local digest not found (may not have run yet)');
-  dukeLocalArtifacts = [];
-}
-
 // Load market analysis artifacts
 let marketAnalysisArtifacts = [];
 try {
@@ -236,18 +205,6 @@ const pipelines = [
     },
   },
   {
-    id: "duke-local",
-    name: "Duke Local Pipeline",
-    description: "Daily digest of Duke campus discussions from r/duke",
-    status: dukeLocalArtifacts.length > 0 ? "active" as const : "planned" as const,
-    artifacts: dukeLocalArtifacts,
-    meta: {
-      schedule: dukeLocalArtifacts.length > 0 ? "Daily" : "Daily",
-      dataSource: "Reddit r/duke",
-      aiTask: "Topic clustering, sentiment tracking",
-    },
-  },
-  {
     id: "market-analysis",
     name: "Market Analysis Pipeline",
     description: "Real-time crypto and stock market analysis with AI insights",
@@ -257,18 +214,6 @@ const pipelines = [
       schedule: marketAnalysisArtifacts.length > 0 ? "Daily (6 AM EST)" : "Daily (6 AM EST)",
       dataSource: "CoinGecko, Yahoo Finance, News APIs",
       aiTask: "Sentiment analysis, trend prediction",
-    },
-  },
-  {
-    id: "social-trends",
-    name: "Social Trends Pipeline",
-    description: "Social media analysis and trending topics",
-    status: "planned" as const,
-    artifacts: [],
-    meta: {
-      schedule: "Daily",
-      dataSource: "Twitter/X, Reddit, Hacker News",
-      aiTask: "Trend detection, topic modeling",
     },
   },
 ];

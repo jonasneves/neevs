@@ -12,7 +12,6 @@ The repository generates data files in the following directories:
 - `data/market_analysis/` - Market data and digests
 - `data/news_perspectives/` - News analysis from different AI models
 - `data/stock_monitor/` - Stock price monitoring data
-- `data/duke_local/` - Local Duke community data
 
 ### Public Deployment Files
 
@@ -95,8 +94,7 @@ The repository uses these GitHub Actions workflows:
 2. **market-analysis.yml** - Twice-daily market analysis (9 AM, 9 PM UTC)
 3. **news-perspectives.yml** - Daily news analysis (8 AM UTC)
 4. **stock-monitor.yml** - 3x daily stock monitoring (6 AM, 12 PM, 6 PM UTC)
-5. **duke-local.yml** - Daily Duke community digest (8 AM UTC)
-6. **_reusable-agent-runner.yml** - Shared agent runner template
+5. **_reusable-agent-runner.yml** - Shared agent runner template
 
 ### Removed Workflows
 
