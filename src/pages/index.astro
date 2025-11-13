@@ -178,57 +178,57 @@ try {
   newsPerspectivesArtifacts = [];
 }
 
-// Organize artifacts by pipeline
-const pipelines = [
+// Organize artifacts by channel
+const channels = [
   {
     id: "news-perspectives",
     name: "AI News Bias Detector",
-    nameKey: "pipeline.news.name",
+    nameKey: "channel.news.name",
     description: "Compare how ChatGPT, Llama, and other AI models interpret the same story differently - expose AI bias and think critically",
-    descKey: "pipeline.news.description",
+    descKey: "channel.news.description",
     status: newsPerspectivesArtifacts.length > 0 ? "active" as const : "planned" as const,
     artifacts: newsPerspectivesArtifacts,
     meta: {
       schedule: "Every 6 hours",
-      scheduleKey: "pipeline.news.schedule",
+      scheduleKey: "channel.news.schedule",
       dataSource: "Google News",
-      dataSourceKey: "pipeline.news.source",
+      dataSourceKey: "channel.news.source",
       aiTask: "Multi-AI comparison, bias detection, sentiment analysis",
-      aiTaskKey: "pipeline.news.task",
+      aiTaskKey: "channel.news.task",
     },
   },
   {
     id: "academic-research",
-    name: "Academic Research Pipeline",
-    nameKey: "pipeline.academic.name",
+    name: "Academic Research Channel",
+    nameKey: "channel.academic.name",
     description: "Weekly digest of trending research papers with social buzz tracking",
-    descKey: "pipeline.academic.description",
+    descKey: "channel.academic.description",
     status: "active" as const,
     artifacts: academicArtifacts,
     meta: {
       schedule: "Weekly (Sundays)",
-      scheduleKey: "pipeline.academic.schedule",
+      scheduleKey: "channel.academic.schedule",
       dataSource: "arXiv API, Twitter/X, Reddit",
-      dataSourceKey: "pipeline.academic.source",
+      dataSourceKey: "channel.academic.source",
       aiTask: "Paper summarization, trend analysis",
-      aiTaskKey: "pipeline.academic.task",
+      aiTaskKey: "channel.academic.task",
     },
   },
   {
     id: "market-analysis",
-    name: "Market Analysis Pipeline",
-    nameKey: "pipeline.market.name",
+    name: "Market Analysis Channel",
+    nameKey: "channel.market.name",
     description: "Real-time crypto and stock market analysis with AI insights",
-    descKey: "pipeline.market.description",
+    descKey: "channel.market.description",
     status: marketAnalysisArtifacts.length > 0 ? "active" as const : "planned" as const,
     artifacts: marketAnalysisArtifacts,
     meta: {
       schedule: marketAnalysisArtifacts.length > 0 ? "Daily (6 AM EST)" : "Daily (6 AM EST)",
-      scheduleKey: "pipeline.market.schedule",
+      scheduleKey: "channel.market.schedule",
       dataSource: "CoinGecko, Yahoo Finance, News APIs",
-      dataSourceKey: "pipeline.market.source",
+      dataSourceKey: "channel.market.source",
       aiTask: "Sentiment analysis, trend prediction",
-      aiTaskKey: "pipeline.market.task",
+      aiTaskKey: "channel.market.task",
     },
   },
 ];
@@ -259,49 +259,49 @@ const pipelines = [
         </p>
     </div>
 
-    <h2 class="pipelines-section-title" data-i18n="home.section.title">Browse All Channels</h2>
+    <h2 class="channels-section-title" data-i18n="home.section.title">Browse All Channels</h2>
 
-    <div class="pipelines-section">
-        {pipelines.map(pipeline => (
-            <div class="pipeline-container">
-                <div class="pipeline-header">
-                    <div class="pipeline-title-row">
-                        <h2 class="pipeline-title" data-i18n={pipeline.nameKey}>{pipeline.name}</h2>
-                        <span class={`pipeline-status status-${pipeline.status}`} data-i18n={`home.pipeline.status.${pipeline.status}`}>
-                            {pipeline.status}
+    <div class="channels-section">
+        {channels.map(channel => (
+            <div class="channel-container">
+                <div class="channel-header">
+                    <div class="channel-title-row">
+                        <h2 class="channel-title" data-i18n={channel.nameKey}>{channel.name}</h2>
+                        <span class={`channel-status status-${channel.status}`} data-i18n={`home.channel.status.${channel.status}`}>
+                            {channel.status}
                         </span>
                     </div>
-                    <p class="pipeline-description" data-i18n={pipeline.descKey}>{pipeline.description}</p>
+                    <p class="channel-description" data-i18n={channel.descKey}>{channel.description}</p>
 
-                    {pipeline.meta && (
-                        <div class="pipeline-meta">
+                    {channel.meta && (
+                        <div class="channel-meta">
                             <div class="meta-item">
-                                <span class="meta-label" data-i18n={pipeline.status === 'planned' ? 'home.pipeline.plannedSchedule' : 'home.pipeline.schedule'}>{pipeline.status === 'planned' ? 'Planned Schedule:' : 'Schedule:'}</span>
-                                <span class="meta-value" data-i18n={pipeline.meta.scheduleKey}>{pipeline.meta.schedule}</span>
+                                <span class="meta-label" data-i18n={channel.status === 'planned' ? 'home.channel.plannedSchedule' : 'home.channel.schedule'}>{channel.status === 'planned' ? 'Planned Schedule:' : 'Schedule:'}</span>
+                                <span class="meta-value" data-i18n={channel.meta.scheduleKey}>{channel.meta.schedule}</span>
                             </div>
                             <div class="meta-item">
-                                <span class="meta-label" data-i18n="home.pipeline.dataSource">Data Source:</span>
-                                <span class="meta-value" data-i18n={pipeline.meta.dataSourceKey}>{pipeline.meta.dataSource}</span>
+                                <span class="meta-label" data-i18n="home.channel.dataSource">Data Source:</span>
+                                <span class="meta-value" data-i18n={channel.meta.dataSourceKey}>{channel.meta.dataSource}</span>
                             </div>
                             <div class="meta-item">
-                                <span class="meta-label" data-i18n="home.pipeline.aiTask">AI Task:</span>
-                                <span class="meta-value" data-i18n={pipeline.meta.aiTaskKey}>{pipeline.meta.aiTask}</span>
+                                <span class="meta-label" data-i18n="home.channel.aiTask">AI Task:</span>
+                                <span class="meta-value" data-i18n={channel.meta.aiTaskKey}>{channel.meta.aiTask}</span>
                             </div>
                         </div>
                     )}
                 </div>
 
-                {pipeline.artifacts.length > 0 ? (
+                {channel.artifacts.length > 0 ? (
                     <div class="artifacts-container">
                         <div class="artifacts-grid">
-                            {pipeline.artifacts.map(artifact => (
+                            {channel.artifacts.map(artifact => (
                                 <ReportCard {...artifact} />
                             ))}
                         </div>
                     </div>
                 ) : (
                     <div class="no-artifacts">
-                        <p data-i18n="home.pipeline.noArtifacts">No artifacts generated yet • Pipeline coming soon</p>
+                        <p data-i18n="home.channel.noArtifacts">No artifacts generated yet • Channel coming soon</p>
                     </div>
                 )}
             </div>
@@ -372,8 +372,8 @@ const pipelines = [
         margin: 0;
     }
 
-    /* Pipelines Section */
-    .pipelines-section-title {
+    /* Channels Section */
+    .channels-section-title {
         font-size: var(--font-size-2xl);
         font-weight: 600;
         text-align: center;
@@ -385,7 +385,7 @@ const pipelines = [
         margin-right: auto;
     }
 
-    .pipelines-section {
+    .channels-section {
         max-width: 72rem;
         margin: 0 auto;
         display: flex;
@@ -393,7 +393,7 @@ const pipelines = [
         gap: var(--space-8);
     }
 
-    .pipeline-container {
+    .channel-container {
         border: 1px solid var(--color-border-light);
         border-radius: var(--radius-lg);
         padding: var(--space-6);
@@ -402,16 +402,16 @@ const pipelines = [
         box-shadow: var(--shadow-sm);
     }
 
-    .pipeline-container:hover {
+    .channel-container:hover {
         border-color: var(--color-border-medium);
         box-shadow: var(--shadow-md);
     }
 
-    .pipeline-header {
+    .channel-header {
         margin-bottom: var(--space-4);
     }
 
-    .pipeline-title-row {
+    .channel-title-row {
         display: flex;
         align-items: center;
         gap: var(--space-3);
@@ -419,7 +419,7 @@ const pipelines = [
         flex-wrap: wrap;
     }
 
-    .pipeline-title {
+    .channel-title {
         font-size: var(--font-size-xl);
         font-weight: 600;
         color: var(--color-text-primary);
@@ -427,7 +427,7 @@ const pipelines = [
         letter-spacing: -0.02em;
     }
 
-    .pipeline-status {
+    .channel-status {
         padding: var(--space-1) var(--space-3);
         border-radius: var(--radius-full);
         font-size: var(--font-size-xs);
@@ -445,14 +445,14 @@ const pipelines = [
         color: var(--color-text-tertiary);
     }
 
-    .pipeline-description {
+    .channel-description {
         font-size: var(--font-size-base);
         color: var(--color-text-secondary);
         margin: 0 0 var(--space-4);
         line-height: 1.5;
     }
 
-    .pipeline-meta {
+    .channel-meta {
         display: flex;
         gap: var(--space-6);
         flex-wrap: wrap;
@@ -522,11 +522,11 @@ const pipelines = [
             grid-template-columns: 1fr;
         }
 
-        .pipeline-container {
+        .channel-container {
             padding: var(--space-6);
         }
 
-        .pipeline-meta {
+        .channel-meta {
             flex-direction: column;
             gap: var(--space-3);
         }
