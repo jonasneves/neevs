@@ -183,37 +183,52 @@ const pipelines = [
   {
     id: "news-perspectives",
     name: "AI News Bias Detector",
+    nameKey: "pipeline.news.name",
     description: "Compare how ChatGPT, Llama, and other AI models interpret the same story differently - expose AI bias and think critically",
+    descKey: "pipeline.news.description",
     status: newsPerspectivesArtifacts.length > 0 ? "active" as const : "planned" as const,
     artifacts: newsPerspectivesArtifacts,
     meta: {
       schedule: "Every 6 hours",
+      scheduleKey: "pipeline.news.schedule",
       dataSource: "Google News",
+      dataSourceKey: "pipeline.news.source",
       aiTask: "Multi-AI comparison, bias detection, sentiment analysis",
+      aiTaskKey: "pipeline.news.task",
     },
   },
   {
     id: "academic-research",
     name: "Academic Research Pipeline",
+    nameKey: "pipeline.academic.name",
     description: "Weekly digest of trending research papers with social buzz tracking",
+    descKey: "pipeline.academic.description",
     status: "active" as const,
     artifacts: academicArtifacts,
     meta: {
       schedule: "Weekly (Sundays)",
+      scheduleKey: "pipeline.academic.schedule",
       dataSource: "arXiv API, Twitter/X, Reddit",
+      dataSourceKey: "pipeline.academic.source",
       aiTask: "Paper summarization, trend analysis",
+      aiTaskKey: "pipeline.academic.task",
     },
   },
   {
     id: "market-analysis",
     name: "Market Analysis Pipeline",
+    nameKey: "pipeline.market.name",
     description: "Real-time crypto and stock market analysis with AI insights",
+    descKey: "pipeline.market.description",
     status: marketAnalysisArtifacts.length > 0 ? "active" as const : "planned" as const,
     artifacts: marketAnalysisArtifacts,
     meta: {
       schedule: marketAnalysisArtifacts.length > 0 ? "Daily (6 AM EST)" : "Daily (6 AM EST)",
+      scheduleKey: "pipeline.market.schedule",
       dataSource: "CoinGecko, Yahoo Finance, News APIs",
+      dataSourceKey: "pipeline.market.source",
       aiTask: "Sentiment analysis, trend prediction",
+      aiTaskKey: "pipeline.market.task",
     },
   },
 ];
@@ -221,56 +236,56 @@ const pipelines = [
 
 <Layout title="Neevs - Automated AI Insights" description="Discover AI-powered channels that analyze news, research, and trends">
     <div class="page-header">
-        <h1 class="page-title">Neevs</h1>
-        <p class="page-description">
+        <h1 class="page-title" data-i18n="home.title">Neevs</h1>
+        <p class="page-description" data-i18n="home.subtitle">
             Automated insights from AI-powered channels · Subscribe to what matters
         </p>
         <div class="highlight-badges">
             <span class="highlight-badge">
                 <Icon name="lucide:zap" class="badge-icon" />
-                <span>Always Fresh</span>
+                <span data-i18n="home.badge.fresh">Always Fresh</span>
             </span>
             <span class="highlight-badge">
                 <Icon name="lucide:rocket" class="badge-icon" />
-                <span>Fully Automated</span>
+                <span data-i18n="home.badge.automated">Fully Automated</span>
             </span>
             <span class="highlight-badge">
                 <Icon name="lucide:sparkles" class="badge-icon" />
-                <span>AI-Powered</span>
+                <span data-i18n="home.badge.ai">AI-Powered</span>
             </span>
         </div>
-        <p class="page-subdescription">
+        <p class="page-subdescription" data-i18n="home.subdescription">
             Free to read · Subscribe to channels you love · Built with AgentFlow
         </p>
     </div>
 
-    <h2 class="pipelines-section-title">Browse All Channels</h2>
+    <h2 class="pipelines-section-title" data-i18n="home.section.title">Browse All Channels</h2>
 
     <div class="pipelines-section">
         {pipelines.map(pipeline => (
             <div class="pipeline-container">
                 <div class="pipeline-header">
                     <div class="pipeline-title-row">
-                        <h2 class="pipeline-title">{pipeline.name}</h2>
-                        <span class={`pipeline-status status-${pipeline.status}`}>
+                        <h2 class="pipeline-title" data-i18n={pipeline.nameKey}>{pipeline.name}</h2>
+                        <span class={`pipeline-status status-${pipeline.status}`} data-i18n={`home.pipeline.status.${pipeline.status}`}>
                             {pipeline.status}
                         </span>
                     </div>
-                    <p class="pipeline-description">{pipeline.description}</p>
+                    <p class="pipeline-description" data-i18n={pipeline.descKey}>{pipeline.description}</p>
 
                     {pipeline.meta && (
                         <div class="pipeline-meta">
                             <div class="meta-item">
-                                <span class="meta-label">{pipeline.status === 'planned' ? 'Planned Schedule:' : 'Schedule:'}</span>
-                                <span class="meta-value">{pipeline.meta.schedule}</span>
+                                <span class="meta-label" data-i18n={pipeline.status === 'planned' ? 'home.pipeline.plannedSchedule' : 'home.pipeline.schedule'}>{pipeline.status === 'planned' ? 'Planned Schedule:' : 'Schedule:'}</span>
+                                <span class="meta-value" data-i18n={pipeline.meta.scheduleKey}>{pipeline.meta.schedule}</span>
                             </div>
                             <div class="meta-item">
-                                <span class="meta-label">Data Source:</span>
-                                <span class="meta-value">{pipeline.meta.dataSource}</span>
+                                <span class="meta-label" data-i18n="home.pipeline.dataSource">Data Source:</span>
+                                <span class="meta-value" data-i18n={pipeline.meta.dataSourceKey}>{pipeline.meta.dataSource}</span>
                             </div>
                             <div class="meta-item">
-                                <span class="meta-label">AI Task:</span>
-                                <span class="meta-value">{pipeline.meta.aiTask}</span>
+                                <span class="meta-label" data-i18n="home.pipeline.aiTask">AI Task:</span>
+                                <span class="meta-value" data-i18n={pipeline.meta.aiTaskKey}>{pipeline.meta.aiTask}</span>
                             </div>
                         </div>
                     )}
@@ -286,7 +301,7 @@ const pipelines = [
                     </div>
                 ) : (
                     <div class="no-artifacts">
-                        <p>No artifacts generated yet • Pipeline coming soon</p>
+                        <p data-i18n="home.pipeline.noArtifacts">No artifacts generated yet • Pipeline coming soon</p>
                     </div>
                 )}
             </div>

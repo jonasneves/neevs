@@ -16,6 +16,7 @@ const { title, description = "AI-Powered Research and Analysis" } = Astro.props;
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content={description}>
     <title>{title}</title>
+    <script src="/translations.js"></script>
 </head>
 <body>
     <div class="layout">
@@ -27,7 +28,10 @@ const { title, description = "AI-Powered Research and Analysis" } = Astro.props;
                         <span class="logo-text">AgentFlow</span>
                     </a>
                     <div class="nav-links">
-                        <a href="/how-it-works" class="nav-link">How It Works</a>
+                        <a href="/how-it-works" class="nav-link" data-i18n="nav.howItWorks">How It Works</a>
+                        <button id="language-toggle" class="language-toggle" onclick="toggleLanguage()" aria-label="Switch language">
+                            🇧🇷 PT
+                        </button>
                     </div>
                 </nav>
             </div>
@@ -41,7 +45,7 @@ const { title, description = "AI-Powered Research and Analysis" } = Astro.props;
 
         <footer class="footer">
             <div class="container">
-                <p class="footer-text">Powered by GitHub Actions + AI • All pipelines run serverless • Only pay for AI API usage</p>
+                <p class="footer-text" data-i18n="footer.powered">Powered by GitHub Actions + AI • All pipelines run serverless • Only pay for AI API usage</p>
             </div>
         </footer>
     </div>
@@ -131,6 +135,31 @@ const { title, description = "AI-Powered Research and Analysis" } = Astro.props;
         width: 100%;
     }
 
+    .language-toggle {
+        display: flex;
+        align-items: center;
+        gap: var(--space-2);
+        padding: var(--space-2) var(--space-3);
+        background: var(--color-bg-secondary);
+        border: 1px solid var(--color-border-light);
+        border-radius: var(--radius-md);
+        color: var(--color-text-primary);
+        font-size: var(--font-size-sm);
+        font-weight: 600;
+        cursor: pointer;
+        transition: all var(--transition-fast);
+    }
+
+    .language-toggle:hover {
+        background: var(--color-bg-elevated);
+        border-color: var(--color-accent-primary);
+        transform: translateY(-1px);
+    }
+
+    .language-toggle:active {
+        transform: translateY(0);
+    }
+
     /* Main Content */
     .main {
         flex: 1;
@@ -162,11 +191,16 @@ const { title, description = "AI-Powered Research and Analysis" } = Astro.props;
         }
 
         .nav-links {
-            gap: var(--space-4);
+            gap: var(--space-3);
         }
 
         .nav-link {
             font-size: var(--font-size-sm);
+        }
+
+        .language-toggle {
+            padding: var(--space-1) var(--space-2);
+            font-size: var(--font-size-xs);
         }
     }
 </style>
