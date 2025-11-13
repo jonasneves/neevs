@@ -3,11 +3,11 @@ import Layout from '../layouts/Layout.astro';
 import { Icon } from 'astro-icon/components';
 ---
 
-<Layout title="Como Funciona - AgentFlow" description="Aprenda como o AgentFlow usa GitHub Actions e IA para automatizar insights">
+<Layout title="How It Works - AgentFlow" description="Learn how AgentFlow uses GitHub Actions and AI to automate insights">
     <div class="page-header">
-        <h1 class="page-title">Como Funciona</h1>
-        <p class="page-description">
-            AgentFlow aproveita GitHub Actions e IA para criar pipelines automatizados e serverless
+        <h1 class="page-title" data-i18n="howItWorks.title">How It Works</h1>
+        <p class="page-description" data-i18n="howItWorks.subtitle">
+            AgentFlow leverages GitHub Actions and AI to create automated, serverless pipelines
         </p>
     </div>
 
@@ -21,8 +21,8 @@ import { Icon } from 'astro-icon/components';
                         <Icon name="lucide:clock" />
                     </div>
                 </div>
-                <h3 class="step-title">Gatilho Agendado</h3>
-                <p class="step-description">GitHub Actions executa pipelines em um cronograma (diário, semanal, etc.) ou sob demanda</p>
+                <h3 class="step-title" data-i18n="howItWorks.step1.title">Scheduled Trigger</h3>
+                <p class="step-description" data-i18n="howItWorks.step1.description">GitHub Actions runs pipelines on a schedule (daily, weekly, etc.) or on-demand</p>
             </div>
             <div class="workflow-step">
                 <div class="step-header">
@@ -31,8 +31,8 @@ import { Icon } from 'astro-icon/components';
                         <Icon name="lucide:search" />
                     </div>
                 </div>
-                <h3 class="step-title">Coleta de Dados</h3>
-                <p class="step-description">Pipelines coletam dados de APIs, sites, redes sociais, bases de pesquisa ou outras fontes</p>
+                <h3 class="step-title" data-i18n="howItWorks.step2.title">Data Collection</h3>
+                <p class="step-description" data-i18n="howItWorks.step2.description">Pipelines fetch data from APIs, websites, social media, research databases, or other sources</p>
             </div>
             <div class="workflow-step">
                 <div class="step-header">
@@ -41,8 +41,8 @@ import { Icon } from 'astro-icon/components';
                         <Icon name="lucide:sparkles" />
                     </div>
                 </div>
-                <h3 class="step-title">Análise com IA</h3>
-                <p class="step-description">Modelos de IA processam os dados para extrair insights, resumir conteúdo e identificar tendências</p>
+                <h3 class="step-title" data-i18n="howItWorks.step3.title">AI Analysis</h3>
+                <p class="step-description" data-i18n="howItWorks.step3.description">AI models process the data to extract insights, summarize content, and identify trends</p>
             </div>
             <div class="workflow-step">
                 <div class="step-header">
@@ -51,68 +51,68 @@ import { Icon } from 'astro-icon/components';
                         <Icon name="lucide:bar-chart-3" />
                     </div>
                 </div>
-                <h3 class="step-title">Publicação Automática</h3>
-                <p class="step-description">Resultados são automaticamente gerados como relatórios HTML e publicados no GitHub Pages</p>
+                <h3 class="step-title" data-i18n="howItWorks.step4.title">Auto-Publish</h3>
+                <p class="step-description" data-i18n="howItWorks.step4.description">Results are automatically generated as HTML reports and published to GitHub Pages</p>
             </div>
         </div>
     </div>
 
     <div class="details-section">
-        <h2 class="section-title">A Stack</h2>
+        <h2 class="section-title" data-i18n="howItWorks.stackSection.title">The Stack</h2>
         <div class="stack-cards">
             <div class="stack-card">
                 <div class="stack-icon">
                     <Icon name="lucide:github" />
                 </div>
-                <h3>GitHub Actions</h3>
-                <p>Computação gratuita para executar pipelines automatizados agendados ou sob demanda</p>
+                <h3 data-i18n="howItWorks.stack.githubActions.title">GitHub Actions</h3>
+                <p data-i18n="howItWorks.stack.githubActions.description">Free compute for running automated pipelines on schedule or on-demand</p>
             </div>
             <div class="stack-card">
                 <div class="stack-icon">
                     <Icon name="lucide:globe" />
                 </div>
-                <h3>GitHub Pages</h3>
-                <p>Hospedagem gratuita para sites estáticos - perfeito para publicar relatórios automatizados</p>
+                <h3 data-i18n="howItWorks.stack.githubPages.title">GitHub Pages</h3>
+                <p data-i18n="howItWorks.stack.githubPages.description">Free hosting for static sites - perfect for publishing automated reports</p>
             </div>
             <div class="stack-card">
                 <div class="stack-icon">
                     <Icon name="lucide:sparkles" />
                 </div>
-                <h3>AI APIs</h3>
-                <p>Processamento de IA pague conforme usar - pague apenas pelo que usar, sem custos de infraestrutura</p>
+                <h3 data-i18n="howItWorks.stack.aiApis.title">AI APIs</h3>
+                <p data-i18n="howItWorks.stack.aiApis.description">Pay-as-you-go AI processing - only pay for what you use, no infrastructure costs</p>
             </div>
             <div class="stack-card">
                 <div class="stack-icon">
                     <Icon name="lucide:code-2" />
                 </div>
-                <h3>Astro</h3>
-                <p>Framework web moderno e rápido para criar sites ricos em conteúdo com JavaScript mínimo</p>
+                <h3 data-i18n="howItWorks.stack.astro.title">Astro</h3>
+                <p data-i18n="howItWorks.stack.astro.description">Fast, modern web framework for building content-rich sites with minimal JavaScript</p>
             </div>
         </div>
     </div>
 
     <div class="benefits-section">
-        <h2 class="section-title">Por Que AgentFlow?</h2>
+        <h2 class="section-title" data-i18n="howItWorks.whySection.title">Why AgentFlow?</h2>
         <div class="benefits-grid">
             <div class="benefit-card">
                 <Icon name="lucide:dollar-sign" class="benefit-icon" />
-                <h3>Custo-Efetivo</h3>
-                <p>Sem servidores para gerenciar ou pagar. Pague apenas pelo uso da API de IA.</p>
+                <h3 data-i18n="howItWorks.benefit.costEffective.title">Cost Effective</h3>
+                <p data-i18n="howItWorks.benefit.costEffective.description">No servers to manage or pay for. Only pay for AI API usage.</p>
             </div>
             <div class="benefit-card">
                 <Icon name="lucide:zap" class="benefit-icon" />
-                <h3>Zero Manutenção</h3>
-                <p>GitHub cuida da infraestrutura, escalabilidade e implantação automaticamente.</p>
+                <h3 data-i18n="howItWorks.benefit.zeroMaintenance.title">Zero Maintenance</h3>
+                <p data-i18n="howItWorks.benefit.zeroMaintenance.description">GitHub handles infrastructure, scaling, and deployment automatically.</p>
             </div>
             <div class="benefit-card">
                 <Icon name="lucide:lock" class="benefit-icon" />
-                <h3>Seguro e Confiável</h3>
-                <p>Construído na infraestrutura do GitHub com segurança de nível empresarial.</p>
+                <h3 data-i18n="howItWorks.benefit.secure.title">Secure & Reliable</h3>
+                <p data-i18n="howItWorks.benefit.secure.description">Built on GitHub's infrastructure with enterprise-grade security.</p>
             </div>
             <div class="benefit-card">
                 <Icon name="lucide:git-branch" class="benefit-icon" />
-                <h3>Controle de Versão</h3>
-                <p>Todo código, dados e configurações são rastreados no Git.</p>
+                <h3 data-i18n="howItWorks.benefit.versionControlled.title">Version Controlled</h3>
+                <p data-i18n="howItWorks.benefit.versionControlled.description">All code, data, and configurations are tracked in Git.</p>
             </div>
         </div>
     </div>
