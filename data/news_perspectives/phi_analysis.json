@@ -2,505 +2,501 @@
   "agent": "phi-analyzer",
   "model": "Phi-4 Mini",
   "model_id": "microsoft/phi-4-mini-instruct",
-  "timestamp": "2025-11-13T12:14:33.836096",
+  "timestamp": "2025-11-13T18:16:21.930202",
   "status": "completed",
   "data": {
     "analyses": [
       {
         "article": {
-          "id": "news_0_1763035938",
-          "title": "Steam Machine: Valve rivals Xbox and PlayStation with new console - BBC",
-          "description": "Steam Machine: Valve rivals Xbox and PlayStation with new console\u00a0\u00a0BBCSteam Machine Hands-On: First Impressions of Valve\u2019s New Console-Like Gaming PC\u00a0\u00a0IGNOur first look at the Steam Machine, Valve\u2019s ambitious new game console\u00a0\u00a0The VergeValve Announces Steam Machine, a New Video-Game Console\u00a0\u00a0Bloomberg.comValve\u2019s Steam Frame VR headset is finally official and it's coming in 2026\u00a0\u00a0Engadget",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB2Y2NLQWN0eXBQYnM4TTVIdzlDWVZtMXMzeXRrakE5LTdfUld1X09Xd1VHVENsWUdrbzVKcng0NFp0a2J2bHZpNlZ3SWxNSjJjb05EVG1CU1Bhd9IBX0FVX3lxTE52NWcxeDJRUUY3dktwTldWV01leTNfQjM5QnRKYmVsQWJzX1d2elYteV91MDZGQnk5Rzlka1VtajRVUTFkc1J2UFpUalZTVUt3Y2lXckZFb1BvLTFucTJF?oc=5",
-          "source": "BBC",
-          "published": "Thu, 13 Nov 2025 10:08:06 GMT",
+          "id": "news_0_1763057591",
+          "title": "The OnePlus 15 is the phone to buy if you hate charging your phone - The Verge",
+          "description": "The OnePlus 15 is the phone to buy if you hate charging your phone\u00a0\u00a0The VergeThe OnePlus 15 Has Two-Day Battery Life. 'Nuff Said\u00a0\u00a0WIREDOnePlus\u2019s New Two-Day Battery Life Phone Delayed by US Government Shutdown\u00a0\u00a0Bloomberg.comThe US government shutdown claims an unexpected victim: OnePlus 15\u00a0\u00a0EngadgetOnePlus 15 smartphone launch: Big battery, big screen, and big AI ambitions\u00a0\u00a0SFGATE",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPbG1PRzFxZmloV29VYmNSTFhueUkyelNWbHMteXF0RkpyU0s2ZU9QTngwaFUxOGJiRkdxZzlRemJtSlgzT0hpQUYtdUQ5dEZhRHF4bUhjZXdLUUJiMDRFWFcySlpZWGt5U2R6NU9oY2tCZkZDcVJSbWU3V2taMFRSdS1B?oc=5",
+          "source": "The Verge",
+          "published": "Thu, 13 Nov 2025 14:30:00 GMT",
           "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-13T12:12:18.000024"
+          "fetched_at": "2025-11-13T18:13:11.192702"
         },
         "analysis": {
-          "summary": "Valve's Steam Machine is introduced as a new gaming console designed to compete directly with Xbox and PlayStation. The company aims to disrupt the gaming industry by combining PC-like flexibility with the convenience of a dedicated console.",
+          "summary": "The OnePlus 15 is being touted as a game-changer for users who dislike frequent phone charging, boasting a two-day battery life. The article highlights the device's significant battery capacity, and while it may draw attention, it also notes delays caused by the US government shutdown, with other sources discussing the phone's features and ambitions in the industry.",
           "key_points": [
-            "Valve's Steam Machine is Valve's attempt to enter the gaming console market, challenging traditional players like Xbox and PlayStation.",
-            "The Steam Machine emphasizes a gaming PC-like experience with the ability to run games on high-end PC hardware.",
-            "Valve's approach involves leveraging the Steam platform and its existing PC game library."
+            "OnePlus 15 offers a two-day battery life, appealing to users who hate frequent charging.",
+            "Manufacturing delays due to the US government shutdown impact the phone's release.",
+            "Other sources discuss OnePlus 15's AI ambitions and its big screen and big battery features."
           ],
           "sentiment": "mixed",
           "confidence": "high",
-          "bias_check": "The perspective in this article may be biased towards Valve's innovative approach, potentially overlooking challenges or criticisms from other industry players. Additionally, the focus on Valve's ambition might downplay technical or logistical challenges associated with the Steam Machine's development and market reception.",
-          "missing_context": "The article does not provide information on the technical specifications, pricing, consumer reception, or Valve's plans for future updates and support. It also lacks details on how the Steam Machine differentiates itself from other consoles beyond its high-end PC-like capabilities.",
-          "implications": "The introduction of the Steam Machine could lead to increased competition in the gaming console market, potentially driving innovation and better offerings for consumers. However, Valve's success will depend on its ability to attract developers, create an appealing game library, and compete with established brands like Xbox and PlayStation.",
+          "bias_check": "The article may emphasize the two-day battery life, potentially overstating its value over other important features. The mention of the US government shutdown could be seen as a way to create a negative association with the product's release.",
+          "missing_context": "The article does not discuss the actual battery performance under typical usage conditions or the phone's overall performance and features beyond the battery life and screen size.",
+          "implications": "The OnePlus 15 could potentially shift market expectations for battery life in smartphones, but its success may also depend on other factors such as performance, software experience, and customer satisfaction.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-13T12:12:39.115943",
+          "analyzed_at": "2025-11-13T18:13:33.568576",
+          "token_usage": {
+            "prompt_tokens": 292,
+            "completion_tokens": 291,
+            "total_tokens": 583
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_1_1763057591",
+          "title": "Steam Machine: Valve rivals Xbox and PlayStation with new console - BBC",
+          "description": "Steam Machine: Valve rivals Xbox and PlayStation with new console\u00a0\u00a0BBCValve's Next-Gen Steam Machine and Steam Controller \u2014 the Big Interview\u00a0\u00a0IGNValve is cutting corners with Steam Machine to compete with the current consoles\u00a0\u00a0PolygonValve reveals new Steam console, VR headset, and controller, set to launch in 2026\u00a0\u00a0MashableOur first look at the Steam Machine, Valve\u2019s ambitious new game console\u00a0\u00a0The Verge",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB2Y2NLQWN0eXBQYnM4TTVIdzlDWVZtMXMzeXRrakE5LTdfUld1X09Xd1VHVENsWUdrbzVKcng0NFp0a2J2bHZpNlZ3SWxNSjJjb05EVG1CU1Bhd9IBX0FVX3lxTE52NWcxeDJRUUY3dktwTldWV01leTNfQjM5QnRKYmVsQWJzX1d2elYteV91MDZGQnk5Rzlka1VtajRVUTFkc1J2UFpUalZTVUt3Y2lXckZFb1BvLTFucTJF?oc=5",
+          "source": "BBC",
+          "published": "Thu, 13 Nov 2025 11:04:12 GMT",
+          "topic": "TECHNOLOGY",
+          "fetched_at": "2025-11-13T18:13:11.192730"
+        },
+        "analysis": {
+          "summary": "Valve's Steam Machine is entering the market as a competitor to the established Xbox and PlayStation consoles, aiming to disrupt the gaming industry with a new console, VR headset, and controller set to launch in 2026.",
+          "key_points": [
+            "Valve's Steam Machine is entering a highly competitive market.",
+            "The new console and accompanying VR headset are slated for a 2026 release.",
+            "Valve's aggressive approach may disrupt the gaming industry."
+          ],
+          "sentiment": "Mixed",
+          "confidence": "High",
+          "bias_check": "The article may be biased towards presenting Valve's venture as a significant disruption in the gaming industry. The potential success or failure of the Steam Machine is not discussed, which could skew the perception of its impact.",
+          "missing_context": "The article does not provide information on the development challenges Valve may face, the expected performance of the Steam Machine compared to existing consoles, or the current market share and consumer preferences in the gaming industry.",
+          "implications": "If successful, Valve's Steam Machine could intensify competition in the gaming industry, potentially leading to better products and innovations. However, if unsuccessful, it could be seen as a misstep by Valve. The 2026 timeline gives major companies like Microsoft and Sony time to adjust their strategies, possibly through partnerships or advancements in their own products.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-13T18:13:41.042086",
           "token_usage": {
             "prompt_tokens": 277,
-            "completion_tokens": 317,
+            "completion_tokens": 275,
+            "total_tokens": 552
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_2_1763057591",
+          "title": "Google augments AI shopping with conversational search, agentic checkout and an AI that calls stores for you - TechCrunch",
+          "description": "Google augments AI shopping with conversational search, agentic checkout and an AI that calls stores for you\u00a0\u00a0TechCrunchLet AI do the hard parts of your holiday shopping\u00a0\u00a0blog.googleGoogle's Gemini is bringing automation to holiday shopping\u00a0\u00a0AxiosAI Companies Want to Change How You Buy Tickets\u00a0\u00a0Sportico.comGoogle will let users call stores, browse products, and check out using AI\u00a0\u00a0The Verge",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPbFVHc3I3YnU2ckxUZE4wZUM3dVdMRGRCajgwbzd2a3MxVnJpMFVEdkdVSGItWXI2WWplaTVvZ1h4eGxwQ3pqeVdEOGdmLWVfa0h5V3hqa1FtbXNQX3NNMG02US04dHgwaThjcWtaRExOc0ZobktuQmRhdDYwY1NJWVBDcDFxRFpCRGVfbkJlVlpReVQ5TGFVNmNieWoyWnFqQkxZZG9Wd0RuQm4yNkdmd1h1M1o5bFFyTWVib1ExSFcxRzVmVU1lR3hTUGpLWk5paFNyNVNoc0k?oc=5",
+          "source": "TechCrunch",
+          "published": "Thu, 13 Nov 2025 14:00:00 GMT",
+          "topic": "TECHNOLOGY",
+          "fetched_at": "2025-11-13T18:13:11.192750"
+        },
+        "analysis": {
+          "summary": "Google's Gemini AI is set to revolutionize holiday shopping by integrating conversational search, agentic checkout, and the ability to call stores directly, potentially transforming the consumer experience by automating the shopping process with artificial intelligence.",
+          "key_points": [
+            "Google's Gemini AI enhances holiday shopping by simplifying the process through conversational search and agentic checkout.",
+            "The integration of AI with the ability to interact with stores could set a precedent for future AI shopping assistants.",
+            "This development may impact both consumers, who can save time and effort, and retailers, who may face new challenges with customer interaction."
+          ],
+          "sentiment": "Positive",
+          "confidence": "High",
+          "bias_check": "The story may exhibit a bias towards technology optimism, focusing on the innovative aspects without equally addressing potential drawbacks or challenges.",
+          "missing_context": "The article does not provide details on how Google will address privacy concerns, the accuracy of the AI in making purchasing decisions, or how this technology will be adopted by different demographics.",
+          "implications": "The broader implications include a shift in consumer behavior towards more AI-assisted shopping, potential changes in retail operations, and the need for ongoing technological advancements to keep up with consumer expectations.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-13T18:13:48.123164",
+          "token_usage": {
+            "prompt_tokens": 281,
+            "completion_tokens": 261,
+            "total_tokens": 542
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_3_1763057591",
+          "title": "Google will let expert Android users to sideload all apps - theregister.com",
+          "description": "Google will let expert Android users to sideload all apps\u00a0\u00a0theregister.comAndroid will let \u2018experienced users\u2019 sideload unverified apps as Google makes case for verification\u00a0\u00a09to5GoogleGoogle will let Android power users bypass upcoming sideloading restrictions\u00a0\u00a0Ars TechnicaGoogle will allow 'experienced users' to sideload unverified Android apps\u00a0\u00a0EngadgetGoogle will let \u2018experienced users\u2019 keep sideloading Android apps\u00a0\u00a0The Verge",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8yQTRvMm5xcld1bEhISEw4M3ZpYUdleE9rcFBTS1FmV2YtcUJwSG8zYW9fUXhtWkl5dHdqX0ZGRE1NT2hCMlNibTd2aG9CVDlmQ2gxdldGdUFtc1UwVWs2M0NzYUFuaVBLVUJ1dGRzWDlnaDdqeURITDNkanJmUQ?oc=5",
+          "source": "theregister.com",
+          "published": "Thu, 13 Nov 2025 03:47:00 GMT",
+          "topic": "TECHNOLOGY",
+          "fetched_at": "2025-11-13T18:13:11.192772"
+        },
+        "analysis": {
+          "summary": "Google plans to allow experienced Android users to sideload apps, even if they are unverified, as part of a move to foster a more open and flexible ecosystem. This change is a response to user demand and a push against restrictive device management policies that could limit the functionality of Android devices.",
+          "key_points": [
+            "Google is adjusting its policy to allow experienced Android users to sideload unverified apps.",
+            "This change aims to empower users and counteract restrictive device management practices by carriers and device manufacturers.",
+            "The decision reflects a broader trend towards supporting a more open and flexible Android ecosystem."
+          ],
+          "sentiment": "Mixed",
+          "confidence": "High",
+          "bias_check": "The article might emphasize the positive aspects of this policy change while underreporting potential risks associated with sideloading unverified apps, such as security vulnerabilities.",
+          "missing_context": "Details about the specific safeguards Google plans to implement to ensure the safety of sideloading apps, or the potential risks and downsides of this policy change for average users, were not discussed in the article.",
+          "implications": "This policy shift could lead to greater user empowerment and customization on Android devices, but it also raises concerns about device security and the potential for increased malware infections. It may also influence how other tech companies approach device management and user freedoms.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-13T18:13:55.822834",
+          "token_usage": {
+            "prompt_tokens": 287,
+            "completion_tokens": 287,
+            "total_tokens": 574
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_4_1763057591",
+          "title": "Leaker claims poor sales of the iPhone 16e as iPhone Air production ceases - 9to5Mac",
+          "description": "Leaker claims poor sales of the iPhone 16e as iPhone Air production ceases\u00a0\u00a09to5MacApple Delays Release of Next iPhone Air Amid Weak Sales\u00a0\u00a0The InformationIs thin really in? Not for lots of smartphone shoppers.\u00a0\u00a0The Washington PostiPhone 16e Has Apparently 'Failed' Just Like iPhone Air\u00a0\u00a0MacRumorsApple reportedly pulls plug on iPhone Air 2 after weak sales of debut model\u00a0\u00a0New York Post",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPR2k5bkcwck42X3kzcEF0UFYzd2h6RndkTjlzYlo2LVJ0cnRMV2JMNEppZjBjYUo0dFZFYjd5SjdCb0ZwQVJoYjhaRW9zdmhBOWpqekQtMTQ0X3RwLVpsN2NRRDZQcHBCcVdUaTBxQm0wRzh4aThRSThndTh3ZUZKZlF0UXNkU1RqY0RHVkdzVlpYaFRveXpabU4wZ1NpUjV4ZVJ5TUJvdUpoZw?oc=5",
+          "source": "9to5Mac",
+          "published": "Thu, 13 Nov 2025 14:10:00 GMT",
+          "topic": "TECHNOLOGY",
+          "fetched_at": "2025-11-13T18:13:11.192791"
+        },
+        "analysis": {
+          "summary": "A leaker suggests that the iPhone 16e has not performed well in sales, leading Apple to halt production of the iPhone Air, a move that has raised concerns among consumers and industry observers. The similarity between the fates of the iPhone 16e and the previous iPhone Air model, which also underperformed, has led to speculation and disappointment.",
+          "key_points": [
+            "Leaker claims poor sales of the iPhone 16e.",
+            "Apple ceases production of the iPhone Air.",
+            "Previous iPhone Air model underperformed, raising concerns.",
+            "Speculation and disappointment among consumers and industry observers."
+          ],
+          "sentiment": "Negative",
+          "confidence": "High",
+          "bias_check": "The story may lean towards sensationalism by highlighting the similarities between the iPhone Air and the iPhone 16e to draw more reader interest. Additionally, the reliance on a leaker\u2019s information can introduce bias as their access to accurate and complete information might be limited.",
+          "missing_context": "The reasons behind the alleged poor sales of the iPhone 16e and the iPhone Air are not provided. Further context on how these models compare to their predecessors in terms of features, pricing, and market conditions would be beneficial. The financial performance of Apple and its overall product strategy might also be relevant.",
+          "implications": "The reported poor sales and production halt could impact Apple's stock prices and market positioning. It may also influence consumer expectations and trust in the forthcoming iPhone models. Competitors might see this as an opportunity to gain market share. Overall, the tech industry and investors would need to closely monitor Apple's next moves and reassess their strategies.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-13T18:14:05.108207",
+          "token_usage": {
+            "prompt_tokens": 302,
+            "completion_tokens": 360,
+            "total_tokens": 662
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_0_1763057591",
+          "title": "Iraq Election Results Set Stage for a Long Power Struggle - The Wall Street Journal",
+          "description": "Iraq Election Results Set Stage for a Long Power Struggle\u00a0\u00a0The Wall Street JournalAs Iraqis Vote for a Parliament, U.S. Presses to Rid Country of Iran\u2019s Influence\u00a0\u00a0The New York TimesCoalition led by Iraqi PM Sudani comes first in Iraq\u2019s election, commission says\u00a0\u00a0ReutersIraq\u2019s PM al-Sudani may win the elections, but lose his post\u00a0\u00a0Al JazeeraIraq votes in parliamentary elections amid US security talks and concerns about Iranian influence\u00a0\u00a0The Long War Journal",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNaEZLaE80ckFjWTJiNFRiVjFON0xaeEF3QXl5V2piOHZYQkRrQ1E2Q0F3S2ZST0xxNHhCdVJpOXBEUFZvNF9SblNDSTRkRjZJLU5QMUxnN0RoT19Zb05XajZzYzRFQTJlLUU4akpSMjZHOHN2ZVZadU9rUXBZaFBUclg2NldwRzNIQUVtTERPZkZCWDREdk5JQVRuSlZGeHZUUmN4QlZrYjZIWlBONHVYOU5XRU1EbHpMTXZSRV9lUmJyUGJSVnVoNHExcWVGRDg?oc=5",
+          "source": "The Wall Street Journal",
+          "published": "Thu, 13 Nov 2025 11:06:00 GMT",
+          "topic": "WORLD",
+          "fetched_at": "2025-11-13T18:13:11.241746"
+        },
+        "analysis": {
+          "summary": "The Iraqi parliamentary elections have concluded, with coalition leader Prime Minister Mustafa al-Sudani's party leading but facing a potential loss of power due to concerns over Iranian influence and internal political dynamics, amidst ongoing security discussions with the U.S.",
+          "key_points": [
+            "Mustafa al-Sudani's coalition is leading in the elections but faces uncertainty.",
+            "U.S. involvement is focused on reducing Iranian influence in Iraq.",
+            "There are concerns about the internal political stability and the potential for a long power struggle."
+          ],
+          "sentiment": "Mixed",
+          "confidence": "High",
+          "bias_check": "The article may reflect Western geopolitical interests, particularly the U.S. and its stance on Iranian influence in Iraq. There may be an implicit bias towards portraying U.S. involvement as a stabilizing force.",
+          "missing_context": "The article does not provide detailed information on the composition of the coalition leading to al-Sudani or the specific concerns about Iranian influence. Additionally, it lacks a comparison with past elections or historical political contexts.",
+          "implications": "The election results could lead to a fragile political environment in Iraq, with potential for ongoing power struggles and instability. U.S. security discussions with Iraq might impact the balance of influence among regional powers, particularly Iran, and may influence Iraq\u2019s future policy and governance.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-13T18:14:12.452883",
+          "token_usage": {
+            "prompt_tokens": 299,
+            "completion_tokens": 286,
+            "total_tokens": 585
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_1_1763057591",
+          "title": "Germany finalises plans for military service and larger army - Financial Times",
+          "description": "Germany finalises plans for military service and larger army\u00a0\u00a0Financial TimesGermany decides against conscription to replenish post-cold war military\u00a0\u00a0The GuardianGerman coalition government agrees new military service plan\u00a0\u00a0DWBerlin\u2019s Answer to Its Conscription Conundrum: a Massive Medical Database\u00a0\u00a0The Wall Street JournalGermany\u2019s ruling parties strike new military-service deal\u00a0\u00a0politico.eu",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBVTHZHbkxmVkhCZnl1cDVMUW9WbnJOYXFrbVZ4TlpMdE5IYmJRSDBpblMwOWtPZm5Iam92anllS1RaRy0welFYRWt0akJXck9LX0k3aFdpem1NRHN6S1RheFhPQ3prTTczVk1YWUo5NWg?oc=5",
+          "source": "Financial Times",
+          "published": "Thu, 13 Nov 2025 10:26:55 GMT",
+          "topic": "WORLD",
+          "fetched_at": "2025-11-13T18:13:11.241780"
+        },
+        "analysis": {
+          "summary": "Germany has finalized plans to maintain a larger army without resorting to conscription, a decision that reflects a continued commitment to military readiness post-Cold War and addresses previous criticisms of its defense strategy.",
+          "key_points": [
+            "Germany's decision to expand its army without conscription aligns with its strategic interest in maintaining a strong defense force.",
+            "The move comes after Germany's ruling parties reach a new military-service deal, indicating a consensus on the country's defense policies.",
+            "By avoiding conscription, the plan may be seen as a response to public opinion and historical context, as Germany has long opposed mandatory military service."
+          ],
+          "sentiment": "Mixed",
+          "confidence": "High",
+          "bias_check": "The perspective might lean towards a positive outlook on Germany's decision, emphasizing stability and readiness without the contentious issue of conscription.",
+          "missing_context": "Details on the specific size and capabilities of the larger army, the exact terms of the new military-service plan, and the broader strategic context within which this decision is made.",
+          "implications": "The decision to grow the army without conscription could signal a shift in Germany's defense posture, potentially affecting its international relations, military spending, and alliance dynamics, particularly within NATO.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-13T18:15:20.044209",
+          "token_usage": {
+            "prompt_tokens": 264,
+            "completion_tokens": 268,
+            "total_tokens": 532
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_2_1763057591",
+          "title": "Ukraine's army chief visits besieged city as Zelenskyy confronts graft scandal - abcnews.go.com",
+          "description": "Ukraine's army chief visits besieged city as Zelenskyy confronts graft scandal\u00a0\u00a0abcnews.go.comView Full Coverage on Google News",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTFFjOGI1TzgyZU91bWE3anBjcWZVYk9VcmVJOUpNZnhheE14bHlpelBkMzFCUExkd0taYko1b2ZyNzNPZlM3eVk4MWJreVRwM3BJaXNSZ3piU2lFeVdaSmViODNrQ01VMGxmZm9VWkh2dzdQdTA1bGRSMHB3ZmlQci1GSE1iRUdtUVdGTGZCNVdrdnNBQ0R3SXlpcktSRHJmbHc1ek9OWHJQM19KUVNUMHI5cEp5cTlr0gG-AUFVX3lxTFA1c0dWTzNWX2ZISXhPRkJOb2lkdEJ6S29QMUFBQXpKSWtxMU9xOVBrNFVERlVCb2lJcXpqblN6bDE3RTVjR08yWGF4ZGl0WHVmc2N3QjJ3bWFBQUhIazJ4cjBkTFVTUjFlMmJhbmlDYUtPYUk4SlZScVhpbkJUYTMyZTNzMGpVdnRub3hYSGxfMWI3cnFlYkdTRFNUOG9VLXpHSmROZ1R5OEdoWXRIbmRfVFJtcDZDNHh6Wm96QlE?oc=5",
+          "source": "abcnews.go.com",
+          "published": "Thu, 13 Nov 2025 11:29:45 GMT",
+          "topic": "WORLD",
+          "fetched_at": "2025-11-13T18:13:11.241793"
+        },
+        "analysis": {
+          "summary": "Ukrainian Army Chief Visits Besieged City Amidst Zelenskyy\u2019s Graft Scandal; This duality highlights the ongoing military pressure on Ukraine while simultaneously addressing internal political challenges faced by President Zelenskyy. The visit underscores the government's effort to maintain morale and unity in the face of both external and internal threats.",
+          "key_points": [
+            "The Ukrainian Army Chief\u2019s visit to a besieged city signifies continued military support and morale boosting amidst the ongoing conflict.",
+            "President Zelenskyy's confrontation with a graft scandal amidst the war illustrates significant internal political challenges.",
+            "The juxtaposition of military and political turmoil demonstrates the complexity of Ukraine's current situation."
+          ],
+          "sentiment": "mixed",
+          "confidence": "high",
+          "bias_check": "The article might reflect Western perspectives, potentially emphasizing the military\u2019s efforts while downplaying internal political issues. The source's political leanings could also influence the framing of Zelenskyy's actions.",
+          "missing_context": "Details about the specific city being visited, the nature of the siege, and the extent of the graft scandal. Information on public and international reactions to both the military visit and the corruption allegations would provide a fuller understanding.",
+          "implications": "The military support shown by the Ukrainian army chief may bolster public morale and international support, while Zelenskyy's engagement with a graft scandal could undermine confidence in his leadership and affect internal unity. The dual focus on military and political fronts highlights the multifaceted challenges Ukraine faces, impacting both domestic stability and international relations.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-13T18:15:28.352979",
+          "token_usage": {
+            "prompt_tokens": 228,
+            "completion_tokens": 325,
+            "total_tokens": 553
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_3_1763057591",
+          "title": "10 years after Bataclan massacre, Paris is still scarred by Islamic State attacks - AP News",
+          "description": "10 years after Bataclan massacre, Paris is still scarred by Islamic State attacks\u00a0\u00a0AP NewsView Full Coverage on Google News",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPYXUyODdmZncxektRTTBTYmwxQnZqU2J4Qm5NaUVJLUwwZ2hSOWhhdjJWazFSX2VLdzI4WTZ1YmU3UkpfVlhIS0FMOWx6c0VWd2NrUnhrNE81XzA1NmVPc0tKcG9XUHlkRFpjb2NkRjVUMkpOZlRUUElSNEh4ZVY5OVJsdUs3aXRXOXRrWEZCdU41SDF5OFNlRDhlS0pmWXFJWFd3SUxXd25RZw?oc=5",
+          "source": "AP News",
+          "published": "Thu, 13 Nov 2025 14:51:00 GMT",
+          "topic": "WORLD",
+          "fetched_at": "2025-11-13T18:13:11.241802"
+        },
+        "analysis": {
+          "summary": "A decade after the Bataclan massacre, Paris continues to bear the psychological and physical scars of Islamic State attacks, reflecting the long-lasting impact of terrorism on the city.",
+          "key_points": [
+            "10 years have passed since the Bataclan attack, but the city still grapples with its aftermath.",
+            "The attack left a deep psychological scar on Paris and its residents.",
+            "Security measures have arguably become more stringent in response to such attacks."
+          ],
+          "sentiment": "negative",
+          "confidence": "high",
+          "bias_check": "The article may reflect a bias towards highlighting the negative impacts of terrorism, potentially overshadowing any positive changes or resilience efforts post-attack.",
+          "missing_context": "The broader context of security improvements, the resilience of the Parisian community, and any steps taken to prevent future attacks might not be fully covered.",
+          "implications": "The story underscores the enduring trauma of terrorism on urban populations and highlights the need for continued vigilance and support systems to help cities recover from such devastating events.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-13T18:15:34.928864",
+          "token_usage": {
+            "prompt_tokens": 224,
+            "completion_tokens": 226,
+            "total_tokens": 450
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_4_1763057591",
+          "title": "Labour Party\u2019s Internal Fight Goes Public, as Starmer\u2019s Trouble Grows - The New York Times",
+          "description": "Labour Party\u2019s Internal Fight Goes Public, as Starmer\u2019s Trouble Grows\u00a0\u00a0The New York TimesPM's aide McSweeney not leaving role over briefing war, BBC told\u00a0\u00a0BBCBriefings against ministers \u2018didn\u2019t come from Downing Street\u2019, says Starmer\u00a0\u00a0The GuardianSir Keir Starmer is a prisoner of the politics he pledged to end\u00a0\u00a0The EconomistHelen Chandler-Wilde: The Narrow Path to Political Success\u00a0\u00a0Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOb2dJN1VhUTdCTDRFbER5Xy1iOXNidWI0UDM3RHQxYmNMYWFyX29UQUhlbXZpUzJpSzhmOExxc0piQ1loY19uUkMwMXl1Wi1hczljMjlVRDhyc0F6QnZiYTA1OG5FRWR1NGpSM2JObjBiTnAwU1JHQmpDTkh1WFU2eHB4Zk5oT0pfLTdj?oc=5",
+          "source": "The New York Times",
+          "published": "Wed, 12 Nov 2025 19:13:28 GMT",
+          "topic": "WORLD",
+          "fetched_at": "2025-11-13T18:13:11.241823"
+        },
+        "analysis": {
+          "summary": "The article discusses the growing internal conflict within the Labour Party, particularly focusing on Sir Keir Starmer's challenges as the party's leader. Key issues include McSweeney's potential departure, controversies surrounding briefing war tactics, and the perception that Starmer is trapped by the very politics he vowed to change.",
+          "key_points": [
+            "Sir Keir Starmer's leadership is under scrutiny due to internal party conflicts.",
+            "McSweeney's role as PM's aide is in jeopardy, reflecting the intense internal strife.",
+            "Starmer is criticized for tactics that seem inconsistent with his previous political stance."
+          ],
+          "sentiment": "Negative",
+          "confidence": "High",
+          "bias_check": "The piece might exhibit a bias against the Labour Party and its leadership, focusing on negative aspects without equally considering any positive developments or justification for the actions taken.",
+          "missing_context": "The article does not provide context about the reasons behind the internal conflicts or specific policies and decisions that have led to the current situation. It also omits the perspectives of other party members and the general public on these issues.",
+          "implications": "The growing internal fight within the Labour Party could lead to destabilization and loss of public support. It may also hinder the party's ability to effectively govern or present a united front, which could impact their performance in future elections and their ability to push through reforms or policies they support.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-13T18:15:42.760665",
+          "token_usage": {
+            "prompt_tokens": 292,
+            "completion_tokens": 303,
+            "total_tokens": 595
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_0_1763057591",
+          "title": "Stock Market Today: Nasdaq Leads Losses After Shutdown Ends - The Wall Street Journal",
+          "description": "Stock Market Today: Nasdaq Leads Losses After Shutdown Ends\u00a0\u00a0The Wall Street JournalStock market today: Dow, S&P 500, Nasdaq tumble as Wall Street eyes fallout from US shutdown\u00a0\u00a0Yahoo FinanceWall St tumbles as tech selloff continues; data uncertainty sours sentiment\u00a0\u00a0ReutersDow falls as government reopens and data gaps loom\u00a0\u00a0qz.comDow pulls back from record, falls 400 points in broad market sell-off: Live updates\u00a0\u00a0CNBC",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOUnZOR2UwZE9qSXRKLXIwWmt1TWdFN2pyQWNPRlFNSW5aT1oxaFhPbkN1X255SXdDTGNFZWFRNjBpUkpHdWVLbWY1NkFJNU5XbFVnZVlHcHFrWVpyRWY0ZkRTaldUY0lkZC1fYlVKQzhkWGRGTnpvdWpsNUp4ZF9zVjdtRENHblk?oc=5",
+          "source": "The Wall Street Journal",
+          "published": "Thu, 13 Nov 2025 17:35:00 GMT",
+          "topic": "BUSINESS",
+          "fetched_at": "2025-11-13T18:13:11.287205"
+        },
+        "analysis": {
+          "summary": "Following the end of the US government shutdown, the stock market experienced significant losses, highlighted by a downturn in the Nasdaq index as investors reacted to the reopening of Wall Street amidst lingering data uncertainties. The Dow Jones fell by 400 points, reflecting a broader sell-off and impacting overall market sentiment negatively.",
+          "key_points": [
+            "The US government shutdown's end triggered a sharp decline in major stock indices, notably the Nasdaq.",
+            "The Dow Jones dropped 400 points, signaling a broader market sell-off.",
+            "Ongoing data uncertainties following the shutdown contribute to negative investor sentiment."
+          ],
+          "sentiment": "Negative",
+          "confidence": "High",
+          "bias_check": "The article may emphasize the negative impact of the shutdown's end, potentially overlooking any positive developments or short-term market rebounds that could occur post-closing.",
+          "missing_context": "The article does not provide any information about the market's performance prior to the shutdown or any specific sectors that are disproportionately affected. Additionally, it does not mention any long-term implications or potential recovery plans.",
+          "implications": "The immediate market reaction to the end of the shutdown may lead to increased volatility and caution among investors. Broader implications could include potential impacts on the economy, investor confidence, and future government shutdowns. However, the focus on short-term losses might overshadow any positive aspects of reopening.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-13T18:15:50.569062",
+          "token_usage": {
+            "prompt_tokens": 290,
+            "completion_tokens": 291,
+            "total_tokens": 581
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_1_1763057591",
+          "title": "Disney drops 8% after revenue miss, warns of lengthy YouTube TV fight - Axios",
+          "description": "Disney drops 8% after revenue miss, warns of lengthy YouTube TV fight\u00a0\u00a0AxiosDisney stock falls 8% as media giant posts mixed results\u00a0\u00a0CNBCDisney+ Adds 3.8 Million Subscribers, Hulu Packs on 8.6 Million Amid Kimmel Controversy in September Quarter\u00a0\u00a0VarietyDisney Q4 FY25 Earnings: Executive Commentary\u00a0\u00a0thewaltdisneycompany.comDisney Says Film Studio\u2019s Expenses Weigh on Current Quarter\u00a0\u00a0Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9vN09EUjVvTHVUcXhNMHlmNzZQMUZXOWFueGVsck9sYkkwbWktNDZZdDVpSFc0Y19QcnJfVWtjVzlfdUxlczI5TGt2WVlvMW1WXzRDcXN0UURBZHdpaVM0LXRDU0ZrUjRMcXluMkg5Uk9rSmotX0o4?oc=5",
+          "source": "Axios",
+          "published": "Thu, 13 Nov 2025 16:09:52 GMT",
+          "topic": "BUSINESS",
+          "fetched_at": "2025-11-13T18:13:11.287235"
+        },
+        "analysis": {
+          "summary": "Disney's stock plummets 8% following a revenue miss, amid warnings of a prolonged battle with YouTube TV, signaling investor concerns over the streaming wars and the company's financial health despite subscriber growth in its streaming services.",
+          "key_points": [
+            "Disney's recent revenue shortfall has triggered an 8% stock drop.",
+            "The company anticipates a protracted struggle with YouTube TV, impacting its financial outlook.",
+            "Despite growing subscribers for Disney+ and Hulu, the financial strain from film studio expenses is evident."
+          ],
+          "sentiment": "negative",
+          "confidence": "high",
+          "bias_check": "The article may not provide enough context on the overall industry trends and Disney's strategic initiatives, potentially leading to a biased view of the company's financial health and future prospects.",
+          "missing_context": "The article does not mention Disney's broader strategic investments or innovations in its streaming services, which could be affecting subscriber growth and financial performance.",
+          "implications": "The implications include potential investor caution due to Disney's perceived financial instability, a focus on the streaming market's competitive dynamics, and an evaluation of the long-term viability of Disney's content creation versus distribution strategy.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-13T18:15:57.305193",
+          "token_usage": {
+            "prompt_tokens": 292,
+            "completion_tokens": 257,
+            "total_tokens": 549
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_2_1763057591",
+          "title": "Starbucks union workers go on strike on busy Red Cup Day - BBC",
+          "description": "Starbucks union workers go on strike on busy Red Cup Day\u00a0\u00a0BBCStarbucks workers kick off 65-store US strike on company\u2019s busy Red Cup Day\u00a0\u00a0AP NewsStarbucks Workers Are Striking at Dozens of Stores on \u2018Red Cup Day\u2019\u00a0\u00a0The New York TimesStarbucks workers union launches strike in more than 40 cities on chain's key holiday sales day\u00a0\u00a0CNBCWith 92% \u2018Yes\u2019 Vote, Union Starbucks Baristas Overwhelmingly Authorize ULP Strike\u00a0\u00a0Starbucks Workers United",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBtc2ZjbFdFTGV0aUxXdWxxekZza3d2cU41ZWpWYjhKQTRSSElPcTlVSFJwNVJ6Y2pKOXExNHY5N0F3eDh6bXc0bGoxUjluT2lYTG4yeFR3cFRJd9IBX0FVX3lxTE4zUEZ6ZWFyWE16X0ZqWDZHRm9CdnozbXNwNWppUVJmbzlyUnBmelBLVTNHeU9BYkQ5dEFva1NUdUdkNzBxUUxqdTR6QVdBbGFHY1A1MGd0YTFoWEpVQkpv?oc=5",
+          "source": "BBC",
+          "published": "Thu, 13 Nov 2025 17:06:13 GMT",
+          "topic": "BUSINESS",
+          "fetched_at": "2025-11-13T18:13:11.287255"
+        },
+        "analysis": {
+          "summary": "Starbucks baristas in the US went on strike on Red Cup Day, a significant date for the company, with union representation voting overwhelmingly in favor of striking. This action reflects growing labor dissatisfaction within the company, which may impact Starbucks' operations and employee relations.",
+          "key_points": [
+            "Starbucks' union members overwhelmingly voted to strike on Red Cup Day.",
+            "The strike is happening on a key sales day for the company, potentially affecting its revenue.",
+            "The move indicates increasing labor unrest within the Starbucks workforce."
+          ],
+          "sentiment": "negative",
+          "confidence": "high",
+          "bias_check": "The perspective of Starbucks as the employer is focused on, with less emphasis on the baristas' perspective. There may also be a bias towards highlighting the negative aspects of the strike rather than exploring potential long-term positive outcomes for labor relations.",
+          "missing_context": "The reasons behind the baristas' dissatisfaction, the company's response, and the potential impact on customers and other stakeholders are not detailed. Further context about the workers' demands and the negotiations leading up to the strike would be beneficial.",
+          "implications": "The strike could harm Starbucks' reputation and sales, especially if it continues during a high-traffic holiday. It may also set a precedent for other employees in the service industry to consider similar actions, potentially leading to broader labor reforms or changes in corporate labor policies.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-13T18:16:05.356315",
+          "token_usage": {
+            "prompt_tokens": 296,
+            "completion_tokens": 298,
             "total_tokens": 594
           }
         }
       },
       {
         "article": {
-          "id": "news_1_1763035938",
-          "title": "Samsung\u2019s trifold gets a name and \u2018confirmed\u2019 specs - The Verge",
-          "description": "Samsung\u2019s trifold gets a name and \u2018confirmed\u2019 specs\u00a0\u00a0The VergeExclusive: Samsung Unveils Twice-Folding Galaxy Z TriFold\u00a0\u00a0\uc870\uc120\uc77c\ubcf4Why Samsung's Galaxy Z TriFold will be a test of American consumer psychology\u00a0\u00a0SamMobileGalaxy Z TriFold reportedly launches on December 5 as key specs and pricing leak\u00a0\u00a09to5GoogleReport: the Samsung Galaxy Z TriFold is coming next month, some specs (unofficially) revealed - GSMArena.com news\u00a0\u00a0GSMArena.com",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPT1lXdU4xWWRyQ1gwUlpuZ2htejZyQ0I0aWdkX0YwcXlQV3JPc2l1a1RnN2FaYUxPc01TQjJ6TVNWRDUtMlJzS2JlaVIyMHNRaElvcmFPYVlMYlB4MEtQTnI3Q1Z5dEVGSDNhcVJjbTNkamxucmFFY28ySFg5cTFlS1JUWjFzemZhTFVBTTR3?oc=5",
-          "source": "The Verge",
-          "published": "Thu, 13 Nov 2025 09:31:34 GMT",
-          "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-13T12:12:18.000055"
+          "id": "news_3_1763057591",
+          "title": "US Labor Department urged to prioritize November employment, CPI data post-shutdown - Reuters",
+          "description": "US Labor Department urged to prioritize November employment, CPI data post-shutdown\u00a0\u00a0ReutersUS October employment report will not include jobless rate, Hassett says\u00a0\u00a0ReutersHere\u2019s When And What To Expect From Delayed Economic Reports\u00a0\u00a0ForbesWhite House: Public will \u2018likely never\u2019 see recent economic data, despite shutdown\u2019s end\u00a0\u00a0MSNBC NewsWhite House: Key economic reports impacted by shutdown may not be released\u00a0\u00a0NBC News",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQNjJXUUdGcm1YSGFoS1BoSHM2Tks3TnpoQkZfMkgxelhWeEI4N1kyNkJ5MkFwNm5ISER1VllfQlF2b1UwT1hTejQ3UHp1dHRnNWhUbEZxUDNQUWQ3Zy1vX3E0WFlZOXV2Y2lfRkpXdDlzcFBpOTNqaHFrQUM2eTgzdEpQLTVmUzd2MDVZTVVrcmtlQzVzYnAwX3ZrNjVSNGhUc2Z6X0tiMlZROWp5QkVHX24yM1lhak5udEZlTG9zWlN5dw?oc=5",
+          "source": "Reuters",
+          "published": "Wed, 12 Nov 2025 21:09:21 GMT",
+          "topic": "BUSINESS",
+          "fetched_at": "2025-11-13T18:13:11.287274"
         },
         "analysis": {
-          "summary": "Samsung's Galaxy Z TriFold, a rumored new foldable device, is expected to launch with confirmed specs and pricing, stirring excitement and anticipation among consumers and tech enthusiasts alike.",
+          "summary": "{\n  \"summary\": \"The US Labor Department is being urged to prioritize the release of November employment and CPI data after the government shutdown, highlighting the delay in key economic reports. Concerns have been raised about the potential exclusion of the jobless rate in the upcoming October empl",
           "key_points": [
-            "Samsung's Galaxy Z TriFold is rumored to debut in December with confirmed specs and pricing.",
-            "The TriFold is a new foldable device that adds another dimension to Samsung's foldable lineup.",
-            "The device's impact on consumer psychology and market competition is a subject of interest."
+            "{\n  \"summary\": \"The US Labor Department is being urged to prioritize the release of November employment and CPI data after the government shutdown, highlighting the delay in key economic reports. Concerns have been raised about the potential exclusion of the jobless rate in the upcoming October employment report and the public's limited access to recent economic data due to the shutdown's impact on key releases. The White House acknowledges that some key economic reports may not be released at all, leaving the public with outdated information.\"\n\n  \"key_points\": [\n    \"The Labor Department is urged to prioritize releasing November employment and CPI data post-shutdown.\",\n    \"There are worries about the exclusion of the jobless rate from the upcoming October employment report.\",\n    \"The White House acknowledges that some key economic reports impacted by the shutdown may not be released.\"\n  ]\n\n  \"sentiment\": \"Mixed\",\n\n  \"confidence\": \"High\",\n\n  \"bias_check\": \"The article may be biased towards reporting the negative impacts of the shutdown on the availability of economic data. It does not provide an in-depth analysis of the reasons behind the delays or the potential benefits of the shutdown.\"\n\n  \"missing_context\": \"The article could provide more context on the causes and implications of the shutdown, as well as the potential benefits or drawbacks for the economy. It could also include perspectives from economists or other experts on the expected impact of the delayed reports.\"\n\n  \"implications\": \"The delayed release of key economic reports could impact the public's understanding of the current state of the economy and the effectiveness of government policies. It could also affect investor sentiment and market trends.\"\n}"
           ],
-          "sentiment": "Positive",
-          "confidence": "High",
-          "bias_check": "The article primarily focuses on the anticipation and rumors surrounding the device, potentially overlooking competitors' reactions or broader market trends. The perspective is predominantly optimistic, highlighting the device's potential without addressing any criticisms or challenges.",
-          "missing_context": "Details on competitors' responses, potential challenges in manufacturing and user adoption, and comparisons with other foldable devices in the market are missing. The potential impact of supply chain issues or economic factors on the launch could also be relevant.",
-          "implications": "The Galaxy Z TriFold could reshape consumer expectations and demand for foldable technology, influencing Samsung's market share and prompting competitors to innovate. It may also drive advancements in foldable technology and influence trends in smartphone design.",
+          "sentiment": "neutral",
+          "confidence": "medium",
+          "bias_check": "Unable to parse structured response",
+          "missing_context": "",
+          "implications": "",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-13T12:12:46.635455",
+          "analyzed_at": "2025-11-13T18:16:13.673813",
           "token_usage": {
-            "prompt_tokens": 298,
-            "completion_tokens": 277,
-            "total_tokens": 575
+            "prompt_tokens": 280,
+            "completion_tokens": 330,
+            "total_tokens": 610
           }
         }
       },
       {
         "article": {
-          "id": "news_2_1763035938",
-          "title": "iOS 26.2 beta adds new Liquid Glass customization, alarms in the Reminders app, and more - TechCrunch",
-          "description": "iOS 26.2 beta adds new Liquid Glass customization, alarms in the Reminders app, and more\u00a0\u00a0TechCrunchiOS 26.2 beta: The biggest new features\u00a0\u00a0MashableNew in iOS 26.2 beta 2: Liquid Glass tweaks, Games app changes, more\u00a0\u00a0AppleInsiderApple Games App iOS 26: Gaming Ecosystem Revolution\u00a0\u00a0Gadget HacksiOS 26.2 adds a cool Liquid Glass effect to the native Level tool\u00a0\u00a09to5Mac",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOcjF5ZDFkV05Sa2FWZEhvS05HVldkM2xHUlB0NzU0SXdicFg0N1FULVVGNXpHZkZwdWR0VkRHcms5Sm5MLVZYekxuYVhZekI2Njd6Y3JnUFRqRU04dEVuVzZFZm1BTGFPeTdzaTFzYnZOaC1xMjhkQU9Mdy1DSVNDLVF3QmVwUWlqUWR4azQ4N0prZ2M4RW05N0d1REJqWnpHRXpzb1pmQXRyM21hZzVGTElNSFhCcUxVMnhmMjhR?oc=5",
-          "source": "TechCrunch",
-          "published": "Wed, 12 Nov 2025 18:42:33 GMT",
-          "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-13T12:12:18.000076"
+          "id": "news_4_1763057591",
+          "title": "Brandon Beach heralds end of the penny as the \u2018return of common sense\u2019 - AJC.com",
+          "description": "Brandon Beach heralds end of the penny as the \u2018return of common sense\u2019\u00a0\u00a0AJC.comThe last-ever penny was minted today in Philadelphia\u00a0\u00a0CNNSo long, penny. The Treasury has officially stopped producing one-cent coins.\u00a0\u00a0The Washington PostA penny short: US mints final 1-cent coins after over 230 years in circulation\u00a0\u00a0abcnews.go.comWhat The End Of The Penny Means For Consumers\u00a0\u00a0Forbes",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQUXVEdGt1V0d4bnVzMFlCRkhxQWFBZmhHeW5ZelBwcXNyb1JwRXpabmM3amlZMWxjY09KdWNsZ1JUelpQLWNpUlVRN2JYTnBUNkFaMWJxeW1sRDkzOC1tSXBDZzA5c01fUjFMVnBJYmpRdlNRWncxVnlEckpPSVp6UnNhYmJhb19UZ0hqTERMS0JkejBrWjdTVTljNGV2cE1xeTRRX0F6YW9DUQ?oc=5",
+          "source": "AJC.com",
+          "published": "Thu, 13 Nov 2025 11:49:38 GMT",
+          "topic": "BUSINESS",
+          "fetched_at": "2025-11-13T18:13:11.287293"
         },
         "analysis": {
-          "summary": "iOS 26.2 beta introduces new customization options with Liquid Glass, new alarm features in the Reminders app, and other enhancements, signaling a continued focus on improving user personalization and app functionality.",
+          "summary": "The US Treasury has ceased producing penny coins, marking an end to their circulation after over 230 years. Brandon Beach, in his view, sees this as a 'return of common sense.'",
           "key_points": [
-            "Liquid Glass customization allows users to create a personalized glass-like effect for various elements in the iOS interface.",
-            "New alarm features in the Reminders app provide more control over notifications and reminders.",
-            "The update reflects Apple's commitment to refining the user experience and adding value through new features."
-          ],
-          "sentiment": "Positive",
-          "confidence": "High",
-          "bias_check": "The article may have a positive bias, as it focuses on new features without discussing any potential drawbacks or user concerns.",
-          "missing_context": "The article doesn't mention any user feedback or testing outcomes, which would be essential to understand the actual impact of the new features.",
-          "implications": "The introduction of Liquid Glass and improved Reminders app alarms could enhance user engagement with Apple's ecosystem, potentially attracting users who value customization and advanced reminder functionalities.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-13T12:12:53.334381",
-          "token_usage": {
-            "prompt_tokens": 308,
-            "completion_tokens": 231,
-            "total_tokens": 539
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_3_1763035938",
-          "title": "Even Realities G2 smart glasses bring a \u2018spatial\u2019 display and R1 controller ring - 9to5Google",
-          "description": "Even Realities G2 smart glasses bring a \u2018spatial\u2019 display and R1 controller ring\u00a0\u00a09to5GoogleHate Meta? Even Realities Is Making the Smart Glasses You Want\u00a0\u00a0WIREDEven Realities G2 first look: This year's best-looking new smart glasses still need work\u00a0\u00a0EngadgetI've tried a lot of AI smart glasses and the Even G2 are the only ones I'd wear all day\u00a0\u00a0ZDNETEven Realities launches Even G2 smart glasses with camera-free AI functionality\u00a0\u00a0Dezeen",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPczJjbkl1VXNybUd5N3JFSUNXR1RwUjVMSDJOSUkxNjJWNmxWOHo1Zl82N3VnRUFETy1VZlYxRzY1VVI4TVROTE5sQmxIeWZGa19jcmZjdzRxS2xSVGRZWjhQMVI4RkVtLVg5cVdwSVlzRVVOQjFzR0lRVzE3RG96NEFYeFhob19jYUFXREpUbF9NX29tZ2c?oc=5",
-          "source": "9to5Google",
-          "published": "Wed, 12 Nov 2025 15:56:00 GMT",
-          "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-13T12:12:18.000099"
-        },
-        "analysis": {
-          "summary": "The Even Realities G2 smart glasses, as reported by 9to5Google, present a unique 'spatial' display and an R1 controller ring, aiming to enhance daily use and AI integration without a traditional camera lens, which might appeal to users seeking a less intrusive tech experience.",
-          "key_points": [
-            "Even Realities G2 smart glasses feature a camera-free AI functionality, which could appeal to privacy-conscious users.",
-            "The G2 glasses have a 'spatial' display and an R1 controller ring, potentially offering a unique and innovative user experience.",
-            "Despite the unique features, it's mentioned that the glasses still require improvements, indicating that they are not yet fully developed.",
-            "Some users have expressed a high level of satisfaction with the G2 glasses, suggesting they might be a preferred choice for certain consumers.",
-            "As of the article's cutoff, there is no indication that the Even Realities G2 glasses are widely available or have been officially released to the public."
-          ],
-          "sentiment": "mixed",
-          "confidence": "high",
-          "bias_check": "The article's perspective may favor the Even Realities G2 smart glasses, potentially downplaying any drawbacks or comparing unfavorably to competitors' products.",
-          "missing_context": "It is unclear how the G2 glasses compare to other smart glasses on the market in terms of functionality and price, and whether they are being considered by major tech companies.",
-          "implications": "If the Even Realities G2 smart glasses are successful, they could set a new standard for privacy-focused and user-friendly AI glasses, potentially influencing the direction of future smart eyewear development.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-13T12:13:01.909283",
-          "token_usage": {
-            "prompt_tokens": 312,
-            "completion_tokens": 334,
-            "total_tokens": 646
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_4_1763035938",
-          "title": "Samsung Galaxy Z Flip8 to be thinner and lighter - GSMArena.com news - GSMArena.com",
-          "description": "Samsung Galaxy Z Flip8 to be thinner and lighter - GSMArena.com news\u00a0\u00a0GSMArena.comThe Galaxy Z Flip 8 might finally slim down as Samsung chases foldable sales\u00a0\u00a09to5GoogleThe foldable iPhone is driving massive improvements for Galaxy Z Fold 8, but the S26 may suffer\u00a0\u00a0PhoneArenaSamsung Galaxy Z Flip8 and Galaxy Z Fold8 expectations and hardware improvements revealed ahead of schedule\u00a0\u00a0NotebookcheckGalaxy Z Flip 8 To Get Major Redesign Thanks To The iPhone Fold\u00a0\u00a0bgr.com",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQc0t5SXhsb3ZLRjktQ3VVYnByY0hvMkh1YkRCSVJVVzhZSVJPTks2VXNodzI0YnJtTW5ENW1MWjk1TENRMnZJOW9iVUxRRi1ONUNGOFN3SGx2RGE4UDJ3SDhsZmhXT3JZbU1zSmVKbFNBZDhidlpBdlRjclMzRFEwOTc4S0paV3hLT1VMLXA1M0pBUdIBjgFBVV95cUxORlBXaDZselFVdzVJOHlsZndPS243VHA0ZkZ1NEYwTEtFOGNhYTk5WjFPOVJ2WGVENWVHZmN0c3ZBUDM4S1JyX1VFR2pEeW9hZUxKWFBzZnMzODc5Y2VMVkF0c0JQQVdtQ2FKU3lTdXdQVFdRZ1IzRll3Nml3aTVRQ0dNb0g5cDAyd3p3MV9R?oc=5",
-          "source": "GSMArena.com",
-          "published": "Wed, 12 Nov 2025 21:31:02 GMT",
-          "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-13T12:12:18.000117"
-        },
-        "analysis": {
-          "summary": "The upcoming Samsung Galaxy Z Flip8 is expected to be thinner and lighter, driven by the influence of the foldable iPhone, which is causing significant hardware improvements across Samsung's foldable lineup, including the Galaxy Z Fold8. This redesign could potentially impact the performance of the Samsung Galaxy S26, as resources are shifted towards enhancing the foldable devices.",
-          "key_points": [
-            "Samsung Galaxy Z Flip8 to be made thinner and lighter, inspired by the iPhone's foldable technology.",
-            "Improvements in the Galaxy Z Fold8 due to the competitive pressure from the iPhone's foldable market.",
-            "Potential trade-offs in the performance or features of the Samsung Galaxy S26 due to resource reallocation."
+            "The penny has been discontinued, ending over two centuries of its existence in circulation.",
+            "The move is seen by some, like Brandon Beach, as a return to common sense, possibly for practical reasons such as manufacturing and transaction costs.",
+            "The penny's cessation may have implications for consumers, such as changes in how small transactions are handled."
           ],
           "sentiment": "Mixed",
           "confidence": "High",
-          "bias_check": "The article may exhibit a bias towards highlighting the competitive pressure from Apple\u2019s foldable iPhone, implying a negative impact on Samsung's phones, including the S26.",
-          "missing_context": "The article does not provide specific details on how the Galaxy Z Flip8 and Galaxy Z Fold8 improvements will be achieved or their impact on the user experience. It also omits information about the anticipated market reaction or the financial implications of these changes.",
-          "implications": "The redesign of the Galaxy Z Flip8 and Galaxy Z Fold8 could lead to increased competition in the foldable smartphone market, potentially driving innovation but also causing resource allocation challenges. The Samsung Galaxy S26 could face performance or feature compromises due to this shift in focus.",
+          "bias_check": "The article may reflect a bias towards those who view the penny as economically obsolete, potentially overlooking the sentimental and cultural value that the penny holds for some individuals.",
+          "missing_context": "The article lacks details on the government's rationale for discontinuing the penny, any economic studies supporting the move, or the reactions of those who may have a strong attachment to the penny. It also does not mention if any replacement coins or denominations are being introduced.",
+          "implications": "The discontinuation of the penny could lead to changes in how everyday transactions are conducted, especially in small purchases. It may also affect collectors and individuals who have a sentimental attachment to the penny. Economically, it could be seen as a move towards a more efficient currency system, but it may also spark discussions about the value and practicality of the smallest denomination coin.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-13T12:13:10.345374",
-          "token_usage": {
-            "prompt_tokens": 312,
-            "completion_tokens": 329,
-            "total_tokens": 641
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_0_1763035938",
-          "title": "Israel\u2019s president says \u2018shocking\u2019 settler violence against Palestinians must end - Politico",
-          "description": "Israel\u2019s president says \u2018shocking\u2019 settler violence against Palestinians must end\u00a0\u00a0PoliticoIsrael's president says 'shocking' settler violence against Palestinians must end\u00a0\u00a0NPRIsraeli settlers set fire to Palestinian warehouse and land as West Bank attacks surge\u00a0\u00a0BBCIsrael Arrests 4 After Jewish Extremist Attack in Occupied West Bank\u00a0\u00a0The New York TimesIsraeli president condemns \u2018shocking\u2019 settler attacks in occupied West Bank\u00a0\u00a0Al Jazeera",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNaEVfMlRLUVFIaGVuLUNSaFVvNGtIdXN5aHE3V1Rsa2xjMS04T0xnTU04Tnl0VUNVT0ZTbzd3WlFncUtkclZKM0E0OGtzQWlQNUhTZE5wcGdxdUJhSG5GWjdXRzZKR0haY1J0YlF6RXBFV1dOQkhjNHh6aWZBaUlUT1RTUU9OZVBieHphekpMT1NzeEhMcW1hYmRMSktUOEU5bHZYUXhsTHFwajhSUDFYWXAxbVZ0bVpmeGswVDVHS3JPY055M1ZB?oc=5",
-          "source": "Politico",
-          "published": "Thu, 13 Nov 2025 05:39:07 GMT",
-          "topic": "WORLD",
-          "fetched_at": "2025-11-13T12:12:18.102893"
-        },
-        "analysis": {
-          "summary": "Israel's president has condemned the surge in settler violence against Palestinians, describing it as 'shocking' and emphasizing the need to end these attacks in the occupied West Bank. The incidents include settler-set fires and attacks, reflecting a troubling trend that has drawn widespread condemnation.",
-          "key_points": [
-            "Israel's president calls for an end to settler violence against Palestinians.",
-            "Surge in settler violence, including arson and attacks, in the West Bank.",
-            "International media outlets report the incidents, highlighting the situation's gravity."
-          ],
-          "sentiment": "negative",
-          "confidence": "high",
-          "bias_check": "The article may reflect a bias towards highlighting settler violence without equally emphasizing the complexities of the Israeli-Palestinian conflict, potentially impacting readers' understanding of the broader context.",
-          "missing_context": "The article may not provide sufficient context regarding the historical and political nuances of the Israeli-Palestinian conflict, including the perspectives of Israeli settlers and the reasons behind their actions.",
-          "implications": "The condemnation by Israel's president may increase international pressure on Israel to address and mitigate settler violence, potentially affecting diplomatic relations and contributing to ongoing tensions in the region.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-13T12:13:17.630751",
-          "token_usage": {
-            "prompt_tokens": 291,
-            "completion_tokens": 262,
-            "total_tokens": 553
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_1_1763035938",
-          "title": "Brussels aims to speed up crackdown on cheap Chinese parcels - Financial Times",
-          "description": "Brussels aims to speed up crackdown on cheap Chinese parcels\u00a0\u00a0Financial TimesFrance Pushes to Accelerate Higher Duties on Chinese Parcels\u00a0\u00a0Bloomberg.comItaly plans levy on low-value parcels to protect fashion industry\u00a0\u00a0ReutersBrussels sides with France to urge EU handling fee for cheap parcels\u00a0\u00a0politico.euFast Fashion Could Face Levy In Bid To Stop China Product Dumping\u00a0\u00a0Forbes",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBtaHMwb2Q4ejVXdG1RTnVuaHpWSjJrMHdzOEdzRGlhd1dCdUIwZHVUY1JuLWYyM1FmaDM1QUpqX1FwMXI3NFE4ejhTckZ3NDJkODlmTEhGOXUwbjR1R1FYbUxIdDRhejhlUEJTWkQzaXY?oc=5",
-          "source": "Financial Times",
-          "published": "Wed, 12 Nov 2025 22:26:12 GMT",
-          "topic": "WORLD",
-          "fetched_at": "2025-11-13T12:12:18.102925"
-        },
-        "analysis": {
-          "summary": "Brussels plans to expedite the imposition of higher duties on inexpensive Chinese parcel deliveries, aligning with France's and Italy's efforts to protect their industries, potentially impacting the fashion industry and raising concerns over international trade relations.",
-          "key_points": [
-            "Brussels aims to increase duties on Chinese parcels to protect domestic industries in France and Italy.",
-            "The move may affect the fashion industry, as Italy plans to levy on low-value parcels.",
-            "The decision could lead to trade tensions with China over accusations of product dumping."
-          ],
-          "sentiment": "Mixed",
-          "confidence": "High",
-          "bias_check": "The article might have a bias towards protecting domestic industries and could potentially portray China in a negative light, focusing on the impact of Chinese imports without discussing benefits to consumers.",
-          "missing_context": "The context of consumer prices, the impact on e-commerce, and the possible retaliatory measures from China are not discussed. The perspective of Chinese businesses and consumers affected by these measures might also be missing.",
-          "implications": "Increased duties on Chinese parcels may lead to higher consumer prices, impact the e-commerce market, and strain EU-China trade relations. However, it could also bolster local industries and reduce the dumping of cheap goods. The overall economic and trade dynamics could be significantly affected, leading to a complex interplay of protectionism and international cooperation.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-13T12:13:25.148481",
-          "token_usage": {
-            "prompt_tokens": 268,
-            "completion_tokens": 291,
-            "total_tokens": 559
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_2_1763035938",
-          "title": "Diamond brooch Napoleon lost while fleeing Waterloo sells for $4.4 million at auction, Sotheby's says - CBS News",
-          "description": "Diamond brooch Napoleon lost while fleeing Waterloo sells for $4.4 million at auction, Sotheby's says\u00a0\u00a0CBS NewsView Full Coverage on Google News",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQTHd5ME1XeGpIWUtNbFYtd2RGUTNRcVRyWDZscE1aR1I1bG9ReEEwZzZDMzZ1TnZDN2ZTbzlIZnBGaG9DNkZ5RzJGRlljYk9Wam1DSHVPTnFWWDJyVFZ3Umt2NUZmSEZVM2lOdEZuUTRHQnEyS19LVFpHMWxqaUJfakZ5ZlNtdEh2SFVHNl9zcDR5ZTVfajRuRDRTVWtkbzTSAaQBQVVfeXFMTWJyeU9Ic09sa19ZSGw5Wm1DbHlXX1VNZHNOeUt3aGFfdVpzcWdSVVp2aWFMZE5VaHJkWTdJQTl2dWNGOW4yR1c1dDZsSzhXTDVUNC1SYlU5LU5wNlFWdGMxTmw0MWdoRktzT0JNMFpTdThkeTFuQXF2aVUxSnpxQnJQcjBOelQ0OVdqTVRQYUNVdXNlOWt5NDN5eE85bHZ6c1d1bG4?oc=5",
-          "source": "CBS News",
-          "published": "Wed, 12 Nov 2025 19:07:54 GMT",
-          "topic": "WORLD",
-          "fetched_at": "2025-11-13T12:12:18.102936"
-        },
-        "analysis": {
-          "summary": "A diamond brooch that belonged to Napoleon Bonaparte, believed to have been lost while fleeing Waterloo, sold for $4.4 million at a Sotheby's auction, reflecting the historical and sentimental value of such artifacts. The staggering sale price underscores the allure and mystique surrounding Napoleon's legacy and the European history of the early 19th century.",
-          "key_points": [
-            "A diamond brooch once owned by Napoleon Bonaparte sold for $4.4 million.",
-            "The artifact was likely lost during the Battle of Waterloo.",
-            "The sale price reflects the historical significance and the lasting allure of Napoleon's legacy.",
-            "Auction items with ties to historical figures can fetch extraordinarily high prices."
-          ],
-          "sentiment": "Mixed",
-          "confidence": "High",
-          "bias_check": "The story might present an overly romanticized view of Napoleon and his belongings, potentially overshadowing his controversial impact on European history. Also, the focus on the high price might overshadow the historical and cultural significance of the item itself.",
-          "missing_context": "The article does not provide context regarding the condition or historical journey of the brooch, nor does it discuss the cultural and historical ramifications of Napoleon's actions. It also does not mention if the item was verified as authentically belonging to Napoleon.",
-          "implications": "The sale of such artifacts at high prices can contribute to the preservation and study of historical artifacts. However, it also raises questions about the commodification of history and the ethical considerations of valuing and owning items connected with controversial figures. Additionally, it highlights the enduring fascination with historical figures like Napoleon and their memorabilia.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-13T12:13:40.015240",
-          "token_usage": {
-            "prompt_tokens": 230,
-            "completion_tokens": 345,
-            "total_tokens": 575
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_3_1763035938",
-          "title": "Peru coach crash: At least 37 killed as bus plunges into ravine - BBC",
-          "description": "Peru coach crash: At least 37 killed as bus plunges into ravine\u00a0\u00a0BBC37 Dead After Passenger Bus Falls 650 Feet into a Ravine Following Crash with Pickup Truck on 'Rugged' Curve\u00a0\u00a0People.comBus crash in Peru's Arequipa kills 37\u00a0\u00a0ReutersPeru: Scores killed in bus accident in Arequipa region\u00a0\u00a0DWAt least 37 dead after passenger bus falls into ravine in Peru\u00a0\u00a0CBS News",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB4SWs5eE9mc0V2eTR0V3JmZkRFNmJjX2VFVjJZeDh6eVBqeVNzM2ZMaGxFNW93M0ljNDBkRVZBR19nZ0Y5OHI1VjUycm0zVmxyMHlZWnYwZXZUZ9IBX0FVX3lxTE93RzVDSXFLTlJ1cHN4aDNUT3IxaTFQT2M1M0Z0Vkg0dGxBQ0l6b0t4MDRNdUxnTUNxQ2doTVlRdk9Bb01tdWROeW42VjB6QXVuTGRVNWpZSi1aZHRnLUUw?oc=5",
-          "source": "BBC",
-          "published": "Wed, 12 Nov 2025 18:21:08 GMT",
-          "topic": "WORLD",
-          "fetched_at": "2025-11-13T12:12:18.102957"
-        },
-        "analysis": {
-          "summary": "A bus in Peru's Arequipa region tragically plunged into a ravine, killing at least 37 people, including a coach driver, after a collision with a pickup truck on a rugged curve. The incident highlights the dangers of inadequate road infrastructure and the potential consequences of traffic accidents in remote areas.",
-          "key_points": [
-            "A bus-toward-a-pickup truck collision on a challenging road led to a deadly accident.",
-            "At least 37 lives lost in the crash, pointing to severe safety concerns in remote Peruvian regions.",
-            "The accident raises questions about road safety, infrastructure, and emergency response capabilities in rugged terrains."
-          ],
-          "sentiment": "negative",
-          "confidence": "high",
-          "bias_check": "The focus on the fatalities and the dramatic nature of the accident may overshadow other facets of the story, such as the socio-economic factors contributing to the conditions that led to the accident. Additionally, the article and media sources may emphasize the tragedy to attract attention, potentially biasing public perception.",
-          "missing_context": "The socio-economic context behind the conditions of road safety, the frequency of such accidents in the region, and the potential political and administrative response to prevent future incidents. The state of emergency infrastructure and resources, as well as the community's proximity to the accident site, could also be crucial.",
-          "implications": "This tragedy underscores the need for improved infrastructure and safety measures in remote areas. It may prompt a reevaluation of transportation policies and investments in road safety. Furthermore, it could lead to a broader discussion on the adequacy of emergency response systems in isolated regions.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-13T12:13:48.863789",
+          "analyzed_at": "2025-11-13T18:16:21.930135",
           "token_usage": {
             "prompt_tokens": 288,
-            "completion_tokens": 345,
-            "total_tokens": 633
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_4_1763035938",
-          "title": "Top Ukrainian ministers submit their resignations as the country is rocked by a corruption scandal - AP News",
-          "description": "Top Ukrainian ministers submit their resignations as the country is rocked by a corruption scandal\u00a0\u00a0AP NewsMajor corruption scandal engulfs top Zelensky allies\u00a0\u00a0BBCZelenskyy sanctions former business partner implicated in $100M corruption scandal\u00a0\u00a0politico.euGermany expects Ukraine to \u2018vigorously pursue the fight against corruption\u2019, says Merz \u2013 Europe live\u00a0\u00a0The GuardianUkraine\u2019s Zelensky Faces New Blow: What to Know\u00a0\u00a0Newsweek",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNOUtYT2JhdlRKVVFqZ1lrNWx5cm1JRGJ4UURodTAycmE3a1Fqb1ZiMDc3UXhDUjREaFRPek11dURWVE1BZWxGZHg0Vm9JcnQ1Zzh3V1o2a0gtTUFrNVJCSmZNMWFiT0JsOFFMNDEyM1dTQVE0Z1ZCQmFUNm5ycjcyTGszUEtMLW9lb3lXYVY1X2hETDE4eFpqVVM3QVpBQQ?oc=5",
-          "source": "AP News",
-          "published": "Thu, 13 Nov 2025 01:28:00 GMT",
-          "topic": "WORLD",
-          "fetched_at": "2025-11-13T12:12:18.102983"
-        },
-        "analysis": {
-          "summary": "Ukrainian ministers resign amidst a major corruption scandal involving close allies of President Zelensky, highlighting the pervasive issue of corruption within the government and the potential for escalating political instability in the country.",
-          "key_points": [
-            "Top Ukrainian ministers resign in response to a large-scale corruption scandal.",
-            "President Zelensky has taken steps against implicated individuals, including sanctions and investigations.",
-            "Germany and other European entities urge Ukraine to intensify anti-corruption efforts."
-          ],
-          "sentiment": "Negative",
-          "confidence": "High",
-          "bias_check": "The article may reflect a Western perspective that generally views corruption negatively, and may not fully represent the complexities of Ukrainian politics or the potential support Zelensky still has within certain segments of the population.",
-          "missing_context": "The article lacks details on the specific allegations, the political context within Ukraine, the effectiveness of anti-corruption measures in place, and the broader geopolitical consequences of the scandal. It also does not mention the potential impact on Zelensky's popularity and the functioning of his administration.",
-          "implications": "The resignation of top ministers may lead to a power vacuum, further destabilization, and a potential loss of international support if Ukraine's fight against corruption is perceived as ineffective. It could also affect public trust in the government and may have repercussions for Ukraine's relations with its allies and its European integration efforts.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-13T12:13:56.282671",
-          "token_usage": {
-            "prompt_tokens": 286,
-            "completion_tokens": 293,
-            "total_tokens": 579
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_0_1763035938",
-          "title": "Here's what to expect when Disney reports earnings before the bell - CNBC",
-          "description": "Here's what to expect when Disney reports earnings before the bell\u00a0\u00a0CNBCDisney Tops Streaming Expectations In Final Subscriber Report; Quarterly Results Otherwise Mixed\u00a0\u00a0DeadlineDisney Q4 revenue misses estimates amid linear TV pressures, company increases dividend\u00a0\u00a0Yahoo FinanceDisney Says Film Studio\u2019s Expenses Will Weigh on Current Quarter\u00a0\u00a0Bloomberg.comDisney+ Streaming Subscribers Surge in Latest Quarter, as Streaming Profits Continue to Rise\u00a0\u00a0The Hollywood Reporter",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9zVnlvRDZ4UFlWUGo1QWtBZW1PRmRveUJwNlVBQzlTRkVma005aE4ySFVGd0p3X1JWWmxkWW1qeGZBMXd6bnptUnFfN1E1UWRXT1AwcHpYSlZCN1BZaW13S3NPSDFFeFhRRFVoeE1idFFEUdIBd0FVX3lxTE9GeGhuV2FzVXpHVzhsajFJUi1BY0YwUHphR0JyS1NyWkhuNXpzU1pkQ255UHR1U0JtYTRsX09kcU9ORW9yc19CQV9waVoxX0N6cnZORUNuc194Qlk4VEFyX2ZPeVZMS1k0SU8xTHh6X3ZiZlZpekRR?oc=5",
-          "source": "CNBC",
-          "published": "Thu, 13 Nov 2025 05:01:01 GMT",
-          "topic": "BUSINESS",
-          "fetched_at": "2025-11-13T12:12:18.207478"
-        },
-        "analysis": {
-          "summary": "Disney's latest earnings report shows mixed results with a focus on streaming success but also highlights the challenges of declining linear TV revenue. The company also announces an increased dividend, indicating a strong financial position despite rising expenses.",
-          "key_points": [
-            "Disney's streaming services, particularly Disney+, have seen subscriber growth, contributing positively to earnings.",
-            "The company faces challenges from declining linear TV revenue, signaling a shift in consumer preferences towards streaming.",
-            "Disney has increased its dividend, reflecting confidence in its financial health and commitment to returning value to shareholders."
-          ],
-          "sentiment": "Mixed",
-          "confidence": "High",
-          "bias_check": "The article may emphasize Disney's streaming success to portray a positive outlook for the company's future, potentially downplaying the impact of declining linear TV revenue.",
-          "missing_context": "Details on how the increased expenses are being managed and their potential long-term impact on the company's profitability. The competitive landscape of the streaming market and how Disney's strategy compares to other major players.",
-          "implications": "Disney's ability to capitalize on the streaming boom while managing the decline in traditional TV revenue could set a precedent for other media companies. The increase in dividend could attract more investors, but the rising expenses need to be monitored to ensure they don't erode the company's financial stability.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-13T12:14:03.522531",
-          "token_usage": {
-            "prompt_tokens": 274,
-            "completion_tokens": 279,
-            "total_tokens": 553
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_1_1763035938",
-          "title": "UK economy barely grows in the third quarter, missing forecasts ahead of crucial budget - CNBC",
-          "description": "UK economy barely grows in the third quarter, missing forecasts ahead of crucial budget\u00a0\u00a0CNBCUK economic growth slows to 0.1% in final figures before Budget\u00a0\u00a0BBCUK economy grew by just 0.1% in third quarter amid hit from JLR cyber-attack\u00a0\u00a0The GuardianBudget 2025: The extraordinary impact of a crime on UK growth that Reeves could do without\u00a0\u00a0Sky NewsUK growth slows after big fall in car production\u00a0\u00a0BBC",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB6b0xzWC1mRzBBUGQ2ZUNPRlFlMTBKZ1ZheDdLZFNCcHdIY3dYWVUwWU5nb3Q5MDk2TklDd01weHNieVZFRDFLMGNpSEJ6NUFFTENLSHNHOFVXcTdWcXpXcNIBZkFVX3lxTE01bGRZdDFXSlU0N3hvZU50OXBLYWQybzZ0ZFQzdVF2TjlFdkxyY3p4emZyUEtGZW5IWVlqcjlUdmNPQWhEWUNBdS1pQ0tPWnI0RmhvSWFQX3BsaUNoVGZLWnlUa2VUdw?oc=5",
-          "source": "CNBC",
-          "published": "Thu, 13 Nov 2025 07:05:09 GMT",
-          "topic": "BUSINESS",
-          "fetched_at": "2025-11-13T12:12:18.207504"
-        },
-        "analysis": {
-          "summary": "The UK economy experienced minimal growth of just 0.1% in the third quarter, falling short of forecasts and potentially impacting the upcoming budget discussions, attributed to a significant cyber-attack on Jaguar Land Rover (JLR) and a notable decline in car production.",
-          "key_points": [
-            "UK economic growth halved to 0.1% in Q3.",
-            "The JLR cyber-attack significantly impacted UK economic performance.",
-            "A decrease in car production likely contributed to the poor growth figures."
-          ],
-          "sentiment": "Negative",
-          "confidence": "High",
-          "bias_check": "The article may emphasize the negative impact of the JLR cyber-attack and the decline in car production, potentially overlooking other sectors that might have contributed to economic resilience or growth.",
-          "missing_context": "Details on government responses to the JLR cyber-attack, other economic indicators like employment rates, inflation, or consumer spending that could provide a more comprehensive picture of the economic situation.",
-          "implications": "The modest economic growth could influence the government's budgetary decisions, potentially leading to increased investment in cyber-security and support for affected industries, while also raising concerns about economic stability and growth prospects.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-13T12:14:10.407801",
-          "token_usage": {
-            "prompt_tokens": 288,
-            "completion_tokens": 260,
-            "total_tokens": 548
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_2_1763035938",
-          "title": "50-year mortgages? NFL kickoff rules? Here's where some of Trump's latest jaw-dropping musings stand - AP News",
-          "description": "50-year mortgages? NFL kickoff rules? Here's where some of Trump's latest jaw-dropping musings stand\u00a0\u00a0AP NewsThe Trump administration is \u2018actively evaluating\u2019 portable mortgages. What you need to know\u00a0\u00a0CNNJosh Johnson Isn\u2019t Sold on Trump\u2019s 50-Year Mortgage Plan\u00a0\u00a0The New York Times$2,000 tariff rebate checks? 50-year mortgages? Making sense of Trump's new 'affordability' proposals.\u00a0\u00a0YahooThe 50-year mortgage would cost you nearly $400k more than the standard, AP analysis says\u00a0\u00a0Fortune",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMXVGdE5rS1hGdVdPM016clR5UEozaHpMcU5ISWduT0tWckhnNWk4SW41eThDN182ZzhnUGwtclZWcXQ5b2p2RHU3cmI0UXdoQWJnTTNJUmdxWVJYN3J2dW9mQ25iTGlUSTZwRnhXVElaaTRLNkY5aUxMN0dGSFN4NG43eGFKVUg0VWhBdkEwQnA5dlFqWWpkbTdHdDFlX3NrQUZEUVVkSnh1RkhJ?oc=5",
-          "source": "AP News",
-          "published": "Thu, 13 Nov 2025 10:44:00 GMT",
-          "topic": "BUSINESS",
-          "fetched_at": "2025-11-13T12:12:18.207526"
-        },
-        "analysis": {
-          "summary": "President Trump's administration is considering a proposal for 50-year fixed-rate mortgages, which according to CNN and The New York Times, would significantly increase the cost for homeowners. The idea has sparked debate among experts and the public, with concerns about affordability and economic impact.",
-          "key_points": [
-            "Trump's proposal for 50-year mortgages is being actively evaluated by his administration.",
-            "The plan would cost homeowners nearly $400,000 more than a standard 30-year mortgage, according to AP analysis.",
-            "There is skepticism and criticism from experts and citizens regarding the plan's feasibility and fairness."
-          ],
-          "sentiment": "Negative",
-          "confidence": "High",
-          "bias_check": "The article may reflect a bias towards criticizing the plan, as it highlights negative aspects and skepticism without equally presenting potential benefits or Trump administration's justifications.",
-          "missing_context": "The article does not provide information on whether the Trump administration has made any adjustments or considerations to mitigate the cost increase or how this proposal fits into the broader housing market and economic policies.",
-          "implications": "The proposal for 50-year mortgages could have significant implications for the housing market, potentially making homeownership less affordable for many Americans. It could also impact the economy through increased housing costs and the potential for reduced home equity accumulation for homeowners.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-13T12:14:17.817348",
-          "token_usage": {
-            "prompt_tokens": 314,
-            "completion_tokens": 284,
-            "total_tokens": 598
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_3_1763035938",
-          "title": "Starbucks workers strike nationwide in 'Red Cup rebellion,' union says - abcnews.go.com",
-          "description": "Starbucks workers strike nationwide in 'Red Cup rebellion,' union says\u00a0\u00a0abcnews.go.comStarbucks workers union launches strike in at least 40 cities on chain's key holiday sales day\u00a0\u00a0CNBCStarbucks workers kick off 65-store US strike on company\u2019s busy Red Cup Day\u00a0\u00a0AP News\u2018Whatever it takes\u2019: Starbucks workers launch US strike and call for boycott\u00a0\u00a0The GuardianWhich Starbucks stores are impacted by Red Cup Day strikes? See a list of cities\u00a0\u00a0USA Today",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNb2Q0djE0VzlERlNqcDFNN3FHU2g3eDlNTkU2bHA1dENIeXY5dC1CczhNMlV0NDc0QnltenZoV3N5cjUtUU5JZXFTOF9kQnNpR3lZSHRQeXY1d3JWb2xKZnJ3aEJiNnNpa0lZU2w5SXUwVWhXSDRmclNpOUpjak5Rc2xpQllxUjByWG5kX0dUaFpvckFjUHpya3ZnTGdrMDFGNXgzaG5OYmtfeWczUnVz0gG0AUFVX3lxTE1raWFObmR5b3lKNjF1UkE2TUpfYzB2X3gtTkJRbjBOZ3NaXzUyd3NYSEx5UXJrYUxKTnk1MTVLT0tweFhZQ0M2QjE2ZDdYY1FrdDgxXzJpX1ZCXzhGckFuM0tTWVgyY3cyVy10ejJISVRvN0RGM09OQ2dodGZCOFVjdFVtbWhzUlBNVnc4ZnRPMU5yUWNCWk1SUUdpV2Qyd0xqd21zdTJscktualEzcUs2OVZjdw?oc=5",
-          "source": "abcnews.go.com",
-          "published": "Thu, 13 Nov 2025 10:08:21 GMT",
-          "topic": "BUSINESS",
-          "fetched_at": "2025-11-13T12:12:18.207547"
-        },
-        "analysis": {
-          "summary": "Starbucks workers nationwide have initiated a strike, dubbed the 'Red Cup rebellion,' during the company's busiest sales day, demanding better pay and working conditions. The strike impacts around 40 cities, with 65 stores participating in the action.",
-          "key_points": [
-            "Starbucks is facing a nationwide strike by workers demanding better pay and working conditions.",
-            "The Red Cup Day, a significant sales day for Starbucks, becomes a focal point for the protest.",
-            "Around 40 cities have been affected, with 65 stores participating in the strike."
-          ],
-          "sentiment": "Mixed - While the workers' demands for better pay and conditions are justified, the disruption to the company's operations can be seen negatively.",
-          "confidence": "High",
-          "bias_check": "Potential biases may arise from the source's affiliation with ABC News, which might present the strike in a way that aligns with their reporting style or audience expectations. Additionally, the coverage might emphasize the scale and disruption without adequately presenting Starbucks' perspective.",
-          "missing_context": "It's important to consider Starbucks' response to the strike, including any negotiations or concessions made. The broader economic and labor market context, as well as comparisons to other companies' labor policies, might provide additional insights.",
-          "implications": "The strike could have significant implications for Starbucks, including potential loss of revenue during the Red Cup Day, increased labor costs if demands are met, and a possible shift in consumer perceptions. Broader implications may include setting a precedent for labor actions in similar companies and affecting the overall labor market dynamics.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-13T12:14:26.060513",
-          "token_usage": {
-            "prompt_tokens": 294,
-            "completion_tokens": 331,
-            "total_tokens": 625
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_4_1763035938",
-          "title": "Asia-Pacific stocks edge mostly higher as Trump signs funding bill, ending U.S. government shutdown - CNBC",
-          "description": "Asia-Pacific stocks edge mostly higher as Trump signs funding bill, ending U.S. government shutdown\u00a0\u00a0CNBCStocks eye return to record highs as US shutdown set to lift\u00a0\u00a0ReutersAsian shares are mixed in cautious trading after a mixed day on Wall Street\u00a0\u00a0AP NewsEmerging-Market FX Set for Fifth Day of Losses This Month So Far\u00a0\u00a0Bloomberg.comAsian shares are mixed after Wall Street drifted around its records\u00a0\u00a0MSN",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNbEhHaXhmRjlPZXZtMGFJVUpaanJrZjZhSmE0RlVBa1E0MUtySklLS2hQMnZYaElZb0FFa292T1RBWkNrQjBMSzVvSWJFRTJsSHMzd2ZIZTNxRjN2c2J5bV9xVkZ4NkU3TXVRaXk1NUlueFY1MjhvZTRvN3BaWTVoSWxaUm5WWDA5cTh2UWc2VVVzNTBMRVA4WGp4c1E5UnJOa3FvYzlNMDdQeFVY0gGyAUFVX3lxTE05MUpUZ1BmT0VCZ3BtZl9BTjRFejFCN0RTZFVoMjhuVTFDc1N2Z3JvNmVHZkxDbGM1YmxjdnNZNUlIZVZlbVp5RmQ1ZmlybS1mZDcwQ2YyMEhxalkwWWUtMUIyVFZuclJVYjdYQjJvOWdUN0tldk1wRFlHWXN6a1ZSakNEaE5rVE1jY20yU3EyZnBpVjZrVkU4Z3VPQ0FHcjI3WHZmWnRnVVlkYkFxaFR6TlE?oc=5",
-          "source": "CNBC",
-          "published": "Wed, 12 Nov 2025 23:48:07 GMT",
-          "topic": "BUSINESS",
-          "fetched_at": "2025-11-13T12:12:18.207564"
-        },
-        "analysis": {
-          "summary": "Following the signing of a funding bill by President Trump, Asia-Pacific stocks showed a mixed response, with some markets reaching record highs while others remained cautious, reflecting the global interconnectedness and varied investor sentiment towards U.S. policy developments.",
-          "key_points": [
-            "President Trump's signing of the funding bill ended the U.S. government shutdown, which had a positive impact on investor sentiment.",
-            "Asia-Pacific stocks displayed mixed reactions, some hitting record highs and others trading cautiously, illustrating diverse investor perspectives.",
-            "The mixed market responses highlight the complexity of global financial markets and their sensitivity to political developments in major economies."
-          ],
-          "sentiment": "Mixed",
-          "confidence": "High",
-          "bias_check": "The article may present an optimistic view on the impact of the funding bill on global markets without fully addressing potential lingering economic concerns or uncertainties.",
-          "missing_context": "The article does not mention specific sectors or countries within the Asia-Pacific region that might have reacted differently, nor does it delve into the underlying reasons behind the mixed market responses.",
-          "implications": "The mixed reactions in the Asia-Pacific markets suggest that while some investors are optimistic about the U.S. government funding bill, others remain cautious, indicating that political stability and policy developments in major economies like the U.S. continue to have a significant, albeit varied, impact on global financial markets.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-13T12:14:33.836044",
-          "token_usage": {
-            "prompt_tokens": 286,
-            "completion_tokens": 290,
-            "total_tokens": 576
+            "completion_tokens": 317,
+            "total_tokens": 605
           }
         }
       }
@@ -512,19 +508,19 @@
     "articles_analyzed": 15
   },
   "costs": {
-    "execution_time": 122.51869678497314,
-    "execution_minutes": 2.0419782797495523,
-    "github_actions": 0.01633582623799642,
+    "execution_time": 175.7761607170105,
+    "execution_minutes": 2.9296026786168414,
+    "github_actions": 0.02343682142893473,
     "openai": {
-      "input": 0.0006489,
-      "output": 0.0026807999999999997,
-      "total": 0.0033296999999999997
+      "input": 0.0006288,
+      "output": 0.002625,
+      "total": 0.0032538000000000003
     },
-    "total": 0.019665526237996417,
+    "total": 0.026690621428934733,
     "token_usage": {
-      "prompt_tokens": 4326,
-      "completion_tokens": 4468,
-      "total_tokens": 8794
+      "prompt_tokens": 4192,
+      "completion_tokens": 4375,
+      "total_tokens": 8567
     }
   }
 }
