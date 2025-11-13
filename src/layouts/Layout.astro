@@ -29,8 +29,9 @@ const { title, description = "AI-Powered Research and Analysis" } = Astro.props;
                     </a>
                     <div class="nav-links">
                         <a href="/how-it-works" class="nav-link" data-i18n="nav.howItWorks">How It Works</a>
-                        <button id="language-toggle" class="language-toggle" onclick="toggleLanguage()" aria-label="Switch language">
-                            🇧🇷 PT
+                        <button id="language-toggle" class="language-toggle" onclick="toggleLanguage()" aria-label="Switch to Portuguese" title="Mudar para Português">
+                            <span class="flag">🇺🇸</span>
+                            <span class="lang-text">EN</span>
                         </button>
                     </div>
                 </nav>
@@ -148,12 +149,27 @@ const { title, description = "AI-Powered Research and Analysis" } = Astro.props;
         font-weight: 600;
         cursor: pointer;
         transition: all var(--transition-fast);
+        position: relative;
+    }
+
+    .language-toggle .flag {
+        font-size: 1.25em;
+        transition: transform var(--transition-fast);
+    }
+
+    .language-toggle .lang-text {
+        transition: opacity var(--transition-fast);
     }
 
     .language-toggle:hover {
         background: var(--color-bg-elevated);
         border-color: var(--color-accent-primary);
         transform: translateY(-1px);
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .language-toggle:hover .flag {
+        transform: scale(1.1);
     }
 
     .language-toggle:active {

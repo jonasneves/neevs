@@ -223,10 +223,22 @@ class I18n {
   updateLanguageToggle() {
     const toggleBtn = document.getElementById('language-toggle');
     if (toggleBtn) {
-      toggleBtn.textContent = this.currentLanguage === 'en' ? '🇧🇷 PT' : '🇺🇸 EN';
-      toggleBtn.setAttribute('aria-label',
-        this.currentLanguage === 'en' ? 'Mudar para Português' : 'Switch to English'
-      );
+      const flag = toggleBtn.querySelector('.flag');
+      const langText = toggleBtn.querySelector('.lang-text');
+
+      if (this.currentLanguage === 'en') {
+        // Currently English - show US flag and option to switch to PT-BR on hover
+        if (flag) flag.textContent = '🇺🇸';
+        if (langText) langText.textContent = 'EN';
+        toggleBtn.setAttribute('aria-label', 'Switch to Portuguese');
+        toggleBtn.setAttribute('title', 'Mudar para Português');
+      } else {
+        // Currently Portuguese - show BR flag and option to switch to EN on hover
+        if (flag) flag.textContent = '🇧🇷';
+        if (langText) langText.textContent = 'PT';
+        toggleBtn.setAttribute('aria-label', 'Mudar para Inglês');
+        toggleBtn.setAttribute('title', 'Switch to English');
+      }
     }
   }
 
