@@ -11,7 +11,6 @@ The repository generates data files in the following directories:
 - `data/academic_research/` - Research paper data and analysis
 - `data/market_analysis/` - Market data and digests
 - `data/news_perspectives/` - News analysis from different AI models
-- `data/stock_monitor/` - Stock price monitoring data
 
 ### Public Deployment Files
 
@@ -21,8 +20,6 @@ Generated files are copied to `public/` for GitHub Pages deployment:
 - `public/market-analysis.json` - Latest market digest
 - `public/market-analysis-editorial.json` - John Oliver-style market commentary
 - `public/news-perspectives.json` - News analysis compilation
-- `public/stock-market-report.json` - Stock analysis report
-- `public/stock-prices.json` - Current stock prices
 
 ### Archive Digests
 
@@ -31,8 +28,6 @@ Historical digests are stored in:
 - `public/digests/academic-research-*.json` - Research digest history
 - `public/digests/market-analysis-*.json` - Market digest history
 - `public/digests/market-analysis-editorial-*.json` - Editorial digest history
-- `public/stock-reports/report-*.json` - Stock report history
-- `data/stock_monitor/history/` - Stock monitoring history
 
 ## Cleanup Procedures
 
@@ -62,10 +57,6 @@ ls -t data/academic_research/digests/*.json | tail -n +6 | xargs rm -f
 
 # Remove old market analysis digests (keep 5 most recent)
 ls -t public/digests/market-analysis-*.json | tail -n +6 | xargs rm -f
-
-# Remove old stock reports (keep 5 most recent)
-ls -t public/stock-reports/report-*.json | tail -n +6 | xargs rm -f
-ls -t data/stock_monitor/history/report-*.json | tail -n +6 | xargs rm -f
 ```
 
 ### Git Configuration
@@ -93,8 +84,7 @@ The repository uses these GitHub Actions workflows:
 1. **academic-research.yml** - Daily research paper analysis (6 AM UTC)
 2. **market-analysis.yml** - Twice-daily market analysis (9 AM, 9 PM UTC)
 3. **news-perspectives.yml** - Daily news analysis (8 AM UTC)
-4. **stock-monitor.yml** - 3x daily stock monitoring (6 AM, 12 PM, 6 PM UTC)
-5. **_reusable-agent-runner.yml** - Shared agent runner template
+4. **_reusable-agent-runner.yml** - Shared agent runner template
 
 ### Removed Workflows
 
@@ -134,7 +124,6 @@ du -sh data/ public/
 
 # Count digest files
 ls public/digests/ | wc -l
-ls public/stock-reports/ | wc -l
 ```
 
 ## Troubleshooting
@@ -159,7 +148,7 @@ If workflows fail due to missing data files:
 
 Common issues:
 
-- Missing API keys (OPENAI_API_KEY, ALPHA_VANTAGE_API_KEY)
+- Missing API keys (OPENAI_API_KEY)
 - Rate limiting on external APIs
 - Network timeouts during data fetching
 
