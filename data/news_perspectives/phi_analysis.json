@@ -2,455 +2,124 @@
   "agent": "phi-analyzer",
   "model": "Phi-4 Mini",
   "model_id": "microsoft/phi-4-mini-instruct",
-  "timestamp": "2025-11-13T18:16:21.930202",
+  "timestamp": "2025-11-14T00:32:07.768131",
   "status": "completed",
   "data": {
     "analyses": [
       {
         "article": {
-          "id": "news_0_1763057591",
-          "title": "The OnePlus 15 is the phone to buy if you hate charging your phone - The Verge",
-          "description": "The OnePlus 15 is the phone to buy if you hate charging your phone\u00a0\u00a0The VergeThe OnePlus 15 Has Two-Day Battery Life. 'Nuff Said\u00a0\u00a0WIREDOnePlus\u2019s New Two-Day Battery Life Phone Delayed by US Government Shutdown\u00a0\u00a0Bloomberg.comThe US government shutdown claims an unexpected victim: OnePlus 15\u00a0\u00a0EngadgetOnePlus 15 smartphone launch: Big battery, big screen, and big AI ambitions\u00a0\u00a0SFGATE",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPbG1PRzFxZmloV29VYmNSTFhueUkyelNWbHMteXF0RkpyU0s2ZU9QTngwaFUxOGJiRkdxZzlRemJtSlgzT0hpQUYtdUQ5dEZhRHF4bUhjZXdLUUJiMDRFWFcySlpZWGt5U2R6NU9oY2tCZkZDcVJSbWU3V2taMFRSdS1B?oc=5",
-          "source": "The Verge",
-          "published": "Thu, 13 Nov 2025 14:30:00 GMT",
+          "id": "news_0_1763080194",
+          "title": "Valve announces new Steam Machine console: Price, specs, release date - Mashable",
+          "description": "Valve announces new Steam Machine console: Price, specs, release date\u00a0\u00a0MashableSteam Frame vs Apple Vision Pro vs Meta Quest 3 \u2014 Which has stronger specs, and which is best for gaming?\u00a0\u00a0MashableValve just built the Xbox that Microsoft is dreaming of\u00a0\u00a0The VergeValve's Next-Gen Steam Machine and Steam Controller \u2014 the Big Interview\u00a0\u00a0IGNValve is following the Nintendo hardware playbook, and it's working\u00a0\u00a0Polygon",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQTUg4aUcwdkRSYnZzbUN1ZzFnczNNN2g5Y3hKa3Z3U2F5ZVBOY0V3OElnTkFGUVpvQzlJZVJqSC0xUFNWSllyXzllZ25sbmxFVFNSekVKa1BldUR0ZzdIdVg2dTY3bmhFc0xEeDRKOWR5azZSOUtpYURHWXJ6Y3kyVl9PN0dsMzRC?oc=5",
+          "source": "Mashable",
+          "published": "Thu, 13 Nov 2025 18:55:04 GMT",
           "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-13T18:13:11.192702"
+          "fetched_at": "2025-11-14T00:29:54.751957"
         },
         "analysis": {
-          "summary": "The OnePlus 15 is being touted as a game-changer for users who dislike frequent phone charging, boasting a two-day battery life. The article highlights the device's significant battery capacity, and while it may draw attention, it also notes delays caused by the US government shutdown, with other sources discussing the phone's features and ambitions in the industry.",
+          "summary": "Valve's announcement of the Steam Machine console, positioned as an alternative to Microsoft and Nintendo, sets it on a path to compete in the gaming console market, though its success is uncertain given the market's dominance by established players and Valve's limited experience in hardware manufacturing.",
           "key_points": [
-            "OnePlus 15 offers a two-day battery life, appealing to users who hate frequent charging.",
-            "Manufacturing delays due to the US government shutdown impact the phone's release.",
-            "Other sources discuss OnePlus 15's AI ambitions and its big screen and big battery features."
+            "Valve's Steam Machine aims to enter the console market with a unique focus on gaming through Steam.",
+            "The announcement may not significantly impact the gaming industry dominated by established players like Microsoft and Sony.",
+            "Valve's history in PC gaming and digital distribution sets a foundation, but their move into hardware manufacturing is a new and uncertain venture."
           ],
           "sentiment": "mixed",
           "confidence": "high",
-          "bias_check": "The article may emphasize the two-day battery life, potentially overstating its value over other important features. The mention of the US government shutdown could be seen as a way to create a negative association with the product's release.",
-          "missing_context": "The article does not discuss the actual battery performance under typical usage conditions or the phone's overall performance and features beyond the battery life and screen size.",
-          "implications": "The OnePlus 15 could potentially shift market expectations for battery life in smartphones, but its success may also depend on other factors such as performance, software experience, and customer satisfaction.",
+          "bias_check": "The article may exhibit bias towards Valve's innovation and competition spirit, potentially downplaying the challenges they face against established companies with more experience and resources in console manufacturing.",
+          "missing_context": "The detailed technical specifications, marketing strategy, and financial backing of Valve's Steam Machine are missing. Additionally, the competitive landscape of the gaming industry, including the dominance of Xbox and PlayStation, is not fully explored.",
+          "implications": "The announcement by Valve could stir up competition in the console market, potentially leading to more innovation and variety in gaming hardware. However, it also highlights the challenges new entrants face in a market dominated by established giants. Valve's success with the Steam Machine could redefine their role in the gaming industry, moving from platform provider to hardware manufacturer, or it could serve as a cautionary tale of ambitious ventures without sufficient market traction or expertise.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-13T18:13:33.568576",
+          "analyzed_at": "2025-11-14T00:30:17.700811",
           "token_usage": {
-            "prompt_tokens": 292,
-            "completion_tokens": 291,
-            "total_tokens": 583
+            "prompt_tokens": 282,
+            "completion_tokens": 335,
+            "total_tokens": 617
           }
         }
       },
       {
         "article": {
-          "id": "news_1_1763057591",
-          "title": "Steam Machine: Valve rivals Xbox and PlayStation with new console - BBC",
-          "description": "Steam Machine: Valve rivals Xbox and PlayStation with new console\u00a0\u00a0BBCValve's Next-Gen Steam Machine and Steam Controller \u2014 the Big Interview\u00a0\u00a0IGNValve is cutting corners with Steam Machine to compete with the current consoles\u00a0\u00a0PolygonValve reveals new Steam console, VR headset, and controller, set to launch in 2026\u00a0\u00a0MashableOur first look at the Steam Machine, Valve\u2019s ambitious new game console\u00a0\u00a0The Verge",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB2Y2NLQWN0eXBQYnM4TTVIdzlDWVZtMXMzeXRrakE5LTdfUld1X09Xd1VHVENsWUdrbzVKcng0NFp0a2J2bHZpNlZ3SWxNSjJjb05EVG1CU1Bhd9IBX0FVX3lxTE52NWcxeDJRUUY3dktwTldWV01leTNfQjM5QnRKYmVsQWJzX1d2elYteV91MDZGQnk5Rzlka1VtajRVUTFkc1J2UFpUalZTVUt3Y2lXckZFb1BvLTFucTJF?oc=5",
-          "source": "BBC",
-          "published": "Thu, 13 Nov 2025 11:04:12 GMT",
-          "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-13T18:13:11.192730"
-        },
-        "analysis": {
-          "summary": "Valve's Steam Machine is entering the market as a competitor to the established Xbox and PlayStation consoles, aiming to disrupt the gaming industry with a new console, VR headset, and controller set to launch in 2026.",
-          "key_points": [
-            "Valve's Steam Machine is entering a highly competitive market.",
-            "The new console and accompanying VR headset are slated for a 2026 release.",
-            "Valve's aggressive approach may disrupt the gaming industry."
-          ],
-          "sentiment": "Mixed",
-          "confidence": "High",
-          "bias_check": "The article may be biased towards presenting Valve's venture as a significant disruption in the gaming industry. The potential success or failure of the Steam Machine is not discussed, which could skew the perception of its impact.",
-          "missing_context": "The article does not provide information on the development challenges Valve may face, the expected performance of the Steam Machine compared to existing consoles, or the current market share and consumer preferences in the gaming industry.",
-          "implications": "If successful, Valve's Steam Machine could intensify competition in the gaming industry, potentially leading to better products and innovations. However, if unsuccessful, it could be seen as a misstep by Valve. The 2026 timeline gives major companies like Microsoft and Sony time to adjust their strategies, possibly through partnerships or advancements in their own products.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-13T18:13:41.042086",
-          "token_usage": {
-            "prompt_tokens": 277,
-            "completion_tokens": 275,
-            "total_tokens": 552
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_2_1763057591",
-          "title": "Google augments AI shopping with conversational search, agentic checkout and an AI that calls stores for you - TechCrunch",
-          "description": "Google augments AI shopping with conversational search, agentic checkout and an AI that calls stores for you\u00a0\u00a0TechCrunchLet AI do the hard parts of your holiday shopping\u00a0\u00a0blog.googleGoogle's Gemini is bringing automation to holiday shopping\u00a0\u00a0AxiosAI Companies Want to Change How You Buy Tickets\u00a0\u00a0Sportico.comGoogle will let users call stores, browse products, and check out using AI\u00a0\u00a0The Verge",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPbFVHc3I3YnU2ckxUZE4wZUM3dVdMRGRCajgwbzd2a3MxVnJpMFVEdkdVSGItWXI2WWplaTVvZ1h4eGxwQ3pqeVdEOGdmLWVfa0h5V3hqa1FtbXNQX3NNMG02US04dHgwaThjcWtaRExOc0ZobktuQmRhdDYwY1NJWVBDcDFxRFpCRGVfbkJlVlpReVQ5TGFVNmNieWoyWnFqQkxZZG9Wd0RuQm4yNkdmd1h1M1o5bFFyTWVib1ExSFcxRzVmVU1lR3hTUGpLWk5paFNyNVNoc0k?oc=5",
+          "id": "news_1_1763080194",
+          "title": "Google\u2019s NotebookLM adds \u2018Deep Research\u2019 tool, support for more file types - TechCrunch",
+          "description": "Google\u2019s NotebookLM adds \u2018Deep Research\u2019 tool, support for more file types\u00a0\u00a0TechCrunchNotebookLM adds Deep Research and support for more source types\u00a0\u00a0blog.googleGoogle adds Deep Research capabilities to NotebookLM\u00a0\u00a0EngadgetNotebookLM adding Deep Research and Microsoft Word, Google Sheets support\u00a0\u00a09to5GoogleUsing NotebookLM to Tackle Tough Questions: Interview Smarter, Not Harder\u00a0\u00a0KDnuggets",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOOW03OENDNHo5cUk3QWtiS2VUdGFhbG9zQzhlQnZldTNXVHNGRVRRVEFESDRBeDh4R25zSGFoamstS21tekgwYW9SUEJZaGV1M3NYZG1uY1FkWG94WUctdkFtejNIR0VPYWlRajhkbUJFTW1GYlFiTVZ0LXhlaklRWGFlVWZpbTRBNk1LZWRlaG0weW4tNUtONm81R1FIamY4ejgzVGFsS2E?oc=5",
           "source": "TechCrunch",
-          "published": "Thu, 13 Nov 2025 14:00:00 GMT",
+          "published": "Thu, 13 Nov 2025 17:00:00 GMT",
           "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-13T18:13:11.192750"
+          "fetched_at": "2025-11-14T00:29:54.751982"
         },
         "analysis": {
-          "summary": "Google's Gemini AI is set to revolutionize holiday shopping by integrating conversational search, agentic checkout, and the ability to call stores directly, potentially transforming the consumer experience by automating the shopping process with artificial intelligence.",
+          "summary": "Google's NotebookLM has introduced a 'Deep Research' tool and expanded its support for various file types, enhancing its functionality and potentially transforming how users approach research tasks with more comprehensive tools at their disposal.",
           "key_points": [
-            "Google's Gemini AI enhances holiday shopping by simplifying the process through conversational search and agentic checkout.",
-            "The integration of AI with the ability to interact with stores could set a precedent for future AI shopping assistants.",
-            "This development may impact both consumers, who can save time and effort, and retailers, who may face new challenges with customer interaction."
+            "NotebookLM now features a 'Deep Research' tool, improving its capabilities.",
+            "Support for additional file types, including Microsoft Word and Google Sheets, has been added.",
+            "The new tools are positioned to assist users in tackling complex questions more efficiently."
           ],
           "sentiment": "Positive",
           "confidence": "High",
-          "bias_check": "The story may exhibit a bias towards technology optimism, focusing on the innovative aspects without equally addressing potential drawbacks or challenges.",
-          "missing_context": "The article does not provide details on how Google will address privacy concerns, the accuracy of the AI in making purchasing decisions, or how this technology will be adopted by different demographics.",
-          "implications": "The broader implications include a shift in consumer behavior towards more AI-assisted shopping, potential changes in retail operations, and the need for ongoing technological advancements to keep up with consumer expectations.",
+          "bias_check": "The article's positive tone and focus on Google's new features may overlook potential downsides or limitations. It also emphasizes the benefits without discussing competitors' responses or the possible challenges users might face during implementation.",
+          "missing_context": "The article does not mention whether there are any prerequisites or learning curves associated with the new features, nor does it address if there are any compatibility issues with existing systems. It also doesn't provide comparative performance metrics or user feedback.",
+          "implications": "The introduction of 'Deep Research' and expanded file support in NotebookLM could lead to a shift in research methodologies, making it easier for users to gather and analyze information. This might also increase competition in the tool market, prompting rivals to innovate similarly.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-13T18:13:48.123164",
+          "analyzed_at": "2025-11-14T00:30:25.615330",
           "token_usage": {
             "prompt_tokens": 281,
-            "completion_tokens": 261,
-            "total_tokens": 542
+            "completion_tokens": 279,
+            "total_tokens": 560
           }
         }
       },
       {
         "article": {
-          "id": "news_3_1763057591",
-          "title": "Google will let expert Android users to sideload all apps - theregister.com",
-          "description": "Google will let expert Android users to sideload all apps\u00a0\u00a0theregister.comAndroid will let \u2018experienced users\u2019 sideload unverified apps as Google makes case for verification\u00a0\u00a09to5GoogleGoogle will let Android power users bypass upcoming sideloading restrictions\u00a0\u00a0Ars TechnicaGoogle will allow 'experienced users' to sideload unverified Android apps\u00a0\u00a0EngadgetGoogle will let \u2018experienced users\u2019 keep sideloading Android apps\u00a0\u00a0The Verge",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8yQTRvMm5xcld1bEhISEw4M3ZpYUdleE9rcFBTS1FmV2YtcUJwSG8zYW9fUXhtWkl5dHdqX0ZGRE1NT2hCMlNibTd2aG9CVDlmQ2gxdldGdUFtc1UwVWs2M0NzYUFuaVBLVUJ1dGRzWDlnaDdqeURITDNkanJmUQ?oc=5",
-          "source": "theregister.com",
-          "published": "Thu, 13 Nov 2025 03:47:00 GMT",
+          "id": "news_2_1763080194",
+          "title": "TikTok launches its own version of Instagram\u2019s broadcast channels - TechCrunch",
+          "description": "TikTok launches its own version of Instagram\u2019s broadcast channels\u00a0\u00a0TechCrunchIntroducing bulletin board: a new way for TikTok creators to communicate with their fans and build community\u00a0\u00a0Newsroom | TikTokTikTok Expands Access to Bulletin Boards for Profiles\u00a0\u00a0Social Media TodaySupporting families with Tiktok\u2019s safety tools for healthy digital habits\u00a0\u00a0Technology KhabarTikTok Bulletin Boards available to more artists\u00a0\u00a0Music Ally",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPV3FhWnNDeDctQ0V1Y3hPUVdmRUxfT0FxUW5tXzlzZWt3QVVBOFRlNVdIcEpYeTdPNXR0TUxJNTdpWjdIcTA0TGFCTmtxRUlYa0RkZU1Nbl9pQ01sM1JHSHhERjN2QzB3VVBnaXhZU1FjLUcwTDBXejREaTNKX2xxOVZhaHNYb0QxczZGVW1DX2VHdnhzY1AtaTNtc21rYmZz?oc=5",
+          "source": "TechCrunch",
+          "published": "Thu, 13 Nov 2025 16:36:02 GMT",
           "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-13T18:13:11.192772"
+          "fetched_at": "2025-11-14T00:29:54.752003"
         },
         "analysis": {
-          "summary": "Google plans to allow experienced Android users to sideload apps, even if they are unverified, as part of a move to foster a more open and flexible ecosystem. This change is a response to user demand and a push against restrictive device management policies that could limit the functionality of Android devices.",
+          "summary": "TikTok introduces its own version of Instagram's broadcast channels to enhance creator-fan communication and community building on its platform.",
           "key_points": [
-            "Google is adjusting its policy to allow experienced Android users to sideload unverified apps.",
-            "This change aims to empower users and counteract restrictive device management practices by carriers and device manufacturers.",
-            "The decision reflects a broader trend towards supporting a more open and flexible Android ecosystem."
+            "TikTok's new bulletin board feature aims to improve direct interactions between creators and their fans.",
+            "The feature expands TikTok's range of tools for artists, potentially increasing user engagement and content discoverability.",
+            "Emphasis on safety tools suggests TikTok's ongoing efforts to promote healthy digital habits among its users."
           ],
-          "sentiment": "Mixed",
-          "confidence": "High",
-          "bias_check": "The article might emphasize the positive aspects of this policy change while underreporting potential risks associated with sideloading unverified apps, such as security vulnerabilities.",
-          "missing_context": "Details about the specific safeguards Google plans to implement to ensure the safety of sideloading apps, or the potential risks and downsides of this policy change for average users, were not discussed in the article.",
-          "implications": "This policy shift could lead to greater user empowerment and customization on Android devices, but it also raises concerns about device security and the potential for increased malware infections. It may also influence how other tech companies approach device management and user freedoms.",
+          "sentiment": "positive",
+          "confidence": "high",
+          "bias_check": "The article may be biased towards a positive view of TikTok's expansion and may downplay any potential downsides or criticisms.",
+          "missing_context": "Information about user adoption rates, any reported issues or challenges with the new feature, and comparisons to similar features on other platforms is missing.",
+          "implications": "The introduction of TikTok's bulletin board feature could lead to increased user engagement and community building on the platform, potentially attracting more creators and users. It also signifies TikTok's ongoing efforts to innovate and compete with other social media giants like Instagram.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-13T18:13:55.822834",
+          "analyzed_at": "2025-11-14T00:30:32.273290",
           "token_usage": {
-            "prompt_tokens": 287,
-            "completion_tokens": 287,
-            "total_tokens": 574
+            "prompt_tokens": 275,
+            "completion_tokens": 243,
+            "total_tokens": 518
           }
         }
       },
       {
         "article": {
-          "id": "news_4_1763057591",
-          "title": "Leaker claims poor sales of the iPhone 16e as iPhone Air production ceases - 9to5Mac",
-          "description": "Leaker claims poor sales of the iPhone 16e as iPhone Air production ceases\u00a0\u00a09to5MacApple Delays Release of Next iPhone Air Amid Weak Sales\u00a0\u00a0The InformationIs thin really in? Not for lots of smartphone shoppers.\u00a0\u00a0The Washington PostiPhone 16e Has Apparently 'Failed' Just Like iPhone Air\u00a0\u00a0MacRumorsApple reportedly pulls plug on iPhone Air 2 after weak sales of debut model\u00a0\u00a0New York Post",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPR2k5bkcwck42X3kzcEF0UFYzd2h6RndkTjlzYlo2LVJ0cnRMV2JMNEppZjBjYUo0dFZFYjd5SjdCb0ZwQVJoYjhaRW9zdmhBOWpqekQtMTQ0X3RwLVpsN2NRRDZQcHBCcVdUaTBxQm0wRzh4aThRSThndTh3ZUZKZlF0UXNkU1RqY0RHVkdzVlpYaFRveXpabU4wZ1NpUjV4ZVJ5TUJvdUpoZw?oc=5",
-          "source": "9to5Mac",
-          "published": "Thu, 13 Nov 2025 14:10:00 GMT",
+          "id": "news_3_1763080194",
+          "title": "Valve's trio of hardware announcements revived my Half-Life 3 fever dream - Engadget",
+          "description": "Valve's trio of hardware announcements revived my Half-Life 3 fever dream\u00a0\u00a0EngadgetSorry PC gamers, Valve isn't announcing Half-Life 3 today\u00a0\u00a0PC GamerThe Steam Machine Is The Perfect Time To Launch Half-Life 3\u00a0\u00a0KotakuHalf-Life 3 Announcement Leaked on Reddit: Buzz Suggests Reveal Poised to Eclipse GTA 6\u00a0\u00a0International Business Times UKHalf-Life 3 Could Be Revealed Soon as Steam Machine Launch Title, According To Leak\u00a0\u00a0VICE",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNVnh5d2JHRjJnS0wtWVZsa0phZF9sTEg3N281ay1weHJObVNiXzk4MUVmU3BCa1VzVTdGSGloN3dLWW5ndlg0S3dsQzl0MkdibjV5YzlPM1ZMbldFYXVQbmE3cEVqNTF1LWVMUU00ZWNkR0NGT1NUUXNtRWFLV3pNcWJmLS1LSTVrcVN2eWZ6Wk00STBOckNJbmxjVVFBRlQxdGREQ1ktbFVZODRaWldNNWhqVXpQYzlKWlhsSVFYUQ?oc=5",
+          "source": "Engadget",
+          "published": "Thu, 13 Nov 2025 17:00:00 GMT",
           "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-13T18:13:11.192791"
+          "fetched_at": "2025-11-14T00:29:54.752024"
         },
         "analysis": {
-          "summary": "A leaker suggests that the iPhone 16e has not performed well in sales, leading Apple to halt production of the iPhone Air, a move that has raised concerns among consumers and industry observers. The similarity between the fates of the iPhone 16e and the previous iPhone Air model, which also underperformed, has led to speculation and disappointment.",
+          "summary": "{\n  \"summary\": \"Valve's recent hardware announcements have reignited excitement and speculation among fans about the potential release of Half-Life 3, with various outlets discussing the timing and implications of a possible announcement coinciding with the Steam Machine launch.\"\n\n  \"key_points\": [\n",
           "key_points": [
-            "Leaker claims poor sales of the iPhone 16e.",
-            "Apple ceases production of the iPhone Air.",
-            "Previous iPhone Air model underperformed, raising concerns.",
-            "Speculation and disappointment among consumers and industry observers."
-          ],
-          "sentiment": "Negative",
-          "confidence": "High",
-          "bias_check": "The story may lean towards sensationalism by highlighting the similarities between the iPhone Air and the iPhone 16e to draw more reader interest. Additionally, the reliance on a leaker\u2019s information can introduce bias as their access to accurate and complete information might be limited.",
-          "missing_context": "The reasons behind the alleged poor sales of the iPhone 16e and the iPhone Air are not provided. Further context on how these models compare to their predecessors in terms of features, pricing, and market conditions would be beneficial. The financial performance of Apple and its overall product strategy might also be relevant.",
-          "implications": "The reported poor sales and production halt could impact Apple's stock prices and market positioning. It may also influence consumer expectations and trust in the forthcoming iPhone models. Competitors might see this as an opportunity to gain market share. Overall, the tech industry and investors would need to closely monitor Apple's next moves and reassess their strategies.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-13T18:14:05.108207",
-          "token_usage": {
-            "prompt_tokens": 302,
-            "completion_tokens": 360,
-            "total_tokens": 662
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_0_1763057591",
-          "title": "Iraq Election Results Set Stage for a Long Power Struggle - The Wall Street Journal",
-          "description": "Iraq Election Results Set Stage for a Long Power Struggle\u00a0\u00a0The Wall Street JournalAs Iraqis Vote for a Parliament, U.S. Presses to Rid Country of Iran\u2019s Influence\u00a0\u00a0The New York TimesCoalition led by Iraqi PM Sudani comes first in Iraq\u2019s election, commission says\u00a0\u00a0ReutersIraq\u2019s PM al-Sudani may win the elections, but lose his post\u00a0\u00a0Al JazeeraIraq votes in parliamentary elections amid US security talks and concerns about Iranian influence\u00a0\u00a0The Long War Journal",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNaEZLaE80ckFjWTJiNFRiVjFON0xaeEF3QXl5V2piOHZYQkRrQ1E2Q0F3S2ZST0xxNHhCdVJpOXBEUFZvNF9SblNDSTRkRjZJLU5QMUxnN0RoT19Zb05XajZzYzRFQTJlLUU4akpSMjZHOHN2ZVZadU9rUXBZaFBUclg2NldwRzNIQUVtTERPZkZCWDREdk5JQVRuSlZGeHZUUmN4QlZrYjZIWlBONHVYOU5XRU1EbHpMTXZSRV9lUmJyUGJSVnVoNHExcWVGRDg?oc=5",
-          "source": "The Wall Street Journal",
-          "published": "Thu, 13 Nov 2025 11:06:00 GMT",
-          "topic": "WORLD",
-          "fetched_at": "2025-11-13T18:13:11.241746"
-        },
-        "analysis": {
-          "summary": "The Iraqi parliamentary elections have concluded, with coalition leader Prime Minister Mustafa al-Sudani's party leading but facing a potential loss of power due to concerns over Iranian influence and internal political dynamics, amidst ongoing security discussions with the U.S.",
-          "key_points": [
-            "Mustafa al-Sudani's coalition is leading in the elections but faces uncertainty.",
-            "U.S. involvement is focused on reducing Iranian influence in Iraq.",
-            "There are concerns about the internal political stability and the potential for a long power struggle."
-          ],
-          "sentiment": "Mixed",
-          "confidence": "High",
-          "bias_check": "The article may reflect Western geopolitical interests, particularly the U.S. and its stance on Iranian influence in Iraq. There may be an implicit bias towards portraying U.S. involvement as a stabilizing force.",
-          "missing_context": "The article does not provide detailed information on the composition of the coalition leading to al-Sudani or the specific concerns about Iranian influence. Additionally, it lacks a comparison with past elections or historical political contexts.",
-          "implications": "The election results could lead to a fragile political environment in Iraq, with potential for ongoing power struggles and instability. U.S. security discussions with Iraq might impact the balance of influence among regional powers, particularly Iran, and may influence Iraq\u2019s future policy and governance.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-13T18:14:12.452883",
-          "token_usage": {
-            "prompt_tokens": 299,
-            "completion_tokens": 286,
-            "total_tokens": 585
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_1_1763057591",
-          "title": "Germany finalises plans for military service and larger army - Financial Times",
-          "description": "Germany finalises plans for military service and larger army\u00a0\u00a0Financial TimesGermany decides against conscription to replenish post-cold war military\u00a0\u00a0The GuardianGerman coalition government agrees new military service plan\u00a0\u00a0DWBerlin\u2019s Answer to Its Conscription Conundrum: a Massive Medical Database\u00a0\u00a0The Wall Street JournalGermany\u2019s ruling parties strike new military-service deal\u00a0\u00a0politico.eu",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBVTHZHbkxmVkhCZnl1cDVMUW9WbnJOYXFrbVZ4TlpMdE5IYmJRSDBpblMwOWtPZm5Iam92anllS1RaRy0welFYRWt0akJXck9LX0k3aFdpem1NRHN6S1RheFhPQ3prTTczVk1YWUo5NWg?oc=5",
-          "source": "Financial Times",
-          "published": "Thu, 13 Nov 2025 10:26:55 GMT",
-          "topic": "WORLD",
-          "fetched_at": "2025-11-13T18:13:11.241780"
-        },
-        "analysis": {
-          "summary": "Germany has finalized plans to maintain a larger army without resorting to conscription, a decision that reflects a continued commitment to military readiness post-Cold War and addresses previous criticisms of its defense strategy.",
-          "key_points": [
-            "Germany's decision to expand its army without conscription aligns with its strategic interest in maintaining a strong defense force.",
-            "The move comes after Germany's ruling parties reach a new military-service deal, indicating a consensus on the country's defense policies.",
-            "By avoiding conscription, the plan may be seen as a response to public opinion and historical context, as Germany has long opposed mandatory military service."
-          ],
-          "sentiment": "Mixed",
-          "confidence": "High",
-          "bias_check": "The perspective might lean towards a positive outlook on Germany's decision, emphasizing stability and readiness without the contentious issue of conscription.",
-          "missing_context": "Details on the specific size and capabilities of the larger army, the exact terms of the new military-service plan, and the broader strategic context within which this decision is made.",
-          "implications": "The decision to grow the army without conscription could signal a shift in Germany's defense posture, potentially affecting its international relations, military spending, and alliance dynamics, particularly within NATO.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-13T18:15:20.044209",
-          "token_usage": {
-            "prompt_tokens": 264,
-            "completion_tokens": 268,
-            "total_tokens": 532
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_2_1763057591",
-          "title": "Ukraine's army chief visits besieged city as Zelenskyy confronts graft scandal - abcnews.go.com",
-          "description": "Ukraine's army chief visits besieged city as Zelenskyy confronts graft scandal\u00a0\u00a0abcnews.go.comView Full Coverage on Google News",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTFFjOGI1TzgyZU91bWE3anBjcWZVYk9VcmVJOUpNZnhheE14bHlpelBkMzFCUExkd0taYko1b2ZyNzNPZlM3eVk4MWJreVRwM3BJaXNSZ3piU2lFeVdaSmViODNrQ01VMGxmZm9VWkh2dzdQdTA1bGRSMHB3ZmlQci1GSE1iRUdtUVdGTGZCNVdrdnNBQ0R3SXlpcktSRHJmbHc1ek9OWHJQM19KUVNUMHI5cEp5cTlr0gG-AUFVX3lxTFA1c0dWTzNWX2ZISXhPRkJOb2lkdEJ6S29QMUFBQXpKSWtxMU9xOVBrNFVERlVCb2lJcXpqblN6bDE3RTVjR08yWGF4ZGl0WHVmc2N3QjJ3bWFBQUhIazJ4cjBkTFVTUjFlMmJhbmlDYUtPYUk4SlZScVhpbkJUYTMyZTNzMGpVdnRub3hYSGxfMWI3cnFlYkdTRFNUOG9VLXpHSmROZ1R5OEdoWXRIbmRfVFJtcDZDNHh6Wm96QlE?oc=5",
-          "source": "abcnews.go.com",
-          "published": "Thu, 13 Nov 2025 11:29:45 GMT",
-          "topic": "WORLD",
-          "fetched_at": "2025-11-13T18:13:11.241793"
-        },
-        "analysis": {
-          "summary": "Ukrainian Army Chief Visits Besieged City Amidst Zelenskyy\u2019s Graft Scandal; This duality highlights the ongoing military pressure on Ukraine while simultaneously addressing internal political challenges faced by President Zelenskyy. The visit underscores the government's effort to maintain morale and unity in the face of both external and internal threats.",
-          "key_points": [
-            "The Ukrainian Army Chief\u2019s visit to a besieged city signifies continued military support and morale boosting amidst the ongoing conflict.",
-            "President Zelenskyy's confrontation with a graft scandal amidst the war illustrates significant internal political challenges.",
-            "The juxtaposition of military and political turmoil demonstrates the complexity of Ukraine's current situation."
-          ],
-          "sentiment": "mixed",
-          "confidence": "high",
-          "bias_check": "The article might reflect Western perspectives, potentially emphasizing the military\u2019s efforts while downplaying internal political issues. The source's political leanings could also influence the framing of Zelenskyy's actions.",
-          "missing_context": "Details about the specific city being visited, the nature of the siege, and the extent of the graft scandal. Information on public and international reactions to both the military visit and the corruption allegations would provide a fuller understanding.",
-          "implications": "The military support shown by the Ukrainian army chief may bolster public morale and international support, while Zelenskyy's engagement with a graft scandal could undermine confidence in his leadership and affect internal unity. The dual focus on military and political fronts highlights the multifaceted challenges Ukraine faces, impacting both domestic stability and international relations.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-13T18:15:28.352979",
-          "token_usage": {
-            "prompt_tokens": 228,
-            "completion_tokens": 325,
-            "total_tokens": 553
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_3_1763057591",
-          "title": "10 years after Bataclan massacre, Paris is still scarred by Islamic State attacks - AP News",
-          "description": "10 years after Bataclan massacre, Paris is still scarred by Islamic State attacks\u00a0\u00a0AP NewsView Full Coverage on Google News",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPYXUyODdmZncxektRTTBTYmwxQnZqU2J4Qm5NaUVJLUwwZ2hSOWhhdjJWazFSX2VLdzI4WTZ1YmU3UkpfVlhIS0FMOWx6c0VWd2NrUnhrNE81XzA1NmVPc0tKcG9XUHlkRFpjb2NkRjVUMkpOZlRUUElSNEh4ZVY5OVJsdUs3aXRXOXRrWEZCdU41SDF5OFNlRDhlS0pmWXFJWFd3SUxXd25RZw?oc=5",
-          "source": "AP News",
-          "published": "Thu, 13 Nov 2025 14:51:00 GMT",
-          "topic": "WORLD",
-          "fetched_at": "2025-11-13T18:13:11.241802"
-        },
-        "analysis": {
-          "summary": "A decade after the Bataclan massacre, Paris continues to bear the psychological and physical scars of Islamic State attacks, reflecting the long-lasting impact of terrorism on the city.",
-          "key_points": [
-            "10 years have passed since the Bataclan attack, but the city still grapples with its aftermath.",
-            "The attack left a deep psychological scar on Paris and its residents.",
-            "Security measures have arguably become more stringent in response to such attacks."
-          ],
-          "sentiment": "negative",
-          "confidence": "high",
-          "bias_check": "The article may reflect a bias towards highlighting the negative impacts of terrorism, potentially overshadowing any positive changes or resilience efforts post-attack.",
-          "missing_context": "The broader context of security improvements, the resilience of the Parisian community, and any steps taken to prevent future attacks might not be fully covered.",
-          "implications": "The story underscores the enduring trauma of terrorism on urban populations and highlights the need for continued vigilance and support systems to help cities recover from such devastating events.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-13T18:15:34.928864",
-          "token_usage": {
-            "prompt_tokens": 224,
-            "completion_tokens": 226,
-            "total_tokens": 450
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_4_1763057591",
-          "title": "Labour Party\u2019s Internal Fight Goes Public, as Starmer\u2019s Trouble Grows - The New York Times",
-          "description": "Labour Party\u2019s Internal Fight Goes Public, as Starmer\u2019s Trouble Grows\u00a0\u00a0The New York TimesPM's aide McSweeney not leaving role over briefing war, BBC told\u00a0\u00a0BBCBriefings against ministers \u2018didn\u2019t come from Downing Street\u2019, says Starmer\u00a0\u00a0The GuardianSir Keir Starmer is a prisoner of the politics he pledged to end\u00a0\u00a0The EconomistHelen Chandler-Wilde: The Narrow Path to Political Success\u00a0\u00a0Bloomberg.com",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOb2dJN1VhUTdCTDRFbER5Xy1iOXNidWI0UDM3RHQxYmNMYWFyX29UQUhlbXZpUzJpSzhmOExxc0piQ1loY19uUkMwMXl1Wi1hczljMjlVRDhyc0F6QnZiYTA1OG5FRWR1NGpSM2JObjBiTnAwU1JHQmpDTkh1WFU2eHB4Zk5oT0pfLTdj?oc=5",
-          "source": "The New York Times",
-          "published": "Wed, 12 Nov 2025 19:13:28 GMT",
-          "topic": "WORLD",
-          "fetched_at": "2025-11-13T18:13:11.241823"
-        },
-        "analysis": {
-          "summary": "The article discusses the growing internal conflict within the Labour Party, particularly focusing on Sir Keir Starmer's challenges as the party's leader. Key issues include McSweeney's potential departure, controversies surrounding briefing war tactics, and the perception that Starmer is trapped by the very politics he vowed to change.",
-          "key_points": [
-            "Sir Keir Starmer's leadership is under scrutiny due to internal party conflicts.",
-            "McSweeney's role as PM's aide is in jeopardy, reflecting the intense internal strife.",
-            "Starmer is criticized for tactics that seem inconsistent with his previous political stance."
-          ],
-          "sentiment": "Negative",
-          "confidence": "High",
-          "bias_check": "The piece might exhibit a bias against the Labour Party and its leadership, focusing on negative aspects without equally considering any positive developments or justification for the actions taken.",
-          "missing_context": "The article does not provide context about the reasons behind the internal conflicts or specific policies and decisions that have led to the current situation. It also omits the perspectives of other party members and the general public on these issues.",
-          "implications": "The growing internal fight within the Labour Party could lead to destabilization and loss of public support. It may also hinder the party's ability to effectively govern or present a united front, which could impact their performance in future elections and their ability to push through reforms or policies they support.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-13T18:15:42.760665",
-          "token_usage": {
-            "prompt_tokens": 292,
-            "completion_tokens": 303,
-            "total_tokens": 595
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_0_1763057591",
-          "title": "Stock Market Today: Nasdaq Leads Losses After Shutdown Ends - The Wall Street Journal",
-          "description": "Stock Market Today: Nasdaq Leads Losses After Shutdown Ends\u00a0\u00a0The Wall Street JournalStock market today: Dow, S&P 500, Nasdaq tumble as Wall Street eyes fallout from US shutdown\u00a0\u00a0Yahoo FinanceWall St tumbles as tech selloff continues; data uncertainty sours sentiment\u00a0\u00a0ReutersDow falls as government reopens and data gaps loom\u00a0\u00a0qz.comDow pulls back from record, falls 400 points in broad market sell-off: Live updates\u00a0\u00a0CNBC",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOUnZOR2UwZE9qSXRKLXIwWmt1TWdFN2pyQWNPRlFNSW5aT1oxaFhPbkN1X255SXdDTGNFZWFRNjBpUkpHdWVLbWY1NkFJNU5XbFVnZVlHcHFrWVpyRWY0ZkRTaldUY0lkZC1fYlVKQzhkWGRGTnpvdWpsNUp4ZF9zVjdtRENHblk?oc=5",
-          "source": "The Wall Street Journal",
-          "published": "Thu, 13 Nov 2025 17:35:00 GMT",
-          "topic": "BUSINESS",
-          "fetched_at": "2025-11-13T18:13:11.287205"
-        },
-        "analysis": {
-          "summary": "Following the end of the US government shutdown, the stock market experienced significant losses, highlighted by a downturn in the Nasdaq index as investors reacted to the reopening of Wall Street amidst lingering data uncertainties. The Dow Jones fell by 400 points, reflecting a broader sell-off and impacting overall market sentiment negatively.",
-          "key_points": [
-            "The US government shutdown's end triggered a sharp decline in major stock indices, notably the Nasdaq.",
-            "The Dow Jones dropped 400 points, signaling a broader market sell-off.",
-            "Ongoing data uncertainties following the shutdown contribute to negative investor sentiment."
-          ],
-          "sentiment": "Negative",
-          "confidence": "High",
-          "bias_check": "The article may emphasize the negative impact of the shutdown's end, potentially overlooking any positive developments or short-term market rebounds that could occur post-closing.",
-          "missing_context": "The article does not provide any information about the market's performance prior to the shutdown or any specific sectors that are disproportionately affected. Additionally, it does not mention any long-term implications or potential recovery plans.",
-          "implications": "The immediate market reaction to the end of the shutdown may lead to increased volatility and caution among investors. Broader implications could include potential impacts on the economy, investor confidence, and future government shutdowns. However, the focus on short-term losses might overshadow any positive aspects of reopening.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-13T18:15:50.569062",
-          "token_usage": {
-            "prompt_tokens": 290,
-            "completion_tokens": 291,
-            "total_tokens": 581
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_1_1763057591",
-          "title": "Disney drops 8% after revenue miss, warns of lengthy YouTube TV fight - Axios",
-          "description": "Disney drops 8% after revenue miss, warns of lengthy YouTube TV fight\u00a0\u00a0AxiosDisney stock falls 8% as media giant posts mixed results\u00a0\u00a0CNBCDisney+ Adds 3.8 Million Subscribers, Hulu Packs on 8.6 Million Amid Kimmel Controversy in September Quarter\u00a0\u00a0VarietyDisney Q4 FY25 Earnings: Executive Commentary\u00a0\u00a0thewaltdisneycompany.comDisney Says Film Studio\u2019s Expenses Weigh on Current Quarter\u00a0\u00a0Bloomberg.com",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9vN09EUjVvTHVUcXhNMHlmNzZQMUZXOWFueGVsck9sYkkwbWktNDZZdDVpSFc0Y19QcnJfVWtjVzlfdUxlczI5TGt2WVlvMW1WXzRDcXN0UURBZHdpaVM0LXRDU0ZrUjRMcXluMkg5Uk9rSmotX0o4?oc=5",
-          "source": "Axios",
-          "published": "Thu, 13 Nov 2025 16:09:52 GMT",
-          "topic": "BUSINESS",
-          "fetched_at": "2025-11-13T18:13:11.287235"
-        },
-        "analysis": {
-          "summary": "Disney's stock plummets 8% following a revenue miss, amid warnings of a prolonged battle with YouTube TV, signaling investor concerns over the streaming wars and the company's financial health despite subscriber growth in its streaming services.",
-          "key_points": [
-            "Disney's recent revenue shortfall has triggered an 8% stock drop.",
-            "The company anticipates a protracted struggle with YouTube TV, impacting its financial outlook.",
-            "Despite growing subscribers for Disney+ and Hulu, the financial strain from film studio expenses is evident."
-          ],
-          "sentiment": "negative",
-          "confidence": "high",
-          "bias_check": "The article may not provide enough context on the overall industry trends and Disney's strategic initiatives, potentially leading to a biased view of the company's financial health and future prospects.",
-          "missing_context": "The article does not mention Disney's broader strategic investments or innovations in its streaming services, which could be affecting subscriber growth and financial performance.",
-          "implications": "The implications include potential investor caution due to Disney's perceived financial instability, a focus on the streaming market's competitive dynamics, and an evaluation of the long-term viability of Disney's content creation versus distribution strategy.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-13T18:15:57.305193",
-          "token_usage": {
-            "prompt_tokens": 292,
-            "completion_tokens": 257,
-            "total_tokens": 549
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_2_1763057591",
-          "title": "Starbucks union workers go on strike on busy Red Cup Day - BBC",
-          "description": "Starbucks union workers go on strike on busy Red Cup Day\u00a0\u00a0BBCStarbucks workers kick off 65-store US strike on company\u2019s busy Red Cup Day\u00a0\u00a0AP NewsStarbucks Workers Are Striking at Dozens of Stores on \u2018Red Cup Day\u2019\u00a0\u00a0The New York TimesStarbucks workers union launches strike in more than 40 cities on chain's key holiday sales day\u00a0\u00a0CNBCWith 92% \u2018Yes\u2019 Vote, Union Starbucks Baristas Overwhelmingly Authorize ULP Strike\u00a0\u00a0Starbucks Workers United",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBtc2ZjbFdFTGV0aUxXdWxxekZza3d2cU41ZWpWYjhKQTRSSElPcTlVSFJwNVJ6Y2pKOXExNHY5N0F3eDh6bXc0bGoxUjluT2lYTG4yeFR3cFRJd9IBX0FVX3lxTE4zUEZ6ZWFyWE16X0ZqWDZHRm9CdnozbXNwNWppUVJmbzlyUnBmelBLVTNHeU9BYkQ5dEFva1NUdUdkNzBxUUxqdTR6QVdBbGFHY1A1MGd0YTFoWEpVQkpv?oc=5",
-          "source": "BBC",
-          "published": "Thu, 13 Nov 2025 17:06:13 GMT",
-          "topic": "BUSINESS",
-          "fetched_at": "2025-11-13T18:13:11.287255"
-        },
-        "analysis": {
-          "summary": "Starbucks baristas in the US went on strike on Red Cup Day, a significant date for the company, with union representation voting overwhelmingly in favor of striking. This action reflects growing labor dissatisfaction within the company, which may impact Starbucks' operations and employee relations.",
-          "key_points": [
-            "Starbucks' union members overwhelmingly voted to strike on Red Cup Day.",
-            "The strike is happening on a key sales day for the company, potentially affecting its revenue.",
-            "The move indicates increasing labor unrest within the Starbucks workforce."
-          ],
-          "sentiment": "negative",
-          "confidence": "high",
-          "bias_check": "The perspective of Starbucks as the employer is focused on, with less emphasis on the baristas' perspective. There may also be a bias towards highlighting the negative aspects of the strike rather than exploring potential long-term positive outcomes for labor relations.",
-          "missing_context": "The reasons behind the baristas' dissatisfaction, the company's response, and the potential impact on customers and other stakeholders are not detailed. Further context about the workers' demands and the negotiations leading up to the strike would be beneficial.",
-          "implications": "The strike could harm Starbucks' reputation and sales, especially if it continues during a high-traffic holiday. It may also set a precedent for other employees in the service industry to consider similar actions, potentially leading to broader labor reforms or changes in corporate labor policies.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-13T18:16:05.356315",
-          "token_usage": {
-            "prompt_tokens": 296,
-            "completion_tokens": 298,
-            "total_tokens": 594
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_3_1763057591",
-          "title": "US Labor Department urged to prioritize November employment, CPI data post-shutdown - Reuters",
-          "description": "US Labor Department urged to prioritize November employment, CPI data post-shutdown\u00a0\u00a0ReutersUS October employment report will not include jobless rate, Hassett says\u00a0\u00a0ReutersHere\u2019s When And What To Expect From Delayed Economic Reports\u00a0\u00a0ForbesWhite House: Public will \u2018likely never\u2019 see recent economic data, despite shutdown\u2019s end\u00a0\u00a0MSNBC NewsWhite House: Key economic reports impacted by shutdown may not be released\u00a0\u00a0NBC News",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQNjJXUUdGcm1YSGFoS1BoSHM2Tks3TnpoQkZfMkgxelhWeEI4N1kyNkJ5MkFwNm5ISER1VllfQlF2b1UwT1hTejQ3UHp1dHRnNWhUbEZxUDNQUWQ3Zy1vX3E0WFlZOXV2Y2lfRkpXdDlzcFBpOTNqaHFrQUM2eTgzdEpQLTVmUzd2MDVZTVVrcmtlQzVzYnAwX3ZrNjVSNGhUc2Z6X0tiMlZROWp5QkVHX24yM1lhak5udEZlTG9zWlN5dw?oc=5",
-          "source": "Reuters",
-          "published": "Wed, 12 Nov 2025 21:09:21 GMT",
-          "topic": "BUSINESS",
-          "fetched_at": "2025-11-13T18:13:11.287274"
-        },
-        "analysis": {
-          "summary": "{\n  \"summary\": \"The US Labor Department is being urged to prioritize the release of November employment and CPI data after the government shutdown, highlighting the delay in key economic reports. Concerns have been raised about the potential exclusion of the jobless rate in the upcoming October empl",
-          "key_points": [
-            "{\n  \"summary\": \"The US Labor Department is being urged to prioritize the release of November employment and CPI data after the government shutdown, highlighting the delay in key economic reports. Concerns have been raised about the potential exclusion of the jobless rate in the upcoming October employment report and the public's limited access to recent economic data due to the shutdown's impact on key releases. The White House acknowledges that some key economic reports may not be released at all, leaving the public with outdated information.\"\n\n  \"key_points\": [\n    \"The Labor Department is urged to prioritize releasing November employment and CPI data post-shutdown.\",\n    \"There are worries about the exclusion of the jobless rate from the upcoming October employment report.\",\n    \"The White House acknowledges that some key economic reports impacted by the shutdown may not be released.\"\n  ]\n\n  \"sentiment\": \"Mixed\",\n\n  \"confidence\": \"High\",\n\n  \"bias_check\": \"The article may be biased towards reporting the negative impacts of the shutdown on the availability of economic data. It does not provide an in-depth analysis of the reasons behind the delays or the potential benefits of the shutdown.\"\n\n  \"missing_context\": \"The article could provide more context on the causes and implications of the shutdown, as well as the potential benefits or drawbacks for the economy. It could also include perspectives from economists or other experts on the expected impact of the delayed reports.\"\n\n  \"implications\": \"The delayed release of key economic reports could impact the public's understanding of the current state of the economy and the effectiveness of government policies. It could also affect investor sentiment and market trends.\"\n}"
+            "{\n  \"summary\": \"Valve's recent hardware announcements have reignited excitement and speculation among fans about the potential release of Half-Life 3, with various outlets discussing the timing and implications of a possible announcement coinciding with the Steam Machine launch.\"\n\n  \"key_points\": [\n    \"Valve's hardware announcements have sparked renewed interest in the release of Half-Life 3.\",\n    \"There are rumors and leaks suggesting that Half-Life 3 could be announced around the same time as Valve's Steam Machine launch.\",\n    \"The speculation about Half-Life 3's release has generated a mix of excitement and skepticism among the gaming community.\"\n  ],\n  \"sentiment\": \"Mixed\",\n  \"confidence\": \"High\",\n  \"bias_check\": \"The article may lean towards sensationalism, highlighting rumors and leaks which might not be confirmed. It may also appeal to the emotional investment of fans rather than presenting an objective analysis.\",\n  \"missing_context\": \"The actual plans and intentions of Valve regarding Half-Life 3's development status and release are not confirmed, and any speculation should be treated with caution.\",\n  \"implications\": \"This story highlights the impact of Valve's announcements on the gaming community and how it can reignite discussions and hopes for anticipated sequels. It also reflects the speculative nature of gaming news and the high expectations fans have for future releases.\"\n}"
           ],
           "sentiment": "neutral",
           "confidence": "medium",
@@ -459,44 +128,372 @@
           "implications": "",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-13T18:16:13.673813",
+          "analyzed_at": "2025-11-14T00:30:39.783548",
           "token_usage": {
-            "prompt_tokens": 280,
-            "completion_tokens": 330,
-            "total_tokens": 610
+            "prompt_tokens": 291,
+            "completion_tokens": 277,
+            "total_tokens": 568
           }
         }
       },
       {
         "article": {
-          "id": "news_4_1763057591",
-          "title": "Brandon Beach heralds end of the penny as the \u2018return of common sense\u2019 - AJC.com",
-          "description": "Brandon Beach heralds end of the penny as the \u2018return of common sense\u2019\u00a0\u00a0AJC.comThe last-ever penny was minted today in Philadelphia\u00a0\u00a0CNNSo long, penny. The Treasury has officially stopped producing one-cent coins.\u00a0\u00a0The Washington PostA penny short: US mints final 1-cent coins after over 230 years in circulation\u00a0\u00a0abcnews.go.comWhat The End Of The Penny Means For Consumers\u00a0\u00a0Forbes",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQUXVEdGt1V0d4bnVzMFlCRkhxQWFBZmhHeW5ZelBwcXNyb1JwRXpabmM3amlZMWxjY09KdWNsZ1JUelpQLWNpUlVRN2JYTnBUNkFaMWJxeW1sRDkzOC1tSXBDZzA5c01fUjFMVnBJYmpRdlNRWncxVnlEckpPSVp6UnNhYmJhb19UZ0hqTERMS0JkejBrWjdTVTljNGV2cE1xeTRRX0F6YW9DUQ?oc=5",
-          "source": "AJC.com",
-          "published": "Thu, 13 Nov 2025 11:49:38 GMT",
-          "topic": "BUSINESS",
-          "fetched_at": "2025-11-13T18:13:11.287293"
+          "id": "news_4_1763080194",
+          "title": "The OnePlus 15 is the phone to buy if you hate charging your phone - The Verge",
+          "description": "The OnePlus 15 is the phone to buy if you hate charging your phone\u00a0\u00a0The VergeI Tested the OnePlus 15 and Its Massive 7,300-mAh Battery Deserves a Medal\u00a0\u00a0CNETOnePlus\u2019s New Two-Day Battery Life Phone Delayed by US Government Shutdown\u00a0\u00a0Bloomberg.comOnePlus 15 smartphone launch: Big battery, big screen, and big AI ambitions\u00a0\u00a0SFGATEI'm Blown Away by the Battery Life on the OnePlus 15\u00a0\u00a0PCMag",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPbG1PRzFxZmloV29VYmNSTFhueUkyelNWbHMteXF0RkpyU0s2ZU9QTngwaFUxOGJiRkdxZzlRemJtSlgzT0hpQUYtdUQ5dEZhRHF4bUhjZXdLUUJiMDRFWFcySlpZWGt5U2R6NU9oY2tCZkZDcVJSbWU3V2taMFRSdS1B?oc=5",
+          "source": "The Verge",
+          "published": "Thu, 13 Nov 2025 14:30:00 GMT",
+          "topic": "TECHNOLOGY",
+          "fetched_at": "2025-11-14T00:29:54.752044"
         },
         "analysis": {
-          "summary": "The US Treasury has ceased producing penny coins, marking an end to their circulation after over 230 years. Brandon Beach, in his view, sees this as a 'return of common sense.'",
+          "summary": "The article highlights the OnePlus 15's impressive battery life, specifically its 7,300-mAh battery, which OnePlus claims will last up to two days on a single charge. This feature is particularly appealing to users who are frustrated with frequent charging and the constant search for a power outlet.",
           "key_points": [
-            "The penny has been discontinued, ending over two centuries of its existence in circulation.",
-            "The move is seen by some, like Brandon Beach, as a return to common sense, possibly for practical reasons such as manufacturing and transaction costs.",
-            "The penny's cessation may have implications for consumers, such as changes in how small transactions are handled."
+            "OnePlus 15 features a 7,300-mAh battery, promising up to two days of battery life.",
+            "The phone's battery life is a major selling point for those who dislike frequent charging.",
+            "The article includes various sources mentioning the OnePlus 15, indicating widespread coverage and interest."
+          ],
+          "sentiment": "Positive",
+          "confidence": "High",
+          "bias_check": "The article may be biased towards highlighting the battery life, potentially overshadowing other aspects or criticisms of the phone. The sources cited are primarily from tech-focused media, which could present a more favorable view compared to general consumer reviews.",
+          "missing_context": "The article does not discuss the phone's performance, camera quality, price, or any potential drawbacks that might accompany such a large battery. It also lacks user reviews or comparisons with competitors' battery life.",
+          "implications": "If the OnePlus 15 lives up to its battery claims, it could significantly address one of the major pain points for smartphone users. This could influence consumer preferences and market trends, especially for users who prioritize battery life in their smartphone choices. However, if the battery performance does not match the claims, it could lead to disappointment and impact the brand's reputation.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-14T00:30:48.309755",
+          "token_usage": {
+            "prompt_tokens": 299,
+            "completion_tokens": 334,
+            "total_tokens": 633
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_0_1763080194",
+          "title": "How France Remembers the November 2015 Terrorist Attacks in Paris - The New York Times",
+          "description": "How France Remembers the November 2015 Terrorist Attacks in Paris\u00a0\u00a0The New York TimesA decade after the Bataclan attacks, France is still grappling with how to remember\u00a0\u00a0NPR\u2018The pain remains\u2019: France remembers victims of 2015 Paris attacks\u00a0\u00a0The Guardian10 years after Bataclan massacre, Paris is still scarred by Islamic State attacks\u00a0\u00a0abcnews.go.com\u2018I needed to leave a trace\u2019: Survivors of the Paris attacks share their stories, ten years on\u00a0\u00a0France 24",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRTh2dFYxUmc4N0tPbDRXVlc4enFKd2NpMmI1d3VYdDNMTkJYUVBycHRlWXByNk8xcmotb29VN0V6OTJfUGswcy1oMC1UeWZfQTRqSjh3UkwxQVdVRDN1MWtlRTJlRlk3VlhCYXNORGpEajhPMFhvQ2pZT0xGbUkzZWprSGN5RUlLemVlNG1WSHhqZUl2RjY4c1BINA?oc=5",
+          "source": "The New York Times",
+          "published": "Thu, 13 Nov 2025 21:59:28 GMT",
+          "topic": "WORLD",
+          "fetched_at": "2025-11-14T00:29:54.798867"
+        },
+        "analysis": {
+          "summary": "A decade after the November 2015 terrorist attacks in Paris, France continues to struggle with honoring the memory of the victims and dealing with the lasting scars left by the Islamic State's onslaught. The article reflects on the ongoing need for remembrance, coping mechanisms for survivors, and the nation's collective trauma.",
+          "key_points": [
+            "France is still deeply affected by the 2015 Paris attacks, a decade later.",
+            "Survivors and victims' families are finding ways to remember and honor those who were lost.",
+            "The article highlights the importance of remembrance and the therapeutic aspects of shared stories and memorials."
           ],
           "sentiment": "Mixed",
           "confidence": "High",
-          "bias_check": "The article may reflect a bias towards those who view the penny as economically obsolete, potentially overlooking the sentimental and cultural value that the penny holds for some individuals.",
-          "missing_context": "The article lacks details on the government's rationale for discontinuing the penny, any economic studies supporting the move, or the reactions of those who may have a strong attachment to the penny. It also does not mention if any replacement coins or denominations are being introduced.",
-          "implications": "The discontinuation of the penny could lead to changes in how everyday transactions are conducted, especially in small purchases. It may also affect collectors and individuals who have a sentimental attachment to the penny. Economically, it could be seen as a move towards a more efficient currency system, but it may also spark discussions about the value and practicality of the smallest denomination coin.",
+          "bias_check": "The perspective might lean towards emphasizing the continuing pain and trauma, potentially overlooking any progress in healing or resilience.",
+          "missing_context": "The article doesn't provide information on the specific measures taken by the French government or society to address the aftermath of the attacks, nor does it mention any international reactions or support.",
+          "implications": "The continuing struggle to remember and heal from such tragedies underscores the need for sustained support systems for survivors and communities. It also highlights the importance of memorials and remembrance in the healing process and the ongoing fight against terrorism.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-13T18:16:21.930135",
+          "analyzed_at": "2025-11-14T00:30:55.254283",
           "token_usage": {
-            "prompt_tokens": 288,
+            "prompt_tokens": 306,
+            "completion_tokens": 271,
+            "total_tokens": 577
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_1_1763080194",
+          "title": "Germany agrees new military service plan to boost troop numbers - BBC",
+          "description": "Germany agrees new military service plan to boost troop numbers\u00a0\u00a0BBCGermany\u2019s Answer to Its Conscription Dilemma: a Database of Young Men Fit for War\u00a0\u00a0The Wall Street JournalGermany decides against conscription to replenish post-cold war military\u00a0\u00a0The GuardianGermany finalises plans for military service and larger army\u00a0\u00a0Financial TimesGermany inches closer to bringing back mandatory military service\u00a0\u00a0Euronews.com",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBHMEpBX3BvOExocGZQVkhCSXNKbWFrV1NOeDVKWXRjcnZHVzVqNFllXzBrWHRULUN3N3ptWmtTdmFfZmpwWW1tcjFpQ09ydGJDN3I2TnpDblY3d9IBX0FVX3lxTE9qWUZscGk0UmMtb1lEOG5SQ2hGRFhIQzZUT2NSVDYwOW5KNlB0cHVVcGduRlZia3A3VU1fWXdTUkJDVjFMajZWd282LVZpTmExM3BxbVBVSlllQXRRTkVr?oc=5",
+          "source": "BBC",
+          "published": "Thu, 13 Nov 2025 21:59:46 GMT",
+          "topic": "WORLD",
+          "fetched_at": "2025-11-14T00:29:54.798897"
+        },
+        "analysis": {
+          "summary": "Germany has agreed to a new military service plan aimed at increasing troop numbers, addressing its conscription dilemma by creating a database of young men fit for war instead of reinstating traditional conscription, marking a significant shift in their military recruitment strategy while possibly reflecting on the post-Cold War military adjustments.",
+          "key_points": [
+            "Germany is opting for a new military service plan rather than reinstating conscription.",
+            "The country is creating a database of young men fit for military service.",
+            "This decision indicates a significant change in Germany's approach to military recruitment."
+          ],
+          "sentiment": "Mixed",
+          "confidence": "High",
+          "bias_check": "The story may be biased if the sources used predominantly reflect government propaganda or a specific political viewpoint advocating for or against conscription.",
+          "missing_context": "The article does not provide details on how the new plan compares to conscription in terms of effectiveness, public acceptance, or the overall impact on the military's capabilities. It also lacks information on the political, social, and economic factors influencing this decision.",
+          "implications": "This shift could alter public perception of national duty and military service. It may also impact the country's military efficiency, recruitment practices, and international relations. The move away from conscription could reflect broader trends in military strategy and national defense priorities.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-14T00:31:03.034102",
+          "token_usage": {
+            "prompt_tokens": 270,
+            "completion_tokens": 284,
+            "total_tokens": 554
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_2_1763080194",
+          "title": "Colombia\u2019s \u2018lost children\u2019 remain open wound 40 years after deadly volcanic eruption - Reuters",
+          "description": "Colombia\u2019s \u2018lost children\u2019 remain open wound 40 years after deadly volcanic eruption\u00a0\u00a0ReutersView Full Coverage on Google News",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOTTQxQ0ZYRzlIR0xkeWVhR3FfWEZzSFNLYVJmeVFTTzl6V24yR2lrR2Uxa2pLLXp6MlNTamRZODE1WkxmTUdZaVY1YmoweXM4SWpWRW0zdlFUM2N1ZnlVUVBfMm5SWVJKdnc4QmV4UGlfclBuZUZZdGFaNnpYTW1Ra0pfLVp4bWo1RlJjQnI2S2pVenM4UnZvcjJKWW9zcnV4bkMzMmU4RjI4XzZYM2Z5aWZXS1pkT3FRQUtfZjJXY0I?oc=5",
+          "source": "Reuters",
+          "published": "Thu, 13 Nov 2025 13:44:02 GMT",
+          "topic": "WORLD",
+          "fetched_at": "2025-11-14T00:29:54.798910"
+        },
+        "analysis": {
+          "summary": "{\n  \"summary\": \"A tragic incident from 40 years ago, where a volcanic eruption in Colombia claimed the lives of many, continues to affect the nation and its people, leaving the country's 'lost children' without closure and as a painful reminder of the event's impact on the community.\"\n\n  \"key_points",
+          "key_points": [
+            "{\n  \"summary\": \"A tragic incident from 40 years ago, where a volcanic eruption in Colombia claimed the lives of many, continues to affect the nation and its people, leaving the country's 'lost children' without closure and as a painful reminder of the event's impact on the community.\"\n\n  \"key_points\": [\n    \"The story highlights the long-lasting effects of a volcanic eruption that occurred 40 years ago in Colombia, which resulted in numerous casualties and the displacement of many families.\",\n    \"The term 'lost children' indicates the continuing search for missing individuals and the enduring psychological and emotional scars left by the tragedy.\",\n    \"The article may underscore the difficulties in dealing with the aftermath of natural disasters and the prolonged grief experienced by survivors and families.\"\n  ]\n\n  \"sentiment\": \"negative\",\n\n  \"confidence\": \"high\",\n\n  \"bias_check\": \"The article could be seen as focusing primarily on the human suffering and tragedy, potentially overlooking any positive outcomes or rebuilding efforts that took place in the aftermath of the eruption. Potential biases could include a focus on the negative aspects rather than resilience and recovery.\",\n\n  \"missing_context\": \"Important context might include the response and aid provided by the government and NGOs, the current status of the 'lost children' (whether they were found or not), and the overall recovery and reconstruction efforts in the affected areas. The story might also benefit from perspectives on how the community has rebuilt and adapted since the disaster.\",\n\n  \"implications\": \"This story has broader implications for disaster preparedness, the importance of immediate and sustained aid, and the emotional and psychological support needed for communities affected by natural disasters. It also highlights the long-term impact such tragedies can have on a nation's people and their collective memory.\"\n}"
+          ],
+          "sentiment": "neutral",
+          "confidence": "medium",
+          "bias_check": "Unable to parse structured response",
+          "missing_context": "",
+          "implications": "",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-14T00:31:12.306883",
+          "token_usage": {
+            "prompt_tokens": 217,
+            "completion_tokens": 358,
+            "total_tokens": 575
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_3_1763080194",
+          "title": "Israel says militants have returned remains of 1 of the last 4 hostages in Gaza - AP News",
+          "description": "Israel says militants have returned remains of 1 of the last 4 hostages in Gaza\u00a0\u00a0AP NewsIsrael identifies deceased hostage returned by Hamas as Manny Godard\u00a0\u00a0CNNIsrael says received body of one of final four Gaza hostages\u00a0\u00a0Le Monde.frSettlers Set West Bank Mosque On Fire, Palestinian Media Reports | LIVE BLOG\u00a0\u00a0i24NEWSBody of Meny Godard \u2013 Kidnapped From Kibbutz Be'eri on October 7 \u2013 Returned to Israel\u00a0\u00a0Haaretz",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPcFN3UW9jd1lDZm13Rm95bWt6NnFhWTJRWHA4MGNQUndyTUIwbm1iXzZFVTVOc1VDQkt4TG1BSG1uaENHUE10bER6aXN6NFh0TGtsZjZQMGJKdVo1MkZqS09yVlVyYjZKaVBlQy1OQlI0LXVLWnQtdC1ocmtMd1lSckhiRXE5OVcwVEdySTFTNS00Y0J4YWplMk10bDdzU0hrbVNxblBaM00tUQ?oc=5",
+          "source": "AP News",
+          "published": "Thu, 13 Nov 2025 22:17:00 GMT",
+          "topic": "WORLD",
+          "fetched_at": "2025-11-14T00:29:54.798930"
+        },
+        "analysis": {
+          "summary": "Israel has received the remains of one of the last four hostages in Gaza, identified as Meny Godard, who was kidnapped from the kibbutz Be\u2019eri on October 7. This development marks a somber turn in the ongoing conflict between Israel and Hamas.",
+          "key_points": [
+            "Meny Godard, one of the last four hostages, has been returned to Israel with his remains.",
+            "The return of the remains signifies a potential conclusion to the ordeal of the remaining hostages.",
+            "This incident underscores the brutal and protracted nature of the conflict in Gaza."
+          ],
+          "sentiment": "negative",
+          "confidence": "high",
+          "bias_check": "The article's focus on the return of remains might emphasize the tragedy and loss, potentially overlooking other aspects of the conflict or the broader humanitarian situation.",
+          "missing_context": "The article does not provide information on the condition in which the remains were found or returned, nor does it discuss the experiences and status of the remaining three hostages.",
+          "implications": "The return of Meny Godard's remains could signify a grim closure for his family and may influence diplomatic negotiations and public perception of the conflict. However, the enduring humanitarian crisis and the fate of the remaining hostages remain pressing concerns.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-14T00:31:19.813771",
+          "token_usage": {
+            "prompt_tokens": 299,
+            "completion_tokens": 278,
+            "total_tokens": 577
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_4_1763080194",
+          "title": "Starmer's chief of staff McSweeney not leaving role over briefing war, BBC told - BBC",
+          "description": "Starmer's chief of staff McSweeney not leaving role over briefing war, BBC told\u00a0\u00a0BBCLabour Party\u2019s Internal Fight Goes Public, as Starmer\u2019s Trouble Grows\u00a0\u00a0The New York TimesThe Guardian view on 10 Downing Street: not up to the job | Editorial\u00a0\u00a0The GuardianSir Keir Starmer is a prisoner of the politics he pledged to end\u00a0\u00a0The EconomistStreeting Tops Farage as Favorite for Next UK Premier, Odds Show\u00a0\u00a0Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5fRjVKODdNQW9OSVF4clV1R3ptZVBrUGdqZmd3TG1jMld6NWhDWlF4azRSRWNYLW45cGhCUTZLbGVmalBNQUl3S0dRdEY5WDUzVUFmYzRHQUYwQdIBX0FVX3lxTE1wbk1nMS1CNHFFUHVRX1R0WHJrY2ZybEV2UURocV8xLW1GQUlRZTRBemxkQXdyc0ZnM3pjVGZsVlFVdzJGNVduYnRwdE1xV3lQMjZrQm91R1VpMzY3ZGE4?oc=5",
+          "source": "BBC",
+          "published": "Thu, 13 Nov 2025 17:20:59 GMT",
+          "topic": "WORLD",
+          "fetched_at": "2025-11-14T00:29:54.798948"
+        },
+        "analysis": {
+          "summary": "Starmer's chief of staff McSweeney is staying in their position despite the controversy over war briefings, as reported by the BBC. The internal conflict within the Labour Party and Sir Keir Starmer's leadership challenges are highlighted, indicating a growing struggle within the party.",
+          "key_points": [
+            "McSweeney remains in their role amid war briefing controversy.",
+            "The Labour Party is experiencing internal strife, as noted by various media sources.",
+            "Sir Keir Starmer's leadership is under scrutiny, with concerns about his capacity to lead effectively."
+          ],
+          "sentiment": "Mixed",
+          "confidence": "High",
+          "bias_check": "The article might show a bias towards a critical view of the Labour Party's internal conflict and leadership, as indicated by the sources from The New York Times, The Guardian, The Economist, and Bloomberg.com.",
+          "missing_context": "The reasons behind McSweeney's continued role and the specifics of the war briefing controversy are not detailed. Further context on the Labour Party's recent actions and strategic decisions would also be helpful.",
+          "implications": "This story signifies a potential weakening of the Labour Party's cohesion and effectiveness, which could impact their performance in upcoming elections. Sir Keir Starmer's ability to manage the party and lead it through crises is also called into question, potentially affecting public trust and voter confidence.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-14T00:31:27.376666",
+          "token_usage": {
+            "prompt_tokens": 297,
+            "completion_tokens": 295,
+            "total_tokens": 592
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_0_1763080194",
+          "title": "Stock Market Today: Nasdaq Sinks 2% As Slide In Tech Stocks Accelerates (Live Coverage) - Investor's Business Daily",
+          "description": "Stock Market Today: Nasdaq Sinks 2% As Slide In Tech Stocks Accelerates (Live Coverage)\u00a0\u00a0Investor's Business DailyWall Street has its worst day in a month as traders dial back expectations for Fed rate cuts\u00a0\u00a0CNNStocks notch worst day in over a month as tech sell-off intensifies\u00a0\u00a0CNBCWall Street drops to one of its worst days since April on worries about AI stocks and interest rates\u00a0\u00a0AP NewsEquities tumble, bond prices dip as hopes fade for Fed rate cut in December\u00a0\u00a0Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQbTJmOUdpcHM5V3RhbTdoRjQ0bUNsbXhlMWRSbTVtRmdJZmtiMEZ1RmZSWlkycFZTYTF3NW5uN0tHWkhOMGlqTHQ4UkdNdUFyYll5cGprWEZWdFlRUHJDR1UySFJFVlRsMnloN3hrQ0NRbjJobFh4TFVIQTN4Z0xpWnJZSks3SGw4dGU4S2pRcG1MOXBaRFJDX2x6MmpBTXhrM21UUlZqZDE1eGZzY3VrQzNyckVTVVFQUkE?oc=5",
+          "source": "Investor's Business Daily",
+          "published": "Thu, 13 Nov 2025 22:00:00 GMT",
+          "topic": "BUSINESS",
+          "fetched_at": "2025-11-14T00:29:54.844357"
+        },
+        "analysis": {
+          "summary": "The Nasdaq index fell by 2% amid a steep decline in tech stocks, reflecting investor concerns over potential Fed rate cuts and the impact of AI stocks, marking one of Wall Street's worst days in over a month. This sell-off has led to a dip in bond prices and has raised questions about the future of the tech sector amid interest rate uncertainties.",
+          "key_points": [
+            "Nasdaq index dropped by 2%, indicating a significant tech sell-off.",
+            "Worries about Fed rate cuts and AI stocks are contributing to the downturn.",
+            "This day marked one of the worst days for Wall Street in over a month."
+          ],
+          "sentiment": "negative",
+          "confidence": "high",
+          "bias_check": "The article may focus on negative aspects, such as the steep decline and worries, potentially overshadowing any positive developments in the market. Investor's Business Daily might also present its perspective on interest rate cuts and AI stocks.",
+          "missing_context": "The broader economic indicators, such as inflation rates, unemployment figures, and GDP growth, might be missing, which could provide a more comprehensive understanding of the market's condition. Additionally, the specific reasons behind the tech sell-off and the impact on individual companies are not detailed.",
+          "implications": "The downturn in tech stocks and the Nasdaq index could lead to reduced investor confidence and potentially impact the broader tech sector. It might also influence the Federal Reserve's decisions on interest rates and have ripple effects across the global economy. The sentiment towards tech stocks and the future of AI could also be affected.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-14T00:31:35.926176",
+          "token_usage": {
+            "prompt_tokens": 311,
+            "completion_tokens": 332,
+            "total_tokens": 643
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_1_1763080194",
+          "title": "Boeing defense workers ratify new contract to end 3-month strike in the Midwest - AP News",
+          "description": "Boeing defense workers ratify new contract to end 3-month strike in the Midwest\u00a0\u00a0AP NewsBoeing defense workers approve new contract, ending more than 3-month strike\u00a0\u00a0CNBCMessage for IAM Union District 837 Members\u00a0\u00a0IAM UnionStriking Boeing workers approve labor deal, ending 101-day-long walkout\u00a0\u00a0ReutersSt. Louis Boeing machinists approve contract, ending 15-week strike\u00a0\u00a0STLPR",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOVjVhWHZqZG5KWnNoeUpKd196dVF3WVRXUTl1LUFQNFh3ZDYtOEItNy1qeEpFeEQxOGdNaTJ3T0gtNlNSRmxtcDF6bzFfSktBU2RlU1REZGRzcTBCeld1bVYxLXJPc0t5LTZtZ3ZTd0FOZDRYd3ZNa1FSVTg3ZVFFbG1pOUNienRhQzlhb3hDTQ?oc=5",
+          "source": "AP News",
+          "published": "Thu, 13 Nov 2025 19:54:00 GMT",
+          "topic": "BUSINESS",
+          "fetched_at": "2025-11-14T00:29:54.844379"
+        },
+        "analysis": {
+          "summary": "Boeing defense workers have ratified a new contract, concluding a 3-month strike in the Midwest, signaling a significant resolution to labor disagreements and a return to normal operations for Boeing.",
+          "key_points": [
+            "The strike, which lasted over 3 months, has ended with a new contract agreement.",
+            "This resolution indicates a successful negotiation process between Boeing and its defense workers.",
+            "The end of the strike is likely to have positive implications for Boeing's production and workforce morale."
+          ],
+          "sentiment": "positive",
+          "confidence": "high",
+          "bias_check": "Potential bias might stem from emphasizing the positive outcome of the strike, while not discussing any underlying issues that may still exist between Boeing and its workers or any dissatisfaction post-strike.",
+          "missing_context": "It would be important to include details about the specific terms of the new contract and whether the workers are satisfied with the deal. Information about the workers' conditions and any concessions made by Boeing could also provide a fuller picture.",
+          "implications": "The resolution of the strike demonstrates the effectiveness of collective bargaining for labor unions. It may also set a precedent for future negotiations with Boeing or similar companies. However, the end of the strike doesn't necessarily mean that all underlying issues have been resolved, and there's a possibility of future labor unrest.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-14T00:31:43.253114",
+          "token_usage": {
+            "prompt_tokens": 283,
+            "completion_tokens": 284,
+            "total_tokens": 567
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_2_1763080194",
+          "title": "Fed\u2019s Kashkari Didn\u2019t Support Last Cut, Undecided on December - Bloomberg.com",
+          "description": "Fed\u2019s Kashkari Didn\u2019t Support Last Cut, Undecided on December\u00a0\u00a0Bloomberg.comFed's December rate cut looks increasingly like a toss-up\u00a0\u00a0ReutersMarkets no longer view the December rate cut as a sure bet, with Fed officials casting doubts\u00a0\u00a0CNBCFed\u2019s Collins Sees \u2018High Bar\u2019 for Further Rate Cuts\u00a0\u00a0The Wall Street JournalMissing Data Throw Fed Cuts Into Doubt. What That Means for Stock Markets and 5 Other Things to Know Today.\u00a0\u00a0Barron's",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVHlKYUpydDlnLXAtRkpESnBCVFV0a2ZMczc3M282V2Z4V1lIUjBERHJBd0VyVEtjUHQ5amVZVEtPc3RhZUF0VWo0S01VVW14bzVxbkVEWF93c2NUNXo1eV9wS3o2T19IYjV1eU1DYmlqeTFDYkVoY0xhMHdXMEhpR3BkZXNmQjEtQUE4SnZKQ3hRVldwTThwMEVFQnF2bnpvakszTnBrUmpld2JoWWlfeg?oc=5",
+          "source": "Bloomberg.com",
+          "published": "Thu, 13 Nov 2025 21:31:09 GMT",
+          "topic": "BUSINESS",
+          "fetched_at": "2025-11-14T00:29:54.844402"
+        },
+        "analysis": {
+          "summary": "Fed officials, including Kansas City Fed President Richard Cordray, expressed doubts about the December rate cut, with Chairman Jerome Powell also showing uncertainty. This casts uncertainty on the anticipated rate cut, potentially impacting market expectations and investor sentiment.",
+          "key_points": [
+            "Fed's December rate cut was not a certainty, with officials expressing doubts.",
+            "Kansas City Fed President Richard Cordray and other officials showed uncertainty about the rate cut.",
+            "Chairman Jerome Powell's comments added to the uncertainty surrounding the Fed's monetary policy decisions."
+          ],
+          "sentiment": "Mixed",
+          "confidence": "High",
+          "bias_check": "The article may emphasize uncertainty and market reactions over the actual reasons behind the Fed officials' indecision. It may also focus on negative impacts on the markets without fully exploring potential benefits of cautious decision-making.",
+          "missing_context": "The article does not provide the specific reasons behind the officials' doubts or how this uncertainty might affect different sectors of the economy. It also does not mention any internal Fed discussions or debates that might have influenced the officials' views.",
+          "implications": "The uncertainty around the Fed's December rate cut may lead to increased volatility in the stock markets as investors adjust their expectations. It could also impact borrowing costs and economic growth, depending on whether the rate cut materializes or not. Additionally, this uncertainty may highlight the Fed's cautious approach to monetary policy amid ongoing economic challenges.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-14T00:31:51.287583",
+          "token_usage": {
+            "prompt_tokens": 296,
+            "completion_tokens": 303,
+            "total_tokens": 599
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_3_1763080194",
+          "title": "401(k) limit increases to $24,500 for 2026, IRA limit increases to $7,500 - IRS (.gov)",
+          "description": "401(k) limit increases to $24,500 for 2026, IRA limit increases to $7,500\u00a0\u00a0IRS (.gov)IRS announces 2026 401(k) contribution limits, raises savings cap\u00a0\u00a0CNBC401(k), IRA contribution limits get a bump up\u00a0\u00a0CNNHere\u2019s How Much IRA, 401(k) And Other Retirement Contributions Limits Increase In 2026\u00a0\u00a0ForbesIRS raises 401(k) limits by largest amount in two years. What to know\u00a0\u00a0Axios",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQTzdFMlB0aUpCd0VaUm9kbks5LVk0cjhLYndkLVpEaHlEU3ptRGxicDUza2VZZUE2VmN6QmNMbHA4R1R4RWNZeUZHVF8yVFhNME9PZEhMa3lYQmxhdnhyMXBmdHFiWDhObkgyY1p6UXBfa3FaTDQydVpvcS0xUElHd1U4bEl4ckI2Q0JoR3F0elItc3VIRDJPb3NHcw?oc=5",
+          "source": "IRS (.gov)",
+          "published": "Thu, 13 Nov 2025 15:01:10 GMT",
+          "topic": "BUSINESS",
+          "fetched_at": "2025-11-14T00:29:54.844423"
+        },
+        "analysis": {
+          "summary": "The IRS has announced an increase in 401(k) contribution limits to $24,500 and IRA limits to $7,500 for 2026, reflecting adjustments for inflation and encouraging retirement savings among Americans with potential tax benefits.",
+          "key_points": [
+            "401(k) and IRA contribution limits increase by $1,500 each in 2026.",
+            "The largest 401(k) increase in two years, aiming to boost retirement savings.",
+            "Adjustments for inflation, which may impact savers' strategies and tax planning."
+          ],
+          "sentiment": "Positive",
+          "confidence": "High",
+          "bias_check": "The source is the IRS, which may present the changes in a positive light as it is an official government announcement. Additionally, the focus may be on the benefits without equally discussing any potential drawbacks or limitations.",
+          "missing_context": "The article does not discuss the potential impact on savers who are already maximizing their contributions or the implications for individuals who may not be able to contribute the full amount due to income limitations. It also doesn't consider the possibility of other policy changes or economic factors that could affect retirement savings.",
+          "implications": "The increase in limits may encourage more Americans to save for retirement, potentially improving financial security for retirees. However, it may also lead to increased tax revenue for the government and could affect the behavior of savers, as the higher limits might also lead to larger tax deductions and a shift in how individuals plan for retirement.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-14T00:31:59.443449",
+          "token_usage": {
+            "prompt_tokens": 310,
             "completion_tokens": 317,
-            "total_tokens": 605
+            "total_tokens": 627
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_4_1763080194",
+          "title": "Starbucks Workers Are Striking at Dozens of Stores on \u2018Red Cup Day\u2019 - The New York Times",
+          "description": "Starbucks Workers Are Striking at Dozens of Stores on \u2018Red Cup Day\u2019\u00a0\u00a0The New York TimesStarbucks workers kick off 65-store U.S. strike on company's busy Red Cup Day\u00a0\u00a0NBC NewsWhy are some Starbucks workers striking? What to know about 'Red Cup Rebellion'\u00a0\u00a0USA TodayAn Update on Bargaining and Our Commitment to Partners\u00a0\u00a0Starbucks CoffeeNationwide Starbucks strike includes workers at five Philadelphia locations\u00a0\u00a0Inquirer.com",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPMzhvLUZIR1lSX29mOG5DUW5panRfZGVaVlg3elk2bjJjVjVKSkZzUEI4OVQ4cWNJS0ViRGg4NFBHWW9BU0VhbllBZHFMNXVfWmxaUmFDdXZKVmZvbUtxRWVQcmxja21OcnlxWXhJR0tGM0lOUnlBcjJJMXo5WDJ1NzctMA?oc=5",
+          "source": "The New York Times",
+          "published": "Thu, 13 Nov 2025 20:05:06 GMT",
+          "topic": "BUSINESS",
+          "fetched_at": "2025-11-14T00:29:54.844442"
+        },
+        "analysis": {
+          "summary": "Starbucks workers are striking at 65 stores across the U.S. on 'Red Cup Day', a day when their demand for better wages and benefits is likely to be most prominent. The strike highlights ongoing tensions between the company and its employees despite Starbucks' public commitments to partnership and fair treatment.",
+          "key_points": [
+            "Starbucks workers are striking at 65 stores on 'Red Cup Day'.",
+            "The strike is part of ongoing labor disputes, despite Starbucks' commitments to its employees.",
+            "The day chosen for the strike, 'Red Cup Day,' symbolizes the workers' demands for a better deal."
+          ],
+          "sentiment": "Mixed",
+          "confidence": "High",
+          "bias_check": "The article might lean towards Starbucks' perspective, as it focuses on the company's stated commitments and the supposed reasons behind the workers' dissatisfaction. It may under-represent the complexity of labor negotiations and the full scope of the company's stance.",
+          "missing_context": "The article does not provide details on the specific demands of the workers, the history of the labor dispute, or Starbucks' past responsiveness to similar issues. It also lacks a broader comparison with labor movements in other industries or other unionized sectors.",
+          "implications": "The strike indicates a growing trend of labor unrest in the service industry, which could lead to increased scrutiny of labor practices and possibly inspire other companies to proactively address employee concerns. It also raises questions about the effectiveness of public commitments to employee welfare in the face of labor disputes.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-14T00:32:07.768073",
+          "token_usage": {
+            "prompt_tokens": 293,
+            "completion_tokens": 321,
+            "total_tokens": 614
           }
         }
       }
@@ -508,19 +505,19 @@
     "articles_analyzed": 15
   },
   "costs": {
-    "execution_time": 175.7761607170105,
-    "execution_minutes": 2.9296026786168414,
-    "github_actions": 0.02343682142893473,
+    "execution_time": 118.4549207687378,
+    "execution_minutes": 1.9742486794789633,
+    "github_actions": 0.015793989435831705,
     "openai": {
-      "input": 0.0006288,
-      "output": 0.002625,
-      "total": 0.0032538000000000003
+      "input": 0.0006464999999999999,
+      "output": 0.0027066,
+      "total": 0.0033531
     },
-    "total": 0.026690621428934733,
+    "total": 0.019147089435831707,
     "token_usage": {
-      "prompt_tokens": 4192,
-      "completion_tokens": 4375,
-      "total_tokens": 8567
+      "prompt_tokens": 4310,
+      "completion_tokens": 4511,
+      "total_tokens": 8821
     }
   }
 }
