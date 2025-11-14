@@ -1,0 +1,258 @@
+name: 🚀 Live Full Stack Demo
+
+on:
+  workflow_dispatch:
+    inputs:
+      duration:
+        description: 'Keep stack running (minutes)'
+        required: false
+        default: '20'
+        type: string
+
+jobs:
+  live-stack:
+    name: 🎬 Go + Next.js + PostgreSQL Stack
+    runs-on: ubuntu-22.04
+    timeout-minutes: 35
+
+    permissions:
+      contents: read
+
+    services:
+      postgres:
+        image: postgres:16-alpine
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: neevs
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+        ports:
+          - 5432:5432
+
+    steps:
+      - name: 📥 Checkout code
+        uses: actions/checkout@v4
+
+      - name: 🐹 Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.21'
+          cache-dependency-path: backend/go.sum
+
+      - name: 📦 Install Go dependencies
+        working-directory: ./backend
+        run: |
+          go mod download
+          go mod verify
+          echo "✅ Go dependencies installed"
+
+      - name: 🏗️ Build Go backend
+        working-directory: ./backend
+        run: |
+          go build -v -o backend .
+          chmod +x backend
+          echo "✅ Backend built successfully"
+
+      - name: 🔍 Verify PostgreSQL
+        run: |
+          echo "=== PostgreSQL Status ==="
+          pg_isready -h localhost -p 5432 -U postgres
+          PGPASSWORD=postgres psql -h localhost -p 5432 -U postgres -d neevs -c '\l'
+          echo "✅ PostgreSQL is ready"
+
+      - name: 🚀 Start Go backend
+        working-directory: ./backend
+        env:
+          PORT: 3001
+          DB_HOST: localhost
+          DB_PORT: 5432
+          DB_USER: postgres
+          DB_PASSWORD: postgres
+          DB_NAME: neevs
+          CORS_ORIGINS: http://localhost:3000,https://*.neevs.io
+        run: |
+          echo "Starting Go backend..."
+          ./backend > /tmp/backend.log 2>&1 &
+          BACKEND_PID=$!
+          echo "Backend PID: $BACKEND_PID"
+          echo "BACKEND_PID=$BACKEND_PID" >> $GITHUB_ENV
+
+          # Wait for backend to be ready
+          for i in {1..30}; do
+            if curl -f http://localhost:3001/api/health > /dev/null 2>&1; then
+              echo "✅ Backend is ready!"
+              break
+            fi
+            echo "Waiting for backend... ($i/30)"
+            sleep 2
+          done
+
+          # Show health status
+          curl http://localhost:3001/api/health | jq .
+
+      - name: 🟢 Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: frontend/package-lock.json
+
+      - name: 📦 Install frontend dependencies
+        working-directory: ./frontend
+        run: |
+          npm ci
+          echo "✅ Frontend dependencies installed"
+
+      - name: 🏗️ Build Next.js frontend
+        working-directory: ./frontend
+        env:
+          NEXT_PUBLIC_API_URL: http://localhost:3001
+        run: |
+          npm run build
+          echo "✅ Frontend built successfully"
+
+      - name: 🎨 Start Next.js frontend
+        working-directory: ./frontend
+        env:
+          NEXT_PUBLIC_API_URL: http://localhost:3001
+          PORT: 3000
+        run: |
+          echo "Starting Next.js frontend..."
+          npm start > /tmp/frontend.log 2>&1 &
+          FRONTEND_PID=$!
+          echo "Frontend PID: $FRONTEND_PID"
+          echo "FRONTEND_PID=$FRONTEND_PID" >> $GITHUB_ENV
+
+          # Wait for frontend to be ready
+          for i in {1..30}; do
+            if curl -f http://localhost:3000 > /dev/null 2>&1; then
+              echo "✅ Frontend is ready!"
+              break
+            fi
+            echo "Waiting for frontend... ($i/30)"
+            sleep 2
+          done
+
+      - name: 🧪 Test the stack
+        run: |
+          echo "=== Testing Full Stack ==="
+
+          # Test backend health
+          echo "1. Testing backend health..."
+          curl -f http://localhost:3001/api/health | jq .
+
+          # Create a test item
+          echo "2. Creating test item..."
+          curl -X POST http://localhost:3001/api/items \
+            -H "Content-Type: application/json" \
+            -d '{"title":"Test Item from GitHub Actions","description":"This item was created during the live demo"}' | jq .
+
+          # Get all items
+          echo "3. Fetching all items..."
+          curl -f http://localhost:3001/api/items | jq .
+
+          # Test frontend
+          echo "4. Testing frontend..."
+          curl -f http://localhost:3000 > /dev/null && echo "Frontend is responding!"
+
+          echo "✅ Stack is fully operational!"
+
+      - name: 🚇 Install Cloudflare Tunnel
+        run: |
+          wget -q https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64
+          chmod +x cloudflared-linux-amd64
+          sudo mv cloudflared-linux-amd64 /usr/local/bin/cloudflared
+          cloudflared version
+
+      - name: 🌍 Start Cloudflare Tunnel
+        if: env.CLOUDFLARE_TUNNEL_TOKEN != ''
+        env:
+          CLOUDFLARE_TUNNEL_TOKEN: ${{ secrets.CLOUDFLARE_TUNNEL_TOKEN }}
+        run: |
+          if [ -z "$CLOUDFLARE_TUNNEL_TOKEN" ]; then
+            echo "⚠️  CLOUDFLARE_TUNNEL_TOKEN not set - skipping public tunnel"
+            echo "Stack is running locally only"
+            echo ""
+            echo "To enable public access, add CLOUDFLARE_TUNNEL_TOKEN to your repository secrets"
+            echo ""
+            echo "📱 Local URLs (GitHub Actions runner):"
+            echo "   Frontend: http://localhost:3000"
+            echo "   Backend:  http://localhost:3001"
+
+            # Keep services running for the specified duration
+            echo ""
+            echo "⏰ Keeping stack running for ${{ inputs.duration }} minutes..."
+            sleep $(( ${{ inputs.duration }} * 60 ))
+          else
+            echo "================================================"
+            echo "🌐 Starting Cloudflare Tunnel..."
+            echo "================================================"
+
+            # Create tunnel config for both frontend and backend
+            cat > /tmp/tunnel-config.yml <<EOF
+tunnel: gitops-demo
+credentials-file: /home/runner/.cloudflared/tunnel-token.json
+
+ingress:
+  - hostname: stack.neevs.io
+    service: http://localhost:3000
+  - hostname: api.neevs.io
+    service: http://localhost:3001
+  - service: http_status:404
+EOF
+
+            # Create tunnel credentials
+            mkdir -p ~/.cloudflared
+            echo "$CLOUDFLARE_TUNNEL_TOKEN" > ~/.cloudflared/tunnel-token.json
+
+            # Start tunnel
+            cloudflared tunnel --config /tmp/tunnel-config.yml run > /tmp/cloudflare.log 2>&1 &
+            sleep 10
+
+            echo ""
+            echo "================================================"
+            echo "🎭 LIVE FULL STACK DEMO URLS:"
+            echo "================================================"
+            echo "Frontend: https://stack.neevs.io"
+            echo "Backend:  https://api.neevs.io"
+            echo "================================================"
+            echo ""
+            echo "⏰ Stack will remain live for ${{ inputs.duration }} minutes"
+            echo "   Try creating, viewing, and deleting items!"
+            echo ""
+
+            # Keep tunnel alive
+            sleep $(( ${{ inputs.duration }} * 60 ))
+          fi
+
+      - name: 📊 Show final status
+        if: always()
+        run: |
+          echo "=== Final Stack Status ==="
+
+          echo "Backend status:"
+          curl -f http://localhost:3001/api/health 2>/dev/null | jq . || echo "Backend not responding"
+
+          echo ""
+          echo "Items in database:"
+          curl -f http://localhost:3001/api/items 2>/dev/null | jq . || echo "Cannot fetch items"
+
+          echo ""
+          echo "=== Backend Logs (last 50 lines) ==="
+          tail -50 /tmp/backend.log || echo "No backend logs"
+
+          echo ""
+          echo "=== Frontend Logs (last 50 lines) ==="
+          tail -50 /tmp/frontend.log || echo "No frontend logs"
+
+      - name: ✅ Cleanup
+        if: always()
+        run: |
+          kill $BACKEND_PID 2>/dev/null || true
+          kill $FRONTEND_PID 2>/dev/null || true
+          pkill cloudflared 2>/dev/null || true
+          echo "✅ Cleanup complete"
