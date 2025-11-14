@@ -37,7 +37,7 @@
 
 ## Overview
 
-AgentFlow is a multi-agent pipeline that flows through specialized agents that fetch, analyze, and synthesize information automatically.
+Multi-agent pipeline that flows through specialized agents that fetch, analyze, and synthesize information automatically.
 
 ## Tech Stack
 
