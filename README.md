@@ -1,6 +1,4 @@
-# AgentFlow
-
-**The framework powering [Neevs](https://neevs.io) - automated AI-powered channels**
+# Automated AI-powered channels
 
 <table>
   <thead>
