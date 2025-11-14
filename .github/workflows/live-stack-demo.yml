@@ -193,17 +193,15 @@ jobs:
             echo "================================================"
 
             # Create tunnel config for both frontend and backend
-            cat > /tmp/tunnel-config.yml <<EOF
-tunnel: gitops-demo
-credentials-file: /home/runner/.cloudflared/tunnel-token.json
-
-ingress:
-  - hostname: stack.neevs.io
-    service: http://localhost:3000
-  - hostname: api.neevs.io
-    service: http://localhost:3001
-  - service: http_status:404
-EOF
+            echo "tunnel: gitops-demo" > /tmp/tunnel-config.yml
+            echo "credentials-file: /home/runner/.cloudflared/tunnel-token.json" >> /tmp/tunnel-config.yml
+            echo "" >> /tmp/tunnel-config.yml
+            echo "ingress:" >> /tmp/tunnel-config.yml
+            echo "  - hostname: stack.neevs.io" >> /tmp/tunnel-config.yml
+            echo "    service: http://localhost:3000" >> /tmp/tunnel-config.yml
+            echo "  - hostname: api.neevs.io" >> /tmp/tunnel-config.yml
+            echo "    service: http://localhost:3001" >> /tmp/tunnel-config.yml
+            echo "  - service: http_status:404" >> /tmp/tunnel-config.yml
 
             # Create tunnel credentials
             mkdir -p ~/.cloudflared
