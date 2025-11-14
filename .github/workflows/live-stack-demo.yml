@@ -192,7 +192,7 @@ jobs:
             echo "================================================"
 
             # Create tunnel config for both frontend and backend
-            echo "tunnel: gitops-demo" > /tmp/tunnel-config.yml
+            echo "tunnel: neevs" > /tmp/tunnel-config.yml
             echo "credentials-file: /home/runner/.cloudflared/tunnel-token.json" >> /tmp/tunnel-config.yml
             echo "" >> /tmp/tunnel-config.yml
             echo "ingress:" >> /tmp/tunnel-config.yml
@@ -207,7 +207,7 @@ jobs:
             echo "$CLOUDFLARE_TUNNEL_TOKEN" > ~/.cloudflared/tunnel-token.json
 
             # Start tunnel
-            cloudflared tunnel --config /tmp/tunnel-config.yml run > /tmp/cloudflare.log 2>&1 &
+            cloudflared tunnel --config /tmp/tunnel-config.yml run neevs > /tmp/cloudflare.log 2>&1 &
             sleep 10
 
             echo ""
