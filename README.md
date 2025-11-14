@@ -35,10 +35,6 @@
   </tbody>
 </table>
 
-**Framework for building zero-cost, AI-driven channels that run automatically using GitHub Actions.**
-
-**Live Demo:** [https://neevs.io](https://neevs.io)
-
 ## Overview
 
 AgentFlow is a multi-agent pipeline that flows through specialized agents that fetch, analyze, and synthesize information automatically.
