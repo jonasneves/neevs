@@ -2,505 +2,507 @@
   "agent": "phi-analyzer",
   "model": "Phi-4 Mini",
   "model_id": "microsoft/phi-4-mini-instruct",
-  "timestamp": "2025-11-15T12:13:08.365126",
+  "timestamp": "2025-11-15T18:11:35.140883",
   "status": "completed",
   "data": {
     "analyses": [
       {
         "article": {
-          "id": "news_0_1763208641",
-          "title": "Two tantalizing hours with Metroid Prime 4: Beyond - Game File | Stephen Totilo",
-          "description": "Two tantalizing hours with Metroid Prime 4: Beyond\u00a0\u00a0Game File | Stephen Totilo'Metroid Prime 4' looks and feels great, but I'm nervous about one little thing\u00a0\u00a0MashableSo far, Metroid Prime 4 doesn\u2019t feel much like Metroid at all \u2013 and I\u2019m worried\u00a0\u00a0Video Games Chronicle\u2018Metroid Prime 4\u2019 Has Been in the Works for Almost a Decade. Can It Live Up to the Hype?\u00a0\u00a0Rolling StoneMetroid Prime 4 for Switch 2 Delivers the Biggest Evolution the Franchise Has Seen\u00a0\u00a0CNET",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1TMnZoTTFOazk1OHcxQkpEQ1F3TEhsME5NLTZrX1NmMHBoN2x1clV6bHMwWlVfbmpqaG1PcnR2dl9qeFQ1bHE3TV9MdlprMTFWY0dXOGllZzlXejlmQ3dJXzA1OUFwcFBRQXc?oc=5",
-          "source": "Game File | Stephen Totilo",
-          "published": "Fri, 14 Nov 2025 15:31:15 GMT",
+          "id": "news_0_1763230102",
+          "title": "The Steam Machine feels like the TV gaming PC I\u2019ve always wanted - The Verge",
+          "description": "The Steam Machine feels like the TV gaming PC I\u2019ve always wanted\u00a0\u00a0The VergeGear News of the Week: Steam Makes a Home Console, and Apple Debuts a $230 Pouch for Your iPhone\u00a0\u00a0WIREDValve announces new Steam Machine console: Price, specs, release date\u00a0\u00a0MashableValve's Next-Gen Steam Machine and Steam Controller \u2014 the Big Interview\u00a0\u00a0IGN'No point making a high-spec Steam Machine,' Larian publishing boss says, because anyone who wants a powerful PC is going to look elsewhere anyway\u00a0\u00a0PC Gamer",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOcGVaemExdWx5Qm5QMGw3MXpyd1FJelhCYkF1N09oT2wwNlVTaHp5aTQ1SVVVRER4OWJWbENlb2NKbGxXVHE3cGNFVHNROTB0MkZscGhXTW91UHhuVGdyWVVpNDM4S29tMy1HNWtGNEVtMXBidFNKZDczanNIVWZQc1J3cw?oc=5",
+          "source": "The Verge",
+          "published": "Sat, 15 Nov 2025 13:00:00 GMT",
           "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-15T12:10:41.028853"
+          "fetched_at": "2025-11-15T18:08:22.505191"
         },
         "analysis": {
-          "summary": "Stephen Totilo's Game File article provides a mixed review of Metroid Prime 4: Beyond, highlighting its excellent visual presentation while expressing concern over its deviation from the Metroid series' core gameplay elements, which may disappoint fans seeking a faithful Metroid experience.",
+          "summary": "The article discusses the launch of the Steam Machine, which merges the console experience with the power of a PC, aiming to attract gamers interested in both simplicity and high performance. It highlights that the Steam Machine is Valve's attempt to create a hybrid gaming solution, possibly appealing to gamers who feel the current console and PC ecosystems are too separate.",
           "key_points": [
-            "Metroid Prime 4 showcases impressive graphics and a fresh, evolving gameplay style.",
-            "There is a sense of apprehension regarding whether the game will live up to the Metroid franchise's expectations, as it significantly diverges from traditional Metroid gameplay.",
-            "Long-standing anticipation and the game's evolution are contributing to high expectations among fans."
+            "Steam Machine combines PC-like performance with console simplicity.",
+            "Valve aims to bridge the gap between PC and console gaming experiences.",
+            "The product targets gamers seeking both high performance and user-friendly interfaces."
           ],
-          "sentiment": "mixed",
-          "confidence": "high",
-          "bias_check": "The article may be biased towards a nostalgic perspective, reflecting a preference for traditional Metroid gameplay over innovation. Totilo's personal apprehensions about the game's direction could also influence the tone of the review.",
-          "missing_context": "The article doesn't provide information on the game's reception from the broader gaming community or critical reviews. Context on how the game compares to other Metroid titles or its place within the genre would also be useful.",
-          "implications": "The review could influence Metroid Prime 4's success by shaping player expectations. If the game disappoints fans of traditional Metroid gameplay, it might struggle despite its technical achievements and innovative design.",
+          "sentiment": "Mixed",
+          "confidence": "High",
+          "bias_check": "The article may have a bias towards Valve's perspective on the market and the potential success of the Steam Machine. It does not include critical reviews or opinions from gamers who might not see the value in this hybrid approach.",
+          "missing_context": "The article does not provide information on the actual sales figures, user adoption rates, or any issues the Steam Machine might have faced post-launch. It also lacks the opinions of gamers who have tried the device and can speak to its practicality and gaming experience.",
+          "implications": "The launch of the Steam Machine may influence the gaming console market, potentially pushing other companies to innovate and bridge the gap between PC and console gaming. It also raises questions about the future of gaming hardware and how companies will cater to a gaming audience looking for both performance and ease of use.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-15T12:11:04.800408",
+          "analyzed_at": "2025-11-15T18:08:44.742718",
           "token_usage": {
-            "prompt_tokens": 321,
-            "completion_tokens": 294,
-            "total_tokens": 615
+            "prompt_tokens": 304,
+            "completion_tokens": 312,
+            "total_tokens": 616
           }
         }
       },
       {
         "article": {
-          "id": "news_1_1763208641",
-          "title": "A new Google model is nearly perfect on automated handwriting recognition - Hacker News",
-          "description": "A new Google model is nearly perfect on automated handwriting recognition\u00a0\u00a0Hacker NewsGoogle's Gemini 3 is imminent. It could reshape the AI race.\u00a0\u00a0Business InsiderGoogle CEO Sundar Pichai may have just teased Gemini 3.0 launch with this \u2018emoji\u2019\u00a0\u00a0The Times of IndiaWhy Gemini 3.0 Pro is the Future of Multimodal Design and AI Development\u00a0\u00a0Geeky GadgetsGemini 3 spotted again as Google readies its release\u00a0\u00a0TestingCatalog",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBHNDFmeWNORUdJaVBhMGlXMWV0VUNnVmVkaExFNEhZYlNNOUx5akhTVWNLVmFpSWFnQ2Nkd2tlbk9KZnpaVFVxNnVHd251aTlCQndrZUptZXk?oc=5",
-          "source": "Hacker News",
-          "published": "Fri, 14 Nov 2025 21:27:19 GMT",
+          "id": "news_1_1763230102",
+          "title": "Meta Opens Pop-Up Stores to Build Buzz for Its AI Glasses - The Wall Street Journal",
+          "description": "Meta Opens Pop-Up Stores to Build Buzz for Its AI Glasses\u00a0\u00a0The Wall Street JournalCounting Renaissance butts in Rome with the Meta Ray-Ban Display\u00a0\u00a0The VergeMeta Ray-Ban Display Review: First Generation Heads-Up Mobile Computing\u00a0\u00a0UploadVRMeta\u2019s smart glasses spark privacy fight on Reddit\u00a0\u00a0CybernewsGene Munster Says Meta's New Display Glasses Deliver Impressive Tech But 'Not Much To Do,' Warning Mass Adoption Is Still Years Away\u00a0\u00a0Benzinga",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBNcTkwaHcyT2lrMFJpOWF1Z21oY3RfaUdsNXRWR1NoRmE3TEViZUNPOVVSbFJCQVBVVm9MZExMaDMtdjdkcHZXLVh2bG01LXZFekphWTExc2pfSzhtLTU0d1p2QnRRYTZVY0xPZ1J3?oc=5",
+          "source": "The Wall Street Journal",
+          "published": "Sat, 15 Nov 2025 12:00:00 GMT",
           "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-15T12:10:41.028884"
+          "fetched_at": "2025-11-15T18:08:22.505222"
         },
         "analysis": {
-          "summary": "The article discusses the anticipated release of Google's Gemini 3, a new AI model that showcases remarkable proficiency in automated handwriting recognition, potentially signaling a significant advancement in the AI race and multimodal AI development.",
+          "summary": "Meta is generating excitement for its AI-powered glasses by opening pop-up stores, while critics and consumers weigh the technological innovation against practicality and privacy concerns.",
           "key_points": [
-            "Gemini 3 is expected to be a game-changer in AI, specifically in automated handwriting recognition.",
-            "The launch of Gemini 3.0 may indicate Google's continued leadership and innovation in the AI space.",
-            "There is excitement and speculation around the capabilities and timing of Gemini 3's release."
+            "Meta's AI glasses, the Meta Ray-Ban Display, combines augmented reality with mobile computing, aiming to create a buzz for the tech.",
+            "The glasses have sparked discussions on privacy, with concerns raised about how data is collected and used.",
+            "Tech experts, including Gene Munster, suggest that while the technology is impressive, the glasses' utility may not yet justify widespread adoption."
+          ],
+          "sentiment": "Mixed",
+          "confidence": "High",
+          "bias_check": "Potential bias towards technology enthusiasts and industry insiders, given the focus on the tech aspect and the excitement around new gadgets.",
+          "missing_context": "Potentially lacking in the article is a discussion about the target audience for these glasses, their price point, and how they compare to other existing AR/VR glasses on the market.",
+          "implications": "The introduction of Meta's AI glasses could push the AR/VR industry forward, but also sets a precedent for privacy concerns with new tech. It might influence competitors and regulators in the tech industry.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-15T18:08:51.717259",
+          "token_usage": {
+            "prompt_tokens": 294,
+            "completion_tokens": 260,
+            "total_tokens": 554
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_2_1763230102",
+          "title": "OnePlus 15: Top-tier variant has a 'hidden' RAM speed boost - Notebookcheck",
+          "description": "OnePlus 15: Top-tier variant has a 'hidden' RAM speed boost\u00a0\u00a0NotebookcheckI Tested the OnePlus 15 and Its Massive 7,300-mAh Battery Deserves a Medal\u00a0\u00a0CNETOnePlus 15 review: A great phone, if photography isn't a priority\u00a0\u00a0EngadgetI compared the cameras of Samsung and OnePlus' flagship phones - and it went down to the wire\u00a0\u00a0ZDNETOnePlus 15 vs OnePlus 13: Sample Photos Comparison\u00a0\u00a0PhoneArena",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTnpDYVhFenpwYkFPQUxQR1Q1SUFScTdyRjc5SGI0ZkUzQU9Bbm4zaVlMd2RZTzVlVUs1eHhjV3BMQkdXTk1iWW9McHhwbkFRLU04emtjdUxmaHl6TU9wdWIxRDluMzhiU3RuZXo3U1o2Q2lvS1hDTEhjYmFSMlBDVm1KRUhMMzNVamNjSlJDeEFpd0gtRnllSGdDNnU1U1V4MmVJ?oc=5",
+          "source": "Notebookcheck",
+          "published": "Fri, 14 Nov 2025 22:31:00 GMT",
+          "topic": "TECHNOLOGY",
+          "fetched_at": "2025-11-15T18:08:22.505243"
+        },
+        "analysis": {
+          "summary": "The article reviews OnePlus 15, highlighting its impressive 7,300-mAh battery and a significant RAM speed boost in the top-tier variant, making it a competitive option for users who prioritize photography and battery life.",
+          "key_points": [
+            "OnePlus 15 features a 7,300-mAh battery, which is a significant advantage for extended usage.",
+            "The top-tier variant of the OnePlus 15 includes a 'hidden' RAM speed boost, enhancing performance.",
+            "The review also provides a detailed comparison of camera performance between OnePlus 15 and Samsung flagship phones."
           ],
           "sentiment": "Positive",
           "confidence": "High",
-          "bias_check": "The article is sourced from Hacker News and Business Insider, which may have a bias towards technology and innovation. It also assumes success and positive reception without mentioning potential challenges or competition.",
-          "missing_context": "There may be missing context regarding the current state of the AI race and the specific improvements Gemini 3 offers over previous models. Additionally, potential ethical considerations and challenges in AI development might be overlooked.",
-          "implications": "The broader implications include accelerating advancements in AI technology, potentially leading to new applications and innovations. It could also intensify the competition among tech companies to develop superior AI models. However, it raises questions about data privacy, security, and the ethical use of AI.",
-          "uncertainties": "The actual performance and impact of Gemini 3 in real-world scenarios are yet to be seen. There might be unaddressed technical challenges or limitations in the model that could affect its success.",
+          "bias_check": "The review might be biased towards emphasizing OnePlus's strengths, particularly its battery life and camera performance, potentially downplaying any weaknesses.",
+          "missing_context": "Details on other flagship phones for a more comprehensive comparison, and user perspectives on the phone's performance in real-world usage, could be missing.",
+          "implications": "This positive review could influence consumer preference, potentially boosting OnePlus's market position against competitors like Samsung.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-15T12:11:13.412448",
+          "analyzed_at": "2025-11-15T18:08:59.835222",
+          "token_usage": {
+            "prompt_tokens": 299,
+            "completion_tokens": 326,
+            "total_tokens": 625
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_3_1763230102",
+          "title": "Wyoming dinosaur mummies give us a new view of duck-billed species - Ars Technica",
+          "description": "Wyoming dinosaur mummies give us a new view of duck-billed species\u00a0\u00a0Ars Technica",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTGYxVmRLSFhoTi0tZ2tORldKLWdsSDlQdktyRjFMa3hGbGhwUmJOUjVlNHB3Smd3cEhOTHNpZTY3LWpRNlNzLUZTTnRoQjBXT2JhMU4tcXl4d2swcUwwZjVkU3Z4SWtkblUyd3VtU3ljTUtTSk9PeG5qaFZ3UmlWcW5DcWtoMHJFNURjcncwWV9RUTR6aEpkMW5yc3hEOHdTZ0pEZnp4QW80ZVk?oc=5",
+          "source": "Ars Technica",
+          "published": "Sat, 15 Nov 2025 12:00:59 GMT",
+          "topic": "TECHNOLOGY",
+          "fetched_at": "2025-11-15T18:08:22.505254"
+        },
+        "analysis": {
+          "summary": "The discovery of dinosaur mummies in Wyoming offers new insights into the anatomy and preservation of duck-billed species, potentially aiding in the understanding of their biology and ecology, and sparking interest in paleontological research.",
+          "key_points": [
+            "New mummies of duck-billed dinosaurs found in Wyoming",
+            "Provides fresh perspectives on duck-billed species anatomy and preservation",
+            "Enhances understanding of dinosaur biology and ecology",
+            "May inspire further paleontological research"
+          ],
+          "sentiment": "Positive",
+          "confidence": "High",
+          "bias_check": "Potential biases could include excitement for paleontological discoveries, overemphasis on the novelty of the find without considering its broader significance.",
+          "missing_context": "The story might not provide enough context about the rarity of such discoveries, the specific methods used to unearth and analyze the mummies, and how this discovery compares to other significant finds in paleontology.",
+          "implications": "This discovery could influence future research funding and public interest in paleontology, contributing to our understanding of prehistoric life and potentially informing theories about dinosaur preservation and extinction.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-15T18:09:06.450727",
+          "token_usage": {
+            "prompt_tokens": 214,
+            "completion_tokens": 242,
+            "total_tokens": 456
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_4_1763230102",
+          "title": "Apple\u2019s last-gen AirPods Pro 2 are down to their lowest price to date - The Verge",
+          "description": "Apple\u2019s last-gen AirPods Pro 2 are down to their lowest price to date\u00a0\u00a0The VergeAll The Best Early Black Friday Deals From Apple for 2025\u00a0\u00a0Popular MechanicsAirPod Pros at Their Best Price Ever, Lots of Toys, and More Great Deals\u00a0\u00a0New York MagazineApple deals of the week: Record-low prices on AirPods and Apple Watches\u00a0\u00a0Yahoo! TechBlack Friday arrives early for AirPods fans! AirPods 4 just hit a new record-low price already\u00a0\u00a0TechRadar",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSkVNYjhELW15UVo4SXdLN09aM0VVWjQzQzZIUmwtMW1hMnVlc0tKam1Oa1otdEUzcWt2dmxxUkxWamVfejdoZmlzSEpNRzFfWEE5anZYS3Z5LXZ1TFN4VDRDNzF5MTM2Y3Q4cG5SanlxRlBSd2hzdVZIZW91ZVRJbGV6UFlVMVVzT3ptMkNWdDJGUzVD?oc=5",
+          "source": "The Verge",
+          "published": "Fri, 14 Nov 2025 16:42:27 GMT",
+          "topic": "TECHNOLOGY",
+          "fetched_at": "2025-11-15T18:08:22.505276"
+        },
+        "analysis": {
+          "summary": "Apple is marking a new low for their last-gen AirPods Pro 2, offering the best price ever, which could be a strategic move ahead of newer models and Black Friday deals, or potentially indicative of stock clearance.",
+          "key_points": [
+            "Apple's AirPods Pro 2 are currently at their lowest price, suggesting a potential sale or stock clearance.",
+            "The timing of the price drop might be linked to the launch of new AirPods models or Black Friday deals.",
+            "The significant price drop could attract more customers and increase sales volume."
+          ],
+          "sentiment": "Mixed",
+          "confidence": "Medium",
+          "bias_check": "The article may have a positive bias towards Apple, only highlighting the price reduction without mentioning potential downsides such as quality concerns or diminishing returns for previous models.",
+          "missing_context": "The article lacks information on customer reviews or performance comparisons of this last-gen model versus newer models, which could influence consumer perception.",
+          "implications": "This price drop could lead to a short-term increase in sales, but it might also signal to consumers that Apple is devaluing their products or that the previous models are becoming obsolete. It may affect the brand's perceived value and impact future pricing strategies for new product launches.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-15T18:10:14.238403",
+          "token_usage": {
+            "prompt_tokens": 300,
+            "completion_tokens": 271,
+            "total_tokens": 571
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_0_1763230102",
+          "title": "COP30: Crowds march on doorstep of UN climate talks in Brazil - BBC",
+          "description": "COP30: Crowds march on doorstep of UN climate talks in Brazil\u00a0\u00a0BBCProtesters block the main entrance to COP30 climate talks in Brazil\u00a0\u00a0CNNIndigenous People Take the Stage at COP30 Climate Talks in Bel\u00e9m, Brazil\u00a0\u00a0The New York TimesUN Orders Brazil to Improve Security, Conditions at COP30\u00a0\u00a0Bloomberg.comThousands hit streets of Bel\u00e9m to call for action during crucial Cop30 summit\u00a0\u00a0The Guardian",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBaT2V5SWdhRVJmbzVNY1l2QmU1eHBFVVZqWnctUDBVMUEzc3dVSm1DXzU4T1VWWmlVdUZSTEl5ZjZCRlhnUGRSQ1NqX1RuMWRyTl94Umw4SnRBQQ?oc=5",
+          "source": "BBC",
+          "published": "Sat, 15 Nov 2025 15:02:36 GMT",
+          "topic": "WORLD",
+          "fetched_at": "2025-11-15T18:08:22.729826"
+        },
+        "analysis": {
+          "summary": "Thousands of protesters, including Indigenous People, gathered at the doorstep of COP30 climate talks in Brazil, urging the UN and Brazil to take decisive action on climate change. Security and living conditions at the summit became a concern, prompting the UN to order Brazil to improve them.",
+          "key_points": [
+            "Mass protests by thousands at COP30 in Brazil highlighting urgent climate action",
+            "Indigenous People participated in the protests, emphasizing their role and stakes in climate issues",
+            "Security and living conditions at COP30 raised concerns, leading to a UN directive for Brazil to improve them"
+          ],
+          "sentiment": "Mixed",
+          "confidence": "High",
+          "bias_check": "The article may implicitly favor the perspective of the protesters and environmental activists, possibly neglecting the complexities or viewpoints of the UN or Brazilian authorities. It also might emphasize the scale of the protests without adequately addressing the content of the protests or the government's response.",
+          "missing_context": "The article does not provide details on the specific demands or grievances of the protesters, nor does it discuss the rationale behind the UN's security concerns. It also lacks information on the Brazilian government's stance and actions taken in response to the protests.",
+          "implications": "The protests at COP30 signal a growing public demand for immediate and effective climate action, reflecting widespread concern and determination among various stakeholders, including Indigenous communities. The UN's directive for Brazil to improve security and conditions highlights the logistical and diplomatic challenges of hosting international summits amidst such tensions. This event could pressure global leaders to prioritize climate issues more urgently and may influence future climate negotiations and policies worldwide.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-15T18:10:23.249078",
+          "token_usage": {
+            "prompt_tokens": 281,
+            "completion_tokens": 340,
+            "total_tokens": 621
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_1_1763230102",
+          "title": "Japan protests after China tells citizens not to visit in escalating feud over leader's Taiwan remarks - CBS News",
+          "description": "Japan protests after China tells citizens not to visit in escalating feud over leader's Taiwan remarks\u00a0\u00a0CBS NewsChina warns citizens against Japan travel as Taiwan spat escalates\u00a0\u00a0CNNJapan asks China to take steps after it discouraged visits to Japan, Kyodo reports\u00a0\u00a0ReutersChina-Japan feud: How Takaichi's Taiwan comments drew fury from Beijing\u00a0\u00a0NBC NewsAirlines offer Japan trip refunds as row over Takaichi\u2019s Taiwan comments deepens\u00a0\u00a0South China Morning Post",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9ET2xoTWw1TU5QbktDM2NVYWphbVEwQWRyTU1nRHFTai1NWXJpdFNsQTduNm9ZS285cnpGZFI2V2NxR2xVTlNuQ3hNNDN3cHNuX3VSMk1qUUo0eTQwdHV1NkduYjZPWlNHS0xnc19MdnFQQl9ueHRza0tjRmVVd9IBgwFBVV95cUxPQ1libUk4VDJuQTlxNW05VTEwTE9FNU5OTFZGMjNXbzN1VHdudnZKNTBqV2FZV2ppanRkeFpjelljazhUZGpsNGZLa1VfOVVoLTZJRE5wZ3BIR1JZWElCektNS1RhdWp2Q2ExVEdtdjZTQkRjalpvUE1DRkxkUmdacW5xaw?oc=5",
+          "source": "CBS News",
+          "published": "Sat, 15 Nov 2025 13:56:00 GMT",
+          "topic": "WORLD",
+          "fetched_at": "2025-11-15T18:08:22.729862"
+        },
+        "analysis": {
+          "summary": "Japan faces a diplomatic spat with China after Prime Minister Fumio Kishida's comments favoring Taiwan led to China advising its citizens against visiting Japan, prompting Japan to request reciprocal measures. This incident highlights the delicate nature of Japan-China relations and the potential impact of Taiwan-related comments on international diplomacy.",
+          "key_points": [
+            "China advises its citizens against visiting Japan following Kishida's comments on Taiwan.",
+            "Japan requests China to take similar steps against Japanese citizens in response.",
+            "The incident reflects the tension between Japan and China over the Taiwan issue."
+          ],
+          "sentiment": "negative",
+          "confidence": "high",
+          "bias_check": "Potential biases may include the framing of the incident as part of a larger feud, which might overshadow the specifics of Kishida's comments and the nuances of Japan-China relations. The article may also emphasize the negative aspects of the dispute over any positive diplomatic efforts or historical ties between the countries.",
+          "missing_context": "Important context that might be missing includes the historical and political background of Japan-China relations, the official Chinese response in detail, and how this incident fits into the larger pattern of Japan's support for Taiwan. Additionally, the potential impact of this feud on other aspects of bilateral relations, such as trade and security, might be underexplored.",
+          "implications": "The incident could strain Japan-China relations further, impacting not only tourism but also broader diplomatic and economic interactions between the two countries. It also underscores the sensitive nature of Taiwan-related comments and their potential to escalate into significant international incidents. This feud may influence Japan's diplomatic strategy and its approach to balancing relations with both China and Taiwan.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-15T18:10:32.108241",
           "token_usage": {
             "prompt_tokens": 292,
-            "completion_tokens": 328,
-            "total_tokens": 620
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_2_1763208641",
-          "title": "Pixel 10 Pro Fold review: Google\u2019s bet to make foldables sturdy - TechCrunch",
-          "description": "Pixel 10 Pro Fold review: Google\u2019s bet to make foldables sturdy\u00a0\u00a0TechCrunchGoogle Pixel 10 Pro Fold vs. Samsung Galaxy Z Fold 7: We compared both, and here's the winner\u00a0\u00a0ZDNETI tested the Pixel 10 Pro Fold camera against some of the best foldable phones, including the Galaxy Z Fold 7, Honor Magic V5, and Oppo Find N5. The results may shock you\u00a0\u00a0Android CentralPixel 10 Pro Fold Becomes IP68 Durability Benchmark\u00a0\u00a0findarticles.comPixel 10 Review: The AI obsession is leading Google astray\u00a0\u00a0Newslaund",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbGVPR0hTTHJpMUhWVE15c0NTVWMteHZDZ0ZNQWh5SkJWMW1Ld0tfdk9sVmdmMDJaMXNpaGJYcmV2N1Q5eXRuY1lDek5seGZBRl9aa3Y4cC05OW5PUUJoTHdXVHpvaXJXcXRuaU9rSmVxWkt3bUFMcHM1WFFwS3I1Y0dsZ0ZIYWZyVEtuM1ZSX0ZadUNIak1obHdOMDM?oc=5",
-          "source": "TechCrunch",
-          "published": "Fri, 14 Nov 2025 15:13:22 GMT",
-          "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-15T12:10:41.028907"
-        },
-        "analysis": {
-          "summary": "The TechCrunch article reviews the Google Pixel 10 Pro Fold, comparing its performance to other foldable phones like the Samsung Galaxy Z Fold 7, with a focus on camera quality and durability, while also touching on Google's AI obsession in their recent products.",
-          "key_points": [
-            "Google Pixel 10 Pro Fold's camera performance is compared to top competitors like Galaxy Z Fold 7, Honor Magic V5, and Oppo Find N5.",
-            "Pixel 10 Pro Fold is noted for reaching IP68 durability benchmarks, indicating increased ruggedness.",
-            "The article critiques Google's AI obsession in the Pixel 10, suggesting it might overshadow other product aspects."
-          ],
-          "sentiment": "Mixed",
-          "confidence": "High",
-          "bias_check": "The source TechCrunch may have a bias towards critiquing or favoring certain products or technologies over others, which could influence the presentation of facts and opinions in the article.",
-          "missing_context": "The article might not provide enough background on Google's strategy for entering the foldable phone market, the specific challenges faced in the development of Pixel 10 Pro Fold, or the market position of Google relative to Samsung and other competitors.",
-          "implications": "This story could influence consumer perceptions and market dynamics in the foldable phone industry, potentially impacting sales and the strategic direction of Google\u2019s product offerings.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-15T12:11:22.621529",
-          "token_usage": {
-            "prompt_tokens": 321,
-            "completion_tokens": 290,
-            "total_tokens": 611
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_3_1763208641",
-          "title": "Call of Duty: Black Ops 7 campaign cannot be paused by solo players, has no checkpoints, and requires an online connection at all times - Eurogamer",
-          "description": "Call of Duty: Black Ops 7 campaign cannot be paused by solo players, has no checkpoints, and requires an online connection at all times\u00a0\u00a0EurogamerCall of Duty: Black Ops 7 review \u2013 hallucinogenic romp through dystopia is stupidly pleasurable\u00a0\u00a0The GuardianCall of Duty: Black Ops 7 review \u2014 The best Call of Duty in the modern era\u00a0\u00a0GamingTrendBlack Ops 7's launch day Steam player count is significantly lower than last year's Call of Duty, suggesting Arc Raiders and Battlefield 6 ate a hefty portion",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOZ0EzWDJfLVVIaE1aSnZyaUdGa1FNZG5pSEhIUEwxR1RCMjRqb1dfY1lwcFdQUVBXYzZTMkJRUkoyYndReWVRbHp6LVQyREVMMlpZTGs5OGtJUDRlbGhxaFB3UENlRktwQy1qNXVNZ2swS0VMUzEyaWhJa1M3d2lUdnl0bDh5aFFFNzc4WEtYM21HZDlVdlFMcjVyYjJjTzlLbFBGZUJPYU45ZjFJdHVlcW1pc0xuZ0Vfb0dhcTNZOTBzR3B1bDRJNnNndEk2dlVCZ2U2OU5xdGg1MjFJNVA0?oc=5",
-          "source": "Eurogamer",
-          "published": "Fri, 14 Nov 2025 10:37:14 GMT",
-          "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-15T12:10:41.028933"
-        },
-        "analysis": {
-          "summary": "Call of Duty: Black Ops 7 introduces a solitary campaign experience that is constantly connected and without traditional pause or checkpoint features, potentially impacting player freedom and accessibility.",
-          "key_points": [
-            "The campaign mode in Black Ops 7 eliminates the ability for solo players to pause, withhold, or utilize checkpoints, enforcing an online connection at all times.",
-            "This design choice may deter players who prefer or require a more traditional, interruptible gameplay experience.",
-            "The campaign's lack of traditional player control elements could affect player retention and overall satisfaction."
-          ],
-          "sentiment": "mixed",
-          "confidence": "high",
-          "bias_check": "The review might be biased towards traditionalists who prefer classic campaign structures over the new, connected experience. The perspective could also be influenced by nostalgia for previous Call of Duty games.",
-          "missing_context": "The article does not provide information about the overall campaign quality, which could help balance the discussion on the impact of these design choices. Additionally, the reasons behind these design decisions by the developers are not explained.",
-          "implications": "The shift to an always-connected, non-interruptible campaign mode could have broader implications for the gaming industry, possibly influencing other developers to adopt similar features or leading to discussions about player freedom and accessibility in game design.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-15T12:11:30.101648",
-          "token_usage": {
-            "prompt_tokens": 320,
-            "completion_tokens": 278,
-            "total_tokens": 598
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_4_1763208641",
-          "title": "Best Buy Black Friday Doorbusters live \u2014 31 deals I\u2019d shop from just $3 on Lego, Switch 2/PS5 games, TVs, laptops and more - Tom's Guide",
-          "description": "Best Buy Black Friday Doorbusters live \u2014 31 deals I\u2019d shop from just $3 on Lego, Switch 2/PS5 games, TVs, laptops and more\u00a0\u00a0Tom's GuideDon\u2019t wait for Black Friday madness. Save on TVs, laptops and more at Best Buy right now\u00a0\u00a0CNNBest Buy Has Slashed the Price of Metal Gear Solid: Master Collection Vol.1 to $20 Before Black Friday\u00a0\u00a0IGNNew Black Friday deals just landed at Best Buy \u2013 I've picked the 12 best offers on Apple, Bose, LG, Ninja, and more\u00a0\u00a0TechRadarBest Buy Black Friday ad 2025: Best dea",
-          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOV3JPbmdMM3dHdkxqb1NQc2JyZGpQdkxUY1F4emQ5a01lVS1tVUVwWUEyY1dmRVh2WEZkRmxKb3BFYmdtanVycXNyQUlldkFtOFhreHh4QU9YS2JpajhhaWVrMmZ5V29LQTBqbjNFdDNPMVlQbmh6T1ItYjZxR2tBWDZGeElReHV6TGtYMXlBemxYQXBQVl9VOGtVeXFKQUVPc0tocFRzNFhKTzVEd180YnJScWptMVBLQ2JWdTU4U3puTHV3TzQ2VktSYTlnWlBTWW1HX1p0NzFHR3ZzWEtPekFvMzNEeEs1ekFxWThn?oc=5",
-          "source": "Tom's Guide",
-          "published": "Fri, 14 Nov 2025 16:56:03 GMT",
-          "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-15T12:10:41.028956"
-        },
-        "analysis": {
-          "summary": "The article highlights some of the top deals at Best Buy during Black Friday, including discounts on popular items like Lego, Nintendo Switch 2/PS5 games, TVs, and laptops, indicating a mix of promotions for both family-friendly and high-demand tech products.",
-          "key_points": [
-            "Best Buy offers a variety of Black Friday deals, featuring both toys like Lego and advanced tech like Nintendo Switch 2/PS5 games.",
-            "Promotions span across different categories, including entertainment, gaming, and productivity devices like TVs and laptops.",
-            "The availability of these deals during Black Friday suggests a strategy to attract a wide range of shoppers."
-          ],
-          "sentiment": "Mixed",
-          "confidence": "High",
-          "bias_check": "The article may be biased towards promoting Best Buy's Black Friday deals, potentially overlooking competitor offerings or alternative shopping platforms.",
-          "missing_context": "The article does not provide information about the limited-time nature of these deals or how they compare with previous years' Black Friday sales. It also lacks details on the condition of the products (new vs. refurbished) and the potential for stock shortages.",
-          "implications": "This story could influence consumer behavior, encouraging people to shop early or consider Best Buy as a go-to retailer during Black Friday. It may also affect the holiday shopping trends, emphasizing the importance of deals and discounts during the festive season.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-15T12:11:39.192551",
-          "token_usage": {
-            "prompt_tokens": 345,
-            "completion_tokens": 296,
+            "completion_tokens": 349,
             "total_tokens": 641
           }
         }
       },
       {
         "article": {
-          "id": "news_0_1763208641",
-          "title": "China advises against travel to Japan amid escalating row over PM\u2019s Taiwan comments - The Guardian",
-          "description": "China advises against travel to Japan amid escalating row over PM\u2019s Taiwan comments\u00a0\u00a0The GuardianChina warns citizens against Japan travel as Taiwan spat escalates\u00a0\u00a0CNNJapan asks China to take steps after it discouraged visits to Japan, Kyodo reports\u00a0\u00a0ReutersChina\u2019s \u2018Wolf Warrior\u2019 Diplomacy Returns With Threat Against Japan\u2019s Leader\u00a0\u00a0The New York TimesChina-Japan feud: How Takaichi's Taiwan comments drew fury from Beijing\u00a0\u00a0NBC News",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQWV8xalJjWi1iTXVmWnZRSjZwZ1RiZ2kza19sNFZQRU1GOEhIbGVWa0pUODFVRVNoYzZMRXFHbjhkU0JGdVdHNXZON3FVOU9HRjhGeGtJNFpTQk52QTVCR05VVDNKVy1lVG15SlRDZjhpa1NGYlFmNG5LX3dCSGhmNkVqUGRsNXREYmd6cEsxaHZ0ZFFlYVY1Q2pVNG90d0JJVGtWY09sNU80WVdEZmV3TVo5dlNoT2s1dDhXQl9yR0M0cmRLbm5v?oc=5",
-          "source": "The Guardian",
-          "published": "Sat, 15 Nov 2025 03:46:00 GMT",
+          "id": "news_2_1763230102",
+          "title": "Russia launches three ballistic missiles in overnight attacks - Euronews.com",
+          "description": "Russia launches three ballistic missiles in overnight attacks\u00a0\u00a0Euronews.comRussia pummels Kyiv in barrage of drones and missiles as it makes gains in Ukraine\u00a0\u00a0PBS'Astonishingly lethal': BBC reports from site of Russian strike in Kyiv\u00a0\u00a0BBCRussia-Ukraine war: List of key events, day 1,360\u00a0\u00a0Al Jazeera'Wicked' Russian attack fuels anger in Kyiv amid front-line setbacks and corruption scandal\u00a0\u00a0NBC News",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOdEtpV0hlOHByWWNTTy1FRFBUdEtYdE1SelhWeWZiaVc1Wlg2aTItOExxenJJbjhWTjVKZTNnWV9XZndBRnNiUzhGRUpwT296bjdHRVF0U2Z5aElDWjNveXBhNkRlOUxtbUdRZlNLaC1nak55S3BkZTdQX2gxdTliR2toUUQyVjdZdTlod2hqT0pQSkd3cDljVjFiRGpaWFFRQXBMLXBvZm0zaXB6LTc0TkliLXBfMGM?oc=5",
+          "source": "Euronews.com",
+          "published": "Sat, 15 Nov 2025 12:23:27 GMT",
           "topic": "WORLD",
-          "fetched_at": "2025-11-15T12:10:41.122643"
+          "fetched_at": "2025-11-15T18:08:22.729882"
         },
         "analysis": {
-          "summary": "China has advised its citizens against traveling to Japan following comments made by Japanese Prime Minister Fumio Kishida regarding Taiwan, which has heightened tensions between the two nations and drawn criticism from China.",
+          "summary": "Russia's overnight attacks on Kyiv, involving ballistic missiles and drones, have escalated the Ukraine conflict, with significant casualties and infrastructure damage reported. This aggressive action follows a day of reported front-line setbacks for Ukraine and contributes to growing anger and calls for accountability amid a corruption scandal.",
           "key_points": [
-            "The escalation of the Japan-China feud follows PM Kishida's comments on Taiwan, which China finds provocative.",
-            "China's travel advisories against Japan indicate a severe diplomatic rift and an attempt to pressure Japan diplomatically.",
-            "The situation demonstrates China's use of 'Wolf Warrior' diplomacy, which involves assertive and nationalistic rhetoric in international disputes."
+            "Russia's use of missiles and drones in overnight attacks against Kyiv signifies a heightened level of military engagement.",
+            "The strikes have led to significant casualties and have further inflamed tensions between Russia and Ukraine.",
+            "There is growing anger in Kyiv, partly fueled by the recent Russian aggression and an ongoing corruption scandal."
           ],
           "sentiment": "Negative",
           "confidence": "High",
-          "bias_check": "The article may have a Western perspective, particularly from The Guardian, which might frame China's actions in a negative light due to Western media's tendency to be critical of China's assertive policies. The overall sentiment could be influenced by the Western viewpoint on China's rise and its handling of international disputes.",
-          "missing_context": "The article does not provide the specific content of PM Kishida's comments regarding Taiwan, which is central to understanding the gravity of the situation. It also does not mention any prior diplomatic efforts or the history of Japan-China relations, which are relevant for a more comprehensive understanding.",
-          "implications": "The advisory against travel could have economic consequences for both countries and might lead to further deterioration of bilateral relations. It also shows the Chinese government's willingness to use travel advisories as a political tool. This incident could embolden China to challenge other nations' sovereignty issues, potentially affecting global diplomatic norms.",
+          "bias_check": "Potential narrative bias towards focusing on Russia's aggressive actions and Ukraine's losses, with less emphasis on any possible provocations or responses from the Ukrainian side.",
+          "missing_context": "The political, historical, and strategic considerations that may have led to these actions by Russia, and any potential provocations or threats from Ukraine. The motivations and justifications given by both sides for their actions.",
+          "implications": "The escalation in military actions could lead to further deterioration of the conflict, increased international intervention or sanctions, and a potential shift in global diplomatic stances, especially within the EU and NATO.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-15T12:11:47.568509",
+          "analyzed_at": "2025-11-15T18:10:39.813806",
           "token_usage": {
-            "prompt_tokens": 284,
-            "completion_tokens": 333,
-            "total_tokens": 617
+            "prompt_tokens": 285,
+            "completion_tokens": 280,
+            "total_tokens": 565
           }
         }
       },
       {
         "article": {
-          "id": "news_1_1763208641",
-          "title": "Kashmir blast: Nine killed in accidental explosion at police station in Indian-administered Kashmir, officials say - BBC",
-          "description": "Kashmir blast: Nine killed in accidental explosion at police station in Indian-administered Kashmir, officials say\u00a0\u00a0BBCAt least nine killed and 32 injured in Indian Kashmir police station explosion\u00a0\u00a0Sky NewsBlast from confiscated explosives at police station in Indian-controlled Kashmir kills nine\u00a0\u00a0The GuardianMassive explosion inside J&K police station leaves 8 injured\u00a0\u00a0The Hindu9 Dead After Accidental Blast at Police Station in Kashmir\u00a0\u00a0The New York Times",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5uWnl1VlN3YzY5eEVUbUY1WmNvMWRxRjNPa05jdW1TeE40NFpqSHNpR193YWVWMEtPU0g5VVI1dlVpbTk4N3ZqSGJfZE1Rekd4bUNxNkRZSG5FUdIBX0FVX3lxTE9xYlBUQWdZQjJqaDlvOEJZbnFYUGJDOUZxdjZ2SWVxdk9NVGFiS3RmMlZTd3FHZzRfQ0laZjZGOUFfS2VUNF9HOWNVc0s2ejVrY2VuckJ1bzBvYXl0U1c0?oc=5",
-          "source": "BBC",
-          "published": "Sat, 15 Nov 2025 10:04:06 GMT",
+          "id": "news_3_1763230102",
+          "title": "Could Chile be on the verge of a political shift in its 2025 election? - Al Jazeera",
+          "description": "Could Chile be on the verge of a political shift in its 2025 election?\u00a0\u00a0Al JazeeraChilean right wing eyes return to power as crime, migration dominate election\u00a0\u00a0ReutersCommunist and far-right leaders vie for Chile\u2019s presidency\u00a0\u00a0Financial TimesAQ Podcast | A Right Turn in Chile?\u00a0\u00a0Americas QuarterlyChile's election sets up a stark left\u2013right showdown\u00a0\u00a0NPR",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcnlJbGpNSm5NNDR1R0xTNUtySEIwQzBrNVE1ZktDcF9iSGIwMU1IX1Z1SFFGdDdiRUpGQ1p5M0Q1T0VlWHhhdVpJR3BDSFE1Qng3T0MwOUk3OXdYdlVTOTdHaG9yME5rY1I3SG5pYS10NVlwZWQxc1FWbm5feFdFaDNxY3BkYjVJLXJPYTRmbnZuREFxWnVKTEZ4RzZRLVYtN0RLdm5XMWpMSWUyYmRBRNIBtgFBVV95cUxOQ28ta0tsTXY1YkpZYlFsTmd2MFBWWjNEdFJhWmRwNVEzQVdXb2NoRFV5ZURGZ0lvWnJ2eXVGZEp0Mm9TdlZ3cm1Lcm4tVHdTVjNkZkJRSUJJcVVPdzBILTFfSTcxYW5GSmRWUkZMZTZfdFJqekxRSXZJYnBKcVFLWWZHYlNBU0N0c2JmeEpTTFF3TjQ1ZHZmNThqVjZ4c0VBemgxT3hhYVh4cGJ6cHdKbkM4Wnk3UQ?oc=5",
+          "source": "Al Jazeera",
+          "published": "Sat, 15 Nov 2025 12:29:27 GMT",
           "topic": "WORLD",
-          "fetched_at": "2025-11-15T12:10:41.122679"
+          "fetched_at": "2025-11-15T18:08:22.729903"
         },
         "analysis": {
-          "summary": "The article reports an accidental explosion at a police station in Indian-administered Kashmir, resulting in nine fatalities and 32 injuries, with officials suggesting the blast stemmed from confiscated explosives. This incident underscores the volatile security situation in the region and raises concerns about the handling of explosive materials by law enforcement agencies.",
+          "summary": "The Al Jazeera article posits that Chile is potentially heading towards a political shift in its 2025 election, with the right wing potentially returning to power due to issues of crime and migration, amidst competition with far-right and communist leaders.",
           "key_points": [
-            "Accidental explosion at Indian-administered Kashmir police station.",
-            "Nine killed and 32 injured.",
-            "Explosives confiscated by police officers may have caused the blast.",
-            "Reflects ongoing security challenges in Kashmir.",
-            "Concerns about law enforcement practices in handling explosive materials."
-          ],
-          "sentiment": "Negative",
-          "confidence": "High",
-          "bias_check": "The article may be biased towards highlighting the negative aspects of the incident, such as the handling of explosives by police and the security situation in Kashmir. Additionally, the sources mentioned could have varying perspectives that are not fully explored.",
-          "missing_context": "The article does not provide information on the circumstances leading up to the explosion or specific details about the confiscated explosives. It also lacks perspectives from the families of the deceased, the victims, and local authorities on the ground.",
-          "implications": "This incident could have significant implications for community trust in law enforcement, the safety of handling explosive materials, and the broader security situation in Kashmir. It may also prompt calls for tighter regulations and better training for police officers in handling such materials.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-15T12:12:04.151578",
-          "token_usage": {
-            "prompt_tokens": 289,
-            "completion_tokens": 312,
-            "total_tokens": 601
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_2_1763208641",
-          "title": "Financial markets grow fretful after reports of UK government abandoning income tax hike - Yahoo Finance",
-          "description": "Financial markets grow fretful after reports of UK government abandoning income tax hike\u00a0\u00a0Yahoo FinanceWhat's behind Rachel Reeves's 'hokey cokey' on income tax rises?\u00a0\u00a0BBCReeves warned she has squandered credibility with bond markets\u00a0\u00a0The TelegraphRachel Reeves plans \u00a37.5bn tax rise in budget after U-turn on income tax rates\u00a0\u00a0The GuardianUK borrowing costs jump as investors lose faith in Reeves\u2019 Budget\u00a0\u00a0Financial Times",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOT1BGQ1RSNUl0Q25MM0RTa2libU9tV1FLU0J0bDZGWmlTZENUc1BRMUh2RVJwSEFHQXZqSHJMLXRrQUtwcnFpOFZkR0ZVUENVdnhhZE9EamZNc1NDak5FUFJnVGtuM25aVGdRZ0JkZDEzX2J2dktTejl3LW1oY0MxM1pfRURjcDZ1MjJSNQ?oc=5",
-          "source": "Yahoo Finance",
-          "published": "Fri, 14 Nov 2025 17:41:20 GMT",
-          "topic": "WORLD",
-          "fetched_at": "2025-11-15T12:10:41.122702"
-        },
-        "analysis": {
-          "summary": "Reports of the UK government abandoning an income tax hike have caused concern among financial markets, leading to increased borrowing costs and a loss of investor confidence in Chancellor Rachel Reeves' budget plans.",
-          "key_points": [
-            "UK government plans to retain income tax rates despite initial announcements of a hike.",
-            "Financial markets are reacting negatively, with rising borrowing costs and decreased investor confidence.",
-            "Chancellor Rachel Reeves' credibility with bond markets is being questioned due to the U-turn."
-          ],
-          "sentiment": "Negative",
-          "confidence": "High",
-          "bias_check": "The article may be biased towards emphasizing the negative reaction of financial markets, potentially overshadowing any positive aspects or the rationale behind the government's decision to maintain the current tax rates.",
-          "missing_context": "The reasons behind the decision to keep the tax rates unchanged, such as economic considerations, political factors, or reactions from other stakeholders, are not discussed in the provided description.",
-          "implications": "The decision to not increase income tax rates could have several implications, including potential impacts on government revenue, public services, and the overall economy. However, the immediate effect on financial markets and investor confidence, as described, suggests a challenging environment for the government's financial planning and credibility.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-15T12:12:11.332233",
-          "token_usage": {
-            "prompt_tokens": 284,
-            "completion_tokens": 269,
-            "total_tokens": 553
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_3_1763208641",
-          "title": "China finds bigger role as US sidesteps Brazil climate summit - Reuters",
-          "description": "China finds bigger role as US sidesteps Brazil climate summit\u00a0\u00a0ReutersA Flood of Green Tech From China Is Upending Global Climate Politics\u00a0\u00a0The New York TimesAnalysis: China\u2019s CO2 emissions have now been flat or falling for 18 months\u00a0\u00a0Carbon BriefChina\u2019s clean-energy revolution will reshape markets and politics\u00a0\u00a0The EconomistAs U.S. and E.U. Retreat on Climate, China Takes the Leadership Role\u00a0\u00a0Yale E360",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQVJfR0ZSTTVMLWVmaGM4N3RJWWJPeFdFbjZRVF9IZ0g0MEsxbmZNM0NuX1A0cm51RTdKWjhKMVYyWmFrUGlXVnNkN3hJUzJMU0NmaFFEdXNxeDcxSWx5dkhiXzdneVdrT2FtNnF4MDYyX0lyRUt5RnpBYnRLYTQyQmZ4bFd3RGM5RkRfRFVQUkRiT1drUWxhbUtkbUdSbWVPV0ZpdGlVTlV6WGJTRl9sX3RLYw?oc=5",
-          "source": "Reuters",
-          "published": "Sat, 15 Nov 2025 07:57:00 GMT",
-          "topic": "WORLD",
-          "fetched_at": "2025-11-15T12:10:41.122722"
-        },
-        "analysis": {
-          "summary": "The United States' absence from the Brazil climate summit signals a shift in global climate leadership from traditional Western powers to China, which is emerging as a dominant force in green technology and clean energy, potentially reshaping international climate politics.",
-          "key_points": [
-            "The US skipping the Brazil climate summit may indicate a retreat from global climate leadership.",
-            "China's consistent CO2 emissions reduction and its clean-energy revolution position it as a rising climate leader.",
-            "The changing dynamics in climate politics could result in a realignment of international alliances and priorities."
+            "Potential right-wing return to power in Chile's 2025 election",
+            "Crime and migration are dominating the election discourse",
+            "There is a stark left-right showdown in the Chilean election",
+            "Competition from far-right and communist leaders"
           ],
           "sentiment": "Mixed",
           "confidence": "High",
-          "bias_check": "The article may present a one-sided view by not giving equal weight to the reasons behind the US's absence or China's motivations beyond economic and political gains. Additionally, it may underrepresent the complexities of climate negotiations and the role of other nations in the global climate effort.",
-          "missing_context": "The article could benefit from mentioning other countries' positions and actions regarding the climate summit, the US's stated reasons for not attending, and China's broader environmental policies and commitments beyond clean energy production.",
-          "implications": "The reconfiguration of climate leadership may influence future international agreements, trade relations, and the global approach to addressing climate change. It may also lead to a realignment of geopolitical alliances as countries navigate the evolving landscape of climate diplomacy.",
+          "bias_check": "The article may lean towards a particular political perspective, potentially favoring the left-wing narrative. Additionally, the sources are all from Al Jazeera, which may have a particular editorial slant.",
+          "missing_context": "The article does not provide detailed political stances or policy proposals of the parties involved. It also lacks context on the historical political landscape and voter sentiment in Chile.",
+          "implications": "The potential political shift in Chile could significantly influence its domestic policies, particularly regarding crime and migration. It could also affect Chile's relations with other countries, especially if the right-wing party return to power, given the global polarization on these issues.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-15T12:12:19.186134",
+          "analyzed_at": "2025-11-15T18:10:46.711154",
           "token_usage": {
-            "prompt_tokens": 278,
-            "completion_tokens": 297,
-            "total_tokens": 575
+            "prompt_tokens": 280,
+            "completion_tokens": 264,
+            "total_tokens": 544
           }
         }
       },
       {
         "article": {
-          "id": "news_4_1763208641",
-          "title": "Ukraine\u2019s $200 Billion Lifeline From Europe Stumbles on Pushback in Belgium - The Wall Street Journal",
-          "description": "Ukraine\u2019s $200 Billion Lifeline From Europe Stumbles on Pushback in Belgium\u00a0\u00a0The Wall Street JournalZelenskiy Says Ukraine\u2019s Survival Rests on New Funds From Allies\u00a0\u00a0Bloomberg.comEU finance ministers agree using frozen Russian assets most effective way to fund Ukraine\u00a0\u00a0ReutersPolitical pressure mounts on Belgium to back reparations loan for Ukraine\u00a0\u00a0Euronews.comKyiv\u2019s cash crunch exposes tight Russian assets timeline\u00a0\u00a0politico.eu",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOV2l0TFlvdmFKNXpob01VWHExdUpjRlVJVUtTWmZNb0hwVk9jSktIcVEwbURtRlV2S0w0bkhtcW8yeTFETHBLaHRjT29WdFJyOUpXeC1XVGlpMGtORlFZT1BYQmtpcjkzVHJaNVktT3V5QVlzSmg3Qk5OWnI1NUJyRjVEZGJqbE5wOHd6XzBJVkloX214OGlhUUo5VV9YZ0s4b0dCd25UVUNCV1I1OTQ1TjhnT1VJZw?oc=5",
-          "source": "The Wall Street Journal",
-          "published": "Sat, 15 Nov 2025 04:00:00 GMT",
+          "id": "news_4_1763230102",
+          "title": "Pope returns 62 artifacts to Indigenous peoples from Canada as part of reckoning with colonial past - AP News",
+          "description": "Pope returns 62 artifacts to Indigenous peoples from Canada as part of reckoning with colonial past\u00a0\u00a0AP NewsPope Leo returns 62 artifacts to Indigenous peoples from Canada\u00a0\u00a0NPRPope returns dozens of Indigenous artifacts to Canada\u00a0\u00a0DWVatican returns 62 items taken from Indigenous communities in Canada\u00a0\u00a0Al JazeeraVatican returns to Canada artefacts connected to Indigenous people\u00a0\u00a0Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdjBSLU5hX25hLU1PRlZiaHE5dTdJQ0VELUxBYXhGakRSSWo1QUY3S2NLZExDVHd6S0FyRnVnaUhFbi1Jb1NUVWIwRHJRbW1WaWZjWDFTRGJZdk1nX1JTclhLdG5tV1pNN0Q0LVpyNGdRZXJaU1YtYkkzUktxQm5CNzk3aTd6ZEduaFpjNzRXSXlJd0Z5QVZRdWs3dDZwNkR5UEE?oc=5",
+          "source": "AP News",
+          "published": "Sat, 15 Nov 2025 16:46:00 GMT",
           "topic": "WORLD",
-          "fetched_at": "2025-11-15T12:10:41.122742"
+          "fetched_at": "2025-11-15T18:08:22.729919"
         },
         "analysis": {
-          "summary": "Belgium's resistance to providing a $200 billion loan to Ukraine, a critical lifeline for the war-torn nation, highlights the geopolitical tensions in Europe over the use of frozen Russian assets. The delay could severely impact Ukraine's war efforts and its survival, raising concerns among allies and political figures globally.",
+          "summary": "Pope Leo has returned 62 artifacts to Indigenous peoples in Canada, acknowledging the Vatican's role in colonial history by repatriating items taken from Indigenous communities. This move is seen as a significant step in reconciliation efforts and a reckoning with the colonial past.",
           "key_points": [
-            "The $200 billion loan from Europe to Ukraine is stalled in Belgium due to pushback, possibly related to the use of frozen Russian assets.",
-            "Ukraine's financial survival is at risk without the new funds, influencing its ability to continue fighting and rebuilding.",
-            "Political pressure is mounting on Belgium, with some allies arguing that using frozen Russian assets is the most effective way to fund Ukraine."
-          ],
-          "sentiment": "Negative",
-          "confidence": "High",
-          "bias_check": "Potential biases might include a Eurocentric perspective that underestimates the complexities and political sensitivities involved in using frozen Russian assets. The focus on Belgium\u2019s resistance might overshadow broader European disagreements.",
-          "missing_context": "The article may not provide insight into the specific reasons behind Belgium's resistance, which could range from legal, political, or economic concerns. Additionally, Ukraine's broader international support and the strategies it might employ to navigate this funding shortfall could also be underrepresented.",
-          "implications": "The stalled loan could weaken Ukraine's military and economic capabilities, potentially leading to prolonged conflict and instability in the region. It may also influence future international cooperation and the policies regarding the use of frozen assets for humanitarian purposes. The situation underscores the complex dynamics in Europe regarding support for Ukraine and the contentious issue of Russian assets.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-15T12:12:28.094785",
-          "token_usage": {
-            "prompt_tokens": 291,
-            "completion_tokens": 346,
-            "total_tokens": 637
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_0_1763208641",
-          "title": "Disney settles dispute with YouTube TV, allowing ABC and ESPN to return to channel lineups - Los Angeles Times",
-          "description": "Disney settles dispute with YouTube TV, allowing ABC and ESPN to return to channel lineups\u00a0\u00a0Los Angeles TimesYouTube TV, Disney dispute ends: Agreement reached to carry ESPN, ABC, others\u00a0\u00a0USA TodayDisney and YouTube strike deal to bring TV channels back to streaming platform\u00a0\u00a0NBC NewsYouTube TV and Disney Reach Deal Ending Two-Week Blackout of ESPN, ABC\u00a0\u00a0VarietyGoogle and Disney reach deal to restore ESPN, ABC to YouTube TV\u00a0\u00a0CNBC",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOam1lcThVMDcybGJkM01wbDBuWTNaZURkWndsZE01eDJsMlh2OGdELVdaSV9Ba0s2ZndLdS1OR0t0R2R1R1hYa2I1aFpUdFlaXy1vV0ItN1JaMlpKVU05a1JRWERlWEs4OGk2LTUwMkMwSU5sWTNiUjlBeUlqRi1MU0t6ODVjMTBkZ1QwQm1yNU42MHMzQU1UeGFyRXN3SmJSVHM3OEw2bnRyTFBxeHhPSUNzMHk5RHVmbTFlNU1Pb19GdjkyUzFZOXB3?oc=5",
-          "source": "Los Angeles Times",
-          "published": "Sat, 15 Nov 2025 02:15:00 GMT",
-          "topic": "BUSINESS",
-          "fetched_at": "2025-11-15T12:10:41.210882"
-        },
-        "analysis": {
-          "summary": "Disney and YouTube TV have resolved their dispute, allowing ABC and ESPN to return to the streaming platform. This agreement ends a two-week blackout of these popular networks, marking a significant development in the streaming wars.",
-          "key_points": [
-            "Disney and YouTube TV have reached a settlement, ending a two-week blackout of ABC and ESPN.",
-            "The resolution comes amid competitive pressures in the streaming market.",
-            "This deal could influence other streaming platforms' strategies in the subscription wars."
+            "Pope Leo returns 62 artifacts to Indigenous peoples from Canada as part of efforts to address the historical wrongs of colonization.",
+            "This act of returning artifacts is seen as a gesture of reconciliation and recognition of Indigenous peoples' rights.",
+            "The Vatican's actions could set a precedent for other institutions holding Indigenous artifacts."
           ],
           "sentiment": "positive",
           "confidence": "high",
-          "bias_check": "The article is sourced from major news outlets, which may show a bias towards entertainment-related news, and the perspective may lean on the implications for media consumers and industry dynamics rather than the cost-benefit analysis for Disney and YouTube TV.",
-          "missing_context": "The article does not provide details on how the terms of the settlement were reached or any potential compromises made by the parties. It also lacks the financial or strategic impact this agreement might have on Disney, YouTube TV, and other stakeholders in the industry.",
-          "implications": "The agreement signifies a shift in the streaming landscape, potentially leading to a more competitive environment. It may prompt other platforms to renegotiate similar deals, impacting subscription costs and content availability for consumers. Additionally, this resolution can be seen as a strategic move by Disney to maintain its content dominance and continue to attract and retain subscribers.",
+          "bias_check": "The article may carry an inherent bias towards portraying the Vatican's actions positively, emphasizing reconciliation and progress while potentially downplaying any criticisms or controversies surrounding the repatriation process.",
+          "missing_context": "Details about the specific artifacts returned, the reasons why they were taken (e.g., for study, display, or sale), and the Indigenous communities' perspectives on this repatriation might be missing. Additionally, the broader context of similar actions by other institutions and the historical timeline of the Vatican's involvement with Indigenous peoples in Canada may be lacking.",
+          "implications": "This story has significant implications for the relationship between the Vatican and Indigenous peoples, potentially fostering trust and cooperation. It also highlights the growing international movement towards repatriation of cultural artifacts and may encourage other institutions to reconsider their own collections. However, it raises questions about the sufficiency of such actions in addressing the deeper systemic issues of colonialism and the ongoing struggles for Indigenous rights.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-15T12:12:35.917321",
+          "analyzed_at": "2025-11-15T18:10:55.421191",
           "token_usage": {
-            "prompt_tokens": 299,
-            "completion_tokens": 307,
-            "total_tokens": 606
+            "prompt_tokens": 279,
+            "completion_tokens": 350,
+            "total_tokens": 629
           }
         }
       },
       {
         "article": {
-          "id": "news_1_1763208641",
-          "title": "Future data centers are driving up forecasts for energy demand. States want proof they'll get built - abcnews.go.com",
-          "description": "Future data centers are driving up forecasts for energy demand. States want proof they'll get built\u00a0\u00a0abcnews.go.comData centers are spiking electricity costs in Maryland. It\u2019s the \u2018tip of the iceberg,\u2019 one expert warns\u00a0\u00a0CNNGoldman Sees China Power Push Giving It Edge Over US in AI Race\u00a0\u00a0Bloomberg.comData centers are concentrated in these states. Here's what's happening to electricity prices\u00a0\u00a0CNBCEnvironmental impact and net-zero pathways for sustainable artificial intelligence servers in the USA",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdkgyazR3MWNkT1ZxT0JEQ1BhYXh0Nk5nel9CbGp5Nk5lQVktM2ZZajkwWVJjSVl0TEZQUlNtTkNVVEZKQXZTcUV1bzNhUHFHbzFlU1BmR2pGS2xrY0M0b0o1cDh1UkNhUkxiRlVBTEVLMzhoVVIzbS01WENnbTQ5ZUdsU3R2QTZFQkREQnJWc21BWVI2eVhZVmh4YW9ocERWa1R3d184NUVDVmxxNVpMczhn0gG3AUFVX3lxTE05SnpldFdLRUNkMW1MRFNhcjlyMC1RRGJCR052OEZnb3hqelRaVFhBR3VlTFdFdnBXb2xUZTB4RDlaWEhzQWUyR2o1T0QtT0QzeGNvQnh3RjZ2bzdldnhQT2h1bDRkYXJJR28zSDUwZ0I1U3hpT3VDamFKQW1UN2cxdjlMdVhBMVdtcWJTckRZLWc2OGRLTGRIc2FRT3NrQ0l3ejBjOEdDZmcybU90ZnJIcXVpYmh6TQ?oc=5",
-          "source": "abcnews.go.com",
-          "published": "Sat, 15 Nov 2025 05:08:16 GMT",
+          "id": "news_0_1763230102",
+          "title": "Nearly $1 Billion Winning Mega Millions Ticket Sold In Georgia\u2014Here\u2019s What The Winner Takes Home After Taxes - Forbes",
+          "description": "Nearly $1 Billion Winning Mega Millions Ticket Sold In Georgia\u2014Here\u2019s What The Winner Takes Home After Taxes\u00a0\u00a0ForbesSingle ticket in Georgia claims $980 million Mega Millions jackpot\u00a0\u00a0CNNGeorgia Resident Wins $980M Mega Millions Jackpot \u2014 the Largest Lottery Prize in the State\u2019s History\u00a0\u00a0People.comMega Millions numbers for Friday, November 14, 2025: Ticket sold in Georgia wins jackpot\u00a0\u00a0Detroit Free PressMega Millions ticket holder wins $980M jackpot \u2014 largest lottery prize in Georgia\u2019s state his",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQeEtzLUdiT2M4LVpzR1BseFZIcC1YWmp1UGY0U3BMRllWNVJNeGU5VkpGbUVkSUYzR0FTdjVyUFZ0M1phS1pRM2dWMHFnNHRLRWYtZHdXX0w1bXhxTjI2TmdSazE2bEJlZ1pMdkhfbnpidTVLMGI0Q0tMS2x5WmxFTnU0QVh6Zmk4bDlpTzNPNjBEd3Vua3FDaWVLRXhKSnJvaXM0ZnlmNDVkS0dPdTl0TktGaENOUDVRcUQybldFNldLMHVHTURZcHRHb3AyT0VDcjdiWkhfRjFTczVnWWExc0JtcHNHMmlZUlpDTg?oc=5",
+          "source": "Forbes",
+          "published": "Sat, 15 Nov 2025 15:33:58 GMT",
           "topic": "BUSINESS",
-          "fetched_at": "2025-11-15T12:10:41.210928"
+          "fetched_at": "2025-11-15T18:08:22.929317"
         },
         "analysis": {
-          "summary": "The article discusses how the increasing demand for future data centers is raising energy consumption forecasts, with states seeking assurances these facilities will be constructed. Experts warn about rising electricity costs in states with significant data center concentration, and there's an ongoing discussion about the environmental impact and sustainable practices for such infrastructure, particularly in the context of artificial intelligence development.",
+          "summary": "A nearly $1 billion Mega Millions ticket was sold in Georgia, setting a new record for the state's largest lottery prize. The jackpot winner's take-home amount, after taxes, will be significantly lower than the advertised $980 million. This event highlights the importance of understanding tax implications when dealing with large lottery winnings.",
           "key_points": [
-            "Future data centers are expected to significantly increase energy demand, creating economic and environmental challenges.",
-            "States are seeking guarantees that new data centers will be built, amid rising electricity costs and concerns about their environmental impact.",
-            "There is a specific focus on the need for sustainable practices in the development of data centers to support artificial intelligence, highlighting a potential area for innovation and policy development."
+            "A nearly $1 billion Mega Millions jackpot was won in Georgia, marking the largest lottery prize in the state's history.",
+            "The advertised jackpot amount is $980 million, but the actual take-home amount after taxes is considerably less.",
+            "This case underscores the importance of being aware of the tax consequences associated with large lottery winnings."
           ],
           "sentiment": "Mixed",
           "confidence": "High",
-          "bias_check": "Potential bias may stem from the article's focus on the economic and environmental challenges without equally emphasizing the potential benefits and advancements in technology that data centers can offer, such as improved efficiency and innovation in AI.",
-          "missing_context": "The article does not delve into the potential government incentives, innovations in renewable energy, or the development of more energy-efficient data center technologies that could mitigate some of the concerns raised.",
-          "implications": "The growing need for data centers highlights a critical intersection of technology, energy policy, and environmental sustainability. It underscores the urgent need for advancements in energy-efficient technologies and sustainable practices to support the burgeoning field of artificial intelligence and the digital economy, while also considering the economic and regulatory frameworks that will enable or hinder this growth.",
+          "bias_check": "The article may be biased towards highlighting the excitement of the jackpot win and the historical significance of the event in Georgia, while potentially underemphasizing the complexities of tax implications and the fact that most lottery winners end up with less than the advertised jackpot amount.",
+          "missing_context": "The article does not provide details on the winner's plans, how much they will actually receive after taxes, or how common such large winnings are. It also does not discuss the potential challenges of managing a large sum of money.",
+          "implications": "This story illustrates the life-changing potential of lottery winnings, but it also serves as a reminder of the importance of financial literacy, especially regarding taxation. It may encourage people to educate themselves about the financial responsibilities that come with sudden wealth.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-15T12:12:44.238074",
+          "analyzed_at": "2025-11-15T18:11:03.697978",
           "token_usage": {
-            "prompt_tokens": 299,
-            "completion_tokens": 335,
-            "total_tokens": 634
+            "prompt_tokens": 302,
+            "completion_tokens": 325,
+            "total_tokens": 627
           }
         }
       },
       {
         "article": {
-          "id": "news_2_1763208641",
-          "title": "'I'm not buying Starbucks and you shouldn't either.' Seattle Mayor-elect Katie Wilson joins striking baristas - KUOW",
-          "description": "'I'm not buying Starbucks and you shouldn't either.' Seattle Mayor-elect Katie Wilson joins striking baristas\u00a0\u00a0KUOWZohran Mamdani tells 1M social media followers to boycott Starbucks amid ongoing worker strike\u00a0\u00a0Fox NewsStarbucks workers strike at some stores nationwide in 'Red Cup rebellion,' union says\u00a0\u00a0abcnews.go.com'No contract, no coffee': Starbucks employees are picketing over a fair union contract\u00a0\u00a0WGALStarbucks union says it expects 'largest, longest strike in company history'\u00a0\u00a0USA Today",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOQzRxVDVJOW1yQm11UXJQNGVGZVBvOXh0eTJ1Vm9pQVZHdVdNbDBLSWhqOGZTaW1GTlR1cU94QnRMd0E4RzE3Wm0xNS1DWng1ZzlTTGVFMW9mZGlTZk9Ba2x4Um4tTlFjMU1WSWRpQ3lZSFgxTFlldDJtT2ZPVEFZaEtpMW1iNWI5a0FfLWRB?oc=5",
-          "source": "KUOW",
-          "published": "Fri, 14 Nov 2025 19:22:42 GMT",
+          "id": "news_1_1763230102",
+          "title": "Disney, YouTube TV reach distribution deal after two-week blackout - Axios",
+          "description": "Disney, YouTube TV reach distribution deal after two-week blackout\u00a0\u00a0AxiosDisney reaches new deal with YouTube TV, ending blackout\u00a0\u00a0ESPNDisney\u2019s deal with YouTube TV shows how streamers are increasingly flexing their muscle\u00a0\u00a0MarketWatchDisney and YouTube strike deal to bring TV channels back to streaming platform\u00a0\u00a0NBC NewsESPN blackout on YouTube TV ends, as Disney and Alphabet strike deal\u00a0\u00a0The Washington Post",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ta08xT3FHRFRSTGpObVc2NkdfeGFXeVJ2Qm9TaUppd2Q3RVUzd1NwMUluM3d4bUxvWDI2ZDZvd2hyUmYtZVV3R3AxbUdRbmpOWTUycW1pQllvdmtlZWhrc29oNHhkdXU1NTM4WGNB?oc=5",
+          "source": "Axios",
+          "published": "Sat, 15 Nov 2025 13:57:59 GMT",
           "topic": "BUSINESS",
-          "fetched_at": "2025-11-15T12:10:41.210964"
+          "fetched_at": "2025-11-15T18:08:22.929346"
         },
         "analysis": {
-          "summary": "Seattle Mayor-elect Katie Wilson publicly joins the strike against Starbucks, urging people not to purchase their coffee, adding political weight to the ongoing labor dispute and potentially influencing public opinion and consumer behavior. This move reflects the growing tension between Starbucks and its employees' union, signaling a significant moment in the labor movement within the company.",
+          "summary": "Disney and YouTube TV have reached a distribution deal, ending a two-week blackout period. This agreement signifies the increasing influence of streamers in the media landscape and highlights the competitive nature of TV and streaming platforms.",
           "key_points": [
-            "Katie Wilson, the newly elected Seattle Mayor, supports the strike by Starbucks employees and encourages a boycott.",
-            "This political endorsement may amplify the impact of the strike on public perception and Starbucks' operations.",
-            "The union is calling for the largest and longest strike in Starbucks' history, indicating deep-rooted issues and substantial worker dissatisfaction."
+            "The blackout between Disney and YouTube TV was resolved with a distribution deal, marking a victory for YouTube TV amid escalating competition between streaming and traditional TV platforms.",
+            "Disney's agreement with YouTube TV showcases the growing power of streaming platforms, challenging traditional TV networks and altering the media industry.",
+            "This deal could set a precedent for similar agreements between other TV networks and streaming platforms, potentially leading to more competition and innovation in the industry."
           ],
-          "sentiment": "mixed",
+          "sentiment": "Mixed",
+          "confidence": "High",
+          "bias_check": "The source company, Axios, is known for its business and finance news, which may emphasize the commercial aspects of the story over other potential implications. The article itself doesn't appear to have a strong bias, but the focus on business success may overshadow other perspectives, such as concerns about monopolies or the effects on smaller streaming platforms.",
+          "missing_context": "Details about the specific terms of the distribution deal, such as any restrictions on Disney's content on YouTube TV or reciprocal rights for Disney content on YouTube, would provide a more comprehensive understanding. Additionally, information about how this deal affects consumers, such as changes in subscription rates or the availability of content, would be useful.",
+          "implications": "This deal may lead to a shift in the media landscape, with more streaming platforms gaining access to popular TV content. It could also lead to an increase in competition, possibly resulting in better services for consumers. However, it might also raise concerns about the consolidation of media power and the potential impact on smaller competitors.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-15T18:11:12.741279",
+          "token_usage": {
+            "prompt_tokens": 277,
+            "completion_tokens": 364,
+            "total_tokens": 641
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_2_1763230102",
+          "title": "Ex-Fed Governor Kugler Faced Ethics Probe Before She Resigned - Bloomberg.com",
+          "description": "Ex-Fed Governor Kugler Faced Ethics Probe Before She Resigned\u00a0\u00a0Bloomberg.comFormer Fed Official Violated Trading Rules, Disclosures Show\u00a0\u00a0The New York TimesEx-Fed official to face ethics inquiry over stock trades\u00a0\u00a0Financial TimesFormer fed official Adriana Kugler violated trading rules, disclosures show\u00a0\u00a0CNNKey Fed official was under investigation over stock trades, filing shows\u00a0\u00a0Axios",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUXlnQ2otOVVTRktDbUZnOFZjazNlWWs0N1BMTGpQdGRXRDYybWdoWEFDMllzcFJ1SG13Y0lMSzEybFc2Mk9QTmlnUWotM3BCNFlqM3hpa0FSSWxpS01pbVZ4R3EtUTZVbjhwLWJwWjVzVkgwNlc3UTRhalRJcHdBaDc2UUhLZlFjRXN4N1ZvcWxOMW9RblVLLUthaWo1NzJVMFNyME1FYk40VU5vZTZydTNB?oc=5",
+          "source": "Bloomberg.com",
+          "published": "Sat, 15 Nov 2025 16:56:57 GMT",
+          "topic": "BUSINESS",
+          "fetched_at": "2025-11-15T18:08:22.929368"
+        },
+        "analysis": {
+          "summary": "Ex-Federal Reserve Governor Adriana Kugler faced an ethics investigation due to alleged violations of trading rules, culminating in her resignation. The news raises questions about the integrity and transparency of senior officials in influential financial institutions.",
+          "key_points": [
+            "Adriana Kugler, former Fed Governor, faced an ethics investigation regarding stock trades.",
+            "The investigation was based on disclosures of trading activities prior to her resignation.",
+            "This event underscores the scrutiny and ethical standards governing high-level financial officials."
+          ],
+          "sentiment": "negative",
           "confidence": "high",
-          "bias_check": "The source mentions only the mayor's stance and the union's perspective, potentially neglecting Starbucks' counterarguments or other stakeholders.",
-          "missing_context": "Details about the underlying reasons for the strike, Starbucks' financial health, or the potential impact of the boycott on both the company and the employees could provide a more comprehensive view.",
-          "implications": "The mayor's involvement could galvanize more public support for the workers, potentially leading to broader discussions about labor rights and corporate responsibility. It might also pressure Starbucks to negotiate more earnestly, while the company could face challenges in maintaining customer relationships and supply chain stability.",
+          "bias_check": [
+            "Potential bias towards sensationalism by focusing on scandals involving high-ranking officials.",
+            "Possible bias in the portrayal of Adriana Kugler without sufficient context on the complexities of financial regulations."
+          ],
+          "missing_context": "Details on the specific trading rules allegedly violated, the nature of the disclosed transactions, and the timeline of events leading up to the resignation could provide a more comprehensive understanding.",
+          "implications": "This incident may prompt increased regulatory scrutiny and reforms to ensure transparency and ethical behavior among senior officials in financial institutions. It also highlights the importance of ethical standards and the potential consequences of their breach in maintaining public trust.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-15T12:12:51.937975",
+          "analyzed_at": "2025-11-15T18:11:19.467696",
           "token_usage": {
-            "prompt_tokens": 305,
-            "completion_tokens": 297,
-            "total_tokens": 602
+            "prompt_tokens": 274,
+            "completion_tokens": 262,
+            "total_tokens": 536
           }
         }
       },
       {
         "article": {
-          "id": "news_3_1763208641",
-          "title": "Walmart CEO Doug McMillon announces his surprise retirement at age 59 - AP News",
-          "description": "Walmart CEO Doug McMillon announces his surprise retirement at age 59\u00a0\u00a0AP NewsWalmart CEO Doug McMillon is stepping down\u00a0\u00a0CNNWho Is John Furner? Meet the Walmart Insider Named New CEO\u00a0\u00a0The Wall Street JournalWalmart CEO to retire in January\u00a0\u00a0Fox BusinessWalmart shares are up 312% during outgoing CEO Doug McMillon's tenure. Here's how that compares to its rivals\u00a0\u00a0CNBC",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOQ1pGTUdMZWRVZWsySnludjlubU13cl9jVkk1NTdkdlBVZlpfVWlZYkttb0hRTU5VckhEYWdwTEtEZDExVEViUWlXci1TZm5idk5JcXU2NmFTa2hlckxQd0tzaVRpR041dWRDVnh6djg3TTV6b1hZR05kdWxSR0lYb2FPY1ZqNkxPMkdnM2ZUa0pJZk1xMDQ3MUdB?oc=5",
-          "source": "AP News",
-          "published": "Fri, 14 Nov 2025 23:15:00 GMT",
+          "id": "news_3_1763230102",
+          "title": "Scaramuccis led $220 million investment in crypto mining firm tied to President\u2019s family\u2014\u2018Bitcoin transcends politics\u2019 - Fortune",
+          "description": "Scaramuccis led $220 million investment in crypto mining firm tied to President\u2019s family\u2014\u2018Bitcoin transcends politics\u2019\u00a0\u00a0FortuneSolari Capital, founded by the founder of SkyBridge Capital and his son, has invested over 100 million USD in American Bitcoin.\u00a0\u00a0BitgetCardano founder Charles Hoskinson and Scaramucci\u2019s firm invest in Trump-linked American Bitcoin in a $220M round\u00a0\u00a0Crypto BriefingScaramucci father and son led American Bitcoin's $220 million funding round last July\u00a0\u00a0bloomingbitSkyBridge f",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPcEJkdjRXX3V0MnppVGM1Nmc3TDFFWDg4VjliemdBNmJfU2tUNHdPeUo5a2RLclpqRjdFcW82NWQwYlppdmVMSHZkN0VCSk9lRHVmamdNUmVCSFh6eWtJeEVwcU5jakV0MVB6bmZLQ3NiVW1uQ1lqa2JHTDVrRURtRDlmYmJwSndfVmtKMHNVWEhrVFJBVndCQ3Q2cm1sSGRYN1VuMHpIWmRkZjVocFVya0FsU0x1MTg?oc=5",
+          "source": "Fortune",
+          "published": "Sat, 15 Nov 2025 13:00:00 GMT",
           "topic": "BUSINESS",
-          "fetched_at": "2025-11-15T12:10:41.210999"
+          "fetched_at": "2025-11-15T18:08:22.929391"
         },
         "analysis": {
-          "summary": "Walmart CEO Doug McMillon has announced his surprise retirement at age 59, ending a decade-long tenure that saw significant stock performance, and has left the company in search of a new leader amid industry speculation about potential candidates.",
+          "summary": "Solari Capital, led by Solari brothers, invested $220 million in a crypto mining firm with ties to President Trump's family, indicating the growing influence of high-profile individuals in the cryptocurrency space. This move by a firm known for its billionaire investors and political connections underscores the blurred lines between politics and the burgeoning crypto industry.",
           "key_points": [
-            "Doug McMillon's unexpected retirement at age 59.",
-            "McMillon's leadership boosted Walmart shares by 312% over his tenure.",
-            "Industry speculation about the new CEO, with possible candidates including John Furner or other Walmart insiders."
+            "Solari Capital, led by Solari brothers, made a $220 million investment in a crypto mining firm linked to President Trump's family.",
+            "The involvement of high-profile individuals like Solari brothers highlights the increasing intersection of politics and cryptocurrency.",
+            "Investment in a crypto mining firm by a politically connected entity raises questions about the influence and intentions behind such moves."
           ],
           "sentiment": "Mixed",
           "confidence": "High",
-          "bias_check": "The article may lean towards a positive portrayal of McMillon's achievement due to Walmart's stock performance. Speculations about the new CEO could introduce bias based on the perceived credibility of industry sources.",
-          "missing_context": "The article does not provide information about the market conditions that contributed to Walmart's stock performance, nor does it mention any specific challenges or controversies faced by McMillon during his tenure.",
-          "implications": "McMillon's retirement could signal a shift in Walmart's strategic direction and potentially affect its stock performance. The search for a new CEO underscores the importance of leadership in sustaining company growth and navigating industry changes.",
+          "bias_check": "The source is a financial publication, which may have its own biases towards sensationalizing political connections. The article may also emphasize controversy over substance.",
+          "missing_context": "The article does not provide detailed information about the firm\u2019s business model, the firm's potential impact on the crypto market, or the specific reasons behind the Solari brothers' investment. It also doesn't cover the broader implications of such investments in the context of regulatory and market responses.",
+          "implications": "This story highlights the increasing involvement of political figures and their networks in the cryptocurrency space, which may lead to increased scrutiny and regulatory challenges. It also reflects the growing influence of powerful investors and underscores potential conflicts of interest and the need for transparency and ethical considerations in the industry.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-15T12:13:00.152719",
+          "analyzed_at": "2025-11-15T18:11:27.695927",
           "token_usage": {
-            "prompt_tokens": 281,
-            "completion_tokens": 264,
-            "total_tokens": 545
+            "prompt_tokens": 316,
+            "completion_tokens": 327,
+            "total_tokens": 643
           }
         }
       },
       {
         "article": {
-          "id": "news_4_1763208641",
+          "id": "news_4_1763230102",
           "title": "Berkshire Hathaway reveals $4.3bn stake in Alphabet as it trims Apple holdings - Financial Times",
-          "description": "Berkshire Hathaway reveals $4.3bn stake in Alphabet as it trims Apple holdings\u00a0\u00a0Financial TimesWarren Buffett's Berkshire Hathaway reveals new position in Alphabet\u00a0\u00a0CNBCBuffett\u2019s Berkshire Builds a $4.9 Billion Stake in Alphabet\u00a0\u00a0Bloomberg.comBerkshire Added $4 Billion Alphabet Stake and Further Pared Apple Stock\u00a0\u00a0The Wall Street JournalBerkshire May Have Sold Apple, Bank of America Stock in Third Quarter\u00a0\u00a0Barron's",
+          "description": "Berkshire Hathaway reveals $4.3bn stake in Alphabet as it trims Apple holdings\u00a0\u00a0Financial TimesBerkshire Hathaway's surprising new tech stake\u00a0\u00a0CNBCDespite AI bubble fears, Warren Buffett's Berkshire Hathaway buys shares of hyperscaler Alphabet\u00a0\u00a0FortuneBuffett\u2019s Berkshire Builds a $4.9 Billion Stake in Alphabet\u00a0\u00a0Bloomberg.comBerkshire Added $4 Billion Alphabet Stake and Further Pared Apple Stock\u00a0\u00a0The Wall Street Journal",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1WYTJJYWxMYnZweXl3bVZmaVcyaDFVRlVZQTUyNWdTSXBBejdXU1VmREVLejJnQnBCS2MxX3NQRHpKemx1Wms5QmZKaGxMeE05MmxTTm5IUmZ3UUJZdVI1ZjJDM0xmTDZPZXZsTDN6d2Q?oc=5",
           "source": "Financial Times",
           "published": "Fri, 14 Nov 2025 22:24:05 GMT",
           "topic": "BUSINESS",
-          "fetched_at": "2025-11-15T12:10:41.211037"
+          "fetched_at": "2025-11-15T18:08:22.929412"
         },
         "analysis": {
-          "summary": "Berkshire Hathaway, led by Warren Buffett, has announced a $4.3 billion stake in Alphabet, while trimming its holdings in Apple. This strategic shift indicates a diversification in Berkshire's investment portfolio, reflecting Buffett's long-term investment philosophy and confidence in Alphabet's growth potential amid market volatility.",
+          "summary": "Berkshire Hathaway, led by Warren Buffett, significantly increases its investment in Alphabet by $4.3 billion while decreasing its Apple holdings. This move underscores Buffett's growing confidence in tech stocks despite the prevalent AI bubble fears, and it signals a strategic pivot towards the digital economy's leaders.",
           "key_points": [
-            "Berkshire Hathaway's substantial investment in Alphabet suggests a belief in the tech giant's long-term potential.",
-            "The trimming of Apple holdings indicates a reassessment of the company's future performance and market conditions.",
-            "Berkshire's investment strategy reflects a balanced approach to managing risks and capitalizing on growth opportunities."
+            "Berkshire Hathaway's $4.3 billion investment in Alphabet indicates a heightened focus on technology and digital transformation.",
+            "Buffett's decision to reduce Apple holdings suggests a diversification strategy within the tech sector.",
+            "The investment reflects a broader trend among traditional investors recognizing the potential of tech giants like Alphabet."
           ],
-          "sentiment": "Mixed - The investment in Alphabet could be seen as a positive move, reflecting confidence in the tech sector's growth, while trimming Apple holdings might indicate a conservative stance in response to market uncertainties.",
+          "sentiment": "Mixed",
           "confidence": "High",
-          "bias_check": "The article might reflect a bias towards Alphabet's performance and potential, given the significant investment. The emphasis on trimming Apple holdings could imply a bias towards skepticism about Apple's future.",
-          "missing_context": "Additional context about Berkshire Hathaway's overall portfolio diversification, the specific reasons behind the trimming of Apple holdings, and the broader tech industry trends could provide a more comprehensive understanding.",
-          "implications": "Berkshire Hathaway's investment choices could influence investor perceptions and market trends, potentially leading to increased investor confidence in Alphabet and a more cautious approach towards Apple in the short term.",
+          "bias_check": "The article may present a bias towards highlighting Berkshire Hathaway's decision as a strategic and confident move, while not equally emphasizing any potential risks or challenges involved.",
+          "missing_context": "The article does not discuss Berkshire Hathaway's overall investment strategy, the current market conditions, or how this move might be perceived by other investors and analysts.",
+          "implications": "Berkshire Hathaway's investment in Alphabet could signal a shift in the investment landscape, with more traditional investors potentially following suit. It may also influence market perception of Alphabet and tech stocks generally, and could lead to increased scrutiny of Berkshire Hathaway's other holdings and investment decisions.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-15T12:13:08.365076",
+          "analyzed_at": "2025-11-15T18:11:35.140835",
           "token_usage": {
-            "prompt_tokens": 288,
-            "completion_tokens": 315,
-            "total_tokens": 603
+            "prompt_tokens": 287,
+            "completion_tokens": 289,
+            "total_tokens": 576
           }
         }
       }
@@ -512,19 +514,19 @@
     "articles_analyzed": 15
   },
   "costs": {
-    "execution_time": 132.10443592071533,
-    "execution_minutes": 2.201740598678589,
-    "github_actions": 0.017613924789428713,
+    "execution_time": 177.95084428787231,
+    "execution_minutes": 2.965847404797872,
+    "github_actions": 0.023726779238382976,
     "openai": {
-      "input": 0.00067455,
+      "input": 0.0006425999999999999,
       "output": 0.0027366,
-      "total": 0.00341115
+      "total": 0.0033791999999999997
     },
-    "total": 0.021025074789428715,
+    "total": 0.027105979238382975,
     "token_usage": {
-      "prompt_tokens": 4497,
+      "prompt_tokens": 4284,
       "completion_tokens": 4561,
-      "total_tokens": 9058
+      "total_tokens": 8845
     }
   }
 }
