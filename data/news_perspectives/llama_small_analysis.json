@@ -2,718 +2,683 @@
   "agent": "llama-small-analyzer",
   "model": "Llama 3.1 8B",
   "model_id": "meta/meta-llama-3.1-8b-instruct",
-  "timestamp": "2025-11-15T00:30:09.593843",
+  "timestamp": "2025-11-15T06:11:49.428285",
   "status": "completed",
   "data": {
     "analyses": [
       {
         "article": {
-          "id": "news_0_1763166512",
-          "title": "Forget Samsung S25 Ultra: This OnePlus flagship beats the Android giant in meaningful ways - ZDNET",
-          "description": "Forget Samsung S25 Ultra: This OnePlus flagship beats the Android giant in meaningful ways\u00a0\u00a0ZDNETThe OnePlus 15 Has Two-Day Battery Life. \u2019Nuff Said\u00a0\u00a0WIREDI compared the cameras of Samsung and OnePlus' flagship phones - and it went down to the wire\u00a0\u00a0ZDNETOnePlus 15 smartphone launch: Big battery, big screen, and big AI ambitions\u00a0\u00a0SFGATEOnePlus\u2019s New Two-Day Battery Life Phone Delayed by US Government Shutdown\u00a0\u00a0Bloomberg.com",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQOUtSZTltZlZVQm9oUVRGUDA2QWRUMU91ekhIYkl2LTNHeXdBcGdsd3VTaVgyZ0lMQ2phbHBhb01JeVRJZXYxYmQtNTJpYnpfYk5pNFpEWk5ZT2Y3VXlwYUxsTXBmX2d5Z0Jhb3ZjQzdHMjVpWXhVR19GdlBnbDZZeC1KSFBvQ1NmUjktSW1JTWFRS1pXdGNtYU5zWHJEY1Y4bEpnUklxajhmajJRbXh4RWpCYXlVeUF1cmNXSQ?oc=5",
-          "source": "ZDNET",
-          "published": "Fri, 14 Nov 2025 10:00:00 GMT",
+          "id": "news_0_1763186961",
+          "title": "Valve is making microSD cards the next game cartridges - The Verge",
+          "description": "Valve is making microSD cards the next game cartridges\u00a0\u00a0The VergeValve announces new Steam Machine console: Price, specs, release date\u00a0\u00a0MashableOur first look at the Steam Machine, Valve\u2019s ambitious new game console\u00a0\u00a0The Verge'No point making a high-spec Steam Machine,' Larian publishing boss says, because anyone who wants a powerful PC is going to look elsewhere anyway\u00a0\u00a0PC GamerValve's Next-Gen Steam Machine and Steam Controller \u2014 the Big Interview\u00a0\u00a0IGN",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNUk5hMHk5ZzVfN054MGFwN0h0WnZHelRGZlUyS08yOHdDdS11VUVqcHhOcFBtbEJPRXd3dmx3VkRVSjR4UHEweUpzNUxRZWRpYUZObDRRcGg3OXhyTmpFTlgwOS1ZOG1nUUE4bkFSUktHNHlWLVIydFRRYzV3eTZNZ3U3TnBRLWdUQTNPYmlsdG9XMzF3bTFVVkstMHJfdw?oc=5",
+          "source": "The Verge",
+          "published": "Fri, 14 Nov 2025 13:00:00 GMT",
           "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-15T00:28:32.588055"
+          "fetched_at": "2025-11-15T06:09:21.031019"
         },
         "analysis": {
-          "summary": "The OnePlus 15 flagship phone is being touted as a superior option to the Samsung S25 Ultra, particularly in terms of battery life, camera performance, and AI ambitions. However, it's essential to consider the potential biases and missing context in these comparisons. The OnePlus 15's advantages may not outweigh the Samsung S25 Ultra's existing user base and ecosystem.",
+          "summary": "Valve is introducing microSD cards as an alternative to traditional game cartridges, a move that could simplify game distribution and potentially reduce costs for consumers. This development is part of a broader effort by Valve to establish a new standard for PC gaming, with the Steam Machine console and Steam Controller at its core. However, there are concerns that this shift may have implications for game developers and publishers, particularly in terms of cost and revenue.",
           "key_points": [
-            "OnePlus 15 offers a significant advantage in battery life, with two-day battery life on a single charge.",
-            "The phone's camera performance is comparable to the Samsung S25 Ultra, with some reviewers praising its capabilities in challenging lighting conditions.",
-            "OnePlus's AI ambitions, including the use of AI-powered camera features and optimization, set the company apart from Samsung.",
-            "The US government shutdown has reportedly delayed the OnePlus 15's launch in the US market."
+            "Valve is using microSD cards as a game distribution method, potentially reducing costs for consumers.",
+            "The Steam Machine console and Steam Controller are central to Valve's gaming ecosystem strategy.",
+            "There may be implications for game developers and publishers in terms of cost and revenue.",
+            "Valve's move could simplify game distribution and reduce costs for consumers, but may also lead to platform consolidation."
           ],
-          "sentiment": "positive",
-          "confidence": "medium",
-          "bias_check": [
-            "The story may be biased towards OnePlus, given the author's emphasis on the phone's advantages over the Samsung S25 Ultra.",
-            "The comparison may be limited to specific features, such as battery life and camera performance, rather than considering the broader ecosystem and user experience."
-          ],
-          "missing_context": [
-            "The article does not provide a comprehensive review of the Samsung S25 Ultra, which may lead to an incomplete understanding of its capabilities.",
-            "The OnePlus 15's performance in other areas, such as processing power, storage, and software updates, may not be equally impressive.",
-            "The impact of the US government shutdown on the OnePlus 15's launch in the US market is not fully explained, and its long-term consequences are unknown."
-          ],
-          "implications": [
-            "The smartphone market may become increasingly competitive, with OnePlus and Samsung engaging in a feature-war to attract consumers.",
-            "The use of AI-powered camera features and optimization may become a standard in future smartphone designs, driving innovation and improving user experience.",
-            "The delay in the OnePlus 15's launch in the US market may have significant consequences for the company's revenue and market share."
-          ],
-          "model": "Llama 3.1 8B",
-          "model_id": "meta/meta-llama-3.1-8b-instruct",
-          "analyzed_at": "2025-11-15T00:28:51.129517",
-          "token_usage": {
-            "prompt_tokens": 358,
-            "completion_tokens": 691,
-            "total_tokens": 1049
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_1_1763166512",
-          "title": "TCL QM9K Review: The Brightest TV Yet Faces Off Against OLED - CNET",
-          "description": "TCL QM9K Review: The Brightest TV Yet Faces Off Against OLED\u00a0\u00a0CNET",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPSWJQbUhPU0JXU3FhNkt5eHF4eHQ0bVBQWFpkTE5NOGNFRWtwWWlLU3F6bkpfSlM1bkZlVVdTb0VJVGxhUF84ZDBYYUdnUGlTWURjY0d0ZmVkNmgxZHZMc3pVanVpSjdBUF9RS0ZTYjlfR241b0RtYllfRWhEYkxkUVFLaU5IYjlWZ3ZOVGZBSHU4YWVCeEdKSGk3UzJHbFk?oc=5",
-          "source": "CNET",
-          "published": "Thu, 13 Nov 2025 13:00:00 GMT",
-          "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-15T00:28:32.588072"
-        },
-        "analysis": {
-          "summary": "The TCL QM9K TV has set a new record for brightness, but its high-end features and sleek design come at a price. This review pits the QM9K against OLED TVs, highlighting the trade-offs between picture quality and cost. The result is a fascinating comparison of two distinct display technologies.",
-          "key_points": [
-            "The TCL QM9K TV is the brightest TV available, with a peak brightness of 10,000 nits.",
-            "It features Mini-LED technology and 8K resolution, but its price is significantly higher than OLED TVs.",
-            "OLED TVs, on the other hand, offer better contrast and black levels, but may struggle in very bright environments.",
-            "The reviewer notes that the QM9K's brightness comes at the cost of some image processing artifacts."
-          ],
-          "sentiment": "positive (with reservations)",
+          "sentiment": "neutral",
           "confidence": "high",
           "bias_check": [
-            "The review has a slight bias towards highlighting the QM9K's impressive brightness, but also acknowledges its limitations.",
-            "The comparison between the QM9K and OLED TVs is fair, but the reviewer may have inadvertently emphasized the QM9K's advantages.",
-            "There is no apparent bias towards or against the OLED TV manufacturers."
+            "The article appears to be written from a neutral perspective, but there may be a subtle bias towards presenting Valve's efforts in a positive light.",
+            "The article may have a bias towards reporting on Valve's innovations and forgetting to report on any potential downsides of their efforts",
+            "The article is likely written from a consumer's perspective and may prioritize the benefits of the new technology for the end user."
           ],
-          "missing_context": [
-            "More context on the specific use cases where the QM9K's brightness would be beneficial (e.g., gaming, home theaters).",
-            "A comparison of the QM9K's color accuracy and gamut with OLED TVs, which may be an important factor for some users.",
-            "Discussion of the long-term reliability and maintenance costs of the QM9K's Mini-LED technology."
-          ],
-          "implications": [
-            "The QM9K's record-breaking brightness may revolutionize the home entertainment industry, making it easier to achieve immersive viewing experiences in a wider range of environments.",
-            "However, the high cost and potential trade-offs in image quality may limit the QM9K's appeal to a niche market.",
-            "The comparison between the QM9K and OLED TVs highlights the ongoing debate between brightness and contrast as key factors in picture quality."
-          ],
+          "missing_context": "The article could benefit from more information on the potential implications of this shift for game developers and publishers, particularly in terms of cost and revenue. Additionally, the article could explore the potential impact on the gaming industry as a whole, including the potential for platform consolidation.",
+          "implications": "This shift could have significant implications for the gaming industry, including the potential for platform consolidation, changes in game distribution and pricing models, and new opportunities for innovation and growth.",
           "model": "Llama 3.1 8B",
           "model_id": "meta/meta-llama-3.1-8b-instruct",
-          "analyzed_at": "2025-11-15T00:28:56.031462",
+          "analyzed_at": "2025-11-15T06:09:41.001879",
           "token_usage": {
-            "prompt_tokens": 274,
-            "completion_tokens": 793,
-            "total_tokens": 1067
+            "prompt_tokens": 354,
+            "completion_tokens": 759,
+            "total_tokens": 1113
           }
         }
       },
       {
         "article": {
-          "id": "news_2_1763166512",
-          "title": "Apple\u2019s $230 Cloth iPhone Pouch Is Already Sold Out \u2014 Here\u2019s What It\u2019s Like - Bloomberg.com",
-          "description": "Apple\u2019s $230 Cloth iPhone Pouch Is Already Sold Out \u2014 Here\u2019s What It\u2019s Like\u00a0\u00a0Bloomberg.comApple\u2019s iPhone Pocket by Issey Miyake Is Confusing by Design\u00a0\u00a0The New York TimesIntroducing iPhone Pocket: a beautiful way to wear and carry iPhone\u00a0\u00a0AppleApple launches $229.95 iPhone Pocket \u2018sock\u2019 to widespread bemusement\u00a0\u00a0CNNApple Roasted Over New $230 iPhone Pocket \u2018Sock\u2019\u00a0\u00a0The Daily Beast",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQcjRxalRpaGtCU0tQVEwtNVdSdjdQcHU4QnluLUtjV1h3OGRPWUxRVGs1RlFLQ1drN19fdDJ2Q1h4SENrUDhiRnFwcWg3bEpZRjRWXzVUNklLdGdWdU5aLS1LZWU4Z00xSXc3cWdHQUFkNzBBamdhdkpHb05iUjFxNE1CWUxJdGlqNjZqdjlmUmNzQnNkenVNRVRPeXRkOWc0SW1vT3ozUFdaQnZVcGxocXp5OWo4UktNX0JUQURHbDdmMG8?oc=5",
-          "source": "Bloomberg.com",
-          "published": "Fri, 14 Nov 2025 19:16:07 GMT",
+          "id": "news_1_1763186961",
+          "title": "Google rolls out official call recording across Pixel lineup - Android Central",
+          "description": "Google rolls out official call recording across Pixel lineup\u00a0\u00a0Android CentralGoogle rolls out Pixel Phone app Call Recording\u00a0\u00a09to5GoogleGoogle finally rolls out Call Recording for Pixel phones worldwide\u00a0\u00a0Android AuthorityYour Google Pixel can finally record calls\u00a0\u00a0Android PoliceGoogle unlocks call recording for older Pixels - GSMArena.com news\u00a0\u00a0GSMArena.com",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNV2J1QlY5ZzZibXRZS0FkN0hDTFdJY3BPVl9sTERSX0tKWU1xczlYWW5NRlVyUWRoM0MxRlNka3F6WWpReThuZGFiNnlsWGhEeUYydXZrU3JmN0tqODIwc0UzQjF0YWh0WF9tcHlralB6YjRlWmkweDQwNk1vS2V6V2c2S293U1diVi1yOHNYamNjenNvcDBudGFvdDBJb0VlaldQM2tLVmlGSzV4Rl9PYnFqVGNPZw?oc=5",
+          "source": "Android Central",
+          "published": "Fri, 14 Nov 2025 14:56:00 GMT",
           "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-15T00:28:32.588095"
+          "fetched_at": "2025-11-15T06:09:21.031045"
         },
         "analysis": {
-          "summary": "Apple's $230 Cloth iPhone Pouch, also known as the iPhone Pocket, has sparked controversy and confusion with its design, leading to a sell-out within a short period. The product has been met with mixed reviews, with some praising its aesthetics and others criticizing its functionality and price. From a design perspective, the iPhone Pocket seems to prioritize style over practicality.",
+          "summary": "Google has officially rolled out call recording capabilities to its Pixel lineup, allowing users to record phone calls. This feature, initially available on some devices, is now accessible worldwide. The update is part of the Pixel Phone app and can be found in the app's settings.",
           "key_points": [
-            "The iPhone Pocket has a unique design that combines a cloth pouch with a phone case, which has raised questions about its purpose and functionality.",
-            "The product has been met with mixed reviews, with some customers praising its aesthetics and others criticizing its price and design.",
-            "The iPhone Pocket has already sold out within a short period, indicating a strong demand for the product despite the controversy surrounding it.",
-            "The product's price of $230 has been criticized as excessive, considering its functionality and lack of innovative features.",
-            "The design of the iPhone Pocket has been compared to a sock, which has further contributed to the controversy surrounding the product."
+            "Google has officially released call recording for all Pixel devices, making it a standard feature.",
+            "The feature is part of the Pixel Phone app, accessible through the app's settings.",
+            "Call recording was initially available on some devices but is now available worldwide.",
+            "This update brings parity to Pixel devices, as some users had access to the feature through third-party apps or software versions."
           ],
-          "sentiment": "mixed",
-          "confidence": "medium",
+          "sentiment": "Positive",
+          "confidence": "High",
           "bias_check": [
-            "Potential bias towards Apple's design aesthetic, which may be perceived as prioritizing style over functionality.",
-            "Potential bias towards criticizing the product's price and design without considering the target market or customer preferences.",
-            "Potential bias towards focusing on the controversy surrounding the product rather than its potential benefits or features."
+            "The article might be biased towards Google, as it presents the update as a positive development without mentioning potential concerns or limitations.",
+            "The article might also be biased towards Android users, as it assumes that users are interested in the feature and its implications."
           ],
           "missing_context": [
-            "More information about the target market and customer preferences for the iPhone Pocket would be helpful in understanding its design and functionality.",
-            "Comparisons with other phone cases or accessories that offer similar features or functionalities would provide a more comprehensive understanding of the iPhone Pocket's value proposition.",
-            "More context about the design process and the role of Issey Miyake in the product's development would provide insight into Apple's design philosophy and decision-making process."
+            "Potential security concerns related to call recording, such as eavesdropping or data protection.",
+            "Regional or cultural differences in call recording laws and regulations.",
+            "Alternative methods for recording calls, such as third-party apps or hardware solutions."
           ],
           "implications": [
-            "The iPhone Pocket may indicate a shift in Apple's design approach, prioritizing style and aesthetics over functionality and innovation.",
-            "The product's success or failure may have implications for the phone accessory market and the role of design in driving sales and customer engagement.",
-            "The controversy surrounding the iPhone Pocket may highlight the challenges of balancing style and functionality in product design, particularly in the tech industry."
+            "The widespread adoption of call recording on Pixel devices could lead to increased transparency and accountability in business and personal interactions.",
+            "The feature may also raise concerns about data protection and eavesdropping, particularly in regions with strict call recording laws.",
+            "The update may set a precedent for other Android manufacturers to follow, potentially leading to a standardization of call recording capabilities across the platform."
           ],
           "model": "Llama 3.1 8B",
           "model_id": "meta/meta-llama-3.1-8b-instruct",
-          "analyzed_at": "2025-11-15T00:29:00.185283",
+          "analyzed_at": "2025-11-15T06:09:45.917239",
           "token_usage": {
-            "prompt_tokens": 352,
-            "completion_tokens": 677,
-            "total_tokens": 1029
+            "prompt_tokens": 319,
+            "completion_tokens": 773,
+            "total_tokens": 1092
           }
         }
       },
       {
         "article": {
-          "id": "news_3_1763166512",
+          "id": "news_2_1763186961",
           "title": "Two tantalizing hours with Metroid Prime 4: Beyond - Game File | Stephen Totilo",
-          "description": "Two tantalizing hours with Metroid Prime 4: Beyond\u00a0\u00a0Game File | Stephen TotiloMetroid Prime 4: Beyond \u2013 The Final Preview\u00a0\u00a0IGNSo far, Metroid Prime 4 doesn\u2019t feel much like Metroid at all \u2013 and I\u2019m worried\u00a0\u00a0Video Games Chronicle\u2018Metroid Prime 4\u2019 Has Been in the Works for Almost a Decade. Can It Live Up to the Hype?\u00a0\u00a0Rolling StoneMetroid Prime 4: Beyond puts the 'Metroid' in 'Metroidvania'\u00a0\u00a0Polygon",
+          "description": "Two tantalizing hours with Metroid Prime 4: Beyond\u00a0\u00a0Game File | Stephen Totilo'Metroid Prime 4' looks and feels great, but I'm nervous about one little thing\u00a0\u00a0MashableSo far, Metroid Prime 4 doesn\u2019t feel much like Metroid at all \u2013 and I\u2019m worried\u00a0\u00a0Video Games Chronicle\u2018Metroid Prime 4\u2019 Has Been in the Works for Almost a Decade. Can It Live Up to the Hype?\u00a0\u00a0Rolling StoneMetroid Prime 4 for Switch 2 Delivers the Biggest Evolution the Franchise Has Seen\u00a0\u00a0CNET",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1TMnZoTTFOazk1OHcxQkpEQ1F3TEhsME5NLTZrX1NmMHBoN2x1clV6bHMwWlVfbmpqaG1PcnR2dl9qeFQ1bHE3TV9MdlprMTFWY0dXOGllZzlXejlmQ3dJXzA1OUFwcFBRQXc?oc=5",
           "source": "Game File | Stephen Totilo",
           "published": "Fri, 14 Nov 2025 15:31:15 GMT",
           "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-15T00:28:32.588118"
+          "fetched_at": "2025-11-15T06:09:21.031066"
         },
         "analysis": {
-          "summary": "I'm concerned that Metroid Prime 4: Beyond may not live up to the hype due to its departing from the traditional Metroid formula. The game's preview suggests a more 'Metroidvania'-style gameplay, which may alienate fans of the series. The prolonged development period of almost a decade raises questions about Nintendo's approach to the game's development.",
+          "summary": "The highly anticipated Metroid Prime 4 game has been leaked, and two hours of gameplay have revealed a promising yet uncertain experience. The game's graphics and feel are impressive, but concerns about its faithfulness to the original Metroid series have been raised. The gaming community is eagerly awaiting its release, but questions about its potential impact on the franchise remain.",
           "key_points": [
-            "Metroid Prime 4: Beyond seems to be shifting towards a more 'Metroidvania'-style gameplay, deviating from the traditional Metroid formula.",
-            "The game's prolonged development period of almost a decade raises concerns about Nintendo's approach to the game's development.",
-            "Fans of the series may be disappointed with the changes in gameplay and the departure from the traditional Metroid formula.",
-            "The game's preview suggests a more action-oriented gameplay, which may appeal to a broader audience but may lose some of the essence of the Metroid series.",
-            "The hype surrounding the game may be difficult to meet, given the significant changes in gameplay and the prolonged development period."
+            "Metroid Prime 4's graphics and gameplay feel great, but its faithfulness to the original series is uncertain.",
+            "The game has been in development for almost a decade, which has built up significant hype and expectations.",
+            "Concerns about the game's identity and how it will fit within the Metroid series have been raised by critics and gamers alike.",
+            "The game's release on the Switch 2 console is a significant development, marking a major evolution for the franchise."
           ],
-          "sentiment": "negative",
+          "sentiment": "mixed",
           "confidence": "medium",
           "bias_check": [
-            "Potential bias towards disappointment from fans of the series.",
-            "Potential bias towards Nintendo's development approach, which may be perceived as slow or ineffective.",
-            "Potential bias towards the traditional Metroid formula, which may be seen as superior to the new 'Metroidvania'-style gameplay."
+            "Potential bias towards negative reviews: The article may be more likely to report on negative reviews and criticisms from the gaming community.",
+            "Potential bias towards the gaming industry: The article may be influenced by the gaming industry's desire to create a successful and engaging game."
           ],
           "missing_context": [
-            "More information about the game's development process, including the challenges faced by the team and the reasons behind the prolonged development period.",
-            "A comparison of the game's gameplay to other 'Metroidvania' games, to see how it stands out or fits in with the genre.",
-            "A deeper analysis of the game's story and characters, to see how they fit into the larger Metroid universe."
+            "More information about the game's storyline and characters would be beneficial to understand its identity within the Metroid series.",
+            "Context about the game's development process and any potential challenges or roadblocks that the team may have faced.",
+            "Perspectives from fans and critics who have played the game extensively would provide a more nuanced understanding of its strengths and weaknesses."
           ],
           "implications": [
-            "The success or failure of Metroid Prime 4: Beyond may impact Nintendo's reputation as a developer of high-quality, immersive games.",
-            "The game's departure from the traditional Metroid formula may set a precedent for future games in the series, potentially alienating fans who prefer the original gameplay.",
-            "The prolonged development period of the game may lead to a reevaluation of Nintendo's development process and approach to game development."
+            "The release of Metroid Prime 4 has significant implications for the gaming industry, particularly in terms of the continued success of Nintendo's Switch console.",
+            "The game's reception will also have a major impact on the Metroid series, potentially shaping the direction of future games and spin-offs.",
+            "The game's identity and faithfulness to the original series will also influence the gaming community's perception of Nintendo's ability to create engaging and authentic gaming experiences."
           ],
           "model": "Llama 3.1 8B",
           "model_id": "meta/meta-llama-3.1-8b-instruct",
-          "analyzed_at": "2025-11-15T00:29:05.273882",
+          "analyzed_at": "2025-11-15T06:09:51.797233",
           "token_usage": {
-            "prompt_tokens": 376,
-            "completion_tokens": 809,
-            "total_tokens": 1185
+            "prompt_tokens": 384,
+            "completion_tokens": 935,
+            "total_tokens": 1319
           }
         }
       },
       {
         "article": {
-          "id": "news_4_1763166512",
-          "title": "Apple's new App Review Guidelines clamp down on apps sharing personal data with 'third-party AI' - TechCrunch",
-          "description": "Apple's new App Review Guidelines clamp down on apps sharing personal data with 'third-party AI'\u00a0\u00a0TechCrunchApple's New App Store Rules Take Aim at Personal Data Sharing With AI\u00a0\u00a0CNETApple Tightens App Review Rules to Crack Down on Copycats and Clarify Policies\u00a0\u00a0The Mac ObserverApple\u2019s new rules could give us a break from shady copycat apps\u00a0\u00a0Digital TrendsApple tightens App Store rules against copycat apps\u00a0\u00a0heise online",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZ0l1VXlwVkk2UERiTTg2MDZUa3RlWTA0VmR6YXhacVNEc29QTUFmWExWZDBYdTQtdGZFS0VPbHZHZzVTaXhKQTQ0ZWJFVm5TZHNyRnlILXlLd0VITVJQVWY2QnliQzRQNU1ib3AtNFJfZG8ybmc3a19ma2k1TlNqODE0ZWxsRDIxckFONVNKZndsNUpCeGRCWEVONFgtd3U1YmZyakV3VDJLMG9KV1ViRU4wb05GZWZJSDVwMDF4TUFQZHZPZ25n?oc=5",
-          "source": "TechCrunch",
-          "published": "Thu, 13 Nov 2025 21:14:35 GMT",
+          "id": "news_3_1763186961",
+          "title": "Call of Duty: Black Ops 7 campaign cannot be paused by solo players, has no checkpoints, and requires an online connection at all times - Eurogamer",
+          "description": "Call of Duty: Black Ops 7 campaign cannot be paused by solo players, has no checkpoints, and requires an online connection at all times\u00a0\u00a0EurogamerBlack Ops 7: Call of Duty battles to stay on top\u00a0\u00a0BBCCall of Duty: Black Ops 7 review \u2014 The best Call of Duty in the modern era\u00a0\u00a0GamingTrendBlack Ops 7's launch day Steam player count is significantly lower than last year's Call of Duty, suggesting Arc Raiders and Battlefield 6 ate a hefty portion of its lunch\u00a0\u00a0PC GamerBig stars, big stunts. It\u2019s not a",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOZ0EzWDJfLVVIaE1aSnZyaUdGa1FNZG5pSEhIUEwxR1RCMjRqb1dfY1lwcFdQUVBXYzZTMkJRUkoyYndReWVRbHp6LVQyREVMMlpZTGs5OGtJUDRlbGhxaFB3UENlRktwQy1qNXVNZ2swS0VMUzEyaWhJa1M3d2lUdnl0bDh5aFFFNzc4WEtYM21HZDlVdlFMcjVyYjJjTzlLbFBGZUJPYU45ZjFJdHVlcW1pc0xuZ0Vfb0dhcTNZOTBzR3B1bDRJNnNndEk2dlVCZ2U2OU5xdGg1MjFJNVA0?oc=5",
+          "source": "Eurogamer",
+          "published": "Fri, 14 Nov 2025 10:37:14 GMT",
           "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-15T00:28:32.588156"
+          "fetched_at": "2025-11-15T06:09:21.031089"
         },
         "analysis": {
-          "summary": "Apple has introduced new App Review Guidelines to prevent apps from sharing personal data with 'third-party AI', aiming to protect user data and reduce the presence of copycat apps. This move is a step towards increased regulation and transparency in the app ecosystem. However, the impact and effectiveness of these new guidelines remain to be seen.",
+          "summary": "Call of Duty: Black Ops 7's campaign has drawn criticism for its lack of pause functionality, absence of checkpoints, and online connection requirement. These design choices may impact player experience and satisfaction. The game's lower-than-expected player count suggests competition from other major releases.",
           "key_points": [
-            "Apple's new guidelines prohibit apps from sharing personal data with 'third-party AI' without explicit user consent.",
-            "The move is intended to protect user data and reduce the presence of copycat apps that often rely on AI-powered features.",
-            "The new guidelines may lead to increased app review scrutiny and potentially lengthy review processes for affected apps.",
-            "The impact and effectiveness of these guidelines will depend on Apple's enforcement and the development of clear guidelines for app developers."
-          ],
-          "sentiment": "neutral",
-          "confidence": "high",
-          "bias_check": [
-            "The article may be biased towards Apple's perspective, as it presents the new guidelines as a positive move towards data protection.",
-            "The article may not provide a balanced view of the potential drawbacks or challenges associated with the new guidelines."
-          ],
-          "missing_context": [
-            "The article does not provide information on the specific AI technologies or companies that will be affected by the new guidelines.",
-            "The article does not discuss the potential impact on existing apps that may have already shared personal data with third-party AI."
-          ],
-          "implications": [
-            "The new guidelines may set a precedent for other app stores and tech companies to follow, potentially leading to a more regulated and transparent app ecosystem.",
-            "The move may lead to increased competition among app developers to create innovative and compliant apps, driving innovation and growth in the industry.",
-            "However, the new guidelines may also lead to unintended consequences, such as increased app review times and potential disruptions to existing apps and services."
-          ],
-          "model": "Llama 3.1 8B",
-          "model_id": "meta/meta-llama-3.1-8b-instruct",
-          "analyzed_at": "2025-11-15T00:29:09.666867",
-          "token_usage": {
-            "prompt_tokens": 355,
-            "completion_tokens": 709,
-            "total_tokens": 1064
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_0_1763166512",
-          "title": "China warns Japan of 'crushing' defeat, tells Chinese citizens to shun visits - Reuters",
-          "description": "China warns Japan of 'crushing' defeat, tells Chinese citizens to shun visits\u00a0\u00a0ReutersChina and Japan in escalating spat over Taiwan: What to know\u00a0\u00a0BBCChina\u2019s \u2018Wolf Warrior\u2019 Diplomacy Returns With Threat Against Japan\u2019s Leader\u00a0\u00a0The New York TimesChina-Japan feud: How Takaichi's Taiwan comments drew fury from Beijing\u00a0\u00a0NBC NewsChina Warns Citizens to Avoid Traveling to Japan Amid Taiwan Row\u00a0\u00a0Bloomberg.com",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUmtHc1lJck5aOXEyT2MyZFgzd3lGZHFBcmV2amRSVy1RUFViX1lia3prZGpLZkpkdUZ1aTFCVTRqUEpSWGVGRzAwWFdQVy1OanlnakRHR2hPUmdmYjhvLVNYNFhGZWg2LWdRY1RoR0pnbkhoMldzU3BtMGZ4RXRLai1RZGtoMWxzUjhYa3F0SG1EWWJWX3FiQlFwMkE0R05Yb01keEJoeEN1S2tPRDN1cmc3M2hoeVR2M2lPM1g5cEotbll5Zm9J?oc=5",
-          "source": "Reuters",
-          "published": "Fri, 14 Nov 2025 15:39:21 GMT",
-          "topic": "WORLD",
-          "fetched_at": "2025-11-15T00:28:32.633720"
-        },
-        "analysis": {
-          "summary": "China has issued a stern warning to Japan, threatening a 'crushing' defeat and advising Chinese citizens to avoid traveling to Japan amidst a growing dispute over Taiwan. The escalating tensions between the two nations are a reflection of China's assertive foreign policy and its increasing concerns over Japan's relations with Taiwan. This development has significant implications for the already complex regional dynamics.",
-          "key_points": [
-            "China's warning to Japan is a reflection of its growing assertiveness in international affairs and its increasing influence in the Asia-Pacific region.",
-            "The dispute over Taiwan is a long-standing issue that has been a source of tensions between China and Japan, with China viewing Taiwan as a sovereign state and Japan maintaining a more ambiguous stance.",
-            "The warning to Chinese citizens to avoid traveling to Japan is a clear indication of China's efforts to exert economic and diplomatic pressure on Japan.",
-            "The incident highlights the need for Japan to navigate a delicate balance between its relations with China and the United States, as well as its own domestic politics and international obligations.",
-            "The dispute has the potential to escalate into a broader regional conflict, with significant implications for global trade and security."
+            "The campaign mode in Call of Duty: Black Ops 7 cannot be paused by solo players.",
+            "There are no checkpoints in the campaign mode, which may lead to frustration and repetition.",
+            "An online connection is required at all times to play the campaign mode, which may be a concern for players with unreliable internet.",
+            "The game's lower player count compared to last year's Call of Duty release may indicate competition from other major titles like Arc Raiders and Battlefield 6."
           ],
           "sentiment": "negative",
           "confidence": "high",
           "bias_check": [
-            "Potential pro-China bias in the reporting, given the emphasis on China's warnings and the lack of in-depth analysis on Japan's perspective.",
-            "Potential pro-Japan bias in the reporting, given the emphasis on Japan's concerns over Taiwan and the lack of in-depth analysis on China's perspective."
+            "Potential bias towards criticizing the game's design choices and the company behind it.",
+            "Possible omission of context from the game developers' perspective, such as the reasons behind these design decisions."
           ],
           "missing_context": [
-            "More detailed analysis of the historical context of the Taiwan dispute and its implications for regional dynamics.",
-            "Insights into the domestic politics of Japan and China, including the potential impact on their respective economies and societies.",
-            "Expert opinions from both Chinese and Japanese scholars, policymakers, and diplomats to provide a more nuanced understanding of the dispute."
+            "Insights into the game developers' thought process behind the design choices.",
+            "Player feedback and reviews to provide a more comprehensive understanding of the game's strengths and weaknesses.",
+            "Comparison to other games in the same genre to highlight potential best practices."
           ],
           "implications": [
-            "The dispute has significant implications for regional dynamics, including the potential for a broader conflict, trade disruptions, and security concerns.",
-            "The incident highlights the need for Japan to navigate a delicate balance between its relations with China and the United States, as well as its own domestic politics and international obligations.",
-            "The dispute also raises questions about the future of regional institutions, such as the Association of Southeast Asian Nations (ASEAN) and the East Asia Summit (EAS), and their ability to address regional conflicts and promote stability."
+            "The controversy surrounding Call of Duty: Black Ops 7's campaign mode may impact sales and reputation.",
+            "The game's design choices may influence the direction of future Call of Duty releases.",
+            "The competition from other major titles may lead to changes in the gaming industry's landscape, with a growing emphasis on online connectivity and player engagement."
           ],
           "model": "Llama 3.1 8B",
           "model_id": "meta/meta-llama-3.1-8b-instruct",
-          "analyzed_at": "2025-11-15T00:29:14.786480",
+          "analyzed_at": "2025-11-15T06:09:55.947559",
           "token_usage": {
-            "prompt_tokens": 348,
-            "completion_tokens": 810,
-            "total_tokens": 1158
+            "prompt_tokens": 393,
+            "completion_tokens": 655,
+            "total_tokens": 1048
           }
         }
       },
       {
         "article": {
-          "id": "news_1_1763166512",
-          "title": "Japan enlists drones and ex-soldiers to battle surge in bear attacks - Financial Times",
-          "description": "Japan enlists drones and ex-soldiers to battle surge in bear attacks\u00a0\u00a0Financial TimesA grizzly warning to Americans: Beware bear attacks in Japan\u00a0\u00a0NBC News\u2018They\u2019ve lost their fear\u2019: hunt begins for Japan\u2019s deadly bears\u00a0\u00a0The Times'Bear in Area!' US Embassy warns Americans in Japan about record mauling increase, deaths\u00a0\u00a0USA TodayState Department issues warning in Japan after bears kill 13 since April\u00a0\u00a0The Hill",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA1c1h1bC1KQkpNVDdXQ2gyU3l0S1BVWVJCTUh3a2lFcHFVSFlDbFdCMnhTUjhtOS1ScXhBOVc0U3p5WnNvcUhaMkJUbFlGX1UzYzk5OG1SR0I2SXViOGlSaDlBSFF2MnBVVzdiVWIzSFU?oc=5",
-          "source": "Financial Times",
-          "published": "Fri, 14 Nov 2025 08:50:16 GMT",
-          "topic": "WORLD",
-          "fetched_at": "2025-11-15T00:28:32.633750"
+          "id": "news_4_1763186961",
+          "title": "Pokemon TCG Phantasmal Flames Set Restocked At Amazon On Launch Day - GameSpot",
+          "description": "Pokemon TCG Phantasmal Flames Set Restocked At Amazon On Launch Day\u00a0\u00a0GameSpotThe Pok\u00e9mon TCG: Mega Evolution\u2014Phantasmal Flames Expansion Is Available Now\u00a0\u00a0Pokemon.comThe Pok\u00e9mon TCG Phantasmal Flames Elite Trainer Box is at market value on Amazon right now\u00a0\u00a0MashablePok\u00e9mon Mega Evolutions Phantasmal Flames Review: Take Another Spin On The Charizard Slot Machine | Side Quests\u00a0\u00a0MMORPG.comBest Buy unlocks next level gameplay for Pok\u00e9mon fans with latest Phantasmal Flames trading cards\u00a0\u00a0Best Buy",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNdVU4eHRfT0lrbmJxeFB4eFNEZU1YdlhzYlRhd0QyM1BDYUpfNGRSanBLNUlPV2xsTlNidjRac2N5Y2NvN3ViZkZvVkZRalQ1dnVaT2lOS1FKZU5nQ0FrdzVtTER4SDZmcXlURFZYTHFvMGdrMFd0U3FDS2dvWFVhZ3BzdWdnTTktWk9qb0ZDNjhYbUt3eXJQZlYxZWdVeVpWZUpRZUtMZG44aWxJNzczMXVWaHVSR2x6akR2bHA5bE4tSFIzam1LZUtDQzY2dw?oc=5",
+          "source": "GameSpot",
+          "published": "Fri, 14 Nov 2025 07:30:13 GMT",
+          "topic": "TECHNOLOGY",
+          "fetched_at": "2025-11-15T06:09:21.031111"
         },
         "analysis": {
-          "summary": "Japan is implementing a multi-faceted approach to combat a significant increase in bear attacks, employing drones and former soldiers to mitigate the threat. The surge in bear attacks has resulted in several human fatalities, prompting warnings from the US Embassy and the State Department. This response raises questions about the effectiveness of these measures and the underlying causes of the bear attacks.",
+          "summary": "The Pok\u00e9mon TCG: Mega Evolution\u2014Phantasmal Flames expansion has been restocked on Amazon on its launch day, indicating strong demand for the new set. This news is being met with enthusiasm from fans, with some reviewers praising the set's gameplay and others criticizing its lack of innovation. The restocking suggests that the set's market value has stabilized at par with its launch price.",
           "key_points": [
-            "Japan is experiencing a surge in bear attacks, with 13 reported fatalities since April.",
-            "The government is using drones and former soldiers to combat the issue, indicating a concern for public safety.",
-            "The US Embassy and State Department have issued warnings to Americans in Japan, highlighting the severity of the situation.",
-            "The increasing number of bear attacks may be linked to environmental factors, such as habitat loss and climate change.",
-            "The effectiveness of the government's response remains uncertain, and long-term solutions may be required."
-          ],
-          "sentiment": "negative",
-          "confidence": "high",
-          "bias_check": [
-            "The article may have been influenced by sensationalist headlines, such as 'A grizzly warning to Americans,' which might emphasize the danger rather than provide a balanced view.",
-            "The focus on the number of bear attacks and fatalities might overshadow the underlying causes and potential solutions, giving a skewed perspective."
-          ],
-          "missing_context": [
-            "The article does not provide information on the type of bears involved in the attacks or the specific regions affected.",
-            "There is limited discussion on the government's previous measures to address the bear population and potential steps to prevent future attacks.",
-            "No mention is made of the economic or social implications of the bear attacks on local communities and the tourism industry."
-          ],
-          "implications": [
-            "The surge in bear attacks highlights the need for a more comprehensive approach to managing wildlife populations and mitigating human-wildlife conflicts.",
-            "This situation may serve as a warning for other countries with growing bear populations and increasing human-bear interactions.",
-            "The use of drones and former soldiers in this response raises questions about the role of technology in wildlife management and the potential for future applications."
-          ],
-          "model": "Llama 3.1 8B",
-          "model_id": "meta/meta-llama-3.1-8b-instruct",
-          "analyzed_at": "2025-11-15T00:29:21.051680",
-          "token_usage": {
-            "prompt_tokens": 348,
-            "completion_tokens": 1000,
-            "total_tokens": 1348
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_2_1763166512",
-          "title": "Rachel Reeves backs away from income tax rate rise after improved economic forecasts - BBC",
-          "description": "Rachel Reeves backs away from income tax rate rise after improved economic forecasts\u00a0\u00a0BBCRachel Reeves plans \u00a37.5bn tax rise in budget after U-turn on income tax rates\u00a0\u00a0The GuardianStarmer and Reeves drop proposal to increase income tax rates in Budget\u00a0\u00a0Financial TimesInvestors and business decry British budget messaging 'fiasco'\u00a0\u00a0ReutersRachel Reeves to Drop Budget Tax-Rise Plans Because of Better UK Forecasts\u00a0\u00a0Bloomberg.com",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5FODByUV9SUktnd3JDcXdnbUxoOVc3OFVVVjNxV3lwVTcwV1dZTVhFZ0dpTGhsWGVvdnRlU1IwcW9zUGJ2dVNUZ25SMk1JWUdBNDk4TE1ZV0U4QdIBX0FVX3lxTFAxaXVUc1JfcWpCYUdMWEgwclBDd0tVckVXUkpSOVhlcThFSDEwV2ZMUFNRTUVESF9EaHBNSkU4a1R3OE50YzhYSkY2RHpva240WlB5ek8xaUFTXzNTeUNv?oc=5",
-          "source": "BBC",
-          "published": "Fri, 14 Nov 2025 16:20:39 GMT",
-          "topic": "WORLD",
-          "fetched_at": "2025-11-15T00:28:32.633771"
-        },
-        "analysis": {
-          "summary": "Rachel Reeves, the UK's Chancellor of the Exchequer, has announced a U-turn on plans to increase income tax rates due to improved economic forecasts, which are expected to generate \u00a37.5 billion in revenue through tax rises in the upcoming budget. This move is seen as a relief to investors and businesses, who were critical of the initial proposal. However, some analysts argue that the government's decision may not be enough to address the UK's economic challenges.",
-          "key_points": [
-            "Rachel Reeves has dropped plans to increase income tax rates due to improved economic forecasts.",
-            "The UK government is expected to generate \u00a37.5 billion in revenue through tax rises in the upcoming budget.",
-            "Investors and businesses have welcomed the U-turn, but some analysts remain skeptical about its impact on the UK's economy.",
-            "The government's decision may not be enough to address the UK's economic challenges, including inflation and a potential recession."
-          ],
-          "sentiment": "neutral",
-          "confidence": "medium",
-          "bias_check": [
-            "Pro-government bias: The article may be presenting the government's decision in a more favorable light, without adequately highlighting potential criticisms or concerns.",
-            "Pro-business bias: The article quotes investors and businesses positively, but may not provide a balanced view of the impact of tax rises on other stakeholders, such as low-income households or small businesses."
-          ],
-          "missing_context": [
-            "The article does not provide detailed information on the specific tax rises that were planned, or how they would have affected different income groups.",
-            "The impact of the U-turn on the UK's economic challenges, such as inflation and a potential recession, is not fully explored.",
-            "The article may benefit from additional context on the UK's economic situation, including data on GDP growth, inflation, and employment rates."
-          ],
-          "implications": [
-            "The decision may be seen as a relief to investors and businesses, but may not be enough to address the UK's economic challenges.",
-            "The move may have implications for the government's overall economic strategy, particularly in relation to its approach to taxation and public spending.",
-            "The U-turn may be seen as a sign of the government's willingness to adapt to changing economic circumstances, but may also raise questions about its ability to make tough decisions in the face of economic uncertainty."
-          ],
-          "model": "Llama 3.1 8B",
-          "model_id": "meta/meta-llama-3.1-8b-instruct",
-          "analyzed_at": "2025-11-15T00:29:25.739697",
-          "token_usage": {
-            "prompt_tokens": 341,
-            "completion_tokens": 681,
-            "total_tokens": 1022
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_3_1763166512",
-          "title": "World's largest-known spider's web reveals different species \"having a party\" instead of preying on each other - CBS News",
-          "description": "World's largest-known spider's web reveals different species \"having a party\" instead of preying on each other\u00a0\u00a0CBS NewsStinking, Spongy, Dark, Huge: A Spider Web Unlike Any Seen Before\u00a0\u00a0The New York TimesWorld's Largest Spider Web, Home to 110,000 Arachnids, Found in Underwater Cave\u00a0\u00a0People.comWorld's biggest spiderweb spanning 1,140ft found\u2014and it's the stuff of nightmares\u00a0\u00a0NewsweekDrop Whatever You\u2019re Doing Right This Instant, There\u2019s Big Spider Web News\u00a0\u00a0Defector",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOaXI0dDFnbi10T1VVdmhCd2lsb2lRZTVvMU9NcWF5U3oyLWlsLTdrZGEzcFd2R0l4eUJpNThrUmMyVThOTFBMU2h0UXZWRkZyQ1VqTnBrNXYxZURYRzhNb0VoZF82TzBDV3RRR2dIbjdvNDVWNVdWQVBXTTRqMmJ2SVRYRkhhVTA4elc1V1ZVZ9IBlAFBVV95cUxNWDRuR3RDb0l4bzJ5WGJWTjJNZW85MUhyY29nbU5wVFNLVVMySF9uUEtGMldnd1VZaVAxeFc1dFZsbWhkOXp0c0ZNMERzWXRKZjMzZFR0V1VxR093dGh1WXNFUlZvbmJNNWxGSjlvUTdJXy1ydzRqSnBsSG1jaFVsd0dnakMxcUNaU0dmbllmZWRiMGZv?oc=5",
-          "source": "CBS News",
-          "published": "Fri, 14 Nov 2025 19:12:09 GMT",
-          "topic": "WORLD",
-          "fetched_at": "2025-11-15T00:28:32.633791"
-        },
-        "analysis": {
-          "summary": "A massive spider web, spanning 1,140 feet, has been discovered in an underwater cave, housing over 110,000 arachnids. Contrary to expectations, the species within the web appear to be coexisting and 'having a party' rather than preying on each other. This extraordinary find has sparked curiosity and fascination among scientists and the general public.",
-          "key_points": [
-            "The spider web is the largest known, measuring 1,140 feet in diameter.",
-            "The web is home to over 110,000 arachnids, comprising various species.",
-            "Unlike typical predator-prey dynamics, the species within the web appear to be coexisting peacefully.",
-            "The discovery was made in an underwater cave, revealing the complexities of arachnid social behavior in this environment."
+            "The Pok\u00e9mon TCG: Mega Evolution\u2014Phantasmal Flames expansion has been restocked on Amazon on its launch day.",
+            "The set's market value has stabilized at par with its launch price, suggesting strong demand.",
+            "Reviewers are divided on the set's gameplay, with some praising its innovation and others criticizing its lack thereof.",
+            "The restocking on Amazon suggests that the set's initial stock was quickly depleted, indicating a strong fan base."
           ],
           "sentiment": "positive",
           "confidence": "high",
           "bias_check": [
-            "Potential sensationalism in the use of the phrase 'stuff of nightmares'",
-            "Emphasis on the 'party' aspect might be seen as anthropomorphizing or anthropizing the behavior of arachnids",
-            "The article's focus on the extraordinary and unusual aspects might lead to an overemphasis on these features, overshadowing more nuanced scientific discussions"
+            "Potential bias towards the Pok\u00e9mon franchise and its fans, as the article focuses on the positive aspects of the set's restocking and launch.",
+            "Possible bias towards the idea that strong demand is a positive indicator of a product's quality, when in reality it may simply reflect a strong fan base."
           ],
           "missing_context": [
-            "More information on the specific species and their ecological roles within the web",
-            "Data on the web's structure, maintenance, and potential long-term implications for the ecosystem",
-            "Comparisons with other arachnid social behavior studies to put this discovery into a broader scientific context"
+            "A more critical examination of the set's gameplay mechanics and how they compare to previous sets in the franchise.",
+            "A broader analysis of the market trends and sales data for the Pok\u00e9mon TCG franchise, to provide more context on the demand for this set."
           ],
           "implications": [
-            "This discovery contributes significantly to our understanding of arachnid social behavior and the complexities of underwater ecosystems.",
-            "It may lead to new avenues of research in arachnid biology, ecology, and conservation.",
-            "The find highlights the need for continued exploration and study of previously unexplored environments, such as underwater caves."
+            "The restocking of the set on Amazon suggests that the Pok\u00e9mon TCG franchise remains popular and has a strong fan base.",
+            "The division among reviewers on the set's gameplay highlights the ongoing debate about the direction of the franchise and its appeal to different types of players.",
+            "The stabilization of the set's market value at par with its launch price suggests that the initial hype around the set has died down, and it is now being evaluated on its own merits."
           ],
           "model": "Llama 3.1 8B",
           "model_id": "meta/meta-llama-3.1-8b-instruct",
-          "analyzed_at": "2025-11-15T00:29:30.158617",
+          "analyzed_at": "2025-11-15T06:10:01.420036",
           "token_usage": {
-            "prompt_tokens": 379,
-            "completion_tokens": 702,
-            "total_tokens": 1081
+            "prompt_tokens": 373,
+            "completion_tokens": 930,
+            "total_tokens": 1303
           }
         }
       },
       {
         "article": {
-          "id": "news_4_1763166512",
-          "title": "UNIFIL says parts of new Israeli border wall violate Lebanese sovereignty - The Times of Israel",
-          "description": "UNIFIL says parts of new Israeli border wall violate Lebanese sovereignty\u00a0\u00a0The Times of IsraelUN says Israeli wall crosses Lebanon border\u00a0\u00a0ReutersUN peacekeepers say Israel built walls inside Lebanese territory\u00a0\u00a0Al JazeeraIsrael army denies building wall inside Lebanon after UN forces say de facto border crossed\u00a0\u00a0France 24UNIFIL says parts of Israel\u2019s Lebanon border wall crossed Blue Line\u00a0\u00a0The Times of Israel",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdWdnRkpoRm1EWWNJdDRBWnZRVkxXQmRYSmtMNWxOQWpfX1Ewd1ZyQ1NWTkJJQjUwWTBMOUZ5b0cxY291Z05QaWRTanBxRnh2TkRYblprOENNWnBxd3FST2hDR1ZiUVlRMU9WTFgyRThkUEI0OUQ0M09tLWthTkNOUlVXZHNpV1Y2anA4d1lzY29VTU1jWUlJXzh4VXFtRHhGVUU3X3Bub9IBrAFBVV95cUxQOHJVVm1NTF9TdFJ2bFFSd0xuLUxjbFk5bEh4OWlvWkFkdi1uWWJBWURPUmJtdTQ5TmVQR1lTZjJNQS1vTlN4d1pBaWJzTV9vY3NHUEp1SkVndzhDeWRkNVRzVXdOeEs1bXF3QjVlUExTRTVEZ0I5eDBSaFlHelNTNklPZkF4aV9zb0N3NVRwU2p5WnRoU2tpODN5ZU1Mc2lmVWJDcGNGeEZnLXpj?oc=5",
-          "source": "The Times of Israel",
-          "published": "Fri, 14 Nov 2025 16:02:26 GMT",
+          "id": "news_0_1763186961",
+          "title": "China advises against travel to Japan amid escalating row over PM\u2019s Taiwan comments - The Guardian",
+          "description": "China advises against travel to Japan amid escalating row over PM\u2019s Taiwan comments\u00a0\u00a0The GuardianChina warns citizens against Japan travel as Taiwan spat escalates\u00a0\u00a0CNNChina warns Japan of 'crushing' defeat, tells Chinese citizens to shun visits\u00a0\u00a0ReutersChina\u2019s \u2018Wolf Warrior\u2019 Diplomacy Returns With Threat Against Japan\u2019s Leader\u00a0\u00a0The New York TimesChina-Japan feud: How Takaichi's Taiwan comments drew fury from Beijing\u00a0\u00a0NBC News",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQWV8xalJjWi1iTXVmWnZRSjZwZ1RiZ2kza19sNFZQRU1GOEhIbGVWa0pUODFVRVNoYzZMRXFHbjhkU0JGdVdHNXZON3FVOU9HRjhGeGtJNFpTQk52QTVCR05VVDNKVy1lVG15SlRDZjhpa1NGYlFmNG5LX3dCSGhmNkVqUGRsNXREYmd6cEsxaHZ0ZFFlYVY1Q2pVNG90d0JJVGtWY09sNU80WVdEZmV3TVo5dlNoT2s1dDhXQl9yR0M0cmRLbm5v?oc=5",
+          "source": "The Guardian",
+          "published": "Sat, 15 Nov 2025 03:46:00 GMT",
           "topic": "WORLD",
-          "fetched_at": "2025-11-15T00:28:32.633811"
+          "fetched_at": "2025-11-15T06:09:21.075250"
         },
         "analysis": {
-          "summary": "The United Nations Interim Force in Lebanon (UNIFIL) has accused Israel of building a border wall that crosses into Lebanese territory, violating the country's sovereignty. The wall, part of a larger barrier system, has been constructed in a disputed area along the Blue Line. The Israeli army has denied the allegations, but UNIFIL's claims could have significant implications for regional tensions.",
+          "summary": "China has advised its citizens against traveling to Japan due to a rising diplomatic row triggered by Japanese Prime Minister Fumio Takaichi's comments on Taiwan. This move marks a resurgence of China's 'Wolf Warrior' diplomacy, characterized by aggressive rhetoric and economic coercion. The situation highlights the escalating tensions between China and Japan in the Asia-Pacific region.",
           "key_points": [
-            "UNIFIL has accused Israel of building a border wall that crosses into Lebanese territory.",
-            "The wall is part of a larger Israeli barrier system along the Blue Line, a disputed border area.",
-            "The Israeli army has denied the allegations, but UNIFIL's claims could have significant implications for regional tensions.",
-            "The incident highlights ongoing tensions between Israel and Lebanon over territorial disputes and border security."
+            "China's travel advisory is a direct response to Japan's Prime Minister Fumio Takaichi's comments on Taiwan, which Beijing sees as a provocation.",
+            "The move is a demonstration of China's 'Wolf Warrior' diplomacy, which has been criticized for being aggressive and unpredictable.",
+            "The diplomatic row between China and Japan could have broader implications for regional stability and trade relationships.",
+            "Japan's comments on Taiwan have drawn a strong reaction from China, highlighting the complex dynamics of the Taiwan issue.",
+            "The situation underscores the growing tensions between China and Japan in the Asia-Pacific region."
           ],
-          "sentiment": "neutral",
+          "sentiment": "negative",
           "confidence": "high",
           "bias_check": [
-            "Pro-Lebanon/anti-Israel sentiment may be present in some media outlets, such as Al Jazeera, which could be influencing the narrative.",
-            "The Israeli perspective might be underrepresented or marginalized in some sources, such as The Times of Israel's rival news outlets.",
-            "Western media outlets may focus more on the UNIFIL's perspective, potentially perpetuating a biased narrative."
+            "The article may be biased towards China's perspective, as the language used to describe the situation is critical of Japan's Prime Minister and China's actions.",
+            "The article's framing of China's 'Wolf Warrior' diplomacy as 'aggressive and unpredictable' may be subjective and open to interpretation.",
+            "The article may not provide enough context on the historical and cultural background of the Taiwan issue, which could influence the reader's understanding of the situation."
           ],
           "missing_context": [
-            "A more detailed explanation of the Blue Line and its significance in the region.",
-            "The historical context behind the Israeli-Lebanese border disputes and the implications of the wall's construction.",
-            "The perspectives of other regional stakeholders, such as Hezbollah or the Lebanese government."
+            "More information on the historical and cultural background of the Taiwan issue, including its impact on regional relations and global politics.",
+            "A deeper analysis of China's 'Wolf Warrior' diplomacy and its implications for regional stability and global governance.",
+            "A balanced perspective from Japan's side, including their views on the Taiwan issue and their relationship with China."
           ],
           "implications": [
-            "The incident could escalate tensions between Israel and Lebanon, potentially leading to increased military activity or diplomatic strained relations.",
-            "The construction of the wall could be seen as a provocation by Lebanon and its allies, potentially drawing in other regional actors.",
-            "The incident highlights the ongoing challenges of border security and territorial disputes in the Middle East."
+            "The diplomatic row between China and Japan could have significant implications for regional stability, trade relationships, and global governance.",
+            "The situation highlights the need for a more nuanced understanding of the Taiwan issue and its impact on regional relations.",
+            "The use of 'Wolf Warrior' diplomacy by China could have long-term consequences for regional stability and global governance, including the potential for increased tensions and conflicts."
           ],
           "model": "Llama 3.1 8B",
           "model_id": "meta/meta-llama-3.1-8b-instruct",
-          "analyzed_at": "2025-11-15T00:29:35.154527",
-          "token_usage": {
-            "prompt_tokens": 339,
-            "completion_tokens": 829,
-            "total_tokens": 1168
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_0_1763166512",
-          "title": "Walmart CEO Doug McMillon announces his surprise retirement at age 59 - AP News",
-          "description": "Walmart CEO Doug McMillon announces his surprise retirement at age 59\u00a0\u00a0AP NewsWalmart CEO Doug McMillon to step down in January\u00a0\u00a0NBC NewsWalmart Announces John Furner as President and Chief Executive Officer\u00a0\u00a0WalmartWalmart shares are up 312% during outgoing CEO Doug McMillon's tenure. Here's how that compares to its rivals\u00a0\u00a0CNBCWalmart CEO started his career unloading trailers at the warehouse\u2014he says raising his hand led to his success\u00a0\u00a0Fortune",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOQ1pGTUdMZWRVZWsySnludjlubU13cl9jVkk1NTdkdlBVZlpfVWlZYkttb0hRTU5VckhEYWdwTEtEZDExVEViUWlXci1TZm5idk5JcXU2NmFTa2hlckxQd0tzaVRpR041dWRDVnh6djg3TTV6b1hZR05kdWxSR0lYb2FPY1ZqNkxPMkdnM2ZUa0pJZk1xMDQ3MUdB?oc=5",
-          "source": "AP News",
-          "published": "Fri, 14 Nov 2025 22:44:00 GMT",
-          "topic": "BUSINESS",
-          "fetched_at": "2025-11-15T00:28:32.734863"
-        },
-        "analysis": {
-          "summary": "Walmart CEO Doug McMillon surprised the market by announcing his retirement at 59, paving the way for John Furner to take over. McMillon's tenure saw a significant 312% increase in Walmart's shares, outperforming its competitors. His humble beginnings and rise to success serve as an inspiration to many.",
-          "key_points": [
-            "Doug McMillon is stepping down as Walmart CEO at 59, citing a desire to explore other opportunities.",
-            "John Furner will take over as President and Chief Executive Officer of Walmart in January.",
-            "McMillon's leadership led to a 312% increase in Walmart's shares during his tenure.",
-            "Walmart's competitors, such as Amazon, struggled to match Walmart's growth under McMillon's leadership.",
-            "McMillon's career has been marked by his humble beginnings, starting at Walmart unloading trailers at the warehouse."
-          ],
-          "sentiment": "Positive",
-          "confidence": "Medium",
-          "bias_check": [
-            "Praise for McMillon's leadership and legacy may be influenced by Walmart's positive spin.",
-            "The article focuses on McMillon's success, but may not delve into potential criticisms or controversies during his tenure."
-          ],
-          "missing_context": [
-            "The article does not provide information on McMillon's reasons for retiring at 59, which may be a sensitive topic.",
-            "The potential for succession planning and internal dynamics within Walmart is not explored in depth.",
-            "The article does not discuss the impact of McMillon's retirement on the company's future direction or strategies."
-          ],
-          "implications": [
-            "McMillon's retirement may lead to a change in Walmart's direction and potentially impact its relationships with suppliers, employees, and customers.",
-            "The succession of John Furner may lead to a shift in Walmart's priorities and strategies, which could affect its market position and competitiveness.",
-            "McMillon's legacy as a successful CEO may set a high standard for Furner, who will face significant challenges in maintaining Walmart's growth and success."
-          ],
-          "model": "Llama 3.1 8B",
-          "model_id": "meta/meta-llama-3.1-8b-instruct",
-          "analyzed_at": "2025-11-15T00:29:49.996246",
-          "token_usage": {
-            "prompt_tokens": 359,
-            "completion_tokens": 693,
-            "total_tokens": 1052
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_1_1763166512",
-          "title": "'I'm not buying Starbucks and you shouldn't either.' Seattle Mayor-elect Katie Wilson joins striking baristas - KUOW",
-          "description": "'I'm not buying Starbucks and you shouldn't either.' Seattle Mayor-elect Katie Wilson joins striking baristas\u00a0\u00a0KUOWZohran Mamdani Wants You to Boycott Starbucks\u00a0\u00a0Business InsiderStarbucks union says it expects 'largest, longest strike in company history'\u00a0\u00a0USA TodayStarbucks Workers Are Striking at Dozens of Stores on \u2018Red Cup Day\u2019\u00a0\u00a0The New York TimesStarbucks Baristas Launch Protests as \u2018Red Cup Day\u2019 Kicks Off\u00a0\u00a0The Wall Street Journal",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOQzRxVDVJOW1yQm11UXJQNGVGZVBvOXh0eTJ1Vm9pQVZHdVdNbDBLSWhqOGZTaW1GTlR1cU94QnRMd0E4RzE3Wm0xNS1DWng1ZzlTTGVFMW9mZGlTZk9Ba2x4Um4tTlFjMU1WSWRpQ3lZSFgxTFlldDJtT2ZPVEFZaEtpMW1iNWI5a0FfLWRB?oc=5",
-          "source": "KUOW",
-          "published": "Fri, 14 Nov 2025 19:22:42 GMT",
-          "topic": "BUSINESS",
-          "fetched_at": "2025-11-15T00:28:32.734912"
-        },
-        "analysis": {
-          "summary": "Seattle Mayor-elect Katie Wilson joins striking Starbucks baristas, urging citizens to boycott the coffee chain. This move is part of a larger labor dispute between Starbucks and its employees. As the strike enters its 'Red Cup Day' protest, the company faces its largest and longest strike in history.",
-          "key_points": [
-            "Seattle Mayor-elect Katie Wilson joins striking Starbucks baristas, escalating the labor dispute.",
-            "The strike is expected to be the largest and longest in Starbucks history, with dozens of stores participating.",
-            "The labor dispute centers around issues such as wages, benefits, and union recognition.",
-            "The boycott call is likely to affect Starbucks' sales and reputation, particularly in Seattle, where the company was founded."
-          ],
-          "sentiment": "Negative",
-          "confidence": "High",
-          "bias_check": [
-            "Pro-union bias: The article presents a generally favorable view of the striking baristas and their demands.",
-            "Anti-STARBUCKS bias: The article's framing and quotes from Seattle Mayor-elect Katie Wilson suggest a negative perception of the company.",
-            "Pro-labor bias: The article highlights the employees' struggles and union efforts, without providing a counter-narrative from the company's perspective."
-          ],
-          "missing_context": [
-            "Additional context on the labor dispute's history and previous negotiations between Starbucks and its employees.",
-            "A more nuanced view of the economic impact of the strike on Starbucks and the Seattle community.",
-            "Perspectives from Starbucks' leadership or representatives, providing their side of the story."
-          ],
-          "implications": [
-            "The strike's success or failure may influence labor laws and regulations in the industry.",
-            "The boycott call could impact Starbucks' sales and reputation, particularly in Seattle, where the company is headquartered.",
-            "The dispute may set a precedent for future labor negotiations in the service industry."
-          ],
-          "model": "Llama 3.1 8B",
-          "model_id": "meta/meta-llama-3.1-8b-instruct",
-          "analyzed_at": "2025-11-15T00:29:54.842204",
-          "token_usage": {
-            "prompt_tokens": 368,
-            "completion_tokens": 811,
-            "total_tokens": 1179
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_2_1763166512",
-          "title": "Better late than never: The delayed September jobs report will be out next week - NPR",
-          "description": "Better late than never: The delayed September jobs report will be out next week\u00a0\u00a0NPRA Reopened Government Hasn\u2019t Ended Delays to Economic Data\u00a0\u00a0The New York TimesSeptember jobs report will be out Thursday as first data since shutdown starts to trickle out\u00a0\u00a0CNBCUS October employment report will not include jobless rate, Hassett says\u00a0\u00a0ReutersWhite House official says October jobs and inflation data are likely to never be released\u00a0\u00a0Fortune",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPeWYwOUNqX0t2eGVDcW1XdnNvYnd1TWtnb3A2TktpdVU2VUpXQWlxbjVKN25MQ3hLV0dpc3NtVks1SGlVLXpycVhMTGJFQzZSM1piaENHS0RuTjNjYmdfRE1YRE44MXEzd1BLcDJfbE42b1lCbDY2R1ZBbWJybUgzNWdaUzFHckUxV1U1dGw5c2g2Rmli?oc=5",
-          "source": "NPR",
-          "published": "Fri, 14 Nov 2025 21:34:03 GMT",
-          "topic": "BUSINESS",
-          "fetched_at": "2025-11-15T00:28:32.734950"
-        },
-        "analysis": {
-          "summary": "The September jobs report, delayed due to the recent government shutdown, is expected to be released next week, marking the first economic data to be made public since the shutdown began. This development comes as a relief to analysts and policymakers, who rely on timely economic data for informed decision-making. However, the release of the report does not guarantee the integrity of the data, and its accuracy may be compromised due to the shutdown's impact on data collection.",
-          "key_points": [
-            "The September jobs report will be released next week, marking the first economic data to be published since the government shutdown.",
-            "The delayed release of the report may compromise the accuracy of the data due to the shutdown's impact on data collection.",
-            "The release of the report may provide a temporary boost to the economy, but its long-term effects are uncertain.",
-            "The shutdown's impact on data collection may have far-reaching consequences for economic analysis and policymaking."
-          ],
-          "sentiment": "neutral",
-          "confidence": "medium",
-          "bias_check": [
-            "Potential bias towards negativity due to the shutdown's impact on data collection and accuracy.",
-            "Potential bias towards government agencies and their efforts to release the report."
-          ],
-          "missing_context": [
-            "The impact of the shutdown on the economy and economic data collection beyond the jobs report.",
-            "The potential long-term consequences of the shutdown on the economy and policymakers' ability to make informed decisions.",
-            "The role of other factors, such as labor market trends and economic indicators, in shaping the economy."
-          ],
-          "implications": [
-            "The shutdown's impact on economic data collection and accuracy may have far-reaching consequences for economic analysis and policymaking.",
-            "The release of the report may provide a temporary boost to the economy, but its long-term effects are uncertain.",
-            "The shutdown highlights the need for policymakers to prioritize data collection and accuracy in economic decision-making."
-          ],
-          "model": "Llama 3.1 8B",
-          "model_id": "meta/meta-llama-3.1-8b-instruct",
-          "analyzed_at": "2025-11-15T00:29:59.637201",
-          "token_usage": {
-            "prompt_tokens": 345,
-            "completion_tokens": 748,
-            "total_tokens": 1093
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_3_1763166512",
-          "title": "Stock Market Today: Dow Slips, Nasdaq, S&P 500 Turn Higher; Bitcoin Falls\u2014 Live Updates - The Wall Street Journal",
-          "description": "Stock Market Today: Dow Slips, Nasdaq, S&P 500 Turn Higher; Bitcoin Falls\u2014 Live Updates\u00a0\u00a0The Wall Street JournalNasdaq closes higher, snapping three-day losing streak as tech stocks recover some ground\u00a0\u00a0CNBCStock market today: Dow, S&P 500, Nasdaq close mixed to cap a volatile week as Fed cut in doubt\u00a0\u00a0Yahoo FinanceWall Street scrambles back from a big morning loss as Nvidia and bitcoin swing\u00a0\u00a0AP NewsStocks close mixed as investors assess strength of AI rally\u00a0\u00a0CBS News",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOVzJXR0FCT05tb1l6WEtEaGl2UTkycnNDX3JCZVVXSlgwU0RydTY2RkVvY2xETWV3OEs0MWhpYmJHVmVQeFhOM0RiLU5XQndIRll0V0g1Z1BFUENnUVFEQXluNWI5RW14bEREczJIcmRKM1pKYUJsbmt0aTQ2eFktZnNON01iMnc?oc=5",
-          "source": "The Wall Street Journal",
-          "published": "Fri, 14 Nov 2025 23:30:00 GMT",
-          "topic": "BUSINESS",
-          "fetched_at": "2025-11-15T00:28:32.735026"
-        },
-        "analysis": {
-          "summary": "The stock market experienced a volatile day with the Dow slipping and Bitcoin falling, but the Nasdaq and S&P 500 turned higher. Tech stocks, particularly Nvidia, helped recover some ground. Investors are assessing the strength of the AI rally and its impact on the market.",
-          "key_points": [
-            "The Dow slipped, while the Nasdaq and S&P 500 turned higher, indicating a mixed close for the day.",
-            "Tech stocks, particularly Nvidia, helped recover from a big morning loss, snapping a three-day losing streak for the Nasdaq.",
-            "Bitcoin fell, adding to its recent decline, as investors assess the strength of the AI rally.",
-            "The Fed's potential rate cut is in doubt, which may have contributed to the market's volatility.",
-            "Investors are weighing the impact of the AI rally on the market, with some stocks benefiting from the trend."
-          ],
-          "sentiment": "mixed",
-          "confidence": "high",
-          "bias_check": [
-            "Potential pro-market bias in highlighting the recovery of tech stocks and the AI rally.",
-            "Potential anti-Bitcoin bias in focusing on its decline, rather than its recent price increases.",
-            "Potential pro-Fed bias in mentioning the potential rate cut and its impact on the market."
-          ],
-          "missing_context": [
-            "A more in-depth analysis of the AI rally and its impact on the market, including its potential benefits and drawbacks.",
-            "More information on the potential rate cut and its implications for the market.",
-            "A broader perspective on the global economic conditions that may be influencing the stock market."
-          ],
-          "implications": [
-            "The AI rally is having a significant impact on the market, with some stocks benefiting and others suffering.",
-            "The Fed's potential rate cut is uncertain, which may be contributing to the market's volatility.",
-            "Investors are closely watching the market's reaction to the AI rally and the potential rate cut."
-          ],
-          "model": "Llama 3.1 8B",
-          "model_id": "meta/meta-llama-3.1-8b-instruct",
-          "analyzed_at": "2025-11-15T00:30:04.511908",
-          "token_usage": {
-            "prompt_tokens": 379,
-            "completion_tokens": 805,
-            "total_tokens": 1184
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_4_1763166512",
-          "title": "Bitcoin sinks to six-month low as risk-off sentiment persists - Reuters",
-          "description": "Bitcoin sinks to six-month low as risk-off sentiment persists\u00a0\u00a0ReutersBitcoin Plunges to Six Month Low as Crypto Traders Worry We\u2019re Nowhere Near the Bottom\u00a0\u00a0GizmodoBitcoin in 'bear market regime' as cryptocurrency falls below $95,000\u00a0\u00a0Yahoo FinanceBitcoin, Ethereum, and XRP Tumble. What's Driving This Crypto Crash.\u00a0\u00a0Barron's3 reasons bitcoin is on the brink of wiping out its gains for the year\u00a0\u00a0Business Insider",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWUhkRzRoT0FyUWFINDgyM2NUcHVqZlJ6SUJsVXB2NjcxcXhJQ0VZS09iLTFfRC1oa2R0Rkl2VHRSWWg4VVpWNnZoRzFKeFFiNkl4ZnRNNzR3bjZZSFZkRW5oTkJxeEVlWExhVEVPNFE2aDl1bHJ4QUpDV3l6Z1A3Z2dMQVYzaHI5LTBVMnZRT09SNnhNOWNHR1puY1g1cDRCSVVDbWtGOUxMdGYwVkE?oc=5",
-          "source": "Reuters",
-          "published": "Fri, 14 Nov 2025 19:17:57 GMT",
-          "topic": "BUSINESS",
-          "fetched_at": "2025-11-15T00:28:32.735067"
-        },
-        "analysis": {
-          "summary": "Bitcoin has plummeted to a six-month low, indicating a significant downturn in the cryptocurrency market. This decline is attributed to risk-off sentiment, which reflects investors' growing concerns about potential losses. As a result, traders are bracing for a potential wipeout of gains for the year.",
-          "key_points": [
-            {
-              "point": "Risk-off sentiment is driving the decline in Bitcoin prices.",
-              "analysis": "This suggests that investors are becoming increasingly risk-averse, opting for safer assets over cryptocurrencies."
-            },
-            {
-              "point": "Bitcoin has entered a bear market regime.",
-              "analysis": "This regime typically lasts for months or even years, which could spell trouble for investors holding onto their Bitcoin."
-            },
-            {
-              "point": "Several factors are contributing to the crypto crash, including potential regulatory changes and market volatility.",
-              "analysis": "Regulatory uncertainty and market fluctuations can significantly impact cryptocurrency prices, making it challenging for investors to navigate this space."
-            }
-          ],
-          "sentiment": "Negative",
-          "confidence": "High",
-          "bias_check": [
-            {
-              "potential_bias": "Confirmation bias",
-              "description": "The article focuses on the negative aspects of Bitcoin's decline, which might lead readers to overlook potential opportunities in the cryptocurrency market."
-            },
-            {
-              "potential_bias": "Selection bias",
-              "description": "The article cites specific articles from sources like Gizmodo, Yahoo Finance, and Barron's, which may not represent a comprehensive view of the market."
-            }
-          ],
-          "missing_context": [
-            {
-              "missing_context": "Diversification strategies for investors in the cryptocurrency market.",
-              "description": "The article does not provide insights on how investors can mitigate potential losses in the face of market downturns."
-            },
-            {
-              "missing_context": "Regulatory updates and their potential impact on the cryptocurrency market.",
-              "description": "The article mentions regulatory uncertainty but does not delve deeper into the implications of potential changes."
-            }
-          ],
-          "implications": [
-            {
-              "implication": "Investors may need to reassess their cryptocurrency portfolios and consider hedging strategies or diversifying into safer assets.",
-              "description": "The decline in Bitcoin prices highlights the importance of risk management in the cryptocurrency market."
-            },
-            {
-              "implication": "Regulatory clarity is crucial for the growth and stability of the cryptocurrency market.",
-              "description": "Clear regulations can help foster investor confidence and mitigate the impact of market volatility."
-            }
-          ],
-          "model": "Llama 3.1 8B",
-          "model_id": "meta/meta-llama-3.1-8b-instruct",
-          "analyzed_at": "2025-11-15T00:30:09.593787",
+          "analyzed_at": "2025-11-15T06:11:06.432473",
           "token_usage": {
             "prompt_tokens": 347,
-            "completion_tokens": 855,
-            "total_tokens": 1202
+            "completion_tokens": 722,
+            "total_tokens": 1069
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_1_1763186961",
+          "title": "What's behind Rachel Reeves's hokey cokey on income tax rises? - BBC",
+          "description": "What's behind Rachel Reeves's hokey cokey on income tax rises?\u00a0\u00a0BBCRachel Reeves plans \u00a37.5bn tax rise in budget after U-turn on income tax rates\u00a0\u00a0The GuardianUK borrowing costs jump, stocks slide as speculation mounts over high-stakes budget\u00a0\u00a0CNBCInvestors and business decry British budget messaging 'fiasco'\u00a0\u00a0ReutersStarmer and Reeves drop proposal to increase income tax rates in Budget\u00a0\u00a0Financial Times",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9XeHY4NS02WlpjY0FCODBaemR2MkNWTkVSWS10aHdla3BaU1ZzOVVfZjNGY1RDR2VvN0VPOFJVeElUYnJ2a2sxNWViOEE3WVlMTTllWk56UFprd9IBX0FVX3lxTE1oclJxV203clQ3aFQ1eC03VV93c3JibTh1WjQ0ckRfbEdrTHdxZFRwM2dld2gyNHh3V0FZbzhCcEZzRjdFQm5zVmVXOTJ4bUhmeFpVVnFXMGlZM0V5LWlj?oc=5",
+          "source": "BBC",
+          "published": "Fri, 14 Nov 2025 22:03:52 GMT",
+          "topic": "WORLD",
+          "fetched_at": "2025-11-15T06:09:21.075288"
+        },
+        "analysis": {
+          "summary": "The UK'sLabour Party is planning a \u00a37.5bn tax rise in the upcoming budget after a U-turn on income tax rates, sparking concerns among investors and businesses. Rachel Reeves has dropped the proposal to increase income tax rates, opting for a more nuanced approach. The move has raised questions about the Party's economic strategy and messaging.",
+          "key_points": [
+            "The Labour Party is planning a \u00a37.5bn tax rise in the upcoming budget.",
+            "Rachel Reeves has dropped the proposal to increase income tax rates, opting for a more nuanced approach.",
+            "Investors and businesses have expressed concerns about the Party's economic strategy and messaging.",
+            "The move may be an attempt to appeal to a broader range of voters and avoid alienating key demographics.",
+            "The UK's economic situation, including high borrowing costs and stock market fluctuations, may be influencing the Labour Party's budget decisions."
+          ],
+          "sentiment": "Negative",
+          "confidence": "Medium",
+          "bias_check": [
+            "Potential bias towards Labour Party critics: The article may give more attention to the concerns of investors and businesses, which could be seen as a bias towards the opposition.",
+            "Potential bias towards sensationalism: The use of phrases like 'hokey cokey' and 'fiasco' may be an attempt to create a more attention-grabbing headline, which could be seen as a bias towards sensationalism."
+          ],
+          "missing_context": [
+            "More information about the Labour Party's economic strategy and proposals for addressing the UK's economic challenges.",
+            "Perspectives from experts and economists on the potential impact of the tax rise and the Party's budget decisions.",
+            "A comparison with the Conservative Party's economic strategy and proposals for addressing the UK's economic challenges."
+          ],
+          "implications": [
+            "The Labour Party's budget decisions may have significant implications for the UK's economic situation, including borrowing costs and stock market fluctuations.",
+            "The move may be an attempt to appeal to a broader range of voters and avoid alienating key demographics, but it may also be seen as a sign of weakness or indecision.",
+            "The UK's economic situation, including high borrowing costs and stock market fluctuations, may be influencing the Labour Party's budget decisions, but it may also be an opportunity for the Party to shape the economic narrative and offer a more progressive approach."
+          ],
+          "model": "Llama 3.1 8B",
+          "model_id": "meta/meta-llama-3.1-8b-instruct",
+          "analyzed_at": "2025-11-15T06:11:11.754123",
+          "token_usage": {
+            "prompt_tokens": 345,
+            "completion_tokens": 878,
+            "total_tokens": 1223
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_2_1763186961",
+          "title": "Ukraine\u2019s $200 Billion Lifeline From Europe Stumbles on Pushback in Belgium - The Wall Street Journal",
+          "description": "Ukraine\u2019s $200 Billion Lifeline From Europe Stumbles on Pushback in Belgium\u00a0\u00a0The Wall Street JournalNorway won't provide $160 billion guarantee for frozen Russian funds, finance minister says\u00a0\u00a0ReutersZelenskiy Says Ukraine\u2019s Survival Rests on New Funds From Allies\u00a0\u00a0Bloomberg.comPolitical pressure mounts on Belgium to back reparations loan for Ukraine\u00a0\u00a0Euronews.comVon der Leyen meets Belgium\u2019s De Wever to discuss \u20ac140B Ukraine loan\u00a0\u00a0politico.eu",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOV2l0TFlvdmFKNXpob01VWHExdUpjRlVJVUtTWmZNb0hwVk9jSktIcVEwbURtRlV2S0w0bkhtcW8yeTFETHBLaHRjT29WdFJyOUpXeC1XVGlpMGtORlFZT1BYQmtpcjkzVHJaNVktT3V5QVlzSmg3Qk5OWnI1NUJyRjVEZGJqbE5wOHd6XzBJVkloX214OGlhUUo5VV9YZ0s4b0dCd25UVUNCV1I1OTQ1TjhnT1VJZw?oc=5",
+          "source": "The Wall Street Journal",
+          "published": "Sat, 15 Nov 2025 04:00:00 GMT",
+          "topic": "WORLD",
+          "fetched_at": "2025-11-15T06:09:21.075318"
+        },
+        "analysis": {
+          "summary": "A potential $200 billion loan for Ukraine from Europe, led by Norway, is facing opposition in Belgium, amidst growing pressure from Ukraine and the EU to provide financial support. This development has significant implications for Ukraine's economic survival and the international community's response to the ongoing conflict. The situation highlights the complexities of global politics and the challenges of coordinating international aid efforts.",
+          "key_points": [
+            "Belgium is resisting a proposed \u20ac140B loan for Ukraine, citing concerns over reparations and potential risks to its financial system.",
+            "Norway's finance minister has announced that the country will not provide a $160 billion guarantee for frozen Russian funds, which was a crucial component of the proposed loan package.",
+            "The situation underscores the challenges of securing international funding for Ukraine, a country facing significant economic and humanitarian crises.",
+            "The EU and other international partners are under pressure to provide financial support to Ukraine, with President Zelenskiy stating that the country's survival depends on new funds from allies."
+          ],
+          "sentiment": "negative",
+          "confidence": "medium",
+          "bias_check": [
+            "Pro-Ukraine bias: The article may be influenced by a pro-Ukraine stance, given the emphasis on the country's economic and humanitarian crises.",
+            "Anti-Russia bias: The article does not provide a balanced view of the Russian perspective, which may be seen as biased against Russia.",
+            "Eurocentric bias: The article focuses primarily on European perspectives and financing options, potentially overlooking other regional or international alternatives for Ukraine."
+          ],
+          "missing_context": [
+            "A more in-depth examination of the economic and humanitarian implications of the proposed loan package for Ukraine and its citizens.",
+            "A broader analysis of the international community's response to the conflict, including the roles of other key players like the United States, China, and the United Nations.",
+            "A detailed assessment of the potential risks and benefits associated with the proposed loan package, including the impact on the global economy and international relations."
+          ],
+          "implications": [
+            "The failure to secure the proposed loan package could have significant consequences for Ukraine's economic survival and the humanitarian situation in the country.",
+            "The international community's response to the conflict, including the provision of financial support, will have far-reaching implications for global politics and the economy.",
+            "The situation highlights the complexities of global politics and the challenges of coordinating international aid efforts, particularly in the context of ongoing conflicts and geopolitical tensions."
+          ],
+          "model": "Llama 3.1 8B",
+          "model_id": "meta/meta-llama-3.1-8b-instruct",
+          "analyzed_at": "2025-11-15T06:11:15.812161",
+          "token_usage": {
+            "prompt_tokens": 361,
+            "completion_tokens": 576,
+            "total_tokens": 937
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_3_1763186961",
+          "title": "\u2018No one enters, no one leaves.\u2019 Protesters block main entrance to COP30 climate talks in Brazil - PBS",
+          "description": "\u2018No one enters, no one leaves.\u2019 Protesters block main entrance to COP30 climate talks in Brazil\u00a0\u00a0PBSIndigenous groups blockade Cop30 conference entrance in protests \u2013 as it happened\u00a0\u00a0The GuardianIndigenous People Take the Stage at COP30 Climate Talks in Bel\u00e9m, Brazil\u00a0\u00a0The New York TimesIndigenous activists storm COP30 climate summit in Brazil, demanding action\u00a0\u00a0Al JazeeraCOP30 stews over fossil fuels and final deal as Indigenous fight for forest\u00a0\u00a0Reuters",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQMzExLXlOS2l0V1J4eWFnaXFCWlRDUWZYRGhJY3JTUW95MGxobHdmMF9Lb3F3Vk5aZTR2MEt2R3JXT2phVjc0U3NSV1B1WXFhVVRnV0tfM0hOaHljMUxBTjZlUF9mRkxmZjVUYTV1RGhuQzBpVFFyTkNEeG5FUEJudVY4WldFb1p2bFhOMXRheXY1cFNrM3ZuSG9hM1pUWGhBX0dNUUdtYUZhb3A3NHVjRGdXbXpkRWo5M0FISFlXak5VOXVC0gHKAUFVX3lxTE12SEQ2WkJMdk9nNHhGdkx1UWU3b3VTRTRWNmt0UnNWd3ZzbkJDOGNPcjNvZEhzSEhieXBxQkRNVU13YXlqVTlYRjNCS1FQZndPZmpiMm9qYVcxMDJJZ1AtcU9CSFQ5VkRiczFvT2VkVmJndnIwbGZvYWhtNl9KSHlzVjVoSklSZHA1cFBXNkNXSUNkZ3BTTFhFQTBHbjI2NFlZaHRJQ2RPQVRhLTVIbE16ZXUyUFYxSV92cTNqb1ViSDkyZnFDTlRIQ2c?oc=5",
+          "source": "PBS",
+          "published": "Fri, 14 Nov 2025 16:59:00 GMT",
+          "topic": "WORLD",
+          "fetched_at": "2025-11-15T06:09:21.075363"
+        },
+        "analysis": {
+          "summary": "Protesters, mainly indigenous groups, have blocked the main entrance to the COP30 climate talks in Brazil, demanding action on forest protection and fossil fuel usage. This protest highlights the ongoing tension between climate activists and governments at the global climate conference. The situation is likely to impact the final deal being negotiated.",
+          "key_points": [
+            "Indigenous groups are taking a prominent role in climate activism, emphasizing the need for forest protection.",
+            "Protesters are demanding action on fossil fuel usage, highlighting the disconnect between government commitments and actual policy.",
+            "The blockade may impact the COP30 talks, potentially delaying negotiations or altering the final deal."
+          ],
+          "sentiment": "Negative",
+          "confidence": "Medium",
+          "bias_check": [
+            "Potential bias towards climate activism and indigenous rights",
+            "Limited representation of opposing viewpoints, such as government or industry perspectives"
+          ],
+          "missing_context": [
+            "More information on specific demands and concessions made by protesters",
+            "Deeper analysis of the impact on the Brazilian government and its climate policies",
+            "Broader international context and comparisons with similar protests"
+          ],
+          "implications": [
+            "The protest may set a precedent for future climate activism, with indigenous groups playing a more prominent role.",
+            "The COP30 talks may struggle to reach a final deal due to increased tensions between activists and governments.",
+            "The Brazilian government's response to the protest may influence its climate policies and international reputation."
+          ],
+          "model": "Llama 3.1 8B",
+          "model_id": "meta/meta-llama-3.1-8b-instruct",
+          "analyzed_at": "2025-11-15T06:11:19.342587",
+          "token_usage": {
+            "prompt_tokens": 358,
+            "completion_tokens": 506,
+            "total_tokens": 864
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_4_1763186961",
+          "title": "Japan enlists drones and ex-soldiers to battle surge in bear attacks - Financial Times",
+          "description": "Japan enlists drones and ex-soldiers to battle surge in bear attacks\u00a0\u00a0Financial TimesA grizzly warning to Americans: Beware bear attacks in Japan\u00a0\u00a0NBC News\u2018They\u2019ve lost their fear\u2019: hunt begins for Japan\u2019s deadly bears\u00a0\u00a0The Times'Bear in Area!' US Embassy warns Americans in Japan about record mauling increase, deaths\u00a0\u00a0USA TodayWhat\u2019s behind a surge in bear attacks in Japan?\u00a0\u00a0Al Jazeera",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA1c1h1bC1KQkpNVDdXQ2gyU3l0S1BVWVJCTUh3a2lFcHFVSFlDbFdCMnhTUjhtOS1ScXhBOVc0U3p5WnNvcUhaMkJUbFlGX1UzYzk5OG1SR0I2SXViOGlSaDlBSFF2MnBVVzdiVWIzSFU?oc=5",
+          "source": "Financial Times",
+          "published": "Fri, 14 Nov 2025 08:50:16 GMT",
+          "topic": "WORLD",
+          "fetched_at": "2025-11-15T06:09:21.075391"
+        },
+        "analysis": {
+          "summary": "A surge in bear attacks in Japan has prompted the government to enlist drones and retired soldiers to help mitigate the issue. The increased attacks have raised concerns among locals and tourists alike, with the US Embassy issuing a warning to Americans in Japan. The root cause of the problem remains unclear, but experts point to human-bear conflict and habitat encroachment as contributing factors.",
+          "key_points": [
+            "Japan is experiencing a significant increase in bear attacks, prompting a government response.",
+            "Drones and retired soldiers are being used to help manage the bear population and reduce human-bear conflict.",
+            "The US Embassy has issued a warning to Americans in Japan, citing the record mauling increase and deaths.",
+            "Experts attribute the rise in bear attacks to human-bear conflict and habitat encroachment.",
+            "The root cause of the problem remains unclear, with multiple factors potentially contributing to the issue."
+          ],
+          "sentiment": "negative",
+          "confidence": "high",
+          "bias_check": [
+            "Potential bias towards sensationalism in the title of the Financial Times article, 'Japan enlists drones and ex-soldiers to battle surge in bear attacks'.",
+            "Possible bias towards using the US Embassy's warning as a prominent example of the issue, rather than a more neutral or balanced perspective."
+          ],
+          "missing_context": [
+            "Lack of information on the specific bear species involved in the attacks and their habitats.",
+            "Insufficient context on the historical trends of bear attacks in Japan and how they compare to current rates.",
+            "Limited discussion of potential solutions beyond the use of drones and retired soldiers, such as education campaigns or habitat restoration efforts."
+          ],
+          "implications": [
+            "The surge in bear attacks in Japan highlights the importance of understanding and managing human-animal conflict, particularly in areas with overlapping habitats.",
+            "The use of drones and retired soldiers to mitigate the issue may set a precedent for other areas experiencing similar problems.",
+            "The incident raises concerns about the safety of tourists and locals in Japan and the need for improved safety measures and education campaigns."
+          ],
+          "model": "Llama 3.1 8B",
+          "model_id": "meta/meta-llama-3.1-8b-instruct",
+          "analyzed_at": "2025-11-15T06:11:23.824880",
+          "token_usage": {
+            "prompt_tokens": 346,
+            "completion_tokens": 731,
+            "total_tokens": 1077
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_0_1763186961",
+          "title": "Disney settles dispute with YouTube TV, allowing ABC and ESPN to return to channel lineups - Los Angeles Times",
+          "description": "Disney settles dispute with YouTube TV, allowing ABC and ESPN to return to channel lineups\u00a0\u00a0Los Angeles TimesDisney reaches new deal with YouTube TV, ending blackout\u00a0\u00a0ESPNGoogle and Disney reach deal to restore ESPN, ABC to YouTube TV\u00a0\u00a0CNBCHave YouTube TV and Disney reached agreement? It could be 'a little while.'\u00a0\u00a0USA TodayDisney isn't budging in streaming standoff, leaving YouTube TV subs in a bind\u00a0\u00a0SFGATE",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOam1lcThVMDcybGJkM01wbDBuWTNaZURkWndsZE01eDJsMlh2OGdELVdaSV9Ba0s2ZndLdS1OR0t0R2R1R1hYa2I1aFpUdFlaXy1vV0ItN1JaMlpKVU05a1JRWERlWEs4OGk2LTUwMkMwSU5sWTNiUjlBeUlqRi1MU0t6ODVjMTBkZ1QwQm1yNU42MHMzQU1UeGFyRXN3SmJSVHM3OEw2bnRyTFBxeHhPSUNzMHk5RHVmbTFlNU1Pb19GdjkyUzFZOXB3?oc=5",
+          "source": "Los Angeles Times",
+          "published": "Sat, 15 Nov 2025 02:10:53 GMT",
+          "topic": "BUSINESS",
+          "fetched_at": "2025-11-15T06:09:21.119768"
+        },
+        "analysis": {
+          "summary": "Disney and YouTube TV have reached a settlement, allowing ABC and ESPN to return to the channel lineup after a dispute. This deal indicates a willingness by Disney to compromise, potentially setting a precedent for future negotiations. The resolution may have broader implications for the streaming industry.",
+          "key_points": [
+            "Disney settled the dispute with YouTube TV, allowing ABC and ESPN to return to the channel lineup.",
+            "The deal is seen as a compromise by Disney, which may set a precedent for future negotiations.",
+            "The resolution may have implications for the streaming industry, potentially influencing other disputes between content providers and streaming services.",
+            "The agreement comes after a prolonged blackout, affecting YouTube TV subscribers."
+          ],
+          "sentiment": "Neutral",
+          "confidence": "High",
+          "bias_check": [
+            "The article may be biased towards Disney, as the Los Angeles Times is a Disney-owned publication (although the article is not exclusively focused on Disney).",
+            "The article may be missing perspectives from YouTube TV or other stakeholders, which could provide a more comprehensive understanding of the dispute."
+          ],
+          "missing_context": [
+            "The article does not provide details on the terms of the settlement, which could be important for understanding the implications of the deal.",
+            "The article does not discuss the impact of the dispute on other streaming services or content providers."
+          ],
+          "implications": [
+            "The resolution may set a precedent for future negotiations between content providers and streaming services, potentially influencing the pricing and availability of content.",
+            "The deal may have implications for the streaming industry as a whole, potentially leading to changes in the way content is distributed and priced."
+          ],
+          "model": "Llama 3.1 8B",
+          "model_id": "meta/meta-llama-3.1-8b-instruct",
+          "analyzed_at": "2025-11-15T06:11:27.716121",
+          "token_usage": {
+            "prompt_tokens": 352,
+            "completion_tokens": 599,
+            "total_tokens": 951
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_1_1763186961",
+          "title": "Walmart shares are up 312% during outgoing CEO Doug McMillon's tenure. Here's how that compares to its rivals - CNBC",
+          "description": "Walmart shares are up 312% during outgoing CEO Doug McMillon's tenure. Here's how that compares to its rivals\u00a0\u00a0CNBCWalmart CEO Doug McMillon is stepping down\u00a0\u00a0CNNWalmart CEO to retire in January\u00a0\u00a0Fox BusinessWho Is John Furner? Meet the Walmart Insider Named New CEO\u00a0\u00a0The Wall Street JournalWalmart CEO started his career unloading trailers at the warehouse\u2014he says raising his hand led to his success\u00a0\u00a0Fortune",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQclJFX2NqOHY4Yks2eURkeWZlOFdiak9paEliTF9nZjZkbEw4SDhvc0U1OHpUVkRMN0dsM0JYV2RFZTJhNVlfeWQtRVhRNTVkM0cyVEhoRUNyeFE3ZHhFVGg5a0dkYW9IbG1vLUQwdWM1ZFpKRXo0MEpzb01fWHo3aWtlYXZ5Y2d4YlRrQi0xSzNGTURLRTZjZXhwZnViQdIBowFBVV95cUxOeURxWTV4YUYyN3R1bEhPRnRISVc2dllpWC0xVDFHMnpqMGJvVzgxczhPc011ZDBUdC1yTG1fbVZBQWFwdXN1UWFFUE1jNmo2eUt5Ulh5X3pfejhDTTlCNXAzZzdBS3dUcU10RWJ3Y05SdXBKcVRrd1I4eDVOdTdUanRELTNPTUNla2FucGFNRkQzOWdPZGhqbHRrMEc1QWZ3VWhR?oc=5",
+          "source": "CNBC",
+          "published": "Fri, 14 Nov 2025 20:51:57 GMT",
+          "topic": "BUSINESS",
+          "fetched_at": "2025-11-15T06:09:21.119801"
+        },
+        "analysis": {
+          "summary": "Walmart shares have seen a significant increase of 312% during outgoing CEO Doug McMillon's tenure, outperforming its rivals. This raises questions about his leadership and strategies. The appointment of new CEO John Furner is a clear indication that the company is looking to maintain this momentum.",
+          "key_points": [
+            "Doug McMillon's tenure has seen a 312% increase in Walmart shares, outperforming its competitors.",
+            "McMillon's career trajectory, from unloading trailers at a warehouse to becoming CEO, serves as an inspiring example of hard work and determination.",
+            "John Furner, the new CEO, is a Walmart insider, which may indicate a continuation of the company's current strategies.",
+            "The performance of Walmart shares under McMillon's leadership suggests that his strategies have been effective, but it's also possible that the market's overall growth has contributed to the increase.",
+            "The transition to a new CEO may bring changes to Walmart's leadership and strategies, which could impact the company's future performance."
+          ],
+          "sentiment": "positive",
+          "confidence": "high",
+          "bias_check": [
+            "The praise for Doug McMillon's leadership and career trajectory may be seen as promotional, given his success with Walmart.",
+            "The article focuses primarily on Walmart's performance, which might lead to a lack of comparison with other retail companies beyond its competitors.",
+            "The narrative around John Furner's appointment as CEO may be overly optimistic, without providing a balanced perspective on potential challenges or uncertainties."
+          ],
+          "missing_context": [
+            "More information about the company's strategies and decisions that led to the 312% increase in shares would provide a deeper understanding of McMillon's leadership.",
+            "A comparison with other retail companies' performances during the same period would provide a broader context for Walmart's success.",
+            "The article mentions John Furner's appointment as CEO but does not provide detailed information about his background, experience, or vision for Walmart's future."
+          ],
+          "implications": [
+            "Walmart's success under McMillon's leadership may set a high bar for future CEOs, making it challenging for them to replicate the same level of performance.",
+            "The company's reliance on its current strategies may limit its ability to adapt to changing market conditions or consumer preferences.",
+            "The appointment of a new CEO may signal a shift in Walmart's priorities or direction, which could impact its relationships with suppliers, employees, and customers."
+          ],
+          "model": "Llama 3.1 8B",
+          "model_id": "meta/meta-llama-3.1-8b-instruct",
+          "analyzed_at": "2025-11-15T06:11:32.617179",
+          "token_usage": {
+            "prompt_tokens": 359,
+            "completion_tokens": 822,
+            "total_tokens": 1181
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_2_1763186961",
+          "title": "Mega Millions jackpot won as grand prize approached $1 billion. See winning numbers for 11/14/25 - ABC7 Los Angeles",
+          "description": "Mega Millions jackpot won as grand prize approached $1 billion. See winning numbers for 11/14/25\u00a0\u00a0ABC7 Los AngelesMega Millions draws numbers for $980 million jackpot\u00a0\u00a0YahooMega Millions jackpot nears $1 billion ahead of Friday night's drawing\u00a0\u00a0abcnews.go.comMega Millions ticket holder wins $980M jackpot\u00a0\u00a0New York PostMega Millions, Powerball jackpots reach combined $1.5 billion ahead of weekend drawings\u00a0\u00a0CT Insider",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQlIwbHZWYk5CbEdRNkdCTzNjakRkejAyNWNXeTRhZ01Nb0pCUnFyWFEwd0pjWHRxSVhPeUQzaDhYT1ZFNlIyUjAtNElFOFQwc2VSdVNIU09lOVVWb3hxV0Y4RDYyTXFkTnZodTQxajFWd3FIX25uMlllNGpweG1jM090cnBEVDVibXp3LVJQZnZybVc2Wmx2aDgzMjNqRknSAaQBQVVfeXFMTWVGdGg4UXR2ellLNV9WaGROUjBPemlYVm1BUlprdXdwM0gxeUozQjY4N21MVF95WkZQUzJmOTlpVmVOZHRJZDdFelZNaUVldXMxeG42bTBKcTNMcnh6VzdyZ2d5N3FYWE9uY0taZkhyX1I1bXNLZmdKSFBzQW53R2FsbllCSGxCOWpKUThIc1RzUDhWU3EydnZYM2hrSmRfeE9ENmE?oc=5",
+          "source": "ABC7 Los Angeles",
+          "published": "Fri, 14 Nov 2025 21:52:05 GMT",
+          "topic": "BUSINESS",
+          "fetched_at": "2025-11-15T06:09:21.119818"
+        },
+        "analysis": {
+          "summary": "A Mega Millions ticket holder has won the $980 million jackpot, marking a significant win for the lucky individual. The win comes as the jackpot was nearing $1 billion ahead of the Friday night drawing. The numbers for the winning ticket have been revealed.",
+          "key_points": [
+            "A single Mega Millions ticket held has won the massive $980 million jackpot.",
+            "The win comes just as the jackpot was approaching $1 billion, a record-breaking amount.",
+            "The winning numbers for the ticket have been revealed but remain unverified.",
+            "The win is a significant boost for the lottery, which has seen dwindling participation in recent years.",
+            "The winner remains anonymous, as is typical for lottery winners seeking to maintain their privacy."
+          ],
+          "sentiment": "positive",
+          "confidence": "high",
+          "bias_check": [
+            "The article may have a bias towards sensationalizing the win, focusing on the massive prize amount and the individual's good fortune.",
+            "There may be an implicit bias against the lottery, as the win could be seen as a rare, but unlikely, occurrence.",
+            "The article might have a bias towards promoting the lottery, highlighting the potential for a life-changing win."
+          ],
+          "missing_context": [
+            "The article does not provide information about the winner's background, their plans for the prize money, or their motivations for playing the lottery.",
+            "There is no discussion about the social and economic implications of the massive prize amount, such as how it might impact the winner's community or the broader economy.",
+            "The article does not explore the odds of winning the jackpot, making it difficult to fully appreciate the magnitude of this win."
+          ],
+          "implications": [
+            "The win highlights the potential for a life-changing outcome for those who participate in the lottery, but also underscores the low probability of such an event.",
+            "The massive prize amount may lead to increased participation in the lottery, potentially boosting ticket sales and revenue.",
+            "The win raises questions about the distribution of wealth and the impact of large sums of money on individuals and their communities."
+          ],
+          "model": "Llama 3.1 8B",
+          "model_id": "meta/meta-llama-3.1-8b-instruct",
+          "analyzed_at": "2025-11-15T06:11:38.226396",
+          "token_usage": {
+            "prompt_tokens": 366,
+            "completion_tokens": 863,
+            "total_tokens": 1229
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_3_1763186961",
+          "title": "Berkshire Added $4 Billion Alphabet Stake and Further Pared Apple Stock - The Wall Street Journal",
+          "description": "Berkshire Added $4 Billion Alphabet Stake and Further Pared Apple Stock\u00a0\u00a0The Wall Street JournalWarren Buffett's Berkshire Hathaway reveals new position in Alphabet\u00a0\u00a0CNBCWarren Buffett's market move: Berkshire takes $4.3 billion stake in Google parent Alphabet; scales back A\u00a0\u00a0The Times of IndiaBarchart\u2019s Technical Indicators Are Flashing \u2018Buy\u2019 as Warren Buffett Loads Up on 17.8 Million Shares of Google Stock\u00a0\u00a0Yahoo FinanceBerkshire Hathaway Bought Alphabet Shares in the Third Quarter. Here\u2019s Wha",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQcGtqREhpRmd4dEVWY0JPcmluLVRFblVGYkNXM29TNkxMZ0VYNHozUzFVQnlreTh1T2hJMWVreTdYZ2xvQzBLNU5jdDY1MVdyajJBS0Utc19PaDNYWmt4UVdwQzZ1RjNyVkFldDlkNTNTOWtlOTYyLUxGWEdrbjRyX3VhMVM4SXdrQ2R0MDBBSms5MGhpZ05FZ0R6OXVFM3cw?oc=5",
+          "source": "The Wall Street Journal",
+          "published": "Sat, 15 Nov 2025 00:08:00 GMT",
+          "topic": "BUSINESS",
+          "fetched_at": "2025-11-15T06:09:21.119839"
+        },
+        "analysis": {
+          "summary": "Warren Buffett's Berkshire Hathaway has significantly increased its stake in Alphabet, the parent company of Google, by $4 billion, while simultaneously reducing its holding in Apple. This move suggests Buffett's confidence in Alphabet's growth prospects and potential for long-term value creation.",
+          "key_points": [
+            "Berkshire Hathaway has acquired a $4 billion stake in Alphabet, increasing its exposure to the tech giant.",
+            "The investment is part of Berkshire's third-quarter portfolio adjustments, which also include a reduction in its Apple holding.",
+            "Buffett's confidence in Alphabet's growth prospects could indicate a positive outlook for the company's future performance.",
+            "The move may also suggest a shift in Berkshire's investment strategy, focusing on tech and growth-oriented stocks.",
+            "The impact on Apple's stock price and overall market dynamics remains to be seen."
+          ],
+          "sentiment": "positive",
+          "confidence": "high",
+          "bias_check": [
+            "Potential bias towards portraying Warren Buffett as a successful investor, potentially underestimating the risks associated with investing in tech giants.",
+            "Limited consideration of the potential consequences of Berkshire's increased stake in Alphabet on the broader market and its competitors.",
+            "Possible emphasis on the positive aspects of the investment without adequately addressing potential challenges or concerns."
+          ],
+          "missing_context": [
+            "A more detailed analysis of Berkshire's investment strategy and its potential implications for the tech industry.",
+            "Insights from industry experts and analysts on the potential risks and opportunities associated with Alphabet's growth prospects.",
+            "A broader discussion of the impact of Berkshire's investment decisions on the overall market and its participants."
+          ],
+          "implications": [
+            "A significant increase in Berkshire's stake in Alphabet could have a positive impact on the company's stock price and overall market performance.",
+            "The move may also lead to increased competition in the tech industry, potentially benefiting consumers but putting pressure on competitors to adapt and innovate.",
+            "A shift in Berkshire's investment strategy towards tech and growth-oriented stocks could have broader implications for the market, potentially influencing investment decisions and risk appetites."
+          ],
+          "model": "Llama 3.1 8B",
+          "model_id": "meta/meta-llama-3.1-8b-instruct",
+          "analyzed_at": "2025-11-15T06:11:44.169439",
+          "token_usage": {
+            "prompt_tokens": 369,
+            "completion_tokens": 1000,
+            "total_tokens": 1369
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_4_1763186961",
+          "title": "NVDA, MSFT, GOOGL: Ray Dalio\u2019s Bridgewater Loses Confidence in Big Tech, Trims Stakes in Q3 - TipRanks",
+          "description": "NVDA, MSFT, GOOGL: Ray Dalio\u2019s Bridgewater Loses Confidence in Big Tech, Trims Stakes in Q3\u00a0\u00a0TipRanksUS hedge funds trim stakes in 'Magnificent Seven' stocks in third quarter\u00a0\u00a0ReutersBridgewater adds Applied Materials, trims Nvidia stake, among top Q3 trades - 13F (AMAT:NASDAQ)\u00a0\u00a0Seeking AlphaFactbox-Some Wall St hedge funds trimmed megacap positions in 3rd quarter\u00a0\u00a0MSNStay away from the AI hype and gold! Bridgewater Associates aggressively dumped NVIDIA (NVDA.US) and other tech giants along with",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOc1QxVXFmNURRYlRfZS1sbURsZEhUYVNfN2FOYi03SUpRODRZUEp6VThqZlN0WEdFcVdRX0dBMW9BX3A5NmJCc0NISXVHZWhsN2dVOFpaMmJCa2Z4Y3pDVTJkaG1Pc2ZVdVVvVmx6T3lpUEYwbnJPYzRDelJwaWF5dWtBbjhyS2lYQ01sZmZLcUFodmF0M1JXRnUwbDQwUUI2OWl4VFBQZGlfajNNSFktX1c2aXlXZG8?oc=5",
+          "source": "TipRanks",
+          "published": "Fri, 14 Nov 2025 22:57:15 GMT",
+          "topic": "BUSINESS",
+          "fetched_at": "2025-11-15T06:09:21.119859"
+        },
+        "analysis": {
+          "summary": "Bridgewater Associates, a prominent hedge fund managed by Ray Dalio, has trimmed its stakes in tech giants NVDA, MSFT, and GOOGL in Q3, indicating a decline in confidence in the big tech sector. This move is part of a broader trend of US hedge funds reducing their positions in 'megacap' stocks. Bridgewater has also added Applied Materials to its portfolio.",
+          "key_points": [
+            "Bridgewater Associates has reduced its stakes in NVDA, MSFT, and GOOGL in Q3, marking a decline in confidence in the big tech sector.",
+            "US hedge funds have trimmed their positions in 'megacap' stocks, including the 'Magnificent Seven' stocks, in the third quarter.",
+            "Bridgewater has added Applied Materials to its portfolio, indicating a potential shift in investment focus.",
+            "The move may signal a broader industry trend of reduced confidence in the tech sector."
+          ],
+          "sentiment": "cautious",
+          "confidence": "medium",
+          "bias_check": [
+            "Potential bias towards sensationalizing the news, with attention-grabbing headlines like 'Stay away from the AI hype and gold!'",
+            "Possible bias towards Bridgewater Associates, as it's one of the most prominent hedge funds in the industry",
+            "Assumes a negative sentiment towards the tech sector, without providing a balanced view of its prospects"
+          ],
+          "missing_context": [
+            "The article does not provide a clear explanation for Bridgewater's decision to trim its stakes in big tech",
+            "It does not offer insights into the specific reasons behind the reduced confidence in the tech sector",
+            "Lacks a broader industry perspective on the implications of this move"
+          ],
+          "implications": [
+            "A decline in confidence in the tech sector could have significant implications for the overall stock market",
+            "Bridgewater's move may influence other investors to reevaluate their positions in big tech",
+            "A shift in investment focus towards Applied Materials could indicate a growing interest in the semiconductor industry"
+          ],
+          "model": "Llama 3.1 8B",
+          "model_id": "meta/meta-llama-3.1-8b-instruct",
+          "analyzed_at": "2025-11-15T06:11:49.428228",
+          "token_usage": {
+            "prompt_tokens": 403,
+            "completion_tokens": 893,
+            "total_tokens": 1296
           }
         }
       }
@@ -725,19 +690,19 @@
     "articles_analyzed": 15
   },
   "costs": {
-    "execution_time": 82.66895174980164,
-    "execution_minutes": 1.3778158624966939,
-    "github_actions": 0.011022526899973552,
+    "execution_time": 132.8704867362976,
+    "execution_minutes": 2.2145081122716266,
+    "github_actions": 0.017716064898173012,
     "openai": {
-      "input": 0.0007902,
-      "output": 0.0069678,
-      "total": 0.007757999999999999
+      "input": 0.0008143499999999999,
+      "output": 0.0069852,
+      "total": 0.00779955
     },
-    "total": 0.018780526899973553,
+    "total": 0.02551561489817301,
     "token_usage": {
-      "prompt_tokens": 5268,
-      "completion_tokens": 11613,
-      "total_tokens": 16881
+      "prompt_tokens": 5429,
+      "completion_tokens": 11642,
+      "total_tokens": 17071
     }
   }
 }
