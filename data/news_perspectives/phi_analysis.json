@@ -2,502 +2,500 @@
   "agent": "phi-analyzer",
   "model": "Phi-4 Mini",
   "model_id": "microsoft/phi-4-mini-instruct",
-  "timestamp": "2025-11-16T06:12:17.695290",
+  "timestamp": "2025-11-16T12:13:23.009938",
   "status": "completed",
   "data": {
     "analyses": [
       {
         "article": {
-          "id": "news_0_1763273397",
+          "id": "news_0_1763295054",
           "title": "OnePlus 15 vs. Samsung Galaxy S25 Ultra: I've used both Android flagships, and here's who wins - ZDNET",
-          "description": "OnePlus 15 vs. Samsung Galaxy S25 Ultra: I've used both Android flagships, and here's who wins\u00a0\u00a0ZDNETSamsung fans won't like this: OnePlus just topped the S25 Ultra in more ways than one\u00a0\u00a0ZDNETI Tested the OnePlus 15 and Its Massive 7,300-mAh Battery Deserves a Medal\u00a0\u00a0CNETOnePlus 15 review: A great phone, if photography isn't a priority\u00a0\u00a0EngadgetOnePlus\u2019s New Two-Day Battery Life Phone Delayed by US Government Shutdown\u00a0\u00a0Bloomberg.com",
+          "description": "OnePlus 15 vs. Samsung Galaxy S25 Ultra: I've used both Android flagships, and here's who wins\u00a0\u00a0ZDNETSamsung fans won't like this: OnePlus just topped the S25 Ultra in more ways than one\u00a0\u00a0ZDNETThe OnePlus 15 is the phone to buy if you hate charging your phone\u00a0\u00a0The VergeI Tested the OnePlus 15 and Its Massive 7,300-mAh Battery Deserves a Medal\u00a0\u00a0CNETOnePlus 15 review: A great phone, if photography isn't a priority\u00a0\u00a0Engadget",
           "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQRHp3a2hLWTFvbVBoOEFCZXdraGs3NmFDTUUyblZUb1U0aE03RmhtZjk3c3FROUswMlhSTHRyZkNmSHg5MUtKM01oREFPREZlQjFsZFNTcjRZMnFhVG9tNk0yV0hSVmpuT092eG9LMUpkeVFQeXY3WDhuOTlQS1RpVzN5NlJwYkZ3NFB3ZzZ3Ri1HUkxOdHNNT2VMbDl3UlM1OWpqalZCNm9vTnhEOVdrOWU4T2R6d2hWT1NfbQ?oc=5",
           "source": "ZDNET",
           "published": "Sun, 16 Nov 2025 03:00:00 GMT",
           "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-16T06:09:57.073354"
+          "fetched_at": "2025-11-16T12:10:54.779615"
         },
         "analysis": {
-          "summary": "The article presents a comparison between the OnePlus 15 and the Samsung Galaxy S25 Ultra, with a focus on their performance, battery life, and photography capabilities. The OnePlus 15 is highlighted as performing better in several areas, which might disappoint Samsung fans who prefer their brand.",
+          "summary": "The article presents a comparative review of the OnePlus 15 and Samsung Galaxy S25 Ultra, with a slight preference for the OnePlus 15 based on aspects like battery life and charging experience, although it acknowledges that it might not suit photography enthusiasts.",
           "key_points": [
-            "OnePlus 15 outperforms Samsung Galaxy S25 Ultra in various aspects.",
-            "The OnePlus 15 is praised for its battery life and photography, despite being a late release due to the US government shutdown.",
-            "Samsung Galaxy S25 Ultra is still regarded as a high-end phone, but the OnePlus 15 offers a compelling alternative."
+            "OnePlus 15 outperforms Samsung Galaxy S25 Ultra in battery life and charging convenience.",
+            "OnePlus 15 may not be ideal for users with a priority on photography.",
+            "Samsung Galaxy S25 Ultra retains its position as a superior choice for photography enthusiasts."
           ],
           "sentiment": "Mixed",
           "confidence": "High",
-          "bias_check": "The writer's preference for OnePlus over Samsung could influence the presentation of facts. The article may underplay the strengths of the Samsung Galaxy S25 Ultra.",
-          "missing_context": "Lack of detailed quantitative data (e.g., benchmark scores, price comparisons) and user reviews from a broader audience, which would provide a more rounded perspective. The environmental and ethical considerations of manufacturing both devices are also not discussed.",
-          "implications": "The comparison may influence potential buyers, especially those who are undecided between the two brands. It highlights the competitive nature of the Android smartphone market and the importance of performance, battery life, and camera quality. The article could also reflect the impact of political events on consumer electronics supply chains.",
+          "bias_check": "The article may reflect a bias towards OnePlus due to the author's preference, the evolution of battery technology, and possibly due to OnePlus's marketing strategies. The review also may lean towards the preferences of the writer, which could affect the objectivity of the comparison.",
+          "missing_context": "The article does not mention the price points of both devices, which could significantly influence consumer choice. Additionally, there is no mention of software experience, as this is often a significant factor for users. The review also does not compare the cameras' low-light performance or specific features like image stabilization, which could be important for photography-focused users.",
+          "implications": "The comparison suggests that the OnePlus 15 could be a more appealing choice for users who prioritize battery life and charging, potentially shifting the market slightly. However, the continued excellence of the Samsung Galaxy S25 Ultra in photography may help retain a segment of users who value cameras above all else. Overall, the comparison highlights the importance of individual user priorities when choosing between flagship phones.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-16T06:10:18.383183",
+          "analyzed_at": "2025-11-16T12:11:19.816374",
           "token_usage": {
             "prompt_tokens": 317,
-            "completion_tokens": 317,
-            "total_tokens": 634
+            "completion_tokens": 355,
+            "total_tokens": 672
           }
         }
       },
       {
         "article": {
-          "id": "news_1_1763273397",
-          "title": "Galaxy Z TriFold hits a key milestone ahead of US release - SamMobile",
-          "description": "Galaxy Z TriFold hits a key milestone ahead of US release\u00a0\u00a0SamMobileExclusive: Samsung Unveils Twice-Folding Galaxy Z TriFold\u00a0\u00a0\uc870\uc120\uc77c\ubcf4Samsung's trifold phone has exactly the name you expected\u00a0\u00a0MashableSamsung Galaxy Z TriFold rumors \u2014 everything we know about Samsung's triple foldable phone\u00a0\u00a0Tom's GuideSamsung's tri-fold tipped to launch next month with 5600mAh battery and a $3,000 price tag\u00a0\u00a0Beehiiv",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPTThlV0l2RGw1VzA4MXBjeU1kTHBlaHpyZFhYczBlNkh1bGliMmp1OGRFSGJNVkppbTB2M3NTcHprbVFQMWNNQTVOUEwzYXl0Y0JBdndOS2NzZ21YSXpQaTlCMEt4eTk3bE9FbmJhWm5mYzcxeUJzM3lHcWN1dTd3anB3?oc=5",
-          "source": "SamMobile",
-          "published": "Sat, 15 Nov 2025 03:24:00 GMT",
+          "id": "news_1_1763295054",
+          "title": "The Steam Machine feels like the TV gaming PC I\u2019ve always wanted - The Verge",
+          "description": "The Steam Machine feels like the TV gaming PC I\u2019ve always wanted\u00a0\u00a0The VergeWe take a guess at how much Valve's new Steam Machine is going to cost\u00a0\u00a0PC GamerGear News of the Week: Steam Makes a Home Console, and Apple Debuts a $230 Pouch for Your iPhone\u00a0\u00a0WIREDValve's Next-Gen Steam Machine and Steam Controller \u2014 the Big Interview\u00a0\u00a0IGNSteam Frame vs Apple Vision Pro vs Meta Quest 3 \u2014 Which has stronger specs, and which is best for gaming?\u00a0\u00a0Mashable",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOcGVaemExdWx5Qm5QMGw3MXpyd1FJelhCYkF1N09oT2wwNlVTaHp5aTQ1SVVVRER4OWJWbENlb2NKbGxXVHE3cGNFVHNROTB0MkZscGhXTW91UHhuVGdyWVVpNDM4S29tMy1HNWtGNEVtMXBidFNKZDczanNIVWZQc1J3cw?oc=5",
+          "source": "The Verge",
+          "published": "Sat, 15 Nov 2025 13:00:00 GMT",
           "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-16T06:09:57.073384"
+          "fetched_at": "2025-11-16T12:10:54.779645"
         },
         "analysis": {
-          "summary": "Samsung's Galaxy Z TriFold, a triple foldable smartphone, has reached a key development milestone ahead of its anticipated US release. The device, rumored to feature a 5600mAh battery and a $3,000 price tag, is set to launch next month. This significant advancement by Samsung marks a potential shift in the foldable smartphone market.",
+          "summary": "The Verge article discusses the anticipation and expectations surrounding Valve's Steam Machine, a new gaming PC designed for television use. It examines how the Steam Machine seeks to bridge the gap between traditional gaming PCs and the emerging home console market, highlighting features and speculations about its performance and price point.",
           "key_points": [
-            "Samsung's Galaxy Z TriFold has reached a key development milestone ahead of its US release.",
-            "The device is expected to feature a 5600mAh battery and a $3,000 price tag.",
-            "The introduction of a triple foldable smartphone by Samsung could influence the market dynamics for foldable devices."
+            "Valve's Steam Machine aims to combine the power of a PC with the convenience of a TV gaming console.",
+            "The article explores whether the Steam Machine can fulfill its promise and what it might cost.",
+            "There is speculation about how the Steam Machine will compare to other gaming systems like the Apple Vision Pro and Meta Quest 3."
           ],
           "sentiment": "Mixed",
           "confidence": "High",
-          "bias_check": "The article may exhibit a bias towards showcasing Samsung's innovation, potentially overshadowing competitive alternatives. Additionally, the focus on the high price point might attract negative sentiment from budget-conscious consumers.",
-          "missing_context": "The analysis of competitor products, the actual consumer demand for foldable smartphones, and the feasibility of mass production at such a high price point are not discussed. The potential technical challenges and user experience issues associated with triple foldable devices are also not addressed.",
-          "implications": "The release of the Galaxy Z TriFold by Samsung could set a precedence for future foldable smartphones, potentially leading to increased competition and innovation in that segment. However, the high price point may limit its accessibility and impact the broader adoption rate of foldable technology. Additionally, it could prompt competitors to accelerate their own foldable phone developments to stay competitive.",
+          "bias_check": "The article is from The Verge, a publication known for its tech focus, which might lean towards showcasing innovation and excitement around new tech releases. Additionally, as a source discussing a product from a company that Valve is closely associated with, there might be a bias towards presenting the Steam Machine in a positive light.",
+          "missing_context": "The article does not provide a detailed comparison of the Steam Machine's performance against established gaming consoles like Xbox Series X/S or PlayStation 5, which could offer more context to the reader.",
+          "implications": "The introduction of the Steam Machine could signal a shift in Valve's approach to gaming, potentially impacting the market dynamics between PC gaming and console gaming. It also raises questions about the future of gaming hardware and Valve's strategy in the evolving gaming industry.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-16T06:10:28.971366",
+          "analyzed_at": "2025-11-16T12:11:29.626742",
           "token_usage": {
-            "prompt_tokens": 290,
-            "completion_tokens": 346,
-            "total_tokens": 636
+            "prompt_tokens": 303,
+            "completion_tokens": 327,
+            "total_tokens": 630
           }
         }
       },
       {
         "article": {
-          "id": "news_2_1763273397",
-          "title": "Apple\u2019s last-gen AirPods Pro 2 are down to their lowest price to date - The Verge",
-          "description": "Apple\u2019s last-gen AirPods Pro 2 are down to their lowest price to date\u00a0\u00a0The VergeAirPod Pros at Their Best Price Ever, Lots of Toys, and More Great Deals\u00a0\u00a0New York MagazineApple deals of the week: Record-low prices on AirPods and Apple Watches\u00a0\u00a0Yahoo! Tech34% Off AirPods, 25% Off MacBooks, and Every Other Apple Deal Worth Shopping Right Now\u00a0\u00a0EsquireAll The Best Early Black Friday Deals From Apple for 2025\u00a0\u00a0Popular Mechanics",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSkVNYjhELW15UVo4SXdLN09aM0VVWjQzQzZIUmwtMW1hMnVlc0tKam1Oa1otdEUzcWt2dmxxUkxWamVfejdoZmlzSEpNRzFfWEE5anZYS3Z5LXZ1TFN4VDRDNzF5MTM2Y3Q4cG5SanlxRlBSd2hzdVZIZW91ZVRJbGV6UFlVMVVzT3ptMkNWdDJGUzVD?oc=5",
-          "source": "The Verge",
-          "published": "Fri, 14 Nov 2025 16:42:27 GMT",
-          "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-16T06:09:57.073406"
-        },
-        "analysis": {
-          "summary": "The Verge reports that Apple's AirPods Pro 2, their last-generation model, have reached their lowest price point ever, making it an attractive deal for consumers looking for wireless earbuds. The price drop is part of Apple's ongoing strategy to clear out inventory and make room for new products.",
-          "key_points": [
-            "AirPods Pro 2 are now at their lowest price point ever, offering a significant discount.",
-            "This price drop is likely an effort by Apple to clear out last-gen inventory to make way for the newest AirPods Pro models.",
-            "The deal could attract budget-conscious consumers and tech enthusiasts looking for a good value."
-          ],
-          "sentiment": "Positive",
-          "confidence": "High",
-          "bias_check": "The article may be biased towards portraying Apple as a company that regularly clears out inventory for profit rather than innovation, which might not fully represent the company's strategy.",
-          "missing_context": "The context of Apple's overall product release cycle and how this pricing strategy fits into it is not provided. Additionally, the comparison to competitors' pricing and offerings is missing.",
-          "implications": "The lower price of the AirPods Pro 2 could lead to increased sales for Apple, both in terms of units sold and revenue (even at a lower price point). It also suggests that Apple may be planning to introduce new AirPods Pro models soon, which could prompt other companies to offer promotions or price cuts. However, it might also raise questions about the longevity of last-gen products and their perceived value over time.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-16T06:10:38.752958",
-          "token_usage": {
-            "prompt_tokens": 301,
-            "completion_tokens": 324,
-            "total_tokens": 625
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_3_1763273397",
+          "id": "news_2_1763295054",
           "title": "Don\u2019t wait for Black Friday madness. Save on TVs, laptops and more at Best Buy right now - CNN",
           "description": "Don\u2019t wait for Black Friday madness. Save on TVs, laptops and more at Best Buy right now\u00a0\u00a0CNNView Full Coverage on Google News",
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQT3h2QXVjTHZxRmVCelNsSkxQNjVhVU1EblhBSlZpLTUyQ09FSHM4M09FS0xWUjA5V0JQVnhlREIwckE3RGROWXRPaEdMZVY4bG5FMFJGSzV0M3FuaDVHdmFMcjRndkJXeldRSF9vUjZKcXJSeDM4ZnZmOUdrbnR5b0o3RVBpbWNrQll6a1F5Zkpid3IyMm1mSHhnTQ?oc=5",
           "source": "CNN",
           "published": "Fri, 14 Nov 2025 19:04:00 GMT",
           "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-16T06:09:57.073419"
+          "fetched_at": "2025-11-16T12:10:54.779657"
         },
         "analysis": {
-          "summary": "Best Buy is offering significant discounts on TVs, laptops, and other electronics ahead of Black Friday, aiming to attract early shoppers and reduce the holiday rush.",
+          "summary": "The article from CNN suggests that Best Buy is offering significant discounts on various electronics like TVs and laptops ahead of the Black Friday rush. This could be an opportunity for consumers to save money without enduring the typical Black Friday crowds and stresses.",
           "key_points": [
-            "Best Buy is pre-empting Black Friday with early discounts.",
-            "Early shoppers can benefit from substantial savings on electronics.",
-            "This strategy may help Best Buy manage customer traffic and reduce the intensity of Black Friday shopping."
+            "Best Buy is offering discounts on TVs, laptops, and other electronics ahead of Black Friday.",
+            "This sales strategy may attract budget-conscious shoppers looking to avoid the Black Friday frenzy.",
+            "Consumers could benefit from savings and the convenience of shopping without the crowds."
           ],
           "sentiment": "Positive",
           "confidence": "High",
-          "bias_check": "The article may be biased towards promoting Best Buy's strategy without discussing any potential downsides or comparing it with other retailers' strategies.",
-          "missing_context": "The article does not provide information on the impact of these discounts on Best Buy's overall profitability, nor does it mention any other measures Best Buy is taking to manage the Black Friday rush.",
-          "implications": "This approach by Best Buy could set a precedent for other retailers to offer early discounts as a way to spread out the shopping frenzy. It could also affect consumer behavior, encouraging them to shop earlier and possibly leading to a more even distribution of holiday shopping traffic.",
+          "bias_check": "The article may be biased towards promoting Best Buy's sales strategy and could be overlooking other retailers' similar promotions. It also does not provide information on the actual discount amounts, which might affect consumer perception.",
+          "missing_context": "The article does not mention the specific deals, the starting prices of the electronics before the sale, or if these deals are a standard practice at Best Buy or unique for this Black Friday. It also doesn't compare these deals to those offered by competitors.",
+          "implications": "The broader implication is that consumers who are wary of the Black Friday crowds might still find value in this timing. Best Buy's strategy could also set a precedent for other retailers to offer pre-Black Friday sales. However, the full impact on consumer behavior and Best Buy's sales figures might not be evident without more detailed information.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-16T06:10:46.909601",
+          "analyzed_at": "2025-11-16T12:11:39.164362",
           "token_usage": {
             "prompt_tokens": 225,
-            "completion_tokens": 244,
-            "total_tokens": 469
+            "completion_tokens": 307,
+            "total_tokens": 532
           }
         }
       },
       {
         "article": {
-          "id": "news_4_1763273397",
-          "title": "Best Buy Week 3 Black Friday Doorbusters now live: Samsung Galaxy phones $200, TVs, monitors $800 off, more - 9to5Toys",
-          "description": "Best Buy Week 3 Black Friday Doorbusters now live: Samsung Galaxy phones $200, TVs, monitors $800 off, more\u00a0\u00a09to5ToysView Full Coverage on Google News",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQeW1LUldObjlyVEN3TXd4dUhqTnZkWFRTY01XczVSa1kyYUxaQ0FiMjZoRUFhQ1kzb2VFSzM3R3hNbFAxdEFEZlp2d1h0R3NzZWdZcGxEZTZqZVZoZGxjaWZ5SFVWVU1LNmctZjV2MHN3eVRTTTFkMXNuRzJRWWJiNUtOdGdxdmdkR1E?oc=5",
-          "source": "9to5Toys",
-          "published": "Fri, 14 Nov 2025 23:00:00 GMT",
+          "id": "news_3_1763295054",
+          "title": "Call of Duty: Black Ops 7 campaign can't be paused, has no checkpoints, and kicks idle players - TechSpot",
+          "description": "Call of Duty: Black Ops 7 campaign can't be paused, has no checkpoints, and kicks idle players\u00a0\u00a0TechSpotBig stars, big stunts. It\u2019s not a movie, it\u2019s \u2018Call of Duty: Black Ops 7\u2019\u00a0\u00a0Los Angeles TimesCall of Duty: Black Ops 7 campaign requires a constant online connection and has zero checkpoints \u2014 mission levels are designed for four, necessitating repetitive tasks if you play alone\u00a0\u00a0Tom's HardwareBlack Ops 7's launch day Steam player count is significantly lower than last year's Call of Duty, sugg",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOWVlJajdxbDhuVHRDN3RmeFhrcUQwNHdvS3FBSVlyU3Z6ODJHc3hfTUNCSU4xTTdWaUtXUTFHTk5IRk5pTThXZUNwLTBpeXk1MEI1ZmRSWGM1QTJuS2RJTlFrUk5EVUlnR2c3MGZnTHhqT2VRWUVuM0xIdHB6MGhlbzdqMXBVN0VBRVhMNg?oc=5",
+          "source": "TechSpot",
+          "published": "Sat, 15 Nov 2025 14:03:05 GMT",
           "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-16T06:09:57.073431"
+          "fetched_at": "2025-11-16T12:10:54.779682"
         },
         "analysis": {
-          "summary": "Best Buy Week 3 Black Friday Doorbusters offer significant discounts on Samsung Galaxy phones, TVs, and monitors, with phones available for $200 and TVs and monitors for $800 off. This promotion is part of Best Buy's 2023 Black Friday sales event, aiming to attract customers with substantial savings.",
+          "summary": "Call of Duty: Black Ops 7's campaign, according to TechSpot, lacks traditional gameplay elements like pausing and checkpoints, and it is designed for four players, forcing solo players to perform repetitive tasks. The lack of checkpoints and mandatory online connection may deter solo gamers and affect the game's reception compared to previous titles.",
           "key_points": [
-            "Significant discounts are being offered on high-demand items like Samsung Galaxy phones, TVs, and monitors.",
-            "This promotion is part of Best Buy's larger Black Friday sales event in 2023.",
-            "The discounted prices are substantial, making it an attractive deal for consumers looking to save on electronics."
+            "Black Ops 7 lacks pausing and checkpoints, requiring a constant online connection.",
+            "Designed for four players, solo players must undertake repetitive tasks.",
+            "The game's design might negatively impact players who prefer solo play."
+          ],
+          "sentiment": "mixed",
+          "confidence": "high",
+          "bias_check": "The source TechSpot may have a bias towards highlighting negative aspects of the game, given its focus on technology and gaming news.",
+          "missing_context": "The article does not provide information on the potential benefits of the game's design, such as increased challenge or community engagement, or the reasons behind the design choices.",
+          "implications": "The design choices in Black Ops 7 could lead to a divided player base, with potentially alienating solo players but possibly appealing to those seeking a more challenging or community-driven experience.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-16T12:11:46.223490",
+          "token_usage": {
+            "prompt_tokens": 314,
+            "completion_tokens": 255,
+            "total_tokens": 569
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_4_1763295054",
+          "title": "ICYMI: Red Dead Redemption's Switch 2 Release Is A Free Upgrade For Switch Owners - Nintendo Life",
+          "description": "ICYMI: Red Dead Redemption's Switch 2 Release Is A Free Upgrade For Switch Owners\u00a0\u00a0Nintendo LifeRed Dead Redemption Coming to Netflix, iOS, Android, PS5, Xbox Series, and Nintendo Switch 2\u00a0\u00a0Rockstar GamesEverything You Need to Know About Red Dead Redemption Mobile Edition\u00a0\u00a0NetflixRed Dead Redemption is back (again) on modern platforms\u00a0\u00a0Polygon'Red Dead Redemption' comes to PS5, Xbox, iOS, and Android: How to get it\u00a0\u00a0Mashable",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNYkIzTXJtbTBGY21Ec3ZtNHd6c0MwR1V5ODFheWRmLUp0NzZpd2dIclQ0Y3RvWWtHNjJVS0E5MFM4bzlnSklVYjJHcWlNc244eXF6aHR2d2xQWjVGcXpmTXFJZkxmN1NUWmFQNkJSWklJb3VaMzhDSmM2QjBmMkF6cUpkbk5icXhGQ1Y2SUdwZWszMHpoU2tUcGs0NEFERkxnRk9IcldyMmxCUExPYkxaRUJDcXNtY3p3TWZpTV9B?oc=5",
+          "source": "Nintendo Life",
+          "published": "Sun, 16 Nov 2025 06:05:00 GMT",
+          "topic": "TECHNOLOGY",
+          "fetched_at": "2025-11-16T12:10:54.779702"
+        },
+        "analysis": {
+          "summary": "Red Dead Redemption is making its way to various modern platforms, including a free upgrade for Nintendo Switch owners, which could significantly enhance its accessibility and reach.",
+          "key_points": [
+            "Red Dead Redemption will be available for free on the Nintendo Switch 2.",
+            "The game will also be released on multiple other platforms like Netflix, PS5, Xbox Series, iOS, and Android.",
+            "This move could potentially increase the game's popularity and player base."
           ],
           "sentiment": "Positive",
           "confidence": "High",
-          "bias_check": "The article focuses on positive aspects of the sale, such as significant discounts, without discussing potential drawbacks like limited stock or the potential for increased consumer debt.",
-          "missing_context": "The article does not provide information on the availability of these items, their condition (new or refurbished), or any additional terms and conditions of the sale. Additionally, it does not compare these discounts to those offered by Best Buy in previous Black Friday events or by competitors.",
-          "implications": "The promotion could lead to a surge in Best Buy's sales, potentially impacting competitor sales and retail strategies. It may also influence consumer purchasing behavior, encouraging immediate Black Friday shopping rather than waiting for post-holiday sales.",
+          "bias_check": "The article may be biased towards promoting the game and its expansion across platforms, potentially ignoring critical perspectives or compatibility issues that may arise.",
+          "missing_context": "The article does not provide information on how the free upgrade will be implemented for Switch owners, nor does it mention any requirements for owners to access the new content. Additionally, there might be concerns about the game\u2019s performance on the new Nintendo Switch 2 hardware.",
+          "implications": "The broader implications include increasing the game's footprint in the gaming market, potentially boosting sales and subscriptions (like Netflix) associated with the game. It could also impact the competitive landscape as other game developers might consider similar strategies to boost accessibility and player engagement.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-16T06:10:54.942207",
+          "analyzed_at": "2025-11-16T12:11:54.819806",
           "token_usage": {
-            "prompt_tokens": 251,
-            "completion_tokens": 303,
-            "total_tokens": 554
+            "prompt_tokens": 302,
+            "completion_tokens": 268,
+            "total_tokens": 570
           }
         }
       },
       {
         "article": {
-          "id": "news_0_1763273397",
+          "id": "news_0_1763295054",
           "title": "Refugees to face 20-year wait to settle permanently under asylum reforms - BBC",
-          "description": "Refugees to face 20-year wait to settle permanently under asylum reforms\u00a0\u00a0BBCBritain to announce \u2018most significant\u2019 change to asylum rules in years, setting Europe\u2019s longest route to settlement\u00a0\u00a0CNNU.K. plans to drastically reduce protections for refugees in overhaul of its asylum policies\u00a0\u00a0CBS NewsBritain announces largest asylum policy overhaul in modern times\u00a0\u00a0ReutersUK government set to make support for asylum seekers \u2018discretionary\u2019\u00a0\u00a0The Guardian",
+          "description": "Refugees to face 20-year wait to settle permanently under asylum reforms\u00a0\u00a0BBCRefugees established in UK may have to return if home countries become safe\u00a0\u00a0The GuardianBritain to announce \u2018most significant\u2019 change to asylum rules in years, setting Europe\u2019s longest route to settlement\u00a0\u00a0CNNBritain to make refugee status temporary under asylum overhaul\u00a0\u00a0ReutersAsylum crackdown is not racist, insists Mahmood\u00a0\u00a0The Telegraph",
           "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5xaDBsVWluSzYtMncyUUhldXFwcHlPZkJQNndKc3NGQzhRazlkaDAxR0h0dThOckRnUGdzRGQtM19td0xsd2FLMlZIZ3hfNUQzeXNtMG9TRjlPZ9IBX0FVX3lxTE9VRlUxQUpZRWx1U3psR1pKNnVMMzNCOHRIMl9INWZUWlRpNHRRa0lIYTVhUE1ZZ0w3MlA5cllYc0tiZ1U2VGJ3Si1WSzhZQVViQkczOW5WY1BwWnRUWk1j?oc=5",
           "source": "BBC",
-          "published": "Sat, 15 Nov 2025 23:56:10 GMT",
+          "published": "Sun, 16 Nov 2025 08:21:57 GMT",
           "topic": "WORLD",
-          "fetched_at": "2025-11-16T06:09:57.203551"
+          "fetched_at": "2025-11-16T12:10:54.820585"
         },
         "analysis": {
-          "summary": "The UK's proposed asylum reforms would result in refugees facing a potential 20-year wait to settle permanently, marking the longest route to settlement in Europe's history. The overhaul introduces significant reductions in protections, making support for asylum seekers more 'discretionary'.",
+          "summary": "The UK is set to implement asylum reforms that could result in a 20-year wait for refugees to settle permanently, marking the longest route to settlement in Europe. The reforms include temporary refugee status and the potential for refugees to return home if their countries become safe, raising concerns about the rights and futures of those seeking asylum.",
           "key_points": [
-            "Asylum seekers in the UK could face a 20-year wait under new reforms.",
-            "The changes signify the most significant overhaul of asylum policies in decades.",
-            "Refugees will have reduced protections, with support becoming discretionary."
+            "UK's asylum reforms could lead to a 20-year wait for permanent settlement.",
+            "Refugees might have to return to their home countries if they become safe again.",
+            "Reforms are described as temporary and not inherently racist."
+          ],
+          "sentiment": "mixed",
+          "confidence": "high",
+          "bias_check": "The perspective of the UK government and its justification of the reforms might be underrepresented. The experiences and potential hardships faced by refugees are also not fully explored.",
+          "missing_context": "The article does not provide information on the current state of asylum systems in the UK or other European countries for comparison. Additionally, the humanitarian perspective and potential human rights implications of the reforms are not discussed.",
+          "implications": "These reforms could significantly impact the lives of refugees, potentially leading to prolonged uncertainty and hardship. It may also set a precedent for other countries, influencing global asylum policies. The humanitarian concerns and the long-term effects on refugee communities will be a critical point of discussion and criticism.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-16T12:12:02.260095",
+          "token_usage": {
+            "prompt_tokens": 278,
+            "completion_tokens": 292,
+            "total_tokens": 570
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_1_1763295054",
+          "title": "Chilean far right looms large in election dominated by crime, threats of deportations - The Times of Israel",
+          "description": "Chilean far right looms large in election dominated by crime, threats of deportations\u00a0\u00a0The Times of IsraelChile heads for a sharp right turn\u00a0\u00a0The EconomistCommunist and far-right politicians battle for Chile\u2019s presidency in election dominated by crime and immigration\u00a0\u00a0CNNChilean right wing eyes return to power as crime, migration dominate election\u00a0\u00a0ReutersIn a Chile fearful of crime, a presidential vote pits a communist against the far right\u00a0\u00a0abcnews.go.com",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPNDlYQjFFRXVwZ0UzeWtaTEF3cXEtZUN6cFNlNmpQVl9PbEpkN3NOajZLYlgwR1VMYjFaM3BlUFhORXprX2NENjVORkF3N3RrcENtdFF2ZkZqdElfb3JDblRvVloxbXAxbnNPaU5WR1p6TU9wRTlKSWwxTUlkaUVUQjlZbFkyWTcwcnNkdUNEUHRkRm1uSnRaYV81a29iYmZkN2RLN3ZucS1MVHBRT3dqQWJpRVQtUdIBuwFBVV95cUxQSGtZY21xTGQyYU1pb3djUUVWYllMZU1XM1IzR0hQeWFGa0VPdWFBbl8tcTRFOTF3RzFlREFFcjRITTRBLW90ZldKS2doQ2lqV01hN2pGaC1HZWVGTzhXanR5dDlGNnNGNlhWcndCTnp4aTFlNTYtczRYbE5kcjNEZTI2M2NHMFh2UWl1NE9RXzdQVTZ5RDZrRDFlWlA5MHRIVzV6UnlWOXBtb19FX0NUVFRxemxQRnZEMTVN?oc=5",
+          "source": "The Times of Israel",
+          "published": "Sun, 16 Nov 2025 06:52:20 GMT",
+          "topic": "WORLD",
+          "fetched_at": "2025-11-16T12:10:54.820616"
+        },
+        "analysis": {
+          "summary": "The Chilean presidential election is being overshadowed by issues of crime and immigration, with the far right gaining significant attention as voters express fears about these topics.",
+          "key_points": [
+            "The far right in Chile is positioning itself as a major contender in the upcoming presidential election.",
+            "Crime and immigration are the dominant concerns for Chilean voters, shaping the political discourse.",
+            "A polarizing choice between a communist candidate and the far right is at the forefront of the election."
+          ],
+          "sentiment": "Mixed",
+          "confidence": "High",
+          "bias_check": "The article may emphasize the rise of the far right and the impact of crime and immigration on the election, potentially overlooking other significant factors or political dynamics.",
+          "missing_context": "The broader political context, including the historical performance of the far right, the specific policy proposals of the candidates, and the role of other political parties and international influences, might be missing. Additionally, the socioeconomic factors that contribute to crime and immigration, as well as their long-term solutions, could provide a more nuanced understanding.",
+          "implications": "The election results could significantly influence Chile's political landscape, policy direction, and social cohesion. A far-right victory might lead to stricter immigration policies and tougher stances on crime. Conversely, a communist win could shift the country towards more socialist policies. The outcome will also affect Chile's international relations and economic situation, given the country's current challenges and aspirations.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-16T12:12:18.023536",
+          "token_usage": {
+            "prompt_tokens": 294,
+            "completion_tokens": 310,
+            "total_tokens": 604
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_2_1763295054",
+          "title": "Protesters Rage Against Mexico\u2019s Government Over Corruption and Violence - The New York Times",
+          "description": "Protesters Rage Against Mexico\u2019s Government Over Corruption and Violence\u00a0\u00a0The New York TimesThousands protest against government in Mexico as clashes leave 120 injured\u00a0\u00a0BBCGen Z protests against Mexico president turn violent amid anger over mayor\u2019s death\u00a0\u00a0The GuardianThousands protest crime and corruption in Mexico City as \u2018Gen Z\u2019 protests gain momentum\u00a0\u00a0CNNProtesters attack police, breach barrier at Mexico's National Palace during rally against cartel violence\u00a0\u00a0Fox News",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOa2tBYXhKWHJCZUpTRy1LdFdaZlpnM1E0b2ItdkdFYVpnUGtzVEhERV83YXVCcUhXbnU4RHZ5WXAtQ0hTZGJUaVJwMlV1Z1BfTXhJQnFmTmlnUVptTjRUU09EeVFmODRJYVVyZV9rZjFiNnJCZzh3S01EYWtwSTJyWUE5S0U?oc=5",
+          "source": "The New York Times",
+          "published": "Sat, 15 Nov 2025 23:51:26 GMT",
+          "topic": "WORLD",
+          "fetched_at": "2025-11-16T12:10:54.820638"
+        },
+        "analysis": {
+          "summary": "Massive protests erupt in Mexico City, driven by widespread anger over government corruption and violence, resulting in clashes and numerous injuries. The demonstrations, largely led by Gen Z activists, reflect deep-seated frustration with systemic issues and a perceived lack of accountability from authorities.",
+          "key_points": [
+            "Thousands of protesters, including Gen Z, are demanding change in Mexico amidst reports of corruption and violence.",
+            "Clashes with police have led to injuries, highlighting the severity of the unrest.",
+            "The Mexican government faces intense scrutiny and pressure to address the grievances of its citizens."
           ],
           "sentiment": "Negative",
           "confidence": "High",
-          "bias_check": "Potential bias could stem from the source's political leanings, as the BBC tends to maintain a centrist perspective but also covers stories that could be critical of the government.",
-          "missing_context": "The article does not provide information on the rationale behind the reforms or any potential humanitarian arguments in favor of the changes. The context of the current refugee situation and the government's justification for the overhaul is also lacking.",
-          "implications": "The proposed reforms could place a substantial burden on refugees, potentially leading to increased humanitarian concerns and international criticism. It may also impact the UK's reputation as a country of refuge and could have long-term socio-economic effects. Uncertainty exists regarding how these changes will be implemented and enforced.",
+          "bias_check": "The story may lean towards highlighting the unrest and violence, potentially overshadowing any positive steps or responses by the government. The perspective of the protesters is emphasized, which could be seen as one-sided.",
+          "missing_context": "The article does not provide information on the specific demands or goals of the protesters, nor does it include responses or views from the Mexican government or officials. Additionally, the historical context of corruption and violence in Mexico, and the impact of these issues on different segments of society, are not detailed.",
+          "implications": "The protests could lead to significant political pressure on the Mexican government to implement reforms and address corruption. The international community might also take notice, potentially affecting Mexico's diplomatic and economic relations. Long-term implications could include changes in public trust and engagement, and possible shifts in political power dynamics within the country.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-16T06:11:03.358077",
+          "analyzed_at": "2025-11-16T12:12:27.143530",
           "token_usage": {
-            "prompt_tokens": 283,
-            "completion_tokens": 282,
-            "total_tokens": 565
+            "prompt_tokens": 286,
+            "completion_tokens": 319,
+            "total_tokens": 605
           }
         }
       },
       {
         "article": {
-          "id": "news_1_1763273397",
+          "id": "news_3_1763295054",
           "title": "Protests return to climate summit with calls for Indigenous rights (and a dash of Trump mockery) - Politico",
-          "description": "Protests return to climate summit with calls for Indigenous rights (and a dash of Trump mockery)\u00a0\u00a0PoliticoThousands march outside COP30 summit in call for action\u00a0\u00a0BBCIndigenous People Take the Stage at COP30 Climate Talks in Bel\u00e9m, Brazil\u00a0\u00a0The New York TimesThousands hit streets of Bel\u00e9m to call for action during crucial Cop30 summit\u00a0\u00a0The Guardian\u2018No one enters, no one leaves.\u2019 Protesters block main entrance to COP30 climate talks in Brazil\u00a0\u00a0PBS",
+          "description": "Protests return to climate summit with calls for Indigenous rights (and a dash of Trump mockery)\u00a0\u00a0PoliticoThousands march outside COP30 summit in call for action\u00a0\u00a0BBCThousands march in Brazil town hosting COP30 for climate justice\u00a0\u00a0Al JazeeraProtesters block the main entrance to COP30 climate talks in Brazil\u00a0\u00a0CNNIndigenous People Take the Stage at COP30 Climate Talks in Bel\u00e9m, Brazil\u00a0\u00a0The New York Times",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPLW1UaTNFT05ISjY4MlZWWjRVYlpDbnl0bzVwTkEyV0FtRWU5Z2NhNG1rWkIzRkYyaFdxODA4UnlURVVwTkFBVml2dE5IWjQyNzdyV0t0MFhJUHlrcEp1RFNRakJYWWJjaVdKSWJaX0FHN2ZESlpHVF9ZWFBZLXRFOWlHRjA1NFk?oc=5",
           "source": "Politico",
           "published": "Sat, 15 Nov 2025 20:52:24 GMT",
           "topic": "WORLD",
-          "fetched_at": "2025-11-16T06:09:57.203584"
+          "fetched_at": "2025-11-16T12:10:54.820659"
         },
         "analysis": {
-          "summary": "Protests have returned to the COP30 climate summit in Brazil, with demonstrators advocating for Indigenous rights and expressing their disapproval of the Trump administration through mockery. The large-scale protests, including a blockade of the summit's entrance, highlight the rising tension between environmental activism and political leadership.",
+          "summary": "Protests with a focus on Indigenous rights and climate justice returned to the COP30 summit in Brazil, where demonstrators expressed their dissent against current climate policies and included mockery of political figures, notably Trump.",
           "key_points": [
-            "Indigenous rights and climate action are central to the protests at the COP30 summit.",
-            "Protesters' mockery of the Trump administration indicates a broader political critique beyond climate issues.",
-            "The use of direct action, such as blocking the summit entrance, underscores the urgency and intensity of the protesters' demands."
+            "Protests at COP30 highlighted the intersection of climate justice and Indigenous rights.",
+            "Demonstrators used mockery, particularly targeting Trump, to underscore their dissatisfaction with political leadership on climate change.",
+            "The protest activity suggests a significant level of engagement and activism among Indigenous groups and climate justice advocates."
           ],
           "sentiment": "Mixed",
           "confidence": "High",
-          "bias_check": "The article may present a bias towards the environmental and Indigenous rights activism perspective, potentially overlooking the government's viewpoint or the complexity of the negotiations.",
-          "missing_context": "The specific demands and proposals of the Indigenous groups, as well as the responses from the summit's organizers and participants, might be missing, which could provide a more nuanced understanding of the situation.",
-          "implications": "The protests at COP30 could influence the summit's agenda, potentially leading to greater emphasis on Indigenous rights and climate justice. They also reflect a growing intersection between environmental activism and political protest, signaling a shift in how climate issues are being addressed and debated globally.",
+          "bias_check": "The story might lean towards emphasizing the contentious and confrontational aspects of the protests, potentially overlooking peaceful expressions of dissent or the complex motivations behind the demonstrations.",
+          "missing_context": "The article doesn't provide insight into the outcomes of the summit or the responses of the authorities. Also, the reasons behind the protestors' specific targets, beyond political figures like Trump, are not detailed.",
+          "implications": "The protests indicate a growing global movement that demands more inclusive and effective climate policies, especially those addressing the rights of Indigenous peoples. This could pressure policymakers to consider diverse perspectives and work towards more equitable climate solutions.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-16T06:11:16.590075",
+          "analyzed_at": "2025-11-16T12:12:34.237128",
+          "token_usage": {
+            "prompt_tokens": 290,
+            "completion_tokens": 267,
+            "total_tokens": 557
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_4_1763295054",
+          "title": "Japanese divided on military response to China over Taiwan, Kyodo poll shows - Reuters",
+          "description": "Japanese divided on military response to China over Taiwan, Kyodo poll shows\u00a0\u00a0ReutersChina sends coast guard to Senkaku islands amid row with Japan\u00a0\u00a0The GuardianChina Escalates Japan Feud With Island Patrols and Warnings to Citizens\u00a0\u00a0The New York TimesAirlines offer Japan trip refunds as row over Takaichi\u2019s Taiwan comments deepens\u00a0\u00a0South China Morning PostChina Warns Students in Japan of Safety Risks as Tensions Rise\u00a0\u00a0Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOUS1HcG54Q1hlRGQxbFBqZDc2UEpyM1dndVdZV1ZPZkdNR3VGNDE0ZUZLODRQVDRiS29mcWRJZkhaQ0xMWEZnN1p2T0k2ZTIwLWVUZ0lMTGMzcE0tOFF2dDFPRXlidUJ4UGNmbUZ2SEZ1aDdaYk9mWm5vZzdJeU9jbzh6QjZJdTUxZnN4TU9qMmh6VGNiV2ZpN1BtYzVSX256Mm1QNWdwaVEzSE1qMlQ3SFlnUFh2M2ZC?oc=5",
+          "source": "Reuters",
+          "published": "Sun, 16 Nov 2025 08:33:19 GMT",
+          "topic": "WORLD",
+          "fetched_at": "2025-11-16T12:10:54.820679"
+        },
+        "analysis": {
+          "summary": "A Kyodo poll reveals Japan's divided stance on whether to militarize in response to China's actions related to Taiwan, reflecting internal political and strategic debates amidst regional tensions involving the Senkaku/Diaoyu Islands.",
+          "key_points": [
+            "Japan's internal division on how to respond militarily to China's Taiwan-related provocations.",
+            "The poll indicates a lack of consensus on the necessity and appropriateness of a military response.",
+            "China's actions around the Senkaku/Diaoyu Islands and Taiwan are contributing to regional instability."
+          ],
+          "sentiment": "Mixed",
+          "confidence": "High",
+          "bias_check": "The article might reflect Western perspectives on the situation, potentially biasing the portrayal of Japanese and Chinese actions.",
+          "missing_context": "The historical context of the Senkaku/Diaoyu Islands dispute, the nuances of Japan's pacifist constitution, and the broader geopolitical implications of China's assertiveness in the region might be lacking.",
+          "implications": "The internal divisions within Japan could affect its foreign policy and regional security dynamics, potentially leading to escalated tensions with China and impacting alliances and partnerships in the Asia-Pacific.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-16T12:12:42.544725",
+          "token_usage": {
+            "prompt_tokens": 287,
+            "completion_tokens": 250,
+            "total_tokens": 537
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_0_1763295054",
+          "title": "Inside Ford's new world headquarters: Scratch kitchens, rotisserie chickens and design secrets - CNBC",
+          "description": "Inside Ford's new world headquarters: Scratch kitchens, rotisserie chickens and design secrets\u00a0\u00a0CNBCInside Ford Motor's new world headquarters are nods to the past and cues to the future\u00a0\u00a0Detroit Free PressNew Super-Sized Ford HQ Combines Efficiencies, Creature Comforts\u00a0\u00a0ForbesFord's new Dearborn world headquarters to help the automaker operate differently\u00a0\u00a0The Detroit NewsInside Ford's new $1.2 billion headquarters, a move after 70 years in iconic Glass House\u00a0\u00a0WXYZ Channel 7",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBSNkNVU2h6ak5teEZQN1IyQkhxRWRVendjQnVTQW5tWGVwZWJoSzB1QVNTOERfcXZpeTlRbFl6cC1VR05iTnBpNXE2V1RxNl8yOGFqaEtkZE1LSHZ1dHF2UXRISTExQU9fQ3Fnb2t0RG8tY1J3WU9VWHhWRUzSAYIBQVVfeXFMTnA0ck9GZE1CaWt0ekxWRkhleWItQ2VTd01XZVZaZUVtUXVfTEVwTXBMc0JyNFZrN2R3c092OWhmOEpWOUJ3M1lSWVJoUlN1N1RVaERpMjRsUm5LRjNKRkxLdzFjQVRTWDE1d3ZURFlZWjd6bUktb2xQZGJybnVDanF3UQ?oc=5",
+          "source": "CNBC",
+          "published": "Sun, 16 Nov 2025 11:00:01 GMT",
+          "topic": "BUSINESS",
+          "fetched_at": "2025-11-16T12:10:54.951290"
+        },
+        "analysis": {
+          "summary": "{\n  \"summary\": \"The article highlights Ford's $1.2 billion new headquarters, emphasizing its blend of nostalgia and innovation with elements like scratch kitchens and rotisserie chickens, aiming to foster a different way of operating. It also signals a significant shift, as Ford moves away from its ",
+          "key_points": [
+            "{\n  \"summary\": \"The article highlights Ford's $1.2 billion new headquarters, emphasizing its blend of nostalgia and innovation with elements like scratch kitchens and rotisserie chickens, aiming to foster a different way of operating. It also signals a significant shift, as Ford moves away from its iconic Glass House after 70 years, to a facility designed to enhance efficiencies and comfort.\"\n\n  \"key_points\": [\n    \"Ford's new headquarters represents a major investment and a shift from its iconic Glass House.\",\n    \"Design elements like scratch kitchens and rotisserie chickens signify a blend of nostalgia and modernity.\",\n    \"The new facility is expected to improve operational efficiencies and provide a more comfortable work environment.\"\n  ]\n\n  \"sentiment\": \"positive mixed\",\n\n  \"confidence\": \"high\",\n\n  \"bias_check\": \"The focus on unique design elements like scratch kitchens and rotisserie chickens may not be critically important to all stakeholders. The article may also emphasize the positive aspects of the new headquarters while underplaying potential challenges or criticisms.\"\n\n  \"missing_context\": \"The article doesn't provide detailed information about the reasons behind the move from the Glass House, potential upgrades made to the original facility, or the specific features that make the new headquarters an improvement. It also doesn't discuss the potential environmental impact or sustainability aspects of the new building.\"\n\n  \"implications\": \"The move to a new headquarters could signify a broader trend in the automotive industry, where companies are investing heavily in modern facilities to stay competitive. It may also reflect changes in corporate culture at Ford, emphasizing employee comfort and well-being. However, it could also lead to discussions about the sustainability and long-term viability of such large-scale investments.\"\n}"
+          ],
+          "sentiment": "neutral",
+          "confidence": "medium",
+          "bias_check": "Unable to parse structured response",
+          "missing_context": "",
+          "implications": "",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-16T12:12:51.274361",
           "token_usage": {
             "prompt_tokens": 300,
-            "completion_tokens": 293,
-            "total_tokens": 593
+            "completion_tokens": 344,
+            "total_tokens": 644
           }
         }
       },
       {
         "article": {
-          "id": "news_2_1763273397",
-          "title": "Gen Z protests against Mexico president turn violent amid anger over mayor\u2019s death - The Guardian",
-          "description": "Gen Z protests against Mexico president turn violent amid anger over mayor\u2019s death\u00a0\u00a0The GuardianThousands protest against government in Mexico as clashes leave 120 injured\u00a0\u00a0BBCMexico\u2019s new generation takes to the streets, accusing leaders of protecting cartels\u00a0\u00a0NPRProtesters Rage Against Mexico\u2019s Government Over Corruption and Violence\u00a0\u00a0The New York TimesThousands protest crime and corruption in Mexico City as \u2018Gen Z\u2019 protests gain momentum\u00a0\u00a0CNN",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQX3ZPN2ZPdnBuSG5OQnVmNlk2ZHoxVGtGdlRiampqSm9wT3pKYmFyZVZqc3VGSC04d0dzbGUzdjR4UlhrcnR0T0duWm1KelA0LXZZRmd0YnV6cVF6TFhyNzJmcy1lbDhjWFdqODRidFJWUmI4a21ZaE1ISGxNZjN4Y2tMdmpLVG9wdFB5WHRobmotTUZGUEdHSzdENjFSTWJjbmtpcXJXR0k1MzJ0bFphalR4NlN2UWNCZ2ktRGQtdUUtVjdZNEE?oc=5",
-          "source": "The Guardian",
-          "published": "Sun, 16 Nov 2025 05:17:00 GMT",
-          "topic": "WORLD",
-          "fetched_at": "2025-11-16T06:09:57.203605"
+          "id": "news_1_1763295054",
+          "title": "Trump's Biggest Economic Mistake yet: Prices, Affordability Blunder - Business Insider",
+          "description": "Trump's Biggest Economic Mistake yet: Prices, Affordability Blunder\u00a0\u00a0Business InsiderWill Trump\u2019s Trade War Break America\u2019s Addiction to Cheap Stuff?\u00a0\u00a0The Wall Street JournalSaturday News: \u201cTrump\u2019s latest tariff TACO probably won\u2019t make your life more affordable\u201d; \u201cThe Epstein Email Cache: 2,300 Messages, Many of Which Mention Trump\u201d; \u201c[MTG] questions if Trump is still the \u2018America First\u2019 president\u201d; \u201cJim Ryan tells all: \u2018What did\u00a0\u00a0Blue VirginiaTrump's Policies Are Making America Less Affordable",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxObVRhM05ZbGtkYWZlSTByLWJpQTJXS2hHRENkWENMcktTZk9yOEJYaTRSbHpFaVBhT1dTRk5rQ1JlcnJ5TjJ6WnBNMVJUaDVYQ1hHd081WEdvYm8yVHdfZkpsRTAwTk1CdUh2dEZHelFyMG9fYzY4NW44NGNBZmEtZE1TbDV1MXI4T21JYzhTTVBQbkthbkE?oc=5",
+          "source": "Business Insider",
+          "published": "Sun, 16 Nov 2025 09:11:00 GMT",
+          "topic": "BUSINESS",
+          "fetched_at": "2025-11-16T12:10:54.951322"
         },
         "analysis": {
-          "summary": "The article discusses a wave of violent protests led by Generation Z in Mexico against the government, triggered by anger over the death of a local mayor. The protesters accuse the leaders of corruption and cartel protection, with thousands taking to the streets in Mexico City.",
+          "summary": "This article from Business Insider critiques President Trump's trade policies, suggesting they have led to higher prices and reduced affordability for American consumers, contradicting his 'America First' stance and potentially undermining his political base's economic interests.",
           "key_points": [
-            "Violent protests led by Generation Z in Mexico",
-            "Protesters accuse government of corruption and cartel protection",
-            "Death of a local mayor triggers widespread anger"
-          ],
-          "sentiment": "Negative",
-          "confidence": "High",
-          "bias_check": "The article may present a biased view by focusing on the violence and anger of the protesters without providing much context on the government's side or the reasons behind the mayor's death.",
-          "missing_context": "Information about the specific demands of the protesters, the government's response, and the circumstances surrounding the mayor's death is missing.",
-          "implications": "The protests could signify a growing disillusionment among young Mexicans with their government, which could lead to increased civil unrest and demands for political change. The violence associated with the protests could also lead to a crackdown on dissent and further polarize the society.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-16T06:11:24.542070",
-          "token_usage": {
-            "prompt_tokens": 282,
-            "completion_tokens": 231,
-            "total_tokens": 513
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_3_1763273397",
-          "title": "Vatican to Return Indigenous Cultural Items to Canada Taken a Century Ago - The New York Times",
-          "description": "Vatican to Return Indigenous Cultural Items to Canada Taken a Century Ago\u00a0\u00a0The New York TimesVatican returns dozens of indigenous artefacts to Canada\u00a0\u00a0BBCPope Leo XIV gifts 62 indigenous artefacts to Canadian Bishops\u00a0\u00a0Vatican NewsPope returns 62 artifacts to Indigenous Canadians as \"concrete sign of dialogue, respect and fraternity\"\u00a0\u00a0CBS NewsPope returns dozens of Indigenous artifacts to Canada\u00a0\u00a0DW",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNN2xMUTZCajhpNENXNTRnaWUtSnR1NnRJVDdsSDVSOWdfczY4OEVmMWgtNVhFc05nU3R3QlljUEVxN1o3VzBtc1JhZjl5OFRuX3B4VE9kcm9sdlpnTlU4WlQtcjBPR2RYdnRGVlJEUWxMeTVMYi1fWWh6Mlp6MWhTb3Nxa1FTbXpkbzRBc3VkY0d2TW1HLS16RzBsTQ?oc=5",
-          "source": "The New York Times",
-          "published": "Sat, 15 Nov 2025 19:31:53 GMT",
-          "topic": "WORLD",
-          "fetched_at": "2025-11-16T06:09:57.203625"
-        },
-        "analysis": {
-          "summary": "The Vatican has returned 62 indigenous artifacts to Canada, marking a significant gesture of reconciliation and respect towards Indigenous Canadians. Pope Leo XIV acknowledged that the original acquisition was inappropriate, and the return aims to foster dialogue and strengthen relationships between the Church and Indigenous communities.",
-          "key_points": [
-            "The Vatican's decision to return indigenous artifacts to Canada is a historic act of reconciliation.",
-            "The Pope's apology and the return of artifacts are signals of respect and dialogue between the Church and indigenous peoples.",
-            "This action may set a precedent for other institutions to return cultural items taken under colonial-era circumstances."
-          ],
-          "sentiment": "Positive",
-          "confidence": "High",
-          "bias_check": "The perspective focuses on the positive aspects of the Vatican's action, potentially overlooking criticisms or concerns from Indigenous communities or those who may view the gesture as insufficient.",
-          "missing_context": "Details on the specific artifacts returned, the historical context of their acquisition, and any existing agreements or negotiations leading up to the return might be lacking. Additionally, perspectives from Indigenous leaders or representatives on their feelings and thoughts about the return would provide deeper insight.",
-          "implications": "This development could lead to increased awareness and dialogue about the return of cultural artifacts worldwide, potentially inspiring similar actions by other institutions. It might also affect the relationship between the Vatican and Indigenous communities, possibly leading to more collaborative efforts in the future.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-16T06:11:32.377237",
-          "token_usage": {
-            "prompt_tokens": 283,
-            "completion_tokens": 297,
-            "total_tokens": 580
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_4_1763273397",
-          "title": "China Coast Guard ship formation sails through Japan-administered Senkaku Islands - Reuters",
-          "description": "China Coast Guard ship formation sails through Japan-administered Senkaku Islands\u00a0\u00a0ReutersChinese Ships Enter Disputed Japanese Waters Amid Strained Ties\u00a0\u00a0Bloomberg.comChina warns citizens against Japan travel as Taiwan spat escalates\u00a0\u00a0CNNJapan protests after China tells citizens not to visit in escalating feud over leader's Taiwan remarks\u00a0\u00a0CBS NewsChina advises against travel to Japan amid escalating row over PM\u2019s Taiwan comments\u00a0\u00a0The Guardian",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPOEYwNllSSmhsRmFGRE5CdFpqX0NSVUczUXdVc2VvMjhjYm5zdXMwQm5sVk4tS0dVZjNkd1pIZUhYT1QwakRTektYdXJCZ1pvdXhsaS1iU0dzLVA0OHBDQnVIWVZsb2hpQ2VkVno5cWxQZUwzSTR3eDJXVmsxLUVoa250NXFsQlVmYXlEdWdaM1o2Q0Z3aUFJaXpOOGJhdXBVelZBdTMyTU54V1d6X3NaZHRLbnN1NmtzbTZjdTB3?oc=5",
-          "source": "Reuters",
-          "published": "Sun, 16 Nov 2025 03:06:00 GMT",
-          "topic": "WORLD",
-          "fetched_at": "2025-11-16T06:09:57.203646"
-        },
-        "analysis": {
-          "summary": "China's Coast Guard ships navigate through Japan-administered Senkaku Islands, escalating tensions between the two nations amid disputes over regional sovereignty and Taiwan. The move comes as Japan protests China's advisory against travel, highlighting the growing friction in their relations.",
-          "key_points": [
-            "China's Coast Guard ships enter disputed Senkaku Islands, increasing regional tensions.",
-            "Japan advises its citizens not to travel to China, reflecting deteriorating diplomatic relations.",
-            "The incident underscores the broader geopolitical rivalry and territorial disputes in the East China Sea."
+            "Trump's tariffs may have inadvertently increased prices for American consumers, contrary to the intended effect of promoting domestic affordability.",
+            "The article implies a disconnect between Trump's economic policies and the economic well-being of his constituents.",
+            "The potential political repercussions of Trump's pricing policies are highlighted, hinting at a possible shift in voter sentiment."
           ],
           "sentiment": "negative",
           "confidence": "high",
-          "bias_check": "The article may contain a bias towards emphasizing conflict and tension, potentially overlooking diplomatic efforts or negotiations between the countries. The perspectives of other nations or the role of international law might be underrepresented.",
-          "missing_context": "The historical context of the Senkaku Islands dispute, including their significance and the background of the Sino-Japanese relationship, might be missing. Additionally, the reactions and policies of other regional actors, such as the United States or ASEAN countries, could provide a fuller picture.",
-          "implications": "The incident could lead to further deterioration of Sino-Japanese relations, impacting regional stability and international trade. It might also prompt increased military presence and preparedness by both nations, contributing to an arms race in the East China Sea. The tension could influence broader geopolitical alliances and power dynamics in the Asia-Pacific region.",
+          "bias_check": "The article may reflect a bias against President Trump's policies and his administration. Business Insider, as a publication, may have editorial stances that influence how they present such topics.",
+          "missing_context": "The article does not provide data or specific examples to support the claim that Trump's policies have significantly impacted prices and affordability. It also doesn't consider the potential long-term economic benefits of trade policies that might offset short-term price increases.",
+          "implications": "If Trump's trade policies are indeed leading to higher prices and reduced affordability, this could result in public dissent, a decrease in consumer spending, and potential challenges for the incumbent administration in maintaining economic popularity. It also raises questions about the effectiveness of tariffs as a tool for improving domestic economic conditions and their impact on global trade relations.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-16T06:11:40.327315",
+          "analyzed_at": "2025-11-16T12:12:59.272432",
           "token_usage": {
-            "prompt_tokens": 279,
-            "completion_tokens": 308,
-            "total_tokens": 587
+            "prompt_tokens": 303,
+            "completion_tokens": 302,
+            "total_tokens": 605
           }
         }
       },
       {
         "article": {
-          "id": "news_0_1763273397",
-          "title": "Ex-Fed Governor Kugler Faced Ethics Probe Before She Resigned - Bloomberg.com",
-          "description": "Ex-Fed Governor Kugler Faced Ethics Probe Before She Resigned\u00a0\u00a0Bloomberg.comFormer Fed Official Violated Trading Rules, Disclosures Show\u00a0\u00a0The New York TimesFormer Fed Gov. Adriana Kugler violated trading rules while at central bank: ethics report\u00a0\u00a0CNBCFormer Fed governor violated central bank\u2019s trading rules, new disclosures show\u00a0\u00a0The Washington PostFormer Fed Governor Kugler's exit came amid forbidden trading activity\u00a0\u00a0Reuters",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUXlnQ2otOVVTRktDbUZnOFZjazNlWWs0N1BMTGpQdGRXRDYybWdoWEFDMllzcFJ1SG13Y0lMSzEybFc2Mk9QTmlnUWotM3BCNFlqM3hpa0FSSWxpS01pbVZ4R3EtUTZVbjhwLWJwWjVzVkgwNlc3UTRhalRJcHdBaDc2UUhLZlFjRXN4N1ZvcWxOMW9RblVLLUthaWo1NzJVMFNyME1FYk40VU5vZTZydTNB?oc=5",
-          "source": "Bloomberg.com",
-          "published": "Sun, 16 Nov 2025 00:16:00 GMT",
-          "topic": "BUSINESS",
-          "fetched_at": "2025-11-16T06:09:57.271658"
-        },
-        "analysis": {
-          "summary": "The former Federal Reserve Governor Adriana Kugler resigned after an ethics probe revealed that she violated trading rules during her tenure at the central bank, highlighting concerns about the integrity of Fed officials and the potential for conflicts of interest in regulatory institutions.",
-          "key_points": [
-            "Adriana Kugler, former Fed Governor, resigned following an ethics investigation into trading rule violations.",
-            "The investigation into Kugler's trading activities raises questions about the Fed's oversight and the potential for regulatory capture.",
-            "Kugler's departure underscores the importance of ethics and transparency in the Federal Reserve."
-          ],
-          "sentiment": "Negative",
-          "confidence": "High",
-          "bias_check": "The article may reflect a bias against former government officials, emphasizing negative aspects without considering the complexity of the ethical and trading rules context.",
-          "missing_context": "The article doesn't provide detail on the exact rules violated or the implications of Kugler's actions for the Fed's current policies. It also omits Kugler's contributions to the Fed during her tenure.",
-          "implications": "This case could lead to stricter regulations for Fed officials, more rigorous ethics training, and possibly inspire a review of the Fed's conflict of interest policies to prevent similar situations from occurring in the future.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-16T06:11:47.486030",
-          "token_usage": {
-            "prompt_tokens": 283,
-            "completion_tokens": 270,
-            "total_tokens": 553
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_1_1763273397",
-          "title": "JPMorgan doesn\u2019t want to pay Frank founder Charlie Javice\u2019s legal bills - TechCrunch",
-          "description": "JPMorgan doesn\u2019t want to pay Frank founder Charlie Javice\u2019s legal bills\u00a0\u00a0TechCrunchJPMorgan Had to Pay for Charlie Javice\u2019s Legal Fees \u2014 and Her Restaurant Bills\u00a0\u00a0The New York TimesExplosive allegations claim fraudster billed JPMorgan for cellulite butter, luxe items as part of $74M legal tab\u00a0\u00a0New York PostFrank founder Javice appeals US fraud conviction, prison sentence\u00a0\u00a0MLexWhen prosecutors accused Charlie Javice of fraud, JPMorgan was forced to pay for her defense. So she spent money on luxur",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPSDU1S2N3TV9qNTB5WE1TZGlmcW9TV0Z2d21BMjZ0bkVEZjl1bXRuNS1UcE9aUjhTaE1Vdld2LXRmQXVLLWJ1Wkg4M2tza1AwMlJOVnVxT3p3cEkyX2o4bEFPVjFlbnlZNVRaWFlSd3J6ZXc3emR6bG5aV29zRkhzVG9ucUd3aEJtWWJwNDd0UEhlMXpoWVk4U2FzREVzR2Y3S2JUVGFVMA?oc=5",
-          "source": "TechCrunch",
-          "published": "Sat, 15 Nov 2025 22:01:49 GMT",
-          "topic": "BUSINESS",
-          "fetched_at": "2025-11-16T06:09:57.271699"
-        },
-        "analysis": {
-          "summary": "JPMorgan Chase is refusing to cover the legal expenses of Charlie Javice, founder of Frank, who was convicted of fraud. Despite legal fees amounting to $74 million, JPMorgan claims non-payment is not due to any perceived fault in the case, which has led to Javice's appeal of her conviction and sentence.",
-          "key_points": [
-            "JPMorgan Chase is not absorbing legal fees for Charlie Javice, the founder of Frank.",
-            "JPMorgan's refusal to pay for legal expenses has led to Javice incurring significant debt.",
-            "Charlie Javice's legal team is appealing her fraud conviction and prison sentence."
-          ],
-          "sentiment": "Negative",
-          "confidence": "High",
-          "bias_check": "The article may lean towards a narrative that portrays JPMorgan negatively, considering its refusal to pay for Javice's legal bills. The article could also be biased towards Javice's perspective on the necessity of her legal defense.",
-          "missing_context": "The specific reasons JPMorgan gives for not wanting to pay the legal expenses, and whether there was any discussion about Javice's debt management or any potential impact of her financial situation on her ability to mount an effective legal defense.",
-          "implications": "This story raises questions about the responsibilities of financial institutions when faced with fraud allegations, and whether there are limits to their financial support for legal defenses. It also highlights the personal costs and challenges faced by individuals convicted of financial crimes.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-16T06:11:55.327709",
-          "token_usage": {
-            "prompt_tokens": 305,
-            "completion_tokens": 313,
-            "total_tokens": 618
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_2_1763273397",
-          "title": "Tariffs lower inflation by slamming employment and economic activity, Fed researchers say - Fortune",
-          "description": "Tariffs lower inflation by slamming employment and economic activity, Fed researchers say\u00a0\u00a0FortuneWhat Is a Tariff Shock? Insights from 150 years of Tariff Policy\u00a0\u00a0Federal Reserve Bank of San FranciscoTariffs Mask Falling Inflation: Business Leaders' Guide To Fed Policy\u00a0\u00a0Forbes'Demand shock' caused by tariffs can lower inflation: Fed researchers\u00a0\u00a0Seeking Alpha",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQzBDSS1kYnNqSlNHZldVS1dIc293QmFxU1g2WHU1LU9kZHhYVVVJMTBKMWdUaDBfcUNyMjQzNFpKZTFudzV5TV9kenJ2UzNtaVZJdnE4MEhhRDNzTkZNSmM1eTN2bmE1alpkM0E1UmpCMlo4dzlrRGx2UlZlMzdFV3REeTBsaXJmVDJrVlp2VGlxMldsUWZ0bQ?oc=5",
-          "source": "Fortune",
-          "published": "Sat, 15 Nov 2025 20:54:00 GMT",
-          "topic": "BUSINESS",
-          "fetched_at": "2025-11-16T06:09:57.271717"
-        },
-        "analysis": {
-          "summary": "The article suggests that tariffs, while intended to combat inflation, may actually harm employment and economic activity, as per researchers from the Federal Reserve Bank of San Francisco.",
-          "key_points": [
-            "Tariffs may lower inflation but negatively impact employment and economic growth.",
-            "The Federal Reserve Bank of San Francisco's research indicates a trade-off between inflation and job market health.",
-            "Tariffs can create a 'demand shock' that may lead to unintended economic consequences."
-          ],
-          "sentiment": "Mixed",
-          "confidence": "High",
-          "bias_check": "The perspective favors a critical view of tariffs, potentially underrepresenting arguments that support their use in certain economic contexts.",
-          "missing_context": "The article may not address the specific sectors affected by tariffs, the duration of the inflationary effects, or alternative economic policies that could address inflation without harming employment.",
-          "implications": "The broader implications include a potential reevaluation of the use of tariffs as an economic tool, with policymakers needing to balance inflation control against its impact on employment and economic activity.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-16T06:12:01.760742",
-          "token_usage": {
-            "prompt_tokens": 268,
-            "completion_tokens": 231,
-            "total_tokens": 499
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_3_1763273397",
-          "title": "Disney, YouTube TV reach distribution deal after two-week blackout - Axios",
-          "description": "Disney, YouTube TV reach distribution deal after two-week blackout\u00a0\u00a0AxiosDisney reaches new deal with YouTube TV, ending blackout\u00a0\u00a0ESPNGoogle and Disney reach deal to restore ESPN, ABC to YouTube TV\u00a0\u00a0CNBCYouTube TV, Disney dispute ends: Agreement reached to carry ESPN, ABC, others\u00a0\u00a0USA TodayYouTube TV Subscribers Can Get a $20 Credit During the Disney Blackout. Here's How to Claim Yours\u00a0\u00a0People.com",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ta08xT3FHRFRSTGpObVc2NkdfeGFXeVJ2Qm9TaUppd2Q3RVUzd1NwMUluM3d4bUxvWDI2ZDZvd2hyUmYtZVV3R3AxbUdRbmpOWTUycW1pQllvdmtlZWhrc29oNHhkdXU1NTM4WGNB?oc=5",
-          "source": "Axios",
-          "published": "Sat, 15 Nov 2025 17:04:39 GMT",
-          "topic": "BUSINESS",
-          "fetched_at": "2025-11-16T06:09:57.271735"
-        },
-        "analysis": {
-          "summary": "Disney and YouTube TV have resolved their distribution deal dispute, ending a blackout that lasted two weeks, and reaching an agreement to carry ESPN and ABC on YouTube TV. This development comes amid ongoing negotiations and potential blackouts affecting various networks.",
-          "key_points": [
-            "Disney and YouTube TV reached a new distribution deal after a two-week blackout.",
-            "The agreement will restore ESPN, ABC, and possibly other networks to YouTube TV.",
-            "Subscribers may receive a $20 credit during the blackout period."
-          ],
-          "sentiment": "Positive",
-          "confidence": "High",
-          "bias_check": "The article may emphasize the positive aspects of the agreement and downplay any remaining challenges or drawbacks. The focus is also on the resolution rather than the complexity of the dispute.",
-          "missing_context": "Details about the exact terms of the agreement, including any potential restrictions or conditions that might still affect subscribers or networks, are missing. Information on how the blackout affected Disney's streaming strategy and broader industry reactions would also be useful.",
-          "implications": "The agreement could strengthen Disney's content distribution strategy and provide more value to YouTube TV subscribers. It may also set a precedent for how similar disputes are resolved in the streaming and television industry. However, there could be implications for other content providers affected by the blackout.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-16T06:12:09.125673",
-          "token_usage": {
-            "prompt_tokens": 282,
-            "completion_tokens": 284,
-            "total_tokens": 566
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_4_1763273397",
+          "id": "news_2_1763295054",
           "title": "Nearly $1 Billion Winning Mega Millions Ticket Sold In Georgia\u2014Here\u2019s What The Winner Takes Home After Taxes - Forbes",
-          "description": "Nearly $1 Billion Winning Mega Millions Ticket Sold In Georgia\u2014Here\u2019s What The Winner Takes Home After Taxes\u00a0\u00a0ForbesSingle ticket in Georgia claims $980 million Mega Millions jackpot\u00a0\u00a0CNNMega Millions numbers for Friday, November 14, 2025: Ticket sold in Georgia wins jackpot\u00a0\u00a0Detroit Free PressNJ lottery players just miss $980M Mega Millions jackpot. Here's where, how much they won\u00a0\u00a0Bergen RecordSingle ticket sold in Georgia captures $980M Mega Millions jackpot\u00a0\u00a0Fox Business",
+          "description": "Nearly $1 Billion Winning Mega Millions Ticket Sold In Georgia\u2014Here\u2019s What The Winner Takes Home After Taxes\u00a0\u00a0ForbesMega Millions numbers for Friday, November 14, 2025: Ticket sold in Georgia wins jackpot\u00a0\u00a0Detroit Free PressNJ lottery players just miss $980M Mega Millions jackpot. Here's where, how much they won\u00a0\u00a0Bergen RecordSingle ticket sold in Georgia captures $980M Mega Millions jackpot\u00a0\u00a0Fox BusinessSingle ticket in Georgia claims $980 million Mega Millions jackpot\u00a0\u00a0CNN",
           "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQeEtzLUdiT2M4LVpzR1BseFZIcC1YWmp1UGY0U3BMRllWNVJNeGU5VkpGbUVkSUYzR0FTdjVyUFZ0M1phS1pRM2dWMHFnNHRLRWYtZHdXX0w1bXhxTjI2TmdSazE2bEJlZ1pMdkhfbnpidTVLMGI0Q0tMS2x5WmxFTnU0QVh6Zmk4bDlpTzNPNjBEd3Vua3FDaWVLRXhKSnJvaXM0ZnlmNDVkS0dPdTl0TktGaENOUDVRcUQybldFNldLMHVHTURZcHRHb3AyT0VDcjdiWkhfRjFTczVnWWExc0JtcHNHMmlZUlpDTg?oc=5",
           "source": "Forbes",
           "published": "Sat, 15 Nov 2025 15:33:58 GMT",
           "topic": "BUSINESS",
-          "fetched_at": "2025-11-16T06:09:57.271754"
+          "fetched_at": "2025-11-16T12:10:54.951345"
         },
         "analysis": {
-          "summary": "A single Mega Millions ticket in Georgia sold for $980 million, making it one of the largest lottery jackpots in history. The article discusses the winner's potential take-home amount after taxes and the excitement around the record-breaking prize. It also briefly mentions other players who missed out on the jackpot and a ticket sold in New Jersey that came close.",
+          "summary": "A Mega Millions ticket sold in Georgia wins a record-breaking $980 million jackpot, making headlines. While the winner will take home a significant sum after taxes, exactly how much depends on various factors such as state tax rates and personal financial decisions.",
           "key_points": [
-            "A $980 million Mega Millions jackpot was won in Georgia, setting a new record for the largest lottery prize.",
-            "The winner's take-home amount after taxes may be a fraction of the $980 million jackpot.",
-            "Other lottery players, including those in New Jersey, missed out on the record-breaking jackpot."
+            "A single Mega Millions ticket in Georgia won $980 million, setting a record.",
+            "The actual amount the winner receives after taxes is subject to state and federal tax considerations.",
+            "This event highlights the potential for substantial financial gain through lottery participation."
           ],
-          "sentiment": "mixed",
-          "confidence": "high",
-          "bias_check": "The article might emphasize the record-breaking nature of the jackpot and the near-miss by other players, potentially downplaying the unique circumstances or luck involved in winning such a massive prize. The focus on the Georgia winner might also overshadow other significant lottery wins or aspects of the story.",
-          "missing_context": "The article does not provide details on how the winner plans to use the winnings, which could be a crucial aspect of the story. Additionally, it does not mention the frequency of such large jackpots or the overall odds of winning Mega Millions.",
-          "implications": "This story highlights the potential for life-changing wealth from lottery winnings, but also raises questions about the fairness of such large financial disparities. It may also influence people to invest in lottery tickets, believing that such massive jackpots are becoming more common.",
+          "sentiment": "Mixed",
+          "confidence": "High",
+          "bias_check": "The article may emphasize the size of the jackpot and the excitement it generates, potentially overlooking the risks and burdens associated with winning such a large sum of money.",
+          "missing_context": "The story does not provide information on the winner's plans for the money, nor does it discuss the impact of sudden wealth on individuals' lives.",
+          "implications": "This story underscores the allure of lottery games and their life-changing rewards, while also raising questions about the responsibilities and challenges that come with winning such a large amount. It may influence public perception of the lottery as a means to achieve financial security.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-16T06:12:17.695251",
+          "analyzed_at": "2025-11-16T12:13:06.144282",
           "token_usage": {
             "prompt_tokens": 301,
-            "completion_tokens": 335,
-            "total_tokens": 636
+            "completion_tokens": 261,
+            "total_tokens": 562
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_3_1763295054",
+          "title": "US economic outlook obscured by shutdown-triggered data gap - Financial Times",
+          "description": "US economic outlook obscured by shutdown-triggered data gap\u00a0\u00a0Financial TimesGovernment Will Release Delayed Jobs Report on Thursday\u00a0\u00a0The Wall Street JournalWill the Fed\u2019s minutes throw any new light on US interest rates?\u00a0\u00a0Financial TimesJobs disaster\u2014or mediocrity\u2014to be revealed with September jobs report finally set to drop Thursday\u00a0\u00a0FortuneA Reopened Government Hasn\u2019t Ended Delays to Economic Data\u00a0\u00a0The New York Times",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA3ZlNPQnBZS0lCSHctU3BGaGNfY0w5MUdJVjVTa1FqYjM2NDlzcC1BZmo1WjIyc2VmYTJHWW5lWmJEM0hUSl9PaC1oS2thaHE4azdzUThKeV9tT3ZrVndVQkpVb2s0SU9fcGJxT2VGT2E?oc=5",
+          "source": "Financial Times",
+          "published": "Sat, 15 Nov 2025 13:00:01 GMT",
+          "topic": "BUSINESS",
+          "fetched_at": "2025-11-16T12:10:54.951365"
+        },
+        "analysis": {
+          "summary": "The US economic outlook remains uncertain due to a delay in the release of key jobs data, exacerbated by the government shutdown. The upcoming September jobs report is expected to provide much-needed insight, but the delay has left analysts speculating on the true health of the economy.",
+          "key_points": [
+            "The government shutdown has caused a significant delay in the release of crucial economic data, such as the jobs report.",
+            "Analysts are relying on the upcoming September jobs report to assess the current state of the US economy.",
+            "The reopening of the government has not resolved the issue of delayed economic data."
+          ],
+          "sentiment": "Mixed",
+          "confidence": "High",
+          "bias_check": "The article may have a slight negative bias due to the focus on the negative impact of the data delay on economic outlook, but it also presents balanced information by mentioning the upcoming report and potential insights from the Federal Reserve's minutes.",
+          "missing_context": "The article could benefit from including historical context about the frequency and impact of data delays, as well as how analysts typically interpret such gaps in data. Additionally, any recent changes in the methods of data collection or reporting could be relevant.",
+          "implications": "The delay in economic data can have significant implications for investors, policymakers, and market confidence. It may lead to increased volatility and uncertainty in the financial markets as stakeholders wait for crucial information to make informed decisions.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-16T12:13:14.063844",
+          "token_usage": {
+            "prompt_tokens": 279,
+            "completion_tokens": 302,
+            "total_tokens": 581
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_4_1763295054",
+          "title": "Ex-Fed Governor Kugler Resigned After Violating Trading Rules - Bloomberg.com",
+          "description": "Ex-Fed Governor Kugler Resigned After Violating Trading Rules\u00a0\u00a0Bloomberg.comFormer Fed Official Violated Trading Rules, Disclosures Show\u00a0\u00a0The New York TimesFormer Fed Gov. Adriana Kugler violated trading rules while at central bank: ethics report\u00a0\u00a0CNBCFormer Fed Governor Kugler's exit came amid forbidden trading activity\u00a0\u00a0ReutersKey Fed official was under investigation over stock trades, filing shows\u00a0\u00a0Axios",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUXlnQ2otOVVTRktDbUZnOFZjazNlWWs0N1BMTGpQdGRXRDYybWdoWEFDMllzcFJ1SG13Y0lMSzEybFc2Mk9QTmlnUWotM3BCNFlqM3hpa0FSSWxpS01pbVZ4R3EtUTZVbjhwLWJwWjVzVkgwNlc3UTRhalRJcHdBaDc2UUhLZlFjRXN4N1ZvcWxOMW9RblVLLUthaWo1NzJVMFNyME1FYk40VU5vZTZydTNB?oc=5",
+          "source": "Bloomberg.com",
+          "published": "Sun, 16 Nov 2025 00:16:00 GMT",
+          "topic": "BUSINESS",
+          "fetched_at": "2025-11-16T12:10:54.951383"
+        },
+        "analysis": {
+          "summary": "Ex-Federal Reserve Governor Adrian Kugler resigned after an ethics investigation revealed violations of trading rules, raising questions about the integrity of the Fed and its officials. This incident comes amidst a broader scrutiny of the Fed's role in financial markets and the potential conflicts of interest that may arise from its high-level officials' trading activities.",
+          "key_points": [
+            "Adriana Kugler resigned from her position as former Fed Governor following an ethics violation involving trading rules.",
+            "The investigation into Kugler's trading activities highlighted potential conflicts of interest involving Fed officials and financial markets.",
+            "This incident may prompt a reevaluation of the Fed's policies regarding the trading activities of its governors and other officials."
+          ],
+          "sentiment": "Negative",
+          "confidence": "High",
+          "bias_check": "The story may be biased towards emphasizing the negative aspects of the situation, potentially overlooking any mitigating factors or context. Additionally, Bloomberg and other sources might have a vested interest in the financial sector, which could color the reporting.",
+          "missing_context": "Details about the specific trading activities that led to Kugler's resignation, the exact nature of the rules she violated, and any potential systemic issues within the Fed that allowed such behavior to occur are missing. A broader context of how frequently such incidents occur and the Fed's historical handling of them would also be useful.",
+          "implications": "This story could have several implications, including increased public distrust in the Federal Reserve, calls for stricter oversight and rules regarding the trading activities of its officials, and potential policy changes aimed at preventing similar incidents in the future. It also underscores the ongoing debate about the appropriate role and actions of central banks in financial markets.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-16T12:13:23.009899",
+          "token_usage": {
+            "prompt_tokens": 278,
+            "completion_tokens": 355,
+            "total_tokens": 633
           }
         }
       }
@@ -509,19 +507,19 @@
     "articles_analyzed": 15
   },
   "costs": {
-    "execution_time": 128.82473134994507,
-    "execution_minutes": 2.147078855832418,
-    "github_actions": 0.01717663084665934,
+    "execution_time": 133.3320472240448,
+    "execution_minutes": 2.2222007870674134,
+    "github_actions": 0.01777760629653931,
     "openai": {
-      "input": 0.0006375,
-      "output": 0.0026268,
-      "total": 0.0032643
+      "input": 0.0006535499999999999,
+      "output": 0.0027083999999999997,
+      "total": 0.00336195
     },
-    "total": 0.020440930846659343,
+    "total": 0.021139556296539307,
     "token_usage": {
-      "prompt_tokens": 4250,
-      "completion_tokens": 4378,
-      "total_tokens": 8628
+      "prompt_tokens": 4357,
+      "completion_tokens": 4514,
+      "total_tokens": 8871
     }
   }
 }
