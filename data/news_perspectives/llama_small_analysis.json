@@ -2,696 +2,695 @@
   "agent": "llama-small-analyzer",
   "model": "Llama 3.1 8B",
   "model_id": "meta/meta-llama-3.1-8b-instruct",
-  "timestamp": "2025-11-16T00:33:28.213330",
+  "timestamp": "2025-11-16T06:11:27.542380",
   "status": "completed",
   "data": {
     "analyses": [
       {
         "article": {
-          "id": "news_0_1763253115",
-          "title": "Gemini for Android gets homepage redesign, black dark theme, & \u2018My Stuff\u2019 - 9to5Google",
-          "description": "Gemini for Android gets homepage redesign, black dark theme, & \u2018My Stuff\u2019\u00a0\u00a09to5Google5 ways to have more natural conversations with Gemini\u00a0\u00a0blog.googleGoogle Gemini redesign brings a refreshed homescreen and new elements\u00a0\u00a0Android PoliceGemini gets an improved design on Galaxy phones and tablets\u00a0\u00a0SamMobile\u2018Creations\u2019 Take Center Stage in Android Gemini\u2019s UI Refresh\u00a0\u00a0jetstream.blog",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1PVXBXdXNFZk1xR1pVU1NBZ2s4MFFWb3c1dkc5VTJyZy1WcHZScGczS1Bad3A4RDhLZTFaeHBxNTFuNUhNU1hIQ3JYOGZEcTVFQmZaZ2lKNWJYMTlTSUhxeE12VTNBWVA3dmxBd1lIRTBBOEd4Zmc?oc=5",
-          "source": "9to5Google",
-          "published": "Sat, 15 Nov 2025 06:02:00 GMT",
+          "id": "news_0_1763273397",
+          "title": "OnePlus 15 vs. Samsung Galaxy S25 Ultra: I've used both Android flagships, and here's who wins - ZDNET",
+          "description": "OnePlus 15 vs. Samsung Galaxy S25 Ultra: I've used both Android flagships, and here's who wins\u00a0\u00a0ZDNETSamsung fans won't like this: OnePlus just topped the S25 Ultra in more ways than one\u00a0\u00a0ZDNETI Tested the OnePlus 15 and Its Massive 7,300-mAh Battery Deserves a Medal\u00a0\u00a0CNETOnePlus 15 review: A great phone, if photography isn't a priority\u00a0\u00a0EngadgetOnePlus\u2019s New Two-Day Battery Life Phone Delayed by US Government Shutdown\u00a0\u00a0Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQRHp3a2hLWTFvbVBoOEFCZXdraGs3NmFDTUUyblZUb1U0aE03RmhtZjk3c3FROUswMlhSTHRyZkNmSHg5MUtKM01oREFPREZlQjFsZFNTcjRZMnFhVG9tNk0yV0hSVmpuT092eG9LMUpkeVFQeXY3WDhuOTlQS1RpVzN5NlJwYkZ3NFB3ZzZ3Ri1HUkxOdHNNT2VMbDl3UlM1OWpqalZCNm9vTnhEOVdrOWU4T2R6d2hWT1NfbQ?oc=5",
+          "source": "ZDNET",
+          "published": "Sun, 16 Nov 2025 03:00:00 GMT",
           "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-16T00:31:55.660590"
+          "fetched_at": "2025-11-16T06:09:57.073354"
         },
         "analysis": {
-          "summary": "The Gemini app for Android has received a significant redesign, featuring a new homepage layout, a black dark theme, and an improved 'My Stuff' section. These changes aim to enhance user experience and make the app more intuitive. The redesign also showcases the 'Creations' feature, highlighting users' content.",
+          "summary": "The OnePlus 15 has been compared favorably to the Samsung Galaxy S25 Ultra in various reviews, with some critics praising its larger battery and overall performance. However, it's essential to note that photography enthusiasts might find the Galaxy S25 Ultra to be a better option. The comparison highlights the growing competition in the Android flagship market.",
           "key_points": [
-            "Gemini app for Android has received a significant redesign.",
-            "New homepage layout and black dark theme improve user experience.",
-            "Improved 'My Stuff' section allows users to easily access their content.",
-            "Redesign highlights the 'Creations' feature, showcasing users' content.",
-            "The changes aim to make the app more intuitive and user-friendly."
+            "The OnePlus 15 has a larger battery (7,300-mAh) compared to the Samsung Galaxy S25 Ultra.",
+            "Critics have praised the OnePlus 15's overall performance, possibly surpassing the Galaxy S25 Ultra in some aspects.",
+            "The Galaxy S25 Ultra might be a better option for photography enthusiasts due to its superior camera capabilities."
           ],
-          "sentiment": "positive",
+          "sentiment": "Mixed",
+          "confidence": "Medium",
+          "bias_check": [
+            "Potential bias towards OnePlus due to favorable comparisons in reviews.",
+            "Possible bias against Samsung due to the focus on OnePlus's strengths."
+          ],
+          "missing_context": [
+            "A more in-depth comparison of camera capabilities and features would provide a more comprehensive understanding.",
+            "Reviews from multiple sources with diverse perspectives could help identify any inconsistencies or biases."
+          ],
+          "implications": [
+            "The growing competition in the Android flagship market might lead to even more innovative and feature-rich devices in the future.",
+            "Consumers may need to weigh their priorities (battery life, camera capabilities, etc.) when choosing between similarly priced devices."
+          ],
+          "model": "Llama 3.1 8B",
+          "model_id": "meta/meta-llama-3.1-8b-instruct",
+          "analyzed_at": "2025-11-16T06:10:14.952416",
+          "token_usage": {
+            "prompt_tokens": 378,
+            "completion_tokens": 562,
+            "total_tokens": 940
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_1_1763273397",
+          "title": "Galaxy Z TriFold hits a key milestone ahead of US release - SamMobile",
+          "description": "Galaxy Z TriFold hits a key milestone ahead of US release\u00a0\u00a0SamMobileExclusive: Samsung Unveils Twice-Folding Galaxy Z TriFold\u00a0\u00a0\uc870\uc120\uc77c\ubcf4Samsung's trifold phone has exactly the name you expected\u00a0\u00a0MashableSamsung Galaxy Z TriFold rumors \u2014 everything we know about Samsung's triple foldable phone\u00a0\u00a0Tom's GuideSamsung's tri-fold tipped to launch next month with 5600mAh battery and a $3,000 price tag\u00a0\u00a0Beehiiv",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPTThlV0l2RGw1VzA4MXBjeU1kTHBlaHpyZFhYczBlNkh1bGliMmp1OGRFSGJNVkppbTB2M3NTcHprbVFQMWNNQTVOUEwzYXl0Y0JBdndOS2NzZ21YSXpQaTlCMEt4eTk3bE9FbmJhWm5mYzcxeUJzM3lHcWN1dTd3anB3?oc=5",
+          "source": "SamMobile",
+          "published": "Sat, 15 Nov 2025 03:24:00 GMT",
+          "topic": "TECHNOLOGY",
+          "fetched_at": "2025-11-16T06:09:57.073384"
+        },
+        "analysis": {
+          "summary": "Samsung's Galaxy Z TriFold has reached a key milestone ahead of its US release, showcasing its innovative twice-folding design. This development is a testament to Samsung's commitment to pushing the boundaries of mobile technology. However, concerns about the phone's high price and limited availability remain.",
+          "key_points": [
+            {
+              "point": "Samsung's Galaxy Z TriFold has achieved a significant milestone ahead of its US release.",
+              "confidence": 0.8
+            },
+            {
+              "point": "The phone features a twice-folding design, offering users a unique experience.",
+              "confidence": 0.9
+            },
+            {
+              "point": "The Galaxy Z TriFold is expected to launch with a 5600mAh battery and a price tag of $3,000.",
+              "confidence": 0.7
+            },
+            {
+              "point": "The phone's high price and limited availability may deter potential buyers.",
+              "confidence": 0.8
+            }
+          ],
+          "sentiment": "mixed",
           "confidence": "high",
           "bias_check": [
-            "Potential bias towards promoting Google's Gemini app and its features.",
-            "Limited information on user feedback or criticisms of the redesign."
+            "The article appears to have a positive bias towards Samsung and its innovative product.",
+            "The sources cited in the article are primarily tech news websites, which may have a vested interest in promoting the latest technological advancements.",
+            "The article does not provide a balanced perspective on the potential drawbacks of the Galaxy Z TriFold, such as its high price and limited availability."
           ],
           "missing_context": [
-            "Insufficient information on the specific design choices and user research behind the redesign.",
-            "No mention of potential accessibility implications or considerations.",
-            "Limited context on how the redesign will impact user behavior and engagement."
+            "A more detailed analysis of the phone's technical specifications and features would be beneficial to understand its capabilities and limitations.",
+            "It would be interesting to know more about the target audience for the Galaxy Z TriFold and how the phone's design and features cater to their needs.",
+            "The article does not mention any potential competitors to the Galaxy Z TriFold, which could provide a more comprehensive understanding of the phone's market position."
           ],
           "implications": [
-            "The redesign could set a new standard for app design and user experience in the Android ecosystem.",
-            "The 'My Stuff' section and 'Creations' feature may become more prominent in future Android updates.",
-            "The redesign may influence the way users interact with the app and its features."
+            "The Galaxy Z TriFold's innovative design and features may set a new standard for mobile phones in the future.",
+            "The phone's high price and limited availability may deter potential buyers and affect Samsung's sales figures.",
+            "The success of the Galaxy Z TriFold could have a ripple effect on the mobile phone industry, encouraging other manufacturers to develop similar products."
           ],
           "model": "Llama 3.1 8B",
           "model_id": "meta/meta-llama-3.1-8b-instruct",
-          "analyzed_at": "2025-11-16T00:32:13.654633",
+          "analyzed_at": "2025-11-16T06:10:20.135748",
           "token_usage": {
-            "prompt_tokens": 344,
-            "completion_tokens": 756,
-            "total_tokens": 1100
+            "prompt_tokens": 351,
+            "completion_tokens": 867,
+            "total_tokens": 1218
           }
         }
       },
       {
         "article": {
-          "id": "news_1_1763253115",
-          "title": "Comparing the 2026 Phone Lineups From Apple, Samsung, Google and Everyone Else - CNET",
-          "description": "Comparing the 2026 Phone Lineups From Apple, Samsung, Google and Everyone Else\u00a0\u00a0CNET",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQSlp2QlJYMjJaQ1E0UEtxQ3NFYWNBZ0E5X0FHOWQwZ1hBQWdMMHlvcnlJZ1Jwd0pXMWhwV3dyYjkwT2t5TjBlYjZESU14UnRxNkN3TEpsZS1NOXByc1RaX0U4NHhxYXhQOE56YnN3cjZsUFczWko2N2hYVlFQWjB6Z1ZCVzlXcWZOZF9lSGgyRlF6YnkyeG4xd2JXZUZibFBxMTU2ZVV2RlRrZXhmdDRZ?oc=5",
-          "source": "CNET",
-          "published": "Sat, 15 Nov 2025 13:01:00 GMT",
-          "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-16T00:31:55.660614"
-        },
-        "analysis": {
-          "summary": "The article from CNET compares the rumored 2026 phone lineups from major tech companies, including Apple, Samsung, and Google. The report highlights potential features, designs, and upgrades that may be included in the upcoming devices. However, the information is speculative, and actual features may differ.",
-          "key_points": [
-            "Apple is expected to introduce a new iPhone design with a foldable screen and improved camera capabilities.",
-            "Samsung may launch a new foldable phone with a larger display and enhanced battery life.",
-            "Google's Pixel 7 Pro successor is rumored to feature improved camera performance and a new color option.",
-            "Other companies like OnePlus and Oppo are also expected to release new flagships with enhanced features and designs."
-          ],
-          "sentiment": "neutral",
-          "confidence": "medium",
-          "bias_check": [
-            "The article may have a bias towards Apple, as it is mentioned first and receives the most attention.",
-            "The speculation about upcoming features and designs may be influenced by the author's assumptions or rumors.",
-            "The article does not provide equal coverage to other companies, which might be due to limited information or CNET's priorities."
-          ],
-          "missing_context": [
-            "The article does not provide information about the expected price points for the new devices.",
-            "There is no mention of potential trade-offs or compromises that users may have to make with the new features and designs.",
-            "The article does not consider the environmental impact of the new devices, such as the use of sustainable materials or energy-efficient components."
-          ],
-          "implications": [
-            "The release of new flagship devices may drive consumer demand and boost sales for the respective companies.",
-            "The emphasis on foldable screens and improved camera capabilities may influence the direction of the smartphone industry as a whole.",
-            "The article highlights the ongoing competition among tech companies to innovate and stay ahead in the market."
-          ],
-          "model": "Llama 3.1 8B",
-          "model_id": "meta/meta-llama-3.1-8b-instruct",
-          "analyzed_at": "2025-11-16T00:32:18.945815",
-          "token_usage": {
-            "prompt_tokens": 278,
-            "completion_tokens": 839,
-            "total_tokens": 1117
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_2_1763253115",
+          "id": "news_2_1763273397",
           "title": "Apple\u2019s last-gen AirPods Pro 2 are down to their lowest price to date - The Verge",
-          "description": "Apple\u2019s last-gen AirPods Pro 2 are down to their lowest price to date\u00a0\u00a0The VergeAll The Best Early Black Friday Deals From Apple for 2025\u00a0\u00a0Popular MechanicsAirPod Pros at Their Best Price Ever, Lots of Toys, and More Great Deals\u00a0\u00a0New York MagazineApple deals of the week: Record-low prices on AirPods and Apple Watches\u00a0\u00a0Yahoo! TechBlack Friday arrives early for AirPods fans! AirPods 4 just hit a new record-low price already\u00a0\u00a0TechRadar",
+          "description": "Apple\u2019s last-gen AirPods Pro 2 are down to their lowest price to date\u00a0\u00a0The VergeAirPod Pros at Their Best Price Ever, Lots of Toys, and More Great Deals\u00a0\u00a0New York MagazineApple deals of the week: Record-low prices on AirPods and Apple Watches\u00a0\u00a0Yahoo! Tech34% Off AirPods, 25% Off MacBooks, and Every Other Apple Deal Worth Shopping Right Now\u00a0\u00a0EsquireAll The Best Early Black Friday Deals From Apple for 2025\u00a0\u00a0Popular Mechanics",
           "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSkVNYjhELW15UVo4SXdLN09aM0VVWjQzQzZIUmwtMW1hMnVlc0tKam1Oa1otdEUzcWt2dmxxUkxWamVfejdoZmlzSEpNRzFfWEE5anZYS3Z5LXZ1TFN4VDRDNzF5MTM2Y3Q4cG5SanlxRlBSd2hzdVZIZW91ZVRJbGV6UFlVMVVzT3ptMkNWdDJGUzVD?oc=5",
           "source": "The Verge",
           "published": "Fri, 14 Nov 2025 16:42:27 GMT",
           "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-16T00:31:55.660653"
+          "fetched_at": "2025-11-16T06:09:57.073406"
         },
         "analysis": {
-          "summary": "Apple's last-gen AirPods Pro 2 have reached their lowest price to date, making them an attractive option for those looking to upgrade or purchase a new pair of earbuds. This price drop coincides with the start of Black Friday sales, indicating a strategic marketing move by Apple to capitalize on the holiday season. The low price point may also be a tactic to clear out inventory for the newer AirPods Pro 3 model.",
+          "summary": "Apple's last-gen AirPods Pro 2 have reached their lowest price to date, offering consumers a significant discount on a high-end product. This deal is part of the early Black Friday sales, which typically feature discounted prices on various Apple products. The promotion is likely aimed at reviving sales and clearing inventory before the launch of newer products.",
           "key_points": [
-            "AirPods Pro 2 have reached their lowest price to date, starting at $173 for the standard model.",
-            "This price drop coincides with the start of Black Friday sales, indicating a strategic marketing move by Apple.",
-            "The low price point may be a tactic to clear out inventory for the newer AirPods Pro 3 model.",
-            "The AirPods Pro 2 still offer excellent sound quality, noise cancellation, and a comfortable fit."
+            "The AirPods Pro 2 have reached their lowest price point, making it an attractive option for those in the market for a wireless earbud.",
+            "The promotion is part of Apple's early Black Friday sales, which often feature discounted prices on various Apple products.",
+            "The deal may be intended to boost sales and clear inventory before the release of newer AirPods models.",
+            "Consumers may see this as an opportunity to purchase a high-end product at a lower price point."
           ],
           "sentiment": "positive",
           "confidence": "high",
           "bias_check": [
-            "Potential bias towards Apple as a tech giant, with a focus on promoting their products.",
-            "Possible bias towards consumers, with a focus on finding the best deals rather than providing a balanced view of the market."
+            "Potential bias towards promoting Apple products and their sales",
+            "Lack of comparison with similar products from other manufacturers",
+            "Possible emphasis on the 'lowest price to date' without providing context on previous sales or discounts"
           ],
           "missing_context": [
-            "Comparative analysis with other earbuds on the market, such as Sony or Samsung options.",
-            "Discussion of potential trade-offs between the AirPods Pro 2 and the newer AirPods Pro 3 model.",
-            "Insights into the environmental impact of the frequent release of new Apple products."
+            "Comparison with other wireless earbuds or headphones in terms of price and features",
+            "Analysis of the potential impact on Apple's sales and customer loyalty",
+            "Discussion of the implications for Apple's product lineup and future releases"
           ],
           "implications": [
-            "The price drop may indicate a shift in consumer demand towards more affordable options, potentially impacting Apple's sales strategy.",
-            "This sale may be a precursor to more significant discounts on other Apple products, such as the AirPods Pro 3 model or the latest iPhones.",
-            "The sale may also be an opportunity for consumers to upgrade to a more advanced earbud model, such as the AirPods Pro 3."
+            "The promotion may lead to increased sales and revenue for Apple",
+            "It could also create a surge in demand for the AirPods Pro 2, potentially affecting the launch of newer models",
+            "The deal may influence consumer behavior and expectations for future product releases"
           ],
           "model": "Llama 3.1 8B",
           "model_id": "meta/meta-llama-3.1-8b-instruct",
-          "analyzed_at": "2025-11-16T00:32:23.813131",
+          "analyzed_at": "2025-11-16T06:10:24.416863",
           "token_usage": {
-            "prompt_tokens": 370,
-            "completion_tokens": 767,
+            "prompt_tokens": 369,
+            "completion_tokens": 668,
+            "total_tokens": 1037
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_3_1763273397",
+          "title": "Don\u2019t wait for Black Friday madness. Save on TVs, laptops and more at Best Buy right now - CNN",
+          "description": "Don\u2019t wait for Black Friday madness. Save on TVs, laptops and more at Best Buy right now\u00a0\u00a0CNNView Full Coverage on Google News",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQT3h2QXVjTHZxRmVCelNsSkxQNjVhVU1EblhBSlZpLTUyQ09FSHM4M09FS0xWUjA5V0JQVnhlREIwckE3RGROWXRPaEdMZVY4bG5FMFJGSzV0M3FuaDVHdmFMcjRndkJXeldRSF9vUjZKcXJSeDM4ZnZmOUdrbnR5b0o3RVBpbWNrQll6a1F5Zkpid3IyMm1mSHhnTQ?oc=5",
+          "source": "CNN",
+          "published": "Fri, 14 Nov 2025 19:04:00 GMT",
+          "topic": "TECHNOLOGY",
+          "fetched_at": "2025-11-16T06:09:57.073419"
+        },
+        "analysis": {
+          "summary": "Best Buy is offering discounts on various electronics, including TVs and laptops, which may appeal to consumers looking to save money before the Black Friday sales. However, it's essential to note that prices may vary, and the discounts might not be as substantial as expected. The offer might be a strategic move by Best Buy to boost sales before the holiday season.",
+          "key_points": [
+            "Best Buy is offering discounts on TVs, laptops, and other electronics",
+            "Prices may vary, and the discounts might not be as substantial as expected",
+            "The offer might be a strategic move by Best Buy to boost sales before the holiday season",
+            "Consumers should compare prices and look for better deals before making a purchase"
+          ],
+          "sentiment": "positive",
+          "confidence": "medium",
+          "bias_check": [
+            "The article may have a pro-consumer bias by highlighting the discounts and encouraging readers to make a purchase",
+            "The article might not provide a comprehensive comparison of prices across different retailers",
+            "The article's tone might be promotional, as it is a CNN article featuring a Best Buy advertisement"
+          ],
+          "missing_context": [
+            "The article does not provide information about the duration of the offer or any potential limitations on the discounts",
+            "It does not compare the prices with other retailers or online marketplaces",
+            "There is no discussion about the potential impact of the offer on Best Buy's sales and revenue"
+          ],
+          "implications": [
+            "The offer might set a precedent for other retailers to follow, potentially leading to increased competition and better deals for consumers",
+            "The article highlights the importance of price comparison and research before making a purchase",
+            "The offer might be a strategic move by Best Buy to maintain a competitive edge in the market during the holiday season"
+          ],
+          "model": "Llama 3.1 8B",
+          "model_id": "meta/meta-llama-3.1-8b-instruct",
+          "analyzed_at": "2025-11-16T06:10:28.550486",
+          "token_usage": {
+            "prompt_tokens": 286,
+            "completion_tokens": 668,
+            "total_tokens": 954
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_4_1763273397",
+          "title": "Best Buy Week 3 Black Friday Doorbusters now live: Samsung Galaxy phones $200, TVs, monitors $800 off, more - 9to5Toys",
+          "description": "Best Buy Week 3 Black Friday Doorbusters now live: Samsung Galaxy phones $200, TVs, monitors $800 off, more\u00a0\u00a09to5ToysView Full Coverage on Google News",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQeW1LUldObjlyVEN3TXd4dUhqTnZkWFRTY01XczVSa1kyYUxaQ0FiMjZoRUFhQ1kzb2VFSzM3R3hNbFAxdEFEZlp2d1h0R3NzZWdZcGxEZTZqZVZoZGxjaWZ5SFVWVU1LNmctZjV2MHN3eVRTTTFkMXNuRzJRWWJiNUtOdGdxdmdkR1E?oc=5",
+          "source": "9to5Toys",
+          "published": "Fri, 14 Nov 2025 23:00:00 GMT",
+          "topic": "TECHNOLOGY",
+          "fetched_at": "2025-11-16T06:09:57.073431"
+        },
+        "analysis": {
+          "summary": "Best Buy has launched its Week 3 Black Friday doorbusters, offering significant discounts on Samsung Galaxy phones, TVs, monitors, and other electronics. These deals are live now and may not last long. Consumers can now snag Samsung Galaxy phones for $200 off, TVs for up to $800 off, and monitors for substantial discounts.",
+          "key_points": [
+            "Best Buy's Week 3 Black Friday doorbusters are now live, featuring discounts on Samsung Galaxy phones, TVs, and monitors.",
+            "Consumers can save up to $200 on Samsung Galaxy phones and $800 on select TVs.",
+            "The deals are likely to be popular, given the significant discounts offered on high-demand electronics."
+          ],
+          "sentiment": "Positive",
+          "confidence": "High",
+          "bias_check": [
+            "Commercial bias: The article appears to be sponsored by Best Buy, promoting their Black Friday deals.",
+            "Selective information: The article focuses on the discounts offered by Best Buy, but does not provide a comprehensive comparison with other retailers."
+          ],
+          "missing_context": [
+            "Long-term impact of Black Friday sales on consumer spending habits and the electronics market.",
+            "Potential risks or downsides to purchasing electronics at discounted prices, such as warranty issues or quality concerns."
+          ],
+          "implications": [
+            "The popularity of Black Friday sales may lead to increased consumer spending and economic activity in the short term.",
+            "The deals offered by Best Buy may attract customers to their store, potentially driving long-term sales and loyalty."
+          ],
+          "model": "Llama 3.1 8B",
+          "model_id": "meta/meta-llama-3.1-8b-instruct",
+          "analyzed_at": "2025-11-16T06:10:33.830784",
+          "token_usage": {
+            "prompt_tokens": 312,
+            "completion_tokens": 833,
+            "total_tokens": 1145
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_0_1763273397",
+          "title": "Refugees to face 20-year wait to settle permanently under asylum reforms - BBC",
+          "description": "Refugees to face 20-year wait to settle permanently under asylum reforms\u00a0\u00a0BBCBritain to announce \u2018most significant\u2019 change to asylum rules in years, setting Europe\u2019s longest route to settlement\u00a0\u00a0CNNU.K. plans to drastically reduce protections for refugees in overhaul of its asylum policies\u00a0\u00a0CBS NewsBritain announces largest asylum policy overhaul in modern times\u00a0\u00a0ReutersUK government set to make support for asylum seekers \u2018discretionary\u2019\u00a0\u00a0The Guardian",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5xaDBsVWluSzYtMncyUUhldXFwcHlPZkJQNndKc3NGQzhRazlkaDAxR0h0dThOckRnUGdzRGQtM19td0xsd2FLMlZIZ3hfNUQzeXNtMG9TRjlPZ9IBX0FVX3lxTE9VRlUxQUpZRWx1U3psR1pKNnVMMzNCOHRIMl9INWZUWlRpNHRRa0lIYTVhUE1ZZ0w3MlA5cllYc0tiZ1U2VGJ3Si1WSzhZQVViQkczOW5WY1BwWnRUWk1j?oc=5",
+          "source": "BBC",
+          "published": "Sat, 15 Nov 2025 23:56:10 GMT",
+          "topic": "WORLD",
+          "fetched_at": "2025-11-16T06:09:57.203551"
+        },
+        "analysis": {
+          "summary": "The UK government is planning a significant overhaul of its asylum policies, which would result in a 20-year wait for refugees to settle permanently. This change would make the UK's asylum process one of the longest in Europe. The reforms aim to reduce protections for refugees and make support 'discretionary'.",
+          "key_points": [
+            "The proposed reforms would introduce a 20-year wait for refugees to settle permanently in the UK.",
+            "The UK's asylum process would become one of the longest in Europe.",
+            "The reforms aim to reduce protections for refugees and make support 'discretionary'.",
+            "The changes could have significant implications for the lives of refugees and asylum seekers in the UK."
+          ],
+          "sentiment": "negative",
+          "confidence": "high",
+          "bias_check": [
+            "Potential language bias: The article's tone and phrasing might be influenced by the source's (BBC) perceived anti-government or pro-refugee stance.",
+            "Confirmation bias: The article's focus on the proposed reforms' negative aspects might overlook potential benefits or complexities of the policy change."
+          ],
+          "missing_context": [
+            "A more nuanced discussion of the historical and social context of the UK's asylum policies.",
+            "Perspectives from refugee organizations, advocates, or individuals who have gone through the asylum process in the UK.",
+            "Information about the potential economic or societal implications of the proposed reforms."
+          ],
+          "implications": [
+            "The reforms could lead to a significant increase in the number of refugees living in limbo for extended periods.",
+            "The changes might deter people from seeking asylum in the UK, potentially forcing them to seek refuge in other countries with more lenient policies.",
+            "The reforms could have broader implications for the UK's international reputation and its role in addressing global migration issues."
+          ],
+          "model": "Llama 3.1 8B",
+          "model_id": "meta/meta-llama-3.1-8b-instruct",
+          "analyzed_at": "2025-11-16T06:10:39.367756",
+          "token_usage": {
+            "prompt_tokens": 342,
+            "completion_tokens": 795,
             "total_tokens": 1137
           }
         }
       },
       {
         "article": {
-          "id": "news_3_1763253115",
-          "title": "OnePlus 15: Top-tier variant has a 'hidden' RAM speed boost - Notebookcheck",
-          "description": "OnePlus 15: Top-tier variant has a 'hidden' RAM speed boost\u00a0\u00a0NotebookcheckI Tested the OnePlus 15 and Its Massive 7,300-mAh Battery Deserves a Medal\u00a0\u00a0CNETOnePlus 15 review: A great phone, if photography isn't a priority\u00a0\u00a0EngadgetOnePlus\u2019s New Two-Day Battery Life Phone Delayed by US Government Shutdown\u00a0\u00a0Bloomberg.comForget Samsung S25 Ultra: This OnePlus flagship beats the Android giant in meaningful ways\u00a0\u00a0ZDNET",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTnpDYVhFenpwYkFPQUxQR1Q1SUFScTdyRjc5SGI0ZkUzQU9Bbm4zaVlMd2RZTzVlVUs1eHhjV3BMQkdXTk1iWW9McHhwbkFRLU04emtjdUxmaHl6TU9wdWIxRDluMzhiU3RuZXo3U1o2Q2lvS1hDTEhjYmFSMlBDVm1KRUhMMzNVamNjSlJDeEFpd0gtRnllSGdDNnU1U1V4MmVJ?oc=5",
-          "source": "Notebookcheck",
-          "published": "Fri, 14 Nov 2025 22:31:00 GMT",
-          "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-16T00:31:55.660692"
-        },
-        "analysis": {
-          "summary": "The OnePlus 15, a top-tier smartphone, boasts a 'hidden' RAM speed boost, which could provide a performance advantage over its competitors. However, reviews suggest that its camera capabilities may not be as impressive as other flagship devices. Overall, the phone's battery life is a notable standout feature.",
-          "key_points": [
-            "OnePlus 15's top-tier variant features a 'hidden' RAM speed boost, potentially improving performance.",
-            "The phone's battery life is a significant strength, with a massive 7,300-mAh battery.",
-            "Camera capabilities may not be as strong as other flagship devices, such as the Samsung S25 Ultra.",
-            "Reviews suggest that the phone's overall performance is solid, but not exceptional in all areas."
-          ],
-          "sentiment": "neutral",
-          "confidence": "medium",
-          "bias_check": [
-            "Brand loyalty: The article appears to be written from a neutral perspective, but it's possible that the author may be a fan of OnePlus or has a bias towards highlighting the brand's strengths.",
-            "Comparison bias: The article compares the OnePlus 15 to other flagship devices, which may lead to an unfair comparison or a biased evaluation of the phone's performance."
-          ],
-          "missing_context": [
-            "Long-term durability: There is no information about the phone's durability and how it will hold up over time.",
-            "Software updates: The article does not mention whether the OnePlus 15 will receive timely software updates or if it will be supported by OnePlus for an extended period.",
-            "Price point: The article does not provide information about the phone's price point, which could be an important factor for potential buyers."
-          ],
-          "implications": [
-            "The OnePlus 15's 'hidden' RAM speed boost could be a game-changer for performance enthusiasts.",
-            "The phone's battery life could make it an attractive option for users who want a device that can last all day without needing to be recharged.",
-            "The camera capabilities may not be as strong as other flagship devices, which could be a drawback for users who prioritize photography."
-          ],
-          "model": "Llama 3.1 8B",
-          "model_id": "meta/meta-llama-3.1-8b-instruct",
-          "analyzed_at": "2025-11-16T00:32:28.791121",
-          "token_usage": {
-            "prompt_tokens": 356,
-            "completion_tokens": 829,
-            "total_tokens": 1185
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_4_1763253115",
-          "title": "Galaxy Z TriFold hits a key milestone ahead of US release - SamMobile",
-          "description": "Galaxy Z TriFold hits a key milestone ahead of US release\u00a0\u00a0SamMobileExclusive: Samsung Unveils Twice-Folding Galaxy Z TriFold\u00a0\u00a0\uc870\uc120\uc77c\ubcf4Samsung Galaxy Z TriFold rumors \u2014 everything we know about Samsung's triple foldable phone\u00a0\u00a0Tom's GuideSamsung's tri-fold tipped to launch next month with 5600mAh battery and a $3,000 price tag\u00a0\u00a0BeehiivTriple-Folding Smartphone Displays\u00a0\u00a0Trend Hunter",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPTThlV0l2RGw1VzA4MXBjeU1kTHBlaHpyZFhYczBlNkh1bGliMmp1OGRFSGJNVkppbTB2M3NTcHprbVFQMWNNQTVOUEwzYXl0Y0JBdndOS2NzZ21YSXpQaTlCMEt4eTk3bE9FbmJhWm5mYzcxeUJzM3lHcWN1dTd3anB3?oc=5",
-          "source": "SamMobile",
-          "published": "Sat, 15 Nov 2025 03:24:00 GMT",
-          "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-16T00:31:55.660729"
-        },
-        "analysis": {
-          "summary": "Samsung's Galaxy Z TriFold has reached a key milestone ahead of its US release, showcasing the phone's unique features such as a twice-folding design and a 5600mAh battery. The phone is expected to arrive in the US market with a $3,000 price tag, sparking discussions on its affordability and demand. From my analysis, it seems Samsung is pushing the boundaries of innovation with this triple-foldable phone.",
-          "key_points": [
-            "Galaxy Z TriFold has reached a key milestone ahead of its US release",
-            "The phone features a unique twice-folding design and a 5600mAh battery",
-            "The phone is expected to arrive in the US market with a $3,000 price tag",
-            "The high price tag may raise questions about the phone's affordability and demand"
-          ],
-          "sentiment": "positive",
-          "confidence": "medium",
-          "bias_check": [
-            "Potential bias towards Samsung: The article is sourced from SamMobile, a Samsung-focused news outlet. This might lead to a more positive tone towards the company.",
-            "Limited discussion of potential drawbacks: The article focuses on the phone's features and release date, without delving into potential criticisms or concerns about the phone's performance or value."
-          ],
-          "missing_context": [
-            "Comparisons to other triple-foldable phones: The article does not provide a comprehensive comparison of the Galaxy Z TriFold to other phones on the market.",
-            "Target audience and market analysis: The article does not discuss the phone's target audience or how it will perform in the market, beyond its expected price tag."
-          ],
-          "implications": [
-            "Increased competition in the foldable phone market: With the Galaxy Z TriFold's release, Samsung is pushing the boundaries of innovation in the foldable phone market, which may lead to increased competition among manufacturers.",
-            "Potential for a niche market: The high price tag of the Galaxy Z TriFold may indicate that it is targeting a niche market, where customers are willing to pay a premium for a unique and innovative product."
-          ],
-          "model": "Llama 3.1 8B",
-          "model_id": "meta/meta-llama-3.1-8b-instruct",
-          "analyzed_at": "2025-11-16T00:32:34.226501",
-          "token_usage": {
-            "prompt_tokens": 345,
-            "completion_tokens": 941,
-            "total_tokens": 1286
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_0_1763253115",
+          "id": "news_1_1763273397",
           "title": "Protests return to climate summit with calls for Indigenous rights (and a dash of Trump mockery) - Politico",
-          "description": "Protests return to climate summit with calls for Indigenous rights (and a dash of Trump mockery)\u00a0\u00a0PoliticoThousands march outside COP30 summit in call for action\u00a0\u00a0BBCProtesters block the main entrance to COP30 climate talks in Brazil\u00a0\u00a0CNNUN Orders Brazil to Improve Security, Conditions at COP30\u00a0\u00a0Bloomberg.comIndigenous People Take the Stage at COP30 Climate Talks in Bel\u00e9m, Brazil\u00a0\u00a0The New York Times",
+          "description": "Protests return to climate summit with calls for Indigenous rights (and a dash of Trump mockery)\u00a0\u00a0PoliticoThousands march outside COP30 summit in call for action\u00a0\u00a0BBCIndigenous People Take the Stage at COP30 Climate Talks in Bel\u00e9m, Brazil\u00a0\u00a0The New York TimesThousands hit streets of Bel\u00e9m to call for action during crucial Cop30 summit\u00a0\u00a0The Guardian\u2018No one enters, no one leaves.\u2019 Protesters block main entrance to COP30 climate talks in Brazil\u00a0\u00a0PBS",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPLW1UaTNFT05ISjY4MlZWWjRVYlpDbnl0bzVwTkEyV0FtRWU5Z2NhNG1rWkIzRkYyaFdxODA4UnlURVVwTkFBVml2dE5IWjQyNzdyV0t0MFhJUHlrcEp1RFNRakJYWWJjaVdKSWJaX0FHN2ZESlpHVF9ZWFBZLXRFOWlHRjA1NFk?oc=5",
           "source": "Politico",
           "published": "Sat, 15 Nov 2025 20:52:24 GMT",
           "topic": "WORLD",
-          "fetched_at": "2025-11-16T00:31:55.828225"
+          "fetched_at": "2025-11-16T06:09:57.203584"
         },
         "analysis": {
-          "summary": "Protests have returned to the COP30 climate summit in Brazil, with thousands marching outside the venue and blocking the main entrance, calling for action and Indigenous rights. The protests also included mockery of former US President Donald Trump, who was spotted at the summit. This scene highlights the growing urgency and frustration among climate activists and Indigenous communities.",
+          "summary": "The COP30 climate summit in Bel\u00e9m, Brazil, has seen protests return with demands for Indigenous rights and climate action, featuring a mix of serious calls to action and lighthearted Trump mockery. Thousands of people marched outside the summit, blocking the main entrance and calling for urgent change. Despite the protests, the focus remains on negotiations and agreements among world leaders.",
           "key_points": [
-            "Indigenous rights are a central demand at the COP30 climate summit, reflecting the disproportionate impact of climate change on these communities.",
-            "The protests at COP30 are a manifestation of the growing frustration among climate activists and Indigenous communities with the lack of meaningful action from governments and corporations.",
-            "The presence of Donald Trump at the summit has sparked controversy, with some attendees mocking him, highlighting the polarized nature of climate politics.",
-            "The Brazilian government has been criticized for its handling of the summit, with some protests and blockades occurring outside the venue."
+            "Protests resumed at the COP30 climate summit in Bel\u00e9m, Brazil, with a focus on Indigenous rights and climate action.",
+            "Thousands of people marched outside the summit, blocking the main entrance and calling for urgent change.",
+            "The presence of lighthearted Trump mockery amidst the protests suggests a range of emotions and perspectives among the protesters.",
+            "Despite the protests, the focus remains on negotiations and agreements among world leaders.",
+            "Indigenous groups are taking a prominent role in the climate talks, highlighting the need for their rights and interests to be prioritized."
           ],
-          "sentiment": "negative",
-          "confidence": "high",
-          "bias_check": [
-            "Selection bias: The article focuses on protests and controversy, while potentially downplaying other aspects of the summit, such as progress made in climate negotiations.",
-            "Confirmation bias: The article includes mocking of Donald Trump, which may reinforce a particular perspective on the former US President's views on climate change.",
-            "Attribution bias: The article may attribute the lack of meaningful action from governments and corporations to individual leaders or politicians, rather than examining systemic or structural barriers."
-          ],
-          "missing_context": "A more detailed examination of the Brazilian government's climate policies and the history of Indigenous land rights in Brazil could provide valuable context for understanding the protests and demands at COP30.",
-          "implications": "The protests at COP30 suggest that the climate crisis is increasingly becoming a key issue in global politics, with growing urgency and frustration among climate activists and Indigenous communities. The lack of meaningful action from governments and corporations may have significant implications for global climate policy and the well-being of Indigenous communities.",
-          "model": "Llama 3.1 8B",
-          "model_id": "meta/meta-llama-3.1-8b-instruct",
-          "analyzed_at": "2025-11-16T00:32:39.221578",
-          "token_usage": {
-            "prompt_tokens": 346,
-            "completion_tokens": 708,
-            "total_tokens": 1054
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_1_1763253115",
-          "title": "Refugees to face 20-year wait to settle permanently under asylum reforms - BBC",
-          "description": "Refugees to face 20-year wait to settle permanently under asylum reforms\u00a0\u00a0BBCUK government set to make support for asylum seekers \u2018discretionary\u2019\u00a0\u00a0The GuardianUK to curtail asylum seekers\u2019 automatic right to accommodation\u00a0\u00a0Financial TimesAsylum seekers who arrive in UK illegally face 20-year wait\u00a0\u00a0The TelegraphThink twice before copying Denmark\u2019s asylum policies\u00a0\u00a0The Conversation",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5xaDBsVWluSzYtMncyUUhldXFwcHlPZkJQNndKc3NGQzhRazlkaDAxR0h0dThOckRnUGdzRGQtM19td0xsd2FLMlZIZ3hfNUQzeXNtMG9TRjlPZ9IBX0FVX3lxTE9VRlUxQUpZRWx1U3psR1pKNnVMMzNCOHRIMl9INWZUWlRpNHRRa0lIYTVhUE1ZZ0w3MlA5cllYc0tiZ1U2VGJ3Si1WSzhZQVViQkczOW5WY1BwWnRUWk1j?oc=5",
-          "source": "BBC",
-          "published": "Sat, 15 Nov 2025 23:56:10 GMT",
-          "topic": "WORLD",
-          "fetched_at": "2025-11-16T00:31:55.828259"
-        },
-        "analysis": {
-          "summary": "The UK government plans to introduce asylum reforms that will make it a 20-year wait for refugees to settle permanently in the country. This change, which may be seen as a barrier to those seeking safety, raises concerns about the treatment of asylum seekers and potential human rights implications. The reforms may also deter people from seeking asylum in the UK, driven by stricter policies.",
-          "key_points": [
-            "The proposed 20-year wait to settle permanently will likely increase pressure on asylum seekers and their families.",
-            "The reforms could lead to a significant decrease in the number of people seeking asylum in the UK, driven by stricter policies.",
-            "The change may raise concerns about the treatment of asylum seekers and potential human rights implications.",
-            "The UK government's decision may be influenced by policies implemented in other countries, such as Denmark.",
-            "The reforms may impact the lives of many individuals and families, with significant consequences for their well-being and integration into British society."
-          ],
-          "sentiment": "Negative",
+          "sentiment": "Mixed",
           "confidence": "High",
           "bias_check": [
-            "Sensationalized headlines may exist, emphasizing the negative aspects of the reforms.",
-            "The article may focus on the human rights implications, while potentially underrepresenting the government's perspective or the complexities of asylum policies.",
-            "The narrative may be influenced by the source's (BBC) reputation for progressive and inclusive reporting."
+            "The article may lean slightly towards a sympathetic portrayal of the protests and the demands of Indigenous groups.",
+            "The inclusion of Trump mockery could be seen as a form of partisan commentary, potentially introducing a bias towards a particular political perspective."
           ],
           "missing_context": [
-            "The article does not provide a detailed explanation of the reasoning behind the proposed reforms.",
-            "The potential benefits of the reforms, such as improved efficiency or cost savings, are not discussed.",
-            "The impact of the reforms on different segments of the asylum-seeking population, such as children or families, is not explored."
+            "More in-depth analysis of the specific demands and concerns of Indigenous groups could provide a richer understanding of the issues at hand.",
+            "The article does not provide a detailed account of the negotiations and agreements among world leaders, which could be an important aspect of the story."
           ],
           "implications": [
-            "The reforms may exacerbate existing social and economic issues related to asylum and migration.",
-            "The UK's reputation as a welcoming country for refugees and asylum seekers may suffer, potentially impacting its global standing.",
-            "The reforms may lead to increased tensions between the UK government and other countries or international organizations, particularly those focused on human rights and asylum."
+            "The protests and demands for Indigenous rights highlight the need for climate action to be rooted in a deeper understanding of the social and environmental implications of such policies.",
+            "The presence of multiple perspectives and emotions among the protesters suggests a complex and multifaceted issue, which may not be easily resolved through simple policy changes.",
+            "The COP30 climate summit will likely be seen as a crucial test of the global community's ability to come together and address the pressing issue of climate change."
           ],
           "model": "Llama 3.1 8B",
           "model_id": "meta/meta-llama-3.1-8b-instruct",
-          "analyzed_at": "2025-11-16T00:32:44.893640",
-          "token_usage": {
-            "prompt_tokens": 330,
-            "completion_tokens": 902,
-            "total_tokens": 1232
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_2_1763253115",
-          "title": "Pope returns 62 artifacts to Indigenous peoples from Canada as part of reckoning with colonial past - AP News",
-          "description": "Pope returns 62 artifacts to Indigenous peoples from Canada as part of reckoning with colonial past\u00a0\u00a0AP NewsVatican to Return Indigenous Cultural Items to Canada Taken a Century Ago\u00a0\u00a0The New York TimesPope returns 62 artifacts to Indigenous Canadians as \"concrete sign of dialogue, respect and fraternity\"\u00a0\u00a0CBS NewsPope Leo XIV gifts 62 indigenous artefacts to Canadian Bishops\u00a0\u00a0Vatican NewsPope returns Indigenous artifacts from Vatican Museums to Canada\u00a0\u00a0National Catholic Reporter",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdjBSLU5hX25hLU1PRlZiaHE5dTdJQ0VELUxBYXhGakRSSWo1QUY3S2NLZExDVHd6S0FyRnVnaUhFbi1Jb1NUVWIwRHJRbW1WaWZjWDFTRGJZdk1nX1JTclhLdG5tV1pNN0Q0LVpyNGdRZXJaU1YtYkkzUktxQm5CNzk3aTd6ZEduaFpjNzRXSXlJd0Z5QVZRdWs3dDZwNkR5UEE?oc=5",
-          "source": "AP News",
-          "published": "Sat, 15 Nov 2025 19:34:00 GMT",
-          "topic": "WORLD",
-          "fetched_at": "2025-11-16T00:31:55.828280"
-        },
-        "analysis": {
-          "summary": "The Pope has returned 62 cultural artifacts taken from Indigenous peoples in Canada to their communities as a step towards reconciliation with the colonial past. This move is seen as a significant gesture of respect and dialogue. However, it raises questions about the extent of the Vatican's responsibility for past actions and the impact of such gestures on broader reconciliation efforts.",
-          "key_points": [
-            "The Pope's decision to return the artifacts is a significant step towards reconciliation with the colonial past.",
-            "The Vatican's actions may be seen as a gesture of respect and dialogue, but may not fully address the historical injustices perpetrated against Indigenous peoples.",
-            "The return of artifacts is a tangible step, but the broader implications of this gesture on reconciliation efforts remain unclear.",
-            "The Vatican's actions may be influenced by its own interests and motivations, rather than solely a desire to address colonial injustices.",
-            "The return of artifacts highlights the ongoing need for dialogue and cooperation between the Vatican and Indigenous communities."
-          ],
-          "sentiment": "Positive",
-          "confidence": "Medium",
-          "bias_check": "The story may be biased towards presenting the Vatican's actions as a positive step towards reconciliation. The article may not provide a balanced view of the Vatican's role in the colonial past and its ongoing relationship with Indigenous communities.",
-          "missing_context": "The article does not provide context on the process of selecting which artifacts to return, or how they were taken from Indigenous communities. Additionally, the article does not explore the broader implications of this gesture on reconciliation efforts, including potential long-term consequences or future steps that need to be taken.",
-          "implications": "The return of artifacts has significant implications for the Vatican's relationship with Indigenous communities, as well as for broader reconciliation efforts. It raises questions about the role of institutions in addressing historical injustices and the importance of tangible gestures in advancing reconciliation. However, the story highlights the ongoing need for dialogue, cooperation, and a commitment to ongoing reconciliation efforts.",
-          "model": "Llama 3.1 8B",
-          "model_id": "meta/meta-llama-3.1-8b-instruct",
-          "analyzed_at": "2025-11-16T00:32:49.328666",
+          "analyzed_at": "2025-11-16T06:10:44.177849",
           "token_usage": {
             "prompt_tokens": 357,
-            "completion_tokens": 710,
-            "total_tokens": 1067
+            "completion_tokens": 818,
+            "total_tokens": 1175
           }
         }
       },
       {
         "article": {
-          "id": "news_3_1763253115",
-          "title": "Iran confirms seizure of oil tanker in the Strait of Hormuz - CBS News",
-          "description": "Iran confirms seizure of oil tanker in the Strait of Hormuz\u00a0\u00a0CBS NewsIran confirms it seized tanker in Strait of Hormuz\u00a0\u00a0BBCIran confirms seizure of tanker carrying petrochemical cargo\u00a0\u00a0CNNIRGC says tanker seized near Iran\u2019s waters based on judicial order\u00a0\u00a0Al JazeeraIran\u2019s Revolutionary Guards confirm seizing oil tanker sailing off UAE coast\u00a0\u00a0The Times of Israel",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZm5oQnlXVVo5OXRuLXVFcXBwcHA3NjZ1cUZLejRWLWs1NmxPMjVzTDMwcnJvZjA5bWtjWXBickNvZ1VWcGhmOThIbjlkU0pOX051bU13clpvdjJnellFZDlvY2ZlUGYwUEJkR3BQX3BvdV91NlNmRTdJU1YtSWFMdkk5TzRwQVQxZmfSAY8BQVVfeXFMT2VDS1hlcDQ1UFh1eThjSnpPeE10YTdoSE5yTy04a0hPM0V1WFByS2FXaDlhQ0FhX1FhQmo0ZHlSc2xsRFcwX3V0V1pRcklQRzZTV21fNUJrT21XQmhZZC1HWTZzVzlvVnItZ0JPb3hHbVpPTUJfM3pTQmhKT3I2UDQySzZGdVotVExvbzVTNXc?oc=5",
-          "source": "CBS News",
-          "published": "Sat, 15 Nov 2025 12:21:33 GMT",
+          "id": "news_2_1763273397",
+          "title": "Gen Z protests against Mexico president turn violent amid anger over mayor\u2019s death - The Guardian",
+          "description": "Gen Z protests against Mexico president turn violent amid anger over mayor\u2019s death\u00a0\u00a0The GuardianThousands protest against government in Mexico as clashes leave 120 injured\u00a0\u00a0BBCMexico\u2019s new generation takes to the streets, accusing leaders of protecting cartels\u00a0\u00a0NPRProtesters Rage Against Mexico\u2019s Government Over Corruption and Violence\u00a0\u00a0The New York TimesThousands protest crime and corruption in Mexico City as \u2018Gen Z\u2019 protests gain momentum\u00a0\u00a0CNN",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQX3ZPN2ZPdnBuSG5OQnVmNlk2ZHoxVGtGdlRiampqSm9wT3pKYmFyZVZqc3VGSC04d0dzbGUzdjR4UlhrcnR0T0duWm1KelA0LXZZRmd0YnV6cVF6TFhyNzJmcy1lbDhjWFdqODRidFJWUmI4a21ZaE1ISGxNZjN4Y2tMdmpLVG9wdFB5WHRobmotTUZGUEdHSzdENjFSTWJjbmtpcXJXR0k1MzJ0bFphalR4NlN2UWNCZ2ktRGQtdUUtVjdZNEE?oc=5",
+          "source": "The Guardian",
+          "published": "Sun, 16 Nov 2025 05:17:00 GMT",
           "topic": "WORLD",
-          "fetched_at": "2025-11-16T00:31:55.828302"
+          "fetched_at": "2025-11-16T06:09:57.203605"
         },
         "analysis": {
-          "summary": "Iran has confirmed the seizure of an oil tanker in the Strait of Hormuz, but the circumstances surrounding the incident remain unclear. The Iranian Revolutionary Guard Corps (IRGC) claims the seizure was based on a judicial order, but the exact nature of the order and the cargo on board the tanker are unknown. This development raises concerns about the security of global oil trade and the tensions between Iran and the international community.",
+          "summary": "Protests in Mexico have turned violent, with thousands of Gen Z protesters accusing the government of corruption and protecting cartels following the death of a mayor. The situation highlights the growing discontent among young Mexicans with the government's handling of crime and violence. This discontent is likely to continue and may impact the future of Mexico's politics.",
           "key_points": [
-            "Iran has seized an oil tanker in the Strait of Hormuz, according to Iranian authorities.",
-            "The Iranian Revolutionary Guard Corps (IRGC) claims the seizure was based on a judicial order.",
-            "The exact nature of the cargo on board the tanker is unknown, but it is reportedly carrying petrochemical cargo.",
-            "The incident has raised concerns about the security of global oil trade and the tensions between Iran and the international community.",
-            "The situation remains unclear, with multiple news sources providing conflicting reports."
+            "The protests are driven by Gen Z's frustration with corruption, crime, and violence in Mexico.",
+            "The death of a mayor has sparked a wave of protests against the government, highlighting the perceived lack of action against cartels.",
+            "The protests have turned violent, with 120 people injured, highlighting the growing desperation and discontent among protesters.",
+            "The government's handling of the situation may impact its popularity and the future of Mexican politics.",
+            "The protests may also reflect a broader societal issue, with Mexico's youth feeling disillusioned with the current state of the country."
           ],
           "sentiment": "negative",
           "confidence": "high",
           "bias_check": [
-            "The language used by the Iranian authorities may be biased towards justifying the seizure, and the lack of transparency surrounding the judicial order raises questions about the impartiality of the process.",
-            "The US and its allies have a history of criticizing Iran's actions in the region, which may influence the reporting of this incident.",
-            "The international media may be more likely to report negative news about Iran, perpetuating a biased narrative."
+            "Potential for sensationalism, as the article highlights the violent turn of the protests.",
+            "Possible bias towards portraying the government in a negative light, without providing a balanced perspective.",
+            "The article may be influenced by the Guardian's typically progressive and left-leaning editorial stance."
           ],
           "missing_context": [
-            "Additional information about the tanker's ownership, flag state, and cargo destination could provide more context about the incident.",
-            "The role of other countries, such as the United States or the United Arab Emirates, in the incident is unclear and should be further investigated.",
-            "The incident should be considered in the broader context of Iran's relations with its neighbors and the international community."
+            "More information on the mayor's death and its connection to the protests.",
+            "A more nuanced analysis of the government's policies and their impact on crime and violence in Mexico.",
+            "Perspectives from the government, including statements from the president, to provide a more balanced view."
           ],
           "implications": [
-            "The seizure of the oil tanker has significant implications for the global oil market, particularly if it is confirmed that the cargo was destined for a major oil consumer.",
-            "The incident may escalate tensions between Iran and its neighbors, particularly the United Arab Emirates, which has a significant stake in the security of the Strait of Hormuz.",
-            "The incident highlights the need for increased security measures in the region, including the deployment of additional naval assets to protect commercial shipping."
+            "The protests may lead to increased calls for reform and changes in the government's approach to crime and violence.",
+            "The situation may impact the popularity of the current government and potentially lead to changes in leadership.",
+            "The protests may also reflect a broader societal issue, with Mexico's youth feeling disillusioned with the current state of the country."
           ],
           "model": "Llama 3.1 8B",
           "model_id": "meta/meta-llama-3.1-8b-instruct",
-          "analyzed_at": "2025-11-16T00:32:54.068375",
+          "analyzed_at": "2025-11-16T06:10:48.456524",
           "token_usage": {
-            "prompt_tokens": 328,
-            "completion_tokens": 797,
-            "total_tokens": 1125
+            "prompt_tokens": 341,
+            "completion_tokens": 701,
+            "total_tokens": 1042
           }
         }
       },
       {
         "article": {
-          "id": "news_4_1763253115",
-          "title": "Thousands protest crime and corruption in Mexico City as \u2018Gen Z\u2019 protests gain momentum - AP News",
-          "description": "Thousands protest crime and corruption in Mexico City as \u2018Gen Z\u2019 protests gain momentum\u00a0\u00a0AP NewsProtesters attack police, breach barrier at Mexico's National Palace during rally against cartel violence\u00a0\u00a0Fox NewsMexico\u2019s new generation takes to the streets, accusing leaders of protecting cartels\u00a0\u00a0NPRProtesters Rage Against Mexico\u2019s Government Over Corruption and Violence\u00a0\u00a0The New York TimesProtest in Mexico inspired by Gen Z movement draws older gov\u2019t critics\u00a0\u00a0Al Jazeera",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQcFRnLVNsdHlzSUowbkUzczJFT0dpbTR3MXJqalhEYmx1QjN3MUk2OVgzTktqUUVqaDBadldIWktPaWhZa2o1RER6QkdWbThZTzdoMUFYeGJfUmFsckhsdnVUcU15VFFYU0xjal9FQUpid2djUk5KUHpPWXI0LXJieE83QVBvM2tCaTVyczN5Skc?oc=5",
-          "source": "AP News",
-          "published": "Sat, 15 Nov 2025 20:30:57 GMT",
+          "id": "news_3_1763273397",
+          "title": "Vatican to Return Indigenous Cultural Items to Canada Taken a Century Ago - The New York Times",
+          "description": "Vatican to Return Indigenous Cultural Items to Canada Taken a Century Ago\u00a0\u00a0The New York TimesVatican returns dozens of indigenous artefacts to Canada\u00a0\u00a0BBCPope Leo XIV gifts 62 indigenous artefacts to Canadian Bishops\u00a0\u00a0Vatican NewsPope returns 62 artifacts to Indigenous Canadians as \"concrete sign of dialogue, respect and fraternity\"\u00a0\u00a0CBS NewsPope returns dozens of Indigenous artifacts to Canada\u00a0\u00a0DW",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNN2xMUTZCajhpNENXNTRnaWUtSnR1NnRJVDdsSDVSOWdfczY4OEVmMWgtNVhFc05nU3R3QlljUEVxN1o3VzBtc1JhZjl5OFRuX3B4VE9kcm9sdlpnTlU4WlQtcjBPR2RYdnRGVlJEUWxMeTVMYi1fWWh6Mlp6MWhTb3Nxa1FTbXpkbzRBc3VkY0d2TW1HLS16RzBsTQ?oc=5",
+          "source": "The New York Times",
+          "published": "Sat, 15 Nov 2025 19:31:53 GMT",
           "topic": "WORLD",
-          "fetched_at": "2025-11-16T00:31:55.828322"
+          "fetched_at": "2025-11-16T06:09:57.203625"
         },
         "analysis": {
-          "summary": "Thousands of protesters in Mexico City, largely composed of Gen Z individuals, took to the streets to express frustration with rising crime and corruption, accusing the government of protecting cartels. The protests turned violent, with some participants breaching a barrier at the National Palace. This movement is seen as a significant challenge to the government's authority.",
+          "summary": "The Vatican has decided to return 62 Indigenous cultural items taken a century ago from Canada, marking a significant step towards reconciliation and respect for Indigenous cultures. This move demonstrates the Vatican's commitment to dialogue, respect, and fraternity with Indigenous communities. The return of these artifacts is a concrete step towards healing historical wounds.",
           "key_points": [
-            "The protests are largely driven by Gen Z individuals who feel the government has failed to address rising crime and corruption.",
-            "The movement is seen as a significant challenge to the government's authority, with some participants calling for the president's resignation.",
-            "The protests turned violent, with some participants breaching a barrier at the National Palace.",
-            "The government has been accused of protecting cartels, which has led to widespread discontent among the population."
+            "The Vatican has agreed to return 62 Indigenous cultural items taken a century ago from Canada.",
+            "The return of these artifacts is a significant step towards reconciliation and respect for Indigenous cultures.",
+            "The Vatican's decision demonstrates its commitment to dialogue, respect, and fraternity with Indigenous communities."
+          ],
+          "sentiment": "Positive",
+          "confidence": "High",
+          "bias_check": [
+            "Potential bias towards the Catholic Church and its efforts towards reconciliation.",
+            "Lack of representation from Indigenous voices and perspectives might be present in the article.",
+            "The article might be influenced by the source's (The New York Times) liberal leaning."
+          ],
+          "missing_context": [
+            "A deeper analysis of the historical context behind the taking of these artifacts, including the motivations and actions of the Catholic Church.",
+            "A more nuanced understanding of the impact of this decision on Indigenous communities and their perspectives on the return of cultural items.",
+            "An examination of the Vatican's broader efforts towards reconciliation and how this decision fits into those initiatives."
+          ],
+          "implications": [
+            "This decision sets a precedent for the return of cultural items and could have far-reaching implications for other institutions and communities.",
+            "It demonstrates the importance of cultural sensitivity and respect for Indigenous cultures and histories.",
+            "The return of these artifacts could help to promote healing and reconciliation between the Catholic Church and Indigenous communities."
+          ],
+          "model": "Llama 3.1 8B",
+          "model_id": "meta/meta-llama-3.1-8b-instruct",
+          "analyzed_at": "2025-11-16T06:10:53.647026",
+          "token_usage": {
+            "prompt_tokens": 341,
+            "completion_tokens": 867,
+            "total_tokens": 1208
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_4_1763273397",
+          "title": "China Coast Guard ship formation sails through Japan-administered Senkaku Islands - Reuters",
+          "description": "China Coast Guard ship formation sails through Japan-administered Senkaku Islands\u00a0\u00a0ReutersChinese Ships Enter Disputed Japanese Waters Amid Strained Ties\u00a0\u00a0Bloomberg.comChina warns citizens against Japan travel as Taiwan spat escalates\u00a0\u00a0CNNJapan protests after China tells citizens not to visit in escalating feud over leader's Taiwan remarks\u00a0\u00a0CBS NewsChina advises against travel to Japan amid escalating row over PM\u2019s Taiwan comments\u00a0\u00a0The Guardian",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPOEYwNllSSmhsRmFGRE5CdFpqX0NSVUczUXdVc2VvMjhjYm5zdXMwQm5sVk4tS0dVZjNkd1pIZUhYT1QwakRTektYdXJCZ1pvdXhsaS1iU0dzLVA0OHBDQnVIWVZsb2hpQ2VkVno5cWxQZUwzSTR3eDJXVmsxLUVoa250NXFsQlVmYXlEdWdaM1o2Q0Z3aUFJaXpOOGJhdXBVelZBdTMyTU54V1d6X3NaZHRLbnN1NmtzbTZjdTB3?oc=5",
+          "source": "Reuters",
+          "published": "Sun, 16 Nov 2025 03:06:00 GMT",
+          "topic": "WORLD",
+          "fetched_at": "2025-11-16T06:09:57.203646"
+        },
+        "analysis": {
+          "summary": "A Chinese Coast Guard ship formation sailed through the Japan-administered Senkaku Islands, escalating tensions between China and Japan over a recent dispute. China has also advised its citizens against traveling to Japan due to the diplomatic strain. This move marks a significant escalation in the ongoing rivalry between the two nations.",
+          "key_points": [
+            "China's Coast Guard ship formation sailed through the Japan-administered Senkaku Islands, a disputed territory.",
+            "China has advised its citizens against traveling to Japan due to diplomatic tensions over a recent dispute.",
+            "The move marks a significant escalation in the ongoing rivalry between China and Japan.",
+            "The dispute centers around Japanese Prime Minister's comments on Taiwan, which China considers a sensitive issue.",
+            "The situation could have broader implications for regional stability and global trade."
           ],
           "sentiment": "negative",
           "confidence": "high",
           "bias_check": [
-            "The article may be biased towards the protesters' perspective, as it focuses on their grievances and actions.",
-            "The article may also be biased towards the government's perspective, as it mentions the government's efforts to address the issues and the president's response to the protests."
+            "Potential bias towards the Western perspective: The article primarily cites news sources from the United States (Reuters, Bloomberg, CNN, CBS News, The Guardian).",
+            "Lack of Chinese government sources: The article could benefit from quotes or statements from Chinese officials to provide a more nuanced perspective.",
+            "Possible sensationalism: The article's focus on China's 'advice' to its citizens against traveling to Japan might be seen as sensationalized, rather than a neutral report."
           ],
           "missing_context": [
-            "More information about the specific demands and goals of the protesters would be helpful in understanding the movement's motivations and potential outcomes.",
-            "The article does not provide much context about the government's previous efforts to address crime and corruption, which could be relevant to understanding the protesters' frustration."
+            "Historical context: The Senkaku Islands dispute dates back to the 19th century, and the article could benefit from a brief historical overview.",
+            "Alternative perspectives: The article could include quotes or statements from Japanese officials, fishermen, or local residents to provide a more balanced view.",
+            "Global implications: The article could explore the potential impact of this incident on regional and global trade, as well as the broader implications for diplomatic relations between China and Japan."
           ],
           "implications": [
-            "The protests could lead to significant changes in the government's policies and leadership, potentially marking a turning point in Mexico's struggle with crime and corruption.",
-            "The movement could also have broader implications for the country's social and economic development, potentially inspiring other groups to take action on various issues."
+            "Escalating tensions between China and Japan could lead to increased military presence in the region, potentially destabilizing the East Asian economic and security landscape.",
+            "The dispute could have significant implications for global trade, as China is Japan's second-largest trading partner and Japan is a key supplier of technology and components to China.",
+            "The situation could also impact the United States' role in the region, as it has a security alliance with Japan and has been increasingly involved in the South China Sea disputes with China."
           ],
           "model": "Llama 3.1 8B",
           "model_id": "meta/meta-llama-3.1-8b-instruct",
-          "analyzed_at": "2025-11-16T00:32:58.452648",
+          "analyzed_at": "2025-11-16T06:10:58.384923",
           "token_usage": {
-            "prompt_tokens": 351,
-            "completion_tokens": 705,
-            "total_tokens": 1056
+            "prompt_tokens": 339,
+            "completion_tokens": 801,
+            "total_tokens": 1140
           }
         }
       },
       {
         "article": {
-          "id": "news_0_1763253115",
+          "id": "news_0_1763273397",
           "title": "Ex-Fed Governor Kugler Faced Ethics Probe Before She Resigned - Bloomberg.com",
-          "description": "Ex-Fed Governor Kugler Faced Ethics Probe Before She Resigned\u00a0\u00a0Bloomberg.comFormer Fed Official Violated Trading Rules, Disclosures Show\u00a0\u00a0The New York TimesFormer Fed Gov. Adriana Kugler violated trading rules while at central bank: ethics report\u00a0\u00a0CNBCFormer Fed governor violated central bank\u2019s trading rules, new disclosures show\u00a0\u00a0The Washington PostKey Fed official was under investigation over stock trades, filing shows\u00a0\u00a0Axios",
+          "description": "Ex-Fed Governor Kugler Faced Ethics Probe Before She Resigned\u00a0\u00a0Bloomberg.comFormer Fed Official Violated Trading Rules, Disclosures Show\u00a0\u00a0The New York TimesFormer Fed Gov. Adriana Kugler violated trading rules while at central bank: ethics report\u00a0\u00a0CNBCFormer Fed governor violated central bank\u2019s trading rules, new disclosures show\u00a0\u00a0The Washington PostFormer Fed Governor Kugler's exit came amid forbidden trading activity\u00a0\u00a0Reuters",
           "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUXlnQ2otOVVTRktDbUZnOFZjazNlWWs0N1BMTGpQdGRXRDYybWdoWEFDMllzcFJ1SG13Y0lMSzEybFc2Mk9QTmlnUWotM3BCNFlqM3hpa0FSSWxpS01pbVZ4R3EtUTZVbjhwLWJwWjVzVkgwNlc3UTRhalRJcHdBaDc2UUhLZlFjRXN4N1ZvcWxOMW9RblVLLUthaWo1NzJVMFNyME1FYk40VU5vZTZydTNB?oc=5",
           "source": "Bloomberg.com",
-          "published": "Sat, 15 Nov 2025 19:37:41 GMT",
+          "published": "Sun, 16 Nov 2025 00:16:00 GMT",
           "topic": "BUSINESS",
-          "fetched_at": "2025-11-16T00:31:55.918058"
+          "fetched_at": "2025-11-16T06:09:57.271658"
         },
         "analysis": {
-          "summary": "Former US Federal Reserve Governor Adriana Kugler faced an ethics investigation before resigning due to alleged violations of trading rules and disclosure requirements. This raises questions about accountability and transparency within the Federal Reserve. The incident highlights potential conflicts of interest within the institution.",
+          "summary": "Former Federal Reserve Governor Adriana Kugler faced an ethics probe and resigned amid allegations of violating trading rules while serving at the central bank. This incident raises questions about the integrity of financial institutions and the oversight of their officials. The incident also highlights the importance of transparency in financial dealings.",
           "key_points": [
-            "Former Fed Governor Adriana Kugler faced an ethics probe due to alleged trading rule violations and disclosure issues.",
-            "The investigation was ongoing before Kugler's resignation, indicating potential consequences for her actions.",
-            "The incident raises concerns about accountability and transparency within the Federal Reserve.",
-            "Trading rule violations and disclosure issues can create conflicts of interest and undermine trust in the institution.",
-            "The Federal Reserve's handling of the situation may impact public perception and the institution's credibility."
+            "Ex-Fed Governor Adriana Kugler faced an ethics probe and resigned from her position.",
+            "Kugler allegedly violated trading rules while serving at the central bank.",
+            "The incident raises concerns about the integrity of financial institutions and the oversight of their officials.",
+            "The matter is a reminder of the importance of transparency in financial dealings."
+          ],
+          "sentiment": "negative",
+          "confidence": "high",
+          "bias_check": [
+            "Potential bias towards negative reporting: The article focuses on the alleged misconduct of the ex-Fed Governor, which may create a negative narrative.",
+            "Potential bias towards financial institutions: The article may be seen as critical of the financial institutions, which could be perceived as biased against the industry."
+          ],
+          "missing_context": [
+            "More information about Kugler's trading activities and the specific rules she allegedly violated would be helpful to understand the context.",
+            "The article does not mention whether Kugler's actions were malicious or whether she was simply unaware of the rules.",
+            "The article does not discuss the impact of this incident on the Fed's reputation or the broader financial market."
+          ],
+          "implications": [
+            "The incident highlights the importance of strict oversight and transparency in financial institutions.",
+            "The Fed's handling of the situation may have implications for its credibility and trustworthiness.",
+            "The incident may lead to calls for stricter regulations and increased oversight of financial institutions."
+          ],
+          "model": "Llama 3.1 8B",
+          "model_id": "meta/meta-llama-3.1-8b-instruct",
+          "analyzed_at": "2025-11-16T06:11:02.756798",
+          "token_usage": {
+            "prompt_tokens": 347,
+            "completion_tokens": 726,
+            "total_tokens": 1073
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_1_1763273397",
+          "title": "JPMorgan doesn\u2019t want to pay Frank founder Charlie Javice\u2019s legal bills - TechCrunch",
+          "description": "JPMorgan doesn\u2019t want to pay Frank founder Charlie Javice\u2019s legal bills\u00a0\u00a0TechCrunchJPMorgan Had to Pay for Charlie Javice\u2019s Legal Fees \u2014 and Her Restaurant Bills\u00a0\u00a0The New York TimesExplosive allegations claim fraudster billed JPMorgan for cellulite butter, luxe items as part of $74M legal tab\u00a0\u00a0New York PostFrank founder Javice appeals US fraud conviction, prison sentence\u00a0\u00a0MLexWhen prosecutors accused Charlie Javice of fraud, JPMorgan was forced to pay for her defense. So she spent money on luxur",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPSDU1S2N3TV9qNTB5WE1TZGlmcW9TV0Z2d21BMjZ0bkVEZjl1bXRuNS1UcE9aUjhTaE1Vdld2LXRmQXVLLWJ1Wkg4M2tza1AwMlJOVnVxT3p3cEkyX2o4bEFPVjFlbnlZNVRaWFlSd3J6ZXc3emR6bG5aV29zRkhzVG9ucUd3aEJtWWJwNDd0UEhlMXpoWVk4U2FzREVzR2Y3S2JUVGFVMA?oc=5",
+          "source": "TechCrunch",
+          "published": "Sat, 15 Nov 2025 22:01:49 GMT",
+          "topic": "BUSINESS",
+          "fetched_at": "2025-11-16T06:09:57.271699"
+        },
+        "analysis": {
+          "summary": "JPMorgan was forced to pay for Charlie Javice's legal fees, which included expenses on luxury items, and now JPMorgan is disputing these charges. This raises questions about corporate responsibility and the treatment of employees. The case highlights the complexities of white-collar crime and the consequences of fraud.",
+          "key_points": [
+            "JPMorgan was required to pay for Charlie Javice's legal defense due to a clause in her contract.",
+            "The legal fees included expenses on luxury items, which JPMorgan is disputing.",
+            "Charlie Javice, the founder of Frank, was convicted of fraud and sentenced to prison.",
+            "The case raises questions about corporate responsibility and the treatment of employees."
           ],
           "sentiment": "negative",
           "confidence": "medium",
           "bias_check": [
-            "Potential biases in the story: The articles primarily rely on official reports and filings, which may reflect a more formal and structured narrative. However, the lack of quotes or statements from Adriana Kugler or other relevant parties might create an incomplete picture.",
-            "The reports might have a slightly negative tone, as they highlight the alleged violations and the ongoing investigation."
+            "Potential bias: JPMorgan's interests may be prioritized in the reporting, as it is the main player in the story.",
+            "Potential bias: The article may focus on the negative aspects of JPMorgan's actions, without providing a balanced view."
           ],
           "missing_context": [
-            "The motivations behind Adriana Kugler's actions, such as potential personal financial gain or external pressures, are not explored in the articles.",
-            "The broader implications of the incident on the Federal Reserve's decision-making processes and governance structures are not fully addressed.",
-            "The comparisons to other similar incidents within the Federal Reserve or other financial institutions might be useful for a more comprehensive understanding of the situation."
+            "More information about Charlie Javice's background and motivations could provide context for her actions.",
+            "A deeper analysis of the legal implications of JPMorgan's contract with Charlie Javice could provide more clarity on the situation."
           ],
           "implications": [
-            "The incident may lead to changes in the Federal Reserve's policies or procedures regarding trading rules and disclosure requirements.",
-            "The public's trust in the institution might be affected by the handling of the situation, potentially influencing its reputation and credibility.",
-            "The incident could serve as a catalyst for increased scrutiny and reforms within the Federal Reserve and other financial institutions."
+            "This case highlights the importance of clear contracts and the consequences of white-collar crime.",
+            "It also raises questions about corporate responsibility and the treatment of employees in high-stakes situations."
           ],
           "model": "Llama 3.1 8B",
           "model_id": "meta/meta-llama-3.1-8b-instruct",
-          "analyzed_at": "2025-11-16T00:33:03.494275",
+          "analyzed_at": "2025-11-16T06:11:13.580564",
           "token_usage": {
-            "prompt_tokens": 347,
-            "completion_tokens": 848,
-            "total_tokens": 1195
+            "prompt_tokens": 380,
+            "completion_tokens": 747,
+            "total_tokens": 1127
           }
         }
       },
       {
         "article": {
-          "id": "news_1_1763253115",
-          "title": "Trump buys at least $82 million in bonds since late August, disclosures show - Reuters",
-          "description": "Trump buys at least $82 million in bonds since late August, disclosures show\u00a0\u00a0ReutersView Full Coverage on Google News",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQSEQtV3JacmUzbzYxTF84ekhidFUtUHZscU52cHZld0cyX3UtNjBudERNYk9IZkRSNl9RUDBCSWRCUDFlU0ZOZXA0VERnN0prRXlxOU1LdmJ0QXlkNlNZLTJqNnVFd04zem9ORkEzSnp4YXBhT2NBbmV2UzRKd1ZSOVhubHVYQnoxbjF5YWtKWUZXY0lhMUhQMk9obHJYUEUwVTVpOWtwU1llakpzTTA3OXZaeEhPWXAxX3d3Qy13?oc=5",
-          "source": "Reuters",
-          "published": "Sat, 15 Nov 2025 22:25:05 GMT",
-          "topic": "BUSINESS",
-          "fetched_at": "2025-11-16T00:31:55.918073"
-        },
-        "analysis": {
-          "summary": "From my analysis, it appears that former US President Donald Trump has purchased at least $82 million in bonds since late August, as disclosed in recent reports. This development raises questions about Trump's financial dealings and potential conflicts of interest. The exact motivations behind this purchase are unclear.",
-          "key_points": [
-            "Trump's bond purchases total at least $82 million since late August, according to disclosures.",
-            "The exact nature and purpose of these bond purchases are not fully explained in the report.",
-            "This development may be seen as an attempt by Trump to diversify his assets or generate income.",
-            "The purchase raises concerns about potential conflicts of interest, given Trump's history of business dealings."
-          ],
-          "sentiment": "Neutral",
-          "confidence": "Medium",
-          "bias_check": [
-            "The report may be seen as neutral, but it could be interpreted as slightly critical of Trump's actions.",
-            "The language used emphasizes the potential 'conflicts of interest' and 'questions' about Trump's financial dealings, which may hint at a subtle bias."
-          ],
-          "missing_context": [
-            "More information about the type of bonds purchased and the specific financial institutions involved would provide a clearer understanding of the situation.",
-            "Context about Trump's overall financial situation and any potential motivations for this purchase would be helpful.",
-            "Comparison to other politicians or business leaders who have made similar financial moves would provide a more nuanced perspective."
-          ],
-          "implications": [
-            "This story may contribute to ongoing scrutiny of Trump's financial dealings and potential conflicts of interest.",
-            "The purchase could have implications for Trump's reputation and public perception.",
-            "This development may also prompt further investigation into Trump's business dealings and their potential impact on his post-presidential life."
-          ],
-          "model": "Llama 3.1 8B",
-          "model_id": "meta/meta-llama-3.1-8b-instruct",
-          "analyzed_at": "2025-11-16T00:33:13.616919",
-          "token_usage": {
-            "prompt_tokens": 276,
-            "completion_tokens": 596,
-            "total_tokens": 872
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_2_1763253115",
+          "id": "news_2_1763273397",
           "title": "Tariffs lower inflation by slamming employment and economic activity, Fed researchers say - Fortune",
-          "description": "Tariffs lower inflation by slamming employment and economic activity, Fed researchers say\u00a0\u00a0FortuneWhat Is a Tariff Shock? Insights from 150 years of Tariff Policy\u00a0\u00a0Federal Reserve Bank of San Francisco'Demand shock' caused by tariffs can lower inflation: Fed researchers\u00a0\u00a0Seeking Alpha",
+          "description": "Tariffs lower inflation by slamming employment and economic activity, Fed researchers say\u00a0\u00a0FortuneWhat Is a Tariff Shock? Insights from 150 years of Tariff Policy\u00a0\u00a0Federal Reserve Bank of San FranciscoTariffs Mask Falling Inflation: Business Leaders' Guide To Fed Policy\u00a0\u00a0Forbes'Demand shock' caused by tariffs can lower inflation: Fed researchers\u00a0\u00a0Seeking Alpha",
           "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQzBDSS1kYnNqSlNHZldVS1dIc293QmFxU1g2WHU1LU9kZHhYVVVJMTBKMWdUaDBfcUNyMjQzNFpKZTFudzV5TV9kenJ2UzNtaVZJdnE4MEhhRDNzTkZNSmM1eTN2bmE1alpkM0E1UmpCMlo4dzlrRGx2UlZlMzdFV3REeTBsaXJmVDJrVlp2VGlxMldsUWZ0bQ?oc=5",
           "source": "Fortune",
           "published": "Sat, 15 Nov 2025 20:54:00 GMT",
           "topic": "BUSINESS",
-          "fetched_at": "2025-11-16T00:31:55.918087"
+          "fetched_at": "2025-11-16T06:09:57.271717"
         },
         "analysis": {
-          "summary": "From my perspective, the article suggests that tariffs can have a contradictory effect on the economy by lowering inflation through a 'demand shock,' but at the cost of employment and economic activity. This finding challenges traditional economic wisdom that tariffs increase prices. The researchers at the Federal Reserve Bank of San Francisco explored 150 years of tariff policy to reach this conclusion.",
+          "summary": "A recent study by the Federal Reserve Bank of San Francisco suggests that tariffs can have a surprising effect on inflation - by reducing it, albeit at the cost of higher unemployment and economic activity. This counterintuitive outcome is attributed to the 'demand shock' caused by tariffs, which can lead to lower inflation. However, this finding should be viewed with caution and considered in the context of the broader economic landscape.",
           "key_points": [
-            "Tariffs can lower inflation by causing a 'demand shock' due to reduced consumer spending.",
-            "This effect is achieved at the cost of employment and economic activity.",
-            "The study analyzed 150 years of tariff policy to draw this conclusion.",
-            "The findings challenge traditional economic wisdom that tariffs increase prices."
+            "Tariffs can reduce inflation through the 'demand shock' they cause, according to Fed researchers.",
+            "This outcome is attributed to the decrease in aggregate demand resulting from tariffs, which can lead to lower prices.",
+            "However, the same tariffs are found to increase unemployment and reduce economic activity.",
+            "The study's findings are based on 150 years of tariff policy data.",
+            "The results suggest that tariffs may be used as a tool to combat inflation, but at the cost of other economic indicators."
+          ],
+          "sentiment": "neutral",
+          "confidence": "medium",
+          "bias_check": [
+            "Potential bias towards presenting a balanced view of the economic implications of tariffs.",
+            "Possible bias towards favoring the Fed's perspective, given the source of the study.",
+            "Risk of oversimplifying the complex relationships between tariffs, inflation, and economic activity."
+          ],
+          "missing_context": [
+            "More information on the specific industries and sectors affected by the tariffs.",
+            "Context on the potential long-term effects of tariffs on economic growth and stability.",
+            "Perspectives from international trade experts and economists on the use of tariffs as a policy tool."
+          ],
+          "implications": [
+            "Broader implications for economic policy, as the study suggests that tariffs can be used to combat inflation.",
+            "Potential implications for trade agreements and international relations, as countries may use tariffs as a means of economic coercion.",
+            "Implications for businesses and industries, as the tariffs could lead to higher prices and reduced economic activity."
+          ],
+          "model": "Llama 3.1 8B",
+          "model_id": "meta/meta-llama-3.1-8b-instruct",
+          "analyzed_at": "2025-11-16T06:11:18.573638",
+          "token_usage": {
+            "prompt_tokens": 329,
+            "completion_tokens": 786,
+            "total_tokens": 1115
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_3_1763273397",
+          "title": "Disney, YouTube TV reach distribution deal after two-week blackout - Axios",
+          "description": "Disney, YouTube TV reach distribution deal after two-week blackout\u00a0\u00a0AxiosDisney reaches new deal with YouTube TV, ending blackout\u00a0\u00a0ESPNGoogle and Disney reach deal to restore ESPN, ABC to YouTube TV\u00a0\u00a0CNBCYouTube TV, Disney dispute ends: Agreement reached to carry ESPN, ABC, others\u00a0\u00a0USA TodayYouTube TV Subscribers Can Get a $20 Credit During the Disney Blackout. Here's How to Claim Yours\u00a0\u00a0People.com",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ta08xT3FHRFRSTGpObVc2NkdfeGFXeVJ2Qm9TaUppd2Q3RVUzd1NwMUluM3d4bUxvWDI2ZDZvd2hyUmYtZVV3R3AxbUdRbmpOWTUycW1pQllvdmtlZWhrc29oNHhkdXU1NTM4WGNB?oc=5",
+          "source": "Axios",
+          "published": "Sat, 15 Nov 2025 17:04:39 GMT",
+          "topic": "BUSINESS",
+          "fetched_at": "2025-11-16T06:09:57.271735"
+        },
+        "analysis": {
+          "summary": "From my perspective, Disney and YouTube TV have reached a new distribution deal, ending a two-week blackout of ESPN, ABC, and other Disney-owned channels. This deal is a win for both parties, with YouTube TV subscribers gaining access to popular content and Disney securing a revenue stream. The agreement also includes a $20 credit offer for affected subscribers.",
+          "key_points": [
+            "Disney and YouTube TV have reached a new distribution deal after a two-week blackout.",
+            "The deal includes the return of ESPN, ABC, and other Disney-owned channels to YouTube TV.",
+            "YouTube TV subscribers will receive a $20 credit as part of the agreement.",
+            "The deal is a win for both parties, with YouTube TV gaining access to popular content and Disney securing revenue.",
+            "The agreement highlights the importance of distribution deals in the streaming era."
+          ],
+          "sentiment": "Positive",
+          "confidence": "Medium",
+          "bias_check": [
+            "The article may be biased towards the entertainment industry, as it primarily focuses on the deal between Disney and YouTube TV.",
+            "The article may also be influenced by a pro-consumer perspective, highlighting the benefits of the deal for YouTube TV subscribers."
+          ],
+          "missing_context": [
+            "More information on the negotiations and bargaining process between Disney and YouTube TV could provide a deeper understanding of the deal.",
+            "A broader analysis of the impact of this deal on the streaming industry as a whole could provide context for the significance of this agreement."
+          ],
+          "implications": [
+            "The deal between Disney and YouTube TV sets a precedent for future distribution agreements in the streaming era.",
+            "The success of this deal may lead to increased competition for streaming services, potentially driving down prices and improving content offerings.",
+            "The $20 credit offer for affected subscribers could be a one-time solution, but it may also set a precedent for future compensation for subscribers affected by similar disputes."
+          ],
+          "model": "Llama 3.1 8B",
+          "model_id": "meta/meta-llama-3.1-8b-instruct",
+          "analyzed_at": "2025-11-16T06:11:22.991883",
+          "token_usage": {
+            "prompt_tokens": 340,
+            "completion_tokens": 646,
+            "total_tokens": 986
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_4_1763273397",
+          "title": "Nearly $1 Billion Winning Mega Millions Ticket Sold In Georgia\u2014Here\u2019s What The Winner Takes Home After Taxes - Forbes",
+          "description": "Nearly $1 Billion Winning Mega Millions Ticket Sold In Georgia\u2014Here\u2019s What The Winner Takes Home After Taxes\u00a0\u00a0ForbesSingle ticket in Georgia claims $980 million Mega Millions jackpot\u00a0\u00a0CNNMega Millions numbers for Friday, November 14, 2025: Ticket sold in Georgia wins jackpot\u00a0\u00a0Detroit Free PressNJ lottery players just miss $980M Mega Millions jackpot. Here's where, how much they won\u00a0\u00a0Bergen RecordSingle ticket sold in Georgia captures $980M Mega Millions jackpot\u00a0\u00a0Fox Business",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQeEtzLUdiT2M4LVpzR1BseFZIcC1YWmp1UGY0U3BMRllWNVJNeGU5VkpGbUVkSUYzR0FTdjVyUFZ0M1phS1pRM2dWMHFnNHRLRWYtZHdXX0w1bXhxTjI2TmdSazE2bEJlZ1pMdkhfbnpidTVLMGI0Q0tMS2x5WmxFTnU0QVh6Zmk4bDlpTzNPNjBEd3Vua3FDaWVLRXhKSnJvaXM0ZnlmNDVkS0dPdTl0TktGaENOUDVRcUQybldFNldLMHVHTURZcHRHb3AyT0VDcjdiWkhfRjFTczVnWWExc0JtcHNHMmlZUlpDTg?oc=5",
+          "source": "Forbes",
+          "published": "Sat, 15 Nov 2025 15:33:58 GMT",
+          "topic": "BUSINESS",
+          "fetched_at": "2025-11-16T06:09:57.271754"
+        },
+        "analysis": {
+          "summary": "A single ticket sold in Georgia has won the nearly $1 billion Mega Millions jackpot, but after taxes, the winner will take home around $700 million. This windfall has significant implications for the winner's financial future. However, the winner's anonymity might mask individual circumstances.",
+          "key_points": [
+            "A single ticket in Georgia won the $980 million Mega Millions jackpot.",
+            "After taxes, the winner will receive approximately $700 million.",
+            "The winner's anonymity might limit personal details and individual perspectives.",
+            "The winner's financial future will likely be significantly impacted by this windfall."
           ],
           "sentiment": "neutral",
           "confidence": "high",
           "bias_check": [
-            "Potential bias towards the views of the Federal Reserve Bank of San Francisco and their researchers.",
-            "Possible omission of alternative perspectives that might dispute the study's findings."
+            "Potential bias towards sensationalizing the story: The article focuses on the massive jackpot and winner's anonymity, potentially creating a narrative centered around the 'lucky winner' rather than the broader implications of the story.",
+            "Potential bias towards overlooking the tax implications: The article primarily focuses on the after-tax amount, but might not delve as deeply into the tax implications for the winner, which could be a more nuanced discussion."
           ],
           "missing_context": [
-            "More information on the specific tariffs examined in the study.",
-            "Data on the long-term economic and social impacts of the demand shock caused by tariffs.",
-            "Alternative explanations for the observed effects of tariffs on inflation and employment."
+            "More in-depth analysis of the tax implications for the winner, including potential tax liabilities and strategies.",
+            "Discussion of the winner's financial situation and planning before the windfall.",
+            "Insights from financial advisors or experts on how to manage such a large sum of money responsibly."
           ],
           "implications": [
-            "The findings could influence policymakers to reassess their stance on tariffs and trade policies.",
-            "The study's conclusions might be used to justify or critique future trade agreements and economic policies.",
-            "A deeper understanding of the complex relationships between tariffs, inflation, and employment could inform more nuanced economic decision-making."
+            "The story highlights the potential for life-changing financial events and the importance of responsible financial planning.",
+            "It underscores the complexities and nuances of tax laws and their impact on large windfalls.",
+            "The story may inspire others to reassess their own financial situations and prioritize saving and responsible spending."
           ],
           "model": "Llama 3.1 8B",
           "model_id": "meta/meta-llama-3.1-8b-instruct",
-          "analyzed_at": "2025-11-16T00:33:17.830749",
+          "analyzed_at": "2025-11-16T06:11:27.542340",
           "token_usage": {
-            "prompt_tokens": 311,
-            "completion_tokens": 688,
-            "total_tokens": 999
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_3_1763253115",
-          "title": "AI Debt Explosion Has Traders Searching for Cover: Credit Weekly - Yahoo Finance",
-          "description": "AI Debt Explosion Has Traders Searching for Cover: Credit Weekly\u00a0\u00a0Yahoo FinanceView Full Coverage on Google News",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNbHZNdk5YSXpuOHMzQlNQN0I1U2RJM0djUFdpc0MwTklaUEtHaVB4TkJCVDhiRjNidW93Ungyc3VVSXJVNXVjdTR5TUNuSW5kMzBDcG5MVkxlUDZaTDB0TTczbUtpRFU1U2lZRXRQSFJING91a29KRlpwWTdBMzd6bjA1N29RT0s5?oc=5",
-          "source": "Yahoo Finance",
-          "published": "Sat, 15 Nov 2025 17:56:30 GMT",
-          "topic": "BUSINESS",
-          "fetched_at": "2025-11-16T00:31:55.918095"
-        },
-        "analysis": {
-          "summary": "The article reports on the growing concern of 'AI debt' among traders, referring to the potential risks and consequences of relying heavily on artificial intelligence in financial markets. The article suggests that traders are seeking ways to mitigate these risks, but the long-term implications are unknown. This trend has the potential to disrupt the financial sector.",
-          "key_points": [
-            {
-              "point": "Traders are concerned about the 'AI debt' explosion, which refers to the risks of relying heavily on AI in financial markets.",
-              "insight": "This concern might be driven by the lack of transparency in AI decision-making processes, making it difficult for traders to understand and manage the associated risks."
-            },
-            {
-              "point": "Traders are searching for ways to cover their positions and mitigate potential losses.",
-              "insight": "This reaction might be a sign of a market correction, where traders adjust their strategies to adapt to the changing landscape of AI-driven trading."
-            },
-            {
-              "point": "The article highlights the uncertainty surrounding the long-term implications of AI debt.",
-              "insight": "This uncertainty underscores the need for further research and regulation in the area of AI-driven financial markets to prevent potential destabilization."
-            },
-            {
-              "point": "The article suggests that AI debt might disrupt the financial sector.",
-              "insight": "This disruption could have far-reaching consequences, including the need for new regulatory frameworks, the development of new risk management strategies, and the potential for significant market volatility."
-            }
-          ],
-          "sentiment": "Negative",
-          "confidence": "Medium",
-          "bias_check": [
-            {
-              "bias": "Uncritical use of 'AI debt' terminology, which might be misleading or sensationalized.",
-              "description": "The article uses the term 'AI debt explosion' without providing a clear definition or explanation, which could lead to confusion and emotional reactions rather than informed discussion."
-            },
-            {
-              "bias": "Overemphasis on trader concerns rather than broader market implications.",
-              "description": "The article focuses on the concerns of traders, but it is essential to consider the potential impact on the financial sector as a whole, including the effects on investors, consumers, and the overall economy."
-            }
-          ],
-          "missing_context": [
-            {
-              "context": "The role of regulatory bodies in addressing AI-driven market risks.",
-              "description": "The article does not mention the involvement of regulatory agencies in mitigating the risks associated with AI debt, which is a critical aspect of ensuring market stability."
-            },
-            {
-              "context": "The potential benefits of AI-driven trading, such as increased efficiency and accuracy.",
-              "description": "The article focuses solely on the risks and does not consider the potential advantages of AI-driven trading, which could be an important counterbalance to the concerns raised."
-            }
-          ],
-          "implications": [
-            {
-              "implication": "Potential market volatility and instability.",
-              "description": "The article suggests that AI debt might lead to significant market fluctuations, which could have far-reaching consequences for investors and the broader economy."
-            },
-            {
-              "implication": "Need for new regulatory frameworks and risk management strategies.",
-              "description": "The article implies that the financial sector will require new regulatory frameworks and risk management strategies to address the challenges posed by AI debt."
-            }
-          ],
-          "model": "Llama 3.1 8B",
-          "model_id": "meta/meta-llama-3.1-8b-instruct",
-          "analyzed_at": "2025-11-16T00:33:23.573008",
-          "token_usage": {
-            "prompt_tokens": 273,
-            "completion_tokens": 1000,
-            "total_tokens": 1273
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_4_1763253115",
-          "title": "Disney and YouTube TV reach deal to end blackout - TechCrunch",
-          "description": "Disney and YouTube TV reach deal to end blackout\u00a0\u00a0TechCrunchDisney reaches new deal with YouTube TV, ending blackout\u00a0\u00a0ESPNGoogle and Disney reach deal to restore ESPN, ABC to YouTube TV\u00a0\u00a0CNBCYouTube TV, Disney dispute ends: Agreement reached to carry ESPN, ABC, others\u00a0\u00a0USA TodayDisney and YouTube TV reach deal ending weeks of disruption\u00a0\u00a0Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxObFNLVEZMRDVzNHlkYS0wTWNMOXM0ZHdnZXlFTUU0OE82Y2NXMnpxLWpMTWwxeDdub1FqQkhwak5qelMtTGNYU3JpREMyaHZLS2xKZnhwUVE0U2YyRTg4ZjRlTmJuQXRhSEhwSDZ1SDFIeWRvVDBaclpITGJHQTQ5SXd4NHNGTlZrcFRB?oc=5",
-          "source": "TechCrunch",
-          "published": "Sat, 15 Nov 2025 17:38:28 GMT",
-          "topic": "BUSINESS",
-          "fetched_at": "2025-11-16T00:31:55.918111"
-        },
-        "analysis": {
-          "summary": "Disney and YouTube TV have reached a deal to end a blackout that has been affecting ESPN and other Disney-owned channels. The dispute was resolved after weeks of negotiations, and the channels will now be available to YouTube TV subscribers. This deal marks a significant resolution for both parties and ensures continued access to popular content.",
-          "key_points": [
-            "Disney and YouTube TV have reached a deal to end the blackout",
-            "The dispute was over carriage fees and distribution rights",
-            "The deal ensures continued access to ESPN, ABC, and other Disney-owned channels on YouTube TV",
-            "The resolution comes after weeks of negotiations between the two parties"
-          ],
-          "sentiment": "positive",
-          "confidence": "high",
-          "bias_check": [
-            "Potential bias towards the entertainment industry and its stakeholders",
-            "Limited representation of consumer perspectives and potential frustrations with the blackout"
-          ],
-          "missing_context": [
-            "More in-depth analysis of the carriage fees and distribution rights",
-            "Perspectives from consumers who were affected by the blackout",
-            "Information on the potential impact of this deal on future negotiations between Disney and other streaming services"
-          ],
-          "implications": [
-            "The resolution of this dispute may set a precedent for future negotiations between Disney and other streaming services",
-            "The deal may have implications for the broader entertainment industry, including potential changes to carriage fees and distribution rights",
-            "The continued availability of Disney-owned channels on YouTube TV may impact the platform's competitiveness in the streaming market"
-          ],
-          "model": "Llama 3.1 8B",
-          "model_id": "meta/meta-llama-3.1-8b-instruct",
-          "analyzed_at": "2025-11-16T00:33:28.213284",
-          "token_usage": {
-            "prompt_tokens": 328,
-            "completion_tokens": 758,
-            "total_tokens": 1086
+            "prompt_tokens": 364,
+            "completion_tokens": 760,
+            "total_tokens": 1124
           }
         }
       }
@@ -703,19 +702,19 @@
     "articles_analyzed": 15
   },
   "costs": {
-    "execution_time": 78.79061102867126,
-    "execution_minutes": 1.3131768504778545,
-    "github_actions": 0.010505414803822836,
+    "execution_time": 75.92304921150208,
+    "execution_minutes": 1.2653841535250345,
+    "github_actions": 0.010123073228200276,
     "openai": {
-      "input": 0.000741,
-      "output": 0.0071064,
-      "total": 0.0078474
+      "input": 0.0007764,
+      "output": 0.0067469999999999995,
+      "total": 0.0075233999999999995
     },
-    "total": 0.018352814803822837,
+    "total": 0.017646473228200274,
     "token_usage": {
-      "prompt_tokens": 4940,
-      "completion_tokens": 11844,
-      "total_tokens": 16784
+      "prompt_tokens": 5176,
+      "completion_tokens": 11245,
+      "total_tokens": 16421
     }
   }
 }
