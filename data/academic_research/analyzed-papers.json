@@ -1,18 +1,348 @@
 {
   "agent": "agent-b-paper-analyzer",
-  "timestamp": "2025-11-16T09:03:06.260647",
+  "timestamp": "2025-11-17T09:05:48.413437",
   "status": "completed",
   "input_from": "agent-a-paper-fetcher",
   "data": {
-    "analyzed_papers": [],
+    "analyzed_papers": [
+      {
+        "id": "2511.11571v1",
+        "title": "Optimizing Mixture of Block Attention",
+        "authors": [
+          "Guangxuan Xiao",
+          "Junxian Guo",
+          "Kasra Mazaheri",
+          "Song Han"
+        ],
+        "abstract": "Mixture of Block Attention (MoBA) (Lu et al., 2025) is a promising building block for efficiently processing long contexts in LLMs by enabling queries to sparsely attend to a small subset of key-value blocks, drastically reducing computational cost. However, the design principles governing MoBA's performance are poorly understood, and it lacks an efficient GPU implementation, hindering its practical adoption. In this paper, we first develop a statistical model to analyze MoBA's underlying mechan...",
+        "published": "2025-11-14T18:59:59Z",
+        "updated": "2025-11-14T18:59:59Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.11571v1",
+        "abs_url": "https://arxiv.org/abs/2511.11571v1",
+        "categories": [
+          "cs.LG",
+          "cs.CL"
+        ],
+        "primary_category": "cs.LG",
+        "analysis": {
+          "tldr": "This paper dives into optimizing a method called Mixture of Block Attention (MoBA), which helps large language models (LLMs) manage long texts more efficiently. The authors address some of the design mysteries behind MoBA and improve its implementation for practical use on GPUs.",
+          "eli5": "Imagine you're at a library looking for specific books in an enormous collection. Instead of searching through every single shelf, MoBA lets you quickly focus on just a few shelves that are likely to have what you need. This paper helps make that search method faster and easier to use on computers.",
+          "key_contributions": [
+            "Developed a statistical model to understand what makes MoBA work effectively.",
+            "Introduced improvements that make MoBA run efficiently on GPUs, which is crucial for practical applications.",
+            "Provided insights into the design principles that can guide future developments in attention mechanisms for AI."
+          ],
+          "why_care": "As AI becomes increasingly integrated into everyday applications\u2014from customer service chatbots to creative writing tools\u2014having efficient methods for processing large amounts of text can lead to faster, more responsive systems that better understand and interact with users.",
+          "accessibility": "Tech-Savvy",
+          "spicy_take": "Optimizing MoBA could revolutionize how we think about attention mechanisms in AI, making previously impractical applications feasible and opening the door to truly conversational AI.",
+          "reading_time_minutes": 7
+        }
+      },
+      {
+        "id": "2511.11569v1",
+        "title": "Private Frequency Estimation Via Residue Number Systems",
+        "authors": [
+          "H\u00e9ber H. Arcolezi"
+        ],
+        "abstract": "We present \\textsf{ModularSubsetSelection} (MSS), a new algorithm for locally differentially private (LDP) frequency estimation. Given a universe of size $k$ and $n$ users, our $\\varepsilon$-LDP mechanism encodes each input via a Residue Number System (RNS) over $\\ell$ pairwise-coprime moduli $m_0, \\ldots, m_{\\ell-1}$, and reports a randomly chosen index $j \\in [\\ell]$ along with the perturbed residue using the statistically optimal \\textsf{SubsetSelection}~(SS) (Wang et al. 2016). This design r...",
+        "published": "2025-11-14T18:58:41Z",
+        "updated": "2025-11-14T18:58:41Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.11569v1",
+        "abs_url": "https://arxiv.org/abs/2511.11569v1",
+        "categories": [
+          "cs.CR",
+          "cs.AI"
+        ],
+        "primary_category": "cs.CR",
+        "analysis": {
+          "tldr": "This paper introduces a new algorithm called ModularSubsetSelection (MSS) for privately estimating how often certain items are mentioned by users. It cleverly uses a mathematical system to ensure that the results keep individual data private while still being reliable.",
+          "eli5": "Imagine you have a group of friends who all have different favorite fruits. You want to find out which fruit is the most popular without asking each friend directly, to keep their choices secret. This paper presents a smart way to do that by using a special counting system that blends everyone's answers while hiding who said what.",
+          "key_contributions": [
+            "The introduction of the ModularSubsetSelection (MSS) algorithm specifically designed for locally differentially private frequency estimation.",
+            "Utilization of Residue Number Systems (RNS) with pairwise-coprime moduli to enhance privacy and accuracy.",
+            "A statistically optimal method for selecting subsets of data to report, improving the reliability of frequency estimates."
+          ],
+          "why_care": "In a world where data privacy is increasingly critical, especially with user-generated content, this research provides a framework that can help companies and organizations gather insights while respecting individual privacy. This could improve how we understand user behavior without compromising personal information.",
+          "accessibility": "Tech-Savvy",
+          "spicy_take": "This innovative approach could redefine how we think about user data privacy \u2013 it's like having your cake and eating it too when it comes to data collection.",
+          "reading_time_minutes": 5
+        }
+      },
+      {
+        "id": "2511.11564v1",
+        "title": "Estimating Total Effects in Bipartite Experiments with Spillovers and Partial Eligibility",
+        "authors": [
+          "Albert Tan",
+          "Mohsen Bayati",
+          "James Nordlund",
+          "Roman Istomin"
+        ],
+        "abstract": "We study randomized experiments in bipartite systems where only a subset of treatment-side units are eligible for assignment while all units continue to interact, generating interference. We formalize eligibility-constrained bipartite experiments and define estimands aligned with full deployment: the Primary Total Treatment Effect (PTTE) on eligible units and the Secondary Total Treatment Effect (STTE) on ineligible units. Under randomization within the eligible set, we give identification condi...",
+        "published": "2025-11-14T18:55:51Z",
+        "updated": "2025-11-14T18:55:51Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.11564v1",
+        "abs_url": "https://arxiv.org/abs/2511.11564v1",
+        "categories": [
+          "stat.ME",
+          "cs.LG",
+          "stat.ML"
+        ],
+        "primary_category": "stat.ME",
+        "analysis": {
+          "tldr": "This paper explores how to accurately measure the effects of treatments in experiments where not all participants are eligible, and some may influence each other despite not receiving the treatment. It introduces new ways to understand the impact of these treatments on both eligible and ineligible participants.",
+          "eli5": "Imagine a school where only some students can take a special class, but everyone, including those not in the class, interacts with each other. This research looks at how to measure the benefits of that class for both the students taking it and those who are not but are still affected by it. The authors develop new methods to figure out who benefits and how much, even when only a few are officially part of the class.",
+          "key_contributions": [
+            "Introduces new estimands (PTTE and STTE) for better understanding treatment effects in bipartite experiments.",
+            "Provides a formal framework for analyzing eligibility-constrained experiments that involve interference among participants.",
+            "Gives clear identification conditions to make sure researchers can accurately measure the treatment effects."
+          ],
+          "why_care": "Understanding treatment effects in bipartite systems is crucial for fields like public health and education, where interventions often have indirect effects on those not directly involved. This research can help policymakers design better programs that consider the wider impact on all stakeholders.",
+          "accessibility": "Tech-Savvy",
+          "spicy_take": "By redefining how we measure treatment effects, this paper could revolutionize how future experiments are designed, particularly in social sciences where interactions are common.",
+          "reading_time_minutes": 8
+        }
+      },
+      {
+        "id": "2511.11562v1",
+        "title": "PRBench: Large-Scale Expert Rubrics for Evaluating High-Stakes Professional Reasoning",
+        "authors": [
+          "Afra Feyza Aky\u00fcrek",
+          "Advait Gosai",
+          "Chen Bo Calvin Zhang",
+          "Vipul Gupta",
+          "Jaehwan Jeong"
+        ],
+        "abstract": "Frontier model progress is often measured by academic benchmarks, which offer a limited view of performance in real-world professional contexts. Existing evaluations often fail to assess open-ended, economically consequential tasks in high-stakes domains like Legal and Finance, where practical returns are paramount. To address this, we introduce Professional Reasoning Bench (PRBench), a realistic, open-ended, and difficult benchmark of real-world problems in Finance and Law. We open-source its 1...",
+        "published": "2025-11-14T18:55:12Z",
+        "updated": "2025-11-14T18:55:12Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.11562v1",
+        "abs_url": "https://arxiv.org/abs/2511.11562v1",
+        "categories": [
+          "cs.CL",
+          "cs.CY"
+        ],
+        "primary_category": "cs.CL",
+        "analysis": {
+          "tldr": "This paper presents PRBench, a new benchmark tool designed to evaluate how well AI models perform in high-stakes professional areas like Law and Finance. Unlike traditional benchmarks, PRBench focuses on real-world problems that require complex reasoning.",
+          "eli5": "Imagine trying to judge how good a robot lawyer or financial advisor is. Most tests only check simple tasks, but this paper introduces a new way to assess their skills on complicated, real-life problems. It's like giving them a final exam that really counts!",
+          "key_contributions": [
+            "PRBench is a large-scale set of tasks specifically crafted to evaluate AI performance in real-world legal and financial scenarios.",
+            "It fills a gap left by existing benchmarks that typically focus on simpler, controlled tasks rather than open-ended, practical challenges.",
+            "The research includes open-sourcing the dataset, allowing developers and researchers to use and improve upon it."
+          ],
+          "why_care": "Understanding how well AI can handle complex, real-world problems is essential as these technologies increasingly influence critical domains. The better we evaluate their abilities, the safer and more effective they can be in assisting professionals.",
+          "accessibility": "General Audience",
+          "spicy_take": "If we want AI to really help in high-stakes situations, we need to stop using outdated tests and start embracing more realistic benchmarks like PRBench.",
+          "reading_time_minutes": 5
+        }
+      },
+      {
+        "id": "2511.11560v1",
+        "title": "A Unified Convergence Analysis for Semi-Decentralized Learning: Sampled-to-Sampled vs. Sampled-to-All Communication",
+        "authors": [
+          "Angelo Rodio",
+          "Giovanni Neglia",
+          "Zheng Chen",
+          "Erik G. Larsson"
+        ],
+        "abstract": "In semi-decentralized federated learning, devices primarily rely on device-to-device communication but occasionally interact with a central server. Periodically, a sampled subset of devices uploads their local models to the server, which computes an aggregate model. The server can then either (i) share this aggregate model only with the sampled clients (sampled-to-sampled, S2S) or (ii) broadcast it to all clients (sampled-to-all, S2A). Despite their practical significance, a rigorous theoretical...",
+        "published": "2025-11-14T18:53:37Z",
+        "updated": "2025-11-14T18:53:37Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.11560v1",
+        "abs_url": "https://arxiv.org/abs/2511.11560v1",
+        "categories": [
+          "cs.LG",
+          "cs.AI",
+          "cs.DC"
+        ],
+        "primary_category": "cs.LG",
+        "analysis": {
+          "tldr": "This paper explores how devices in a semi-decentralized learning system communicate with one another and a central server, comparing two methods of sharing updates. The authors rigorously analyze these approaches to determine which is more effective for learning performance.",
+          "eli5": "Imagine a group of friends working together on a project. They usually discuss their ideas among themselves but sometimes ask a teacher for feedback. This paper looks at two ways the teacher can help: either by giving feedback only to those who asked or by sharing notes with everyone. The researchers want to see which way helps the group learn better.",
+          "key_contributions": [
+            "The paper provides a unified theoretical framework for analyzing the convergence of semi-decentralized learning with both sampled-to-sampled and sampled-to-all communication methods.",
+            "It offers new insights into the efficiency of learning algorithms depending on the communication strategy employed.",
+            "The results can help optimize federated learning systems in practical scenarios, making them more effective and faster."
+          ],
+          "why_care": "As semi-decentralized learning becomes more prevalent in industries like mobile technology and IoT, understanding how devices communicate can lead to more efficient systems. This could enhance everything from recommendation algorithms to real-time data processing, impacting everyday technology use.",
+          "accessibility": "Tech-Savvy",
+          "spicy_take": "The optimal communication strategy could redefine how we think about decentralized learning, making S2A the go-to approach if we want maximum learning efficiency.",
+          "reading_time_minutes": 7
+        }
+      },
+      {
+        "id": "2511.11558v1",
+        "title": "Human-AI collaborative autonomous synthesis with pulsed laser deposition for remote epitaxy",
+        "authors": [
+          "Asraful Haque",
+          "Daniel T. Yimam",
+          "Jawad Chowdhury",
+          "Ralph Bulanadi",
+          "Ivan Vlassiouk"
+        ],
+        "abstract": "Autonomous laboratories typically rely on data-driven decision-making, occasionally with human-in-the-loop oversight to inject domain expertise. Fully leveraging AI agents, however, requires tightly coupled, collaborative workflows spanning hypothesis generation, experimental planning, execution, and interpretation. To address this, we develop and deploy a human-AI collaborative (HAIC) workflow that integrates large language models for hypothesis generation and analysis, with collaborative polic...",
+        "published": "2025-11-14T18:48:52Z",
+        "updated": "2025-11-14T18:48:52Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.11558v1",
+        "abs_url": "https://arxiv.org/abs/2511.11558v1",
+        "categories": [
+          "cond-mat.mtrl-sci",
+          "cs.AI"
+        ],
+        "primary_category": "cond-mat.mtrl-sci",
+        "analysis": {
+          "tldr": "This paper introduces a novel method for integrating human expertise with AI to automate complex scientific processes, particularly in the field of material synthesis using pulsed laser deposition. The focus is on creating a collaborative workflow that enhances the efficiency and effectiveness of research.",
+          "eli5": "Imagine having a super-smart assistant that not only helps you come up with ideas but also plans and carries out experiments in a lab. This paper talks about how scientists teamed up with AI to make this process smoother and more efficient, especially when creating new materials.",
+          "key_contributions": [
+            "The development of a human-AI collaborative workflow that enhances decision-making in autonomous laboratories.",
+            "Integration of large language models to assist in hypothesis generation and data analysis.",
+            "Demonstration of improved experimental planning and execution through collaborative policies."
+          ],
+          "why_care": "This research could revolutionize how materials are developed, speeding up innovation in various fields like electronics, energy, and medicine. It shows that harnessing AI can lead to smarter and faster scientific discoveries, which can benefit industries and society at large.",
+          "accessibility": "Tech-Savvy",
+          "spicy_take": "As AI continues to evolve, we may not just be working alongside machines; we might rely on them to be co-creators in scientific discovery.",
+          "reading_time_minutes": 5
+        }
+      },
+      {
+        "id": "2511.11553v1",
+        "title": "Multistability of Self-Attention Dynamics in Transformers",
+        "authors": [
+          "Claudio Altafini"
+        ],
+        "abstract": "In machine learning, a self-attention dynamics is a continuous-time multiagent-like model of the attention mechanisms of transformers. In this paper we show that such dynamics is related to a multiagent version of the Oja flow, a dynamical system that computes the principal eigenvector of a matrix corresponding for transformers to the value matrix. We classify the equilibria of the ``single-head'' self-attention system into four classes: consensus, bipartite consensus, clustering and polygonal e...",
+        "published": "2025-11-14T18:45:22Z",
+        "updated": "2025-11-14T18:45:22Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.11553v1",
+        "abs_url": "https://arxiv.org/abs/2511.11553v1",
+        "categories": [
+          "cs.LG",
+          "eess.SY",
+          "math.DS"
+        ],
+        "primary_category": "cs.LG",
+        "analysis": {
+          "tldr": "This paper explores how self-attention mechanisms in transformers can behave like a dynamic multi-agent system, classifying their various stable states. It connects this behavior to a mathematical framework, helping us understand how these models process information.",
+          "eli5": "Imagine a group of friends trying to agree on a restaurant to eat at, but they each have different preferences. This paper looks at how transformers, which are like those friends, can come to a decision through a process similar to them negotiating their choices. The author discovers that there are different ways they can agree \u2013 sometimes they all choose the same place, and other times they split into smaller groups or pick multiple places.",
+          "key_contributions": [
+            "Introduces a new perspective on self-attention dynamics by relating it to multi-agent systems.",
+            "Classifies the equilibrium states of self-attention into four distinct categories.",
+            "Links the self-attention dynamics to the Oja flow, providing a mathematical foundation for understanding transformers."
+          ],
+          "why_care": "Understanding the dynamics of self-attention in transformers can lead to better AI models that are more efficient and effective. This has real-world implications in areas like natural language processing, image recognition, and any field that uses AI to make decisions.",
+          "accessibility": "Tech-Savvy",
+          "spicy_take": "This paper could be a game-changer for how we design future AI models, moving away from one-size-fits-all approaches to more nuanced, dynamic systems.",
+          "reading_time_minutes": 8
+        }
+      },
+      {
+        "id": "2511.11552v1",
+        "title": "DocLens : A Tool-Augmented Multi-Agent Framework for Long Visual Document Understanding",
+        "authors": [
+          "Dawei Zhu",
+          "Rui Meng",
+          "Jiefeng Chen",
+          "Sujian Li",
+          "Tomas Pfister"
+        ],
+        "abstract": "Comprehending long visual documents, where information is distributed across extensive pages of text and visual elements, is a critical but challenging task for modern Vision-Language Models (VLMs). Existing approaches falter on a fundamental challenge: evidence localization. They struggle to retrieve relevant pages and overlook fine-grained details within visual elements, leading to limited performance and model hallucination. To address this, we propose DocLens, a tool-augmented multi-agent fr...",
+        "published": "2025-11-14T18:42:18Z",
+        "updated": "2025-11-14T18:42:18Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.11552v1",
+        "abs_url": "https://arxiv.org/abs/2511.11552v1",
+        "categories": [
+          "cs.CV",
+          "cs.CL"
+        ],
+        "primary_category": "cs.CV",
+        "analysis": {
+          "tldr": "This paper introduces DocLens, a new framework designed to help machines understand lengthy documents that combine text and visuals. By using a multi-agent approach, it enhances the way models find and interpret relevant information across many pages.",
+          "eli5": "Imagine trying to read a giant book with pictures, where important information is scattered everywhere. DocLens helps computer programs find the right pages and bits of text or images they need to make sense of the whole book, making them smarter and less likely to create confusing or incorrect summaries.",
+          "key_contributions": [
+            "DocLens introduces a multi-agent framework that uses specialized tools to better locate and understand relevant information in visual documents.",
+            "It addresses the critical issue of evidence localization that existing models struggle with, improving the overall accuracy of information retrieval.",
+            "The framework minimizes issues like model hallucination, where the model generates incorrect or fabricated information, thereby enhancing reliability."
+          ],
+          "why_care": "Understanding documents with mixed text and visuals is essential in various fields, from legal documents to educational materials. By improving the ability of machines to accurately interpret these documents, we can enhance automation in data extraction, streamline workflows, and help users better access and understand complex information.",
+          "accessibility": "Tech-Savvy",
+          "spicy_take": "With the rise of mixed media content, DocLens could revolutionize how we interact with digital information \u2013 let's hope it outshines its predecessors!",
+          "reading_time_minutes": 5
+        }
+      },
+      {
+        "id": "2511.11551v1",
+        "title": "Aligning Machiavellian Agents: Behavior Steering via Test-Time Policy Shaping",
+        "authors": [
+          "Dena Mujtaba",
+          "Brian Hu",
+          "Anthony Hoogs",
+          "Arslan Basharat"
+        ],
+        "abstract": "The deployment of decision-making AI agents presents a critical challenge in maintaining alignment with human values or guidelines while operating in complex, dynamic environments. Agents trained solely to achieve their objectives may adopt harmful behavior, exposing a key trade-off between maximizing the reward function and maintaining the alignment. For the pre-trained agents, ensuring alignment is particularly challenging, as retraining can be a costly and slow process. This is further compli...",
+        "published": "2025-11-14T18:42:18Z",
+        "updated": "2025-11-14T18:42:18Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.11551v1",
+        "abs_url": "https://arxiv.org/abs/2511.11551v1",
+        "categories": [
+          "cs.AI",
+          "cs.CL"
+        ],
+        "primary_category": "cs.AI",
+        "analysis": {
+          "tldr": "This paper explores how to steer AI agents towards behavior that aligns with human values, especially when the agents were trained without those values in mind. It presents a method for adjusting these agents' behavior during their deployment, rather than retraining them from scratch.",
+          "eli5": "Imagine you have a robot that knows how to play soccer really well, but it sometimes decides to kick the ball into the crowd instead of scoring goals. This paper discusses a way to teach the robot to follow the rules and play nicely, even after it has already learned to play without those rules. It does this by tweaking how the robot makes decisions while it's actually playing, rather than starting its training all over again.",
+          "key_contributions": [
+            "Introduces a novel approach to modify the behavior of pre-trained AI agents at the time they are deployed, known as test-time policy shaping.",
+            "Provides empirical evidence that this method can help align agent behavior more closely with human values in real-time scenarios.",
+            "Discusses the trade-offs between maximizing performance and ensuring safety and ethical behavior in AI systems."
+          ],
+          "why_care": "As AI systems become more integrated into our everyday lives, ensuring they act in ways that are safe and aligned with human values is crucial. This research offers insights that could help prevent harmful behaviors in AI, impacting industries like healthcare, finance, and autonomous driving.",
+          "accessibility": "Tech-Savvy",
+          "spicy_take": "This method could be a game-changer in AI ethics, illustrating that we can adapt our agents on the fly rather than relying on long, costly retraining processes.",
+          "reading_time_minutes": 5
+        }
+      },
+      {
+        "id": "2511.11539v1",
+        "title": "Generalizing Fair Clustering to Multiple Groups: Algorithms and Applications",
+        "authors": [
+          "Diptarka Chakraborty",
+          "Kushagra Chatterjee",
+          "Debarati Das",
+          "Tien-Long Nguyen"
+        ],
+        "abstract": "Clustering is a fundamental task in machine learning and data analysis, but it frequently fails to provide fair representation for various marginalized communities defined by multiple protected attributes -- a shortcoming often caused by biases in the training data. As a result, there is a growing need to enhance the fairness of clustering outcomes, ideally by making minimal modifications, possibly as a post-processing step after conventional clustering. Recently, Chakraborty et al. [COLT'25] in...",
+        "published": "2025-11-14T18:19:18Z",
+        "updated": "2025-11-14T18:19:18Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.11539v1",
+        "abs_url": "https://arxiv.org/abs/2511.11539v1",
+        "categories": [
+          "cs.LG"
+        ],
+        "primary_category": "cs.LG",
+        "analysis": {
+          "tldr": "This paper tackles the challenge of ensuring that clustering algorithms treat different demographic groups fairly, especially those that are often marginalized. The authors propose new methods to adjust clustering outcomes while keeping the original data intact.",
+          "eli5": "Imagine you have a big box of crayons of different colors, and you want to group them by color. But, if some colors are more common than others, you might end up ignoring some colors completely, making them feel left out. This paper is about finding ways to make sure that even the rare colors are represented fairly in the groups, even if it means adjusting the groups a little bit after you've made them.",
+          "key_contributions": [
+            "The authors propose novel algorithms that adjust clustering results to ensure fair representation across multiple demographic groups.",
+            "They introduce a framework that can be used to evaluate the fairness of clustering outcomes, allowing for better insights into how groups are represented.",
+            "The paper discusses practical applications of their methods, demonstrating how fairness-enhancing techniques can be integrated into existing clustering workflows."
+          ],
+          "why_care": "Fairness in data analysis is crucial as biased outcomes can reinforce social inequalities. By improving clustering methods, we can ensure diverse communities are represented more accurately in various applications, from hiring practices to loan approvals, which ultimately promotes social justice.",
+          "accessibility": "Tech-Savvy",
+          "spicy_take": "Fair clustering is not just a technical challenge; it's a moral imperative in today's data-driven world. If we don't address these biases, we're simply perpetuating inequalities under the guise of data analysis.",
+          "reading_time_minutes": 7
+        }
+      }
+    ],
     "summary": {
-      "total_analyzed": 0,
+      "total_analyzed": 10,
       "by_accessibility": {
-        "General Audience": 0,
-        "Tech-Savvy": 0,
+        "General Audience": 1,
+        "Tech-Savvy": 9,
         "Researchers Only": 0
       },
-      "avg_reading_time": 0
+      "avg_reading_time": 6.2
     }
   },
   "metadata": {
@@ -21,19 +351,19 @@
     "style": "blog-accessible"
   },
   "costs": {
-    "execution_time": 0.5606908798217773,
-    "execution_minutes": 0.009344847997029622,
-    "github_actions": 7.475878397623697e-05,
+    "execution_time": 77.33949542045593,
+    "execution_minutes": 1.2889915903409321,
+    "github_actions": 0.010311932722727457,
     "openai": {
-      "input": 0.0,
-      "output": 0.0,
-      "total": 0.0
+      "input": 0.0005043,
+      "output": 0.0018869999999999998,
+      "total": 0.0023913
     },
-    "total": 7.475878397623697e-05,
+    "total": 0.012703232722727456,
     "token_usage": {
-      "prompt_tokens": 0,
-      "completion_tokens": 0,
-      "total_tokens": 0
+      "prompt_tokens": 3362,
+      "completion_tokens": 3145,
+      "total_tokens": 6507
     }
   }
 }
