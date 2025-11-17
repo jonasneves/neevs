@@ -2,490 +2,58 @@
   "agent": "phi-analyzer",
   "model": "Phi-4 Mini",
   "model_id": "microsoft/phi-4-mini-instruct",
-  "timestamp": "2025-11-17T12:15:32.852042",
+  "timestamp": "2025-11-17T18:12:14.181181",
   "status": "completed",
   "data": {
     "analyses": [
       {
         "article": {
-          "id": "news_0_1763381533",
-          "title": "Apple Planning Largest-Ever Upgrade to iPhone - PYMNTS.com",
-          "description": "Apple Planning Largest-Ever Upgrade to iPhone\u00a0\u00a0PYMNTS.comApple\u2019s iPhone Overhaul Will Reduce Its Reliance on Annual Fall Spectacle\u00a0\u00a0Bloomberg.comApple prepares biggest iPhone overhaul in its history, Bloomberg reports (AAPL:NASDAQ)\u00a0\u00a0Seeking AlphaComparing the 2026 Phone Lineups From Apple, Samsung, Google and Everyone Else\u00a0\u00a0CNETApple Reportedly Has a Bold New Plan For Innovation Over the Next Few Years: More iPhones\u00a0\u00a0Gizmodo",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRWtpY2M3b0E5WjIzVXBQU0pCTlNaejBTdWl5TnJwdGt3bERQUUl6aFA5ODNDWGtxMi03dTF2YzJvdlBXRGtGVDhpWHdTeE1WX3ZDWXBnQjEzMDRXZFhIMDdHZWhnXzkxUnQzQ21NQmYwYmNQRnYwOXVNTGMwNzd0MWIyeVo3dw?oc=5",
-          "source": "PYMNTS.com",
-          "published": "Mon, 17 Nov 2025 00:58:42 GMT",
+          "id": "news_0_1763402978",
+          "title": "For the Steam Machine to change PC gaming, Valve must solve Linux's anti-cheat problem - Engadget",
+          "description": "For the Steam Machine to change PC gaming, Valve must solve Linux's anti-cheat problem\u00a0\u00a0EngadgetThe Steam Machine feels like the TV gaming PC I\u2019ve always wanted\u00a0\u00a0The VergeValve's Next-Gen Steam Machine and Steam Controller \u2014 the Big Interview\u00a0\u00a0IGNValve announces new Steam Machine console: Price, specs, release date\u00a0\u00a0MashableSteam Machine Price Range May Have Leaked\u2014and It\u2019s Not Cheap\u00a0\u00a0VICE",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOSjMzRjcyQnZSendXUHFPQi0wbUIyZUpEcWtSVVN1N1V5UTBpLWI0MHZzSWl0Q0UwN245NUNOTjUtdndfeFNTQlJkUkJUZ3VmR2lBRFFmMTFzVHpaOGt3VWtEdEZJeTk4NnNqLS1CM0xoT3E4dWwtRzYxeGFUZkNpb2tCa3N1LUlValVsQUQybEdpTmRLR3JRSXRsWnh2QWkzS0RCYkZKY25FeGFmZkd6S1JVUUNOWlpSeC03V210ajJSNkJnazRZVXNQRGticFk?oc=5",
+          "source": "Engadget",
+          "published": "Mon, 17 Nov 2025 13:00:00 GMT",
           "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-17T12:12:13.572844"
+          "fetched_at": "2025-11-17T18:09:38.460596"
         },
         "analysis": {
-          "summary": "Apple is reportedly planning an unprecedented iPhone overhaul, aiming to reduce its reliance on the annual fall release cycle and boost innovation with more iPhones, suggesting a significant shift in strategy and potential impact on the smartphone market.",
+          "summary": "Engadget discusses the potential for Valve's Steam Machine to revolutionize PC gaming, but emphasizes that solving the anti-cheat issue on Linux is critical for its success.",
           "key_points": [
-            "Apple plans a major iPhone upgrade, potentially altering its historic release schedule.",
-            "The overhaul is expected to foster innovation and reduce dependency on the annual fall launch.",
-            "Competitors like Samsung, Google, and others may need to adjust their strategies in response."
+            "Valve's Steam Machine could be the gaming PC many have wanted, but its success is contingent on addressing the anti-cheat challenges on Linux.",
+            "Linux's anti-cheat system poses significant hurdles for Valve, potentially limiting the Steam Machine's appeal and effectiveness in the market.",
+            "The article reflects the ongoing tension between innovation and practical implementation in the gaming industry."
           ],
           "sentiment": "Mixed",
           "confidence": "High",
-          "bias_check": "The bias could be due to the competitive nature of the tech industry, where companies often exaggerate to gain marketing leverage. The source, PYMNTS.com, might have a predisposition towards highlighting Apple's moves due to its significant influence on the market.",
-          "missing_context": "The article does not mention whether Apple has officially confirmed the overhaul, nor does it provide details on what the 'overhaul' entails. Market reactions and the feasibility of Apple's strategic shift are also not discussed.",
-          "implications": "Apple's potential shift could disrupt the current smartphone industry rhythm, leading to increased competition and innovation. It may also impact consumer expectations and Apple's revenue streams, given the anticipation surrounding the annual fall releases.",
+          "bias_check": "The article may exhibit bias towards Linux users or those who are more critical of Valve's handling of Linux gaming.",
+          "missing_context": "The article could benefit from more details on Valve's specific plans to address the anti-cheat problem and the technical challenges involved.",
+          "implications": "If Valve successfully resolves the Linux anti-cheat issue, it could significantly enhance the Steam Machine's market potential and contribute to a more diverse gaming ecosystem. Conversely, failure to address this problem could hinder the Steam Machine's adoption and reinforce the dominance of Windows in PC gaming.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-17T12:12:36.052295",
-          "token_usage": {
-            "prompt_tokens": 295,
-            "completion_tokens": 281,
-            "total_tokens": 576
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_1_1763381533",
-          "title": "Gemini's Nano Banana AI comes to Galaxy AI Now Brief, here's how it works - SamMobile",
-          "description": "Gemini's Nano Banana AI comes to Galaxy AI Now Brief, here's how it works\u00a0\u00a0SamMobileSamsung's Now Brief just got smarter with built-in Nano Banana suggestions\u00a0\u00a0Android AuthoritySamsung Now Brief Adds Nano Banana Suggestions\u00a0\u00a0findarticles.comYour Galaxy phone can now turn selfies into AI art with Nano Banana\u00a0\u00a0Digital TrendsSamsung Adds Nano Banana AI Image Tools to Now Brief\u00a0\u00a0ITP.net",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOWTZKU0JLRmxQNnpxLS1VU2hWeUFCY0FkSmZDTnN0WnNoTFhxUDhsMGJsVjk4Umd5a2g1SmQ5WlAtWnhGLUFQSHJFTEl5MGV1dXJZVnR1OXp3NnRYQU1KOUdJMVo4S21tNlgtdS1wMTN3RUtNMXJxTmZQZW52SVZITG00dmhlZTI0bzlTbnhR?oc=5",
-          "source": "SamMobile",
-          "published": "Mon, 17 Nov 2025 03:35:00 GMT",
-          "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-17T12:12:13.572883"
-        },
-        "analysis": {
-          "summary": "The article discusses the recent addition of Nano Banana AI by Gemini to Samsung's Galaxy AI Now Brief, which enables users to transform selfies into AI art. This integration reflects Samsung's ongoing commitment to enhancing the creative capabilities of their devices.",
-          "key_points": [
-            "Samsung's Galaxy AI Now Brief now includes Gemini's Nano Banana AI for transforming selfies into AI art.",
-            "The feature demonstrates Samsung's focus on integrating advanced AI-powered tools into its devices.",
-            "This development may encourage users to explore new creative possibilities with their smartphones."
-          ],
-          "sentiment": "positive",
-          "confidence": "high",
-          "bias_check": "Potential bias may stem from the promotional nature of the article, which is published on a Samsung-related news site.",
-          "missing_context": "The article doesn't provide details on the user experience, performance, or technical specifications of Nano Banana AI.",
-          "implications": "The broader implication is an increased interest in AI art applications, potentially driving innovation and user engagement in the mobile AI art space.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-17T12:12:42.320206",
-          "token_usage": {
-            "prompt_tokens": 275,
-            "completion_tokens": 222,
-            "total_tokens": 497
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_2_1763381533",
-          "title": "It's happening! YouTube Music is testing a feature everyone has wanted for years. - Android Authority",
-          "description": "It's happening! YouTube Music is testing a feature everyone has wanted for years.\u00a0\u00a0Android AuthorityYouTube Music rolls out a time-saving playlist feature but not for Android users\u00a0\u00a0Android PoliceYouTube Music Introduces 'Find in Playlist' Feature to Instantly Locate Your Favorite Songs\u00a0\u00a0Tech TimesYouTube Music is testing playlist search so you can stop endless scrolling\u00a0\u00a0Digital TrendsSoon, YouTube Music will let you search songs within playlists: Details\u00a0\u00a0Business Standard",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9GNElqcDA2WVpob0YzNC1uZmtDZGwybkNKV1JWODJQamhLWUtiVG1MSHhqeEVHQzdOZnBIYTZ5ZFhxZFk2Q2UyWldsSC1wM0tKdjhzdGJuXzdHMTVTQTFobURpTlpBejRuZFhVNlo5a1pXV3V4ckJuem01cw?oc=5",
-          "source": "Android Authority",
-          "published": "Mon, 17 Nov 2025 02:59:02 GMT",
-          "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-17T12:12:13.572914"
-        },
-        "analysis": {
-          "summary": "YouTube Music is testing a 'Find in Playlist' feature that allows users to search for songs within playlists, aiming to save time and enhance user experience. While this feature is gaining attention and interest, it has yet to be rolled out to Android users, leaving them out of the loop.",
-          "key_points": [
-            "YouTube Music tests a 'Find in Playlist' feature.",
-            "The feature allows users to search for songs within playlists.",
-            "The feature has not yet been released for Android users."
-          ],
-          "sentiment": "Mixed",
-          "confidence": "High",
-          "bias_check": [
-            "The article could be biased towards positive reception, as it highlights the feature's time-saving aspect without discussing any potential downsides.",
-            "It may overlook the fact that not all users are interested in such a feature, as some may prefer the current method of navigating playlists."
-          ],
-          "missing_context": "The article doesn't mention the current workflow or the specific challenges users face without this feature. It also doesn't discuss how the feature will be implemented or if there are any known issues.",
-          "implications": "This feature, if successful, could lead to a more streamlined experience for users, potentially increasing engagement with YouTube Music. However, its absence for Android users could cause frustration and might affect the platform's user retention and satisfaction among that demographic.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-17T12:12:49.899819",
-          "token_usage": {
-            "prompt_tokens": 290,
-            "completion_tokens": 292,
-            "total_tokens": 582
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_3_1763381533",
-          "title": "Expect big changes in iPhone release timing in 2026 and 2027 - AppleInsider",
-          "description": "Expect big changes in iPhone release timing in 2026 and 2027\u00a0\u00a0AppleInsiderApple Delays Release of Next iPhone Air Amid Weak Sales\u00a0\u00a0The InformationApple is ending the yearly iPhone releases that you love\u00a0\u00a0PhoneArenaIs thin really in? Not for lots of smartphone shoppers.\u00a0\u00a0The Washington PostBloomberg: Here\u2019s what\u2019s actually going on with the iPhone Air 2\u00a0\u00a09to5Mac",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOX3lhSDB0Tk9rYkF6MUFKcGFEZDlGUy1sbWtPcS1wZUF0cTBKckdscEFYcHAtcU1KQjVQLWo5U3d1aHY0d18tcEVTQXR2Y3NrY2o4bW5Fc2VjN0dwaVFRSmc4cDdKNXdGbWxMX01EalprTzJ1VkV2TEtDRWxBUmRfTDM5ajhGajdHWGRwWG9idkxzLXVSN240TmZvaXRnZWJBb3pHbnln?oc=5",
-          "source": "AppleInsider",
-          "published": "Sun, 16 Nov 2025 13:46:00 GMT",
-          "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-17T12:12:13.572951"
-        },
-        "analysis": {
-          "summary": "AppleInsider reports speculation that Apple will significantly change the iPhone release timing in 2026 and 2027, moving away from its traditional yearly release cycle due to weak sales and market pressures.",
-          "key_points": [
-            "Apple is considering altering its iPhone release schedule, which could lead to less frequent updates.",
-            "Weak sales of the iPhone Air may be a contributing factor to Apple's potential decision to change its release strategy.",
-            "The shift in release timing could impact consumer expectations and the smartphone market."
-          ],
-          "sentiment": "Mixed",
-          "confidence": "High",
-          "bias_check": "The article may be biased due to its source, AppleInsider, which could have a vested interest in discussing Apple's strategies. Additionally, the speculation presented may not be confirmed by official sources.",
-          "missing_context": "The article does not provide specific details on the nature of the changes to the release schedule, nor does it offer any official statements from Apple. It's also unclear whether the weak sales are due to the iPhone Air model specifically or other factors affecting Apple's market performance.",
-          "implications": "Changes in Apple's release timing could have significant effects on the smartphone industry, including how competitors plan their own product launches and how consumers plan their technology purchases. It may also affect Apple's brand perception and customer loyalty if the changes are not well-received.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-17T12:12:57.537061",
-          "token_usage": {
-            "prompt_tokens": 288,
-            "completion_tokens": 292,
-            "total_tokens": 580
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_4_1763381533",
-          "title": "Apple has no plans to release a new Mac Pro anytime soon, report says - 9to5Mac",
-          "description": "Apple has no plans to release a new Mac Pro anytime soon, report says\u00a0\u00a09to5MacThe Mac Pro could be the latest addition to Apple's product purgatory\u00a0\u00a0EngadgetApple Views Its Mac Studio As The New Mac Pro And Has \u2018Largely Written Off\u2019 Its Tower Workstation, M5 Ultra May Only Be Found In One Model\u00a0\u00a0WccftechMac Pro may never be updated, Apple backs Mac Studio instead\u00a0\u00a0AppleInsiderMac Pro Reportedly on 'Back Burner' and 'Largely Written Off' at Apple\u00a0\u00a0MacRumors",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcGFFWjhMVURwSjZzTC1VMmd0ZkdQNWZkc25VNlcwLVBldkUyU3FUeG83dGd0dHBHbFdXMzRrTDBPSHJienpJTDhYaTFSRVhTQ1hhY3p6cFpXeVhsNVl3V3ozaTFRdk9fcXItdEZwc3dRMEoxbHJkN29qTHN1VUlfOWk0SDZ6Xy11dDdBYUExd3hsMWZldGVwXw?oc=5",
-          "source": "9to5Mac",
-          "published": "Sun, 16 Nov 2025 13:49:00 GMT",
-          "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-17T12:12:13.572989"
-        },
-        "analysis": {
-          "summary": "The article reports that Apple has no immediate plans to release a new Mac Pro, opting instead to promote the Mac Studio as the new flagship workstation. This shift indicates a strategic focus on a more versatile and updated product line, leaving the Mac Pro in a state of 'product purgatory.'",
-          "key_points": [
-            "Apple has deferred the release of a new Mac Pro.",
-            "Mac Studio is being positioned as Apple's new flagship workstation.",
-            "The Mac Pro is being 'largely written off' at Apple."
-          ],
-          "sentiment": "neutral",
-          "confidence": "high",
-          "bias_check": "The perspective is based on a single report from 9to5Mac, which may have its own agenda or interpretations. Additionally, the sentiment may be influenced by the article's focus on Apple's strategic decisions and their impact on enthusiast communities.",
-          "missing_context": "Details about Apple's engineering challenges, market competition, and consumer demand for the Mac Pro are not mentioned. The reasoning behind Apple's strategic choices, including internal product development processes, is also lacking.",
-          "implications": "The decision to focus on the Mac Studio and phase out the Mac Pro could affect Apple's market positioning, influence consumer choices, and impact the tech enthusiast community. It may also reflect broader industry trends towards more versatile and up-to-date product offerings.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-17T12:13:04.784216",
-          "token_usage": {
-            "prompt_tokens": 319,
-            "completion_tokens": 286,
-            "total_tokens": 605
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_0_1763381533",
-          "title": "Japan seeks to calm escalating row with China over Taiwan - Reuters",
-          "description": "Japan seeks to calm escalating row with China over Taiwan\u00a0\u00a0ReutersJapan\u2019s Takaichi Has Few Good Options to End China\u2019s Retaliation\u00a0\u00a0Bloomberg.comJapan to dispatch senior envoy to China, NHK says, as travel warning drives tourism selloff in Tokyo\u00a0\u00a0CNBCAiming to Shock Japan, China Pushes a Wave of Reprisals\u00a0\u00a0The New York TimesDiplomatic Crisis Deepens Between China and Japan\u00a0\u00a0Newsweek",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNYkxNTnJ1U1VrRUFtczBOOGZrd0J2bjUzRHdwb2FuWVk5eUZMUzlqS3ByMUhKNmo1MjlXakNFODhONHZpd3pqekNPZjBMMlB0VmxsQ2xESWFjVXhuOGRsYWhkUWd1eVhTRC1rLVZMeXAxLTV3cXdYajJmUy1iVTlKb3RlVUVCU0xPdWl2N2RRODcwdG5MeHJpYlhGUTZrUXQwUjRfZw?oc=5",
-          "source": "Reuters",
-          "published": "Mon, 17 Nov 2025 09:35:05 GMT",
-          "topic": "WORLD",
-          "fetched_at": "2025-11-17T12:12:13.616131"
-        },
-        "analysis": {
-          "summary": "Japan attempts to de-escalate tensions with China over Taiwan amidst a series of retaliatory actions from China, including travel warnings that are affecting tourism in Tokyo. The situation is further complicated by the need for Japan to navigate its relationship with both China and Taiwan while maintaining its diplomatic stance and economic interests.",
-          "key_points": [
-            "Japan is trying to mitigate the fallout from China's retaliatory measures, which are part of a broader diplomatic crisis.",
-            "Travel warnings from China are impacting Japan's tourism sector, causing economic concerns.",
-            "Japan's diplomatic strategy involves sending a senior envoy to China, indicating efforts to maintain dialogue and stability."
-          ],
-          "sentiment": "Mixed",
-          "confidence": "High",
-          "bias_check": "The article may reflect a bias toward highlighting tensions and conflict, and may not fully represent Japan's or China's perspectives and potential strategies for conflict resolution.",
-          "missing_context": "The motivations behind China's retaliatory actions and Japan's policies towards Taiwan and China might not be fully explored. Additionally, the economic and political strategies of both countries in handling the crisis could be missing.",
-          "implications": "The escalating tensions between China and Japan over Taiwan could have significant economic impacts, particularly on Japan's tourism industry. There is also the potential for this diplomatic crisis to affect broader regional stability in East Asia, possibly drawing in other nations and affecting international relations.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-17T12:13:12.329258",
-          "token_usage": {
-            "prompt_tokens": 279,
-            "completion_tokens": 294,
-            "total_tokens": 573
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_1_1763381533",
-          "title": "Former Bangladeshi Leader Sheikh Hasina Sentenced to Death Over Protest Crackdown - The Wall Street Journal",
-          "description": "Former Bangladeshi Leader Sheikh Hasina Sentenced to Death Over Protest Crackdown\u00a0\u00a0The Wall Street JournalBangladesh\u2019s ousted leader Sheikh Hasina sentenced to death after crimes against humanity conviction\u00a0\u00a0CNNOusted Bangladesh PM Sheikh Hasina sentenced to death for crimes against humanity\u00a0\u00a0The GuardianSheikh Hasina's First Reaction After Dhaka Court Sentences Her To Death\u00a0\u00a0NDTVBangladesh's ousted PM Hasina sentenced to death for students crackdown\u00a0\u00a0Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVHJxVER1TjJLdXhRWGFRV3ByRml4TzJkQm5DTjN1Nms5VUUySnNWcmZTU09qdGhBLURSMEJTaEVVaDAtVHR1V1habDF3OVp5YzBLNy1OS3hMdGMxaUsyVlU3ZHk2WlRNT1MzU1pfdHU0MVNQMnQwODdBM3FOYWNqNmdoUm9fQlZSWTZGRkpqTGtCNXNfX3RId0U0UTRMQ3RCTWJKaTl3YWNvcWd4OExZeGtDRGVETGF4NDh1c2VLQlF6OEs3SGtqZQ?oc=5",
-          "source": "The Wall Street Journal",
-          "published": "Mon, 17 Nov 2025 09:33:00 GMT",
-          "topic": "WORLD",
-          "fetched_at": "2025-11-17T12:12:13.616162"
-        },
-        "analysis": {
-          "summary": "Former Bangladeshi Prime Minister Sheikh Hasina was sentenced to death by a Dhaka court over the crackdown on peaceful protests, marking a significant and controversial legal outcome. This decision has sparked global reactions and debates about the judiciary's role and the political motivations behind the verdict.",
-          "key_points": [
-            "Sheikh Hasina's death sentence is a result of the Dhaka court's conviction on charges of crimes against humanity.",
-            "The verdict has led to widespread international reactions, with concerns raised about fairness and political bias in the judicial process.",
-            "The case highlights the intense political and judicial tensions in Bangladesh following the mass protests and subsequent crackdown."
-          ],
-          "sentiment": "negative",
-          "confidence": "high",
-          "bias_check": "The article is from a Western media perspective, potentially introducing bias towards Western views on justice and human rights. Additionally, the portrayal may emphasize the political implications over the judicial process itself.",
-          "missing_context": "The article does not provide detailed background on the events leading to the protests, the nature of the government's response, or the evidence presented in court. It also lacks perspectives from various stakeholders, including supporters of Sheikh Hasina, opposition parties, and human rights organizations.",
-          "implications": "The death sentence of Sheikh Hasina may lead to political unrest in Bangladesh, strain its international relations, and raise concerns about the rule of law and democratic processes. It also sets a precedent for how political figures accused of human rights violations are treated in the judiciary.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-17T12:13:20.721234",
-          "token_usage": {
-            "prompt_tokens": 297,
-            "completion_tokens": 319,
-            "total_tokens": 616
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_2_1763381533",
-          "title": "What changes will be part of the UK's asylum reform? - BBC",
-          "description": "What changes will be part of the UK's asylum reform?\u00a0\u00a0BBC'Sweeping reforms to asylum rules' and 'New humiliation for Andrew'\u00a0\u00a0BBCStarmer braced for backlash from Labour MPs as Mahmood sets out asylum plans \u2013 UK politics live\u00a0\u00a0The GuardianBritain\u2019s Labour Government Plans New, Tougher System for Asylum Seekers\u00a0\u00a0The New York TimesBritain reviews human rights laws in major shake-up of asylum policy\u00a0\u00a0Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5PY2N2RFBmX3NTNnp5R09IUFk5R0MxdU9FaU5pZkpqaUVIbm1VdG82bHJzNGR0Y19Lem5HdnJ2WXR0bmtJaDFtd3BxT2Nsd2IzVk9tcXJhSzlqd9IBX0FVX3lxTE5xZzgzejUxWF94TmM0ejE1elhGdlBkbHlNQUxrb0Vvd2E1SEdUVWRWUVJXdzJpblB6UUs2Q2cxdTdQN0hjMWVZQW92eGlTbTlWS2RRY0FaeV90a2pmWnNZ?oc=5",
-          "source": "BBC",
-          "published": "Mon, 17 Nov 2025 06:56:44 GMT",
-          "topic": "WORLD",
-          "fetched_at": "2025-11-17T12:12:13.616184"
-        },
-        "analysis": {
-          "summary": "The UK's Labour Government is introducing sweeping changes to asylum rules, which are being described as tougher. These reforms are part of a broader human rights policy shake-up and are set to face backlash from both the public and political figures like Starmer, who are braced for the criticism from Labour MPs and Andrew.",
-          "key_points": [
-            "The UK Labour Government is implementing new, more stringent asylum policies.",
-            "Reforms are part of a major overhaul of human rights and asylum laws.",
-            "The government is facing criticism and potential backlash from within its own party and among the public."
-          ],
-          "sentiment": "Mixed",
-          "confidence": "High",
-          "bias_check": "The perspective of the government and the stance of the Labour Party are emphasized, while the views of asylum seekers and external political analysts may not be as prominently featured.",
-          "missing_context": "Details on the specific aspects of the asylum reforms, such as the criteria for granting asylum, the impact on asylum seekers, and the legal precedents or arguments for these changes, are not provided. The broader political context and historical changes in asylum laws are also lacking.",
-          "implications": "The asylum reforms could lead to significant changes in the UK's approach to immigration and human rights, potentially affecting the lives of asylum seekers and shaping public opinion on immigration. The backlash and criticism may also influence future political debates and policy directions.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-17T12:13:36.734909",
-          "token_usage": {
-            "prompt_tokens": 281,
-            "completion_tokens": 297,
-            "total_tokens": 578
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_3_1763381533",
-          "title": "Chile's presidential race heads to a runoff between a communist and a pro-Trump conservative - AP News",
-          "description": "Chile's presidential race heads to a runoff between a communist and a pro-Trump conservative\u00a0\u00a0AP NewsChile Vote Positions Country for Trump-Era Right Turn\u00a0\u00a0The Wall Street JournalFar-right candidate Jos\u00e9 Antonio Kast favourite to become Chile\u2019s next president after first round vote\u00a0\u00a0The GuardianChile\u2019s presidential race headed to tense runoff between communist and hard-right candidates\u00a0\u00a0CNNCommunist and far-right candidates head to Chile presidential run-off\u00a0\u00a0BBC",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQdzZNdW1pMnRwQnkwcV81blJNZFBfb0pqajNUcmtDaFJjVElYdHVNUVlfWEoyM2J3Skt3YlFUZ2RnZFdNVnhOYkxGNUtEZ3FpZzFyWmtQQzFBYWJGampBZUp4N2RQYk5XQlJTNko3QURudmJESHdwS3lxWFlUSjJZQ1hWWDJha2E3Q2V1eGhlX2I3WTh6X1BrelZOQWl5a3R3SGlSYjc2Nl93M083?oc=5",
-          "source": "AP News",
-          "published": "Mon, 17 Nov 2025 03:33:00 GMT",
-          "topic": "WORLD",
-          "fetched_at": "2025-11-17T12:12:13.616204"
-        },
-        "analysis": {
-          "summary": "The Chilean presidential election has culminated in a runoff between a far-right conservative candidate and a communist party leader, highlighting the country's political polarization and the influence of external political figures like President Trump.",
-          "key_points": [
-            "Chilean political race is marked by a stark division between extreme right-wing and communist ideologies.",
-            "The far-right candidate, Jos\u00e9 Antonio Kast, was seen as the front-runner after the first round of voting.",
-            "The election outcome could signify a major shift towards the right in Chile's political landscape."
-          ],
-          "sentiment": "Mixed - The unusual nature of the candidates and the polarization it represents are concerning, but also indicative of a dynamic political engagement among the populace.",
-          "confidence": "High",
-          "bias_check": "Potential biases may include a Western-centric perspective on politics, and the framing of the candidates' ideologies in terms of 'communist' and 'far-right,' which could oversimplify complex political beliefs.",
-          "missing_context": "The article may lack context regarding the candidates' political platforms, the reasons behind voter support, and the historical and cultural factors that have shaped Chile's political system.",
-          "implications": "The election could have significant implications for Chile's domestic policies, especially in terms of economic and social reform, and could also affect Chile's international relations and standing in global politics, signaling a departure from the centrist policies that have been prevalent in recent years.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-17T12:13:44.510642",
+          "analyzed_at": "2025-11-17T18:10:04.248844",
           "token_usage": {
             "prompt_tokens": 285,
-            "completion_tokens": 307,
-            "total_tokens": 592
+            "completion_tokens": 262,
+            "total_tokens": 547
           }
         }
       },
       {
         "article": {
-          "id": "news_4_1763381533",
-          "title": "Trump, ignoring MAGA critics, is set to deepen US commitment to Saudi Arabia - Politico",
-          "description": "Trump, ignoring MAGA critics, is set to deepen US commitment to Saudi Arabia\u00a0\u00a0PoliticoToo Powerful to Ignore, Saudi Prince Returns to Washington\u2019s Embrace\u00a0\u00a0The New York TimesSaudi Arabia Crown Prince MBS Aims to Parlay Trump Ties Into Deals\u00a0\u00a0Bloomberg.comSaudi crown prince visits US with security, AI and nuclear on the agenda\u00a0\u00a0ReutersOpinion | As Trump and MBS meet, a longtime partnership faces new realities\u00a0\u00a0The Washington Post",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQbkRTNzBQN3B2NjI0MWV0aG9Xc2c1VndZSnBGSjdOTnJFUDNyX0g3NXlHdEZ6TnlTM0ctV2RuckU4Qy1JSTlNRFZpYzVtQWdXWWxuVGJCWThJd1FkNnhQek1JUHZva3BwZUxPaThsQjVqVHRTR05zT3FpWkJCRUtQUktEQVlBU213Z3pLLVktSEFiRUVNNGRYX21ucDdMYWdzNi16TGhZeWdDUnhUcTd1MnR3czFJTFlrT0VaSDd6cVhSbWF3WGVobXh3?oc=5",
-          "source": "Politico",
-          "published": "Mon, 17 Nov 2025 10:00:00 GMT",
-          "topic": "WORLD",
-          "fetched_at": "2025-11-17T12:12:13.616225"
+          "id": "news_1_1763402978",
+          "title": "Secret no more: Android Canary confirms 'Cinnamon Bun' is Android 17's codename - Android Authority",
+          "description": "Secret no more: Android Canary confirms 'Cinnamon Bun' is Android 17's codename\u00a0\u00a0Android Authority",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1xWDlDdVh2RXZ5LS1rN21Ia3VCT25lX3F3M1RCYjNRd2pwVzhZNGJLNWtSMmRRMDZZdlY3b0FzS3B0ZDBkSHhLUFh0akVPNi1DV1ByRHUtbi1DVEo1V2ZoZ25YQkRRLXJOdk94N1dqQzAxNGZJQTlyWGRDTQ?oc=5",
+          "source": "Android Authority",
+          "published": "Mon, 17 Nov 2025 14:57:36 GMT",
+          "topic": "TECHNOLOGY",
+          "fetched_at": "2025-11-17T18:09:38.460614"
         },
         "analysis": {
-          "summary": "The article discusses President Trump's decision to deepen US commitment to Saudi Arabia despite criticism from his own base, focusing on the high-stakes meeting between Trump and Saudi Crown Prince Mohammed bin Salman (MBS).",
+          "summary": "{\n  \"summary\": \"Android Canary, a developer-focused update channel for Android, has confirmed that 'Cinnamon Bun' is indeed the codename for Android 17, a version of the Android operating system. This revelation comes from an unexpected source and adds a layer of insider knowledge to the project's i",
           "key_points": [
-            "Trump is planning to strengthen ties with Saudi Arabia, which may alienate some of his MAGA supporters.",
-            "The meeting between Trump and MBS is significant, with potential discussions on security, AI, and nuclear technology.",
-            "Critics argue that this move could overlook human rights issues in Saudi Arabia."
-          ],
-          "sentiment": "Mixed",
-          "confidence": "High",
-          "bias_check": "The article may present a bias towards the political perspective, potentially underrepresenting the human rights concerns associated with US-Saudi relations.",
-          "missing_context": "Details on the specific agreements or discussions expected to take place between Trump and MBS, and the potential impact on international relations and global security.",
-          "implications": "Deepening ties with Saudi Arabia could have significant geopolitical implications, including shifts in Middle Eastern alliances, potential backlash from human rights advocates, and ramifications for US domestic politics.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-17T12:13:51.009555",
-          "token_usage": {
-            "prompt_tokens": 291,
-            "completion_tokens": 246,
-            "total_tokens": 537
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_0_1763381533",
-          "title": "Stock Market Today: Alphabet Rallies After Berkshire Hathaway Takes Stake; Dow Futures Inch Higher - The Wall Street Journal",
-          "description": "Stock Market Today: Alphabet Rallies After Berkshire Hathaway Takes Stake; Dow Futures Inch Higher\u00a0\u00a0The Wall Street JournalAlphabet shares jump after Berkshire makes rare tech bet with $4.9 bln stake\u00a0\u00a0ReutersWarren Buffett\u2019s $10-Per-Click Regret: Missing Out On Google\u00a0\u00a0Forbes3 Warren Buffett Stocks to Buy After Berkshire\u2019s Latest 13F Update\u00a0\u00a0MorningstarTrending tickers: Alphabet, Bitcoin, Netflix, Alibaba and WPP\u00a0\u00a0Yahoo Finance UK",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQThPcW9fSE5TaW5FUURKLVA1YV9ucFZkT0NITlM2QkZQQ01fWGZUVXVBdEFadnlMN05SS3Z6YVhzUlhVakxNOHJITnh4aUtfQ3ZoaU5Vd3lhWnhTcmVNV2dwQWU2aTRmeXRuYlNLNE9PVGh1MXJZOFVEaTNPQVBaX2EyaEJEV1U?oc=5",
-          "source": "The Wall Street Journal",
-          "published": "Mon, 17 Nov 2025 11:25:00 GMT",
-          "topic": "BUSINESS",
-          "fetched_at": "2025-11-17T12:12:13.659528"
-        },
-        "analysis": {
-          "summary": "Alphabet Inc.'s stock surged following Warren Buffett's Berkshire Hathaway's $4.9 billion investment, indicating a significant endorsement from one of the most successful investors. This development, alongside positive movement in Dow Futures, reflects investor optimism and the increasing integration of tech stocks in traditional investment portfolios.",
-          "key_points": [
-            "Alphabet Inc. experienced a substantial stock price increase after Berkshire Hathaway's $4.9 billion investment.",
-            "Warren Buffett's investment in a tech company marks a rare shift in his investment strategy.",
-            "The positive reaction in Dow Futures suggests broader market optimism."
-          ],
-          "sentiment": "Positive",
-          "confidence": "High",
-          "bias_check": "The article may be biased towards portraying Berkshire Hathaway's investment as a positive endorsement for Alphabet, potentially overshadowing any risks or challenges associated with the tech sector.",
-          "missing_context": "The article lacks detailed information on Berkshire Hathaway's specific intentions with its investment in Alphabet, the current performance and future prospects of Alphabet's stock, and the potential market and sector-wide reactions to this move.",
-          "implications": "This story could signal a shift in traditional investment approaches, with more conservative investors like Warren Buffett showing increased interest in technology stocks. It may also influence other major investors to consider tech stocks more seriously, potentially driving further growth in the sector.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-17T12:14:58.893789",
-          "token_usage": {
-            "prompt_tokens": 302,
-            "completion_tokens": 283,
-            "total_tokens": 585
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_1_1763381533",
-          "title": "As It Happens: Dubai Airshow 2025 - Simple Flying",
-          "description": "As It Happens: Dubai Airshow 2025\u00a0\u00a0Simple FlyingAirliner Orders and Military Surprises Set 2025 Dubai Airshow Apart\u00a0\u00a0Aviation International NewsEmirates announces order of 65 Boeing 777-9s with list price of $38 billion at Dubai Air Show\u00a0\u00a0SFGATEDubai Airshow to showcase Western jet orders as China debuts competitor\u00a0\u00a0ReutersDubai Airshow: the top 3 Airbus and Boeing aircraft orders rumored this year\u00a0\u00a0AeroTime",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBNc0ZuU1ptYndERzlFZnZTT2EwZ3FjcFJYTkhrX1hPY1dDQVduc0RCUW9ybWw2VV9ZV052X0lGUERDWmdtNi1hQWVWQ0UwYmh5dEZ4X0lnbw?oc=5",
-          "source": "Simple Flying",
-          "published": "Mon, 17 Nov 2025 05:40:00 GMT",
-          "topic": "BUSINESS",
-          "fetched_at": "2025-11-17T12:12:13.659552"
-        },
-        "analysis": {
-          "summary": "The 2025 Dubai Airshow is highlighted by Emirates' $38 billion order of 65 Boeing 777-9s, amidst the showcasing of Western jet orders and the debut of a Chinese competitor, with top Airbus and Boeing orders rumored. The event underscores the competitive dynamics and strategic investments within the aviation industry.",
-          "key_points": [
-            "Emirates' significant order of Boeing 777-9s valued at $38 billion.",
-            "The Dubai Airshow serves as a platform for Western airlines to showcase new jet orders amid rising competition from Chinese manufacturers.",
-            "Rumors of top Airbus and Boeing aircraft orders suggest strong market anticipation and strategic planning within the aviation sector."
-          ],
-          "sentiment": "Mixed",
-          "confidence": "High",
-          "bias_check": "The article focuses on major orders and competitors, potentially overlooking smaller but significant players in the aviation market. It may also emphasize Western airlines over emerging Asian competitors, reflecting a Western-centric perspective.",
-          "missing_context": "The article might not provide details on the specific aircraft capabilities, financial terms of the orders, or the market conditions driving these investments. Additionally, it doesn't mention the impact of global economic factors or the supply chain situation on these orders.",
-          "implications": "The substantial order by Emirates and the competition with Chinese manufacturers highlight the ongoing global shift in the aviation industry, with significant investments indicating confidence in air travel growth. It also suggests that the aviation sector remains competitive and dynamic, with major players continually seeking to expand and modernize their fleets.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-17T12:15:07.530293",
-          "token_usage": {
-            "prompt_tokens": 291,
-            "completion_tokens": 324,
-            "total_tokens": 615
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_2_1763381533",
-          "title": "Emirates orders 65 more 777X as Boeing studies larger jet - Reuters",
-          "description": "Emirates orders 65 more 777X as Boeing studies larger jet\u00a0\u00a0ReutersEmirates announces an order of 65 Boeing 777-9s with list price of $38 billion at Dubai Air Show\u00a0\u00a0AP NewsEmirates Orders 65 More 777Xs, Supports 777-10 Feasibility Study\u00a0\u00a0Aviation Week NetworkUkraine signs a letter of intent to buy up to 100 Rafale warplanes from France, officials say\u00a0\u00a0YahooEmirates Throws Weight Behind Boeing With Top-Up Order for 777X\u00a0\u00a0Bloomberg.com",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQb19Oa2VTNUpyNk1xNGhrWV9RSHN1QzRKbjhLZDZZc19zZ0M2Uy1ZeUlTQmVRTXZVa1AzZVdudW55TkNOVHk1dXJRMEhkeUFCRjlycnVsTjZWanFuOFV2VDBUWlZLQ0dUemNQSURPV2N3SVFyX3hUMFBmS0FkMFl5R0h2bm9LaGdMYmNBeVdvMnAzUy1nVXNObHAtUzVldHVNM2pQSWtB?oc=5",
-          "source": "Reuters",
-          "published": "Mon, 17 Nov 2025 10:08:41 GMT",
-          "topic": "BUSINESS",
-          "fetched_at": "2025-11-17T12:12:13.659571"
-        },
-        "analysis": {
-          "summary": "Emirates has placed an order for 65 more Boeing 777X aircraft, signaling confidence in the 777X's performance and profitability, while Boeing explores the potential of a larger variant, the 777-10. The order also reflects Emirates' support for Boeing's jetliner amid a competitive aviation market and geopolitical tensions affecting military aircraft sales.",
-          "key_points": [
-            "Emirates orders 65 additional Boeing 777X aircraft, demonstrating their commitment to Boeing's existing model.",
-            "Boeing is considering the development of a larger 777-10 variant, showing efforts to innovate and stay competitive in the long-haul market.",
-            "The Emirates order supports Boeing amidst challenges in the military aircraft sector due to geopolitical factors."
-          ],
-          "sentiment": "Mixed",
-          "confidence": "High",
-          "bias_check": "The article could exhibit a potential bias towards favoring Boeing's partnership with Emirates due to the positive framing of the 777X's performance and profitability.",
-          "missing_context": "Important context that might be missing includes the current market conditions for long-haul aircraft, the competitive landscape, and the financial health of Emirates and Boeing, which could affect their decisions and the perceived success of the 777X.",
-          "implications": "The order strengthens the relationship between Emirates and Boeing, potentially bolstering Boeing's future revenues and market confidence. The exploration of the larger 777-10 variant by Boeing could lead to more options in the long-haul market, influencing future aircraft orders and fleet compositions of airlines. The geopolitical issues impacting military aircraft sales could also shape future defense procurement strategies.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-17T12:15:15.943373",
-          "token_usage": {
-            "prompt_tokens": 305,
-            "completion_tokens": 344,
-            "total_tokens": 649
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_3_1763381533",
-          "title": "Thanksgiving could be more expensive this year. Here\u2019s how to navigate higher prices - NPR",
-          "description": "Thanksgiving could be more expensive this year. Here\u2019s how to navigate higher prices\u00a0\u00a0NPRTrump Says Walmart's Thanksgiving Meal Will Be \u201825% Cheaper\u2019 This Year \u2014 but There's a Catch\u00a0\u00a0People.comGrocery chains push $40 Thanksgiving meal deals, but experts say shoppers should expect to pay more\u00a0\u00a0News 5 Cleveland WEWSTrump\u2019s Economic Goon Gets Schooled on Thanksgiving Prices\u00a0\u00a0The Daily BeastThanksgiving dinner 18% more expensive than last year \u2014 and yams are up 188%\u00a0\u00a0New York Post",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQdVdDb2t0bXJZRWo1eU9CYlgwOWRLOVUxb3pPdzNpS3lYbWFyQ3hMRkg5b3FaczgxTGE3bVBnOVZPaGZNbFNpNlFoVWJqR3RjMndnNmdGUEZYU3RKVUxoWGRDQ1FmSm85WFBhNGlHdGFoNnhkeE9LcE45WnpGU3h2TFZhc3BKdw?oc=5",
-          "source": "NPR",
-          "published": "Mon, 17 Nov 2025 05:49:37 GMT",
-          "topic": "BUSINESS",
-          "fetched_at": "2025-11-17T12:12:13.659592"
-        },
-        "analysis": {
-          "summary": "The article discusses the rising costs of Thanksgiving meals, with various sources indicating that prices could be significantly higher this year. It offers strategies to navigate these increased expenses, amidst the backdrop of fluctuating turkey prices and worries about food inflation during the holiday season.",
-          "key_points": [
-            "Thanksgiving meals are becoming more expensive, with some items like yams seeing a substantial price increase.",
-            "Various retailers and experts are suggesting ways to save money on holiday meals despite the higher costs.",
-            "The article highlights the economic pressures on consumers during the holiday season."
-          ],
-          "sentiment": "Mixed",
-          "confidence": "High",
-          "bias_check": "The article might have a slight bias towards highlighting the problem of rising food prices without equally emphasizing potential solutions or contributing factors. Additionally, the sources and quotes used may reflect a particular economic or political perspective.",
-          "missing_context": "The article does not provide context on the reasons behind the rising food prices, such as global supply chain issues, inflationary pressures, or changes in consumer demand. It also does not explore alternative means of celebrating Thanksgiving that do not involve traditional meals.",
-          "implications": "The rising costs of Thanksgiving meals could have broader economic implications, such as increasing financial stress during the holiday season and potentially impacting consumer spending in other areas. It also raises questions about food security and the accessibility of affordable and nutritious food options for families.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-17T12:15:23.762522",
-          "token_usage": {
-            "prompt_tokens": 304,
-            "completion_tokens": 298,
-            "total_tokens": 602
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_4_1763381533",
-          "title": "Inside Trump\u2019s scramble to reduce US dependence on Chinese rare-earth metals - The Guardian",
-          "description": "Inside Trump\u2019s scramble to reduce US dependence on Chinese rare-earth metals\u00a0\u00a0The GuardianChina has a chokehold on rare earth minerals: What to know\u00a0\u00a0qz.comThe rare-earth industry needs more than Trumpian deals\u00a0\u00a0The EconomistThe U.S. aims to breathe easy amid China\u2019s chokehold on rare earths, but loosening the grip takes years of concerted effort\u00a0\u00a0FortuneCan the US break China\u2019s grip on rare earths?\u00a0\u00a0Financial Times",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQUmh3cENRcWNUNTdfcHRuQWp4V3c4RGtKSzc5YnpLam1CWUhXdFRVNUgzNlllTjhmamYtVHVPWkotU2J1a3BSWjRGY0NsNGh3OENpZF9FVVRlN1pfZHo4ZjI4TFBEX0FVcU95b091YTN0am1UUndIaGRaakJBamRUcFhNQy1vaGdzNFVINUE0bFg?oc=5",
-          "source": "The Guardian",
-          "published": "Sun, 16 Nov 2025 12:02:00 GMT",
-          "topic": "BUSINESS",
-          "fetched_at": "2025-11-17T12:12:13.659612"
-        },
-        "analysis": {
-          "summary": "{\n  \"summary\": \"The article discusses the United States' efforts under President Trump to reduce its reliance on China for rare-earth metals, a critical component for various industries, including defense and technology. It highlights the challenges and the lengthy process required to achieve this g",
-          "key_points": [
-            "{\n  \"summary\": \"The article discusses the United States' efforts under President Trump to reduce its reliance on China for rare-earth metals, a critical component for various industries, including defense and technology. It highlights the challenges and the lengthy process required to achieve this goal, while noting China's dominant position in the market.\"\n\n  \"key_points\": [\n    \"The US is attempting to decrease its dependence on China for rare-earth minerals.\",\n    \"Achieving this goal involves a multifaceted and long-term strategy.\",\n    \"China's dominance in the rare-earth sector poses significant challenges.\"\n  ],\n\n  \"sentiment\": \"Mixed\",\n\n  \"confidence\": \"Medium\",\n\n  \"bias_check\": \"The article may reflect biases towards countries that are part of the Western bloc, potentially underplaying the economic and political complexities surrounding the rare-earth industry. Additionally, perspectives from Chinese viewpoints or the economic rationale behind China's dominance are not presented, leading to a one-sided analysis.\"\n\n  \"missing_context\": \"The article could benefit from discussing the environmental and economic implications of rare-earth mining, as well as potential alternative sources of these materials that might ease the US's reliance on China. The geopolitical ramifications of reducing dependence on China and the impact on US-China relations are also important contexts missing from the article.\"\n\n  \"implications\": \"The broader implications of this story involve the US's strategic pivot to reduce its dependency on China for critical materials, which may impact global trade dynamics and international relations. The efforts to diversify supply chains and explore alternative sources could lead to shifts in global economic alliances and increase competition in the rare-earth sector. Additionally, this move may influence the environmental policies around mining and the economic stability of countries that currently depend on China's rare-earth exports.\"\n}"
+            "{\n  \"summary\": \"Android Canary, a developer-focused update channel for Android, has confirmed that 'Cinnamon Bun' is indeed the codename for Android 17, a version of the Android operating system. This revelation comes from an unexpected source and adds a layer of insider knowledge to the project's inner workings.\",\n  \"key_points\": [\n    \"'Cinnamon Bun' is the codename for Android 17, as confirmed by Android Canary.\",\n    This information was previously known only by a small group of developers and enthusiasts, making it a significant leak.\",\n    The codename 'Cinnamon Bun' might hint at features or design elements reminiscent of the popular Cinnamon desktop environment, known for its simplicity and customization akin to the Android OS's philosophy.\n  ],\n  \"sentiment\": \"Neutral to positive\",\n  \"confidence\": \"High\",\n  \"bias_check\": \"The article might be biased towards sensationalism, as it focuses on revealing a 'secret' that was already known within a niche community, which could be of limited value to the general public.\",\n  \"missing_context\": \"The article does not provide context about what 'Cinnamon Bun' entails in terms of features or changes from previous Android versions, or why this particular name was chosen. It also doesn't mention the timeline of the release or the planned support for this version.\",\n  \"implications\": \"The confirmation of a codename for a new Android version might not have broad implications for the general user base but could interest developers and tech enthusiasts who follow the evolution of Android closely. It might also fuel speculation about the upcoming features or direction of Android development.\"\n}"
           ],
           "sentiment": "neutral",
           "confidence": "medium",
@@ -494,11 +62,439 @@
           "implications": "",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-17T12:15:32.851992",
+          "analyzed_at": "2025-11-17T18:10:19.951182",
           "token_usage": {
-            "prompt_tokens": 289,
-            "completion_tokens": 353,
-            "total_tokens": 642
+            "prompt_tokens": 220,
+            "completion_tokens": 332,
+            "total_tokens": 552
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_2_1763402978",
+          "title": "Sony Clamps Down On Concord Revival Fan Project - GameSpot",
+          "description": "Sony Clamps Down On Concord Revival Fan Project\u00a0\u00a0GameSpotSony cracks down on Concord custom servers, issues DMCA takedowns on gameplay videos\u00a0\u00a0The Game PostFans\u2019 reverse-engineered servers for Sony\u2019s defunct Concord might be in trouble\u00a0\u00a0Ars TechnicaFan group gets Concord working again, but warns of potential \u2018worrying legal action\u2019 by Sony\u00a0\u00a0Video Games ChronicleSony's canceled Concord is once again playable, thanks to custom servers\u00a0\u00a0Polygon",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQNVc5MTRxeXF1NmVsWERoc3VsQ0N4WkI5R21hcWJ4Z1N2ZGFQeldKeHRheWhicHFrTl9IcXk1UU5xdnRsb0c4Rm1aY19OWGpNMEI4c1RNSkQ0SzZYcHU3eXl3cFduZlJUd0NkZk9ZTDJtM21BZV9oR3pVazRvcTJQdldRWVhpdDhPNkUwanJ1YmZLTXBKUnV5dzBaaw?oc=5",
+          "source": "GameSpot",
+          "published": "Mon, 17 Nov 2025 14:24:17 GMT",
+          "topic": "TECHNOLOGY",
+          "fetched_at": "2025-11-17T18:09:38.460638"
+        },
+        "analysis": {
+          "summary": "The article discusses Sony's legal actions against a fan-made Concord revival by shutting down custom servers and issuing DMCA takedowns, highlighting the tension between fan projects and corporate intellectual property rights.",
+          "key_points": [
+            "Sony's enforcement of DMCA takedowns on Concord fan servers.",
+            "The fan group's efforts to revive the Concord experience through reverse-engineering.",
+            "The legal risks faced by fan communities when attempting to recreate defunct games."
+          ],
+          "sentiment": "negative",
+          "confidence": "high",
+          "bias_check": "The article may be biased towards highlighting the conflict between fan creativity and corporate control, potentially overlooking the legal complexities and both parties' perspectives.",
+          "missing_context": "The article does not provide details on Sony's rationale for the legal actions or the specifics of the fan group's activities, which could be important for a balanced view.",
+          "implications": "This story raises concerns about the future of fan-led game revivals, the protection of intellectual property, and the legal boundaries within which fan communities must operate. It also underscores the potential risks for both companies and fans when attempting to interact with or revive defunct games.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-17T18:10:26.754415",
+          "token_usage": {
+            "prompt_tokens": 285,
+            "completion_tokens": 252,
+            "total_tokens": 537
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_3_1763402978",
+          "title": "Gmail adding unread dots as Google Tasks gets deadlines - 9to5Google",
+          "description": "Gmail adding unread dots as Google Tasks gets deadlines\u00a0\u00a09to5GoogleGoogle Tasks finally gets deadline feature, but it misses an important detail\u00a0\u00a0Android AuthorityGoogle Tasks Receives Option to Add Deadlines Without Time\u00a0\u00a0findarticles.comGoogle Tasks is finally getting the one feature it desperately needed\u00a0\u00a0Android CentralGoogle Tasks Finally Gets Deadline Feature, But with a Limitation\u00a0\u00a0Android Headlines",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA0S2dDajU3blZscF9FMDVRTExmVmNFeGRMcUJmZ3lqMEdrRVhlR2xMU1JhYVFGc2tmZUFsRFE5T28xbi1rV0RpVVRfQnIxY3RVRlFUQkt1Y3MwNjV6a3VITDhR?oc=5",
+          "source": "9to5Google",
+          "published": "Sun, 16 Nov 2025 14:30:00 GMT",
+          "topic": "TECHNOLOGY",
+          "fetched_at": "2025-11-17T18:09:38.460659"
+        },
+        "analysis": {
+          "summary": "Google's Gmail adds unread dots, while Google Tasks finally introduces a deadline feature, but it's limited to adding deadlines without due dates. The update brings a semblance of organizational functionality to Google Tasks but lacks the ability to set actual deadlines, leaving users to manually manage their time frames.",
+          "key_points": [
+            "Gmail now shows unread dots, which could improve email management.",
+            "Google Tasks adds the ability to set deadlines, a feature long desired by users.",
+            "The lack of automatic due dates in Google Tasks may frustrate users looking for a comprehensive task management tool."
+          ],
+          "sentiment": "Mixed",
+          "confidence": "High",
+          "bias_check": "The article appears to be promoting Google's recent updates, which might reflect a bias towards the Google ecosystem. Additionally, the article could be highlighting the positive aspects more than the limitations.",
+          "missing_context": "The article does not provide information about how the deadline feature in Google Tasks works, how seamless it is, or if there are any workarounds or plans for future updates that could address the due dates issue.",
+          "implications": "The introduction of unread dots in Gmail and deadlines in Google Tasks could lead to increased user engagement with Google's productivity tools. However, the lack of due dates might push users to seek alternative task management solutions that offer more comprehensive features.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-17T18:10:34.338354",
+          "token_usage": {
+            "prompt_tokens": 272,
+            "completion_tokens": 287,
+            "total_tokens": 559
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_4_1763402978",
+          "title": "Cities: Skylines upheaval: Developer and publisher announce \u201cmutual\u201d breakup - Ars Technica",
+          "description": "Cities: Skylines upheaval: Developer and publisher announce \u201cmutual\u201d breakup\u00a0\u00a0Ars TechnicaAfter the bungled launch of Cities: Skylines 2, Paradox Interactive and Colossal Order part ways as development moves to a new studio\u00a0\u00a0PC GamerParadox Interactive parts ways with Cities: Skylines studio after over 15 years, as publisher's misfortunes continue\u00a0\u00a0EurogamerCities: Skylines to switch developer\u00a0\u00a0GamesIndustry.bizCities: Skylines creators Colossal Order are handing the series over to the Surviving",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdW9vOS1qd21EYjdqZ0NYWTJodVhQcnZoclc0elpiQ0J6N2pmZ2Vwemt2MzBab0JEZ2hCSXBTZml2WWV3V1pHdVNVd0JyNFV5Y3NOTHI1VGtFZ19nMDlkam9LZTIzeUpYNVkwYXd6cXlsV1FtZGFiWDcxZTB4U25DYjhDSXBJWHlHeW1WdFhJcWprRzZWTy0xUE5vYS1FckdYd0k1cGVDNUZDLWwwTmRpMkt3?oc=5",
+          "source": "Ars Technica",
+          "published": "Mon, 17 Nov 2025 16:24:27 GMT",
+          "topic": "TECHNOLOGY",
+          "fetched_at": "2025-11-17T18:09:38.460683"
+        },
+        "analysis": {
+          "summary": "Paradox Interactive and Colossal Order, developers of Cities: Skylines, are announcing a mutual separation after a troubled launch of Cities: Skylines 2. The decision to move development to a new studio indicates significant challenges faced by the original developers, reflecting broader issues in the gaming industry's collaboration dynamics.",
+          "key_points": [
+            "Paradox Interactive and Colossal Order part ways due to the problematic release of Cities: Skylines 2.",
+            "The Cities: Skylines series will now be developed by a new studio.",
+            "This separation highlights potential pitfalls in long-term development partnerships and publisher-developer relationships."
+          ],
+          "sentiment": "Mixed (negative due to the breakup, but with a neutral to positive outlook given the opportunity for a fresh start)",
+          "confidence": "High",
+          "bias_check": "The article may emphasize the failure aspect of the Cities: Skylines 2 launch while underreporting the success and potential of the Cities: Skylines series.",
+          "missing_context": "The article may not provide sufficient background on the specific issues leading to the problematic launch of Cities: Skylines 2, nor does it discuss the potential new developer's capabilities and previous successes.",
+          "implications": "This separation could signal changing dynamics and expectations in the gaming industry, particularly regarding publisher-developer relationships. It may also affect the brand loyalty and anticipation for future releases from the original studio and the new development team.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-17T18:10:42.563331",
+          "token_usage": {
+            "prompt_tokens": 310,
+            "completion_tokens": 305,
+            "total_tokens": 615
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_0_1763402978",
+          "title": "Bangladesh's ousted leader Sheikh Hasina sentenced to death for crackdown on student uprising - AP News",
+          "description": "Bangladesh's ousted leader Sheikh Hasina sentenced to death for crackdown on student uprising\u00a0\u00a0AP NewsBangladesh's ousted leader Sheikh Hasina sentenced to death\u00a0\u00a0BBCFormer Bangladesh Leader Sheikh Hasina Sentenced to Death Over Protest Crackdown\u00a0\u00a0The Wall Street JournalBangladesh Court Sentences Former Prime Minister to Death\u00a0\u00a0The New York TimesExclusive: Ahead of Hasina court verdict, son warns of Bangladesh violence if party ban stays\u00a0\u00a0Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTDh2TjdGVm1aenBxQkRyTGRXdVdQTUhsMXJmZVhJcklDTlhVWS1iby03NHk2Zi1VN1AzUGNWZWlPQjVBNUQ1N2FfSDkwQXA2MVpObGMwbDFaU0lrRl91MGRlekJ1NkFTdWdGbVlWWVRCZEFSeFVOci01OHIzcWZ2T3p4NkVJUzY0bGFPNmJkWTZ3WlhGdDJSXzc2NDJlWDhHd0E?oc=5",
+          "source": "AP News",
+          "published": "Mon, 17 Nov 2025 15:22:00 GMT",
+          "topic": "WORLD",
+          "fetched_at": "2025-11-17T18:09:38.627460"
+        },
+        "analysis": {
+          "summary": "Former Bangladesh Prime Minister Sheikh Hasina, who led a government known for its authoritarian tendencies, has been sentenced to death by a Bangladeshi court for her crackdown on a student-led uprising. The verdict follows a period of political turmoil, including her ousting from office, and has sparked international concern over the state of democracy in Bangladesh.",
+          "key_points": [
+            "Sheikh Hasina, former Prime Minister of Bangladesh, has been sentenced to death.",
+            "The death sentence was for her role in the crackdown on a student uprising.",
+            "The sentence comes after her ousting and amidst concerns of democratic backsliding in Bangladesh."
+          ],
+          "sentiment": "Negative",
+          "confidence": "High",
+          "bias_check": "The article may reflect political bias, particularly from perspectives that are critical of Hasina's rule or supportive of her opponents. The international sources listed (BBC, The Wall Street Journal, The New York Times) may have varying political slants that could influence the framing of the story.",
+          "missing_context": "The context of the student uprising, the political history of Bangladesh, and the specifics of Hasina's government's policies might be missing, which are crucial for a complete understanding. The legal and due process aspects of the trial are also not detailed.",
+          "implications": "The sentencing of Sheikh Hasina may lead to further political instability, impact international relations, and raise concerns about human rights and the rule of law in Bangladesh. It also sets a precedent for political accountability, which could have future ramifications for governance and civil liberties in the country.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-17T18:10:51.126933",
+          "token_usage": {
+            "prompt_tokens": 286,
+            "completion_tokens": 335,
+            "total_tokens": 621
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_1_1763402978",
+          "title": "Home secretary says asylum reforms will 'unite a divided country' as full plans published - BBC",
+          "description": "Home secretary says asylum reforms will 'unite a divided country' as full plans published\u00a0\u00a0BBCBritain\u2019s Labour Government Plans New, Tougher System for Asylum Seekers\u00a0\u00a0The New York TimesHome secretary Shabana Mahmood presents asylum plans to MPs amid Labour backlash over proposals \u2013 UK politics live\u00a0\u00a0The GuardianBritain toughens asylum policy in major overhaul as anti-immigration sentiment rises\u00a0\u00a0ReutersUK\u2019s sweeping asylum law changes: How will they impact refugees?\u00a0\u00a0Al Jazeera",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE11cTE0b2Y4eTBsZ3N5eWZ4RXhvaU5LTVh1aHFmUlZuYkxCYlFPSUJ3c1psMzFhaDBQNFlab2Rfak9FREpILVg1WVNzN0xmQlZrdENnNw?oc=5",
+          "source": "BBC",
+          "published": "Mon, 17 Nov 2025 17:11:10 GMT",
+          "topic": "WORLD",
+          "fetched_at": "2025-11-17T18:09:38.627499"
+        },
+        "analysis": {
+          "summary": "Home secretary Shabana Mahmood claims that the new, tougher asylum reforms will 'unite a divided country,' amidst significant opposition and concerns over the treatment of refugees and the potential for increased suffering. The UK government is taking a hardline approach to asylum policy, reflecting rising anti-immigration sentiment, but critics argue it could undermine human rights and international obligations.",
+          "key_points": [
+            "Home Secretary Shabana Mahmood asserts that the new asylum reforms will bring unity.",
+            "The proposed reforms are part of a major overhaul aiming to toughen the UK's asylum policy.",
+            "There is significant opposition and concern from various groups, including Labour, about the potential negative impacts on refugees."
+          ],
+          "sentiment": "Mixed",
+          "confidence": "High",
+          "bias_check": "The article may reflect a bias towards the government's perspective, presenting the reforms in a positive light without giving equal weight to the opposition's concerns. The language used by the Home Secretary could also be interpreted as overly optimistic or simplistic in addressing complex issues.",
+          "missing_context": "The article does not provide details on the specific aspects of the new asylum reforms, the nature of the opposition's concerns, or how these reforms compare to previous policies. It also lacks the perspectives of asylum seekers and refugees who would be directly impacted by these changes.",
+          "implications": "The new asylum reforms could lead to a more stringent asylum process in the UK, potentially deterring genuine refugees and asylum seekers from applying due to the increased difficulty and uncertainty involved. This could also strain the UK's international relations, especially with countries that are currently experiencing large-scale conflicts and human rights issues. Domestically, the policies might exacerbate anti-immigration sentiment but could also polarize public opinion further.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-17T18:11:01.047488",
+          "token_usage": {
+            "prompt_tokens": 297,
+            "completion_tokens": 371,
+            "total_tokens": 668
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_2_1763402978",
+          "title": "491,000 Japan-bound air tickets cancelled as China warns people to avoid travel - South China Morning Post",
+          "description": "491,000 Japan-bound air tickets cancelled as China warns people to avoid travel\u00a0\u00a0South China Morning PostAiming to Shock Japan, China Pushes a Wave of Reprisals\u00a0\u00a0The New York TimesJapan's new leader's remarks on threats toward Taiwan spark tensions with China\u00a0\u00a0NPRJapan\u2019s Takaichi Has Few Good Options to End China\u2019s Retaliation\u00a0\u00a0Bloomberg.comJapan says warplanes scrambled as Chinese drone detected near southern island close to Taiwan\u00a0\u00a0CBS News",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQMTZQdTU0R001Vkh0QWR1dUhwRWx5el9pSWpEekZvRXBnX3pGUHpNbEtqTHZSdDhHSkxYUEdxU3A4NnNLcGFLdDdMWFlyYVl1emVkalNyRzZoTThrMXJxaEJnek9HTENzR09tSHB3aHgxZFVseVR2OURXUUQzUWE0QUxaVHNQYmVSYXNHbzg0T1ZBTGpXQWpQVmJiSHJrTkJHR3BzVmNlclhJTHpSWXFpaGJTdEdYMDFBS3VDMUlVdm5GcGd5ZDFtcWFuUFhodVZLWHc4RTllRlBWQdIB2gFBVV95cUxQYTVNR2Z3SnNXaWVjaktPeGlJZGxUc2ZSZ2liVlhVXzdndXNZbGZvQlQ5Nl8tYklkY3k4NXpoVUZWeXdpSkNpQmxtbjctRVd5VDFTdENDX01CQXIzR282dmpOSThTWHZsRWp3YjVGZ3BydFlITnFqYzN1cmxVcmZOcFJnVzY1WE9nWTdDa1lBVGRad2NQMHFNempxTU0tWnZpZ2Zxd2psZl9aU004bzZOS2dWdkhDMXhEcmtyTUwyYjV6SXNRRldOMmo4YkNJTm9RQW9UUl9zRXNMQQ?oc=5",
+          "source": "South China Morning Post",
+          "published": "Mon, 17 Nov 2025 09:32:07 GMT",
+          "topic": "WORLD",
+          "fetched_at": "2025-11-17T18:09:38.627523"
+        },
+        "analysis": {
+          "summary": "China's warning to avoid travel to Japan and subsequent cancellations of 491,000 Japan-bound air tickets have heightened tensions between the two countries, reflecting China's retaliatory stance against Japan's new leadership's remarks on threats to Taiwan.",
+          "key_points": [
+            "China's travel warning to Japan leads to a significant number of flight cancellations.",
+            "The incident is part of a broader pattern of retaliatory actions by China in response to perceived threats or actions by Japan, particularly regarding Taiwan.",
+            "Japan's scrambling of warplanes indicates a military response, suggesting escalating tensions."
+          ],
+          "sentiment": "negative",
+          "confidence": "high",
+          "bias_check": "The article may portray China and Japan's actions in an adversarial light, emphasizing conflict rather than diplomatic nuances or efforts at resolution.",
+          "missing_context": "The article lacks details on the specific nature of the new Japan leadership's remarks, the context of China's travel warning, and whether there have been previous instances of such tensions.",
+          "implications": "This situation could worsen diplomatic relations between China and Japan, leading to further retaliatory measures and increased regional instability. It also highlights the sensitivity of the Taiwan issue and its impact on international travel and diplomacy.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-17T18:11:08.024390",
+          "token_usage": {
+            "prompt_tokens": 299,
+            "completion_tokens": 262,
+            "total_tokens": 561
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_3_1763402978",
+          "title": "UN to vote on Gaza stabilisation force plan that references Palestinian state - The Guardian",
+          "description": "UN to vote on Gaza stabilisation force plan that references Palestinian state\u00a0\u00a0The GuardianLIVE: Hamas rejects \u2018foreign guardianship\u2019 of Gaza ahead of UNSC vote\u00a0\u00a0Al JazeeraUN is set to vote on the US plan for next steps in Gaza but it may all come down to Russia\u00a0\u00a0KSATUN Security Council to vote on Trump peace plan for Gaza\u00a0\u00a0BBCIsrael-Gaza live updates: UN Security Council to vote on US Gaza plan\u00a0\u00a0abcnews.go.com",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQT1ZpZk8tUTZrNVJpUm4wb2NYR0FUMWVtVTIxR2I4Y2poYWc0Y21LdTFSN0R2M2E2RXRsZlNYSFJyM3JIcXVDZEMyNGx0U0hHQ2ViSGVLWFYtcnFtOGRDV2pEUFI1VjU0R0VwR3R3UjZkdHVNdWVvbU1uYWNkRmVSUWFoN295ZTdOVU5YYXZnVU1veGhVaFNiMHdaMFBpOW4zd29wN29kSUJ2VVE?oc=5",
+          "source": "The Guardian",
+          "published": "Mon, 17 Nov 2025 15:01:00 GMT",
+          "topic": "WORLD",
+          "fetched_at": "2025-11-17T18:09:38.627543"
+        },
+        "analysis": {
+          "summary": "The UN Security Council is considering the US proposal for a stabilisation force in Gaza, which implicitly acknowledges the existence of a Palestinian state, a plan that has faced resistance from Hamas who reject foreign guardianship. The outcome of the vote could be influenced by Russia's stance, with significant live updates expected from multiple news outlets.",
+          "key_points": [
+            "The US proposal for a Gaza stabilisation force includes implicit recognition of a Palestinian state, which is a contentious point.",
+            "Hamas opposes the plan, viewing it as foreign guardianship over Gaza.",
+            "The vote's success may hinge on Russia's position, indicating geopolitical influences on the decision.",
+            "The situation is being closely followed by international media, reflecting the global interest in the outcome."
+          ],
+          "sentiment": "Mixed",
+          "confidence": "High",
+          "bias_check": "The article may reflect Western perspectives, particularly US and British viewpoints, given the sources. The stance of Hamas and Russia might not be equally represented, leading to a potential bias.",
+          "missing_context": "The article does not provide details on the specifics of the US proposal or the objections raised by Hamas and Russia. The historical context of previous peace efforts and the current state of Israeli-Palestinian relations could also be important for a more comprehensive understanding.",
+          "implications": "The establishment of a Gaza stabilisation force could significantly impact the peace process and the balance of power in the region, with potential effects on humanitarian conditions and geopolitical alliances.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-17T18:11:23.610531",
+          "token_usage": {
+            "prompt_tokens": 290,
+            "completion_tokens": 318,
+            "total_tokens": 608
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_4_1763402978",
+          "title": "Polish railway track blast an 'unprecedented act of sabotage', PM says - Reuters",
+          "description": "Polish railway track blast an 'unprecedented act of sabotage', PM says\u00a0\u00a0ReutersPoland Says Rail Explosion Was \u2018Unprecedented Act of Sabotage\u2019\u00a0\u00a0The Wall Street JournalPoland rail explosion: PM says blast was 'unprecedented act of sabotage'\u00a0\u00a0BBCPolish train track that helped transport aid to Ukraine destroyed in \u2018act of sabotage,\u2019 prime minister says\u00a0\u00a0CNNForeign state services behind Polish rail sabotage, says minister \u2013 as it happened\u00a0\u00a0The Guardian",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQVkdXTDlkX1NhcmlTSWQyQ3VkaFN6VTdFdFB3MmhVMlR4TzhPMkRPZ0t3T2xRZFNjY1FQWGZCUWRBbDRaVlllaV85TVJNMlhsTGE5emtZWXpOTGwwV0c1RjlPSnB5Y3M2clFCMERFbmpRc1JRTmxsQ3E0X09Lckl6MzBDSjJBU3lxbXNfMV9UbmFHUTV4c1JuRk5lYlphemtISDZtbnhR?oc=5",
+          "source": "Reuters",
+          "published": "Mon, 17 Nov 2025 16:00:41 GMT",
+          "topic": "WORLD",
+          "fetched_at": "2025-11-17T18:09:38.627582"
+        },
+        "analysis": {
+          "summary": "The Polish Prime Minister declared the destruction of a railway track, which was aiding Ukraine, as an 'unprecedented act of sabotage'. Various international news outlets cover the incident, suggesting the involvement of foreign state services. The explosion has halted crucial aid transportation, raising concerns about security and regional stability.",
+          "key_points": [
+            "The Polish Prime Minister labeled the railway track blast as an 'unprecedented act of sabotage'.",
+            "The incident disrupted the transportation of aid to Ukraine.",
+            "Multiple international news sources link the sabotage to foreign state involvement."
+          ],
+          "sentiment": "negative",
+          "confidence": "high",
+          "bias_check": "News articles may carry inherent biases depending on the outlet's political leanings, their connections, or national perspectives. The attribution of sabotage to foreign state services may also reflect geopolitical biases.",
+          "missing_context": "Details on the specific security measures in place to protect railway infrastructure, the historical context of Ukraine-Poland relations, and the immediate response from the Ukrainian government or other relevant entities might be missing.",
+          "implications": "The incident potentially jeopardizes regional security, affects international relations, and highlights the vulnerability of critical infrastructure to sabotage. It could also influence the political dynamics between Ukraine and Poland, as well as broader geopolitical tensions. The disruption of aid to Ukraine may have humanitarian implications, especially during wartime.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-17T18:11:31.194129",
+          "token_usage": {
+            "prompt_tokens": 288,
+            "completion_tokens": 290,
+            "total_tokens": 578
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_0_1763402978",
+          "title": "Novo Nordisk cuts Wegovy price as CEO pledges to go 'all in' on weight loss pill - Reuters",
+          "description": "Novo Nordisk cuts Wegovy price as CEO pledges to go 'all in' on weight loss pill\u00a0\u00a0ReutersNovo Nordisk further lowers prices for weight loss, diabetes drugs for those who pay cash\u00a0\u00a0CNNCash price for popular weight loss drug Wegovy dropping 30% Monday, manufacturer says\u00a0\u00a0abcnews.go.comNovo Nordisk cuts direct-to-consumer prices for Wegovy, Ozempic to $349 a month\u00a0\u00a0CNBCNovo Undercuts Lilly\u2019s Obesity Drug Price for Cash-Pay in US\u00a0\u00a0Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPVkZPUTd3WVpyYkZOc2NtN096Q243M2U0ZEJ3R2JfS1F5ckliQV9vX2FXQ3Z0Rng2Mjl1OUZhMWtEZ0F0NXJmLXBrbGR0UVpfWHl3bDI1b3hxaWduUlpNMEliTXRFSFp4d1BjSEpPYkVVd0V4X2lGR1ZBam1iOHA4NS1QZElaSEF0R1ppajdVRGV3ZEwySGpXRkJNaGdzRU10QzJhT3ZaZnhDWm1uS3ZrTVY3VlZzRVBiMGZ5d1JQNjViY0JBRnotYThLMXg0RmwyZk5UNUpHRFdlWm00dEww?oc=5",
+          "source": "Reuters",
+          "published": "Mon, 17 Nov 2025 17:13:56 GMT",
+          "topic": "BUSINESS",
+          "fetched_at": "2025-11-17T18:09:38.726418"
+        },
+        "analysis": {
+          "summary": "Novo Nordisk reduced the price of its weight loss drug Wegovy by 30%, with the CEO committing to a focused effort on promoting the drug. The price cut represents a significant shift in strategy for the company, aiming to make the drug more accessible and to compete more effectively in the market for diabetes and weight loss medications.",
+          "key_points": [
+            "Novo Nordisk slashes Wegovy price by 30%, making it $349/month.",
+            "CEO's pledge to 'go all in' on promoting Wegovy as a weight loss solution.",
+            "The price reduction is a competitive move in the diabetes and weight loss drug market."
+          ],
+          "sentiment": "Positive",
+          "confidence": "High",
+          "bias_check": "The article may have a promotional bias by focusing on the price reduction and CEO's commitment without discussing potential challenges or criticisms from the market or patients.",
+          "missing_context": "The financial impact on Novo Nordisk's revenue and profit margins, the competitive landscape of diabetes and weight loss medications, and the potential side effects or risks associated with Wegovy.",
+          "implications": "The price cut by Novo Nordisk could increase Wegovy's accessibility and usage, potentially driving higher sales volumes and market share. This decision may also pressure competitors to adjust their pricing strategies, leading to broader market changes. However, it might also raise concerns about the cost-effectiveness of new medications and the sustainability of such pricing strategies in the long term.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-17T18:11:39.267086",
+          "token_usage": {
+            "prompt_tokens": 311,
+            "completion_tokens": 311,
+            "total_tokens": 622
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_1_1763402978",
+          "title": "'Does not feel like a cycle-peak': Bernstein says bitcoin's 25% slide reflects short-term correction - theblock.co",
+          "description": "'Does not feel like a cycle-peak': Bernstein says bitcoin's 25% slide reflects short-term correction\u00a0\u00a0theblock.coBitcoin Humbles Wall Street Faithful After $600 Billion Plunge\u00a0\u00a0Bloomberg.comBitcoin Crashes to Six-Month Low as Panic Spreads: \u201cWe Haven\u2019t Hit Bottom Yet\u201d\u00a0\u00a0Yahoo FinanceBitcoin bear market could deepen further as liquidity worries take hold\u00a0\u00a0CNBC3 reasons bitcoin is on the brink of wiping out its gains for the year\u00a0\u00a0Business Insider",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5WMjVFTDFud0QyTHJFVjlUcklYODlIQ3pRMmFEVEZtWjJhQnUtSTRiaVNjQ1hhQlRpTWM0aEdCdG5KS2ljMlNxTlFzMjhmbUlfTDR4Z09Bd3ppemR6QmFTUWZGU3lpWE0xaVN3a01Jc2lZZ9IBd0FVX3lxTE5tMGMxVmZoYmhDS2NkRl9MMkdFc2hWVzEzb0xxMWxfZzR3Rmtmb1pLU1pWb0RETlZOYWZjaHVndUMtckJQaVdQODRuLVNMRDRDOTRCenhFR1FPLTZJR19KRVR5RXhhdllTb1RQd3ptcmd1ZWN4OUpj?oc=5",
+          "source": "theblock.co",
+          "published": "Mon, 17 Nov 2025 10:28:41 GMT",
+          "topic": "BUSINESS",
+          "fetched_at": "2025-11-17T18:09:38.726447"
+        },
+        "analysis": {
+          "summary": "Arvind Krishnamurthy, a notable economist, suggests that the recent 25% drop in Bitcoin's value is a short-term correction rather than a peak in the cycle, indicating that the cryptocurrency market may still have room to recover. This perspective could be a silver lining for investors hoping to buy Bitcoin at lower prices.",
+          "key_points": [
+            "Arvind Krishnamurthy downplays the significance of Bitcoin's 25% decline, viewing it as a temporary correction.",
+            "The market's reaction seems to contradict the bullish sentiment from influential figures like Krishnamurthy.",
+            "Investor sentiment appears to be shifting, with concerns over liquidity and potential further declines."
+          ],
+          "sentiment": "Mixed",
+          "confidence": "High",
+          "bias_check": "The article may present Krishnamurthy's bullish view as uncommon, potentially overlooking the fact that some prominent economists have also expressed concerns over Bitcoin's volatility. Additionally, the title may create a bias by suggesting that the 25% drop is not typical for a cycle peak.",
+          "missing_context": "The article does not discuss alternative perspectives from other economists or investors who may view the 25% decline as a significant downturn. It also lacks context on the specific factors causing the current slide, such as regulatory news, market sentiment, or liquidity issues.",
+          "implications": "If Krishnamurthy's perspective is correct, investors might view the current downturn as an opportunity to buy Bitcoin at a lower price, potentially leading to a rebound. However, if the decline continues, it could signal a deeper market correction or bearish trend, affecting investor confidence and market dynamics.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-17T18:11:48.444965",
+          "token_usage": {
+            "prompt_tokens": 306,
+            "completion_tokens": 352,
+            "total_tokens": 658
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_2_1763402978",
+          "title": "Stocks waver to start the week; Alphabet rises on Berkshire stake: Live updates - CNBC",
+          "description": "Stocks waver to start the week; Alphabet rises on Berkshire stake: Live updates\u00a0\u00a0CNBCStock market today: Nasdaq, S&P 500 futures wobble as investors look ahead to Nvidia earnings, jobs report\u00a0\u00a0Yahoo FinanceWall Street fluctuates ahead of Nvidia results, government data\u00a0\u00a0ReutersStock Market Today: Dow Falls; Google Parent Alphabet Rallies; Bitcoin Price Ticks Up \u2014 Live Updates\u00a0\u00a0The Wall Street JournalU.S. stocks slip lower; key economic data, Nvidia earnings in focus\u00a0\u00a0Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5HWlFIYTA2QUN3eThpSDVLNm9FcWJxcXpGeDV2OHRZZk50LU5weDBEX1NmRGM1NGptZGk3aEZyeEtGWFBuaTJZNVVYSjNfOVpuTlA1ZUkxTHY0TEFaeHd3SWJUaUJNWVE5VFJ1UUV1VnVXR2EtSG9n0gF8QVVfeXFMTzAzSnlwZEhoaXd3RDNWd1JlQzRpSUM5cTgxQ1BVN0lnSEx6czFxeE11YXQ4VVBNSGFRZUgyT2Q3NFhFenRxMDk1SmtUUGFOeVdLUm9McmFLWlMzWk1yY3VWeFF1UXBUZV9xcm1sVy0zUzg3OEpjNlJ4cEs5Mw?oc=5",
+          "source": "CNBC",
+          "published": "Mon, 17 Nov 2025 17:50:00 GMT",
+          "topic": "BUSINESS",
+          "fetched_at": "2025-11-17T18:09:38.726473"
+        },
+        "analysis": {
+          "summary": "The stock market experiences volatility as investors await Nvidia earnings and government data, with Alphabet Inc. (Google) showing gains due to a Berkshire Hathaway stake. Key indices like the Dow and Nasdaq show mixed reactions, while Bitcoin experiences a rise.",
+          "key_points": [
+            "Alphabet Inc. stock rises due to Berkshire Hathaway's stake.",
+            "Market volatility as investors anticipate Nvidia earnings and government job report.",
+            "Nasdaq and Dow show mixed reactions ahead of key economic data release."
+          ],
+          "sentiment": "Mixed",
+          "confidence": "High",
+          "bias_check": "The article may emphasize market movements without sufficient context on the broader economic indicators' potential impact. It also focuses on specific stocks, which may not represent the overall market sentiment.",
+          "missing_context": "The article could benefit from more detailed information on the specific reasons behind the rise in Alphabet Inc. stock and the potential impact of Nvidia's earnings report on the tech sector. Additionally, a broader economic outlook or expert opinions on these developments might provide more insight.",
+          "implications": "The rise in Alphabet Inc.'s stock due to Berkshire Hathaway's stake could indicate investor confidence in Google's long-term prospects. The market's reaction to Nvidia's earnings and government data could influence tech stocks and the broader market, potentially affecting investor strategies and sentiment.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-17T18:11:55.550556",
+          "token_usage": {
+            "prompt_tokens": 301,
+            "completion_tokens": 280,
+            "total_tokens": 581
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_3_1763402978",
+          "title": "Sinclair Takes Stake in E.W. Scripps to Push Takeover Deal - The Wall Street Journal",
+          "description": "Sinclair Takes Stake in E.W. Scripps to Push Takeover Deal\u00a0\u00a0The Wall Street JournalSinclair Reveals Merger Talks With E.W. Scripps In Latest Shakeup Of Local TV Sector\u00a0\u00a0DeadlineE.W. Scripps stock surges 40% after Sinclair takes stake, pushes for a merger\u00a0\u00a0CNBCSinclair takes 8.2% stake in Scripps amid takeover push\u00a0\u00a0AxiosBroadcaster Sinclair acquires stake in Cincinnati's E.W. Scripps, mulls merger\u00a0\u00a0Cincinnati Enquirer",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNOWpoOGNYNHlvTmFkcktLQW84S2tJZ04yZXRIRER3b3lab1hFNldsMkxaeHlhbjA0eG5oazY3dVNpZ1lVZkVpd19xR2pzNXRuTU1QclhpdHJ5MTJzWi10ODhoUkZkcjJjUWZfR2o1b2ZxbkpXbHRPUTlwYkpoSVRoYklISktwUHZiVVlPbGZsekVrTWZ4NUtwMzFoVDlNTkdfdDVR?oc=5",
+          "source": "The Wall Street Journal",
+          "published": "Mon, 17 Nov 2025 11:22:00 GMT",
+          "topic": "BUSINESS",
+          "fetched_at": "2025-11-17T18:09:38.726496"
+        },
+        "analysis": {
+          "summary": "{\n  \"summary\": \"Sinclair Broadcast Group has acquired an 8.2% stake in E.W. Scripps Company, which has led to a surge in E.W. Scripps stock by 40% and raised expectations of a potential merger. This strategic move is part of Sinclair's aggressive expansion in the local TV sector, aiming to strengthe",
+          "key_points": [
+            "{\n  \"summary\": \"Sinclair Broadcast Group has acquired an 8.2% stake in E.W. Scripps Company, which has led to a surge in E.W. Scripps stock by 40% and raised expectations of a potential merger. This strategic move is part of Sinclair's aggressive expansion in the local TV sector, aiming to strengthen its market dominance.\"\n\n  \"key_points\": [\n    \"Sinclair's acquisition of an 8.2% stake in E.W. Scripps is a significant development in the consolidation of the local TV sector.\",\n    \"E.W. Scripps stock surged by 40% following the announcement, indicating investor optimism and confidence in the potential merger.\",\n    \"The takeover talk signals a larger trend of media companies seeking to consolidate to enhance market power and leverage synergies.\"\n  ]\n\n  \"sentiment\": \"Mixed\",\n\n  \"confidence\": \"High\",\n\n  \"bias_check\": \"Potential biases may include Sinclair's perspective on the acquisition and merger, which could be seen as strategic and beneficial. E.W. Scripps' and the market's reactions, while mentioned, may not fully capture the broader industry sentiment or potential downsides of the takeover.\"\n\n  \"missing_context\": \"Important context might include previous attempts or communications from E.W. Scripps regarding merger talks, any opposition from regulatory bodies, employee reactions, and how this acquisition fits into Sinclair's broader strategic goals. Additionally, the long-term implications for content diversity and competition in the local TV market may be underexplored.\"\n\n  \"implications\": \"The broader implications of this story could include increased market concentration in the local TV sector, potential challenges for content diversity, and the influence of large media conglomerates on local journalism. There may also be regulatory scrutiny and a reassessment of antitrust concerns. This development could further drive consolidation trends, possibly leading to fewer voices and viewpoints available to local audiences.\"\n}"
+          ],
+          "sentiment": "neutral",
+          "confidence": "medium",
+          "bias_check": "Unable to parse structured response",
+          "missing_context": "",
+          "implications": "",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-17T18:12:05.564933",
+          "token_usage": {
+            "prompt_tokens": 312,
+            "completion_tokens": 396,
+            "total_tokens": 708
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_4_1763402978",
+          "title": "Jeff Bezos reportedly returns to the trenches as co-CEO of new AI startup, Project Prometheus - TechCrunch",
+          "description": "Jeff Bezos reportedly returns to the trenches as co-CEO of new AI startup, Project Prometheus\u00a0\u00a0TechCrunchJeff Bezos Creates A.I. Start-Up Where He Will Be Co-Chief Executive\u00a0\u00a0The New York TimesJeff Bezos to co-lead AI startup in first operational role since Amazon, NYT reports\u00a0\u00a0Yahoo FinanceJeff Bezos reportedly launches new AI startup with himself as CEO\u00a0\u00a0The GuardianHere Are The Billion-Dollar AI Deals Fueling A New Industry\u2014And Possibly A Bubble (List)\u00a0\u00a0Forbes",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQZ195TTdWa29hMXpvcmJTUWdVZnBOLXFUZkE3amtnV0VkNWFTcVlYZWlPWTJ6RHNwZUk5aDQwZnFsem43V1hkeS1LaDJHVW9ncTBTN3k3Zy1ENm1fNUo5ZVhaWTdBM2o4Z3NIR1Z6Z1FUaDJ3emY5NWZjc2hwcHN2a1lnXzhncXdYUnhmZ3JqRk1RYjFlLXF6cTBLZ0dBNElwZ1hwVVRUVEVqbUQwX1Z0ZEQzcmhDazRvSUp1S1o4b2dNaVN3bFE?oc=5",
+          "source": "TechCrunch",
+          "published": "Mon, 17 Nov 2025 14:33:30 GMT",
+          "topic": "BUSINESS",
+          "fetched_at": "2025-11-17T18:09:38.726515"
+        },
+        "analysis": {
+          "summary": "TechCrunch reports that Jeff Bezos is joining Project Prometheus, an AI startup, as co-CEO, marking his return to a CEO role after leaving Amazon. This move is seen as significant given Bezos's history in tech leadership and the potential influence on the burgeoning AI industry.",
+          "key_points": [
+            "Jeff Bezos stepping back into a CEO role with his new AI startup, Project Prometheus.",
+            "The move may signal Amazon's strategic shift or Bezos's personal interest in advancing AI technology.",
+            "Project Prometheus's success could have significant implications for the AI industry's growth and direction."
+          ],
+          "sentiment": "Mixed",
+          "confidence": "High",
+          "bias_check": "The article may portray Bezos's move as pioneering and beneficial for the AI industry without considering potential challenges or controversies. There's also an implicit positive bias towards Bezos's leadership capabilities and their impact on the startup's success.",
+          "missing_context": "Details about Project Prometheus's current stage of development, its funding, product offerings, and specific roles of Bezos and his co-CEOs. Information on the competitive landscape of the AI industry and how this new venture positions against established players. Bezos's motivations for returning to a CEO role after Amazon.",
+          "implications": "Bezos's involvement in Project Prometheus could accelerate the startup's growth and attract further investments in the AI sector. It might also lead to increased competition and innovation within the industry. However, it could raise concerns about market concentration and the influence of major tech figures on the direction of emerging technologies.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-17T18:12:14.181133",
+          "token_usage": {
+            "prompt_tokens": 302,
+            "completion_tokens": 328,
+            "total_tokens": 630
           }
         }
       }
@@ -510,19 +506,19 @@
     "articles_analyzed": 15
   },
   "costs": {
-    "execution_time": 183.84339356422424,
-    "execution_minutes": 3.0640565594037374,
-    "github_actions": 0.0245124524752299,
+    "execution_time": 136.73263478279114,
+    "execution_minutes": 2.278877246379852,
+    "github_actions": 0.018231017971038817,
     "openai": {
-      "input": 0.00065865,
-      "output": 0.0026628,
-      "total": 0.00332145
+      "input": 0.0006546,
+      "output": 0.0028086,
+      "total": 0.0034632
     },
-    "total": 0.0278339024752299,
+    "total": 0.021694217971038817,
     "token_usage": {
-      "prompt_tokens": 4391,
-      "completion_tokens": 4438,
-      "total_tokens": 8829
+      "prompt_tokens": 4364,
+      "completion_tokens": 4681,
+      "total_tokens": 9045
     }
   }
 }
