@@ -1,241 +1,249 @@
 {
   "agent": "agent-a-paper-fetcher",
-  "timestamp": "2025-11-17T09:04:15.982940",
+  "timestamp": "2025-11-18T09:03:16.108058",
   "status": "completed",
   "data": {
     "papers": [
       {
-        "id": "2511.11571v1",
-        "title": "Optimizing Mixture of Block Attention",
+        "id": "2511.13719v1",
+        "title": "Scaling Spatial Intelligence with Multimodal Foundation Models",
         "authors": [
-          "Guangxuan Xiao",
-          "Junxian Guo",
-          "Kasra Mazaheri",
-          "Song Han"
+          "Zhongang Cai",
+          "Ruisi Wang",
+          "Chenyang Gu",
+          "Fanyi Pu",
+          "Junxiang Xu"
         ],
-        "abstract": "Mixture of Block Attention (MoBA) (Lu et al., 2025) is a promising building block for efficiently processing long contexts in LLMs by enabling queries to sparsely attend to a small subset of key-value blocks, drastically reducing computational cost. However, the design principles governing MoBA's performance are poorly understood, and it lacks an efficient GPU implementation, hindering its practical adoption. In this paper, we first develop a statistical model to analyze MoBA's underlying mechan...",
-        "published": "2025-11-14T18:59:59Z",
-        "updated": "2025-11-14T18:59:59Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.11571v1",
-        "abs_url": "https://arxiv.org/abs/2511.11571v1",
-        "categories": [
-          "cs.LG",
-          "cs.CL"
-        ],
-        "primary_category": "cs.LG"
-      },
-      {
-        "id": "2511.11569v1",
-        "title": "Private Frequency Estimation Via Residue Number Systems",
-        "authors": [
-          "H\u00e9ber H. Arcolezi"
-        ],
-        "abstract": "We present \\textsf{ModularSubsetSelection} (MSS), a new algorithm for locally differentially private (LDP) frequency estimation. Given a universe of size $k$ and $n$ users, our $\\varepsilon$-LDP mechanism encodes each input via a Residue Number System (RNS) over $\\ell$ pairwise-coprime moduli $m_0, \\ldots, m_{\\ell-1}$, and reports a randomly chosen index $j \\in [\\ell]$ along with the perturbed residue using the statistically optimal \\textsf{SubsetSelection}~(SS) (Wang et al. 2016). This design r...",
-        "published": "2025-11-14T18:58:41Z",
-        "updated": "2025-11-14T18:58:41Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.11569v1",
-        "abs_url": "https://arxiv.org/abs/2511.11569v1",
-        "categories": [
-          "cs.CR",
-          "cs.AI"
-        ],
-        "primary_category": "cs.CR"
-      },
-      {
-        "id": "2511.11564v1",
-        "title": "Estimating Total Effects in Bipartite Experiments with Spillovers and Partial Eligibility",
-        "authors": [
-          "Albert Tan",
-          "Mohsen Bayati",
-          "James Nordlund",
-          "Roman Istomin"
-        ],
-        "abstract": "We study randomized experiments in bipartite systems where only a subset of treatment-side units are eligible for assignment while all units continue to interact, generating interference. We formalize eligibility-constrained bipartite experiments and define estimands aligned with full deployment: the Primary Total Treatment Effect (PTTE) on eligible units and the Secondary Total Treatment Effect (STTE) on ineligible units. Under randomization within the eligible set, we give identification condi...",
-        "published": "2025-11-14T18:55:51Z",
-        "updated": "2025-11-14T18:55:51Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.11564v1",
-        "abs_url": "https://arxiv.org/abs/2511.11564v1",
-        "categories": [
-          "stat.ME",
-          "cs.LG",
-          "stat.ML"
-        ],
-        "primary_category": "stat.ME"
-      },
-      {
-        "id": "2511.11562v1",
-        "title": "PRBench: Large-Scale Expert Rubrics for Evaluating High-Stakes Professional Reasoning",
-        "authors": [
-          "Afra Feyza Aky\u00fcrek",
-          "Advait Gosai",
-          "Chen Bo Calvin Zhang",
-          "Vipul Gupta",
-          "Jaehwan Jeong"
-        ],
-        "abstract": "Frontier model progress is often measured by academic benchmarks, which offer a limited view of performance in real-world professional contexts. Existing evaluations often fail to assess open-ended, economically consequential tasks in high-stakes domains like Legal and Finance, where practical returns are paramount. To address this, we introduce Professional Reasoning Bench (PRBench), a realistic, open-ended, and difficult benchmark of real-world problems in Finance and Law. We open-source its 1...",
-        "published": "2025-11-14T18:55:12Z",
-        "updated": "2025-11-14T18:55:12Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.11562v1",
-        "abs_url": "https://arxiv.org/abs/2511.11562v1",
-        "categories": [
-          "cs.CL",
-          "cs.CY"
-        ],
-        "primary_category": "cs.CL"
-      },
-      {
-        "id": "2511.11560v1",
-        "title": "A Unified Convergence Analysis for Semi-Decentralized Learning: Sampled-to-Sampled vs. Sampled-to-All Communication",
-        "authors": [
-          "Angelo Rodio",
-          "Giovanni Neglia",
-          "Zheng Chen",
-          "Erik G. Larsson"
-        ],
-        "abstract": "In semi-decentralized federated learning, devices primarily rely on device-to-device communication but occasionally interact with a central server. Periodically, a sampled subset of devices uploads their local models to the server, which computes an aggregate model. The server can then either (i) share this aggregate model only with the sampled clients (sampled-to-sampled, S2S) or (ii) broadcast it to all clients (sampled-to-all, S2A). Despite their practical significance, a rigorous theoretical...",
-        "published": "2025-11-14T18:53:37Z",
-        "updated": "2025-11-14T18:53:37Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.11560v1",
-        "abs_url": "https://arxiv.org/abs/2511.11560v1",
-        "categories": [
-          "cs.LG",
-          "cs.AI",
-          "cs.DC"
-        ],
-        "primary_category": "cs.LG"
-      },
-      {
-        "id": "2511.11558v1",
-        "title": "Human-AI collaborative autonomous synthesis with pulsed laser deposition for remote epitaxy",
-        "authors": [
-          "Asraful Haque",
-          "Daniel T. Yimam",
-          "Jawad Chowdhury",
-          "Ralph Bulanadi",
-          "Ivan Vlassiouk"
-        ],
-        "abstract": "Autonomous laboratories typically rely on data-driven decision-making, occasionally with human-in-the-loop oversight to inject domain expertise. Fully leveraging AI agents, however, requires tightly coupled, collaborative workflows spanning hypothesis generation, experimental planning, execution, and interpretation. To address this, we develop and deploy a human-AI collaborative (HAIC) workflow that integrates large language models for hypothesis generation and analysis, with collaborative polic...",
-        "published": "2025-11-14T18:48:52Z",
-        "updated": "2025-11-14T18:48:52Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.11558v1",
-        "abs_url": "https://arxiv.org/abs/2511.11558v1",
-        "categories": [
-          "cond-mat.mtrl-sci",
-          "cs.AI"
-        ],
-        "primary_category": "cond-mat.mtrl-sci"
-      },
-      {
-        "id": "2511.11553v1",
-        "title": "Multistability of Self-Attention Dynamics in Transformers",
-        "authors": [
-          "Claudio Altafini"
-        ],
-        "abstract": "In machine learning, a self-attention dynamics is a continuous-time multiagent-like model of the attention mechanisms of transformers. In this paper we show that such dynamics is related to a multiagent version of the Oja flow, a dynamical system that computes the principal eigenvector of a matrix corresponding for transformers to the value matrix. We classify the equilibria of the ``single-head'' self-attention system into four classes: consensus, bipartite consensus, clustering and polygonal e...",
-        "published": "2025-11-14T18:45:22Z",
-        "updated": "2025-11-14T18:45:22Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.11553v1",
-        "abs_url": "https://arxiv.org/abs/2511.11553v1",
-        "categories": [
-          "cs.LG",
-          "eess.SY",
-          "math.DS"
-        ],
-        "primary_category": "cs.LG"
-      },
-      {
-        "id": "2511.11552v1",
-        "title": "DocLens : A Tool-Augmented Multi-Agent Framework for Long Visual Document Understanding",
-        "authors": [
-          "Dawei Zhu",
-          "Rui Meng",
-          "Jiefeng Chen",
-          "Sujian Li",
-          "Tomas Pfister"
-        ],
-        "abstract": "Comprehending long visual documents, where information is distributed across extensive pages of text and visual elements, is a critical but challenging task for modern Vision-Language Models (VLMs). Existing approaches falter on a fundamental challenge: evidence localization. They struggle to retrieve relevant pages and overlook fine-grained details within visual elements, leading to limited performance and model hallucination. To address this, we propose DocLens, a tool-augmented multi-agent fr...",
-        "published": "2025-11-14T18:42:18Z",
-        "updated": "2025-11-14T18:42:18Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.11552v1",
-        "abs_url": "https://arxiv.org/abs/2511.11552v1",
+        "abstract": "Despite remarkable progress, multimodal foundation models still exhibit surprising deficiencies in spatial intelligence. In this work, we explore scaling up multimodal foundation models to cultivate spatial intelligence within the SenseNova-SI family, built upon established multimodal foundations including visual understanding models (i.e., Qwen3-VL and InternVL3) and unified understanding and generation models (i.e., Bagel). We take a principled approach to constructing high-performing and robu...",
+        "published": "2025-11-17T18:59:33Z",
+        "updated": "2025-11-17T18:59:33Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.13719v1",
+        "abs_url": "https://arxiv.org/abs/2511.13719v1",
         "categories": [
           "cs.CV",
-          "cs.CL"
+          "cs.AI",
+          "cs.LG",
+          "cs.MM",
+          "cs.RO"
         ],
         "primary_category": "cs.CV"
       },
       {
-        "id": "2511.11551v1",
-        "title": "Aligning Machiavellian Agents: Behavior Steering via Test-Time Policy Shaping",
+        "id": "2511.13714v1",
+        "title": "UnSAMv2: Self-Supervised Learning Enables Segment Anything at Any Granularity",
         "authors": [
-          "Dena Mujtaba",
-          "Brian Hu",
-          "Anthony Hoogs",
-          "Arslan Basharat"
+          "Junwei Yu",
+          "Trevor Darrell",
+          "XuDong Wang"
         ],
-        "abstract": "The deployment of decision-making AI agents presents a critical challenge in maintaining alignment with human values or guidelines while operating in complex, dynamic environments. Agents trained solely to achieve their objectives may adopt harmful behavior, exposing a key trade-off between maximizing the reward function and maintaining the alignment. For the pre-trained agents, ensuring alignment is particularly challenging, as retraining can be a costly and slow process. This is further compli...",
-        "published": "2025-11-14T18:42:18Z",
-        "updated": "2025-11-14T18:42:18Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.11551v1",
-        "abs_url": "https://arxiv.org/abs/2511.11551v1",
+        "abstract": "The Segment Anything Model (SAM) family has become a widely adopted vision foundation model, but its ability to control segmentation granularity remains limited. Users often need to refine results manually - by adding more prompts or selecting from pre-generated masks - to achieve the desired level of detail. This process can be ambiguous, as the same prompt may correspond to several plausible masks, and collecting dense annotations across all granularities is prohibitively expensive, making sup...",
+        "published": "2025-11-17T18:58:34Z",
+        "updated": "2025-11-17T18:58:34Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.13714v1",
+        "abs_url": "https://arxiv.org/abs/2511.13714v1",
         "categories": [
+          "cs.CV",
           "cs.AI",
-          "cs.CL"
+          "cs.LG"
         ],
-        "primary_category": "cs.AI"
+        "primary_category": "cs.CV"
       },
       {
-        "id": "2511.11539v1",
-        "title": "Generalizing Fair Clustering to Multiple Groups: Algorithms and Applications",
+        "id": "2511.13712v1",
+        "title": "From Black Box to Insight: Explainable AI for Extreme Event Preparedness",
         "authors": [
-          "Diptarka Chakraborty",
-          "Kushagra Chatterjee",
-          "Debarati Das",
-          "Tien-Long Nguyen"
+          "Kiana Vu",
+          "\u0130smet Sel\u00e7uk \u00d6zer",
+          "Phung Lai",
+          "Zheng Wu",
+          "Thilanka Munasinghe"
         ],
-        "abstract": "Clustering is a fundamental task in machine learning and data analysis, but it frequently fails to provide fair representation for various marginalized communities defined by multiple protected attributes -- a shortcoming often caused by biases in the training data. As a result, there is a growing need to enhance the fairness of clustering outcomes, ideally by making minimal modifications, possibly as a post-processing step after conventional clustering. Recently, Chakraborty et al. [COLT'25] in...",
-        "published": "2025-11-14T18:19:18Z",
-        "updated": "2025-11-14T18:19:18Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.11539v1",
-        "abs_url": "https://arxiv.org/abs/2511.11539v1",
+        "abstract": "As climate change accelerates the frequency and severity of extreme events such as wildfires, the need for accurate, explainable, and actionable forecasting becomes increasingly urgent. While artificial intelligence (AI) models have shown promise in predicting such events, their adoption in real-world decision-making remains limited due to their black-box nature, which limits trust, explainability, and operational readiness. This paper investigates the role of explainable AI (XAI) in bridging th...",
+        "published": "2025-11-17T18:57:15Z",
+        "updated": "2025-11-17T18:57:15Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.13712v1",
+        "abs_url": "https://arxiv.org/abs/2511.13712v1",
         "categories": [
-          "cs.LG"
+          "cs.LG",
+          "cs.AI"
         ],
         "primary_category": "cs.LG"
       },
       {
-        "id": "2511.11533v1",
-        "title": "Volumetric Ergodic Control",
+        "id": "2511.13710v1",
+        "title": "From Power to Precision: Learning Fine-grained Dexterity for Multi-fingered Robotic Hands",
         "authors": [
-          "Jueun Kwon",
-          "Max M. Sun",
-          "Todd Murphey"
+          "Jianglong Ye",
+          "Lai Wei",
+          "Guangqi Jiang",
+          "Changwei Jing",
+          "Xueyan Zou"
         ],
-        "abstract": "Ergodic control synthesizes optimal coverage behaviors over spatial distributions for nonlinear systems. However, existing formulations model the robot as a non-volumetric point, but in practice a robot interacts with the environment through its body and sensors with physical volume. In this work, we introduce a new ergodic control formulation that optimizes spatial coverage using a volumetric state representation. Our method preserves the asymptotic coverage guarantees of ergodic control, adds ...",
-        "published": "2025-11-14T18:10:40Z",
-        "updated": "2025-11-14T18:10:40Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.11533v1",
-        "abs_url": "https://arxiv.org/abs/2511.11533v1",
+        "abstract": "Human grasps can be roughly categorized into two types: power grasps and precision grasps. Precision grasping enables tool use and is believed to have influenced human evolution. Today's multi-fingered robotic hands are effective in power grasps, but for tasks requiring precision, parallel grippers are still more widely adopted. This contrast highlights a key limitation in current robotic hand design: the difficulty of achieving both stable power grasps and precise, fine-grained manipulation wit...",
+        "published": "2025-11-17T18:56:50Z",
+        "updated": "2025-11-17T18:56:50Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.13710v1",
+        "abs_url": "https://arxiv.org/abs/2511.13710v1",
         "categories": [
           "cs.RO",
-          "cs.AI"
+          "cs.AI",
+          "cs.LG"
         ],
         "primary_category": "cs.RO"
       },
       {
-        "id": "2511.11522v1",
-        "title": "CVChess: A Deep Learning Framework for Converting Chessboard Images to Forsyth-Edwards Notation",
+        "id": "2511.13705v1",
+        "title": "Rare Genomic Subtype Discovery from RNA-seq via Autoencoder Embeddings and Stability-Aware Clustering",
         "authors": [
-          "Luthira Abeykoon",
-          "Ved Patel",
-          "Gawthaman Senthilvelan",
-          "Darshan Kasundra"
+          "Alaa Mezghiche"
         ],
-        "abstract": "Chess has experienced a large increase in viewership since the pandemic, driven largely by the accessibility of online learning platforms. However, no equivalent assistance exists for physical chess games, creating a divide between analog and digital chess experiences. This paper presents CVChess, a deep learning framework for converting chessboard images to Forsyth-Edwards Notation (FEN), which is later input into online chess engines to provide you with the best next move. Our approach employs...",
-        "published": "2025-11-14T17:50:35Z",
-        "updated": "2025-11-14T17:50:35Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.11522v1",
-        "abs_url": "https://arxiv.org/abs/2511.11522v1",
+        "abstract": "Unsupervised learning on high-dimensional RNA-seq data can reveal molecular subtypes beyond standard labels. We combine an autoencoder-based representation with clustering and stability analysis to search for rare but reproducible genomic subtypes. On the UCI \"Gene Expression Cancer RNA-Seq\" dataset (801 samples, 20,531 genes; BRCA, COAD, KIRC, LUAD, PRAD), a pan-cancer analysis shows clusters aligning almost perfectly with tissue of origin (Cramer's V = 0.887), serving as a negative control. We...",
+        "published": "2025-11-17T18:53:43Z",
+        "updated": "2025-11-17T18:53:43Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.13705v1",
+        "abs_url": "https://arxiv.org/abs/2511.13705v1",
+        "categories": [
+          "cs.LG",
+          "q-bio.GN"
+        ],
+        "primary_category": "cs.LG"
+      },
+      {
+        "id": "2511.13703v1",
+        "title": "Generalist Foundation Models Are Not Clinical Enough for Hospital Operations",
+        "authors": [
+          "Lavender Y. Jiang",
+          "Angelica Chen",
+          "Xu Han",
+          "Xujin Chris Liu",
+          "Radhika Dua"
+        ],
+        "abstract": "Hospitals and healthcare systems rely on operational decisions that determine patient flow, cost, and quality of care. Despite strong performance on medical knowledge and conversational benchmarks, foundation models trained on general text may lack the specialized knowledge required for these operational decisions. We introduce Lang1, a family of models (100M-7B parameters) pretrained on a specialized corpus blending 80B clinical tokens from NYU Langone Health's EHRs and 627B tokens from the int...",
+        "published": "2025-11-17T18:52:22Z",
+        "updated": "2025-11-17T18:52:22Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.13703v1",
+        "abs_url": "https://arxiv.org/abs/2511.13703v1",
+        "categories": [
+          "cs.CL",
+          "cs.AI",
+          "cs.LG"
+        ],
+        "primary_category": "cs.CL"
+      },
+      {
+        "id": "2511.13702v1",
+        "title": "ST-ProC: A Graph-Prototypical Framework for Robust Semi-Supervised Travel Mode Identification",
+        "authors": [
+          "Luyao Niu",
+          "Nuoxian Huang"
+        ],
+        "abstract": "Travel mode identification (TMI) from GPS trajectories is critical for urban intelligence, but is hampered by the high cost of annotation, leading to severe label scarcity. Prevailing semi-supervised learning (SSL) methods are ill-suited for this task, as they suffer from catastrophic confirmation bias and ignore the intrinsic data manifold. We propose ST-ProC, a novel graph-prototypical multi-objective SSL framework to address these limitations. Our framework synergizes a graph-prototypical cor...",
+        "published": "2025-11-17T18:52:11Z",
+        "updated": "2025-11-17T18:52:11Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.13702v1",
+        "abs_url": "https://arxiv.org/abs/2511.13702v1",
+        "categories": [
+          "cs.LG",
+          "cs.AI"
+        ],
+        "primary_category": "cs.LG"
+      },
+      {
+        "id": "2511.13701v1",
+        "title": "Learning stochasticity: a nonparametric framework for intrinsic noise estimation",
+        "authors": [
+          "Gianluigi Pillonetto",
+          "Alberto Giaretta",
+          "Mauro Bisiacco"
+        ],
+        "abstract": "Understanding the principles that govern dynamical systems is a central challenge across many scientific domains, including biology and ecology. Incomplete knowledge of nonlinear interactions and stochastic effects often renders bottom-up modeling approaches ineffective, motivating the development of methods that can discover governing equations directly from data. In such contexts, parametric models often struggle without strong prior knowledge, especially when estimating intrinsic noise. Nonet...",
+        "published": "2025-11-17T18:52:05Z",
+        "updated": "2025-11-17T18:52:05Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.13701v1",
+        "abs_url": "https://arxiv.org/abs/2511.13701v1",
+        "categories": [
+          "cs.LG"
+        ],
+        "primary_category": "cs.LG"
+      },
+      {
+        "id": "2511.13699v1",
+        "title": "Efficient Calibration for Decision Making",
+        "authors": [
+          "Parikshit Gopalan",
+          "Konstantinos Stavropoulos",
+          "Kunal Talwar",
+          "Pranay Tankala"
+        ],
+        "abstract": "A decision-theoretic characterization of perfect calibration is that an agent seeking to minimize a proper loss in expectation cannot improve their outcome by post-processing a perfectly calibrated predictor. Hu and Wu (FOCS'24) use this to define an approximate calibration measure called calibration decision loss ($\\mathsf{CDL}$), which measures the maximal improvement achievable by any post-processing over any proper loss. Unfortunately, $\\mathsf{CDL}$ turns out to be intractable to even weakl...",
+        "published": "2025-11-17T18:52:00Z",
+        "updated": "2025-11-17T18:52:00Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.13699v1",
+        "abs_url": "https://arxiv.org/abs/2511.13699v1",
+        "categories": [
+          "cs.LG",
+          "cs.DS",
+          "stat.ML"
+        ],
+        "primary_category": "cs.LG"
+      },
+      {
+        "id": "2511.13689v1",
+        "title": "Crossing Borders: A Multimodal Challenge for Indian Poetry Translation and Image Generation",
+        "authors": [
+          "Sofia Jamil",
+          "Kotla Sai Charan",
+          "Sriparna Saha",
+          "Koustava Goswami",
+          "Joseph K J"
+        ],
+        "abstract": "Indian poetry, known for its linguistic complexity and deep cultural resonance, has a rich and varied heritage spanning thousands of years. However, its layered meanings, cultural allusions, and sophisticated grammatical constructions often pose challenges for comprehension, especially for non-native speakers or readers unfamiliar with its context and language. Despite its cultural significance, existing works on poetry have largely overlooked Indian language poems. In this paper, we propose the...",
+        "published": "2025-11-17T18:41:16Z",
+        "updated": "2025-11-17T18:41:16Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.13689v1",
+        "abs_url": "https://arxiv.org/abs/2511.13689v1",
+        "categories": [
+          "cs.CL",
+          "cs.CV"
+        ],
+        "primary_category": "cs.CL"
+      },
+      {
+        "id": "2511.13685v1",
+        "title": "Protein Secondary Structure Prediction Using 3D Graphs and Relation-Aware Message Passing Transformers",
+        "authors": [
+          "Disha Varshney",
+          "Samarth Garg",
+          "Sarthak Tyagi",
+          "Deeksha Varshney",
+          "Nayan Deep"
+        ],
+        "abstract": "In this study, we tackle the challenging task of predicting secondary structures from protein primary sequences, a pivotal initial stride towards predicting tertiary structures, while yielding crucial insights into protein activity, relationships, and functions. Existing methods often utilize extensive sets of unlabeled amino acid sequences. However, these approaches neither explicitly capture nor harness the accessible protein 3D structural data, which is recognized as a decisive factor in dict...",
+        "published": "2025-11-17T18:39:13Z",
+        "updated": "2025-11-17T18:39:13Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.13685v1",
+        "abs_url": "https://arxiv.org/abs/2511.13685v1",
+        "categories": [
+          "cs.LG",
+          "cs.AI"
+        ],
+        "primary_category": "cs.LG"
+      },
+      {
+        "id": "2511.13684v1",
+        "title": "Training-Free Multi-View Extension of IC-Light for Textual Position-Aware Scene Relighting",
+        "authors": [
+          "Jiangnan Ye",
+          "Jiedong Zhuang",
+          "Lianrui Mu",
+          "Wenjie Zheng",
+          "Jiaqi Hu"
+        ],
+        "abstract": "We introduce GS-Light, an efficient, textual position-aware pipeline for text-guided relighting of 3D scenes represented via Gaussian Splatting (3DGS). GS-Light implements a training-free extension of a single-input diffusion model to handle multi-view inputs. Given a user prompt that may specify lighting direction, color, intensity, or reference objects, we employ a large vision-language model (LVLM) to parse the prompt into lighting priors. Using off-the-shelf estimators for geometry and seman...",
+        "published": "2025-11-17T18:37:41Z",
+        "updated": "2025-11-17T18:37:41Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.13684v1",
+        "abs_url": "https://arxiv.org/abs/2511.13684v1",
         "categories": [
           "cs.CV",
           "cs.LG"
@@ -243,65 +251,68 @@
         "primary_category": "cs.CV"
       },
       {
-        "id": "2511.11519v1",
-        "title": "Experience-Guided Adaptation of Inference-Time Reasoning Strategies",
+        "id": "2511.13680v1",
+        "title": "Cross-Learning from Scarce Data via Multi-Task Constrained Optimization",
         "authors": [
-          "Adam Stein",
-          "Matthew Trager",
-          "Benjamin Bowman",
-          "Michael Kleinman",
-          "Aditya Chattopadhyay"
+          "Leopoldo Agorio",
+          "Juan Cervi\u00f1o",
+          "Miguel Calvo-Fullana",
+          "Alejandro Ribeiro",
+          "Juan Andr\u00e9s Bazerque"
         ],
-        "abstract": "Enabling agentic AI systems to adapt their problem-solving approaches based on post-training interactions remains a fundamental challenge. While systems that update and maintain a memory at inference time have been proposed, existing designs only steer the system by modifying textual input to a language model or agent, which means that they cannot change sampling parameters, remove tools, modify system prompts, or switch between agentic and workflow paradigms. On the other hand, systems that ada...",
-        "published": "2025-11-14T17:45:28Z",
-        "updated": "2025-11-14T17:45:28Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.11519v1",
-        "abs_url": "https://arxiv.org/abs/2511.11519v1",
+        "abstract": "A learning task, understood as the problem of fitting a parametric model from supervised data, fundamentally requires the dataset to be large enough to be representative of the underlying distribution of the source. When data is limited, the learned models fail generalize to cases not seen during training. This paper introduces a multi-task \\emph{cross-learning} framework to overcome data scarcity by jointly estimating \\emph{deterministic} parameters across multiple, related tasks. We formulate ...",
+        "published": "2025-11-17T18:35:59Z",
+        "updated": "2025-11-17T18:35:59Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.13680v1",
+        "abs_url": "https://arxiv.org/abs/2511.13680v1",
         "categories": [
-          "cs.AI",
-          "cs.LG"
-        ],
-        "primary_category": "cs.AI"
-      },
-      {
-        "id": "2511.11518v1",
-        "title": "W2S-AlignTree: Weak-to-Strong Inference-Time Alignment for Large Language Models via Monte Carlo Tree Search",
-        "authors": [
-          "Zhenyu Ding",
-          "Yuhao Wang",
-          "Tengyue Xiao",
-          "Haoying Wang",
-          "Guojun Ma"
-        ],
-        "abstract": "Large Language Models (LLMs) demonstrate impressive capabilities, yet their outputs often suffer from misalignment with human preferences due to the inadequacy of weak supervision and a lack of fine-grained control. Training-time alignment methods like Reinforcement Learning from Human Feedback (RLHF) face prohibitive costs in expert supervision and inherent scalability limitations, offering limited dynamic control during inference. Consequently, there is an urgent need for scalable and adaptabl...",
-        "published": "2025-11-14T17:42:02Z",
-        "updated": "2025-11-14T17:42:02Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.11518v1",
-        "abs_url": "https://arxiv.org/abs/2511.11518v1",
-        "categories": [
-          "cs.CL"
-        ],
-        "primary_category": "cs.CL"
-      },
-      {
-        "id": "2511.11505v1",
-        "title": "FarSkip-Collective: Unhobbling Blocking Communication in Mixture of Experts Models",
-        "authors": [
-          "Yonatan Dukler",
-          "Guihong Li",
-          "Deval Shah",
-          "Vikram Appia",
-          "Emad Barsoum"
-        ],
-        "abstract": "Blocking communication presents a major hurdle in running MoEs efficiently in distributed settings. To address this, we present FarSkip-Collective which modifies the architecture of modern models to enable overlapping of their computation with communication. Our approach modifies the architecture to skip connections in the model and it is unclear a priori whether the modified model architecture can remain as capable, especially for large state-of-the-art models and while modifying all of the mod...",
-        "published": "2025-11-14T17:25:14Z",
-        "updated": "2025-11-14T17:25:14Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.11505v1",
-        "abs_url": "https://arxiv.org/abs/2511.11505v1",
-        "categories": [
-          "cs.LG"
+          "cs.LG",
+          "eess.SP"
         ],
         "primary_category": "cs.LG"
+      },
+      {
+        "id": "2511.13679v1",
+        "title": "QUILL: An Algorithm-Architecture Co-Design for Cache-Local Deformable Attention",
+        "authors": [
+          "Hyunwoo Oh",
+          "Hanning Chen",
+          "Sanggeon Yun",
+          "Yang Ni",
+          "Wenjun Huang"
+        ],
+        "abstract": "Deformable transformers deliver state-of-the-art detection but map poorly to hardware due to irregular memory access and low arithmetic intensity. We introduce QUILL, a schedule-aware accelerator that turns deformable attention into cache-friendly, single-pass work. At its core, Distance-based Out-of-Order Querying (DOOQ) orders queries by spatial proximity; the look-ahead drives a region prefetch into an alternate buffer--forming a schedule-aware prefetch loop that overlaps memory and compute. ...",
+        "published": "2025-11-17T18:34:04Z",
+        "updated": "2025-11-17T18:34:04Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.13679v1",
+        "abs_url": "https://arxiv.org/abs/2511.13679v1",
+        "categories": [
+          "cs.AR",
+          "cs.CV",
+          "cs.LG"
+        ],
+        "primary_category": "cs.AR"
+      },
+      {
+        "id": "2511.13676v1",
+        "title": "T-SAR: A Full-Stack Co-design for CPU-Only Ternary LLM Inference via In-Place SIMD ALU Reorganization",
+        "authors": [
+          "Hyunwoo Oh",
+          "KyungIn Nam",
+          "Rajat Bhattacharjya",
+          "Hanning Chen",
+          "Tamoghno Das"
+        ],
+        "abstract": "Recent advances in LLMs have outpaced the computational and memory capacities of edge platforms that primarily employ CPUs, thereby challenging efficient and scalable deployment. While ternary quantization enables significant resource savings, existing CPU solutions rely heavily on memory-based lookup tables (LUTs) which limit scalability, and FPGA or GPU accelerators remain impractical for edge use. This paper presents T-SAR, the first framework to achieve scalable ternary LLM inference on CPUs...",
+        "published": "2025-11-17T18:32:03Z",
+        "updated": "2025-11-17T18:32:03Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.13676v1",
+        "abs_url": "https://arxiv.org/abs/2511.13676v1",
+        "categories": [
+          "cs.AR",
+          "cs.LG"
+        ],
+        "primary_category": "cs.AR"
       }
     ],
     "count": 15,
@@ -310,7 +321,7 @@
       "cs.LG",
       "cs.CL"
     ],
-    "fetch_date": "2025-11-17"
+    "fetch_date": "2025-11-18"
   },
   "metadata": {
     "source": "arXiv API",
@@ -319,19 +330,19 @@
       "total_fetched": 15,
       "new_papers": 15,
       "duplicates_filtered": 0,
-      "last_fetch": "2025-11-16T09:02:52.167185"
+      "last_fetch": "2025-11-17T09:04:15.982940"
     }
   },
   "costs": {
-    "execution_time": 0.5519020557403564,
-    "execution_minutes": 0.009198367595672607,
-    "github_actions": 7.358694076538086e-05,
+    "execution_time": 0.45351648330688477,
+    "execution_minutes": 0.007558608055114746,
+    "github_actions": 6.046886444091797e-05,
     "openai": {
       "input": 0,
       "output": 0,
       "total": 0
     },
-    "total": 7.358694076538086e-05,
+    "total": 6.046886444091797e-05,
     "token_usage": {}
   }
 }
