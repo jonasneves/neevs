@@ -1,348 +1,353 @@
 {
   "agent": "agent-b-paper-analyzer",
-  "timestamp": "2025-11-17T09:05:48.413437",
+  "timestamp": "2025-11-18T09:04:37.248664",
   "status": "completed",
   "input_from": "agent-a-paper-fetcher",
   "data": {
     "analyzed_papers": [
       {
-        "id": "2511.11571v1",
-        "title": "Optimizing Mixture of Block Attention",
+        "id": "2511.13719v1",
+        "title": "Scaling Spatial Intelligence with Multimodal Foundation Models",
         "authors": [
-          "Guangxuan Xiao",
-          "Junxian Guo",
-          "Kasra Mazaheri",
-          "Song Han"
+          "Zhongang Cai",
+          "Ruisi Wang",
+          "Chenyang Gu",
+          "Fanyi Pu",
+          "Junxiang Xu"
         ],
-        "abstract": "Mixture of Block Attention (MoBA) (Lu et al., 2025) is a promising building block for efficiently processing long contexts in LLMs by enabling queries to sparsely attend to a small subset of key-value blocks, drastically reducing computational cost. However, the design principles governing MoBA's performance are poorly understood, and it lacks an efficient GPU implementation, hindering its practical adoption. In this paper, we first develop a statistical model to analyze MoBA's underlying mechan...",
-        "published": "2025-11-14T18:59:59Z",
-        "updated": "2025-11-14T18:59:59Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.11571v1",
-        "abs_url": "https://arxiv.org/abs/2511.11571v1",
-        "categories": [
-          "cs.LG",
-          "cs.CL"
-        ],
-        "primary_category": "cs.LG",
-        "analysis": {
-          "tldr": "This paper dives into optimizing a method called Mixture of Block Attention (MoBA), which helps large language models (LLMs) manage long texts more efficiently. The authors address some of the design mysteries behind MoBA and improve its implementation for practical use on GPUs.",
-          "eli5": "Imagine you're at a library looking for specific books in an enormous collection. Instead of searching through every single shelf, MoBA lets you quickly focus on just a few shelves that are likely to have what you need. This paper helps make that search method faster and easier to use on computers.",
-          "key_contributions": [
-            "Developed a statistical model to understand what makes MoBA work effectively.",
-            "Introduced improvements that make MoBA run efficiently on GPUs, which is crucial for practical applications.",
-            "Provided insights into the design principles that can guide future developments in attention mechanisms for AI."
-          ],
-          "why_care": "As AI becomes increasingly integrated into everyday applications\u2014from customer service chatbots to creative writing tools\u2014having efficient methods for processing large amounts of text can lead to faster, more responsive systems that better understand and interact with users.",
-          "accessibility": "Tech-Savvy",
-          "spicy_take": "Optimizing MoBA could revolutionize how we think about attention mechanisms in AI, making previously impractical applications feasible and opening the door to truly conversational AI.",
-          "reading_time_minutes": 7
-        }
-      },
-      {
-        "id": "2511.11569v1",
-        "title": "Private Frequency Estimation Via Residue Number Systems",
-        "authors": [
-          "H\u00e9ber H. Arcolezi"
-        ],
-        "abstract": "We present \\textsf{ModularSubsetSelection} (MSS), a new algorithm for locally differentially private (LDP) frequency estimation. Given a universe of size $k$ and $n$ users, our $\\varepsilon$-LDP mechanism encodes each input via a Residue Number System (RNS) over $\\ell$ pairwise-coprime moduli $m_0, \\ldots, m_{\\ell-1}$, and reports a randomly chosen index $j \\in [\\ell]$ along with the perturbed residue using the statistically optimal \\textsf{SubsetSelection}~(SS) (Wang et al. 2016). This design r...",
-        "published": "2025-11-14T18:58:41Z",
-        "updated": "2025-11-14T18:58:41Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.11569v1",
-        "abs_url": "https://arxiv.org/abs/2511.11569v1",
-        "categories": [
-          "cs.CR",
-          "cs.AI"
-        ],
-        "primary_category": "cs.CR",
-        "analysis": {
-          "tldr": "This paper introduces a new algorithm called ModularSubsetSelection (MSS) for privately estimating how often certain items are mentioned by users. It cleverly uses a mathematical system to ensure that the results keep individual data private while still being reliable.",
-          "eli5": "Imagine you have a group of friends who all have different favorite fruits. You want to find out which fruit is the most popular without asking each friend directly, to keep their choices secret. This paper presents a smart way to do that by using a special counting system that blends everyone's answers while hiding who said what.",
-          "key_contributions": [
-            "The introduction of the ModularSubsetSelection (MSS) algorithm specifically designed for locally differentially private frequency estimation.",
-            "Utilization of Residue Number Systems (RNS) with pairwise-coprime moduli to enhance privacy and accuracy.",
-            "A statistically optimal method for selecting subsets of data to report, improving the reliability of frequency estimates."
-          ],
-          "why_care": "In a world where data privacy is increasingly critical, especially with user-generated content, this research provides a framework that can help companies and organizations gather insights while respecting individual privacy. This could improve how we understand user behavior without compromising personal information.",
-          "accessibility": "Tech-Savvy",
-          "spicy_take": "This innovative approach could redefine how we think about user data privacy \u2013 it's like having your cake and eating it too when it comes to data collection.",
-          "reading_time_minutes": 5
-        }
-      },
-      {
-        "id": "2511.11564v1",
-        "title": "Estimating Total Effects in Bipartite Experiments with Spillovers and Partial Eligibility",
-        "authors": [
-          "Albert Tan",
-          "Mohsen Bayati",
-          "James Nordlund",
-          "Roman Istomin"
-        ],
-        "abstract": "We study randomized experiments in bipartite systems where only a subset of treatment-side units are eligible for assignment while all units continue to interact, generating interference. We formalize eligibility-constrained bipartite experiments and define estimands aligned with full deployment: the Primary Total Treatment Effect (PTTE) on eligible units and the Secondary Total Treatment Effect (STTE) on ineligible units. Under randomization within the eligible set, we give identification condi...",
-        "published": "2025-11-14T18:55:51Z",
-        "updated": "2025-11-14T18:55:51Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.11564v1",
-        "abs_url": "https://arxiv.org/abs/2511.11564v1",
-        "categories": [
-          "stat.ME",
-          "cs.LG",
-          "stat.ML"
-        ],
-        "primary_category": "stat.ME",
-        "analysis": {
-          "tldr": "This paper explores how to accurately measure the effects of treatments in experiments where not all participants are eligible, and some may influence each other despite not receiving the treatment. It introduces new ways to understand the impact of these treatments on both eligible and ineligible participants.",
-          "eli5": "Imagine a school where only some students can take a special class, but everyone, including those not in the class, interacts with each other. This research looks at how to measure the benefits of that class for both the students taking it and those who are not but are still affected by it. The authors develop new methods to figure out who benefits and how much, even when only a few are officially part of the class.",
-          "key_contributions": [
-            "Introduces new estimands (PTTE and STTE) for better understanding treatment effects in bipartite experiments.",
-            "Provides a formal framework for analyzing eligibility-constrained experiments that involve interference among participants.",
-            "Gives clear identification conditions to make sure researchers can accurately measure the treatment effects."
-          ],
-          "why_care": "Understanding treatment effects in bipartite systems is crucial for fields like public health and education, where interventions often have indirect effects on those not directly involved. This research can help policymakers design better programs that consider the wider impact on all stakeholders.",
-          "accessibility": "Tech-Savvy",
-          "spicy_take": "By redefining how we measure treatment effects, this paper could revolutionize how future experiments are designed, particularly in social sciences where interactions are common.",
-          "reading_time_minutes": 8
-        }
-      },
-      {
-        "id": "2511.11562v1",
-        "title": "PRBench: Large-Scale Expert Rubrics for Evaluating High-Stakes Professional Reasoning",
-        "authors": [
-          "Afra Feyza Aky\u00fcrek",
-          "Advait Gosai",
-          "Chen Bo Calvin Zhang",
-          "Vipul Gupta",
-          "Jaehwan Jeong"
-        ],
-        "abstract": "Frontier model progress is often measured by academic benchmarks, which offer a limited view of performance in real-world professional contexts. Existing evaluations often fail to assess open-ended, economically consequential tasks in high-stakes domains like Legal and Finance, where practical returns are paramount. To address this, we introduce Professional Reasoning Bench (PRBench), a realistic, open-ended, and difficult benchmark of real-world problems in Finance and Law. We open-source its 1...",
-        "published": "2025-11-14T18:55:12Z",
-        "updated": "2025-11-14T18:55:12Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.11562v1",
-        "abs_url": "https://arxiv.org/abs/2511.11562v1",
-        "categories": [
-          "cs.CL",
-          "cs.CY"
-        ],
-        "primary_category": "cs.CL",
-        "analysis": {
-          "tldr": "This paper presents PRBench, a new benchmark tool designed to evaluate how well AI models perform in high-stakes professional areas like Law and Finance. Unlike traditional benchmarks, PRBench focuses on real-world problems that require complex reasoning.",
-          "eli5": "Imagine trying to judge how good a robot lawyer or financial advisor is. Most tests only check simple tasks, but this paper introduces a new way to assess their skills on complicated, real-life problems. It's like giving them a final exam that really counts!",
-          "key_contributions": [
-            "PRBench is a large-scale set of tasks specifically crafted to evaluate AI performance in real-world legal and financial scenarios.",
-            "It fills a gap left by existing benchmarks that typically focus on simpler, controlled tasks rather than open-ended, practical challenges.",
-            "The research includes open-sourcing the dataset, allowing developers and researchers to use and improve upon it."
-          ],
-          "why_care": "Understanding how well AI can handle complex, real-world problems is essential as these technologies increasingly influence critical domains. The better we evaluate their abilities, the safer and more effective they can be in assisting professionals.",
-          "accessibility": "General Audience",
-          "spicy_take": "If we want AI to really help in high-stakes situations, we need to stop using outdated tests and start embracing more realistic benchmarks like PRBench.",
-          "reading_time_minutes": 5
-        }
-      },
-      {
-        "id": "2511.11560v1",
-        "title": "A Unified Convergence Analysis for Semi-Decentralized Learning: Sampled-to-Sampled vs. Sampled-to-All Communication",
-        "authors": [
-          "Angelo Rodio",
-          "Giovanni Neglia",
-          "Zheng Chen",
-          "Erik G. Larsson"
-        ],
-        "abstract": "In semi-decentralized federated learning, devices primarily rely on device-to-device communication but occasionally interact with a central server. Periodically, a sampled subset of devices uploads their local models to the server, which computes an aggregate model. The server can then either (i) share this aggregate model only with the sampled clients (sampled-to-sampled, S2S) or (ii) broadcast it to all clients (sampled-to-all, S2A). Despite their practical significance, a rigorous theoretical...",
-        "published": "2025-11-14T18:53:37Z",
-        "updated": "2025-11-14T18:53:37Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.11560v1",
-        "abs_url": "https://arxiv.org/abs/2511.11560v1",
-        "categories": [
-          "cs.LG",
-          "cs.AI",
-          "cs.DC"
-        ],
-        "primary_category": "cs.LG",
-        "analysis": {
-          "tldr": "This paper explores how devices in a semi-decentralized learning system communicate with one another and a central server, comparing two methods of sharing updates. The authors rigorously analyze these approaches to determine which is more effective for learning performance.",
-          "eli5": "Imagine a group of friends working together on a project. They usually discuss their ideas among themselves but sometimes ask a teacher for feedback. This paper looks at two ways the teacher can help: either by giving feedback only to those who asked or by sharing notes with everyone. The researchers want to see which way helps the group learn better.",
-          "key_contributions": [
-            "The paper provides a unified theoretical framework for analyzing the convergence of semi-decentralized learning with both sampled-to-sampled and sampled-to-all communication methods.",
-            "It offers new insights into the efficiency of learning algorithms depending on the communication strategy employed.",
-            "The results can help optimize federated learning systems in practical scenarios, making them more effective and faster."
-          ],
-          "why_care": "As semi-decentralized learning becomes more prevalent in industries like mobile technology and IoT, understanding how devices communicate can lead to more efficient systems. This could enhance everything from recommendation algorithms to real-time data processing, impacting everyday technology use.",
-          "accessibility": "Tech-Savvy",
-          "spicy_take": "The optimal communication strategy could redefine how we think about decentralized learning, making S2A the go-to approach if we want maximum learning efficiency.",
-          "reading_time_minutes": 7
-        }
-      },
-      {
-        "id": "2511.11558v1",
-        "title": "Human-AI collaborative autonomous synthesis with pulsed laser deposition for remote epitaxy",
-        "authors": [
-          "Asraful Haque",
-          "Daniel T. Yimam",
-          "Jawad Chowdhury",
-          "Ralph Bulanadi",
-          "Ivan Vlassiouk"
-        ],
-        "abstract": "Autonomous laboratories typically rely on data-driven decision-making, occasionally with human-in-the-loop oversight to inject domain expertise. Fully leveraging AI agents, however, requires tightly coupled, collaborative workflows spanning hypothesis generation, experimental planning, execution, and interpretation. To address this, we develop and deploy a human-AI collaborative (HAIC) workflow that integrates large language models for hypothesis generation and analysis, with collaborative polic...",
-        "published": "2025-11-14T18:48:52Z",
-        "updated": "2025-11-14T18:48:52Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.11558v1",
-        "abs_url": "https://arxiv.org/abs/2511.11558v1",
-        "categories": [
-          "cond-mat.mtrl-sci",
-          "cs.AI"
-        ],
-        "primary_category": "cond-mat.mtrl-sci",
-        "analysis": {
-          "tldr": "This paper introduces a novel method for integrating human expertise with AI to automate complex scientific processes, particularly in the field of material synthesis using pulsed laser deposition. The focus is on creating a collaborative workflow that enhances the efficiency and effectiveness of research.",
-          "eli5": "Imagine having a super-smart assistant that not only helps you come up with ideas but also plans and carries out experiments in a lab. This paper talks about how scientists teamed up with AI to make this process smoother and more efficient, especially when creating new materials.",
-          "key_contributions": [
-            "The development of a human-AI collaborative workflow that enhances decision-making in autonomous laboratories.",
-            "Integration of large language models to assist in hypothesis generation and data analysis.",
-            "Demonstration of improved experimental planning and execution through collaborative policies."
-          ],
-          "why_care": "This research could revolutionize how materials are developed, speeding up innovation in various fields like electronics, energy, and medicine. It shows that harnessing AI can lead to smarter and faster scientific discoveries, which can benefit industries and society at large.",
-          "accessibility": "Tech-Savvy",
-          "spicy_take": "As AI continues to evolve, we may not just be working alongside machines; we might rely on them to be co-creators in scientific discovery.",
-          "reading_time_minutes": 5
-        }
-      },
-      {
-        "id": "2511.11553v1",
-        "title": "Multistability of Self-Attention Dynamics in Transformers",
-        "authors": [
-          "Claudio Altafini"
-        ],
-        "abstract": "In machine learning, a self-attention dynamics is a continuous-time multiagent-like model of the attention mechanisms of transformers. In this paper we show that such dynamics is related to a multiagent version of the Oja flow, a dynamical system that computes the principal eigenvector of a matrix corresponding for transformers to the value matrix. We classify the equilibria of the ``single-head'' self-attention system into four classes: consensus, bipartite consensus, clustering and polygonal e...",
-        "published": "2025-11-14T18:45:22Z",
-        "updated": "2025-11-14T18:45:22Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.11553v1",
-        "abs_url": "https://arxiv.org/abs/2511.11553v1",
-        "categories": [
-          "cs.LG",
-          "eess.SY",
-          "math.DS"
-        ],
-        "primary_category": "cs.LG",
-        "analysis": {
-          "tldr": "This paper explores how self-attention mechanisms in transformers can behave like a dynamic multi-agent system, classifying their various stable states. It connects this behavior to a mathematical framework, helping us understand how these models process information.",
-          "eli5": "Imagine a group of friends trying to agree on a restaurant to eat at, but they each have different preferences. This paper looks at how transformers, which are like those friends, can come to a decision through a process similar to them negotiating their choices. The author discovers that there are different ways they can agree \u2013 sometimes they all choose the same place, and other times they split into smaller groups or pick multiple places.",
-          "key_contributions": [
-            "Introduces a new perspective on self-attention dynamics by relating it to multi-agent systems.",
-            "Classifies the equilibrium states of self-attention into four distinct categories.",
-            "Links the self-attention dynamics to the Oja flow, providing a mathematical foundation for understanding transformers."
-          ],
-          "why_care": "Understanding the dynamics of self-attention in transformers can lead to better AI models that are more efficient and effective. This has real-world implications in areas like natural language processing, image recognition, and any field that uses AI to make decisions.",
-          "accessibility": "Tech-Savvy",
-          "spicy_take": "This paper could be a game-changer for how we design future AI models, moving away from one-size-fits-all approaches to more nuanced, dynamic systems.",
-          "reading_time_minutes": 8
-        }
-      },
-      {
-        "id": "2511.11552v1",
-        "title": "DocLens : A Tool-Augmented Multi-Agent Framework for Long Visual Document Understanding",
-        "authors": [
-          "Dawei Zhu",
-          "Rui Meng",
-          "Jiefeng Chen",
-          "Sujian Li",
-          "Tomas Pfister"
-        ],
-        "abstract": "Comprehending long visual documents, where information is distributed across extensive pages of text and visual elements, is a critical but challenging task for modern Vision-Language Models (VLMs). Existing approaches falter on a fundamental challenge: evidence localization. They struggle to retrieve relevant pages and overlook fine-grained details within visual elements, leading to limited performance and model hallucination. To address this, we propose DocLens, a tool-augmented multi-agent fr...",
-        "published": "2025-11-14T18:42:18Z",
-        "updated": "2025-11-14T18:42:18Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.11552v1",
-        "abs_url": "https://arxiv.org/abs/2511.11552v1",
+        "abstract": "Despite remarkable progress, multimodal foundation models still exhibit surprising deficiencies in spatial intelligence. In this work, we explore scaling up multimodal foundation models to cultivate spatial intelligence within the SenseNova-SI family, built upon established multimodal foundations including visual understanding models (i.e., Qwen3-VL and InternVL3) and unified understanding and generation models (i.e., Bagel). We take a principled approach to constructing high-performing and robu...",
+        "published": "2025-11-17T18:59:33Z",
+        "updated": "2025-11-17T18:59:33Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.13719v1",
+        "abs_url": "https://arxiv.org/abs/2511.13719v1",
         "categories": [
           "cs.CV",
-          "cs.CL"
+          "cs.AI",
+          "cs.LG",
+          "cs.MM",
+          "cs.RO"
         ],
         "primary_category": "cs.CV",
         "analysis": {
-          "tldr": "This paper introduces DocLens, a new framework designed to help machines understand lengthy documents that combine text and visuals. By using a multi-agent approach, it enhances the way models find and interpret relevant information across many pages.",
-          "eli5": "Imagine trying to read a giant book with pictures, where important information is scattered everywhere. DocLens helps computer programs find the right pages and bits of text or images they need to make sense of the whole book, making them smarter and less likely to create confusing or incorrect summaries.",
+          "tldr": "This paper focuses on improving spatial intelligence in multimodal foundation models, which combine different types of data like images and text. The authors propose a new approach called SenseNova-SI to enhance these models' abilities in understanding and generating spatial information.",
+          "eli5": "Imagine trying to teach a robot how to understand where things are in a room just by looking at pictures and hearing descriptions. This paper discusses how to make these robots smarter by using better models that can connect visuals and language more effectively, especially when it comes to spatial relationships.",
           "key_contributions": [
-            "DocLens introduces a multi-agent framework that uses specialized tools to better locate and understand relevant information in visual documents.",
-            "It addresses the critical issue of evidence localization that existing models struggle with, improving the overall accuracy of information retrieval.",
-            "The framework minimizes issues like model hallucination, where the model generates incorrect or fabricated information, thereby enhancing reliability."
+            "Introduction of SenseNova-SI, a new family of models designed to enhance spatial intelligence.",
+            "Utilization of advanced multimodal foundations like Qwen3-VL and Bagel to improve performance.",
+            "A principled construction method for creating robust models that can better understand and generate spatial data."
           ],
-          "why_care": "Understanding documents with mixed text and visuals is essential in various fields, from legal documents to educational materials. By improving the ability of machines to accurately interpret these documents, we can enhance automation in data extraction, streamline workflows, and help users better access and understand complex information.",
+          "why_care": "Improving spatial intelligence in AI models can have significant implications in various fields like robotics, autonomous vehicles, and augmented reality, making interactions with technology more intuitive and efficient.",
           "accessibility": "Tech-Savvy",
-          "spicy_take": "With the rise of mixed media content, DocLens could revolutionize how we interact with digital information \u2013 let's hope it outshines its predecessors!",
+          "spicy_take": "If we don't invest in spatial intelligence now, we risk creating AI systems that can\u2019t navigate our increasingly complex physical world effectively.",
           "reading_time_minutes": 5
         }
       },
       {
-        "id": "2511.11551v1",
-        "title": "Aligning Machiavellian Agents: Behavior Steering via Test-Time Policy Shaping",
+        "id": "2511.13714v1",
+        "title": "UnSAMv2: Self-Supervised Learning Enables Segment Anything at Any Granularity",
         "authors": [
-          "Dena Mujtaba",
-          "Brian Hu",
-          "Anthony Hoogs",
-          "Arslan Basharat"
+          "Junwei Yu",
+          "Trevor Darrell",
+          "XuDong Wang"
         ],
-        "abstract": "The deployment of decision-making AI agents presents a critical challenge in maintaining alignment with human values or guidelines while operating in complex, dynamic environments. Agents trained solely to achieve their objectives may adopt harmful behavior, exposing a key trade-off between maximizing the reward function and maintaining the alignment. For the pre-trained agents, ensuring alignment is particularly challenging, as retraining can be a costly and slow process. This is further compli...",
-        "published": "2025-11-14T18:42:18Z",
-        "updated": "2025-11-14T18:42:18Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.11551v1",
-        "abs_url": "https://arxiv.org/abs/2511.11551v1",
+        "abstract": "The Segment Anything Model (SAM) family has become a widely adopted vision foundation model, but its ability to control segmentation granularity remains limited. Users often need to refine results manually - by adding more prompts or selecting from pre-generated masks - to achieve the desired level of detail. This process can be ambiguous, as the same prompt may correspond to several plausible masks, and collecting dense annotations across all granularities is prohibitively expensive, making sup...",
+        "published": "2025-11-17T18:58:34Z",
+        "updated": "2025-11-17T18:58:34Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.13714v1",
+        "abs_url": "https://arxiv.org/abs/2511.13714v1",
         "categories": [
+          "cs.CV",
           "cs.AI",
-          "cs.CL"
+          "cs.LG"
         ],
-        "primary_category": "cs.AI",
+        "primary_category": "cs.CV",
         "analysis": {
-          "tldr": "This paper explores how to steer AI agents towards behavior that aligns with human values, especially when the agents were trained without those values in mind. It presents a method for adjusting these agents' behavior during their deployment, rather than retraining them from scratch.",
-          "eli5": "Imagine you have a robot that knows how to play soccer really well, but it sometimes decides to kick the ball into the crowd instead of scoring goals. This paper discusses a way to teach the robot to follow the rules and play nicely, even after it has already learned to play without those rules. It does this by tweaking how the robot makes decisions while it's actually playing, rather than starting its training all over again.",
+          "tldr": "This paper introduces UnSAMv2, a new approach to enhance the Segment Anything Model (SAM) so it can effectively segment images at various levels of detail without requiring tedious manual adjustments from users.",
+          "eli5": "Imagine a tool that helps you cut out shapes from pictures, but sometimes it doesn't know if you want a big shape or a tiny one. This paper presents a smarter version of that tool, which learns to cut out shapes at any size you want, all by itself, without needing extra help from you.",
           "key_contributions": [
-            "Introduces a novel approach to modify the behavior of pre-trained AI agents at the time they are deployed, known as test-time policy shaping.",
-            "Provides empirical evidence that this method can help align agent behavior more closely with human values in real-time scenarios.",
-            "Discusses the trade-offs between maximizing performance and ensuring safety and ethical behavior in AI systems."
+            "UnSAMv2 allows for flexible segmentation control, letting users specify the level of detail they want without manual refinements.",
+            "It leverages self-supervised learning to improve the model's ability to understand different levels of granularity in segmentation tasks.",
+            "The paper addresses the inefficiencies of needing multiple prompts or masks for different detail levels, making the segmentation process more user-friendly."
           ],
-          "why_care": "As AI systems become more integrated into our everyday lives, ensuring they act in ways that are safe and aligned with human values is crucial. This research offers insights that could help prevent harmful behaviors in AI, impacting industries like healthcare, finance, and autonomous driving.",
+          "why_care": "This research has practical applications in fields like healthcare, autonomous driving, and content creation, where precise image segmentation can lead to better diagnostics, safer navigation, and more engaging media.",
           "accessibility": "Tech-Savvy",
-          "spicy_take": "This method could be a game-changer in AI ethics, illustrating that we can adapt our agents on the fly rather than relying on long, costly retraining processes.",
+          "spicy_take": "If UnSAMv2 delivers on its promises, it could make tedious image editing as easy as a couple of clicks, challenging the need for manual adjustments in many professional settings.",
           "reading_time_minutes": 5
         }
       },
       {
-        "id": "2511.11539v1",
-        "title": "Generalizing Fair Clustering to Multiple Groups: Algorithms and Applications",
+        "id": "2511.13712v1",
+        "title": "From Black Box to Insight: Explainable AI for Extreme Event Preparedness",
         "authors": [
-          "Diptarka Chakraborty",
-          "Kushagra Chatterjee",
-          "Debarati Das",
-          "Tien-Long Nguyen"
+          "Kiana Vu",
+          "\u0130smet Sel\u00e7uk \u00d6zer",
+          "Phung Lai",
+          "Zheng Wu",
+          "Thilanka Munasinghe"
         ],
-        "abstract": "Clustering is a fundamental task in machine learning and data analysis, but it frequently fails to provide fair representation for various marginalized communities defined by multiple protected attributes -- a shortcoming often caused by biases in the training data. As a result, there is a growing need to enhance the fairness of clustering outcomes, ideally by making minimal modifications, possibly as a post-processing step after conventional clustering. Recently, Chakraborty et al. [COLT'25] in...",
-        "published": "2025-11-14T18:19:18Z",
-        "updated": "2025-11-14T18:19:18Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.11539v1",
-        "abs_url": "https://arxiv.org/abs/2511.11539v1",
+        "abstract": "As climate change accelerates the frequency and severity of extreme events such as wildfires, the need for accurate, explainable, and actionable forecasting becomes increasingly urgent. While artificial intelligence (AI) models have shown promise in predicting such events, their adoption in real-world decision-making remains limited due to their black-box nature, which limits trust, explainability, and operational readiness. This paper investigates the role of explainable AI (XAI) in bridging th...",
+        "published": "2025-11-17T18:57:15Z",
+        "updated": "2025-11-17T18:57:15Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.13712v1",
+        "abs_url": "https://arxiv.org/abs/2511.13712v1",
+        "categories": [
+          "cs.LG",
+          "cs.AI"
+        ],
+        "primary_category": "cs.LG",
+        "analysis": {
+          "tldr": "This paper explores how explainable artificial intelligence (XAI) can improve our understanding and trust in AI models used for predicting extreme weather events, making them more useful for real-world decision-making.",
+          "eli5": "Imagine you have a super-smart robot that can predict wildfires or floods, but it doesn't explain how it arrives at its predictions. This paper discusses how making these predictions more understandable can help people trust the robot more and use its advice effectively when planning for disasters.",
+          "key_contributions": [
+            "The paper highlights the importance of explainable AI in making predictions about extreme weather events trustworthy and actionable.",
+            "It offers a framework for integrating XAI techniques into existing AI models to enhance their transparency.",
+            "The authors provide case studies demonstrating how XAI can be applied in real-world scenarios for disaster preparedness."
+          ],
+          "why_care": "As climate change intensifies extreme weather events, communities need reliable tools to prepare for disasters. Understanding how AI makes predictions can help decision-makers trust these tools, leading to better preparedness and potentially saving lives.",
+          "accessibility": "General Audience",
+          "spicy_take": "If AI can't explain itself, it shouldn't be trusted with our safety\u2014this paper makes a compelling case for turning the black box of AI into a crystal-clear insight machine.",
+          "reading_time_minutes": 7
+        }
+      },
+      {
+        "id": "2511.13710v1",
+        "title": "From Power to Precision: Learning Fine-grained Dexterity for Multi-fingered Robotic Hands",
+        "authors": [
+          "Jianglong Ye",
+          "Lai Wei",
+          "Guangqi Jiang",
+          "Changwei Jing",
+          "Xueyan Zou"
+        ],
+        "abstract": "Human grasps can be roughly categorized into two types: power grasps and precision grasps. Precision grasping enables tool use and is believed to have influenced human evolution. Today's multi-fingered robotic hands are effective in power grasps, but for tasks requiring precision, parallel grippers are still more widely adopted. This contrast highlights a key limitation in current robotic hand design: the difficulty of achieving both stable power grasps and precise, fine-grained manipulation wit...",
+        "published": "2025-11-17T18:56:50Z",
+        "updated": "2025-11-17T18:56:50Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.13710v1",
+        "abs_url": "https://arxiv.org/abs/2511.13710v1",
+        "categories": [
+          "cs.RO",
+          "cs.AI",
+          "cs.LG"
+        ],
+        "primary_category": "cs.RO",
+        "analysis": {
+          "tldr": "This paper explores how to improve robotic hands to better perform both strong grips and precise movements, which are essential for handling objects like humans do. While robotic hands excel at gripping heavy things, they struggle with delicate tasks that require finesse.",
+          "eli5": "Think of how you can easily pick up a heavy dumbbell with a strong grip, but when it comes to holding something small and fragile, like a pencil, you need a lighter, more careful touch. This research aims to teach robotic hands to do both well, which is something they currently struggle with.",
+          "key_contributions": [
+            "The development of a learning model that enhances the dexterity of robotic hands for both power and precision tasks.",
+            "Experimental validation demonstrating significant improvements in fine-grained manipulation capabilities.",
+            "Insights into how human grasping techniques can inform the design of more versatile robotic hands."
+          ],
+          "why_care": "Improving robotic dexterity can revolutionize industries like healthcare, manufacturing, and home assistance, where robots could perform delicate surgeries or handle fragile items safely. This could lead to better automation solutions that work harmoniously alongside humans.",
+          "accessibility": "General Audience",
+          "spicy_take": "If we don't start giving robots the dexterity they need, we might end up with a future where they can lift heavy objects but can't pour a cup of coffee without spilling it everywhere.",
+          "reading_time_minutes": 5
+        }
+      },
+      {
+        "id": "2511.13705v1",
+        "title": "Rare Genomic Subtype Discovery from RNA-seq via Autoencoder Embeddings and Stability-Aware Clustering",
+        "authors": [
+          "Alaa Mezghiche"
+        ],
+        "abstract": "Unsupervised learning on high-dimensional RNA-seq data can reveal molecular subtypes beyond standard labels. We combine an autoencoder-based representation with clustering and stability analysis to search for rare but reproducible genomic subtypes. On the UCI \"Gene Expression Cancer RNA-Seq\" dataset (801 samples, 20,531 genes; BRCA, COAD, KIRC, LUAD, PRAD), a pan-cancer analysis shows clusters aligning almost perfectly with tissue of origin (Cramer's V = 0.887), serving as a negative control. We...",
+        "published": "2025-11-17T18:53:43Z",
+        "updated": "2025-11-17T18:53:43Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.13705v1",
+        "abs_url": "https://arxiv.org/abs/2511.13705v1",
+        "categories": [
+          "cs.LG",
+          "q-bio.GN"
+        ],
+        "primary_category": "cs.LG",
+        "analysis": {
+          "tldr": "This paper introduces a new way to identify unique genomic subtypes from RNA-seq data using an autoencoder and clustering methods. The approach successfully reveals rare but significant genetic patterns that could deepen our understanding of various cancers.",
+          "eli5": "Imagine trying to find hidden treasures in a vast ocean of data about genes. This paper shows how we can use a special type of computer model (an autoencoder) to help us identify these rare treasures, or unique genetic types, that traditional methods might miss. By doing this, researchers can better understand different types of cancers and how they behave.",
+          "key_contributions": [
+            "The introduction of a novel method combining autoencoder embeddings and stability-aware clustering for analyzing RNA-seq data.",
+            "Demonstration of how this method can uncover rare genomic subtypes that are reproducible and biologically significant.",
+            "Validation of the technique using a large dataset, which shows excellent alignment of identified clusters with known cancer types."
+          ],
+          "why_care": "Finding these rare genomic subtypes could lead to more personalized treatments for patients with cancer, potentially improving outcomes and paving the way for new therapeutic strategies. In essence, this research could help us understand cancer better, which is a battle that touches many lives.",
+          "accessibility": "Tech-Savvy",
+          "spicy_take": "This approach might just be the key to unlocking the next generation of cancer therapies, challenging the traditional one-size-fits-all treatment model.",
+          "reading_time_minutes": 5
+        }
+      },
+      {
+        "id": "2511.13703v1",
+        "title": "Generalist Foundation Models Are Not Clinical Enough for Hospital Operations",
+        "authors": [
+          "Lavender Y. Jiang",
+          "Angelica Chen",
+          "Xu Han",
+          "Xujin Chris Liu",
+          "Radhika Dua"
+        ],
+        "abstract": "Hospitals and healthcare systems rely on operational decisions that determine patient flow, cost, and quality of care. Despite strong performance on medical knowledge and conversational benchmarks, foundation models trained on general text may lack the specialized knowledge required for these operational decisions. We introduce Lang1, a family of models (100M-7B parameters) pretrained on a specialized corpus blending 80B clinical tokens from NYU Langone Health's EHRs and 627B tokens from the int...",
+        "published": "2025-11-17T18:52:22Z",
+        "updated": "2025-11-17T18:52:22Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.13703v1",
+        "abs_url": "https://arxiv.org/abs/2511.13703v1",
+        "categories": [
+          "cs.CL",
+          "cs.AI",
+          "cs.LG"
+        ],
+        "primary_category": "cs.CL",
+        "analysis": {
+          "tldr": "This paper argues that general AI models, while impressive, fall short when it comes to making critical decisions in hospital operations. The authors introduce a new family of models called Lang1, specifically trained on clinical data to improve their effectiveness in real-world healthcare settings.",
+          "eli5": "Think of it this way: Hospitals need super-smart assistants who can help with tricky decisions about patient care and costs. While some AI can chat well or give medical facts, they might not know the nitty-gritty details that hospitals deal with every day. This paper presents a new type of AI, Lang1, that is trained specifically on hospital data to help make those decisions better.",
+          "key_contributions": [
+            "Introduction of Lang1, a set of AI models specifically designed for hospital operations using clinical data.",
+            "Demonstrated that generalist AI models, though good at general medical knowledge, lack the specificity needed for operational decision-making in healthcare.",
+            "Provided empirical evidence through comparison of Lang1's performance against generalist models."
+          ],
+          "why_care": "Understanding how AI can help or hinder hospital operations is crucial for improving patient care and reducing costs. This research showcases the importance of tailoring AI to specific fields, especially in healthcare, where stakes are incredibly high.",
+          "accessibility": "General Audience",
+          "spicy_take": "The reliance on generalist AI models in critical sectors like healthcare is like using a Swiss Army knife when you need a scalpel - it might sort of work, but it's not going to get you the precision you need.",
+          "reading_time_minutes": 5
+        }
+      },
+      {
+        "id": "2511.13702v1",
+        "title": "ST-ProC: A Graph-Prototypical Framework for Robust Semi-Supervised Travel Mode Identification",
+        "authors": [
+          "Luyao Niu",
+          "Nuoxian Huang"
+        ],
+        "abstract": "Travel mode identification (TMI) from GPS trajectories is critical for urban intelligence, but is hampered by the high cost of annotation, leading to severe label scarcity. Prevailing semi-supervised learning (SSL) methods are ill-suited for this task, as they suffer from catastrophic confirmation bias and ignore the intrinsic data manifold. We propose ST-ProC, a novel graph-prototypical multi-objective SSL framework to address these limitations. Our framework synergizes a graph-prototypical cor...",
+        "published": "2025-11-17T18:52:11Z",
+        "updated": "2025-11-17T18:52:11Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.13702v1",
+        "abs_url": "https://arxiv.org/abs/2511.13702v1",
+        "categories": [
+          "cs.LG",
+          "cs.AI"
+        ],
+        "primary_category": "cs.LG",
+        "analysis": {
+          "tldr": "This paper introduces ST-ProC, a new framework for identifying travel modes using GPS data, especially in situations where labeled data is scarce. It tackles the limitations of existing methods by improving how models learn from both labeled and unlabeled data.",
+          "eli5": "Imagine you're trying to figure out how people travel around a city just by looking at their GPS data, like whether they walked, biked, or took a bus. Usually, you would need a lot of examples (or labels) to teach a computer how to do this, but getting those labels is expensive and tough. This paper proposes a smarter way to learn from the data we have (even if it's not fully labeled) using a new approach that makes connections between different travel modes.",
+          "key_contributions": [
+            "ST-ProC is a novel framework that combines graph-based learning with prototypical representations to enhance semi-supervised learning for travel mode identification.",
+            "It addresses the problem of catastrophic confirmation bias in existing methods by better utilizing both labeled and unlabeled data.",
+            "The framework considers the intrinsic structure of data, improving robustness in identifying travel modes from GPS trajectories."
+          ],
+          "why_care": "As urban areas become more congested and complex, understanding how people move within them can lead to better city planning, transportation services, and environmental strategies. This research could help optimize public transportation systems and improve urban living.",
+          "accessibility": "Tech-Savvy",
+          "spicy_take": "By truly harnessing the power of semi-supervised learning, ST-ProC could redefine how we approach urban mobility studies, potentially leaving traditional methods in the dust.",
+          "reading_time_minutes": 5
+        }
+      },
+      {
+        "id": "2511.13701v1",
+        "title": "Learning stochasticity: a nonparametric framework for intrinsic noise estimation",
+        "authors": [
+          "Gianluigi Pillonetto",
+          "Alberto Giaretta",
+          "Mauro Bisiacco"
+        ],
+        "abstract": "Understanding the principles that govern dynamical systems is a central challenge across many scientific domains, including biology and ecology. Incomplete knowledge of nonlinear interactions and stochastic effects often renders bottom-up modeling approaches ineffective, motivating the development of methods that can discover governing equations directly from data. In such contexts, parametric models often struggle without strong prior knowledge, especially when estimating intrinsic noise. Nonet...",
+        "published": "2025-11-17T18:52:05Z",
+        "updated": "2025-11-17T18:52:05Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.13701v1",
+        "abs_url": "https://arxiv.org/abs/2511.13701v1",
         "categories": [
           "cs.LG"
         ],
         "primary_category": "cs.LG",
         "analysis": {
-          "tldr": "This paper tackles the challenge of ensuring that clustering algorithms treat different demographic groups fairly, especially those that are often marginalized. The authors propose new methods to adjust clustering outcomes while keeping the original data intact.",
-          "eli5": "Imagine you have a big box of crayons of different colors, and you want to group them by color. But, if some colors are more common than others, you might end up ignoring some colors completely, making them feel left out. This paper is about finding ways to make sure that even the rare colors are represented fairly in the groups, even if it means adjusting the groups a little bit after you've made them.",
+          "tldr": "This paper introduces a new way to estimate noise in complex systems without needing lots of prior information. It helps scientists better understand how unpredictable elements affect various processes in nature and beyond.",
+          "eli5": "Imagine trying to predict the weather without knowing all the factors that influence it, like temperature, humidity, and wind. This paper provides a smart way to figure out how much unpredictable noise affects systems by analyzing the data directly, rather than guessing what the rules are ahead of time.",
           "key_contributions": [
-            "The authors propose novel algorithms that adjust clustering results to ensure fair representation across multiple demographic groups.",
-            "They introduce a framework that can be used to evaluate the fairness of clustering outcomes, allowing for better insights into how groups are represented.",
-            "The paper discusses practical applications of their methods, demonstrating how fairness-enhancing techniques can be integrated into existing clustering workflows."
+            "The authors propose a nonparametric framework that allows for the estimation of intrinsic noise without heavy reliance on prior knowledge.",
+            "They demonstrate that their method can effectively discover governing equations from data, addressing the challenges faced by traditional modeling approaches.",
+            "The framework has broad applicability, potentially benefiting fields like biology and ecology where understanding stochasticity is crucial."
           ],
-          "why_care": "Fairness in data analysis is crucial as biased outcomes can reinforce social inequalities. By improving clustering methods, we can ensure diverse communities are represented more accurately in various applications, from hiring practices to loan approvals, which ultimately promotes social justice.",
+          "why_care": "Understanding and estimating noise in complex systems can lead to better predictions in everything from ecological dynamics to public health responses. By improving our models, we can make smarter decisions in policy, conservation, and technology.",
+          "accessibility": "General Audience",
+          "spicy_take": "This approach might just revolutionize how we tackle complex systems, challenging the long-standing reliance on parametric models that often fall short.",
+          "reading_time_minutes": 5
+        }
+      },
+      {
+        "id": "2511.13699v1",
+        "title": "Efficient Calibration for Decision Making",
+        "authors": [
+          "Parikshit Gopalan",
+          "Konstantinos Stavropoulos",
+          "Kunal Talwar",
+          "Pranay Tankala"
+        ],
+        "abstract": "A decision-theoretic characterization of perfect calibration is that an agent seeking to minimize a proper loss in expectation cannot improve their outcome by post-processing a perfectly calibrated predictor. Hu and Wu (FOCS'24) use this to define an approximate calibration measure called calibration decision loss ($\\mathsf{CDL}$), which measures the maximal improvement achievable by any post-processing over any proper loss. Unfortunately, $\\mathsf{CDL}$ turns out to be intractable to even weakl...",
+        "published": "2025-11-17T18:52:00Z",
+        "updated": "2025-11-17T18:52:00Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.13699v1",
+        "abs_url": "https://arxiv.org/abs/2511.13699v1",
+        "categories": [
+          "cs.LG",
+          "cs.DS",
+          "stat.ML"
+        ],
+        "primary_category": "cs.LG",
+        "analysis": {
+          "tldr": "This paper introduces a new way to measure how well predictions are calibrated in decision-making processes. It highlights the limitations of existing measures and proposes a framework to better understand and improve calibration in predictive models.",
+          "eli5": "Imagine you're trying to predict the weather. A perfectly calibrated predictor would give you a forecast where, if it says there's a 70% chance of rain, it rains 70% of the time. This paper explores how we can measure and improve these predictions to make better decisions, especially when we can adjust our predictions after they're made.",
+          "key_contributions": [
+            "Introduction of the calibration decision loss (CDL) measure, which quantifies the potential improvement from post-processing predictions.",
+            "Analysis of the intractability of calculating CDL, highlighting challenges in real-world applications.",
+            "Framework that connects decision theory with calibration metrics, providing a theoretical basis for future research."
+          ],
+          "why_care": "Efficiently calibrated predictions can lead to better decision-making in various fields, from finance to healthcare. By improving how we measure and understand predictions, we can create models that operate more effectively in real-world situations, potentially saving time and resources.",
           "accessibility": "Tech-Savvy",
-          "spicy_take": "Fair clustering is not just a technical challenge; it's a moral imperative in today's data-driven world. If we don't address these biases, we're simply perpetuating inequalities under the guise of data analysis.",
-          "reading_time_minutes": 7
+          "spicy_take": "While the challenges of intractability are significant, this paper could pave the way for breakthroughs in predictive modeling that many other approaches have overlooked.",
+          "reading_time_minutes": 8
+        }
+      },
+      {
+        "id": "2511.13689v1",
+        "title": "Crossing Borders: A Multimodal Challenge for Indian Poetry Translation and Image Generation",
+        "authors": [
+          "Sofia Jamil",
+          "Kotla Sai Charan",
+          "Sriparna Saha",
+          "Koustava Goswami",
+          "Joseph K J"
+        ],
+        "abstract": "Indian poetry, known for its linguistic complexity and deep cultural resonance, has a rich and varied heritage spanning thousands of years. However, its layered meanings, cultural allusions, and sophisticated grammatical constructions often pose challenges for comprehension, especially for non-native speakers or readers unfamiliar with its context and language. Despite its cultural significance, existing works on poetry have largely overlooked Indian language poems. In this paper, we propose the...",
+        "published": "2025-11-17T18:41:16Z",
+        "updated": "2025-11-17T18:41:16Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.13689v1",
+        "abs_url": "https://arxiv.org/abs/2511.13689v1",
+        "categories": [
+          "cs.CL",
+          "cs.CV"
+        ],
+        "primary_category": "cs.CL",
+        "analysis": {
+          "tldr": "This paper explores the challenges of translating Indian poetry and generating images that capture its essence. The authors aim to bridge the gap between complex cultural meanings and broader accessibility for readers and viewers.",
+          "eli5": "Indian poetry is really beautiful but also super complicated because it\u2019s packed with deep meanings and cultural references. This paper looks at how to translate that poetry so more people can understand it, and even create images that match the feelings and ideas in the poems.",
+          "key_contributions": [
+            "The paper highlights the unique challenges of translating Indian poetry, which has been largely ignored in existing research.",
+            "It introduces a multimodal approach that combines text translation with image generation to enhance understanding.",
+            "The authors present new methodologies for making Indian poetry more accessible to non-native speakers and broader audiences."
+          ],
+          "why_care": "Understanding and appreciating Indian poetry can foster cross-cultural connections and enrich our global literary landscape. This research opens doors for more inclusive art and literature, making it relevant to educators, artists, and anyone interested in cultural exchange.",
+          "accessibility": "General Audience",
+          "spicy_take": "If we want to truly appreciate the beauty of Indian poetry, we need to get our hands dirty with translation\u2014it's not just words, it's a whole vibe!",
+          "reading_time_minutes": 5
         }
       }
     ],
     "summary": {
       "total_analyzed": 10,
       "by_accessibility": {
-        "General Audience": 1,
-        "Tech-Savvy": 9,
+        "General Audience": 5,
+        "Tech-Savvy": 5,
         "Researchers Only": 0
       },
-      "avg_reading_time": 6.2
+      "avg_reading_time": 5.5
     }
   },
   "metadata": {
@@ -351,19 +356,19 @@
     "style": "blog-accessible"
   },
   "costs": {
-    "execution_time": 77.33949542045593,
-    "execution_minutes": 1.2889915903409321,
-    "github_actions": 0.010311932722727457,
+    "execution_time": 65.91352939605713,
+    "execution_minutes": 1.098558823267619,
+    "github_actions": 0.008788470586140951,
     "openai": {
-      "input": 0.0005043,
-      "output": 0.0018869999999999998,
-      "total": 0.0023913
+      "input": 0.00049755,
+      "output": 0.001818,
+      "total": 0.00231555
     },
-    "total": 0.012703232722727456,
+    "total": 0.011104020586140951,
     "token_usage": {
-      "prompt_tokens": 3362,
-      "completion_tokens": 3145,
-      "total_tokens": 6507
+      "prompt_tokens": 3317,
+      "completion_tokens": 3030,
+      "total_tokens": 6347
     }
   }
 }
