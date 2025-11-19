@@ -2,58 +2,358 @@
   "agent": "phi-analyzer",
   "model": "Phi-4 Mini",
   "model_id": "microsoft/phi-4-mini-instruct",
-  "timestamp": "2025-11-19T06:12:54.975823",
+  "timestamp": "2025-11-19T12:15:15.137151",
   "status": "completed",
   "data": {
     "analyses": [
       {
         "article": {
-          "id": "news_0_1763532634",
-          "title": "Snapchat rolls out \u2018Topic Chats\u2019 for public conversations - TechCrunch",
-          "description": "Snapchat rolls out \u2018Topic Chats\u2019 for public conversations\u00a0\u00a0TechCrunchSnapchat Launches Topic Chats for Public Discussions with Privacy and AI Moderation\u00a0\u00a0\u0411\u0443\u043a\u0432\u0438Snapchat adds topic chats so everyone can yell about random stuff in one place\u00a0\u00a0Digital TrendsSnapchat launches Topic Chats for public conversations in three markets\u00a0\u00a0PPC LandSnapchat Adds Public \u2018Topic Chats\u2019 to Expand its Use Case\u00a0\u00a0Currently.com",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNRlNpTEZYb2V0QWJGS3N6NUd1clFVN0R5VlBjalJpSko5YVVaUHZBcWt0ZEVTYVQwU2tNOUszQ2VmTWZSV0RINkhUak55a19lWDZQMlRROEVucWRlM01hbGg2c2JRb1ZBSEVQYzZYa0RnOTRZY1h6cnJZOTN2TjZOVzB6NWh1LUdLM0RLNld6NzQwRWV5?oc=5",
-          "source": "TechCrunch",
-          "published": "Tue, 18 Nov 2025 15:46:03 GMT",
+          "id": "news_0_1763554321",
+          "title": "WhatsApp will finally support multiple accounts on the same iPhone - 9to5Mac",
+          "description": "WhatsApp will finally support multiple accounts on the same iPhone\u00a0\u00a09to5MacWhatsApp For iOS Finally Rolls Out Multi-Account Support For Testers\u00a0\u00a0bgr.comWhatsApp tests Multi-Account Support and Usernames in major feature push\u00a0\u00a0Storyboard18WhatsApp to soon let users manage multiple accounts: 5 key things to know\u00a0\u00a0MoneycontrolWhatsApp will soon allow iPhone users to switch between personal and work accounts\u00a0\u00a0HT Tech",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBOcERqYU1fWjdMNFUxbk5yMkVTQlhrZ1VSN0dIRE4yUGNVY09sMkxjTk8wQXBCZi1VdDZkdEcxb2VzRFBzNW8wUUF6WTBScENVVkdRbGFzelVKRkFPckhwMnJZbUd4RUZPN0NlYVp1RnpiUU1xNVU4Zm1B?oc=5",
+          "source": "9to5Mac",
+          "published": "Tue, 18 Nov 2025 20:03:00 GMT",
           "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-19T06:10:34.446793"
+          "fetched_at": "2025-11-19T12:12:01.269069"
         },
         "analysis": {
-          "summary": "Snapchat has introduced 'Topic Chats' to facilitate public conversations with privacy and AI moderation, expanding its use case beyond private messaging to include public discussions on various topics.",
+          "summary": "The article announces WhatsApp's new feature allowing users to manage multiple accounts on the same iPhone, a significant update that could enhance productivity and user convenience by segregating personal and professional communication.",
           "key_points": [
-            "Snapchat's new feature allows for public conversations with a focus on privacy and AI moderation.",
-            "The initiative aims to create spaces where users can discuss a wide range of topics.",
-            "This move could position Snapchat as a more versatile platform for social interaction."
+            "WhatsApp introduces multi-account support for iPhone users, enabling them to switch between personal and work accounts on the same device.",
+            "This feature follows a period of testing and user feedback, reflecting WhatsApp's commitment to evolving based on user needs.",
+            "The ability to manage multiple accounts may increase user engagement and satisfaction by providing a more organized and efficient communication experience."
           ],
-          "sentiment": "Mixed",
+          "sentiment": "Positive",
           "confidence": "High",
-          "bias_check": "The article's optimistic tone towards Snapchat's expansion into public conversations may overlook potential challenges, such as user engagement and moderation effectiveness.",
-          "missing_context": "Details on the moderation process, user experience, and how Snap will differentiate these public chats from current social platforms are missing.",
-          "implications": "This development could shift how users engage with content and each other on Snapchat, potentially impacting social media dynamics and platform competition. It raises questions about privacy, moderation, and the nature of public discourse on social media.",
+          "bias_check": "The article seems to be promoting the positive aspects of the feature without discussing potential drawbacks or user concerns. The source, being a tech news site, may also have a bias towards showcasing technological advancements.",
+          "missing_context": "The article doesn't mention any potential challenges or limitations the new feature might present, such as privacy concerns, security issues, or the learning curve for users to manage multiple accounts smoothly.",
+          "implications": "This feature could lead to a more segmented and organized communication environment for users, potentially increasing productivity. It might also prompt other messaging apps to introduce similar functionalities, altering the competitive landscape.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-19T06:10:57.514819",
+          "analyzed_at": "2025-11-19T12:12:28.042398",
           "token_usage": {
-            "prompt_tokens": 274,
-            "completion_tokens": 231,
-            "total_tokens": 505
+            "prompt_tokens": 291,
+            "completion_tokens": 277,
+            "total_tokens": 568
           }
         }
       },
       {
         "article": {
-          "id": "news_1_1763532634",
-          "title": "Steam Machine and Steam Frame: your questions answered - The Verge",
-          "description": "Steam Machine and Steam Frame: your questions answered\u00a0\u00a0The VergeValve announces new Steam Machine console: Price, specs, release date\u00a0\u00a0MashableFor the Steam Machine to change PC gaming, Valve must solve Linux's anti-cheat problem\u00a0\u00a0EngadgetWill Battlefield 6 work on Steam Machine? Valve hopes its new hardware will prompt a fresh discussion with developers over kernel-level anti-cheat\u00a0\u00a0EurogamerNew Leak Claims Steam Machine Price Will Be Lower Than Expected\u00a0\u00a0VICE",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE51TFJDdlRuN0tzUjlqVk5nVUFSd3ptME1CdldCOFN2MnR0WEJzVHlXSVJyZFdyanJqWkRPUGpBVlZQcDQ4Rl9na2FCZE5Uc3ZVUFV5NjlqQld5cG5uQWxWUXRjVU1kNTVIS0lrOEN2eVpaZjNYdjFpUDhR?oc=5",
-          "source": "The Verge",
-          "published": "Tue, 18 Nov 2025 13:00:00 GMT",
+          "id": "news_1_1763554321",
+          "title": "Review: Kirby Air Riders (Switch 2) - Incredibly Chaotic, But Satisfyingly Deep & Rewarding Racing - Nintendo Life",
+          "description": "Review: Kirby Air Riders (Switch 2) - Incredibly Chaotic, But Satisfyingly Deep & Rewarding Racing\u00a0\u00a0Nintendo LifeKirby Air Riders is radically simple alternative to racing classics like Mario Kart\u00a0\u00a0NPRThe world wasn't ready for Kirby Air Ride in 2003\u00a0\u00a0PolygonKirby Air Riders review\u00a0\u00a0Video Games ChronicleKirby Air Riders Is Absolute Chaos, and I Love It That Way\u00a0\u00a0CNET",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9XZXJJTjZfd1NSZllRZE5ycGpOLXlJRzZ2ZjdCYWMyaU95ZC1KR2FvcFJuMUVwOERkbEZ6d0Z2ZkVoamVCejhnUWJNNF9idHE2TDBDUm5yd1N4MThsdm5tSURlZ3JvWE05NWI3a1Y1S1NJU1hKS3BDZWdaZw?oc=5",
+          "source": "Nintendo Life",
+          "published": "Wed, 19 Nov 2025 06:31:15 GMT",
           "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-19T06:10:34.446821"
+          "fetched_at": "2025-11-19T12:12:01.269094"
         },
         "analysis": {
-          "summary": "{\n  \"summary\": \"The article reviews various aspects of Valve's new Steam Machine console, including its price, specifications, and release date, while addressing concerns regarding Linux's anti-cheat issues and the console's compatibility with games like Battlefield 6.\",\n  \"key_points\": [\n    \"Valve",
+          "summary": "Kirby Air Riders (Switch 2) is a chaotic and engaging racing game, offering simplicity and depth that may appeal to both casual players and fans of the genre. Despite its straightforward mechanics, the game provides a rewarding experience, though it may not impress those looking for complexity or a nostalgic touch of the original 2003 title.",
           "key_points": [
-            "{\n  \"summary\": \"The article reviews various aspects of Valve's new Steam Machine console, including its price, specifications, and release date, while addressing concerns regarding Linux's anti-cheat issues and the console's compatibility with games like Battlefield 6.\",\n  \"key_points\": [\n    \"Valve faces challenges with Linux's anti-cheat system for the Steam Machine, which could hinder its success.\",\n    \"There are speculations about the Steam Machine's price being lower than expected, which might influence consumer interest.\",\n    \"Valve aims to foster a new dialogue with game developers regarding kernel-level anti-cheat implementation on the Steam Machine.\"\n  ],\n  \"sentiment\": \"Mixed\",\n  \"confidence\": \"High\",\n  \"bias_check\": \"The article primarily focuses on technical and development challenges, which could bias readers towards a negative view of the Steam Machine's potential success. Additionally, the emphasis on price speculation might attract those more interested in consumer aspects rather than the technical hurdles.\"\n  \"missing_context\": \"The article may not fully explore the competitive landscape of gaming consoles, such as Microsoft's Xbox or Sony's PlayStation, and their respective anti-cheat measures. Additionally, there could be a lack of discussion on Valve's long-term vision and how the Steam Machine fits into it.\"\n  \"implications\": \"The success of the Steam Machine could influence the future of PC gaming hardware, particularly in terms of integrating it with Valve's Steam platform and addressing anti-cheat issues. It could also affect Valve's relationship with game developers and the overall gaming industry landscape.\"\n}"
+            "Kirby Air Riders (Switch 2) delivers a simple yet deep and rewarding racing experience.",
+            "The game\u2019s chaotic nature is both a positive and negative aspect, depending on player preference.",
+            "The review indicates that the game may not resonate as strongly with fans of more complex or nostalgic racing games."
+          ],
+          "sentiment": "mixed",
+          "confidence": "high",
+          "bias_check": "The reviewer's positive sentiment towards Kirby Air Riders might stem from a personal affinity for the Kirby franchise or a preference for unique racing experiences, which could influence their perspective. Additionally, reviews in niche gaming communities like Nintendo Life may have a bias towards Nintendo products.",
+          "missing_context": "Information about the target audience's expectations and the game\u2019s relative position in the market compared to similar racing games could provide a more comprehensive understanding of its reception. Additionally, details about the graphical improvements, soundtrack, and overall production quality could be relevant.",
+          "implications": "The mixed reviews and the game's appeal to a specific audience segment could impact its commercial success and influence future game development decisions. Developers may consider balancing simplicity with depth or nostalgia for similar projects, and the game might appeal more to casual gamers or Kirby fans.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-19T12:12:36.826271",
+          "token_usage": {
+            "prompt_tokens": 297,
+            "completion_tokens": 334,
+            "total_tokens": 631
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_2_1763554321",
+          "title": "iOS 26.2 Lets iPhone Users in Japan Replace Siri With Third-Party Assistants on Side Button - MacRumors",
+          "description": "iOS 26.2 Lets iPhone Users in Japan Replace Siri With Third-Party Assistants on Side Button\u00a0\u00a0MacRumorsApple may finally let users switch from Siri to another voice assistant\u00a0\u00a0MacworldGemini Can Now Replace Siri On iPhone But There Is A Catch\u00a0\u00a0bgr.comiOS 26.2 leak shows iPhone might let you replace Siri as default assistant [U]\u00a0\u00a09to5MacApple to open iPhone side button access to Gemini, Alexa in this country\u00a0\u00a0Business Standard",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5nVWtQeDhnUVloRjc3ZzNhWFhsNGdBN0pyYUhvSEFQSVpaTWtGQVdLUVRRcGJZUWpaN3VWd29NemxLTGNYdFVhcDNGV0lEcVBsdV9YXzNnR2E5VklqRWpQcEhrek04TkhRbmZrSzJKUDdCOEQ3clRfcGJR?oc=5",
+          "source": "MacRumors",
+          "published": "Mon, 17 Nov 2025 22:06:17 GMT",
+          "topic": "TECHNOLOGY",
+          "fetched_at": "2025-11-19T12:12:01.269112"
+        },
+        "analysis": {
+          "summary": "iOS 26.2 introduces the ability for iPhone users in Japan to replace Siri with third-party voice assistants via the side button, providing more customization but raising concerns about Apple's exclusive agreements and privacy implications.",
+          "key_points": [
+            "Japan users can now replace Siri with third-party assistants like Alexa.",
+            "This feature follows Apple's pattern of offering exceptions in specific countries.",
+            "There are concerns about the exclusivity of the arrangement and potential privacy issues."
+          ],
+          "sentiment": "Mixed",
+          "confidence": "High",
+          "bias_check": "The article might have a bias towards highlighting the potential negative implications of Apple's decision to allow third-party assistants in Japan, possibly downplaying the benefits for users or the reasons behind Apple's choice.",
+          "missing_context": "The reasons why Apple has chosen to implement this feature only in Japan, and how it aligns with their global strategy, are not provided. The article also doesn't mention if this feature is being considered for other countries.",
+          "implications": "This move by Apple could set a precedent for other countries where they might allow third-party voice assistants, influencing the global smartphone market dynamics. It also raises questions about Apple's commitment to user choice and privacy standards, and how this balance is managed across different regions.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-19T12:12:44.411476",
+          "token_usage": {
+            "prompt_tokens": 312,
+            "completion_tokens": 271,
+            "total_tokens": 583
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_3_1763554321",
+          "title": "Clair Obscur: Expedition 33\u2019s Game Awards nominations show \u2018indie\u2019 is still a meaningless term - Polygon",
+          "description": "Clair Obscur: Expedition 33\u2019s Game Awards nominations show \u2018indie\u2019 is still a meaningless term\u00a0\u00a0PolygonThe Game Awards 2025 \u2013 Play Every Nominated Game on Xbox Today\u00a0\u00a0Xbox WireThe Game Awards' Game of the Year lineup broke a major record\u00a0\u00a0PolygonAll The Game Awards 2025 Nominees And Categories\u00a0\u00a0GameSpotThe Game Awards nominees by copies sold\u00a0\u00a0Substack",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQN0RtUWZmenBPaGNJbXNUZTFTbVpkNEpOamJRRklOZHhJR2lGTkRCSjh2M3JTU0I0UXZXZjhtTmdzSXdYNFBhYkszcWFqTG1zYTdUMEIxTjdla2h5THhPSWhaVlZNTzFHcldHRWY0ZGEyTnQ2OHhOdjRVTElBc0pycmowSy0ycU9EUmoxRzV3UllaTDlQWW5sRDJn?oc=5",
+          "source": "Polygon",
+          "published": "Tue, 18 Nov 2025 14:00:00 GMT",
+          "topic": "TECHNOLOGY",
+          "fetched_at": "2025-11-19T12:12:01.269139"
+        },
+        "analysis": {
+          "summary": "The Game Awards 2025 nominations, as discussed by Clair Obscur in Polygon, highlight the blurred lines between 'indie' and mainstream games, questioning the meaningfulness of the indie label due to the crossover success of games like Expedition 33.",
+          "key_points": [
+            "The Game Awards nominations in 2025 show a convergence between indie and mainstream gaming.",
+            "Games like Expedition 33 challenge the traditional indie label by achieving commercial success.",
+            "The term 'indie' may be becoming less relevant as the distinction between indie and mainstream games diminishes."
+          ],
+          "sentiment": "Mixed",
+          "confidence": "High",
+          "bias_check": "The article may reflect a bias towards the evolving dynamics within the gaming industry and may overlook the nuances of what constitutes indie gaming.",
+          "missing_context": "The article does not provide specific details about the nomination and winning process, nor does it consider the diverse criteria that define indie games, such as funding, development team size, or artistic direction.",
+          "implications": "The blurring of lines between indie and mainstream gaming could lead to a redefinition of what it means to be 'indie,' influencing how awards are given and how games are marketed and perceived by players.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-19T12:13:51.738728",
+          "token_usage": {
+            "prompt_tokens": 284,
+            "completion_tokens": 268,
+            "total_tokens": 552
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_4_1763554321",
+          "title": "Microsoft tries to head off the \u201cnovel security risks\u201d of Windows 11 AI agents - Ars Technica",
+          "description": "Microsoft tries to head off the \u201cnovel security risks\u201d of Windows 11 AI agents\u00a0\u00a0Ars TechnicaPreparing for what\u2019s next: Windows security and resiliency innovations help organizations mitigate risks, recover faster and prepare for the era of AI\u00a0\u00a0Windows BlogMicrosoft warns Windows 11 agentic OS may face Xpia malware risks\u00a0\u00a0Windows CentralMicrosoft is turning Windows into an \u2018agentic OS,\u2019 starting with the taskbar\u00a0\u00a0The VergeWindows boss defends 'agentic OS' push as users plead for reliability\u00a0\u00a0ther",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNaVFyd3RzOXhuWTdqTHJmb3ZzUlREeXZDR1Jlb3NpVTY3M0ZfT0Fta1Z0N1pZeE53eWhKUzZocVFqd2FGVVFiY3pUZTBJbC1yRGRiZThsX2lMRUhMX2V5VHdWeGlaaHVXRmlRQjJ5SEZ0SjJpalRlNElFODZQU29OS05takZwR0ZvelVndExlOENUdFlnRmUzbTd3eDI1YmdQbXZRbHVXVjhTNFRRY0dlaG8zdURqUlI2WXZhT2ZHUQ?oc=5",
+          "source": "Ars Technica",
+          "published": "Tue, 18 Nov 2025 19:28:14 GMT",
+          "topic": "TECHNOLOGY",
+          "fetched_at": "2025-11-19T12:12:01.269162"
+        },
+        "analysis": {
+          "summary": "The article discusses Microsoft's efforts to address security concerns associated with Windows 11's AI agents, which integrate AI capabilities directly into the operating system's taskbar, aiming to enhance user experience while mitigating potential risks like XPI malware.",
+          "key_points": [
+            "Microsoft is proactively addressing security risks posed by Windows 11's AI agents to prevent malware threats like XPI.",
+            "The introduction of an 'agentic OS' represents a significant shift towards integrating AI into the Windows ecosystem.",
+            "Despite security measures, there are concerns among users and the tech community regarding the reliability and safety of this new feature."
+          ],
+          "sentiment": "Mixed",
+          "confidence": "High",
+          "bias_check": "The article might be biased towards highlighting Microsoft's proactive steps without equally emphasizing potential shortcomings or failures in their security measures.",
+          "missing_context": "The article could be missing in-depth technical details about the security measures and how effective they are compared to existing solutions. It also doesn't provide user opinions and experiences with the new feature, beyond the general sentiment of concern.",
+          "implications": "This story highlights the evolving landscape of OS security in the face of advancing AI technologies. It underscores the importance of balancing innovation with robust security measures. The trust of users and businesses in Windows as a reliable platform may hinge on Microsoft's ability to effectively manage these new security challenges.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-19T12:13:59.226527",
+          "token_usage": {
+            "prompt_tokens": 308,
+            "completion_tokens": 289,
+            "total_tokens": 597
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_0_1763554321",
+          "title": "China warns there is \u2018no market\u2019 for Japanese seafood exports as spat over Taiwan comments escalates - CNN",
+          "description": "China warns there is \u2018no market\u2019 for Japanese seafood exports as spat over Taiwan comments escalates\u00a0\u00a0CNNChina and Japan are in a vicious game of chicken over Taiwan\u00a0\u00a0The EconomistChina seeks to inflict economic blow on Japan amid escalating spat over Taiwan\u00a0\u00a0NBC NewsJapan says warplanes scrambled as Chinese drone detected near southern island close to Taiwan\u00a0\u00a0CBS NewsChinese SOEs ask workers to cancel their Japan holidays amid diplomatic row\u00a0\u00a0South China Morning Post",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5ySzBPTHdkSWM2VEktQXNjN19sYjlIX0lpS3g3NlhVV0xFSnQ2N05BcU13aHRXY3NaN1VXbVVRSk91WVRHaHVkTnZ5V0JDU1hOT2YxUFBPdXZUVE0xNk5HeDdFbUFMRThyQ2JLNWxHWDFmS2JHdGh2Zjh2TGg?oc=5",
+          "source": "CNN",
+          "published": "Wed, 19 Nov 2025 09:04:20 GMT",
+          "topic": "WORLD",
+          "fetched_at": "2025-11-19T12:12:01.426668"
+        },
+        "analysis": {
+          "summary": "Tensions between China and Japan have escalated following China's statement that there is no market for Japanese seafood exports amidst a spat over Taiwan comments, with Japan scrambling warplanes and Chinese state-owned enterprises urging workers to cancel Japan holidays.",
+          "key_points": [
+            "China's economic retaliation against Japan over Taiwan-related comments.",
+            "Japan's military response with scrambled warplanes to Chinese drone detection near Taiwan.",
+            "Chinese state-owned enterprises advising employees to cancel holidays in Japan."
+          ],
+          "sentiment": "Negative",
+          "confidence": "High",
+          "bias_check": "The perspective is predominantly from a Western viewpoint, potentially underrepresenting Chinese perspectives. The emphasis on military action may overshadow diplomatic efforts.",
+          "missing_context": "The historical context of Sino-Japanese relations, including past conflicts and economic ties, is missing. Details on the specific Taiwan-related comments made by Japan are also lacking.",
+          "implications": "The situation could lead to further economic and military tensions in the region, with potential impacts on global trade and regional stability. The escalation might also affect international diplomatic relations and influence the strategic balance in East Asia.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-19T12:14:05.956672",
+          "token_usage": {
+            "prompt_tokens": 289,
+            "completion_tokens": 242,
+            "total_tokens": 531
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_1_1763554321",
+          "title": "Student escapes as authorities search for 24 other girls abducted in Nigeria - AP News",
+          "description": "Student escapes as authorities search for 24 other girls abducted in Nigeria\u00a0\u00a0AP NewsView Full Coverage on Google News",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPNW9DTWljMGxDLUcxT3M0NUtVZ0pvX0l5eFNKTXZfVmt4VVhpXzVJWDFCR3ItMTlvdndPN0JpMkFZREJDaWdVWERsNjMwNWJrUmZGSzhFWG95SXJ5TVZEV1NWcmY3aUVtdk5zbU0tMEFlZE45SkhSZGpKWDNSZWNHdTdseF92S1pSZ01NTA?oc=5",
+          "source": "AP News",
+          "published": "Wed, 19 Nov 2025 05:32:00 GMT",
+          "topic": "WORLD",
+          "fetched_at": "2025-11-19T12:12:01.426688"
+        },
+        "analysis": {
+          "summary": "A student in Nigeria has escaped from a group of kidnappers, prompting a search for 24 other girls who were abducted on the same day. The incident highlights the ongoing security challenges in the region, particularly the threat posed by militant groups and bandits.",
+          "key_points": [
+            "A student escaped from a group of kidnappers in Nigeria.",
+            "Authorities are searching for 24 other girls who were abducted on the same day.",
+            "The incident underscores the pervasive security issues in Nigeria, including kidnappings and abductions by militant groups and bandits.",
+            "This event may contribute to the rising fear and instability in the country, affecting local communities and families."
+          ],
+          "sentiment": "Negative",
+          "confidence": "High",
+          "bias_check": "The article may focus on the horror of the situation while not providing enough information about the circumstances leading to the abductions or the efforts being made by the authorities to address the situation.",
+          "missing_context": "The piece does not offer details on the measures taken by the Nigerian government or international bodies to combat this type of violence, nor does it mention the broader socio-economic conditions that contribute to such incidents. It also lacks insights into the impact on the local communities, particularly the families of the abducted girls.",
+          "implications": "This story highlights the ongoing security crisis in Nigeria, potentially exacerbating fears among the population and displacing communities. It may also draw attention to the need for international aid and intervention to improve security and support affected families.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-19T12:14:14.486127",
+          "token_usage": {
+            "prompt_tokens": 216,
+            "completion_tokens": 326,
+            "total_tokens": 542
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_2_1763554321",
+          "title": "Israeli Airstrike on Refugee Camp in Lebanon Kills at Least 13, Ministry Says - The New York Times",
+          "description": "Israeli Airstrike on Refugee Camp in Lebanon Kills at Least 13, Ministry Says\u00a0\u00a0The New York TimesLIVE: 14 killed in Israeli air attacks in Lebanon; air strikes in Gaza\u00a0\u00a0Al JazeeraIsraeli strike on a Palestinian refugee camp in Lebanon kills 13 people, Lebanon\u2019s health ministry says\u00a0\u00a0CNNThirteen people killed in Israeli strike on Lebanon's Sidon, Lebanese health ministry says\u00a0\u00a0ReutersIsraeli Army Says It Killed Two Hezbollah Operatives in Southern Lebanon Strike\u00a0\u00a0Haaretz",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPVnREZUY1aXNZRVlDR053Z0dGbUZwNHVFeVU2aFBjX1g3cWlwTXZ1NzFrZF9qUnUybDVOTERsZjN5RlpUMmstamZOUEEzWUFTVHU1enFmQ0puRDVkNFV2dE5BSDg4QzktZlFWY2d3bU01VTFkeER4Q3d3WEg1Zm42c2d1QW1CTERrU19v?oc=5",
+          "source": "The New York Times",
+          "published": "Wed, 19 Nov 2025 00:25:38 GMT",
+          "topic": "WORLD",
+          "fetched_at": "2025-11-19T12:12:01.426710"
+        },
+        "analysis": {
+          "summary": "An Israeli airstrike on a Lebanese refugee camp in Sidon resulted in at least 13 deaths, according to Lebanon\u2019s health ministry. The incident has raised concerns about the escalation of violence in the region, particularly involving Israel and Hezbollah.",
+          "key_points": [
+            "Lebanon's health ministry reports 13 people killed in the Israeli airstrike.",
+            "Israeli forces claim they killed two Hezbollah operatives in the strike.",
+            "The incident has heightened tensions in the region and raised questions about the impact on civilian populations.",
+            "Political ramifications could include increased calls for accountability and potential shifts in international relations."
+          ],
+          "sentiment": "Negative",
+          "confidence": "High",
+          "bias_check": "The article's framing might come from a Western perspective, particularly focusing on the humanitarian impact and political consequences. Additionally, there may be a bias in how the Israeli and Lebanese perspectives are presented.",
+          "missing_context": "Details about the specific targets of the Israeli airstrike, the history of the conflict involving Hezbollah and Israel, and the broader geopolitical context are missing. The article does not provide information on the immediate actions taken by Lebanon or international responses.",
+          "implications": "The incident could lead to increased regional instability, more aggressive military posturing, and potential humanitarian crises. There might be international diplomatic fallout, with calls for investigations and potential sanctions. The event also underscores the ongoing humanitarian challenges faced by refugees in conflict zones.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-19T12:14:22.381471",
+          "token_usage": {
+            "prompt_tokens": 308,
+            "completion_tokens": 305,
+            "total_tokens": 613
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_3_1763554321",
+          "title": "Zelensky Under Siege as Corruption Case Shatters Ukraine\u2019s Wartime Unity - The New York Times",
+          "description": "Zelensky Under Siege as Corruption Case Shatters Ukraine\u2019s Wartime Unity\u00a0\u00a0The New York TimesA huge corruption scandal threatens Ukraine\u2019s government\u00a0\u00a0The EconomistInside the Ukrainian Corruption Probe Edging Closer to Zelensky\u00a0\u00a0The Wall Street JournalOnce a shadowy dealmaker, former Zelenskyy associate is accused in Ukrainian corruption scandal\u00a0\u00a0AP NewsZelensky vows energy sector overhaul after $100m corruption scandal\u00a0\u00a0BBC",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWjFoMGJWcWpfclg3NDZicGc3VDBEMFpXVU9QSzJFR2pzUmxvcGluM19RTUlXNXZXa0YyS1c4bm1HREdOZ3F1NWp1ems4UVJmYll0WEYxSnY1cEF0UkFiS1FIVXFNaThqTGplMHpQWjRjekdDRVVKbk53a20yX2gxNUxJMlJ3UnM?oc=5",
+          "source": "The New York Times",
+          "published": "Wed, 19 Nov 2025 10:02:26 GMT",
+          "topic": "WORLD",
+          "fetched_at": "2025-11-19T12:12:01.426730"
+        },
+        "analysis": {
+          "summary": "President Zelensky's wartime unity is under threat as a massive corruption scandal implicates government officials, potentially undermining Ukraine's political stability and governance amid ongoing conflict.",
+          "key_points": [
+            "A significant corruption scandal has emerged, shaking the confidence in Ukraine's government and potentially destabilizing the nation.",
+            "Former Zelensky ally is accused of corruption, raising questions about the integrity of the President's inner circle.",
+            "Zelensky's vow to overhaul the energy sector in response to the scandal demonstrates a commitment to addressing corruption, though it also signifies the severity of the issues."
+          ],
+          "sentiment": "Negative",
+          "confidence": "High",
+          "bias_check": "The article may exhibit bias by focusing primarily on the negative aspects of the scandal and the potential damage to Zelensky's leadership without equally discussing his efforts to address the issues.",
+          "missing_context": "The article does not provide specifics about the nature of the corruption, the scope of the scandal, or the steps Zelensky is taking to address it beyond his energy sector overhaul pledge.",
+          "implications": "The implications include a potential loss of public trust in the government, weakening of Ukraine's wartime unity, and possible international repercussions related to Ukraine's ability to effectively respond to the conflict and receive support.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-19T12:14:29.608523",
+          "token_usage": {
+            "prompt_tokens": 289,
+            "completion_tokens": 276,
+            "total_tokens": 565
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_4_1763554321",
+          "title": "10 killed, 86 injured, emergency power outages across Ukraine as Russia launches mass missile, drone attack - The Kyiv Independent",
+          "description": "10 killed, 86 injured, emergency power outages across Ukraine as Russia launches mass missile, drone attack\u00a0\u00a0The Kyiv IndependentRussian attack on Ternopil hits flats in one of deadliest strikes on western Ukraine\u00a0\u00a0BBCNineteen killed and 66 wounded in heavy Russian attack on Ukraine, officials say\u00a0\u00a0ReutersRussia Strikes Ukraine as Zelensky Aims to Revive Peace Talks\u00a0\u00a0The New York TimesRussian barrage kills 10 in Ukraine as Zelenskyy heads for talks with Turkish leader\u00a0\u00a0AP News",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQRGEzOE9VMzFSbHBnY1JwUzN6ZFREODlwZTRVOTdFWlU3Z2FMUHFDeXBMenFjQ1k5S1VDUFE3amVBT0dVaHU1cEV2Q2I5QXZKYzdhYmkyQ1R4TmVudHVaNWNkdHUyZ09BYXR0WnZOWlZtendVMS0yeXFwOTFwS0ZINzUwWlI5SUUxWkhybnhUQmk5dDgwYktOMXl4ejBIbzZOcGtIZDB3N3ZTa3V0TFYwZ19IbkJRS1A3a2U3WWdhY2dhaEFLQ3c?oc=5",
+          "source": "The Kyiv Independent",
+          "published": "Wed, 19 Nov 2025 06:56:53 GMT",
+          "topic": "WORLD",
+          "fetched_at": "2025-11-19T12:12:01.426747"
+        },
+        "analysis": {
+          "summary": "The Kyiv Independent reports 10 casualties and 86 injuries resulting from a mass missile and drone attack by Russia on Ukraine, with emergency power outages reported across the country. The attack, which occurred in western Ukraine, is one of the deadliest strikes there, and amidst the violence, Ukrainian President Zelenskyy is heading to peace talks with the Turkish leader.",
+          "key_points": [
+            "Mass missile and drone attack by Russia on Ukraine, resulting in 10 deaths and 86 injuries.",
+            "Emergency power outages are reported across Ukraine following the attack.",
+            "This attack is one of the deadliest in western Ukraine, raising concerns about the escalation of conflict.",
+            "Ukrainian President Zelenskyy is seeking peace talks with the Turkish leader amid the ongoing violence."
+          ],
+          "sentiment": "Negative",
+          "confidence": "High",
+          "bias_check": "The article's perspective may be influenced by its source's geographic and political position, potentially emphasizing the human cost and the urgency of peace talks.",
+          "missing_context": "The underlying reasons for the missile and drone attack, the broader geopolitical context, and the current state of peace negotiations between Ukraine and Russia might be missing.",
+          "implications": "The escalation of violence between Russia and Ukraine could further destabilize the region and complicate diplomatic efforts for peace. The human toll and infrastructure damage highlight the urgent need for conflict resolution and international intervention.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-19T12:14:37.586057",
+          "token_usage": {
+            "prompt_tokens": 309,
+            "completion_tokens": 301,
+            "total_tokens": 610
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_0_1763554321",
+          "title": "Stock futures rise with Nvidia earnings ahead, S&P 500 and Dow try to snap 4-day losing streak: Live updates - CNBC",
+          "description": "Stock futures rise with Nvidia earnings ahead, S&P 500 and Dow try to snap 4-day losing streak: Live updates\u00a0\u00a0CNBCNvidia to report high-stakes Q3 earnings amid investor concerns of AI overbuilding\u00a0\u00a0Yahoo FinanceAI is about to face an enormous test. The market is already nervous\u00a0\u00a0CNNUS stock futures steady in lead-up to Nvidia test\u00a0\u00a0ReutersThe $500 billion Nvidia question, and 4 others, CEO Jensen Huang must answer tonight\u00a0\u00a0CNBC",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4tRTlRcnhFY3ZvbHZhU1hiWWtMRndyOE1ZYzBVcWRBcTF4TnpWRy1ILVBQUzUzb3ltMDZYc3JXU19RNXQyRGtPZ2swZ1hVTWZQcWhXb1BjLWQwRE9tTE85ekVCWDZLdjNKUjFjdmVwel9XQ1ZKOXdj0gF8QVVfeXFMTUl2dlBBZUdGOTN6eXdSU2RGUGplQXlrX1VIaDBMdkZjODVYbnRoT3d5UVAzRXFJTXlTbU1XbE1GR1BkTmVtR0w3LURfMjZoOGNDd0xEZ3g1NTEySXE2Rk5uT3p6a2Q1TjVnV2FPODhRMjRmMmdXa000cXRPeA?oc=5",
+          "source": "CNBC",
+          "published": "Wed, 19 Nov 2025 11:55:00 GMT",
+          "topic": "BUSINESS",
+          "fetched_at": "2025-11-19T12:12:01.588726"
+        },
+        "analysis": {
+          "summary": "{\n  \"summary\": \"Nvidia's upcoming Q3 earnings are expected to significantly influence the tech sector, with stock futures rising as investors anticipate a response to concerns over AI overbuilding. The broader market, represented by the S&P 500 and Dow, is attempting to recover from a four-day losin",
+          "key_points": [
+            "{\n  \"summary\": \"Nvidia's upcoming Q3 earnings are expected to significantly influence the tech sector, with stock futures rising as investors anticipate a response to concerns over AI overbuilding. The broader market, represented by the S&P 500 and Dow, is attempting to recover from a four-day losing streak, with Nvidia's performance being a critical factor.\"\n\n  \"key_points\": [\n    \"Nvidia's Q3 earnings are highly anticipated amid concerns about AI overbuilding.\",\n    \"Stock futures are rising, indicating investor optimism ahead of Nvidia's earnings report.\",\n    \"The broader market, including the S&P 500 and Dow, is trying to recover from a recent losing streak.\"\n  ]\n\n  \"sentiment\": \"Mixed\",\n  \"confidence\": \"High\",\n  \"bias_check\": \"The article may be biased towards portraying Nvidia as the primary driver of market optimism, possibly underestimating other factors influencing the S&P 500 and Dow.\",\n  \"missing_context\": \"The article does not provide information on the overall economic conditions, other major tech companies' performances, or specific details about investor concerns regarding AI overbuilding.\",\n  \"implications\": \"Nvidia's earnings could have significant implications for the tech sector and the broader market. A positive report might boost investor confidence, while a negative one could exacerbate concerns about AI overbuilding. The S&P 500 and Dow's recovery might also reflect broader economic trends or other sector performances not highlighted in the article.\"\n}"
           ],
           "sentiment": "neutral",
           "confidence": "medium",
@@ -62,442 +362,143 @@
           "implications": "",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-19T06:11:05.826102",
-          "token_usage": {
-            "prompt_tokens": 285,
-            "completion_tokens": 320,
-            "total_tokens": 605
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_2_1763532634",
-          "title": "The Analogue 3D is the modern N64 fans have been waiting for - Ars Technica",
-          "description": "The Analogue 3D is the modern N64 fans have been waiting for\u00a0\u00a0Ars TechnicaAnalogue 3D Review: The Purest Nintendo 64 Experience You Can Have on a 4K TV\u00a0\u00a0CNETThe Analogue 3D is the perfect console for N64 collectors\u00a0\u00a0The VergeFinally, There\u2019s a New King of Retro Gaming Consoles\u00a0\u00a0Gear PatrolThe \u2018Analogue 3D\u2019 \u2013 An 'N64' Reimagined in 4K \u2013 Is Available Now\u00a0\u00a0hypebeast.com",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQaUV6V2EybGVQb3AwQ1h2M1RReHpSakFxcE1sUlJncjFEQjFYb3cxZjE4LTJrSVJhaHVZUVpUVW1iRV9DMHBxQlV0S0YzZjRsV1hFUi1DbzNGdllOUm1ORWRjRE9YYzB4MmhnRXV1bFJLb2ZPSHlXSGh6Q3l6dWp4RlRrWTVSeW51eUxoLUpYa0NaWHhfNjI2TW11cDJjYnpPdGc?oc=5",
-          "source": "Ars Technica",
-          "published": "Tue, 18 Nov 2025 18:38:09 GMT",
-          "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-19T06:10:34.446842"
-        },
-        "analysis": {
-          "summary": "The Analogue 3D is a new gaming console that recreates the experience of the original Nintendo 64 in 4K resolution, appealing to both collectors and nostalgic gamers who seek to relive the classic era of gaming on modern hardware.",
-          "key_points": [
-            "The Analogue 3D recreates the N64 experience with a modern twist, offering 4K resolution and compatibility with classic N64 games.",
-            "It targets both new gamers interested in retro gaming and collectors who want to preserve the original N64 experience.",
-            "The console bypasses the need for original cartridges, instead using HDMI and USB connections, making it more convenient and preserving game discs."
-          ],
-          "sentiment": "Positive",
-          "confidence": "High",
-          "bias_check": "The article may lean towards positive sentiment as it mainly discusses the benefits and appeals of the Analogue 3D without discussing potential drawbacks or limitations.",
-          "missing_context": "The story might not provide enough context about the technical issues that could arise from using HDMI and USB connections instead of original cartridges, or the potential impact on the gaming experience. Additionally, the article does not mention any competitors in the market.",
-          "implications": "The Analogue 3D could significantly impact the retro gaming market by providing a modern way to experience classic games while preserving the original hardware. It could also influence other companies to develop similar technology, bridging the gap between nostalgia and modern gaming.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-19T06:11:14.268670",
-          "token_usage": {
-            "prompt_tokens": 311,
-            "completion_tokens": 309,
-            "total_tokens": 620
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_3_1763532634",
-          "title": "Clair Obscur: Expedition 33\u2019s Game Awards nominations show \u2018indie\u2019 is still a meaningless term - Polygon",
-          "description": "Clair Obscur: Expedition 33\u2019s Game Awards nominations show \u2018indie\u2019 is still a meaningless term\u00a0\u00a0PolygonGame Awards Nominations: \u2018Clair Obscur: Expedition 33\u2019 Strikes Gold With Record-Breaking 12 Noms\u00a0\u00a0DeadlineThe Game Awards' Game of the Year lineup broke a major record\u00a0\u00a0PolygonAll The Game Awards 2025 Nominees And Categories\u00a0\u00a0GameSpotThe Game Awards 2025 \u2013 Play Every Xbox Nominated Game Today\u00a0\u00a0Xbox Wire",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQN0RtUWZmenBPaGNJbXNUZTFTbVpkNEpOamJRRklOZHhJR2lGTkRCSjh2M3JTU0I0UXZXZjhtTmdzSXdYNFBhYkszcWFqTG1zYTdUMEIxTjdla2h5THhPSWhaVlZNTzFHcldHRWY0ZGEyTnQ2OHhOdjRVTElBc0pycmowSy0ycU9EUmoxRzV3UllaTDlQWW5sRDJn?oc=5",
-          "source": "Polygon",
-          "published": "Tue, 18 Nov 2025 14:00:00 GMT",
-          "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-19T06:10:34.446876"
-        },
-        "analysis": {
-          "summary": "The Game Awards nominations for 'Clair Obscur: Expedition 33' brought to light the confusion surrounding the 'indie' label in the gaming industry, highlighting its perceived lack of meaning despite the game's accolades.",
-          "key_points": [
-            "'Clair Obscur: Expedition 33' received 12 nominations despite being a title often categorized as indie, raising questions about the indie label's significance.",
-            "The Game Awards' recognition of the game challenges the traditional boundaries and definitions of indie games.",
-            "The ambiguity of what constitutes an 'indie' game remains a contentious issue within the gaming community."
-          ],
-          "sentiment": "mixed",
-          "confidence": "high",
-          "bias_check": "Potential biases could stem from the article's focus on the Game Awards, which may favor more mainstream games and overshadow niche indie titles. Additionally, the writer's perspective might be influenced by their understanding of what 'indie' means, which can vary among industry professionals.",
-          "missing_context": "The article does not provide information on the other 11 games that also received nominations, nor does it explore the specific reasons why 'Clair Obscur: Expedition 33' was a record-breaker. It also does not delve into the criteria used by the Game Awards to categorize games as indie or mainstream.",
-          "implications": "This story suggests that the gaming industry and its audiences are still grappling with the definition of indie games. It may prompt discussions about the need for clearer categorization within award ceremonies and could influence how games are marketed and perceived by players.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-19T06:11:23.300082",
+          "analyzed_at": "2025-11-19T12:14:45.656309",
           "token_usage": {
             "prompt_tokens": 303,
-            "completion_tokens": 336,
-            "total_tokens": 639
+            "completion_tokens": 303,
+            "total_tokens": 606
           }
         }
       },
       {
         "article": {
-          "id": "news_4_1763532634",
-          "title": "Microsoft is packing more AI into Windows, ready or not - here's what's new - ZDNET",
-          "description": "Microsoft is packing more AI into Windows, ready or not - here's what's new\u00a0\u00a0ZDNETPreparing for what\u2019s next: Windows security and resiliency innovations help organizations mitigate risks, recover faster and prepare for the era of AI\u00a0\u00a0Windows BlogMicrosoft warns Windows 11 agentic OS may face Xpia malware risks\u00a0\u00a0Windows CentralMicrosoft is turning Windows into an \u2018agentic OS,\u2019 starting with the taskbar\u00a0\u00a0The VergeWindows boss defends 'agentic OS' push as users plead for reliability\u00a0\u00a0theregister.co",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxORnhWYzdkTHExckNVd2tlLXhETW54eFdLN2tTWWJRUUlhSi1UNmhMVjFJUGk2cWdEbG9oU0ZIU1VjZU9oQURYTlhORFpCUkpDNFlrM1pTNHZEc2tIeG91LVRnYnBSeDY5ZzlHbHFjRXQzQXYzbW14MEtDYlB2cnZmSnhXWS1fUGZXcDFYd25ZbENvZjJNN0FDdjFxLXZqeVFoX1Fr?oc=5",
-          "source": "ZDNET",
-          "published": "Tue, 18 Nov 2025 16:00:00 GMT",
-          "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-19T06:10:34.446898"
-        },
-        "analysis": {
-          "summary": "Microsoft is integrating more AI into Windows, aiming to create an 'agentic OS' with enhanced security and resilience. This move, however, raises concerns about potential malware risks and the reliability of the operating system as it becomes more complex and reliant on AI technologies.",
-          "key_points": [
-            "Microsoft is enhancing Windows with more AI capabilities to create an 'agentic OS'.",
-            "The integration of AI in Windows aims to improve security and resilience, helping organizations mitigate risks and recover faster.",
-            "There are concerns about potential malware risks and the reliability of Windows as it becomes more agentic and complex."
-          ],
-          "sentiment": "Mixed",
-          "confidence": "High",
-          "bias_check": "The article may have a bias towards highlighting the risks and challenges associated with integrating AI into Windows, possibly overshadowing the benefits of such advancements.",
-          "missing_context": "The article does not provide information on how Microsoft plans to address the mentioned malware risks or the specific features that will be introduced in the 'agentic OS'. Additionally, perspectives from cybersecurity experts or users could offer a more balanced view.",
-          "implications": "The increased integration of AI into Windows could lead to significant improvements in security and resilience, but it also raises concerns about the potential for new types of malware and the overall reliability of the operating system as it evolves. This development could influence how organizations approach their IT infrastructure and cybersecurity strategies.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-19T06:11:30.997888",
-          "token_usage": {
-            "prompt_tokens": 303,
-            "completion_tokens": 300,
-            "total_tokens": 603
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_0_1763532634",
-          "title": "Japan counts cost of China's travel boycott as tensions flare - Reuters",
-          "description": "Japan counts cost of China's travel boycott as tensions flare\u00a0\u00a0ReutersBreaking | Beijing tells Tokyo it will suspend Japanese seafood imports: Kyodo News\u00a0\u00a0South China Morning PostChina and Japan are in a vicious game of chicken over Taiwan\u00a0\u00a0The EconomistJapan says warplanes scrambled as Chinese drone detected near southern island close to Taiwan\u00a0\u00a0CBS NewsAiming to Shock Japan, China Pushes a Wave of Reprisals\u00a0\u00a0The New York Times",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOVnFyZ0FKNEFRUTJUdl9EYjlESHMtX1B5SlhDY0RKYmpkaHVSUWoySFh0QkV3SGVSTVhPTDVVM0hTY2d4VUJwVnhYMkJmWFBJX1RmTGpfZlZJOHRGNHVmeDM1Y3FET3pQdldDVXBNNkJZM3U4WV9NbllEVV9UNnZnUkJkNUVQTEVRT21aQ24wUl9saHRfM2RkMmVrV0tYSnhPSmtWd3kybEVGMGNDTHRqM1pHWQ?oc=5",
-          "source": "Reuters",
-          "published": "Wed, 19 Nov 2025 03:39:00 GMT",
-          "topic": "WORLD",
-          "fetched_at": "2025-11-19T06:10:34.543338"
-        },
-        "analysis": {
-          "summary": "Tensions between Japan and China have escalated, with Japan reporting economic losses due to China's travel boycott, and Japan also facing threats to its imports and airspace, contributing to a complex geopolitical standoff over Taiwan and regional security concerns.",
-          "key_points": [
-            "Japan is experiencing economic impacts due to a travel boycott imposed by China.",
-            "Japan is threatened with suspension of seafood imports by China, indicating a broadening economic conflict.",
-            "Tensions around Taiwan are contributing to regional instability, with Japan reporting scrambled warplanes and Chinese drones near its southern islands."
-          ],
-          "sentiment": "Negative",
-          "confidence": "High",
-          "bias_check": "The article may have a bias towards emphasizing the negative aspects of the conflict, possibly due to its publication by Reuters, which might want to highlight serious newsworthy events.",
-          "missing_context": "The article does not provide details on the specific reasons behind China's travel boycott or Japan's responses beyond the mention of scrambling defensive measures, which could contribute to a more nuanced understanding of the situation.",
-          "implications": "The ongoing conflict between Japan and China could lead to prolonged economic and political tensions in the region, affecting global trade, regional alliances, and potentially escalating into further military confrontations if diplomatic efforts fail.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-19T06:11:38.499995",
-          "token_usage": {
-            "prompt_tokens": 276,
-            "completion_tokens": 272,
-            "total_tokens": 548
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_1_1763532634",
-          "title": "Trump defends Saudi crown prince over killing of journalist as they hold talks in Washington - BBC",
-          "description": "Trump defends Saudi crown prince over killing of journalist as they hold talks in Washington\u00a0\u00a0BBCTrump claims slain journalist Khashoggi was \u2018extremely controversial,\u2019 defends Saudi crown prince\u00a0\u00a0CNN$1 trillion man: Trump woos Saudi prince at White House dinner\u00a0\u00a0USA TodayTrump Lauds M.B.S. During White House Visit and Dismisses Khashoggi\u2019s Killing\u00a0\u00a0The New York TimesFarewell to the Abraham Accords\u00a0\u00a0Tablet Magazine",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9rd2dwb1NjZnVnMEZsTWFHYVhFSzEyRjBBc1F5Nk53OU52ODdUbDdKZTE5bDFXN3M5blQ3WkNwQ0ZyS01NbVEyYmNyaEo4eXdtOUpkOA?oc=5",
-          "source": "BBC",
-          "published": "Tue, 18 Nov 2025 18:15:20 GMT",
-          "topic": "WORLD",
-          "fetched_at": "2025-11-19T06:10:34.543376"
-        },
-        "analysis": {
-          "summary": "In a recent meeting between President Trump and the Saudi Crown Prince, Trump defended the Saudi prince, asserting that journalist Jamal Khashoggi was 'extremely controversial' and downplayed the severity of his murder. This stance has drawn criticism and raised concerns about the U.S.-Saudi relationship and human rights issues.",
-          "key_points": [
-            "President Trump defended Saudi Crown Prince Mohammed bin Salman.",
-            "Trump characterized Jamal Khashoggi as 'extremely controversial'.",
-            "The meeting between Trump and the Saudi prince stirred controversy regarding U.S. stance on human rights."
-          ],
-          "sentiment": "Negative",
-          "confidence": "High",
-          "bias_check": "The perspective may lean towards criticizing U.S. foreign policy and human rights advocacy, potentially reflecting a bias against Trump's administration.",
-          "missing_context": "The broader geopolitical significance of the U.S.-Saudi relationship, including economic and military aspects, may be missing.",
-          "implications": "This incident may affect U.S.-Saudi relations and could influence international perceptions of the U.S. commitment to human rights and press freedom.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-19T06:11:44.719637",
-          "token_usage": {
-            "prompt_tokens": 287,
-            "completion_tokens": 237,
-            "total_tokens": 524
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_2_1763532634",
-          "title": "How the UN Gaza resolution creates new foreign \u2018mandate\u2019 over Palestinians - Middle East Eye",
-          "description": "How the UN Gaza resolution creates new foreign \u2018mandate\u2019 over Palestinians\u00a0\u00a0Middle East EyeOpinion | Trump Rallies the Security Council on Gaza\u00a0\u00a0The Wall Street JournalU.N. Security Council Adopts Trump\u2019s Peace Plan for Gaza\u00a0\u00a0The New York TimesAfter UN vote, Netanyahu calls for Hamas' expulsion from the region\u00a0\u00a0ReutersHamas, Gaza factions say UN resolution undermines \u2018national will\u2019\u00a0\u00a0Al Jazeera",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSUM1X1pZQ3VwNmlCcm5nQnplYkxtckktb1AyV2hsOTBaWDlTdDZFaHhSTlcyVldBNXBLY19DVF9ObndBSzR6RDAwc3k1UGl0S0VxSVI3NFh2d1AwdDliOVhsSlhKVUNZNmNzdEppQVN3dFVNUnI3end3VWFUeXVKNEVpQklLekR0eUNfQlI2alByd1Q4YjlxNjRLNDhfUnM?oc=5",
-          "source": "Middle East Eye",
-          "published": "Tue, 18 Nov 2025 17:30:00 GMT",
-          "topic": "WORLD",
-          "fetched_at": "2025-11-19T06:10:34.543397"
-        },
-        "analysis": {
-          "summary": "The UN Gaza resolution is viewed as a significant shift in international policy that imposes a new foreign 'mandate' over the Palestinians, potentially undermining their national will and affecting regional dynamics, particularly in relation to Hamas and Israeli security plans.",
-          "key_points": [
-            "UN resolution shifts foreign policy control over Palestinians to international bodies.",
-            "Hamas claims the resolution undermines Palestinian national will.",
-            "Netanyahu advocates for the expulsion of Hamas from the region following the UN vote."
-          ],
-          "sentiment": "Mixed",
-          "confidence": "High",
-          "bias_check": "The article might reflect a bias toward critical perspectives of the UN resolution, particularly from Palestinian and Hamas viewpoints. Western media outlets might favor Israeli and UN interests, influencing the framing of the story.",
-          "missing_context": "Details on the specifics of the UN resolution, the voting breakdown, and the full Palestinian response are missing. The geopolitical context and historical background leading to this resolution are also not provided.",
-          "implications": "The resolution could alter the power dynamics between Israel, the Palestinian territories, and international stakeholders, impacting peace efforts, regional stability, and the legitimacy of Palestinian governance. It could also lead to increased tensions between Israel and Hamas, potentially affecting peace negotiations and security concerns.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-19T06:11:56.873834",
-          "token_usage": {
-            "prompt_tokens": 285,
-            "completion_tokens": 273,
-            "total_tokens": 558
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_3_1763532634",
-          "title": "1 Israeli killed and 3 wounded in West Bank stabbing as UN approves Trump\u2019s Gaza plan - AP News",
-          "description": "1 Israeli killed and 3 wounded in West Bank stabbing as UN approves Trump\u2019s Gaza plan\u00a0\u00a0AP NewsAt least one killed and three injured after attack at West Bank junction\u00a0\u00a0CNNReports: IDF arrests dozens from village of Gush Etzion terrorist\u00a0\u00a0The Times of IsraelCar ramming and stabbing attack in West Bank kills Israeli, 71\u00a0\u00a0ReutersBenjamin Netanyahu calls to 'complete war' after terror attack\u00a0\u00a0The Jerusalem Post",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQMllRV3JHT2Q1YlR6SXVPbTBYNnJadVZEZzZjcU8zT3BSN1FKSll6QWN3MnlrdEUtYVFLenhtb3A3NFlTTVNZclhWa0hxdERBUExJWGtxcHNQTl9QeklrNUlQOWRZamFkeElCbVBFblRxcnotMHowcXU5OGU1cUdFcDdiLXo5Z3hzc1k0SVNOMDU2Nm9rSURBZGJB?oc=5",
-          "source": "AP News",
-          "published": "Wed, 19 Nov 2025 02:39:00 GMT",
-          "topic": "WORLD",
-          "fetched_at": "2025-11-19T06:10:34.543418"
-        },
-        "analysis": {
-          "summary": "In a tragic incident, one Israeli was killed and three others injured in a stabbing attack in the West Bank. Concurrently, the UN approved President Trump's Gaza plan amidst heightened regional tensions following the attack. The IDF has arrested several individuals from the village of Gush Etzion, raising concerns about intra-Palestinian conflict dynamics.",
-          "key_points": [
-            "A deadly stabbing incident in the West Bank has resulted in one Israeli casualty and three injuries.",
-            "The UN has approved President Trump's Gaza plan, signaling potential escalation in the region.",
-            "Arrests of suspected terrorists from Gush Etzion highlight the complexities of the Israeli-Palestinian conflict."
-          ],
-          "sentiment": "Negative",
-          "confidence": "High",
-          "bias_check": "The article may exhibit bias by focusing primarily on violent incidents and political decisions, potentially overshadowing efforts towards peace or the perspectives of affected civilians.",
-          "missing_context": "The article does not provide background on the specific motivations behind the stabbing attack, the details of the approved Gaza plan, or the historical context leading up to these events.",
-          "implications": "This incident could exacerbate tensions between Israelis and Palestinians, potentially leading to further violence. The approval of Trump's Gaza plan might also lead to an escalation in military actions, affecting regional stability.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-19T06:12:04.090815",
-          "token_usage": {
-            "prompt_tokens": 289,
-            "completion_tokens": 280,
-            "total_tokens": 569
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_4_1763532634",
-          "title": "Double down on push to abandon fossil fuels, 82 countries urge at climate summit - Politico",
-          "description": "Double down on push to abandon fossil fuels, 82 countries urge at climate summit\u00a0\u00a0PoliticoMore than 80 countries at Cop30 join call for roadmap to fossil fuel phase-out\u00a0\u00a0The GuardianKey takeaways from COP30 halfway through the UN climate summit\u00a0\u00a0PBSJamaica faces $9.5 billion finance gap to rebuild after Melissa\u00a0\u00a0ReutersCOP30 enters its final stretch: urgency, ambition, and voices from the streets\u00a0\u00a0UN News",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPLTFhLXhQTV9naUZtMnhac2s4dHlKTjM4LWZ5S2hKRkc2MDJ4UnJpbmxYaFJ6WkRPT0JWbHhwYUM5bjVqUHViZ3liTjdobFpzT2wtNG9taHFteVFybXN0bkdUQi13b2dlT2x0Tk9vX1pSQkVxbkJvNFFVRW5HZk1xOVBtdGk4NHB0WlVXLXVVU09uUjV3NG5NeW0tSi1qZWRtYmxYUEVoNnFqeWp4azRjQ05qUkdUdlE2UENRVmRlbkV6SUxnc3BhUg?oc=5",
-          "source": "Politico",
-          "published": "Tue, 18 Nov 2025 20:07:45 GMT",
-          "topic": "WORLD",
-          "fetched_at": "2025-11-19T06:10:34.543434"
-        },
-        "analysis": {
-          "summary": "Over 80 countries at the COP30 climate summit are pushing for a roadmap to phase out fossil fuels, reflecting a growing global consensus on the urgency to combat climate change and transition to renewable energy sources.",
-          "key_points": [
-            "An unprecedented number of countries are advocating for a clear, actionable plan to eliminate fossil fuels.",
-            "The call to phase out fossil fuels underscores the increasing scientific consensus on the necessity of immediate action to address climate change.",
-            "The summit highlights the political momentum and international cooperation required to tackle this global challenge."
-          ],
-          "sentiment": "Positive",
-          "confidence": "High",
-          "bias_check": "The article may exhibit a pro-environmental bias, given the focus on climate action and fossil fuel abatement. It could also lean towards highlighting progressive initiatives at the summit, potentially underrepresenting dissenting opinions or challenges to such policies.",
-          "missing_context": "The article might not provide detailed information on the specific strategies or policies being proposed, the economic and political challenges some countries face, or the feasibility of an immediate fossil fuel phase-out. It also does not address the potential impact on industries, workers, and countries dependent on fossil fuel exports.",
-          "implications": "The push for a fossil fuel phase-out could lead to significant transformations in global energy markets, economic structures, and geopolitical dynamics. It emphasizes the need for international collaboration, substantial investments in renewable energy, and support systems for affected communities and economies. However, the feasibility and transition timeline will be crucial in mitigating potential negative impacts.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-19T06:12:12.520424",
-          "token_usage": {
-            "prompt_tokens": 288,
-            "completion_tokens": 325,
-            "total_tokens": 613
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_0_1763532634",
-          "title": "Meta Wins FTC Antitrust Trial Over Instagram, WhatsApp Deals - Bloomberg.com",
-          "description": "Meta Wins FTC Antitrust Trial Over Instagram, WhatsApp Deals\u00a0\u00a0Bloomberg.comMeta Did Not Violate the Law When It Bought Instagram and WhatsApp, a Judge Rules\u00a0\u00a0The New York TimesMeta's big antitrust win, Salesforce's deal closure, and iPhone's popularity in China\u00a0\u00a0CNBCMeta Dodges Breakup as Judge Highlights Market Share Declines\u00a0\u00a0Bloomberg.comNews Wrap: Federal judge rules Meta does not have illegal monopoly\u00a0\u00a0PBS",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUEItdThaVW5zSUc1aFV4RXVUN3lmQ252TWNUa3dCVzA2REEtTUl6dWptY0VhN1RPX2ljc0U4Vm9iNGN5aVY5a2tIbmpwVWJFQU56cFh2UHJnZTdxVG14SEZsYW83TUhIZGY0OWVNaWFFUHlPaGJsbGZRbk1fZWxBem1HVTg2OVFyUGhyVjRLZEc4SW4yVlZEek5wNlBaS3ZjbE5HS0t4SE1RQUNRUlQw?oc=5",
-          "source": "Bloomberg.com",
-          "published": "Tue, 18 Nov 2025 21:04:09 GMT",
-          "topic": "BUSINESS",
-          "fetched_at": "2025-11-19T06:10:34.628087"
-        },
-        "analysis": {
-          "summary": "Meta's defense in the FTC antitrust trial against accusations of illegal monopolization was successful, as the judge ruled it did not violate the law when acquiring Instagram and WhatsApp. This verdict is seen as a significant win for Meta, potentially staving off a mandated breakup of Facebook's acquisitions and possibly setting a precedent for similar cases in the tech industry.",
-          "key_points": [
-            "Meta won the FTC antitrust trial regarding its acquisition of Instagram and WhatsApp.",
-            "The judge ruled that Meta's actions were lawful and that there was no illegal monopoly.",
-            "This decision could prevent a forced breakup of Meta's acquisitions, influencing future tech industry acquisitions and regulatory actions."
-          ],
-          "sentiment": "Mixed",
-          "confidence": "High",
-          "bias_check": "The article may present a positive bias towards Meta by focusing on the company's victory and the judge's ruling in its favor. It may not fully explore the potential negative impacts of such acquisitions on competition and consumer choice.",
-          "missing_context": "The article doesn't mention the specific arguments made by the FTC against Meta, nor does it discuss the details of the judge's reasoning. It also doesn't provide information on public or expert reactions to the ruling, which could offer a different perspective on its significance.",
-          "implications": "This ruling may embolden tech companies to pursue aggressive acquisitions, potentially leading to less competition in the digital marketplace. It could also impact how the FTC and other regulatory bodies approach antitrust cases in the tech sector, possibly making it harder to challenge similar acquisitions in the future.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-19T06:12:20.991057",
-          "token_usage": {
-            "prompt_tokens": 286,
-            "completion_tokens": 329,
-            "total_tokens": 615
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_1_1763532634",
-          "title": "Stock futures little changed as S&P 500 notches fourth-straight loss, Nvidia earnings loom: Live updates - CNBC",
-          "description": "Stock futures little changed as S&P 500 notches fourth-straight loss, Nvidia earnings loom: Live updates\u00a0\u00a0CNBCStock market today: Dow, S&P 500, Nasdaq futures inch up as Wall Street awaits Nvidia earnings\u00a0\u00a0Yahoo FinanceNvidia Earnings Run Into a Market Suddenly Afraid Of AI Spending\u00a0\u00a0Bloomberg.comNvidia is set to report earnings Wednesday. These stocks could be moved by the results\u00a0\u00a0CNBCAsia markets teeter ahead of Nvidia earnings test\u00a0\u00a0Reuters",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4tRTlRcnhFY3ZvbHZhU1hiWWtMRndyOE1ZYzBVcWRBcTF4TnpWRy1ILVBQUzUzb3ltMDZYc3JXU19RNXQyRGtPZ2swZ1hVTWZQcWhXb1BjLWQwRE9tTE85ekVCWDZLdjNKUjFjdmVwel9XQ1ZKOXdj0gF8QVVfeXFMTUl2dlBBZUdGOTN6eXdSU2RGUGplQXlrX1VIaDBMdkZjODVYbnRoT3d5UVAzRXFJTXlTbU1XbE1GR1BkTmVtR0w3LURfMjZoOGNDd0xEZ3g1NTEySXE2Rk5uT3p6a2Q1TjVnV2FPODhRMjRmMmdXa000cXRPeA?oc=5",
+          "id": "news_1_1763554321",
+          "title": "Target will report earnings before the bell. Here's what to expect - CNBC",
+          "description": "Target will report earnings before the bell. Here's what to expect\u00a0\u00a0CNBCTarget's incoming CEO bets on store upgrades and price cuts to revive growth\u00a0\u00a0AxiosTarget slashes earnings guidance, warns about affordability crisis, and predicts a weak holiday season\u00a0\u00a0Yahoo FinanceTarget may have hit rock bottom\u00a0\u00a0CNNTarget investors brace for market share drop, weak sales due to US shutdown\u00a0\u00a0Reuters",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE56TUYtNnZmcTIzVDk5dGtXNDV4S0J4bHNYZWFMcGdtR0tIUFJrV1BmYUk5TDdITnRqc0tDTW1uZG84WFBsNUZnRkdKdDVLTWhrTng5V2pYQmhvUkpPanNZa0t3TERHTmFKT1c5dFlwT0U4d9IBd0FVX3lxTFBsMl9VRWU1aGhrdmVBTkhQd1NxZ3RUdTFfSE1GWHRicGVicjZHTHkwRUp5MkZDclhlTk0zNThxdUhSS1I0dWQxN2pmWXVJdk5PdWtDQ1UwZDZTUHItLTNDTWNwN3cyVVE0RHBxcWlwT1U1MDdOWUVj?oc=5",
           "source": "CNBC",
-          "published": "Wed, 19 Nov 2025 00:38:00 GMT",
+          "published": "Wed, 19 Nov 2025 05:01:01 GMT",
           "topic": "BUSINESS",
-          "fetched_at": "2025-11-19T06:10:34.628116"
+          "fetched_at": "2025-11-19T12:12:01.588748"
         },
         "analysis": {
-          "summary": "Despite the S&P 500 experiencing its fourth consecutive loss, stock futures remained mostly unchanged as investors are awaiting Nvidia's earnings report, which could significantly impact market sentiment around AI spending.",
+          "summary": "The article discusses the anticipation around Target's upcoming earnings report, highlighting concerns about a potential decline in market share, weak sales due to the US shutdown, and challenges from the affordability crisis. Target's incoming CEO aims to revive growth via store upgrades and price cuts, but investors are bracing for a disappointing holiday season.",
           "key_points": [
-            "S&P 500 losing streak continues with the fourth consecutive loss.",
-            "Stock futures are largely unchanged, indicating a wait-and-see approach among investors.",
-            "Nvidia earnings report is highly anticipated and could sway market sentiment on AI investment."
-          ],
-          "sentiment": "neutral",
-          "confidence": "high",
-          "bias_check": "The article may contain biases towards the significance of Nvidia's earnings report and its potential impact on AI spending.",
-          "missing_context": "The article does not provide details on other factors affecting the S&P 500, such as economic indicators, corporate earnings reports from other sectors, or geopolitical events.",
-          "implications": "Nvidia's earnings report could have significant implications for the stock market, particularly in the tech sector and AI investment. If Nvidia reports strong earnings, it could bolster investor confidence and potentially lead to a rally in tech stocks. Conversely, weaker-than-expected results could dampen enthusiasm for AI investments and have a negative impact on related stocks.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-19T06:12:27.835034",
-          "token_usage": {
-            "prompt_tokens": 302,
-            "completion_tokens": 259,
-            "total_tokens": 561
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_2_1763532634",
-          "title": "Kroger Expands Partnerships with DoorDash, UberEats, Instacart - The Wall Street Journal",
-          "description": "Kroger Expands Partnerships with DoorDash, UberEats, Instacart\u00a0\u00a0The Wall Street JournalKroger Evolves eCommerce Offerings to Improve the Customer Experience, Drive Profitable Sales Growth\u00a0\u00a0KrogerKroger to close three automated delivery fulfillment sites, incur $2.6 billion charge\u00a0\u00a0ReutersKroger to close 3 automated fulfillment facilities across multiple US states\u00a0\u00a0USA TodayKroger closing three fulfillment centers as it shifts to hybrid e-commerce model\u00a0\u00a0WLWT",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPXy1kQmJCR3FzdWRoZm9na1NnbGoxWFUwb0locEliaEJudGV0c0F2Uno1VnVLcjJqb2lfQkUxS0JIWDFEeE9qWlJhRlBxSUN3S1I1cmVYalg4MGJjS2JHUWNadFlVN2oyeHVEWnUySW9MWWRLWi10a1RESTRLb2pMTWxTNVRMTTNqM2MxYjFULTVFTDllN19jZ05xaGNYcFdNR0NnemdQS24?oc=5",
-          "source": "The Wall Street Journal",
-          "published": "Tue, 18 Nov 2025 14:42:00 GMT",
-          "topic": "BUSINESS",
-          "fetched_at": "2025-11-19T06:10:34.628132"
-        },
-        "analysis": {
-          "summary": "Kroger has expanded its e-commerce partnerships with DoorDash, UberEats, and Instacart to enhance customer experience and drive sales growth. The move reflects a strategic shift towards a hybrid e-commerce model, which includes the closure of three automated delivery fulfillment sites, resulting in a $2.6 billion charge.",
-          "key_points": [
-            "Kroger's expansion of partnerships with DoorDash, UberEats, and Instacart aims to improve the customer experience and drive profitable sales growth.",
-            "The company is transitioning to a hybrid e-commerce model by closing three automated fulfillment centers, leading to a significant financial charge.",
-            "This strategic shift highlights the ongoing evolution of retail logistics and the increasing importance of integrating with third-party delivery services."
+            "Target's expected earnings report may signal further challenges due to the US shutdown and affordability crisis.",
+            "Incoming CEO's strategy focuses on store upgrades and price cuts to stimulate growth.",
+            "Investors are preparing for a potential drop in market share and weak holiday sales."
           ],
           "sentiment": "Mixed",
           "confidence": "High",
-          "bias_check": "The focus on financial charges and closures might overshadow the potential benefits of the partnerships and the strategic shift. The article may be biased towards highlighting negative financial aspects over positive strategic initiatives.",
-          "missing_context": "The article does not provide information on how these partnerships might affect Kroger\u2019s long-term strategic goals, nor does it mention any specific customer feedback or reactions to these changes.",
-          "implications": "Kroger's move to a hybrid e-commerce model could set a precedent for other retailers, indicating a trend towards leveraging third-party delivery services to enhance customer experience and drive sales. This might also signal a shift in the retail landscape, with more focus on flexible, customer-centric delivery options. However, the financial impact of closing fulfillment centers could have long-term implications for Kroger's operational costs and profitability.",
-          "uncertainties": "The long-term success of Kroger's strategic shift and the impact of the financial charge on its overall business health are uncertain. Additionally, the broader market response to such moves and how competitors might react are also unclear.",
+          "bias_check": "Biases might include an overemphasis on negative aspects like the affordability crisis and the US shutdown's impact, potentially downplaying positive investor expectations or Target's strategic initiatives.",
+          "missing_context": "It's important to consider the broader retail environment, including how competitors are performing, and other external economic factors that could influence Target's performance.",
+          "implications": "The broader implications could include shifts in consumer spending patterns, the impact of economic policies on retail, and how well Target's strategies can adapt to ongoing challenges. This story could signal a critical juncture for Target, potentially affecting its long-term growth and market position.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-19T06:12:37.761752",
+          "analyzed_at": "2025-11-19T12:14:53.115186",
           "token_usage": {
-            "prompt_tokens": 298,
-            "completion_tokens": 397,
-            "total_tokens": 695
+            "prompt_tokens": 269,
+            "completion_tokens": 284,
+            "total_tokens": 553
           }
         }
       },
       {
         "article": {
-          "id": "news_3_1763532634",
+          "id": "news_2_1763554321",
+          "title": "China's diesel trucks are shifting to electric. This could change global LNG and diesel demand - AP News",
+          "description": "China's diesel trucks are shifting to electric. This could change global LNG and diesel demand\u00a0\u00a0AP NewsView Full Coverage on Google News",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcUFZanZPQmN0MGtBNlhyVjljSUdsZktmRG5pUzhxVVFiYXR2TGtMc0RCYmVrM1lzX2I0ZEt2UUdmN2hrQWJNVEwza1NTMWNfSmIydGpqX0g3U0RwMGJPLTV4VXZIenQ2blhTbjNtWFI0Y25naVdiVzR1b1ZhQ0o4bHJTUDVHdEc1TjZOOVZIT3Jrc1RzU1pOVjFlNA?oc=5",
+          "source": "AP News",
+          "published": "Wed, 19 Nov 2025 05:18:00 GMT",
+          "topic": "BUSINESS",
+          "fetched_at": "2025-11-19T12:12:01.588757"
+        },
+        "analysis": {
+          "summary": "China's transition from diesel to electric trucks is poised to significantly impact global demand for both diesel and liquefied natural gas (LNG). This shift underscores China's commitment to reducing emissions and highlights the growing importance of electric vehicle (EV) infrastructure in the country.",
+          "key_points": [
+            "China's switch from diesel trucks to electric is a significant step towards reducing carbon emissions.",
+            "This transition could lead to a decrease in global demand for diesel and LNG.",
+            "The move may spur other countries to follow suit, potentially reshaping global energy markets."
+          ],
+          "sentiment": "Mixed",
+          "confidence": "High",
+          "bias_check": "The article may implicitly favor environmental sustainability, potentially downplaying economic challenges for traditional energy sectors or the hurdles associated with transitioning to electric vehicles.",
+          "missing_context": "The article does not mention the current state of China's electric truck infrastructure and the government's specific policies or initiatives driving this transition. It also lacks details on how this shift might affect domestic industries and employment.",
+          "implications": "This shift could accelerate the global transition to electric vehicles, affecting industries reliant on diesel and LNG. It may also prompt changes in global trade patterns, energy consumption, and environmental policies.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-19T12:15:00.230910",
+          "token_usage": {
+            "prompt_tokens": 220,
+            "completion_tokens": 262,
+            "total_tokens": 482
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_3_1763554321",
+          "title": "Meta wins landmark antitrust case over Instagram, WhatsApp acquisitions - Axios",
+          "description": "Meta wins landmark antitrust case over Instagram, WhatsApp acquisitions\u00a0\u00a0AxiosMeta Did Not Violate the Law When It Bought Instagram and WhatsApp, a Judge Rules\u00a0\u00a0The New York TimesMeta's big antitrust win, Salesforce's deal closure, and iPhone's popularity in China\u00a0\u00a0CNBCNews Wrap: Federal judge rules Meta does not have illegal monopoly\u00a0\u00a0PBSMeta wins FTC antitrust suit, will keep Instagram and WhatsApp\u00a0\u00a0Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9vUFROVjVMNzE2U0w2ZGRLTUhVSXFpcnh5eDB0M09kdmkyX2hJOEZ0MnA1QWtIaWUwRFVSRGI2RmZKVDJyY1FBRU5Lb3NJLThyRjliTk5jd3pNakxnMXpuN3pDN3lzTjJfX3dmeVhnNVhWTFBhN0lqZ1N3?oc=5",
+          "source": "Axios",
+          "published": "Tue, 18 Nov 2025 18:36:56 GMT",
+          "topic": "BUSINESS",
+          "fetched_at": "2025-11-19T12:12:01.588775"
+        },
+        "analysis": {
+          "summary": "Meta won a significant antitrust case regarding the acquisitions of Instagram and WhatsApp, with a judge ruling that the company did not violate antitrust laws. This decision challenges regulatory approaches to tech mergers and may impact future acquisitions in the tech sector.",
+          "key_points": [
+            "Meta's victory in the antitrust case over Instagram and WhatsApp acquisitions.",
+            "The ruling may set a precedent for how tech mergers are evaluated in terms of antitrust laws.",
+            "This outcome could potentially influence Meta's future business strategies and acquisitions."
+          ],
+          "sentiment": "Mixed",
+          "confidence": "High",
+          "bias_check": "The article may exhibit bias towards regulatory or tech industry perspectives, depending on the framing by Axios, which could influence the interpretation of the judge's ruling.",
+          "missing_context": "The broader implications for the tech industry, potential appeals, and the specifics of the judge's reasoning could provide additional context that is not fully explored in the summary.",
+          "implications": "The ruling could signal a shift in the regulatory landscape for tech mergers, possibly emboldening other companies to pursue acquisitions with less fear of antitrust consequences. It also raises questions about the balance between fostering innovation and preventing monopolistic practices in the tech sector.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-19T12:15:07.125896",
+          "token_usage": {
+            "prompt_tokens": 282,
+            "completion_tokens": 267,
+            "total_tokens": 549
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_4_1763554321",
           "title": "The all-electric Jeep Recon is finally here - TechCrunch",
-          "description": "The all-electric Jeep Recon is finally here\u00a0\u00a0TechCrunchJeep reveals Wrangler-inspired Recon EV, starting at $65,000\u00a0\u00a0CNBCView Exterior Photos of the 2026 Jeep Recon, a New Off-Road-Ready EV\u00a0\u00a0Car and Driver2026 Jeep Recon First Look: The Electric Wrangler Is (Kinda) Here!\u00a0\u00a0MotorTrendThe Jeep Recon lives\u00a0\u00a0The Verge",
+          "description": "The all-electric Jeep Recon is finally here\u00a0\u00a0TechCrunchJeep reveals Wrangler-inspired Recon EV, starting at $65,000\u00a0\u00a0CNBCIntroducing the All-new, All-electric 2026 Jeep\u00ae Recon: Trail Rated Capability, Electrified\u00a0\u00a0Stellantis Media - HomepageJeep officially launches Recon, an electric off-roader, after years of delays\u00a0\u00a0Detroit Free PressSee the Interior of the 2026 Jeep Recon EV, a New Electric Counterpart to the Wrangler Off-Roader\u00a0\u00a0Car and Driver",
           "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQTFhoRW1YQVRKR1Y5VkV1RHFkai1BUVpfclBETkR6cW5XRlF0QXNINkN0cVY2ZFhVaVBjR1Q1bzh4MU1pMTB1Nkt2Q1ZId2ZLc1BWYnRNS1FRNUNVRzl0dEp3Ny04Y2lJYWt2S0FCRUtJMDdZSWxjQzJwQTJlY0JQTmpDY0g?oc=5",
           "source": "TechCrunch",
           "published": "Wed, 19 Nov 2025 02:22:10 GMT",
           "topic": "BUSINESS",
-          "fetched_at": "2025-11-19T06:10:34.628148"
+          "fetched_at": "2025-11-19T12:12:01.588793"
         },
         "analysis": {
-          "summary": "The all-electric Jeep Recon, a new Wrangler-inspired electric vehicle, has been introduced with a starting price of $65,000. The vehicle promises to combine off-road capabilities with zero emissions, signaling a shift towards electric vehicles in the rugged truck segment.",
+          "summary": "The all-electric Jeep Recon, a modern off-roader inspired by the iconic Wrangler, hits the market at $65,000. This electric variant promises trail-ready performance while addressing the environmental concerns of traditional gas-powered vehicles.",
           "key_points": [
-            "Jeep has entered the electric vehicle market with the new Recon model.",
-            "The Recon's starting price is $65,000, positioning it as a premium electric vehicle.",
-            "The electric Jeep Recon aims to offer the same off-road capabilities as its combustion-engine counterpart."
+            "Jeep introduces the all-electric Recon, marking a significant move by a traditionally gas-powered SUV brand towards electrification.",
+            "The vehicle starts at $65,000, positioning it as a premium option in the electric SUV market.",
+            "The launch of the Recon reflects broader industry trends towards sustainability and electric mobility."
           ],
           "sentiment": "Mixed",
           "confidence": "High",
-          "bias_check": "The article comes from TechCrunch, a tech news platform, which may have a focus on innovation and new technology development. This could lead to a bias towards highlighting the positive aspects of the electric Jeep Recon.",
-          "missing_context": "Details about the vehicle's range, charging infrastructure, and how the electric model compares to the combustion-engine model in terms of performance and capabilities are missing. Additionally, the article does not discuss the broader impact on the automotive industry or how consumers might perceive the transition to electric vehicles.",
-          "implications": "The introduction of an all-electric Wrangler-inspired Jeep Recon could signal a significant trend in the automotive industry, encouraging other manufacturers to develop electric vehicles in the rugged truck segment. This move may accelerate the adoption of electric vehicles and influence consumer expectations regarding the capabilities of electric trucks. However, it also raises questions about the infrastructure needed to support electric vehicles, the environmental impact of increased production, and the vehicle's long-term viability given the current state of battery technology.",
+          "bias_check": "The article's enthusiasm about the electric version of a well-established brand could reflect a bias towards the positive aspects of the new technology without discussing potential downsides such as the high price point or current limitations in electric vehicle infrastructure.",
+          "missing_context": "The article does not discuss the competitive landscape, including whether other brands are already offering comparable electric options. Additionally, it does not mention the current state of electric vehicle technology, such as battery range and recharging infrastructure, which are critical for consumer adoption.",
+          "implications": "The Jeep Recon's introduction to the market could encourage other traditional SUV manufacturers to explore electric vehicle options, possibly leading to more electric SUVs in the future. It also underscores the growing consumer interest in electric vehicles and the increasing market share they are capturing.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-19T06:12:46.682449",
+          "analyzed_at": "2025-11-19T12:15:15.137101",
           "token_usage": {
-            "prompt_tokens": 269,
-            "completion_tokens": 346,
-            "total_tokens": 615
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_4_1763532634",
-          "title": "Trading Day: Stock selloff snowballs, Japan wobbles - Reuters",
-          "description": "Trading Day: Stock selloff snowballs, Japan wobbles\u00a0\u00a0ReutersStock Market News, Nov. 18, 2025: AI Bubble Fears Hit Stocks\u00a0\u00a0The Wall Street JournalDow, S&P 500 fall amid A.I-driven tech slump\u00a0\u00a0YahooS&P 500 ends down for a 4th day as valuation worries weigh, Home Depot drops\u00a0\u00a0ReutersGlobal stocks sell off as AI valuation concerns persist ahead of Nvidia earnings\u00a0\u00a0CNBC",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPZkZmSUZyY3Q0RlJ5eVQzbF9LUGRRaEhJQURlOXYzZzVoNE9OME80RXNEVUlLZ1BndktiRUpJaTNYTEhKUjVvUXJJS1BnZEs0c1dFM2JXNnpPRVpPVnhhZXhhcExHR2ZKSlVoZ1NwQ1k3QlFCcWNDN04zOFJVWFFkYUVvUGgydF9YOGc?oc=5",
-          "source": "Reuters",
-          "published": "Tue, 18 Nov 2025 22:04:00 GMT",
-          "topic": "BUSINESS",
-          "fetched_at": "2025-11-19T06:10:34.628164"
-        },
-        "analysis": {
-          "summary": "The article reports a significant selloff in global stock markets, particularly influenced by concerns over the valuation of AI-driven tech companies, with major indices like the Dow and S&P 500 falling for the fourth consecutive day. Japan's markets also experience volatility, adding to the global unease ahead of Nvidia's earnings report.",
-          "key_points": [
-            "Significant selloff in global stock markets, driven by AI valuation concerns",
-            "DJIA and S&P 500 indices are experiencing a multi-day decline",
-            "Japan's markets are showing signs of instability, adding to the global market unease",
-            "Nvidia's earnings report is a focal point for investors' decisions"
-          ],
-          "sentiment": "Negative",
-          "confidence": "High",
-          "bias_check": "The article may exhibit a bias towards highlighting negative market trends and investor concerns, potentially overshadowing any positive developments or rationalizations for the selloff.",
-          "missing_context": "The article does not provide specific reasons behind the selloff beyond AI valuation concerns, such as broader economic indicators, geopolitical events, or company-specific news, which could help in understanding the full scope of the market downturn.",
-          "implications": "The broader implications include potential investor caution and a reevaluation of AI-driven tech stocks, which could lead to a broader market correction. There may also be implications for corporate earnings reports and investor sentiment towards tech stocks. The situation could prompt a reassessment of risk management strategies in investment portfolios.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-19T06:12:54.975756",
-          "token_usage": {
-            "prompt_tokens": 286,
-            "completion_tokens": 314,
-            "total_tokens": 600
+            "prompt_tokens": 293,
+            "completion_tokens": 305,
+            "total_tokens": 598
           }
         }
       }
@@ -509,19 +510,19 @@
     "articles_analyzed": 15
   },
   "costs": {
-    "execution_time": 125.8285858631134,
-    "execution_minutes": 2.097143097718557,
-    "github_actions": 0.016777144781748455,
+    "execution_time": 174.51023602485657,
+    "execution_minutes": 2.9085039337476095,
+    "github_actions": 0.023268031469980875,
     "openai": {
-      "input": 0.0006513000000000001,
-      "output": 0.0027167999999999997,
-      "total": 0.0033680999999999997
+      "input": 0.0006405,
+      "output": 0.0025859999999999998,
+      "total": 0.0032264999999999998
     },
-    "total": 0.020145244781748454,
+    "total": 0.026494531469980875,
     "token_usage": {
-      "prompt_tokens": 4342,
-      "completion_tokens": 4528,
-      "total_tokens": 8870
+      "prompt_tokens": 4270,
+      "completion_tokens": 4310,
+      "total_tokens": 8580
     }
   }
 }
