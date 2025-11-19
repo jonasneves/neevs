@@ -1,60 +1,25 @@
 {
   "agent": "agent-b-paper-analyzer",
-  "timestamp": "2025-11-18T09:04:37.248664",
+  "timestamp": "2025-11-19T09:04:53.915220",
   "status": "completed",
   "input_from": "agent-a-paper-fetcher",
   "data": {
     "analyzed_papers": [
       {
-        "id": "2511.13719v1",
-        "title": "Scaling Spatial Intelligence with Multimodal Foundation Models",
+        "id": "2511.14761v1",
+        "title": "ARC Is a Vision Problem!",
         "authors": [
-          "Zhongang Cai",
-          "Ruisi Wang",
-          "Chenyang Gu",
-          "Fanyi Pu",
-          "Junxiang Xu"
+          "Keya Hu",
+          "Ali Cy",
+          "Linlu Qiu",
+          "Xiaoman Delores Ding",
+          "Runqian Wang"
         ],
-        "abstract": "Despite remarkable progress, multimodal foundation models still exhibit surprising deficiencies in spatial intelligence. In this work, we explore scaling up multimodal foundation models to cultivate spatial intelligence within the SenseNova-SI family, built upon established multimodal foundations including visual understanding models (i.e., Qwen3-VL and InternVL3) and unified understanding and generation models (i.e., Bagel). We take a principled approach to constructing high-performing and robu...",
-        "published": "2025-11-17T18:59:33Z",
-        "updated": "2025-11-17T18:59:33Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.13719v1",
-        "abs_url": "https://arxiv.org/abs/2511.13719v1",
-        "categories": [
-          "cs.CV",
-          "cs.AI",
-          "cs.LG",
-          "cs.MM",
-          "cs.RO"
-        ],
-        "primary_category": "cs.CV",
-        "analysis": {
-          "tldr": "This paper focuses on improving spatial intelligence in multimodal foundation models, which combine different types of data like images and text. The authors propose a new approach called SenseNova-SI to enhance these models' abilities in understanding and generating spatial information.",
-          "eli5": "Imagine trying to teach a robot how to understand where things are in a room just by looking at pictures and hearing descriptions. This paper discusses how to make these robots smarter by using better models that can connect visuals and language more effectively, especially when it comes to spatial relationships.",
-          "key_contributions": [
-            "Introduction of SenseNova-SI, a new family of models designed to enhance spatial intelligence.",
-            "Utilization of advanced multimodal foundations like Qwen3-VL and Bagel to improve performance.",
-            "A principled construction method for creating robust models that can better understand and generate spatial data."
-          ],
-          "why_care": "Improving spatial intelligence in AI models can have significant implications in various fields like robotics, autonomous vehicles, and augmented reality, making interactions with technology more intuitive and efficient.",
-          "accessibility": "Tech-Savvy",
-          "spicy_take": "If we don't invest in spatial intelligence now, we risk creating AI systems that can\u2019t navigate our increasingly complex physical world effectively.",
-          "reading_time_minutes": 5
-        }
-      },
-      {
-        "id": "2511.13714v1",
-        "title": "UnSAMv2: Self-Supervised Learning Enables Segment Anything at Any Granularity",
-        "authors": [
-          "Junwei Yu",
-          "Trevor Darrell",
-          "XuDong Wang"
-        ],
-        "abstract": "The Segment Anything Model (SAM) family has become a widely adopted vision foundation model, but its ability to control segmentation granularity remains limited. Users often need to refine results manually - by adding more prompts or selecting from pre-generated masks - to achieve the desired level of detail. This process can be ambiguous, as the same prompt may correspond to several plausible masks, and collecting dense annotations across all granularities is prohibitively expensive, making sup...",
-        "published": "2025-11-17T18:58:34Z",
-        "updated": "2025-11-17T18:58:34Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.13714v1",
-        "abs_url": "https://arxiv.org/abs/2511.13714v1",
+        "abstract": "The Abstraction and Reasoning Corpus (ARC) is designed to promote research on abstract reasoning, a fundamental aspect of human intelligence. Common approaches to ARC treat it as a language-oriented problem, addressed by large language models (LLMs) or recurrent reasoning models. However, although the puzzle-like tasks in ARC are inherently visual, existing research has rarely approached the problem from a vision-centric perspective. In this work, we formulate ARC within a vision paradigm, frami...",
+        "published": "2025-11-18T18:59:49Z",
+        "updated": "2025-11-18T18:59:49Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.14761v1",
+        "abs_url": "https://arxiv.org/abs/2511.14761v1",
         "categories": [
           "cs.CV",
           "cs.AI",
@@ -62,280 +27,306 @@
         ],
         "primary_category": "cs.CV",
         "analysis": {
-          "tldr": "This paper introduces UnSAMv2, a new approach to enhance the Segment Anything Model (SAM) so it can effectively segment images at various levels of detail without requiring tedious manual adjustments from users.",
-          "eli5": "Imagine a tool that helps you cut out shapes from pictures, but sometimes it doesn't know if you want a big shape or a tiny one. This paper presents a smarter version of that tool, which learns to cut out shapes at any size you want, all by itself, without needing extra help from you.",
+          "tldr": "This paper challenges the conventional approach to the Abstraction and Reasoning Corpus (ARC) by arguing that it should be treated as a visual problem rather than a language-based one. The authors propose a new vision-centric framework to tackle these abstract reasoning tasks.",
+          "eli5": "Imagine you have a puzzle that looks like a colorful picture but involves solving complex patterns, like figuring out how shapes relate to each other. This paper suggests that instead of using text-based methods to solve these puzzles, we should use visual techniques, recognizing that our brains naturally process images better when it comes to abstract reasoning.",
           "key_contributions": [
-            "UnSAMv2 allows for flexible segmentation control, letting users specify the level of detail they want without manual refinements.",
-            "It leverages self-supervised learning to improve the model's ability to understand different levels of granularity in segmentation tasks.",
-            "The paper addresses the inefficiencies of needing multiple prompts or masks for different detail levels, making the segmentation process more user-friendly."
+            "The authors reframe the ARC tasks to emphasize their visual nature, shifting the focus away from language models.",
+            "They propose a novel approach that uses vision-centric techniques, showcasing how these methods can improve performance on ARC challenges.",
+            "The research opens new avenues for future studies by encouraging the exploration of abstract reasoning through visual representation, which has been largely overlooked."
           ],
-          "why_care": "This research has practical applications in fields like healthcare, autonomous driving, and content creation, where precise image segmentation can lead to better diagnostics, safer navigation, and more engaging media.",
+          "why_care": "Understanding how to improve abstract reasoning skills through visual approaches can have real-world implications, such as enhancing AI's ability to solve complex problems or even improving educational methods for teaching reasoning skills in children.",
           "accessibility": "Tech-Savvy",
-          "spicy_take": "If UnSAMv2 delivers on its promises, it could make tedious image editing as easy as a couple of clicks, challenging the need for manual adjustments in many professional settings.",
+          "spicy_take": "Relying solely on language models for tasks like those in ARC is like trying to solve a jigsaw puzzle by only looking at the box cover - you might miss the bigger picture.",
           "reading_time_minutes": 5
         }
       },
       {
-        "id": "2511.13712v1",
-        "title": "From Black Box to Insight: Explainable AI for Extreme Event Preparedness",
+        "id": "2511.14759v1",
+        "title": "$\u03c0^{*}_{0.6}$: a VLA That Learns From Experience",
         "authors": [
-          "Kiana Vu",
-          "\u0130smet Sel\u00e7uk \u00d6zer",
-          "Phung Lai",
-          "Zheng Wu",
-          "Thilanka Munasinghe"
+          "Ali Amin",
+          "Raichelle Aniceto",
+          "Ashwin Balakrishna",
+          "Kevin Black",
+          "Ken Conley"
         ],
-        "abstract": "As climate change accelerates the frequency and severity of extreme events such as wildfires, the need for accurate, explainable, and actionable forecasting becomes increasingly urgent. While artificial intelligence (AI) models have shown promise in predicting such events, their adoption in real-world decision-making remains limited due to their black-box nature, which limits trust, explainability, and operational readiness. This paper investigates the role of explainable AI (XAI) in bridging th...",
-        "published": "2025-11-17T18:57:15Z",
-        "updated": "2025-11-17T18:57:15Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.13712v1",
-        "abs_url": "https://arxiv.org/abs/2511.13712v1",
+        "abstract": "We study how vision-language-action (VLA) models can improve through real-world deployments via reinforcement learning (RL). We present a general-purpose method, RL with Experience and Corrections via Advantage-conditioned Policies (RECAP), that provides for RL training of VLAs via advantage conditioning. Our method incorporates heterogeneous data into the self-improvement process, including demonstrations, data from on-policy collection, and expert teleoperated interventions provided during aut...",
+        "published": "2025-11-18T18:58:55Z",
+        "updated": "2025-11-18T18:58:55Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.14759v1",
+        "abs_url": "https://arxiv.org/abs/2511.14759v1",
         "categories": [
           "cs.LG",
-          "cs.AI"
+          "cs.RO"
         ],
         "primary_category": "cs.LG",
         "analysis": {
-          "tldr": "This paper explores how explainable artificial intelligence (XAI) can improve our understanding and trust in AI models used for predicting extreme weather events, making them more useful for real-world decision-making.",
-          "eli5": "Imagine you have a super-smart robot that can predict wildfires or floods, but it doesn't explain how it arrives at its predictions. This paper discusses how making these predictions more understandable can help people trust the robot more and use its advice effectively when planning for disasters.",
+          "tldr": "This paper introduces a method for improving vision-language-action models through real-world experience using reinforcement learning. The authors present RECAP, a technique that helps these models learn better by utilizing various types of data.",
+          "eli5": "Imagine teaching a robot not just by showing it how to do things, but also by letting it learn from its mistakes and successes in the real world. The researchers developed a system that helps these robots get smarter by combining different kinds of learning experiences, so they know what to do in tricky situations.",
           "key_contributions": [
-            "The paper highlights the importance of explainable AI in making predictions about extreme weather events trustworthy and actionable.",
-            "It offers a framework for integrating XAI techniques into existing AI models to enhance their transparency.",
-            "The authors provide case studies demonstrating how XAI can be applied in real-world scenarios for disaster preparedness."
+            "The introduction of RECAP, a novel method that combines advantage conditioning with various data sources for training VLA models.",
+            "A framework that allows VLA models to enhance their learning from real-world deployments instead of just simulations.",
+            "Incorporation of diverse data types, including demonstrations and expert interventions, into the improvement process, making learning more robust."
           ],
-          "why_care": "As climate change intensifies extreme weather events, communities need reliable tools to prepare for disasters. Understanding how AI makes predictions can help decision-makers trust these tools, leading to better preparedness and potentially saving lives.",
-          "accessibility": "General Audience",
-          "spicy_take": "If AI can't explain itself, it shouldn't be trusted with our safety\u2014this paper makes a compelling case for turning the black box of AI into a crystal-clear insight machine.",
-          "reading_time_minutes": 7
+          "why_care": "This research has practical implications for developing smarter AI systems that can adapt and improve over time in real-world applications, such as robotics, autonomous vehicles, and interactive AI assistants.",
+          "accessibility": "Tech-Savvy",
+          "spicy_take": "While many AI models are trained in controlled environments, this paper shows that the messy, unpredictable real world is where the real learning happens. It's time we rethink how we train AI.",
+          "reading_time_minutes": 5
         }
       },
       {
-        "id": "2511.13710v1",
-        "title": "From Power to Precision: Learning Fine-grained Dexterity for Multi-fingered Robotic Hands",
+        "id": "2511.14755v1",
+        "title": "Robust Verification of Controllers under State Uncertainty via Hamilton-Jacobi Reachability Analysis",
         "authors": [
-          "Jianglong Ye",
-          "Lai Wei",
-          "Guangqi Jiang",
-          "Changwei Jing",
-          "Xueyan Zou"
+          "Albert Lin",
+          "Alessandro Pinto",
+          "Somil Bansal"
         ],
-        "abstract": "Human grasps can be roughly categorized into two types: power grasps and precision grasps. Precision grasping enables tool use and is believed to have influenced human evolution. Today's multi-fingered robotic hands are effective in power grasps, but for tasks requiring precision, parallel grippers are still more widely adopted. This contrast highlights a key limitation in current robotic hand design: the difficulty of achieving both stable power grasps and precise, fine-grained manipulation wit...",
-        "published": "2025-11-17T18:56:50Z",
-        "updated": "2025-11-17T18:56:50Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.13710v1",
-        "abs_url": "https://arxiv.org/abs/2511.13710v1",
+        "abstract": "As perception-based controllers for autonomous systems become increasingly popular in the real world, it is important that we can formally verify their safety and performance despite perceptual uncertainty. Unfortunately, the verification of such systems remains challenging, largely due to the complexity of the controllers, which are often nonlinear, nonconvex, learning-based, and/or black-box. Prior works propose verification algorithms that are based on approximate reachability methods, but th...",
+        "published": "2025-11-18T18:55:20Z",
+        "updated": "2025-11-18T18:55:20Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.14755v1",
+        "abs_url": "https://arxiv.org/abs/2511.14755v1",
         "categories": [
           "cs.RO",
-          "cs.AI",
-          "cs.LG"
+          "cs.LG",
+          "eess.SY"
         ],
         "primary_category": "cs.RO",
         "analysis": {
-          "tldr": "This paper explores how to improve robotic hands to better perform both strong grips and precise movements, which are essential for handling objects like humans do. While robotic hands excel at gripping heavy things, they struggle with delicate tasks that require finesse.",
-          "eli5": "Think of how you can easily pick up a heavy dumbbell with a strong grip, but when it comes to holding something small and fragile, like a pencil, you need a lighter, more careful touch. This research aims to teach robotic hands to do both well, which is something they currently struggle with.",
+          "tldr": "This paper presents a new method for verifying the safety and performance of autonomous controllers, particularly when there's uncertainty in their perception of the environment. It tackles the challenges posed by complex, learning-based systems that traditional verification methods struggle with.",
+          "eli5": "Imagine you're building a robot that needs to navigate a busy street, but sometimes it can't see everything clearly. This paper introduces a way to check if the robot can still safely cross the street, even when it has trouble 'seeing' the cars. It's like giving the robot a set of rules to follow that keep it safe, no matter how foggy its vision might be.",
           "key_contributions": [
-            "The development of a learning model that enhances the dexterity of robotic hands for both power and precision tasks.",
-            "Experimental validation demonstrating significant improvements in fine-grained manipulation capabilities.",
-            "Insights into how human grasping techniques can inform the design of more versatile robotic hands."
+            "The authors develop a robust verification method that can handle the complexities of nonlinear and learning-based controllers.",
+            "They introduce Hamilton-Jacobi reachability analysis to better assess safety despite the uncertainties in perception.",
+            "The paper demonstrates the effectiveness of their approach through various examples, showcasing its practical application."
           ],
-          "why_care": "Improving robotic dexterity can revolutionize industries like healthcare, manufacturing, and home assistance, where robots could perform delicate surgeries or handle fragile items safely. This could lead to better automation solutions that work harmoniously alongside humans.",
-          "accessibility": "General Audience",
-          "spicy_take": "If we don't start giving robots the dexterity they need, we might end up with a future where they can lift heavy objects but can't pour a cup of coffee without spilling it everywhere.",
-          "reading_time_minutes": 5
-        }
-      },
-      {
-        "id": "2511.13705v1",
-        "title": "Rare Genomic Subtype Discovery from RNA-seq via Autoencoder Embeddings and Stability-Aware Clustering",
-        "authors": [
-          "Alaa Mezghiche"
-        ],
-        "abstract": "Unsupervised learning on high-dimensional RNA-seq data can reveal molecular subtypes beyond standard labels. We combine an autoencoder-based representation with clustering and stability analysis to search for rare but reproducible genomic subtypes. On the UCI \"Gene Expression Cancer RNA-Seq\" dataset (801 samples, 20,531 genes; BRCA, COAD, KIRC, LUAD, PRAD), a pan-cancer analysis shows clusters aligning almost perfectly with tissue of origin (Cramer's V = 0.887), serving as a negative control. We...",
-        "published": "2025-11-17T18:53:43Z",
-        "updated": "2025-11-17T18:53:43Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.13705v1",
-        "abs_url": "https://arxiv.org/abs/2511.13705v1",
-        "categories": [
-          "cs.LG",
-          "q-bio.GN"
-        ],
-        "primary_category": "cs.LG",
-        "analysis": {
-          "tldr": "This paper introduces a new way to identify unique genomic subtypes from RNA-seq data using an autoencoder and clustering methods. The approach successfully reveals rare but significant genetic patterns that could deepen our understanding of various cancers.",
-          "eli5": "Imagine trying to find hidden treasures in a vast ocean of data about genes. This paper shows how we can use a special type of computer model (an autoencoder) to help us identify these rare treasures, or unique genetic types, that traditional methods might miss. By doing this, researchers can better understand different types of cancers and how they behave.",
-          "key_contributions": [
-            "The introduction of a novel method combining autoencoder embeddings and stability-aware clustering for analyzing RNA-seq data.",
-            "Demonstration of how this method can uncover rare genomic subtypes that are reproducible and biologically significant.",
-            "Validation of the technique using a large dataset, which shows excellent alignment of identified clusters with known cancer types."
-          ],
-          "why_care": "Finding these rare genomic subtypes could lead to more personalized treatments for patients with cancer, potentially improving outcomes and paving the way for new therapeutic strategies. In essence, this research could help us understand cancer better, which is a battle that touches many lives.",
+          "why_care": "As autonomous systems become part of daily life, ensuring their safety is critical. This research paves the way for more reliable robots and vehicles, which can ultimately lead to safer streets and improved efficiency in various industries.",
           "accessibility": "Tech-Savvy",
-          "spicy_take": "This approach might just be the key to unlocking the next generation of cancer therapies, challenging the traditional one-size-fits-all treatment model.",
+          "spicy_take": "This approach could redefine how we think about safety in autonomous systems, proving that sometimes, the complexity of a problem requires equally sophisticated solutions.",
           "reading_time_minutes": 5
         }
       },
       {
-        "id": "2511.13703v1",
-        "title": "Generalist Foundation Models Are Not Clinical Enough for Hospital Operations",
+        "id": "2511.14753v1",
+        "title": "SparseST: Exploiting Data Sparsity in Spatiotemporal Modeling and Prediction",
         "authors": [
-          "Lavender Y. Jiang",
-          "Angelica Chen",
-          "Xu Han",
-          "Xujin Chris Liu",
-          "Radhika Dua"
+          "Junfeng Wu",
+          "Hadjer Benmeziane",
+          "Kaoutar El Maghraoui",
+          "Liu Liu",
+          "Yinan Wang"
         ],
-        "abstract": "Hospitals and healthcare systems rely on operational decisions that determine patient flow, cost, and quality of care. Despite strong performance on medical knowledge and conversational benchmarks, foundation models trained on general text may lack the specialized knowledge required for these operational decisions. We introduce Lang1, a family of models (100M-7B parameters) pretrained on a specialized corpus blending 80B clinical tokens from NYU Langone Health's EHRs and 627B tokens from the int...",
-        "published": "2025-11-17T18:52:22Z",
-        "updated": "2025-11-17T18:52:22Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.13703v1",
-        "abs_url": "https://arxiv.org/abs/2511.13703v1",
-        "categories": [
-          "cs.CL",
-          "cs.AI",
-          "cs.LG"
-        ],
-        "primary_category": "cs.CL",
-        "analysis": {
-          "tldr": "This paper argues that general AI models, while impressive, fall short when it comes to making critical decisions in hospital operations. The authors introduce a new family of models called Lang1, specifically trained on clinical data to improve their effectiveness in real-world healthcare settings.",
-          "eli5": "Think of it this way: Hospitals need super-smart assistants who can help with tricky decisions about patient care and costs. While some AI can chat well or give medical facts, they might not know the nitty-gritty details that hospitals deal with every day. This paper presents a new type of AI, Lang1, that is trained specifically on hospital data to help make those decisions better.",
-          "key_contributions": [
-            "Introduction of Lang1, a set of AI models specifically designed for hospital operations using clinical data.",
-            "Demonstrated that generalist AI models, though good at general medical knowledge, lack the specificity needed for operational decision-making in healthcare.",
-            "Provided empirical evidence through comparison of Lang1's performance against generalist models."
-          ],
-          "why_care": "Understanding how AI can help or hinder hospital operations is crucial for improving patient care and reducing costs. This research showcases the importance of tailoring AI to specific fields, especially in healthcare, where stakes are incredibly high.",
-          "accessibility": "General Audience",
-          "spicy_take": "The reliance on generalist AI models in critical sectors like healthcare is like using a Swiss Army knife when you need a scalpel - it might sort of work, but it's not going to get you the precision you need.",
-          "reading_time_minutes": 5
-        }
-      },
-      {
-        "id": "2511.13702v1",
-        "title": "ST-ProC: A Graph-Prototypical Framework for Robust Semi-Supervised Travel Mode Identification",
-        "authors": [
-          "Luyao Niu",
-          "Nuoxian Huang"
-        ],
-        "abstract": "Travel mode identification (TMI) from GPS trajectories is critical for urban intelligence, but is hampered by the high cost of annotation, leading to severe label scarcity. Prevailing semi-supervised learning (SSL) methods are ill-suited for this task, as they suffer from catastrophic confirmation bias and ignore the intrinsic data manifold. We propose ST-ProC, a novel graph-prototypical multi-objective SSL framework to address these limitations. Our framework synergizes a graph-prototypical cor...",
-        "published": "2025-11-17T18:52:11Z",
-        "updated": "2025-11-17T18:52:11Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.13702v1",
-        "abs_url": "https://arxiv.org/abs/2511.13702v1",
+        "abstract": "Spatiotemporal data mining (STDM) has a wide range of applications in various complex physical systems (CPS), i.e., transportation, manufacturing, healthcare, etc. Among all the proposed methods, the Convolutional Long Short-Term Memory (ConvLSTM) has proved to be generalizable and extendable in different applications and has multiple variants achieving state-of-the-art performance in various STDM applications. However, ConvLSTM and its variants are computationally expensive, which makes them in...",
+        "published": "2025-11-18T18:53:37Z",
+        "updated": "2025-11-18T18:53:37Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.14753v1",
+        "abs_url": "https://arxiv.org/abs/2511.14753v1",
         "categories": [
           "cs.LG",
-          "cs.AI"
+          "cs.CE"
         ],
         "primary_category": "cs.LG",
         "analysis": {
-          "tldr": "This paper introduces ST-ProC, a new framework for identifying travel modes using GPS data, especially in situations where labeled data is scarce. It tackles the limitations of existing methods by improving how models learn from both labeled and unlabeled data.",
-          "eli5": "Imagine you're trying to figure out how people travel around a city just by looking at their GPS data, like whether they walked, biked, or took a bus. Usually, you would need a lot of examples (or labels) to teach a computer how to do this, but getting those labels is expensive and tough. This paper proposes a smarter way to learn from the data we have (even if it's not fully labeled) using a new approach that makes connections between different travel modes.",
+          "tldr": "This paper introduces SparseST, a new approach that takes advantage of the sparse nature of spatiotemporal data to improve modeling and prediction in various fields like transportation and healthcare, without the heavy computational costs of existing methods.",
+          "eli5": "Imagine trying to predict traffic patterns in a city using data that only requires looking at certain areas at certain times. SparseST is like a smart tool that cuts through the noise and focuses only on the important bits, making predictions faster and easier without needing a supercomputer.",
           "key_contributions": [
-            "ST-ProC is a novel framework that combines graph-based learning with prototypical representations to enhance semi-supervised learning for travel mode identification.",
-            "It addresses the problem of catastrophic confirmation bias in existing methods by better utilizing both labeled and unlabeled data.",
-            "The framework considers the intrinsic structure of data, improving robustness in identifying travel modes from GPS trajectories."
+            "Introduction of SparseST, a novel method that efficiently handles spatiotemporal data by exploiting its inherent sparsity.",
+            "Demonstration of improved performance on various benchmarks compared to traditional methods like ConvLSTM, showing that efficiency doesn't have to sacrifice accuracy.",
+            "Provision of insights on how this approach can be applied across different sectors, including transportation and healthcare, thereby broadening its impact."
           ],
-          "why_care": "As urban areas become more congested and complex, understanding how people move within them can lead to better city planning, transportation services, and environmental strategies. This research could help optimize public transportation systems and improve urban living.",
+          "why_care": "As our world becomes increasingly data-driven, efficient tools like SparseST can lead to better decision-making in critical areas like transport logistics, patient care in hospitals, and even smart city planning, ultimately improving our daily lives.",
           "accessibility": "Tech-Savvy",
-          "spicy_take": "By truly harnessing the power of semi-supervised learning, ST-ProC could redefine how we approach urban mobility studies, potentially leaving traditional methods in the dust.",
-          "reading_time_minutes": 5
+          "spicy_take": "SparseST could be the breakthrough that spatiotemporal modeling needs to transition from complex algorithms to practical applications in everyday technology.",
+          "reading_time_minutes": 6
         }
       },
       {
-        "id": "2511.13701v1",
-        "title": "Learning stochasticity: a nonparametric framework for intrinsic noise estimation",
+        "id": "2511.14745v1",
+        "title": "Look-Ahead Reasoning on Learning Platforms",
         "authors": [
-          "Gianluigi Pillonetto",
-          "Alberto Giaretta",
-          "Mauro Bisiacco"
+          "Haiqing Zhu",
+          "Tijana Zrnic",
+          "Celestine Mendler-D\u00fcnner"
         ],
-        "abstract": "Understanding the principles that govern dynamical systems is a central challenge across many scientific domains, including biology and ecology. Incomplete knowledge of nonlinear interactions and stochastic effects often renders bottom-up modeling approaches ineffective, motivating the development of methods that can discover governing equations directly from data. In such contexts, parametric models often struggle without strong prior knowledge, especially when estimating intrinsic noise. Nonet...",
-        "published": "2025-11-17T18:52:05Z",
-        "updated": "2025-11-17T18:52:05Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.13701v1",
-        "abs_url": "https://arxiv.org/abs/2511.13701v1",
-        "categories": [
-          "cs.LG"
-        ],
-        "primary_category": "cs.LG",
-        "analysis": {
-          "tldr": "This paper introduces a new way to estimate noise in complex systems without needing lots of prior information. It helps scientists better understand how unpredictable elements affect various processes in nature and beyond.",
-          "eli5": "Imagine trying to predict the weather without knowing all the factors that influence it, like temperature, humidity, and wind. This paper provides a smart way to figure out how much unpredictable noise affects systems by analyzing the data directly, rather than guessing what the rules are ahead of time.",
-          "key_contributions": [
-            "The authors propose a nonparametric framework that allows for the estimation of intrinsic noise without heavy reliance on prior knowledge.",
-            "They demonstrate that their method can effectively discover governing equations from data, addressing the challenges faced by traditional modeling approaches.",
-            "The framework has broad applicability, potentially benefiting fields like biology and ecology where understanding stochasticity is crucial."
-          ],
-          "why_care": "Understanding and estimating noise in complex systems can lead to better predictions in everything from ecological dynamics to public health responses. By improving our models, we can make smarter decisions in policy, conservation, and technology.",
-          "accessibility": "General Audience",
-          "spicy_take": "This approach might just revolutionize how we tackle complex systems, challenging the long-standing reliance on parametric models that often fall short.",
-          "reading_time_minutes": 5
-        }
-      },
-      {
-        "id": "2511.13699v1",
-        "title": "Efficient Calibration for Decision Making",
-        "authors": [
-          "Parikshit Gopalan",
-          "Konstantinos Stavropoulos",
-          "Kunal Talwar",
-          "Pranay Tankala"
-        ],
-        "abstract": "A decision-theoretic characterization of perfect calibration is that an agent seeking to minimize a proper loss in expectation cannot improve their outcome by post-processing a perfectly calibrated predictor. Hu and Wu (FOCS'24) use this to define an approximate calibration measure called calibration decision loss ($\\mathsf{CDL}$), which measures the maximal improvement achievable by any post-processing over any proper loss. Unfortunately, $\\mathsf{CDL}$ turns out to be intractable to even weakl...",
-        "published": "2025-11-17T18:52:00Z",
-        "updated": "2025-11-17T18:52:00Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.13699v1",
-        "abs_url": "https://arxiv.org/abs/2511.13699v1",
+        "abstract": "On many learning platforms, the optimization criteria guiding model training reflect the priorities of the designer rather than those of the individuals they affect. Consequently, users may act strategically to obtain more favorable outcomes, effectively contesting the platform's predictions. While past work has studied strategic user behavior on learning platforms, the focus has largely been on strategic responses to a deployed model, without considering the behavior of other users. In contrast...",
+        "published": "2025-11-18T18:45:32Z",
+        "updated": "2025-11-18T18:45:32Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.14745v1",
+        "abs_url": "https://arxiv.org/abs/2511.14745v1",
         "categories": [
           "cs.LG",
-          "cs.DS",
+          "cs.GT",
           "stat.ML"
         ],
         "primary_category": "cs.LG",
         "analysis": {
-          "tldr": "This paper introduces a new way to measure how well predictions are calibrated in decision-making processes. It highlights the limitations of existing measures and proposes a framework to better understand and improve calibration in predictive models.",
-          "eli5": "Imagine you're trying to predict the weather. A perfectly calibrated predictor would give you a forecast where, if it says there's a 70% chance of rain, it rains 70% of the time. This paper explores how we can measure and improve these predictions to make better decisions, especially when we can adjust our predictions after they're made.",
+          "tldr": "This paper examines how users on learning platforms can outsmart the models designed by these platforms by acting in ways that challenge the system's predictions. It highlights the need to consider not just individual behavior, but how users interact with each other in this context.",
+          "eli5": "Imagine a video game where the rules are set by the game designers, but players start finding clever ways to exploit those rules to win. This paper looks at how users on learning platforms can do something similar: they may find strategies to get better results, which could be different from what the platform intends. It's not just about what one player does, but also how they influence each other.",
           "key_contributions": [
-            "Introduction of the calibration decision loss (CDL) measure, which quantifies the potential improvement from post-processing predictions.",
-            "Analysis of the intractability of calculating CDL, highlighting challenges in real-world applications.",
-            "Framework that connects decision theory with calibration metrics, providing a theoretical basis for future research."
+            "Introduces a new perspective on user behavior by considering interactions among multiple users rather than just individual strategies.",
+            "Highlights the gap in existing research that often overlooks the collective dynamics of strategic behavior on learning platforms.",
+            "Proposes a framework for understanding and anticipating user strategies that can inform better model design."
           ],
-          "why_care": "Efficiently calibrated predictions can lead to better decision-making in various fields, from finance to healthcare. By improving how we measure and understand predictions, we can create models that operate more effectively in real-world situations, potentially saving time and resources.",
-          "accessibility": "Tech-Savvy",
-          "spicy_take": "While the challenges of intractability are significant, this paper could pave the way for breakthroughs in predictive modeling that many other approaches have overlooked.",
-          "reading_time_minutes": 8
+          "why_care": "If you use any online learning platform (think Coursera, Khan Academy, or any education technology), this research matters because it exposes the potential flaws in how these platforms operate. By understanding user behavior better, designers can create fairer, more effective systems that truly help learners instead of forcing them into strategic games.",
+          "accessibility": "General Audience",
+          "spicy_take": "Learning platforms should be more like playgrounds and less like battlegrounds\u2014it's time to rethink how we design these systems to foster collaboration instead of competition.",
+          "reading_time_minutes": 5
         }
       },
       {
-        "id": "2511.13689v1",
-        "title": "Crossing Borders: A Multimodal Challenge for Indian Poetry Translation and Image Generation",
+        "id": "2511.14744v1",
+        "title": "Measuring AI Progress in Drug Discovery: A Reproducible Leaderboard for the Tox21 Challenge",
         "authors": [
-          "Sofia Jamil",
-          "Kotla Sai Charan",
-          "Sriparna Saha",
-          "Koustava Goswami",
-          "Joseph K J"
+          "Antonia Ebner",
+          "Christoph Bartmann",
+          "Sonja Topf",
+          "Sohvi Luukkonen",
+          "Johannes Schimunek"
         ],
-        "abstract": "Indian poetry, known for its linguistic complexity and deep cultural resonance, has a rich and varied heritage spanning thousands of years. However, its layered meanings, cultural allusions, and sophisticated grammatical constructions often pose challenges for comprehension, especially for non-native speakers or readers unfamiliar with its context and language. Despite its cultural significance, existing works on poetry have largely overlooked Indian language poems. In this paper, we propose the...",
-        "published": "2025-11-17T18:41:16Z",
-        "updated": "2025-11-17T18:41:16Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.13689v1",
-        "abs_url": "https://arxiv.org/abs/2511.13689v1",
+        "abstract": "Deep learning's rise since the early 2010s has transformed fields like computer vision and natural language processing and strongly influenced biomedical research. For drug discovery specifically, a key inflection - akin to vision's \"ImageNet moment\" - arrived in 2015, when deep neural networks surpassed traditional approaches on the Tox21 Data Challenge. This milestone accelerated the adoption of deep learning across the pharmaceutical industry, and today most major companies have integrated th...",
+        "published": "2025-11-18T18:43:42Z",
+        "updated": "2025-11-18T18:43:42Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.14744v1",
+        "abs_url": "https://arxiv.org/abs/2511.14744v1",
         "categories": [
-          "cs.CL",
-          "cs.CV"
+          "cs.LG"
         ],
-        "primary_category": "cs.CL",
+        "primary_category": "cs.LG",
         "analysis": {
-          "tldr": "This paper explores the challenges of translating Indian poetry and generating images that capture its essence. The authors aim to bridge the gap between complex cultural meanings and broader accessibility for readers and viewers.",
-          "eli5": "Indian poetry is really beautiful but also super complicated because it\u2019s packed with deep meanings and cultural references. This paper looks at how to translate that poetry so more people can understand it, and even create images that match the feelings and ideas in the poems.",
+          "tldr": "This paper discusses a new way to measure advancements in using AI for drug discovery, specifically through a reproducible leaderboard from the Tox21 Challenge. It highlights how deep learning has revolutionized the field and provides a structured means to compare different AI methods.",
+          "eli5": "Imagine scientists trying to create new medicines. Traditionally, they used old-school methods, but in 2015, a new tech called deep learning helped them do it faster and better. This paper sets up a friendly competition (a leaderboard) to see which AI methods work best for predicting how toxic a drug might be, making it easier for companies to adopt these powerful tools.",
           "key_contributions": [
-            "The paper highlights the unique challenges of translating Indian poetry, which has been largely ignored in existing research.",
-            "It introduces a multimodal approach that combines text translation with image generation to enhance understanding.",
-            "The authors present new methodologies for making Indian poetry more accessible to non-native speakers and broader audiences."
+            "Establishment of a reproducible leaderboard for comparing AI methods in drug discovery, specifically for toxicity predictions.",
+            "Analysis of how deep learning has outperformed traditional methods in the Tox21 Challenge, marking a pivotal shift in the industry.",
+            "Promotion of collaborative research by encouraging transparency and reproducibility in AI-driven drug discovery techniques."
           ],
-          "why_care": "Understanding and appreciating Indian poetry can foster cross-cultural connections and enrich our global literary landscape. This research opens doors for more inclusive art and literature, making it relevant to educators, artists, and anyone interested in cultural exchange.",
+          "why_care": "Understanding how AI can improve drug discovery could lead to faster, safer medications hitting the market, which ultimately benefits everyone. The faster we can develop drugs, the better we can respond to health crises or emerging diseases.",
           "accessibility": "General Audience",
-          "spicy_take": "If we want to truly appreciate the beauty of Indian poetry, we need to get our hands dirty with translation\u2014it's not just words, it's a whole vibe!",
+          "spicy_take": "This paper might just be the beginning of a new era in drug discovery where AI doesn't just assist but leads the way\u2014who needs human intuition when you have algorithms?",
+          "reading_time_minutes": 5
+        }
+      },
+      {
+        "id": "2511.14743v1",
+        "title": "Beyond Means: A Dynamic Framework for Predicting Customer Satisfaction",
+        "authors": [
+          "Christof Naumzik",
+          "Abdurahman Maarouf",
+          "Stefan Feuerriegel",
+          "Markus Weinmann"
+        ],
+        "abstract": "Online ratings influence customer decision-making, yet standard aggregation methods, such as the sample mean, fail to adapt to quality changes over time and ignore review heterogeneity (e.g., review sentiment, a review's helpfulness). To address these challenges, we demonstrate the value of using the Gaussian process (GP) framework for rating aggregation. Specifically, we present a tailored GP model that captures the dynamics of ratings over time while additionally accounting for review heteroge...",
+        "published": "2025-11-18T18:43:29Z",
+        "updated": "2025-11-18T18:43:29Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.14743v1",
+        "abs_url": "https://arxiv.org/abs/2511.14743v1",
+        "categories": [
+          "cs.LG"
+        ],
+        "primary_category": "cs.LG",
+        "analysis": {
+          "tldr": "This paper presents a new way to predict customer satisfaction by improving how we analyze online ratings, using a method that adapts to changing quality and considers the different types of reviews.",
+          "eli5": "Imagine trying to figure out how much people like a restaurant based on their reviews. Most people just average the ratings, but that can be misleading if the restaurant gets better or worse over time. This paper uses a fancy math model that helps track those changes and looks at the details of each review to provide a better understanding of customer satisfaction.",
+          "key_contributions": [
+            "Introduces a Gaussian process model that dynamically adjusts ratings over time.",
+            "Accounts for the variety in review quality, such as sentiment and helpfulness.",
+            "Provides a more nuanced approach to understanding customer satisfaction beyond just average ratings."
+          ],
+          "why_care": "In a world where online reviews can make or break businesses, understanding customer satisfaction accurately can lead to better products and services, potentially saving businesses from pitfalls and helping consumers make informed choices.",
+          "accessibility": "General Audience",
+          "spicy_take": "Relying on simple averages for ratings is like judging a restaurant solely based on one bad dish\u2014it's time to upgrade our methods to reflect reality more accurately.",
+          "reading_time_minutes": 5
+        }
+      },
+      {
+        "id": "2511.14738v1",
+        "title": "LAUD: Integrating Large Language Models with Active Learning for Unlabeled Data",
+        "authors": [
+          "Tzu-Hsuan Chou",
+          "Chun-Nan Chou"
+        ],
+        "abstract": "Large language models (LLMs) have shown a remarkable ability to generalize beyond their pre-training data, and fine-tuning LLMs can elevate performance to human-level and beyond. However, in real-world scenarios, lacking labeled data often prevents practitioners from obtaining well-performing models, thereby forcing practitioners to highly rely on prompt-based approaches that are often tedious, inefficient, and driven by trial and error. To alleviate this issue of lacking labeled data, we presen...",
+        "published": "2025-11-18T18:31:00Z",
+        "updated": "2025-11-18T18:31:00Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.14738v1",
+        "abs_url": "https://arxiv.org/abs/2511.14738v1",
+        "categories": [
+          "cs.LG"
+        ],
+        "primary_category": "cs.LG",
+        "analysis": {
+          "tldr": "This paper introduces LAUD, a method that combines large language models with active learning to tackle the challenge of working with unlabeled data, ultimately helping practitioners build better models without tedious trial and error.",
+          "eli5": "Imagine you have a really smart robot that can understand and generate language, but it needs examples to learn from. The authors of this paper created a new way for this robot to learn from just a few examples by asking it to actively decide which pieces of information it should focus on next. This means the robot can get smarter faster, even when it starts with little to no guidance.",
+          "key_contributions": [
+            "LAUD integrates large language models with active learning strategies, making it more efficient at learning from unlabeled data.",
+            "The method reduces the reliance on cumbersome trial-and-error approaches, streamlining the process of fine-tuning models.",
+            "It provides a practical framework for real-world applications where labeled data is scarce, enhancing model performance significantly."
+          ],
+          "why_care": "In the real world, many businesses and organizations lack the resources to label large datasets. This research can empower them to build more effective AI systems without the need for extensive data labeling, making advanced technology more accessible and efficient.",
+          "accessibility": "Tech-Savvy",
+          "spicy_take": "If we can harness the power of active learning effectively, we might finally put an end to the tedious and often frustrating process of manual data labeling, making AI development as easy as pie\u2014well, almost.",
+          "reading_time_minutes": 5
+        }
+      },
+      {
+        "id": "2511.14730v1",
+        "title": "Heterogeneous Multi-Agent Proximal Policy Optimization for Power Distribution System Restoration",
+        "authors": [
+          "Parya Dolatyabi",
+          "Mahdi Khodayar"
+        ],
+        "abstract": "Restoring power distribution systems (PDS) after large-scale outages requires sequential switching operations that reconfigure feeder topology and coordinate distributed energy resources (DERs) under nonlinear constraints such as power balance, voltage limits, and thermal ratings. These challenges make conventional optimization and value-based RL approaches computationally inefficient and difficult to scale. This paper applies a Heterogeneous-Agent Reinforcement Learning (HARL) framework, instan...",
+        "published": "2025-11-18T18:23:35Z",
+        "updated": "2025-11-18T18:23:35Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.14730v1",
+        "abs_url": "https://arxiv.org/abs/2511.14730v1",
+        "categories": [
+          "cs.AI"
+        ],
+        "primary_category": "cs.AI",
+        "analysis": {
+          "tldr": "This paper introduces a new approach using Heterogeneous Multi-Agent Reinforcement Learning (HARL) to improve the efficiency of restoring power distribution systems after outages, tackling complex challenges like power balance and voltage limits.",
+          "eli5": "Imagine a group of smart robots that work together to fix power lines when a storm knocks them out. Instead of just one robot trying to figure everything out alone, these robots can communicate and make decisions based on their strengths and the specific challenges of different areas. This paper shows how using a team of these agents, each with special skills, can restore power more effectively and quickly than traditional methods.",
+          "key_contributions": [
+            "Introduces a Heterogeneous Multi-Agent Reinforcement Learning framework tailored for power distribution system restoration.",
+            "Demonstrates improved computational efficiency compared to traditional optimization methods.",
+            "Addresses nonlinear constraints that have made previous approaches less effective, allowing for better coordination of distributed energy resources."
+          ],
+          "why_care": "Restoring power efficiently after outages is crucial for communities and economies, especially as we integrate more renewable energy sources. This research can lead to smarter, faster restoration processes that not only keep our lights on but also optimize the use of sustainable energy.",
+          "accessibility": "Tech-Savvy",
+          "spicy_take": "The future of energy resilience may not just depend on better technology but on smarter algorithms that can learn and adapt in real-time - this paper is paving the way!",
+          "reading_time_minutes": 5
+        }
+      },
+      {
+        "id": "2511.14728v1",
+        "title": "Automated proving in planar geometry based on the complex number identity method and elimination",
+        "authors": [
+          "Zolt\u00e1n Kov\u00e1cs",
+          "Xicheng Peng"
+        ],
+        "abstract": "We improve the complex number identity proving method to a fully automated procedure, based on elimination ideals. By using declarative equations or rewriting each real-relational hypothesis $h_i$ to $h_i-r_i$, and the thesis $t$ to $t-r$, clearing the denominators and introducing an extra expression with a slack variable, we eliminate all free and relational point variables. From the obtained ideal $I$ in $\\mathbb{Q}[r,r_1,r_2,\\ldots]$ we can find a conclusive result. It plays an important role...",
+        "published": "2025-11-18T18:20:17Z",
+        "updated": "2025-11-18T18:20:17Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.14728v1",
+        "abs_url": "https://arxiv.org/abs/2511.14728v1",
+        "categories": [
+          "cs.CG",
+          "cs.AI"
+        ],
+        "primary_category": "cs.CG",
+        "analysis": {
+          "tldr": "This paper introduces a fully automated method for proving geometric statements using complex numbers and elimination techniques. The goal is to streamline the process of proving theorems in planar geometry, making it more efficient and accessible.",
+          "eli5": "Imagine you want to prove something about shapes and angles using complex numbers (which are like regular numbers but have a bit more flair). The authors have created a smart way to automate the proving process, so instead of doing all the hard math by hand, a computer can help figure things out. They use clever tricks to simplify the equations and get to the answer faster.",
+          "key_contributions": [
+            "Development of a fully automated procedure for geometric proving using complex numbers.",
+            "Introduction of elimination ideals to simplify the proving process.",
+            "Innovative use of slack variables to help clear up complex equations."
+          ],
+          "why_care": "Understanding this method could revolutionize how we approach problems in geometry, making it easier to teach, learn, and apply these concepts in fields like computer graphics, robotics, and architectural design.",
+          "accessibility": "Tech-Savvy",
+          "spicy_take": "While automation in geometry sounds great, we might be heading towards a future where human intuition in proving theorems is overshadowed by machines. Let's hope we don't lose the beauty of mathematical creativity!",
           "reading_time_minutes": 5
         }
       }
@@ -343,11 +334,11 @@
     "summary": {
       "total_analyzed": 10,
       "by_accessibility": {
-        "General Audience": 5,
-        "Tech-Savvy": 5,
+        "General Audience": 3,
+        "Tech-Savvy": 7,
         "Researchers Only": 0
       },
-      "avg_reading_time": 5.5
+      "avg_reading_time": 5.1
     }
   },
   "metadata": {
@@ -356,19 +347,19 @@
     "style": "blog-accessible"
   },
   "costs": {
-    "execution_time": 65.91352939605713,
-    "execution_minutes": 1.098558823267619,
-    "github_actions": 0.008788470586140951,
+    "execution_time": 83.19179844856262,
+    "execution_minutes": 1.3865299741427104,
+    "github_actions": 0.011092239793141683,
     "openai": {
-      "input": 0.00049755,
-      "output": 0.001818,
-      "total": 0.00231555
+      "input": 0.0004965,
+      "output": 0.0018534,
+      "total": 0.0023499000000000003
     },
-    "total": 0.011104020586140951,
+    "total": 0.013442139793141683,
     "token_usage": {
-      "prompt_tokens": 3317,
-      "completion_tokens": 3030,
-      "total_tokens": 6347
+      "prompt_tokens": 3310,
+      "completion_tokens": 3089,
+      "total_tokens": 6399
     }
   }
 }
