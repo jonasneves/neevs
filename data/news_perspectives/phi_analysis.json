@@ -2,225 +2,257 @@
   "agent": "phi-analyzer",
   "model": "Phi-4 Mini",
   "model_id": "microsoft/phi-4-mini-instruct",
-  "timestamp": "2025-11-20T12:15:01.662273",
+  "timestamp": "2025-11-20T18:12:20.562663",
   "status": "completed",
   "data": {
     "analyses": [
       {
         "article": {
-          "id": "news_0_1763640760",
-          "title": "ChatGPT\u2019s Mac browser just got new features, like iCloud passkeys - 9to5Mac",
-          "description": "ChatGPT\u2019s Mac browser just got new features, like iCloud passkeys\u00a0\u00a09to5Mac5 Things to Know Before Using an AI Browser\u00a0\u00a0Time MagazineAI browsers need the open web. So why are they trying to kill it?\u00a0\u00a0Fast CompanyAmazon vs Perplexity: the AI agent war has arrived\u00a0\u00a0The GuardianGlass Houses and AI Browsers\u00a0\u00a0Hotel Online",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTGNqZ1U4SHd3WUlLRWR2REhDUUwzcXd4M296a1ZPREJKTl9pdjAxaF9OYmtWOVdGOU94cm9mWDNtUHdvNHFSVURwSFpLVi1Jb3E0YlB0ZzBMUnN6ZGVkY0RrYnZkdmlSNVRKdHVuS3B5RXZSWktZNGwzZTVJMUk1UUlyT2d6TVNhQUluMmNfSFhEWTFVaEc4ZWs4OA?oc=5",
+          "id": "news_0_1763662206",
+          "title": "Pixel 10 phones are now compatible with AirDrop - The Verge",
+          "description": "Pixel 10 phones are now compatible with AirDrop\u00a0\u00a0The VergeAndroid and iPhone users can now share files, starting with the Pixel 10 family.\u00a0\u00a0The KeywordGoogle made Quick Share compatible with AirDrop without Apple's help\u00a0\u00a0Android AuthorityGoogle Brings Apple AirDrop to Android\u00a0\u00a0Thurrott.comAndroid Quick Share now works with AirDrop on iPhone, starting on Pixel 10\u00a0\u00a09to5Google",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPNUtYZWNSZ1dWQmNXLWRVVHNsYm1rVnF3c1FGN1V0cHFhc1IxNmdtYnNaRGR4a2QxLUtWendNUnpJZzlTS2Y0c0tOMTFsOU14QlJGMER5M2sydjQ0WWRBUDFfZVNwNFY2emJiTjNTOGwxU2E4emcybjJzNFdoSUlkVllETVBQZWs?oc=5",
+          "source": "The Verge",
+          "published": "Thu, 20 Nov 2025 17:31:17 GMT",
+          "topic": "TECHNOLOGY",
+          "fetched_at": "2025-11-20T18:10:06.580520"
+        },
+        "analysis": {
+          "summary": "Google has enabled AirDrop compatibility for Pixel 10 phones, allowing Android users to share files with iPhone users without Apple's assistance, marking a significant step towards cross-platform interoperability.",
+          "key_points": [
+            "Google's Pixel 10 devices now support AirDrop, facilitating file sharing between Android and iPhone users.",
+            "This move by Google is independent of Apple's cooperation, showing a push for Android dominance in file-sharing capabilities.",
+            "The integration of AirDrop with Quick Share on Pixel 10 phones represents a convergence between Google's ecosystem and Apple's technology."
+          ],
+          "sentiment": "Positive",
+          "confidence": "High",
+          "bias_check": "The article may exhibit a bias in favor of Google's innovation and progress, potentially overlooking Apple's perspective or the potential limitations of AirDrop on non-Pixel devices.",
+          "missing_context": "The article does not address whether AirDrop will work seamlessly with all devices or if there are any limitations or bugs. There is also no mention of how this move might affect Apple's market share or user base.",
+          "implications": "This development could lead to enhanced user convenience and interoperability between devices, potentially increasing Google's market share. It also sets a precedent for future cross-platform collaborations. However, it may provoke a competitive response from Apple and other tech companies.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-20T18:10:29.127652",
+          "token_usage": {
+            "prompt_tokens": 276,
+            "completion_tokens": 276,
+            "total_tokens": 552
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_1_1763662206",
+          "title": "Apple Black Friday deal: up to $250 gift card with purchase of Mac, iPhone, iPad and more - 9to5Mac",
+          "description": "Apple Black Friday deal: up to $250 gift card with purchase of Mac, iPhone, iPad and more\u00a0\u00a09to5Mac35 of the best early Black Friday Apple deals in 2025\u00a0\u00a0MashableThe best Apple Black Friday deals on iPads, AirPods, MacBooks, Apple Watches and AirTags are already up to 39 percent off\u00a0\u00a0EngadgetFor Black Friday, get the M4 MacBook Air that\u2019s only $150 more than the slower M1 model\u00a0\u00a0The VergeEarly Black Friday Deals Are at Amazon and There's a 2025 Apple MacBook Air at the Lowest Price We've Seen\u00a0\u00a0PC",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNLXhFM2dMcDlLQ1gybW9uWWtiZlY4Y0p1ZHNGQlJtaWdwZjNDWFRLNWZ0OXViMzBpcmlJcmc3bjg1UkRfRHRTWW1MQWZGRGZDdTNXU2cyRXJFNU55azQyV1NDenpudUdzOXo5N1R0WUxPdlR6OEp3YTJURGZiUGRlLURnUldPZw?oc=5",
           "source": "9to5Mac",
-          "published": "Wed, 19 Nov 2025 19:29:00 GMT",
+          "published": "Thu, 20 Nov 2025 10:54:00 GMT",
           "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-20T12:12:40.721346"
+          "fetched_at": "2025-11-20T18:10:06.580579"
         },
         "analysis": {
-          "summary": "The article highlights that ChatGPT's Mac browser has acquired new features, including the integration of iCloud passkeys, which is a part of a growing trend of AI-powered browsers incorporating more secure and personalized authentication methods.",
+          "summary": "The article highlights Apple's Black Friday deals, offering up to $250 gift cards with significant discounts on select Apple products, including Mac, iPhone, and iPad. The deals have attracted attention from multiple tech websites, emphasizing the anticipation and value for consumers willing to purchase these high-demand tech items during the holiday shopping season.",
           "key_points": [
-            "Integration of iCloud passkeys into ChatGPT's Mac browser enhances security and user convenience.",
-            "The trend of AI browsers, such as those from Amazon, Perplexity, and others, is expanding as they incorporate more advanced features.",
-            "Concerns about the potential negative impact of AI browsers on the open web are mentioned."
-          ],
-          "sentiment": "Mixed",
-          "confidence": "High",
-          "bias_check": "The article may exhibit bias towards AI technologies and their benefits, potentially downplaying the risks and challenges associated with AI browsers and their impact on the open web.",
-          "missing_context": "The article does not provide information on user adoption rates, specific user feedback, or the technical challenges involved in integrating iCloud passkeys into the browser. It also omits details on how these new features align with broader industry trends and government regulations.",
-          "implications": "The integration of iCloud passkeys and other advanced features into AI browsers could significantly enhance user experience, security, and convenience. However, it also raises concerns about privacy, data security, and the future of the open web. There may be regulatory scrutiny and pressure to ensure user data is protected while fostering innovation.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-20T12:13:07.906866",
-          "token_usage": {
-            "prompt_tokens": 279,
-            "completion_tokens": 307,
-            "total_tokens": 586
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_1_1763640760",
-          "title": "iPhone 18 Pro Rumors Hint At 6 Major Upgrades In The Works - bgr.com",
-          "description": "iPhone 18 Pro Rumors Hint At 6 Major Upgrades In The Works\u00a0\u00a0bgr.com10 Reasons to Wait for Next Year's iPhone 18 Pro\u00a0\u00a0MacRumorsA Color Revolution? Why 'Coffee,' 'Purple,' and 'Burgundy' Signal a New Era for the iPhone 18 Pro\u00a0\u00a0vocal.mediaFrom better battery tech to improved AI, these are the 5 things we want from the iPhone 18 line\u00a0\u00a0Yahoo! TechiPhone 18 Pro Max Launch Date, Price In India, Camera, Design, And Specs\u00a0\u00a0MSN",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBTRWQzLW1yRTdRd2oxaHVuSV9BcTlFMEhmZjc5c0pJNDQ2VzBDYXBwZFN4NXI1M0ZRcFlUb0xPM3pvZGE0QVBTcUlqVkZsS002RDhkTDQzS1BRc3E3SDdMTFcwdFR5SjZSTTJ2dFlCR0oxSWc?oc=5",
-          "source": "bgr.com",
-          "published": "Wed, 19 Nov 2025 16:35:50 GMT",
-          "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-20T12:12:40.721373"
-        },
-        "analysis": {
-          "summary": "The article discusses rumors and potential features for the upcoming iPhone 18 Pro, highlighting six major upgrades, including better battery technology, improved AI, and new color options. It also teases the release date, price, and specifications in India, emphasizing the anticipation and excitement around the next-generation iPhone.",
-          "key_points": [
-            "iPhone 18 Pro rumored to have six major upgrades.",
-            "New features anticipated include better battery tech, enhanced AI capabilities, and new color choices.",
-            "Release date, price, and specifications in India are also rumored."
+            "Apple is offering significant discounts on select products, including Mac, iPhone, and iPad.",
+            "The deals are part of the Black Friday shopping tradition, targeting tech enthusiasts and Apple brand loyalists.",
+            "Multiple tech outlets are reporting on these deals, indicating their widespread appeal and potential impact on consumer purchasing behavior."
           ],
           "sentiment": "Positive",
           "confidence": "High",
-          "bias_check": "The article is based on rumors, which are inherently speculative. There's a possibility of bias towards generating excitement and anticipation among the readers. Additionally, the perspective might lean towards emphasizing positive aspects without discussing potential drawbacks or limitations.",
-          "missing_context": "The article does not provide information on whether these rumored features have been officially confirmed by Apple. It also lacks a critical perspective on the feasibility or practicality of these upgrades. Additionally, it does not discuss how these new features compare to competitors.",
-          "implications": "The buzz around the iPhone 18 Pro could drive consumer interest and sales, influencing Apple's market position. However, unmet expectations due to unconfirmed rumors could also lead to disappointment. The anticipation for new features might set a benchmark for competitors or spark discussions on future smartphone trends.",
+          "bias_check": "The article could exhibit a positive bias towards Apple products and Black Friday shopping, potentially overlooking alternative deals or the drawbacks of purchasing high-end electronics during a sale.",
+          "missing_context": "The article does not mention the availability of similar deals from competitors or the potential for stock shortages during Black Friday sales, which could affect consumer experience.",
+          "implications": "The promotion of Apple's Black Friday deals could drive increased sales for Apple during the holiday season, boosting its revenue. Additionally, the anticipation for these deals might influence consumer spending habits, leading to a surge in online shopping during Black Friday.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-20T12:13:16.201429",
+          "analyzed_at": "2025-11-20T18:10:37.137933",
           "token_usage": {
-            "prompt_tokens": 320,
-            "completion_tokens": 307,
-            "total_tokens": 627
+            "prompt_tokens": 339,
+            "completion_tokens": 289,
+            "total_tokens": 628
           }
         }
       },
       {
         "article": {
-          "id": "news_2_1763640760",
-          "title": "YouTube tests bringing back direct messages, a \u2018top feature request\u2019 - 9to5Google",
-          "description": "YouTube tests bringing back direct messages, a \u2018top feature request\u2019\u00a0\u00a09to5GoogleYouTube is once again trying to make DMs happen\u00a0\u00a0EngadgetYouTube Improves Timestamp Controls, Expands Reply Suggestions\u00a0\u00a0Social Media TodayYouTube just revived a fan-favorite feature, but it's not live for everyone yet\u00a0\u00a0Android PoliceYouTube wants its own messenger. It will make it easier to share content\u00a0\u00a0Samsung Magazine",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTmFKSUttODJ2M05aalJFV0JRMHRvUzR4X3hUckVsZE93UnNaeHdLOWp6TkFQYkd1Y0NtMDloQ1VzZ3hRd2VSei1rWE5wckV5U2wzLUUwdE9ncTlMb3gxUHN1MnhEcmRPRV8zRzBvcXVSenR4ajhKeDRwZ3pDWHJJbmNONEpaNDdTb2s4RnFaZmM5Q3J4QXZIT2phQ1hwaEJqZ1E3REZJd19jNktPZzliYy1HRQ?oc=5",
-          "source": "9to5Google",
-          "published": "Wed, 19 Nov 2025 18:45:00 GMT",
+          "id": "news_2_1763662206",
+          "title": "Google releases Nano Banana Pro, its latest image-generation model - TechCrunch",
+          "description": "Google releases Nano Banana Pro, its latest image-generation model\u00a0\u00a0TechCrunchGoogle launches Nano Banana Pro, an updated AI image generator powered by Gemini 3\u00a0\u00a0CNBCGemini 3 Pro Image \u2013 Nano Banana Pro\u00a0\u00a0Google DeepMindGoogle Says Gemini Will Now Be Able to Identify AI Images, but There's a Big Catch\u00a0\u00a0CNETGoogle launches Nano Banana Pro image model, adds AI image detection in Gemini app\u00a0\u00a0Ars Technica",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPOERqcDE3WF9teF9WMUhwTEVCa25aNjBteEdaamprN0FjMnFCenNmVDNXMld6NmV5WWxIQVN3ZkRXQUhZb0s1X2daemVCazJiQnFGWFVESktJLTJCcUxBbWlzNzVlNE5nUGtJak9DZVBROGQ5VHZvbTYwNFVXbXhKem1EUVNITy0wYWFEOUEtOXUtWVpHMVJMdzNOamxqUmhyYWc?oc=5",
+          "source": "TechCrunch",
+          "published": "Thu, 20 Nov 2025 15:00:00 GMT",
           "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-20T12:12:40.721395"
+          "fetched_at": "2025-11-20T18:10:06.580609"
         },
         "analysis": {
-          "summary": "YouTube is testing the revival of direct messaging (DMs), a feature highly requested by users, as part of its efforts to enhance user experience and engagement on the platform. The feature is currently in a testing phase and not yet available to all users.",
+          "summary": "Google's latest AI image-generation model, Nano Banana Pro, has been launched, showcasing an updated iteration of their Gemini 3-powered image generator. The new model is touted to have an added feature of AI image detection within the Gemini app, although there are concerns about its ability to accurately identify AI-generated images.",
           "key_points": [
-            "YouTube is reintroducing DMs after a period of absence.",
-            "The feature has been a top user-requested addition.",
-            "Testing phase means not all users have access yet, indicating a cautious approach by YouTube."
+            "Nano Banana Pro is an updated version of Google's AI image generator.",
+            "The model is integrated with Gemini 3 and features AI image detection capabilities.",
+            "There are concerns about the model's proficiency in identifying AI-generated images."
           ],
           "sentiment": "Mixed",
           "confidence": "High",
-          "bias_check": "The article may be biased towards a positive view of YouTube's efforts, focusing more on the feature without discussing possible downsides or user concerns.",
-          "missing_context": "The article does not provide information on the timeline for the feature's availability or the criteria for user selection in the testing phase. It also omits any user feedback or specific challenges faced during the implementation.",
-          "implications": "The reintroduction of DMs could significantly impact user engagement and content sharing on YouTube, potentially leading to increased user satisfaction and platform growth. However, it also raises concerns about privacy and the platform's ability to manage a robust messaging system without compromising user experience.",
+          "bias_check": "The article may be biased towards excitement about Google's advancements, potentially downplaying any shortcomings or controversies surrounding the AI's capabilities.",
+          "missing_context": "There is no mention of the accuracy rates of the model's image detection or its comparison with other AI models, which are crucial for assessing its performance. Additionally, the impact of this technology on the job market and ethical considerations are not discussed.",
+          "implications": "The broader implications include the advancement of AI in creative fields, potential job displacement, and the arms race in AI-generated content. There are also concerns about the authenticity of images and the impact on industries that rely heavily on visual content.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-20T12:13:24.821401",
+          "analyzed_at": "2025-11-20T18:10:44.458833",
           "token_usage": {
-            "prompt_tokens": 289,
-            "completion_tokens": 275,
-            "total_tokens": 564
+            "prompt_tokens": 281,
+            "completion_tokens": 281,
+            "total_tokens": 562
           }
         }
       },
       {
         "article": {
-          "id": "news_3_1763640760",
-          "title": "Kirby Air Riders' Day One Update Has Arrived, Here Are The Full Patch Notes - Nintendo Life",
-          "description": "Kirby Air Riders' Day One Update Has Arrived, Here Are The Full Patch Notes\u00a0\u00a0Nintendo LifeView Full Coverage on Google News",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVC1ra0RxaFkyTjRwZnRoWlhCLXRSbDMzYkE2ejhzc2RNSjFGZ0VIRTBReG9sZGpQUmoza2ZuQkVLWFBwYmw4eFJWeGN5SGM2SGJMR2JJdGQ2cU5maFIzdERGMGVZMGRXcGFnUDZfUXAzT2g5XzdMdU9vbW8tX2ZLdGFvdlByM0lMY2JEZ0w0Q0p6R2V1Q0RNQ0lRSkpTWHVJb0NFTG41V080bFBNQk5tc21hcXpFQQ?oc=5",
-          "source": "Nintendo Life",
-          "published": "Wed, 19 Nov 2025 17:00:00 GMT",
+          "id": "news_3_1763662206",
+          "title": "Windows turns 40 \u2014 here's the 20 best (and worst) moments in Windows history - Tom's Guide",
+          "description": "Windows turns 40 \u2014 here's the 20 best (and worst) moments in Windows history\u00a0\u00a0Tom's GuideMicrosoft at 40: Four Decades of Innovation and a Tech Legacy That Shaped the World\u00a0\u00a0The Hans IndiaThe first 'formidable' forty years of the Windows operating system\u00a0\u00a0Il Sole 24 OREMicrosoft Windows At 40: From Floppy Disks To An AI-Powered Revolution\u00a0\u00a0India TodayWindows is 40 years old today \u2014 but its future has never been less certain\u00a0\u00a0Windows Central",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPcG00MDNmQ01ObnQ0UzVRSGdlZU81MlpNQW1aNU5seV9pV2o4aW5SR2ROVUdUZmh6RlBhLVpXTUpacXZFM25rR0F1TVdsRE9kdzBDOVBaZDZaT1JBcDA0Xzc1Uy1zTGxOZi1HcVFXNklkZ3laTGxjY0ZFSGJBajF6NmFobDh0Z2MtUmxGeHU1V2tPclZpbXE3T1M3Ul9nQ2g2cm9MVV9Kci0xd3hqSE5fQUswZFlrWV83THRDVWctdzQwbEg1RXpPaG05TGNQMnNIMVE?oc=5",
+          "source": "Tom's Guide",
+          "published": "Thu, 20 Nov 2025 12:16:10 GMT",
           "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-20T12:12:40.721407"
+          "fetched_at": "2025-11-20T18:10:06.580635"
         },
         "analysis": {
-          "summary": "The Day One update for Kirby Air Riders has been released, as detailed in the full patch notes provided by Nintendo Life. The update likely includes new content, bug fixes, or adjustments to improve gameplay experience, reflecting the developers' initial response to feedback after launch.",
+          "summary": "The article from Tom's Guide reflects on the 40-year history of Windows, highlighting both celebrated and criticized moments, illustrating the operating system's significant influence on the tech industry, yet acknowledging its uncertain future amidst evolving technology landscapes.",
           "key_points": [
-            "Kirby Air Riders' Day One update is now available with full patch notes.",
-            "The update may include new content and bug fixes to address initial player feedback.",
-            "Nintendo Life has provided comprehensive details on the changes made in the update."
+            "Windows has been a dominant force in personal computing for four decades.",
+            "The article lists both celebrated achievements and notable failures in Windows' history.",
+            "Windows' evolution from floppy disks to AI integration represents its adaptability and innovation."
           ],
-          "sentiment": "Positive",
+          "sentiment": "Mixed",
           "confidence": "High",
-          "bias_check": "The article may be biased towards a positive reception, as it is sourced from Nintendo Life, a publication known for covering Nintendo's products positively. The article might not fully address any critical feedback or shortcomings of the update.",
-          "missing_context": "The article does not provide information on player feedback or reception prior to this update. There might also be a lack of comparison details with previous updates or similar games.",
-          "implications": "The Day One update for Kirby Air Riders may set a precedent for how Nintendo handles post-launch content and community feedback. It could influence player retention and the game's overall reception, impacting future game development strategies.",
+          "bias_check": "The article may exhibit nostalgia bias, potentially overemphasizing positive moments and underrepresenting negative aspects of Windows' history.",
+          "missing_context": "It might not fully address the competitive landscape of operating systems, including the rise of alternative platforms like macOS, Linux, and others that have influenced Windows' development.",
+          "implications": "The reflection on Windows' past underscores the importance of innovation and adaptation in the tech industry, suggesting that even dominant technologies must continually evolve to remain relevant.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-20T12:13:33.131470",
+          "analyzed_at": "2025-11-20T18:10:50.865210",
           "token_usage": {
-            "prompt_tokens": 222,
-            "completion_tokens": 325,
-            "total_tokens": 547
+            "prompt_tokens": 307,
+            "completion_tokens": 234,
+            "total_tokens": 541
           }
         }
       },
       {
         "article": {
-          "id": "news_4_1763640760",
-          "title": "Fans Are Fixing One Of Pok\u00e9mon Legends: Z-A \u2018s Ugliest Mega Evolutions - Kotaku",
-          "description": "Fans Are Fixing One Of Pok\u00e9mon Legends: Z-A \u2018s Ugliest Mega Evolutions\u00a0\u00a0KotakuEarn Chesnaughtite in Pok\u00e9mon Legends: Z\u2011A Ranked Battles Season 3\u00a0\u00a0Pokemon.comPokemon Z-A Season 3 Ranked Battles detailed\u00a0\u00a0Nintendo EverythingPok\u00e9mon Legends: Z-A Ranked Battle Season 3 Start Date And Rewards Revealed\u00a0\u00a0Nintendo LifePokemon Legends Z-A Ranked Battle Season 3 Starts November 27th 2025\u00a0\u00a0NintendoSoup",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPNDl0TUZSanBmS3U5ZG1ycWYxbFdxZzZPOU9wc0xOdWhpYldFUzJOU1JaZ2VPX25TbnBpbV8yNllNZm5XMF9wMHkybENaYnNhbzJiOU14R2s5MFBzV0NTUkxiTjVFQldybWp2SnVybEdQREFtWE1Odl94SmtfclZxT29WbF85dUhSVE5uek80TQ?oc=5",
-          "source": "Kotaku",
-          "published": "Wed, 19 Nov 2025 18:55:54 GMT",
+          "id": "news_4_1763662206",
+          "title": "Technology In Cars Is Getting Weird: COTD - The Autopian",
+          "description": "Technology In Cars Is Getting Weird: COTD\u00a0\u00a0The AutopianGoogle\u2019s Gemini is now on Android Auto\u00a0\u00a0The Verge\u201cHey Google, did you upgrade your AI in my Android Auto?\u201d\u00a0\u00a0Ars TechnicaPolestar set to introduce Google Gemini in all Polestar models\u00a0\u00a0Polestar MediaGemini officially launches on Android Auto today, rolling out \u2018over the coming months\u2019\u00a0\u00a09to5Google",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB1aXBTclNMQ3pYUXBjNXdIRXN6bGVvdURfNDlISmpmdjR0alIySXNiVGVRWk5xb2hZdDUxdXJjdkhxMVdPcXE3TFNGQzZfNVFrTkphVGgyMjZwODY4TW5xR3V0eTJoVFdodlRKX1VlVjdreV9CQ3lkZw?oc=5",
+          "source": "The Autopian",
+          "published": "Thu, 20 Nov 2025 13:20:24 GMT",
           "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-20T12:12:40.721430"
+          "fetched_at": "2025-11-20T18:10:06.580668"
         },
         "analysis": {
-          "summary": "The article discusses how fans are working on fixing one of the ugliest Mega Evolutions in Pok\u00e9mon Legends: Z-A, reflecting the community's engagement with the game and its content.",
+          "summary": "The article discusses the introduction of Google's Gemini, a new AI language model, to Android Auto, raising questions about the increasing complexity and potential over-reliance on technology in cars.",
           "key_points": [
-            "Fans are actively participating in the Pok\u00e9mon Legends: Z-A community by fixing glitches or desired features.",
-            "The article specifically mentions an 'ugly Mega Evolution,' highlighting the community's desire for improvements.",
-            "Community involvement is an essential part of the Pok\u00e9mon franchise's enduring popularity."
+            "Google's Gemini AI is being integrated into Android Auto, raising concerns about the growing AI presence in everyday life.",
+            "The move reflects a trend in the automotive industry to incorporate advanced technology, possibly leading to cars that are more like connected devices than simply modes of transportation.",
+            "There is a sense of skepticism among some consumers about the necessity and potential downsides of such advancements."
           ],
-          "sentiment": "positive",
-          "confidence": "high",
-          "bias_check": "The article could be biased towards highlighting community engagement without discussing any potential drawbacks or criticisms of fan-made mods.",
-          "missing_context": "It's not clear what the 'ugliest Mega Evolution' refers to, nor is it discussed why these evolutions are considered 'ugly'. Additionally, the impact of fixing such evolutions on game balance or developer intentions is not addressed.",
-          "implications": "This story showcases the collaborative relationship between game developers and the fan community, which could influence how future updates or sequels are approached. However, it also raises questions about the balance between developer control and community contributions.",
+          "sentiment": "Mixed",
+          "confidence": "High",
+          "bias_check": "The article may reflect a bias against increasing technology integration in cars, focusing on potential over-reliance and ignoring the benefits such as safety improvements and enhanced user experiences.",
+          "missing_context": "The article does not provide context on the specific features of Gemini or user feedback on the integration, which could influence the perception of its impact.",
+          "implications": "The broader implications include a potential shift in how we interact with our vehicles, possibly leading to greater convenience but also raising questions about privacy, security, and the need for driver attention and skills.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-20T12:13:41.665857",
+          "analyzed_at": "2025-11-20T18:10:58.159421",
           "token_usage": {
-            "prompt_tokens": 294,
-            "completion_tokens": 257,
-            "total_tokens": 551
+            "prompt_tokens": 277,
+            "completion_tokens": 266,
+            "total_tokens": 543
           }
         }
       },
       {
         "article": {
-          "id": "news_0_1763640760",
-          "title": "Israeli strikes in Gaza kill 25 Palestinians, health ministry says - BBC",
-          "description": "Israeli strikes in Gaza kill 25 Palestinians, health ministry says\u00a0\u00a0BBCIsraeli Strikes Kill at Least 25 in Gaza Amid Cease-Fire, Officials Say\u00a0\u00a0The New York TimesIsraeli fire kills four in Gaza, casting further doubt on ceasefire\u00a0\u00a0ReutersAt least 5 people killed in Israeli air attacks on southern Gaza\u00a0\u00a0Al JazeeraIsraeli strikes across Gaza kill at least 32 Palestinians, as Hamas warns of \u2018dangerous escalation\u2019\u00a0\u00a0CNN",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5fZDJnaWlKN3NfWWM4NHE0cmY0Ty1BYkQzYV90QnVXT2JkUHFtakl2cnBhVloyME0wZEFTUF8ySXREWTlQUWtlQzY2ajhJX01xUmNQOTVUQTE2UdIBX0FVX3lxTFBRbTRTN3J2Q0ZNejZ3NVlRRlRNcjNRTlA3U2cyNVZRanZROEZlcGtCejJrUmJyV2JWNXV3NmVkSkF5NGlycUZydGpWaGVZbzhfRTNuV0N3ZWFNYzFaSVpR?oc=5",
-          "source": "BBC",
-          "published": "Thu, 20 Nov 2025 07:30:46 GMT",
+          "id": "news_0_1763662206",
+          "title": "Amnesia, nostalgia, healing: Spain grapples with Franco legacy 50 years on - Al Jazeera",
+          "description": "Amnesia, nostalgia, healing: Spain grapples with Franco legacy 50 years on\u00a0\u00a0Al JazeeraFranco Died 50 Years Ago, but He\u2019s Still Winning New Fans in Spain\u00a0\u00a0The New York TimesSpanish PM calls for nation to heed past lessons on anniversary of Franco\u2019s death\u00a0\u00a0The Guardian50 years after Franco\u2019s death, giving a voice to Spanish dictator\u2019s imprisoned mothers\u00a0\u00a0The ConversationFar-right uptick in Spain raises spectre of Franco 50 years after his death\u00a0\u00a0Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNc2xYN0h1Mlp0UEw1T19vSGtkVDBYNE5iQU5TWG4welZad2dCMXJtdFV3elM1dHlhclhXTUhmQ1JBbU91dlMwQ3pZUG1LaHFic2g2R2pHMGJoRF90Tnh5MV9UZms0NTNHaU1lX3RiLWtoWm1QRGdFbU80UGFFMEpvMzFR0gGHAUFVX3lxTE02dU45QkVpcVEwSmczMFlkREVuOV84ZVRVMTNOcm9GSWx3YzRpWHFSRDl4Y2ZNZWppNENTbEZ5bXdRSnV1Tm1wZzRGTGdWbXJ0SFpKVDkyQmV4Q1RaN3lTRnF4NFRqUVRyUk1leTRPdGlCcGozWjByX25Mak5QM2U2RTJTREZ2bw?oc=5",
+          "source": "Al Jazeera",
+          "published": "Thu, 20 Nov 2025 08:25:14 GMT",
           "topic": "WORLD",
-          "fetched_at": "2025-11-20T12:12:40.842382"
+          "fetched_at": "2025-11-20T18:10:06.709010"
         },
         "analysis": {
-          "summary": "The news reports multiple incidents of Israeli airstrikes in Gaza, resulting in numerous Palestinian casualties. The strikes have raised concerns over the effectiveness and impact of the ongoing ceasefire, as well as the potential for a dangerous escalation in the conflict.",
+          "summary": "This Al Jazeera article discusses the mixed reactions and ongoing debate in Spain regarding Francisco Franco's legacy, half a century after his death, highlighting his continued influence, the emergence of new supporters, calls for remembering history, and concerns over rising right-wing sentiments reminiscent of Franco's era.",
           "key_points": [
-            "Israeli airstrikes in Gaza have resulted in at least 25 Palestinian casualties.",
-            "Reports conflict on the exact number of casualties, with figures ranging from 25 to 32.",
-            "The incidents cast doubt on the effectiveness of the ceasefire agreement.",
-            "Hamas has warned of a dangerous escalation, highlighting the volatile situation.",
-            "Multiple news organizations report on the incidents, indicating widespread concern and attention."
+            "Franco's death anniversary sparks reflection and debate over his legacy in Spain.",
+            "There is a resurgence of interest in Franco among some Spaniards, indicating a complex and divided public memory.",
+            "Calls for remembering past atrocities and learning from history are juxtaposed with a rise in right-wing sentiment, echoing Franco's dictatorship.",
+            "The Spanish government urges the nation to heed past lessons while grappling with the dichotomy of nostalgia and condemnation."
           ],
-          "sentiment": "Negative",
+          "sentiment": "Mixed",
           "confidence": "High",
-          "bias_check": "Potential biases might include the perspective of the reporting organizations, the geopolitical implications of the conflict, and the focus on casualty figures without exploring the broader context of the ceasefire and its terms.",
-          "missing_context": "Additional context might include the political motivations behind the Israeli strikes, the specific nature of the ceasefire agreement, and the impact on civilians and infrastructure in Gaza.",
-          "implications": "The incidents of Israeli airstrikes in Gaza have broader implications for regional stability, humanitarian conditions, and the potential for further escalation in the conflict. They also raise questions about the effectiveness and enforcement of ceasefire agreements in conflict zones.",
+          "bias_check": "The article may have a slight bias towards highlighting the contentious nature of Franco's legacy, as it focuses on the controversy and divided opinions surrounding his remembrance rather than presenting a more balanced view of his historical impact.",
+          "missing_context": "The article might lack detailed context about the social, political, and economic conditions that contributed to Franco's rise to power and his initial support. Additionally, it doesn't delve into the post-Franco era's attempts at democratic transition and reconciliation.",
+          "implications": "The ongoing debate over Franco's legacy in Spain reflects broader global challenges in dealing with controversial historical figures. It underscores the importance of historical memory in shaping national identity and the risks of revisionist history. The resurgence of right-wing sentiments also has implications for Spain's democratic stability and the collective healing process from its past.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-20T12:13:50.585772",
+          "analyzed_at": "2025-11-20T18:11:07.423570",
           "token_usage": {
-            "prompt_tokens": 287,
-            "completion_tokens": 302,
-            "total_tokens": 589
+            "prompt_tokens": 302,
+            "completion_tokens": 351,
+            "total_tokens": 653
           }
         }
       },
       {
         "article": {
-          "id": "news_1_1763640760",
-          "title": "Taiwan president shows support for Japan in China dispute with sushi lunch - Reuters",
-          "description": "Taiwan president shows support for Japan in China dispute with sushi lunch\u00a0\u00a0ReutersChina warns there is \u2018no market\u2019 for Japanese seafood exports as spat over Taiwan comments escalates\u00a0\u00a0CNNJapan, China ties deteriorate after Takaichi's Taiwan comment\u00a0\u00a0ReutersChina\u2019s Overreach Is Handing Takaichi an Early Win\u00a0\u00a0Bloomberg.comChina and Japan are in a vicious game of chicken over Taiwan\u00a0\u00a0The Economist",
+          "id": "news_1_1763662206",
+          "title": "With a sushi lunch, Taiwan president shows support for Japan in China dispute - Reuters",
+          "description": "With a sushi lunch, Taiwan president shows support for Japan in China dispute\u00a0\u00a0ReutersChina and Japan\u2019s unnecessary dispute\u00a0\u00a0Financial TimesChina warns there is \u2018no market\u2019 for Japanese seafood exports as spat over Taiwan comments escalates\u00a0\u00a0CNNChina\u2019s Overreach Is Handing Takaichi an Early Win\u00a0\u00a0Bloomberg.comUS \u2018has Sanae Takaichi\u2019s back\u2019 in Japan\u2019s escalating row with China\u00a0\u00a0Financial Times",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZVR4TlB2bGVDcHVON28xbHVlakRlZVZydGs4ZUgwa3ZGN2hyMk8xM1ZDSjdvX040ZUttRU5sM3hEcWlpZktid21GTmxSMGdYNHpYa1hobjJrZ1J6U3pOX1U4VHFfVVhUWGxGTUV1YUhiMEVYanBLT2xQR2ZtdVBvZHlmRGVFLUdBYUlaRU5TdHJvUFdCYmRRY3ZyWkpmMXoxdTdUbnBtcjhURHZxa2JCUEZ6VU9zZw?oc=5",
           "source": "Reuters",
-          "published": "Thu, 20 Nov 2025 08:21:51 GMT",
+          "published": "Thu, 20 Nov 2025 12:50:47 GMT",
           "topic": "WORLD",
-          "fetched_at": "2025-11-20T12:12:40.842411"
+          "fetched_at": "2025-11-20T18:10:06.709046"
         },
         "analysis": {
-          "summary": "{\n  \"summary\": \"The Taiwanese president's sushi-lunch gesture of support for Japan amidst a rising China-Japan dispute over Taiwan has been widely reported, potentially signaling a diplomatic alignment between Taiwan and Japan. This move comes as Taiwan's comments on the territorial dispute have exa",
+          "summary": "In this article, Taiwan's president is depicted as supporting Japan amid heightened tensions between China and Japan over Taiwan-related comments, showcasing international solidarity, but also highlighting the potential economic ramifications for Japanese seafood exports to China as the dispute intensifies.",
           "key_points": [
-            "{\n  \"summary\": \"The Taiwanese president's sushi-lunch gesture of support for Japan amidst a rising China-Japan dispute over Taiwan has been widely reported, potentially signaling a diplomatic alignment between Taiwan and Japan. This move comes as Taiwan's comments on the territorial dispute have exacerbated tensions between China and Japan, with China threatening to boycott Japanese seafood exports.\"\n\n  \"key_points\": [\n    \"Taiwanese president's support for Japan during a China-Japan dispute over Taiwan.\",\n    \"Taiwan's comments have escalated tensions, leading to China threatening to boycott Japanese seafood exports.\",\n    \"The sushi-lunch gesture is symbolic of diplomatic support and solidarity between Taiwan and Japan.\"\n  ],\n\n  \"sentiment\": \"Mixed\",\n\n  \"confidence\": \"High\",\n\n  \"bias_check\": \"The article may emphasize the geopolitical tensions and the potential impacts on trade, possibly overlooking other diplomatic and cultural nuances. It might also reflect Western perspectives on the issue, given the sources are from Western media.\"\n\n  \"missing_context\": \"The article does not provide insight into the public opinion in Taiwan and Japan regarding the sushi-lunch gesture, nor does it explore the historical and cultural context of the China-Japan-Taiwan relations. The article also does not discuss China's possible motivations for its diplomatic stance beyond the immediate trade threats.\"\n\n  \"implications\": \"The Taiwanese president's gesture may strain China-Japan relations further, impacting trade and potentially leading to a broader regional realignment. It could also affect global perceptions of Taiwan's international position and its relations with other countries. Additionally, the move might have economic implications for Japan, particularly in its seafood industry.\"\n}"
+            "Taiwan's president's support for Japan amidst the China-Japan dispute.",
+            "Economic concerns for Japanese seafood exports due to China's potential retaliation.",
+            "The international dimension of the China-Japan-Taiwan spat over Taiwan."
+          ],
+          "sentiment": "Mixed",
+          "confidence": "High",
+          "bias_check": "The article may reflect a Western perspective emphasizing regional conflicts and economic concerns, potentially underplaying other geopolitical dynamics or cultural sensitivities.",
+          "missing_context": "The deeper historical context of Sino-Japanese relations, the Taiwan issue, and the specific nature of the comments made by Sanae Takaichi that sparked the dispute could be missing. The article does not address the domestic reactions within China, Taiwan, or Japan.",
+          "implications": "The incident could lead to increased regional instability, affect international diplomatic relations, and have economic consequences for Japan's seafood industry. It also underscores the intricate balance of power and the potential for small nations to influence larger geopolitical issues.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-20T18:11:14.863685",
+          "token_usage": {
+            "prompt_tokens": 279,
+            "completion_tokens": 269,
+            "total_tokens": 548
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_2_1763662206",
+          "title": "Surf's down! Munich, until now an inland surfing hotspot, has lost its biggest wave - NPR",
+          "description": "Surf's down! Munich, until now an inland surfing hotspot, has lost its biggest wave\u00a0\u00a0NPRView Full Coverage on Google News",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOOHdXUGo2T0NqTG1CZDRveVFzUkRlZ0dYajdSdTN4OFdQN1U3blNpdGpSVzB2MHlVLW13UnRNalF6QURwZUZrY2txS1hkUFlzSEpyWDNPNWZReWZjZkdHLXozc19JMUpvQU9uSWtWLXgzcTU4cFJnalFYV0hLeEhJTFdMQms1N2o2S2FEVUtUT2dDOE9rdU8wTg?oc=5",
+          "source": "NPR",
+          "published": "Thu, 20 Nov 2025 15:19:32 GMT",
+          "topic": "WORLD",
+          "fetched_at": "2025-11-20T18:10:06.709060"
+        },
+        "analysis": {
+          "summary": "Title: \"Surf's down! Munich, until now an inland surfing hotspot, has lost its biggest wave\"\nSource: NPR\n\nSummary:\nMunich, once known for its inland surfing activities, has experienced a significant setback when its largest wave has broken, leaving enthusiasts disappointed. This event underscores th",
+          "key_points": [
+            "Title: \"Surf's down! Munich, until now an inland surfing hotspot, has lost its biggest wave\"\nSource: NPR\n\nSummary:\nMunich, once known for its inland surfing activities, has experienced a significant setback when its largest wave has broken, leaving enthusiasts disappointed. This event underscores the vulnerabilities of inland surfing spots and raises concerns about the sustainability of such recreational endeavors in the face of natural events.\n\nKey Points:\n1. Munich's inland surfing wave has broken, leading to a significant loss for local surfers.\n2. The incident highlights the challenges and unpredictability associated with inland surf spots.\n3. The event may prompt a reevaluation of the viability and sustainability of inland surfing.\n\nSentiment: Mixed (Negative due to the loss, but also neutral as it is an isolated incident)\nConfidence: Medium (The summary is based on the limited information provided, but the key points are well-grounded in the context of the situation)\nBias Check: The article may have a geographical bias, focusing on the negative impact on Munich without considering the broader context of inland surfing as a niche activity that is typically less affected by coastal erosion or rising sea levels.\nMissing Context: The article does not mention the frequency of such events or the history of inland surfing in Munich, which could provide a better understanding of the situation. It also lacks information on the community's response and whether there are plans to rebuild or adapt.\nImplications: This story could lead to increased scrutiny of inland surfing as a recreational activity, potentially affecting its popularity and the investments in infrastructure. It might also spark discussions about the need for better predictive models for inland wave behaviors or the construction of artificial waves."
           ],
           "sentiment": "neutral",
           "confidence": "medium",
@@ -229,277 +261,242 @@
           "implications": "",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-20T12:14:00.461443",
+          "analyzed_at": "2025-11-20T18:11:27.836510",
           "token_usage": {
-            "prompt_tokens": 275,
-            "completion_tokens": 336,
-            "total_tokens": 611
+            "prompt_tokens": 222,
+            "completion_tokens": 333,
+            "total_tokens": 555
           }
         }
       },
       {
         "article": {
-          "id": "news_2_1763640760",
-          "title": "Russian attack kills 25 in Ukraine\u2019s Ternopil as Zelenskyy meets Erdogan in Turkey - AP News",
-          "description": "Russian attack kills 25 in Ukraine\u2019s Ternopil as Zelenskyy meets Erdogan in Turkey\u00a0\u00a0AP NewsRescuers scour wreckage for survivors after deadly Russian attack on western Ukraine\u00a0\u00a0CNNRussian Missile Kills at Least 25 in Ukrainian Apartment Building\u00a0\u00a0The New York TimesRussia-Ukraine war: List of key events, day 1,365\u00a0\u00a0Al JazeeraRussia pummels Ukraine with missiles and drones, killing at least 25 as U.S. tries to revive peace talks\u00a0\u00a0CBS News",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPSW9DaG9SMVNQVi1LUlRZRnRhblp0ZEpUX0w0UzVYNE5nUjB6NWs5RXFRXzdZLXZmZVVuaUJPY0VEMm51NmN1MEFXT0NSTjVPcHM4X1ZSSmgwQjdkcGhCa3Q3d0d0THdiTWFlNzJ0MTBVQkZkczNxNU0yRnlMLVJXUGc0S3pPbU4wdUVIOXFZV1dpZlY3X0ltbzNLcjdJbG83?oc=5",
+          "id": "news_3_1763662206",
+          "title": "A corruption scandal pressures Ukraine\u2019s Zelenskyy to show greater accountability - AP News",
+          "description": "A corruption scandal pressures Ukraine\u2019s Zelenskyy to show greater accountability\u00a0\u00a0AP NewsMove Over, Netflix: Ukraine\u2019s Corruption Investigators Bring the Drama\u00a0\u00a0The New York TimesInside the Ukrainian Corruption Probe Edging Closer to Zelensky\u00a0\u00a0The Wall Street JournalUkraine's Anti-Graft Chief Warns Of High-Level Pressure As Energy Sector Scandal Deepens\u00a0\u00a0Radio Free Europe/Radio LibertyUkraine fires two ministers as corruption crisis spreads anger\u00a0\u00a0Reuters",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPR3lMMXpjOFBoYzNRMkIyNmlQRU85WHdPNjdnQ2FHZXhOSndmcW12LU40el9acTBhUGFnUm9ybTh2UHdkbkF3cXNfODk0V1NKalJTMFh6ZlExWk1fdDF2VTRIWWNBaHp4NlVERTB0anNpOURIY0tWQ3E3bnRVOXotQ0Y0X2Z0THFNWXNYNW9BNmVfX0o0a214VGNMQjBMR2txcEdFN1JWX3Rmbjh2bG5vV3FaY1o?oc=5",
           "source": "AP News",
-          "published": "Thu, 20 Nov 2025 00:35:00 GMT",
+          "published": "Thu, 20 Nov 2025 16:35:00 GMT",
           "topic": "WORLD",
-          "fetched_at": "2025-11-20T12:12:40.842433"
+          "fetched_at": "2025-11-20T18:10:06.709082"
         },
         "analysis": {
-          "summary": "A devastating Russian missile attack in western Ukraine's Ternopil region resulted in at least 25 deaths, as Ukraine's President Zelenskyy met with Turkish President Erdogan in Turkey amid escalating tensions. The attack underscores the ongoing conflict between Russia and Ukraine, with significant civilian casualties and ongoing efforts for peace talks.",
+          "summary": "A corruption scandal is putting pressure on Ukrainian President Zelenskyy to demonstrate greater accountability, with multiple ministers being fired amidst rising public anger over an energy sector scandal.",
           "key_points": [
-            "At least 25 people were killed in a Russian missile attack in western Ukraine.",
-            "President Zelenskyy met with Turkish President Erdogan, highlighting international diplomatic efforts.",
-            "The incident illustrates the severe impact of the Russia-Ukraine conflict on civilians."
-          ],
-          "sentiment": "negative",
-          "confidence": "high",
-          "bias_check": "The article may exhibit bias by focusing on the attack's fatality count and its occurrence during a diplomatic meeting, potentially overlooking broader geopolitical contexts or alternative perspectives on the peace talks.",
-          "missing_context": "The article doesn't provide context on the ongoing peace talks' status or previous incidents in the region. Additionally, it doesn\u2019t mention the broader geopolitical implications or the history of the Russia-Ukraine conflict.",
-          "implications": "The attack highlights the war's toll on civilians, potentially influencing international diplomatic efforts and public opinion. It may also affect the peace talks' progress, causing hesitation or renewed urgency among involved parties.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-20T12:14:07.688324",
-          "token_usage": {
-            "prompt_tokens": 306,
-            "completion_tokens": 279,
-            "total_tokens": 585
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_3_1763640760",
-          "title": "Far-right uptick in Spain raises spectre of Franco 50 years after his death - Reuters",
-          "description": "Far-right uptick in Spain raises spectre of Franco 50 years after his death\u00a0\u00a0ReutersFranco Died 50 Years Ago, but He\u2019s Still Winning New Fans in Spain\u00a0\u00a0The New York TimesAmnesia, nostalgia, healing: Spain grapples with Franco legacy 50 years on\u00a0\u00a0Al JazeeraFrancisco Franco: the charmless man who became Spain\u2019s dictator\u00a0\u00a0The Economist50 years after Franco\u2019s death, giving a voice to Spanish dictator\u2019s imprisoned mothers\u00a0\u00a0The Conversation",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOcmZqai13NXlQVWJLSkNTNG9SVkFDNGhMODNVeWNIdGNEM2NSY3A1LVd5elhXUWV4cXBtZTBpTElDcU8wbVlXZU13dnNCMFFrUEhtdm9DZHNldTF4elFRV0NQUHR1RGdnOWxfcFo3X0h3aWFBaXhEYTNTckJZcW0xWVNPdUE2Z3RBd1BHMXhpczhzMVhZdXBtaUxGQktwaXFRR2ZGWmlDcXJHT3FVR0FzYg?oc=5",
-          "source": "Reuters",
-          "published": "Wed, 19 Nov 2025 20:53:44 GMT",
-          "topic": "WORLD",
-          "fetched_at": "2025-11-20T12:12:40.842454"
-        },
-        "analysis": {
-          "summary": "The resurgence of far-right sentiment in Spain has reignited debates about the legacy of Francisco Franco, half a century after his death. This reflects both nostalgia and a struggle with Spain's historical memory, with new generations showing interest in Franco's authoritarian rule. The political climate suggests a troubling revival of authoritarian ideals among parts of the public.",
-          "key_points": [
-            "Far-right movement gaining traction in Spain.",
-            "New interest in Franco's legacy, 50 years post-dictatorship.",
-            "Spain's public grappling with its historical memory and authoritarian past."
-          ],
-          "sentiment": "Negative",
-          "confidence": "High",
-          "bias_check": "The article might exhibit bias by emphasizing the negative aspects of the far-right's resurgence without equally considering any potential socio-economic reasons behind the movement. It also names sources like The New York Times and Al Jazeera, which may have a particular editorial stance.",
-          "missing_context": "The article doesn't provide context regarding the socio-economic and political factors contributing to the rise of far-right sentiment, nor does it discuss the specific policies or rhetoric of contemporary far-right groups in Spain. The role of the current political climate and its impact on historical narratives is also not mentioned.",
-          "implications": "The rise of far-right sentiment in Spain could indicate a broader trend of authoritarian nostalgia in global politics, which may have significant implications for democratic institutions, minority rights, and political discourse in the country. It might also influence how Spain's history is taught and remembered, potentially affecting national identity and unity.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-20T12:14:16.093170",
-          "token_usage": {
-            "prompt_tokens": 296,
-            "completion_tokens": 327,
-            "total_tokens": 623
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_4_1763640760",
-          "title": "Pakistan\u2019s Army Chief, Trump\u2019s \u2018Favorite Field Marshal,\u2019 Cements Power - The Wall Street Journal",
-          "description": "Pakistan\u2019s Army Chief, Trump\u2019s \u2018Favorite Field Marshal,\u2019 Cements Power\u00a0\u00a0The Wall Street JournalPakistan Will Regret Letting the Army Back In\u00a0\u00a0Bloomberg.comPakistan\u2019s Army Chief Gets Expanded Powers and Lifelong Immunity\u00a0\u00a0The New York TimesState and its pillars\u00a0\u00a0DawnPakistan dispatch: constitutional amendment reshapes judicial power and cements military authority\u00a0\u00a0Jurist.org",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNU3lPNkRobXhKT1N2a01seDVZaXlTR2QxSXhKbTJ2YlM0SzBWUTdPcGxscjF2dmJ3QVFEMVFYWVc2VURrbjdva1ZSWG56Z24xMERFTzRVbzI5ejV1WUZkWTdad19sQ19BLW96UGJCejVuZ3lQU3NYczZxM1lhMEYwQzlHMzBMNEN6OEhydUhna0dOTmhkampqWHYyQk5MNTFCdUl2T1lEYw?oc=5",
-          "source": "The Wall Street Journal",
-          "published": "Thu, 20 Nov 2025 04:00:00 GMT",
-          "topic": "WORLD",
-          "fetched_at": "2025-11-20T12:12:40.842474"
-        },
-        "analysis": {
-          "summary": "The article discusses the significant empowerment of Pakistan's Army Chief, General Qamar Javed Bajwa, highlighting his expanded powers and lifelong immunity. It suggests that this move could strengthen military authority at the expense of civilian governance, raising concerns about the potential implications for Pakistan's democratic processes.",
-          "key_points": [
-            "General Qamar Javed Bajwa, known as the 'Favorite Field Marshal' of President Trump, has been given expanded powers and lifelong immunity.",
-            "The constitutional amendment reshaping judicial power and enhancing military authority could undermine civilian governance.",
-            "The move may lead to increased military influence over Pakistan's political landscape."
-          ],
-          "sentiment": "Mixed",
-          "confidence": "High",
-          "bias_check": "The article may be biased towards portraying the empowerment as a negative development for democracy in Pakistan. It also assumes that increased military power is inherently detrimental without considering potential justifications or stability arguments.",
-          "missing_context": "The article lacks details on the reasons behind the constitutional amendment, including any security or political considerations that might justify the empowerment. It also does not provide perspectives from Pakistani citizens, politicians, or military officials on the amendment's implications.",
-          "implications": "The broader implications include a potential shift in the balance of power between military and civilian authorities in Pakistan, which could affect the country's democratic institutions and governance. There is also the risk of increased military influence in politics, which may lead to reduced civilian oversight and accountability. This development could have long-term effects on Pakistan's political and social stability, as well as its international relations.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-20T12:14:24.557920",
-          "token_usage": {
-            "prompt_tokens": 278,
-            "completion_tokens": 330,
-            "total_tokens": 608
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_0_1763640760",
-          "title": "Stock futures rally as Nvidia's strong forecast reignites the AI trade: Live updates - CNBC",
-          "description": "Stock futures rally as Nvidia's strong forecast reignites the AI trade: Live updates\u00a0\u00a0CNBCNvidia results impress even the Wall Street bear\u00a0\u00a0AxiosNVIDIA Announces Financial Results for Third Quarter Fiscal 2026\u00a0\u00a0NVIDIA NewsroomNvidia sent a strong signal on AI infrastructure \u2014 but is it a bubble barometer?\u00a0\u00a0CNBCGlobal tech shares surge as Nvidia's AI boom powers market rally\u00a0\u00a0Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1uOE0zbU1Ha2Z4bEI4SDZsb1ZGZ0dnc1VSeU94Mm80NGdiVFBEcFB0RE1lM1E5bjdzaWFvb2YxTzNGTVdxZjJUZFZlYURkOWRvcThGM2JQMUR5aFA3UDNia2RTbGtoV2VFamR5NHl1em51V0lHMjlz0gF8QVVfeXFMUGtReHdjbFRER1dUdWx2cUlmbGx3MWNYM2FvbDBjU2hIeWN3NEZra2RzZktETEh4cllLVm5UWW5rVzQ3QU80eXhfS0pDZzR1X28yVURHdHF1QW12UkxDTWdvcTFFT0o5emphbUtCVzY1cVB5bUp6NnhRUEZyRA?oc=5",
-          "source": "CNBC",
-          "published": "Thu, 20 Nov 2025 12:02:00 GMT",
-          "topic": "BUSINESS",
-          "fetched_at": "2025-11-20T12:12:40.885612"
-        },
-        "analysis": {
-          "summary": "The strong financial results from Nvidia's third quarter of fiscal 2026 have sparked a rally in stock futures, reigniting investor interest in the AI sector. This surge in confidence in Nvidia and the broader AI market suggests a positive outlook, although some caution may be warranted to avoid potential overvaluation or 'bubble' concerns.",
-          "key_points": [
-            "Nvidia's impressive third-quarter results have led to a rally in stock futures.",
-            "The AI sector, particularly driven by Nvidia's performance, is experiencing renewed investor interest.",
-            "There are concerns about the potential for an AI market bubble, given the recent surge in optimism."
-          ],
-          "sentiment": "Mixed",
-          "confidence": "High",
-          "bias_check": "Potential bias towards bullish sentiment on AI advancements and Nvidia's success, overshadowing potential risks and overvaluation concerns.",
-          "missing_context": "The broader economic context, including potential regulatory changes or competition within the AI industry, might be missing. Additionally, specific data on Nvidia's performance and market reactions would provide deeper insights.",
-          "implications": "The rally in Nvidia's stock futures and the AI sector could lead to increased investments in AI technologies, potentially driving further innovation and growth. However, it also raises the risk of speculative bubbles and increased market volatility. Investors and regulators should remain vigilant and consider both the opportunities and risks associated with the rapid advancements in AI technology.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-20T12:14:32.529247",
-          "token_usage": {
-            "prompt_tokens": 280,
-            "completion_tokens": 297,
-            "total_tokens": 577
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_1_1763640760",
-          "title": "September jobs report arrives today, almost 7 weeks behind schedule - NPR",
-          "description": "September jobs report arrives today, almost 7 weeks behind schedule\u00a0\u00a0NPRThe September jobs report is finally coming out Thursday. Here's what it is expected to show\u00a0\u00a0CNBCA cooling economy sets the stage for high-stakes jobs report\u00a0\u00a0CNNDelayed Jobs Data to Give Snapshot of a Labor Market Under Stress\u00a0\u00a0The New York TimesThe September jobs report is finally here, a window into the U.S. labor market\u00a0\u00a0NBC News",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQejlWelpPOHJRQXV6aTczVjFrUjNPUWpwdU5sNlpqeHRpNkY1djJFWk1tLWF4STFNVWRMdlBrV0dCNEgwWGlaSmRjYzh3RUFWOEVPWFNQY1Mtb0FLU242X21hd1RUOWRFTXdUYTVGWndtTXlITjVGa1Bjd09Udm9ramYwWjdZSll3amZhVjgzT3ZmUGhaWGdFdFlNdlhQMFNlWlhuZGZKRWQyM3lMaXFVNmxHVDRiZw?oc=5",
-          "source": "NPR",
-          "published": "Thu, 20 Nov 2025 10:00:00 GMT",
-          "topic": "BUSINESS",
-          "fetched_at": "2025-11-20T12:12:40.885636"
-        },
-        "analysis": {
-          "summary": "The September jobs report, significantly delayed, finally released, indicating a cooling economy and providing insight into the labor market's current challenges.",
-          "key_points": [
-            "The delayed release of the September jobs report reflects underlying issues in data collection or reporting.",
-            "The expected data points to a cooling economy, which may influence future economic policies.",
-            "The labor market appears to be under stress, as indicated by the report's findings."
-          ],
-          "sentiment": "Mixed",
-          "confidence": "High",
-          "bias_check": "The article may present a neutral stance, but the choice to highlight the delay and subsequent analysis could suggest an underlying concern for the labor market's health.",
-          "missing_context": "The article does not provide specific figures or percentages that would offer a clearer view of the economic and labor market conditions, nor does it compare the current situation to previous periods.",
-          "implications": "The delayed report and its findings could have significant implications for economic policy-making, investor confidence, and public perception of the economy's health. The stress in the labor market might lead to increased attention on job creation and support measures.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-20T12:14:39.335699",
-          "token_usage": {
-            "prompt_tokens": 279,
-            "completion_tokens": 244,
-            "total_tokens": 523
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_2_1763640760",
-          "title": "Meta alerts young Australians to download their data before a social media ban - AP News",
-          "description": "Meta alerts young Australians to download their data before a social media ban\u00a0\u00a0AP NewsMeta gives Australian kids 2-week warning to delete accounts as world-first social media age restrictions loom\u00a0\u00a0CBS NewsMeta Warns of Compliance Errors as Australian Under-16 Ban Nears\u00a0\u00a0Bloomberg.comMeta sets date to remove Australians under 16 from Instagram, Facebook\u00a0\u00a0Al JazeeraHow to download your content ahead of Meta's teen social media ban\u00a0\u00a0abc.net.au",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQUFFqTVFCVDNVT25Bd2o1OF9iN2tKT3FzU0tPbUdkWmtOWHIyWmVZMXZTZTVxN1dwNmI0ZnM3bWp0dDhlRklrM1Q5X3RiUFlpQTM0Ty1SeWswS2U2NmQyT29haFZTMEZlMFQ5dzlWXzVyQWYtLUZCNTJtbndmNVBVU0VBVzVwVFM1dll5N28wTi1LU28wbUwwUA?oc=5",
-          "source": "AP News",
-          "published": "Thu, 20 Nov 2025 06:02:00 GMT",
-          "topic": "BUSINESS",
-          "fetched_at": "2025-11-20T12:12:40.885655"
-        },
-        "analysis": {
-          "summary": "Meta's announcement to allow Australian children under 16 to download their social media data before a ban takes effect sparks discussions on privacy, digital rights, and corporate responsibility.",
-          "key_points": [
-            "Meta's compliance with Australian age restrictions on social media.",
-            "The 2-week notice period for Australian users to download their data.",
-            "Potential data management issues due to a high volume of requests.",
-            "Concerns about the impact on young users' digital rights and privacy.",
-            "Possible precedent for similar age restrictions and data management practices worldwide."
+            "President Zelenskyy is under scrutiny due to a corruption scandal.",
+            "Two ministers have been fired, indicating a possible shift towards more accountability.",
+            "The scandal is particularly focused on the energy sector, sparking widespread public outrage."
           ],
           "sentiment": "mixed",
           "confidence": "high",
-          "bias_check": "The article may reflect a bias towards viewing Meta's actions as either proactive or negligent, depending on one's stance on corporate responsibility and digital rights.",
-          "missing_context": "The article does not provide details on how to actually download the data, the technical challenges involved, or the legal implications of the age restrictions.",
-          "implications": "The move could lead to increased scrutiny of social media companies regarding age restrictions and data privacy, potentially influencing global policies and corporate practices in the tech industry.",
+          "bias_check": "The article may reflect a Western perspective on Ukrainian politics, potentially underplaying complexities within Ukraine's political landscape and Zelenskyy's own anti-corruption efforts.",
+          "missing_context": "The context of Ukraine's previous corruption issues, the specific details of the energy sector scandal, and Zelenskyy's previous anti-corruption measures could provide a more nuanced understanding.",
+          "implications": "The scandal could lead to increased public pressure for reforms and greater transparency, potentially weakening Zelenskyy's administration. However, it may also bolster his anti-corruption stance and rally domestic support if handled effectively.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-20T12:14:45.913644",
+          "analyzed_at": "2025-11-20T18:11:34.434312",
           "token_usage": {
             "prompt_tokens": 286,
-            "completion_tokens": 245,
-            "total_tokens": 531
+            "completion_tokens": 238,
+            "total_tokens": 524
           }
         }
       },
       {
         "article": {
-          "id": "news_3_1763640760",
-          "title": "The Amazon Black Friday Sale Is Live With the Best Deal Prices of 2025 So Far - IGN",
-          "description": "The Amazon Black Friday Sale Is Live With the Best Deal Prices of 2025 So Far\u00a0\u00a0IGNBlack Friday fashion deals for 2025 are up to 75% off Kate Spade, Hoka, Patagonia and more\u00a0\u00a0YahooAmazon\u2019s Black Friday Sale Starts Today, and We\u2019ve Already Found 35 Can\u2019t-Miss Deals\u00a0\u00a0CNETEverything to know about Black Friday 2025: Where and when to shop sales\u00a0\u00a0USA TodayBlack Friday is just 11 days away. Our experts found the 73 best early deals\u00a0\u00a0CNN",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBwdUZfNlBKSmllUXlaMHI5WUpJS0FaWDZJTUtZOVctQkwzZkROQmR2T0RwalIyVW9lb0lvVFV4MnVRRWpXQjJ3dXJaeXB6VFBqVTJwUHhxcnZxMzhJZS1lLW9UNlRKUENnenRCOS1IUlBaWVE3TjVtQ0xn?oc=5",
-          "source": "IGN",
-          "published": "Thu, 20 Nov 2025 08:07:09 GMT",
-          "topic": "BUSINESS",
-          "fetched_at": "2025-11-20T12:12:40.885677"
+          "id": "news_4_1763662206",
+          "title": "Israeli airstrikes kill 33 people in Gaza in escalation of post-ceasefire attacks - The Guardian",
+          "description": "Israeli airstrikes kill 33 people in Gaza in escalation of post-ceasefire attacks\u00a0\u00a0The GuardianLIVE: Israel attacks Gaza despite ceasefire killing 30 Palestinians\u00a0\u00a0Al JazeeraIsraeli Strikes Kill at Least 25 in Gaza Amid Cease-Fire, Officials Say\u00a0\u00a0The New York TimesIsraeli strikes kill at least 32 people in Gaza despite ceasefire\u00a0\u00a0The Washington PostIsraeli fire kills five in Gaza, casting further doubt on ceasefire\u00a0\u00a0Reuters",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQSDZlNUVucWF1UDdZQVJzNXJ6dFF6bWpJVldsaGI0YVI1REZBWnNjUE1NT1kyckdiWTA0YTU5WFlHSmpmWFlPWnpiRU1TbnJsZldPSTBuOHluWXZYNXBUZEl6dVZyazE2bFkycUZQVE1qeHhuQW5TWWpsNFMzLWNzRnhHRTYyUzg3SmRyQVhUT0lVOXcxOFE?oc=5",
+          "source": "The Guardian",
+          "published": "Thu, 20 Nov 2025 17:27:00 GMT",
+          "topic": "WORLD",
+          "fetched_at": "2025-11-20T18:10:06.709100"
         },
         "analysis": {
-          "summary": "The Amazon Black Friday Sale for 2025 has been announced, offering up to 75% off on brands like Kate Spade, Hoka, and Patagonia. The sale is generating significant interest, with experts highlighting 73 of the best early deals. The high discounts are contributing to a positive sentiment among shoppers and experts alike.",
+          "summary": "Israeli airstrikes in Gaza result in the deaths of at least 33 Palestinians despite a ceasefire agreement, raising concerns over the escalation of violence and further undermining peace efforts in the region Israel Gaza Al Jazeera The New York Times The Washington Post Reuters",
           "key_points": [
-            "Amazon's Black Friday Sale in 2025 offers discounts of up to 75% on popular brands",
-            "Experts have identified 73 of the best early deals for Black Friday 2025",
-            "High discounts are generating positive sentiment among shoppers and experts"
+            "Israeli airstrikes in Gaza resulted in at least 33 Palestinian deaths despite a ceasefire.",
+            "The incident calls into question the effectiveness and enforcement of the ceasefire agreement.",
+            "Multiple news outlets report the event, indicating a significant escalation in violence following the ceasefire."
           ],
-          "sentiment": "Positive",
+          "sentiment": "Negative",
           "confidence": "High",
-          "bias_check": "The article may be biased towards promoting Black Friday sales and encouraging people to shop during the event. It may also be biased towards brands that are being heavily discounted, as they are highlighted more prominently.",
-          "missing_context": "The article does not provide information on the overall impact of these sales on Amazon's revenue or the economic implications of such heavily discounted sales. It also does not provide any customer reviews or feedback on the deals.",
-          "implications": "The high discounts could potentially lead to increased sales for Amazon and the featured brands. However, it may also contribute to a culture of excessive consumption and overspending, particularly if consumers feel pressured to take advantage of the sales. The discounts could also impact the financial health of these brands, as they offer significant discounts on their products.",
+          "bias_check": "The article may reflect a bias towards presenting the conflict in a way that emphasizes the Israeli actions and the international perspective on ceasefire violations. It may not fully represent the Israeli government's rationale for the airstrikes.",
+          "missing_context": "The article does not provide information on the context leading to the airstrikes, such as specific incidents or threats that prompted the Israeli military action. Additionally, it does not include perspectives from Israeli officials or other groups affected by the ceasefire, such as local residents or international organizations.",
+          "implications": "The escalation of violence following a ceasefire undermines confidence in the peace process and the ability of ceasefire agreements to prevent further conflict. It may also impact international relations, particularly between Israel and Palestine, and could affect humanitarian conditions in the Gaza Strip. The situation may lead to increased calls for intervention or mediation by the international community.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-20T12:14:54.411851",
+          "analyzed_at": "2025-11-20T18:11:42.711670",
           "token_usage": {
-            "prompt_tokens": 308,
-            "completion_tokens": 307,
-            "total_tokens": 615
+            "prompt_tokens": 296,
+            "completion_tokens": 329,
+            "total_tokens": 625
           }
         }
       },
       {
         "article": {
-          "id": "news_4_1763640760",
-          "title": "Walmart will report earnings before the bell. Here's what to expect - CNBC",
-          "description": "Walmart will report earnings before the bell. Here's what to expect\u00a0\u00a0CNBCWalmart beats estimates, raises forecasts heading into the holidays\u00a0\u00a0AxiosWalmart Sales Rise as Consumers Look for Savings\u00a0\u00a0The New York TimesWalmart Lifts Outlook as E-Commerce Gains Overcome Economic Woes\u00a0\u00a0Bloomberg.comWalmart stock investors brace for earnings\u00a0\u00a0Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBPaWRER0RsQkpuREJYWFNubi1sSER5V0xNZDQ1NXpuZ3VvX0RGLXd4ZWRKUGJIWnV6NlRFYzdyVWlEZGlWeWlGcXV2dUVDRUIxY3I2UVZoS3UtWjZZcHJKcWY0U3pOY0NOTlotcFRrVkxaLTjSAXhBVV95cUxNS0lZeTdZOWkxeHBqRlFUb0RxWFNlN0ktZURZdUgxMFh0U3YxdE5jbFlDOXhjV0FUWWZVUjA0NEZoU3U1Q01tLVhTQXV3b1Y4eXREWWlWTlNwc1NiUVhYRWtnaUdaZlIzQUE4TnZrdGtVdDA0Y2xPZmM?oc=5",
-          "source": "CNBC",
-          "published": "Thu, 20 Nov 2025 05:01:01 GMT",
+          "id": "news_0_1763662206",
+          "title": "Live Updates: September Jobs Report Shows Hiring Continued, but Unemployment Rate Rose - The New York Times",
+          "description": "Live Updates: September Jobs Report Shows Hiring Continued, but Unemployment Rate Rose\u00a0\u00a0The New York TimesFed likely to not cut rates in December following delayed September data, according to market odds\u00a0\u00a0CNBCWhy the unemployment rate rose even though the economy added 119,000 jobs in September\u00a0\u00a0USA TodayUS Employers Added 119,000 Jobs in September, Unemployment Rose\u00a0\u00a0Bloomberg.comU.S. employers added surprisingly solid 119,000 jobs in September, government says in delayed report\u00a0\u00a0AP News",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1FaGY1OUFRaGdZZUk0cnlDczEweGUzQ3FXTUt1Rk1TNkV5czBNT0RvMV9SaGxCNDNmOVdJX2xCYzJWRGdBTi1Mb3RKb0hlV3Rqa0w3anFqQnkybndReWNlNkhqTVg2T1gya3lVdUZCQQ?oc=5",
+          "source": "The New York Times",
+          "published": "Thu, 20 Nov 2025 17:58:31 GMT",
           "topic": "BUSINESS",
-          "fetched_at": "2025-11-20T12:12:40.885694"
+          "fetched_at": "2025-11-20T18:10:06.818218"
         },
         "analysis": {
-          "summary": "Walmart's earnings report is expected to beat estimates as the company reports sales rise amidst increased consumer spending, thanks to a focus on savings and strong e-commerce performance. Analysts are optimistic due to an improved outlook, but investors are cautious as they brace for the earnings results.",
+          "summary": "The September jobs report indicates a continued hiring trend with 119,000 jobs added, but the unemployment rate rose, suggesting that new jobs were often low-paying or required fewer hours. This mixed employment data may influence Fed decisions on interest rates, despite expectations that they won't cut rates in December.",
           "key_points": [
-            "Walmart is expected to beat earnings estimates due to higher sales driven by an emphasis on savings.",
-            "The company's strong e-commerce segment is helping to offset economic challenges.",
-            "Analysts are optimistic, but investors are waiting for the official earnings report."
+            "September jobs report showed a significant addition of 119,000 jobs.",
+            "Unemployment rate rose despite the increase in employment, suggesting a potential decrease in job quality or hours.",
+            "Market expectations indicate that the Federal Reserve may not reduce interest rates in December."
           ],
           "sentiment": "Mixed",
           "confidence": "High",
-          "bias_check": "The article may overemphasize positive aspects and underreport potential challenges or limitations facing Walmart, such as supply chain issues or competition.",
-          "missing_context": "The article does not provide specific numbers for sales or earnings, nor does it discuss potential risks or the outlook for the rest of the year. It also doesn't compare Walmart's performance with its competitors.",
-          "implications": "Walmart's performance could have implications for its stock price and the broader retail sector, particularly in terms of e-commerce trends and consumer spending habits. However, the full impact of the report will depend on the details and the overall economic context.",
+          "bias_check": "Potential biases could stem from the focus on short-term job market fluctuations without considering long-term employment trends or other economic factors that might influence unemployment rates, such as seasonal adjustments or changes in labor force participation.",
+          "missing_context": "The report may not provide enough insight into the quality of the jobs created, such as whether they are full-time or part-time, whether they offer benefits, or the sectors in which these jobs are being added. Additionally, it lacks information on the reasons behind the rise in unemployment, such as layoffs or people exiting the workforce.",
+          "implications": "The mixed signals from the labor market could lead to cautious optimism for economic recovery but also raise concerns about the strength and sustainability of job growth. It highlights the complexity of interpreting job market data and the challenges faced by policymakers in making decisions about interest rates and economic stimulus.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-20T12:15:01.662228",
+          "analyzed_at": "2025-11-20T18:11:50.924193",
           "token_usage": {
-            "prompt_tokens": 263,
-            "completion_tokens": 274,
-            "total_tokens": 537
+            "prompt_tokens": 303,
+            "completion_tokens": 324,
+            "total_tokens": 627
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_1_1763662206",
+          "title": "Stock Market Today: Dow Up Nearly 700 Points As Nvidia Earnings Impress; Broadcom Hits Entry (Live Coverage) - Investor's Business Daily",
+          "description": "Stock Market Today: Dow Up Nearly 700 Points As Nvidia Earnings Impress; Broadcom Hits Entry (Live Coverage)\u00a0\u00a0Investor's Business DailyStocks making the biggest moves midday: Nvidia, Walmart, Strategy, Regeneron & more\u00a0\u00a0CNBCNVIDIA Announces Financial Results for Third Quarter Fiscal 2026\u00a0\u00a0NVIDIA NewsroomStock Market Today: Dow Rallies; U.S. Added More Jobs Than Forecast in September \u2014 Live Updates\u00a0\u00a0The Wall Street JournalOne Earnings Report Can\u2019t Erase the Stock Market\u2019s AI Bubble Concerns\u00a0\u00a0Barr",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNYUtOc2NGOXJKOTFWcHY2M2lHNDVyR2p0b3NFQWg0VEJfVWc3Y1NXUXp1WVFJdmRQRUh5YVpiRjNNalVQbm5ZWUd6cHlvdXlXT3R2RWZCMm1YdnFBTTlobkdMLUVGaXhadFcwZ3RMU3VydHAweG5UcjZHb19jWkZNMDdTaWJqcjlhTkpRS21YZlZPVGxzV1FxS05VdzI3a24zZGY4QjVjOHhjdXcwS1pjYTd0NEpQQ3ZUWU9lZw?oc=5",
+          "source": "Investor's Business Daily",
+          "published": "Thu, 20 Nov 2025 15:44:00 GMT",
+          "topic": "BUSINESS",
+          "fetched_at": "2025-11-20T18:10:06.818256"
+        },
+        "analysis": {
+          "summary": "The Dow Jones Industrial Average surged nearly 700 points, driven by impressive earnings from Nvidia, while Broadcom also made a significant entry. This positive trend appears to be buoyed by strong job growth and other market movers.",
+          "key_points": [
+            "Nvidia's earnings report contributed to a significant rise in the Dow Jones Industrial Average.",
+            "Broadcom's recent entry into the market also had a notable impact.",
+            "Positive job growth in the U.S. adds to market optimism."
+          ],
+          "sentiment": "Positive",
+          "confidence": "High",
+          "bias_check": "The article may have an optimistic bias due to the focus on positive market movements and company earnings, potentially downplaying ongoing concerns or negative developments.",
+          "missing_context": "The article does not provide details on the broader economic context or performance of other sectors, which may affect long-term market sentiment. Additionally, it does not discuss potential risks or the sustainability of current market trends.",
+          "implications": "If the market continues to rally, driven by strong earnings from tech giants like Nvidia and Broadcom, it could indicate a bullish trend in the tech sector. However, the broader economic context and potential risks need to be considered to understand the full implications for investors and the economy.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-20T18:11:58.237046",
+          "token_usage": {
+            "prompt_tokens": 320,
+            "completion_tokens": 271,
+            "total_tokens": 591
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_2_1763662206",
+          "title": "Walmart bumps up outlook ahead of holidays, plans listing switch to Nasdaq - Reuters",
+          "description": "Walmart bumps up outlook ahead of holidays, plans listing switch to Nasdaq\u00a0\u00a0ReutersWalmart just proved it\u2019s America\u2019s solution to the affordability crisis\u00a0\u00a0CNNWalmart Sales Rise as Shoppers Look For Savings\u00a0\u00a0The New York TimesWalmart is poised to be a holiday season winner\u00a0\u00a0BBCWalmart raises profit expectations as more Americans hunt deals in sluggish economy\u00a0\u00a0ABC News",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQMUFsVlB0cTlYTTJ6cEl4UUVEb1cwS3lUMDBlejV4YmYtV3g2d2owNktnZnlLTWMxaGRXT0hvQlJxbHRlWlJFMlQzN0dZX0xkdjRUUEpJSlplam1pUXAta1lab1dPMW9nb3p5MVpGRUZZb2ZDQjZoSEN5NGJJbVNtQ2MzRlNwWjlpV0dMQ2tQVlctX1BJclE?oc=5",
+          "source": "Reuters",
+          "published": "Thu, 20 Nov 2025 17:03:09 GMT",
+          "topic": "BUSINESS",
+          "fetched_at": "2025-11-20T18:10:06.818283"
+        },
+        "analysis": {
+          "summary": "Walmart announced an upgraded profit outlook for the holiday season and plans to list on the Nasdaq, signaling positive market expectations despite a sluggish economy. The company's strategic move to switch listing venues may be seen as a response to the affordability crisis, positioning Walmart as a strong contender for holiday shopping.",
+          "key_points": [
+            "Walmart has improved its profit expectations for the upcoming holiday season.",
+            "The company is planning to switch its listing from the NYSE to the Nasdaq, which could be a strategic move to better align with its growth strategy.",
+            "Walmart's enhanced sales performance during the holiday season reflects its role as a key player in providing affordable options for consumers in a sluggish economy."
+          ],
+          "sentiment": "Positive",
+          "confidence": "High",
+          "bias_check": "The article may be biased towards presenting Walmart in a positive light, focusing on its growth and strategic decisions without discussing potential challenges or criticisms.",
+          "missing_context": "The article does not provide information on the reasons behind Walmart's decision to switch listing venues or the potential impact of the economy's sluggishness on the company's operations. It also lacks a comparison with competitors' performance.",
+          "implications": "Walmart's improved outlook and strategic decisions could strengthen its market position, but the broader economic context and competitive landscape are crucial to understanding the full implications of its actions.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-20T18:12:05.735690",
+          "token_usage": {
+            "prompt_tokens": 267,
+            "completion_tokens": 289,
+            "total_tokens": 556
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_3_1763662206",
+          "title": "Amazon\u2019s Black Friday Sale Starts Today, and We\u2019ve Already Found 35 Can\u2019t-Miss Deals - CNET",
+          "description": "Amazon\u2019s Black Friday Sale Starts Today, and We\u2019ve Already Found 35 Can\u2019t-Miss Deals\u00a0\u00a0CNETEverything to know about Black Friday 2025: Where and when to shop sales\u00a0\u00a0USA Today65+ of Amazon\u2019s best Black Friday Week deals to shop now\u00a0\u00a0About AmazonBlack Friday fashion deals for men and women: Shop sales at Macy's, Old Navy and more\u00a0\u00a0Good Morning America21+ Best Early Amazon Black Friday Deals to Shop Right Now\u00a0\u00a0NBC News",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB3RzMwRkJjZVN6WnVUdHpxRDJhQjYwUjdrQnRLdTNfUUQyNi00bUtnVG5DbFN4YTBsSUZWTlB1Mk5TU1lFMDlyd1JYNlZ2alFqM3J4cUlHYlBVdTJ5d0s5Tjk0RTUxaXF3MHc?oc=5",
+          "source": "CNET",
+          "published": "Thu, 20 Nov 2025 11:17:28 GMT",
+          "topic": "BUSINESS",
+          "fetched_at": "2025-11-20T18:10:06.818307"
+        },
+        "analysis": {
+          "summary": "The CNET article highlights Amazon's extensive Black Friday deals, featuring around 35 must-have offers, and includes mentions of other retailers' sales such as Macy's and Old Navy, hinting at a competitive holiday shopping season with a focus on online deals.",
+          "key_points": [
+            "Amazon's Black Friday Sale features a wide array of deals that consumers are eager to explore.",
+            "Other retailers are also participating in Black Friday sales, creating a bustling online shopping environment.",
+            "The article encourages early shopping to take advantage of the limited-time offers."
+          ],
+          "sentiment": "Positive",
+          "confidence": "High",
+          "bias_check": "The article may exhibit a bias towards showcasing the abundance of deals and focusing on Amazon, potentially overlooking other significant Black Friday promotions or underappreciated retailers.",
+          "missing_context": "Important context might include the financial health of these retailers, any exclusive deals that are only available on their platforms, or the potential for deal fatigue among consumers.",
+          "implications": "The article's emphasis on Black Friday sales could encourage increased consumer spending, benefiting retailers but also potentially contributing to issues such as overconsumption or financial strain for some shoppers.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-20T18:12:12.539124",
+          "token_usage": {
+            "prompt_tokens": 299,
+            "completion_tokens": 255,
+            "total_tokens": 554
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_4_1763662206",
+          "title": "Update: Firefighters from two counties battling fire at Novelis aluminum plant in Oswego County (19 photos) - Syracuse.com",
+          "description": "Update: Firefighters from two counties battling fire at Novelis aluminum plant in Oswego County (19 photos)\u00a0\u00a0Syracuse.comSecond major fire at Novelis aluminum plant in Oswego County\u00a0\u00a0WSYRFord supplier Novelis faces second fire disrupting F-150 output\u00a0\u00a0USA TodayNovelis aluminum plant catches fire again after costly disaster in September\u00a0\u00a0WSTMFord's expensive heavy metal problem requires unusual solutions\u00a0\u00a0Axios",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOYWg2Z2hYU3ZfV2JlLVZFck9hQ1hwR3FONUhvV05tRFJlTnpRSHUtS1piQUhBWG95eDVGNjE5NDRoOEpiYWd5RTVnOC0ydnl6OXFreWcyZ01KT0tUWjh5RG1TaHAxMjJ3azhERE5YTWNaZmRYSE9tazN5SHJ1aU9iVkk5aUktb1ZGVTlDLVVYTV94SXJxY3ZhRmM4Q3diaVZYUVQ5dVl6NlhEWFdZakHSAcIBQVVfeXFMT3FScmxJUmZxa1BGa2JKNVFJSlMyYzJpT2xucEpBMWx6RzNRYlhsMFdUcnZPQlczR2d5QUpveElmLUV6QVVNcVhuc292QmwycEYtN3lNc05GUDV3c3dlTUNRWXVTWDBTYmVQajVaZDl6NjNQVm1PUWw2ZEJ4SWZ6UmNZOXY0a0RLeUZYcVRtTXk5V2F2S1RwSGROSzUzMHhRUW5zTk1jM1RsdVJqMUZSeGdGOFk1cG1LR1ZoZHNOS1ZwdFE?oc=5",
+          "source": "Syracuse.com",
+          "published": "Thu, 20 Nov 2025 14:38:00 GMT",
+          "topic": "BUSINESS",
+          "fetched_at": "2025-11-20T18:10:06.818329"
+        },
+        "analysis": {
+          "summary": "Two counties' firefighters are battling a second fire at the Novelis aluminum plant in Oswego County, which poses a significant threat to F-150 production, marking the company's second fire incident since September. This situation underscores the challenges of operating such facilities and the impact on local industries like Ford.",
+          "key_points": [
+            "A second fire at the Novelis aluminum plant causes disruption in F-150 production, highlighting the plant's vulnerability.",
+            "The recurring fires at Novelis raise concerns about safety measures and costs for the company.",
+            "Local economies are affected by the plant's operational challenges, with a ripple effect on industries and jobs."
+          ],
+          "sentiment": "Mixed",
+          "confidence": "High",
+          "bias_check": "The article may focus on the negative aspects of the fire, such as the impact on production and safety, without equally addressing Novelis's efforts to mitigate future risks or the economic benefits the plant brings to the region.",
+          "missing_context": "The article does not provide information on Novelis's safety protocols, previous history of the plant, or the company's plans to prevent future incidents. It also omits the potential long-term economic impact on the surrounding community and job market.",
+          "implications": "The repeated fires at Novelis could lead to increased scrutiny of industrial safety standards, potential changes in plant operations, and a reassessment of the economic reliance on such facilities. It also raises questions about the balance between industrial activity and community safety.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-20T18:12:20.562608",
+          "token_usage": {
+            "prompt_tokens": 290,
+            "completion_tokens": 314,
+            "total_tokens": 604
           }
         }
       }
@@ -511,19 +508,19 @@
     "articles_analyzed": 15
   },
   "costs": {
-    "execution_time": 121.81513142585754,
-    "execution_minutes": 2.030252190430959,
-    "github_actions": 0.01624201752344767,
+    "execution_time": 118.43907237052917,
+    "execution_minutes": 1.9739845395088196,
+    "github_actions": 0.01579187631607056,
     "openai": {
-      "input": 0.0006393,
-      "output": 0.0026472,
-      "total": 0.0032865000000000004
+      "input": 0.0006515999999999999,
+      "output": 0.0025913999999999998,
+      "total": 0.003243
     },
-    "total": 0.019528517523447673,
+    "total": 0.019034876316070558,
     "token_usage": {
-      "prompt_tokens": 4262,
-      "completion_tokens": 4412,
-      "total_tokens": 8674
+      "prompt_tokens": 4344,
+      "completion_tokens": 4319,
+      "total_tokens": 8663
     }
   }
 }
