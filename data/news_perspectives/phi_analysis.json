@@ -2,504 +2,500 @@
   "agent": "phi-analyzer",
   "model": "Phi-4 Mini",
   "model_id": "microsoft/phi-4-mini-instruct",
-  "timestamp": "2025-11-21T12:15:03.670740",
+  "timestamp": "2025-11-21T18:12:51.250897",
   "status": "completed",
   "data": {
     "analyses": [
       {
         "article": {
-          "id": "news_0_1763727101",
-          "title": "Hands On With Google\u2019s Nano Banana Pro Image Generator - wired.com",
-          "description": "Hands On With Google\u2019s Nano Banana Pro Image Generator\u00a0\u00a0wired.comIntroducing Nano Banana Pro\u00a0\u00a0The KeywordGoogle\u2019s Nano Banana Pro generates excellent conspiracy fuel\u00a0\u00a0The VergeThis Is the Cheapest Way to Create Unlimited AI Images With Google's New Nano Banana Pro\u00a0\u00a0CNETGemini 3 Pro Image \u2013 Nano Banana Pro\u00a0\u00a0Google DeepMind",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9hYWdvendiRGlQZ1lvb1ZEVi1XVjlsUHJieVcwTzh1VUx2a3QzQmgwY2NuYkJqMkZDZ3VzR21tS3lmMy1ZUlYtNE1QUDRBcndwSlM4UFVWak9kSHQtcUhHeklDdC1vQmNkdURZZw?oc=5",
-          "source": "wired.com",
-          "published": "Fri, 21 Nov 2025 00:21:00 GMT",
+          "id": "news_0_1763748601",
+          "title": "PlayStation's 2025 Black Friday Sale is Live: $100 Off PS5 Consoles, 33% Off PS Plus, and More - IGN",
+          "description": "PlayStation's 2025 Black Friday Sale is Live: $100 Off PS5 Consoles, 33% Off PS Plus, and More\u00a0\u00a0IGNThe PlayStation 5 Slim and Pro are on sale for Black Friday\u00a0\u00a0The VergeSave $100 on PlayStation 5 NBA 2K26 bundle this Black Friday\u00a0\u00a0USA TodayDualSense Limited Edition PS5 Controllers On Sale For Black Friday\u00a0\u00a0GameSpotBlack Friday PS5 deals are live \u2013 I'm a PlayStation fanatic and I'm finding all the best offers\u00a0\u00a0TechRadar",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNUmlNbm5abGJrdk9lQVlzX1hTcjZZdFBONW5hUmcwRG5IMGdaSl81akFSUUdKRzdSRXZnNmxoQVltMlBYZDZ6UTBhb3FZdTMzVjQ3R2hKa0g2R3hjWVd4QWp2b1A2djQtUlhySlhBQ0pMYXFLV1FnYVdXb3FKMW1XSUlZSHBMT0tENUE?oc=5",
+          "source": "IGN",
+          "published": "Fri, 21 Nov 2025 15:00:00 GMT",
           "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-21T12:11:41.926108"
+          "fetched_at": "2025-11-21T18:10:01.243304"
         },
         "analysis": {
-          "summary": "Google's rumored Nano Banana Pro image generator promises unlimited AI-generated images, sparking interest and excitement but also concerns about the potential for misuse in generating conspiracy theories and fake content.",
+          "summary": "The article highlights the PlayStation 5's Black Friday sale, featuring significant discounts on the PS5 consoles, PS Plus, and various bundles. The sale is generating excitement among gaming enthusiasts.",
           "key_points": [
-            "Rumored AI image generator from Google, dubbed Nano Banana Pro, offers extensive capabilities for creating unlimited AI-generated images.",
-            "There is excitement about the potential applications of this technology for creativity and innovation.",
-            "Concerns have been raised regarding the possibility of misuse, particularly in generating conspiracy theories and fake content."
-          ],
-          "sentiment": "Mixed",
-          "confidence": "High",
-          "bias_check": "The article's title seems to sensationalize the potential for misuse, which could indicate a bias towards negative implications. Additionally, the use of 'conspiracy fuel' suggests a specific angle that might not represent the full spectrum of potential applications.",
-          "missing_context": "The article does not provide detailed information about the actual capabilities, limitations, or intended use cases of the Nano Banana Pro. It also does not mention any official statements or clarifications from Google regarding the existence or purpose of this hypothetical product.",
-          "implications": "The broader implications involve the ethical considerations of AI-generated content, the balance between innovation and potential misuse, and the need for responsible guidelines and regulations in the development and deployment of powerful AI tools.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-21T12:12:07.313947",
-          "token_usage": {
-            "prompt_tokens": 258,
-            "completion_tokens": 284,
-            "total_tokens": 542
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_1_1763727101",
-          "title": "Apple\u2019s second limited-edition iPhone accessory in a month is all about accessibility - 9to5Mac",
-          "description": "Apple\u2019s second limited-edition iPhone accessory in a month is all about accessibility\u00a0\u00a09to5MacApple Debuts a New iPhone Accessory Designed With Accessibility in Mind\u00a0\u00a0ELLE DecorApple's New iPhone Grip and Stand Puts Accessibility at the Forefront\u00a0\u00a0CNETDid you know Apple launched a new product today? Get the Hikawa Phone Grip.\u00a0\u00a0MashableBailey Hikawa makes an iPhone grip and stand that looks odd but is actually pure, powerful purpose\u00a0\u00a0TechRadar",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQWW83ODIzY0FaZnBzTFp5MG1YQ2NfYmllRzdaQmx0RFI4Q3VqQklldVZlaDI0RGdVTkFvTTduZ1MyY3lRbURMOFBneGE4aWdHMDdvT2JEeXl0TzVkY3VMOWcyRjVJa0VtUFhTQko1OV9UVWlyVExJUWliVE5YcDhBTzk2d2hzSUpRMWxBNlU4UXcxMnBQZXRnUkUwV3c4UkdBY1dNRlI3ZTVXMk1udDVtOWhIU0ExbFE?oc=5",
-          "source": "9to5Mac",
-          "published": "Fri, 21 Nov 2025 00:51:00 GMT",
-          "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-21T12:11:41.926134"
-        },
-        "analysis": {
-          "summary": "Apple has released a new accessory aimed at enhancing iPhone usability for individuals with accessibility needs. The accessory, a Phone Grip and Stand by Bailey Hikawa, is touted as a multipurpose tool designed to assist with one-handed use, screen stability, and accessibility features like VoiceOver and AssistiveTouch.",
-          "key_points": [
-            "Apple's latest accessory emphasizes accessibility and usability enhancements for iPhone users.",
-            "The accessory features a built-in stand that can be adjusted for optimal viewing angles and stability.",
-            "The Phone Grip and Stand is designed to work with VoiceOver, AssistiveTouch, and other accessibility features, potentially making the iPhone more user-friendly for individuals with disabilities."
+            "The PlayStation 5 has a Black Friday sale with significant discounts on the main console, PS Plus subscription, and bundles.",
+            "The sale is generating excitement among the PlayStation community.",
+            "Various sources are reporting on the sale and its deals."
           ],
           "sentiment": "Positive",
           "confidence": "High",
-          "bias_check": "Potential bias might exist in the positive framing of Apple's product as a solution for accessibility, without discussing any limitations or alternative options.",
-          "missing_context": "The article doesn't discuss how well the accessory integrates with existing accessibility features or user experiences. It also doesn't mention if there are any potential downsides or if it's suitable for all types of disabilities.",
-          "implications": "The move by Apple to focus on accessibility could signify a broader commitment to inclusivity in technology, potentially driving other companies to prioritize similar features. It also reflects an increasing market demand for accessible technology.",
+          "bias_check": "The article seems to be biased towards the PlayStation 5 and its sales, possibly due to the affiliation with IGN, a gaming website. The article doesn't mention any drawbacks or downsides of the sale, which might create a skewed perspective.",
+          "missing_context": "The article doesn't provide any information about the price before the sale, making it difficult to gauge the true value of the discounts. It also doesn't mention if similar deals are available for competitors like Xbox.",
+          "implications": "The sale could potentially boost PlayStation's sales and market share, especially if the discounts are significant enough to entice customers to switch or upgrade their consoles. It could also impact the gaming industry's competitive landscape.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-21T12:12:15.237273",
+          "analyzed_at": "2025-11-21T18:10:24.125439",
           "token_usage": {
-            "prompt_tokens": 306,
-            "completion_tokens": 288,
-            "total_tokens": 594
+            "prompt_tokens": 316,
+            "completion_tokens": 258,
+            "total_tokens": 574
           }
         }
       },
       {
         "article": {
-          "id": "news_2_1763727101",
-          "title": "Chrome is finally getting a highly requested feature that its rivals have long had - Android Authority",
-          "description": "Chrome is finally getting a highly requested feature that its rivals have long had\u00a0\u00a0Android AuthorityGoogle Finally Copies The Best Feature From Edge And Vivaldi\u00a0\u00a0DataconomyHate your tiny Chrome tabs? Don\u2019t worry they are about to get way easier to handle\u00a0\u00a0Digital TrendsGoogle Chrome Gets Vertical Tabs Because Everyone Else Already Has Them\u00a0\u00a0PhandroidChrome Canary brings vertical tabs to desktop Chrome\u00a0\u00a0findarticles.com",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5DbmV0Ukl4RmhVbTN4Y3NfUTRpOW4wMWJtd1prdlVkaUNYQUNoNWlSTUlwQ09Qb1oxdlFDWmZWbVBwRU9jMFdMSDB0YUJBREJwUldOY3JEdTVwcEhjd1dFVWlJaWxHUjVkZUpfdnBPZkhueU5RTldqbXhn?oc=5",
-          "source": "Android Authority",
-          "published": "Wed, 19 Nov 2025 22:08:11 GMT",
+          "id": "news_1_1763748601",
+          "title": "Hands On With Google\u2019s Nano Banana Pro Image Generator - WIRED",
+          "description": "Hands On With Google\u2019s Nano Banana Pro Image Generator\u00a0\u00a0WIREDIntroducing Nano Banana Pro\u00a0\u00a0The KeywordWhat is Nano Banana Pro? Google\u2019s new AI tool lets you generate images\u00a0\u00a0USA TodayGoogle Says Gemini Will Now Be Able to Identify AI Images, but There's a Big Catch\u00a0\u00a0CNETGoogle\u2019s Nano Banana Pro generates excellent conspiracy fuel\u00a0\u00a0The Verge",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9hYWdvendiRGlQZ1lvb1ZEVi1XVjlsUHJieVcwTzh1VUx2a3QzQmgwY2NuYkJqMkZDZ3VzR21tS3lmMy1ZUlYtNE1QUDRBcndwSlM4UFVWak9kSHQtcUhHeklDdC1vQmNkdURZZw?oc=5",
+          "source": "WIRED",
+          "published": "Fri, 21 Nov 2025 00:21:00 GMT",
           "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-21T12:11:41.926157"
+          "fetched_at": "2025-11-21T18:10:01.243333"
         },
         "analysis": {
-          "summary": "The article discusses Google Chrome's recent implementation of vertical tabs, a feature that has long been available in competitors' browsers such as Edge and Vivaldi. This feature addresses the user-friendly aspect of tab management that many users have sought in Chrome.",
+          "summary": "The article from WIRED introduces Google's Nano Banana Pro, an AI tool designed to generate images, which has sparked discussions about its capabilities, potential for creating conspiracy theories, and the broader implications of AI-generated content.",
           "key_points": [
-            "Google Chrome now includes vertical tabs, a feature previously found in competitors' browsers.",
-            "This update aims to enhance user experience by making tab management easier and more efficient.",
-            "The introduction of vertical tabs in Chrome could potentially impact user preferences and browser usage statistics."
+            "The Nano Banana Pro image generator is a new Google AI tool that allows for the creation of images.",
+            "There are concerns about the potential for the tool to generate images that could be used as conspiracy fuel.",
+            "The tool's introduction raises questions about the future of AI in image generation and the ethical considerations involved."
+          ],
+          "sentiment": "mixed",
+          "confidence": "high",
+          "bias_check": "The article might emphasize the potential negative uses of the tool, such as conspiracy theories, while possibly underplaying its positive applications or the efforts to mitigate misuse.",
+          "missing_context": "The article does not provide detailed information on how Google plans to prevent the misuse of the tool, the specific features of the Nano Banana Pro, or how users are reacting to its launch beyond conspiracy theories.",
+          "implications": "The development of the Nano Banana Pro could have significant implications for the creative industry, the spread of misinformation, and the ethical use of AI technologies. It underscores the need for robust regulations and guidelines to manage the use of powerful generative AI tools responsibly.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-21T18:10:31.853433",
+          "token_usage": {
+            "prompt_tokens": 263,
+            "completion_tokens": 282,
+            "total_tokens": 545
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_2_1763748601",
+          "title": "Anker Black Friday deals include sales on power banks, wireless chargers, power adapters and more - Engadget",
+          "description": "Anker Black Friday deals include sales on power banks, wireless chargers, power adapters and more\u00a0\u00a0EngadgetAmazon just dropped its massive Black Friday deals on Anker chargers, power bricks, and portable power stations\u00a0\u00a0Popular ScienceAmazon Goes All In on Black Friday, Drops Triple 100W USB-C Laptop Power Bank to Mere Pennies\u00a0\u00a0GizmodoDon\u2019t miss Anker\u2019s tiny 100W USB-C GaN charger with 6-foot cable while it\u2019s down at $30 low\u00a0\u00a09to5ToysThis Compact Anker Power Station Is Now Just $100 During Amazo",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNS3Blb2pVQVJ1d3FGNU52WUpRNGFYMHN4TGlUZ2VYRjNQTDVWcWt0WmpXSEJabHA5RlVoYVQ5YWJlYUNuVVhVY2l6dl9rZlB2VGllNmV3YUJaeHBrQjJCSmd3cXBQQlFiYUxDYXdIa1hYclBPNVE4cFVkSmlEZTducUtiNmJtYU9EYS1abkNKRW5LZzZpQ1MtUWxOWlF6dlpDNWhzN0xsT294dVlXU2dWbW83TzMxZGNUMWVFeElNa2pESHNTaG9DWlc1NXJmUWN2MXB2VW9UcDM?oc=5",
+          "source": "Engadget",
+          "published": "Fri, 21 Nov 2025 15:41:20 GMT",
+          "topic": "TECHNOLOGY",
+          "fetched_at": "2025-11-21T18:10:01.243356"
+        },
+        "analysis": {
+          "summary": "Engadget reports substantial Black Friday deals on Anker's tech products, with power banks, wireless chargers, and power adapters being among the major items on offer. The low prices attract attention from tech enthusiasts looking to upgrade or replenish their devices with efficient charging solutions.",
+          "key_points": [
+            "Anker is offering steep discounts on its charging products during Black Friday.",
+            "Popular tech items such as power banks, chargers, and power adapters are included in the deals.",
+            "Anker's 100W USB-C power bank is being sold at an exceptionally low price, raising interest among consumers."
           ],
           "sentiment": "positive",
           "confidence": "high",
-          "bias_check": "The article focuses on the positive aspects of Chrome's update without discussing any potential drawbacks or user concerns about the change.",
-          "missing_context": "The article does not mention the technical challenges or user feedback that might have led to the decision to implement vertical tabs, nor does it discuss how this feature compares to previous versions of Chrome.",
-          "implications": "The addition of vertical tabs to Chrome may lead to increased user satisfaction and potentially attract users from other browsers. However, it may also raise questions about Google's responsiveness to user feedback and the company's approach to innovation.",
+          "bias_check": "The article's focus on positive aspects of the deal, such as the low prices and the appeal to tech enthusiasts, could indicate a bias towards consumer excitement without mentioning any potential downsides.",
+          "missing_context": "The article does not provide information on the longevity of the deals or whether the prices are genuinely competitive in the long term. It also does not mention any potential drawbacks, such as limited stock or the inclusion of higher-priced items that don't offer as much value.",
+          "implications": "The deals could lead to a surge in sales for Anker, potentially increasing its market share and profitability. The popularity of these Black Friday deals may also set a precedent for other companies to offer similar discounts, impacting the broader retail strategy for tech products.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-21T12:12:22.239424",
+          "analyzed_at": "2025-11-21T18:10:40.113783",
           "token_usage": {
-            "prompt_tokens": 278,
-            "completion_tokens": 258,
-            "total_tokens": 536
+            "prompt_tokens": 318,
+            "completion_tokens": 306,
+            "total_tokens": 624
           }
         }
       },
       {
         "article": {
-          "id": "news_3_1763727101",
-          "title": "75+ Black Friday deals at Best Buy that aren't cheaper anywhere else - Mashable",
-          "description": "75+ Black Friday deals at Best Buy that aren't cheaper anywhere else\u00a0\u00a0MashableBest Buy\u2019s Pre-Black Friday Sales Have Already Begun. Here\u2019s What to Buy\u00a0\u00a0wired.comThe wait is over: Best Buy\u2019s Black Friday Sale begins Nov. 20\u00a0\u00a0Best BuyBlack Friday Is a Week Away but We\u2019ve Already Spotted 55+ Best Buy Deals You Can Shop Now\u00a0\u00a0CNETBest Buy Black Friday ad: The best deals you can buy online today\u00a0\u00a0Mashable",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB6X1ZJTmNmWXNqY0pSdnkxc3ZibjlvTUJnejgxQ3pRd3lzMEtIaURjcHZ1blJFNFdwU3J6Y2l3ZHZsSm1IZmdtV3d3UzhDWHNoT0h6LW82VTI1UW4yTU54QndxbV9tcmVtZjhsSkZjRUg3dVJf?oc=5",
-          "source": "Mashable",
-          "published": "Fri, 21 Nov 2025 00:20:02 GMT",
+          "id": "news_3_1763748601",
+          "title": "Shop rare price drops on new Apple tech at Amazon\u2019s Black Friday sale \ud83c\udf4e - USA Today",
+          "description": "Shop rare price drops on new Apple tech at Amazon\u2019s Black Friday sale \ud83c\udf4e\u00a0\u00a0USA TodayFor Black Friday, get the M4 MacBook Air that\u2019s only $150 more than the slower M1 model\u00a0\u00a0The VergeThe best Apple Black Friday deals on iPads, AirPods, MacBooks, Apple Watches and AirTags are already up to 39 percent off\u00a0\u00a0EngadgetApple Black Friday deal: up to $250 gift card with purchase of Mac, iPhone, iPad and more\u00a0\u00a09to5MacAmazon Goes Hard on Apple, Now Selling the MacBook Air at a New Low for Black Friday's Firs",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZF9EcHdSOTdEdXZWUmlTTkxnV1NTUVVCaEw1OFQyTXhsSHVzT0Nya01WQ1ptSFc5aHZkcHpTaUNfVnhfUUlUbVl5bGhpSlBUZGpnclRidkxDNHVwZU1wMk0tNFgtMUszUE93VXJTOU1tS2lTdDNOLU9JTlliUDBqNnVNbzIwRkpRakd6emllUUdBd3VSUUFlYTJjbTRKNUEzUUE?oc=5",
+          "source": "USA Today",
+          "published": "Thu, 20 Nov 2025 17:35:51 GMT",
           "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-21T12:11:41.926178"
+          "fetched_at": "2025-11-21T18:10:01.243402"
         },
         "analysis": {
-          "summary": "The article by Mashable highlights 75+ exclusive Black Friday deals available at Best Buy, which aren't cheaper elsewhere, starting from November 20. It emphasizes that the best bargains are now accessible even before the traditional Black Friday shopping period begins.",
+          "summary": "The USA Today article highlights the significant Black Friday discounts on various Apple products like the M4 MacBook Air, iPads, AirPods, MacBooks, Apple Watches, and AirTags, with some items like the M4 MacBook Air being less expensive than its predecessor, and others offering up to a $250 gift card with a purchase.",
           "key_points": [
-            "Best Buy is offering 75+ exclusive Black Friday deals starting November 20.",
-            "These deals are presented as being not cheaper elsewhere, indicating a special promotion.",
-            "The opportunity to shop for these deals is available before the Black Friday period officially starts."
-          ],
-          "sentiment": "Positive",
-          "confidence": "High",
-          "bias_check": "The article may have a promotional bias as it highlights deals from Best Buy, a company that stands to benefit from increased Black Friday sales. It doesn't provide comparisons or opinions from other retailers.",
-          "missing_context": "The article does not mention if these deals are as good as those offered by competitors or if they maintain their value throughout the Black Friday sale. It also lacks customer reviews or experiences with these deals.",
-          "implications": "The promotion could lead to increased consumer traffic at Best Buy leading up to Black Friday, potentially boosting sales not only during the Black Friday event but also in the weeks that precede it. This strategy might also set a precedent for other retailers, leading to earlier sales promotions and a shift in traditional shopping behavior.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-21T12:12:29.971764",
-          "token_usage": {
-            "prompt_tokens": 296,
-            "completion_tokens": 292,
-            "total_tokens": 588
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_4_1763727101",
-          "title": "Apple Announces 2025 Black Friday Event, Here's What You Can Get - MacRumors",
-          "description": "Apple Announces 2025 Black Friday Event, Here's What You Can Get\u00a0\u00a0MacRumorsShop rare price drops on new Apple tech at Amazon\u2019s Black Friday sale \ud83c\udf4e\u00a0\u00a0USA TodayFor Black Friday, get the M4 MacBook Air that\u2019s only $150 more than the slower M1 model\u00a0\u00a0The VergeThe best Apple Black Friday deals on iPads, AirPods, MacBooks, Apple Watches and AirTags are already up to 39 percent off\u00a0\u00a0EngadgetApple Black Friday deal: up to $250 gift card with purchase of Mac, iPhone, iPad and more\u00a0\u00a09to5Mac",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPQkg0aFhDQTRDMU1ydlh3aUJoOGhac0l5YUd4R3NHbVhHSFV5N2tHYjVPTXZTQVlWaVpjek9uenFSTVJGM0ZudDV6Z2cwU0VveG1DOFJQUlU4LVBBcnZMd3ZxaUlndkJqRTR1cGVTY0M3Q09NNW9RNThVdlc2NTQzbnNlOA?oc=5",
-          "source": "MacRumors",
-          "published": "Thu, 20 Nov 2025 14:28:28 GMT",
-          "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-21T12:11:41.926204"
-        },
-        "analysis": {
-          "summary": "Apple is gearing up for its 2025 Black Friday event, showcasing significant price reductions across a range of products, including the new M4 MacBook Air, iPads, AirPods, MacBooks, Apple Watches, AirTags, and offering up to $250 gift cards with certain purchases. The event promises substantial savings, drawing attention from tech enthusiasts and bargain hunters alike.",
-          "key_points": [
-            "Apple's 2025 Black Friday event is anticipated to feature major discounts on new and existing products.",
-            "The M4 MacBook Air will be offered at a significantly reduced price, making it more affordable than its predecessor.",
-            "Substantial savings are available across various Apple products, including iPads, AirPods, MacBooks, Apple Watches, and AirTags.",
-            "Special promotions, such as up to $250 gift cards, are expected to be part of the event."
-          ],
-          "sentiment": "Positive",
-          "confidence": "High",
-          "bias_check": "The article is likely to have a promotional bias, given that it comes from a site focused on rumors and announcements about Apple products.",
-          "missing_context": "The specific details of the discounts, such as the exact reduced prices and limitations on the availability of the products, are not provided. Additionally, there may be concerns about the terms and conditions of the sale that aren't mentioned.",
-          "implications": "The anticipation of a large-scale Black Friday event by Apple could significantly impact consumer electronics sales, boosting Apple's revenue and possibly influencing competitors' pricing strategies. This event could also strengthen Apple's brand loyalty and customer engagement through exclusive promotions.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-21T12:12:40.426559",
-          "token_usage": {
-            "prompt_tokens": 322,
-            "completion_tokens": 341,
-            "total_tokens": 663
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_0_1763727101",
-          "title": "Japan\u2019s Takaichi Rejects China Demand To Retract Taiwan Remarks - Bloomberg.com",
-          "description": "Japan\u2019s Takaichi Rejects China Demand To Retract Taiwan Remarks\u00a0\u00a0Bloomberg.comThe real reason behind China\u2019s fury toward Japan\u2019s Takaichi\u00a0\u00a0CNNJapanese concerts in China are getting abruptly canceled as tensions simmer\u00a0\u00a0CNBCJapan Tourism Faces $1.2 Billion Hit as Trip Cancellations Spike on China Rift\u00a0\u00a0Bloomberg.comChina and Japan are in a vicious game of chicken over Taiwan\u00a0\u00a0The Economist",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMkJ6SklIbG5ONWtCUlJyZ09ZSXFXa24wUWpLNXJCNHFhOWFybEpTY3U5bEtwbS1KWDRDclBXaDFyVGNORkVtOEpNSXNualpFNHoyZzBPUG5sRUFOT1pTSGJfYlJDazFqRUp2S3ZzcHJpWkc4RDhGaVdtaC1FdlNqY1c2LTAyWWdtU2Q0OU1VMGtDUVR1WXJ1cS16ZGhHQll6V20yRkwtSmtWQjlpZHNBOTBHdy0?oc=5",
-          "source": "Bloomberg.com",
-          "published": "Fri, 21 Nov 2025 08:20:42 GMT",
-          "topic": "WORLD",
-          "fetched_at": "2025-11-21T12:11:41.967371"
-        },
-        "analysis": {
-          "summary": "Japan's Takaichi refuses to retract Taiwan remarks, escalating tensions between Japan and China, which are impacting Japanese tourism and concerts in China. The situation reflects a broader geopolitical struggle over Taiwan, with China and Japan engaging in a delicate balancing act.",
-          "key_points": [
-            "Takaichi's refusal to retract comments on Taiwan has angered China, leading to canceled Japanese concerts and a tourism hit.",
-            "The incident highlights the fragility of Japan-China relations amid China's Taiwan policy.",
-            "Japan's defiance may be seen as a stance on Taiwan's self-determination, though it risks diplomatic repercussions."
+            "Apple products are being heavily discounted during Black Friday.",
+            "The M4 MacBook Air is offered at a price point closer to the slower M1 model, indicating a price drop.",
+            "A significant gift card offer is available with certain Apple product purchases."
           ],
           "sentiment": "Mixed",
           "confidence": "High",
-          "bias_check": "The article could be biased towards sensationalism, emphasizing the conflict without sufficient contextualization of Japan's stance on Taiwan or China's historical perspective.",
-          "missing_context": "Important context includes Japan's official policy regarding Taiwan, the history of Japan-China relations, and the current international stance on Taiwan's political status.",
-          "implications": "The incident could have significant diplomatic repercussions, potentially affecting international relations, trade, and Japan-China tourism. It may also influence global perceptions of Japan's stance on Taiwan and its broader foreign policy.",
+          "bias_check": "The article may display a bias towards promoting Black Friday sales, potentially overlooking the broader financial implications for Apple as a company or the impact on regular customers who may not be able to take advantage of these discounts.",
+          "missing_context": "The article does not provide information on the reasons behind the price drops, such as production costs, market strategy, or product lifecycle, nor does it consider the availability of these deals in other regions outside the USA.",
+          "implications": "The discounts could lead to increased sales volume for Apple during the Black Friday period, potentially impacting consumer behavior by encouraging purchases. It may also set a precedent for future pricing strategies or affect the perceived value of Apple products.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-21T12:12:48.726513",
+          "analyzed_at": "2025-11-21T18:10:52.416011",
           "token_usage": {
-            "prompt_tokens": 281,
-            "completion_tokens": 265,
-            "total_tokens": 546
+            "prompt_tokens": 325,
+            "completion_tokens": 302,
+            "total_tokens": 627
           }
         }
       },
       {
         "article": {
-          "id": "news_1_1763727101",
-          "title": "Fire prompts evacuations at U.N. climate talks in Brazil; 13 suffer smoke inhalation - NPR",
-          "description": "Fire prompts evacuations at U.N. climate talks in Brazil; 13 suffer smoke inhalation\u00a0\u00a0NPRView Full Coverage on Google News",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMmJCYXFFcUd1X0M5eFNKUkpQUk05Nk52RXVMVUNIVE5IcDFVSkNCU3dzcUpUYlVkZkx5WnJNc2JfdjEwa1Z0aGtPVTBfR2JhOWFxT1hlOEZhSkNlUGc4RmVaa1hUQVpSUlNHQnJRTkNVcVZKY2pUOW9qTzVNRzdBam1MTUh0aEhoRVhqNkZuZ1pKdw?oc=5",
-          "source": "NPR",
-          "published": "Fri, 21 Nov 2025 00:35:12 GMT",
-          "topic": "WORLD",
-          "fetched_at": "2025-11-21T12:11:41.967391"
+          "id": "news_4_1763748601",
+          "title": "Stoke Space goes for broke to solve the only launch problem that \u201cmoves the needle\u201d - Ars Technica",
+          "description": "Stoke Space goes for broke to solve the only launch problem that \u201cmoves the needle\u201d\u00a0\u00a0Ars Technica",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNDNJU0xfMEdRSThyZmJmNzNqd0l1U2ZHTVViMXhXbTJZMjZRN2U0VFZRYlJJank3c3MtM3BTbV9RN3FkSExwSk92UnFlNjVLYXV3Uml2VW5HdkNtV01hWGtMVjJmU0tWWUFJZ3NWMnVRTkRTQWtkUTlTVlVjNWE5S2VXMGZOVktqMUU2VTNrZ0tqVFc0UHc0Ym03c1V0ZVY1Umk5bkJYR2RKazg?oc=5",
+          "source": "Ars Technica",
+          "published": "Fri, 21 Nov 2025 12:00:55 GMT",
+          "topic": "TECHNOLOGY",
+          "fetched_at": "2025-11-21T18:10:01.243413"
         },
         "analysis": {
-          "summary": "A fire at the U.N. climate talks in Brazil led to evacuations and 13 people suffering from smoke inhalation, highlighting the potential risks associated with large-scale environmental conferences and possibly raising concerns about safety protocols at such events.",
+          "summary": "Stoke Space, a UK-based space company, is making a bold move to address a unique and critical issue in rocket launches by investing heavily in their solution, which they believe significantly impacts the launch process. The company\u2019s approach reflects both a commitment to innovation and the high stakes involved in the aerospace industry.",
           "key_points": [
-            "A fire at the U.N. climate talks in Brazil resulted in evacuations and 13 individuals suffering from smoke inhalation.",
-            "The incident may draw attention to safety measures at large-scale environmental conferences.",
-            "The event could influence how future climate talks are organized and managed."
+            "Stoke Space is investing heavily in a novel solution to a critical and unique problem in rocket launches.",
+            "The company's willingness to go 'for broke' showcases their confidence and determination in solving a significant hurdle.",
+            "This move could potentially set a new precedent in how companies approach innovation in the aerospace sector."
           ],
-          "sentiment": "Negative",
+          "sentiment": "Positive",
           "confidence": "High",
-          "bias_check": "The article may focus on the negative aspects (fire and injuries) without providing a balanced view of the event's overall importance or success.",
-          "missing_context": "The article lacks context on the progress or outcomes of the U.N. climate talks, as well as any measures taken to prevent future incidents or how this incident impacts the broader climate change dialogue.",
-          "implications": "This incident could lead to increased scrutiny and potential changes in safety protocols for future climate talks, emphasizing the need for better emergency preparedness in large gatherings. It also underscores the risks associated with holding major international events in urban settings.",
+          "bias_check": "The article might present an overly optimistic view of Stoke Space\u2019s efforts without discussing the risks or challenges faced by such ambitious projects. Additionally, it could be biased towards success stories in the space industry, potentially ignoring or downplaying failures or controversies.",
+          "missing_context": "Details about the specific problem that Stoke Space is addressing, other companies' approaches to similar issues, and any potential downsides or challenges of their solution would provide a more balanced perspective.",
+          "implications": "Stoke Space\u2019s approach could inspire other companies to pursue bold solutions to technical challenges, potentially accelerating innovation in the aerospace industry. However, it also underscores the high risks and costs associated with such endeavors, which could influence the industry's investment strategies and risk assessments.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-21T12:12:57.181303",
+          "analyzed_at": "2025-11-21T18:11:00.445915",
           "token_usage": {
-            "prompt_tokens": 224,
-            "completion_tokens": 266,
-            "total_tokens": 490
+            "prompt_tokens": 220,
+            "completion_tokens": 313,
+            "total_tokens": 533
           }
         }
       },
       {
         "article": {
-          "id": "news_2_1763727101",
-          "title": "Nathan Gill: How WhatsApp messages revealed ex-Reform politician's pro-Russian bribes - BBC",
-          "description": "Nathan Gill: How WhatsApp messages revealed ex-Reform politician's pro-Russian bribes\u00a0\u00a0BBCFrom Reform UK to Russian bribes: The unravelling of Nathan Gill\u00a0\u00a0The IndependentSenedd refuses to release details of who worked for disgraced ex-Wales Reform leader\u00a0\u00a0Nation.CymruFormer Reform leader in Wales Nathan Gill faces jail for Russian bribes | ITV News\u00a0\u00a0ITVXFall of grace of former Reform leader in Wales Nathan Gill\u00a0\u00a0North Wales Live",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1WVGpVWGFMRV9VWkpIYkd6SDZPaFNub0FsWnNqeHZYU0xqdGlJZk0zc1I3VUFHa1NnWEpiaFJHNUM0eFNOMmdhTUNjc21maURFZTlCYUZmVmEzdw?oc=5",
-          "source": "BBC",
-          "published": "Fri, 21 Nov 2025 10:20:06 GMT",
+          "id": "news_0_1763748601",
+          "title": "Indian Air Force Tejas jet crashes at Dubai Air Show - DW",
+          "description": "Indian Air Force Tejas jet crashes at Dubai Air Show\u00a0\u00a0DWIndian Tejas fighter jet crashes in a ball of fire at Dubai Airshow, killing pilot\u00a0\u00a0ReutersIndian fighter jet pilot killed in crash at Dubai airshow\u00a0\u00a0BBCIndian fighter jet crashes during a demo flight at Dubai Air Show, killing the pilot\u00a0\u00a0ABC NewsFatal Crash Of India\u2019s Tejas Light Fighter Mars Dubai Airshow\u00a0\u00a0The War Zone",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPajFwS3Mxdi1SbHk5cVVOaUJvcXZUVUMtWVJvV2xIQXJHMHY0VDk2cDVxV3kxN2pyMjM1Qmh6VnFlQ1htYk96M1RpNkJvcWU4S0FGa3NKR3puNGV0dld5cjZObnhMTTdRdXZRT0dPREZPU0dqLXBGaXIyX1FHbXB3NmdHZWNMYXBuRFZBWjhB0gGOAUFVX3lxTE83OFdfenQ4Mld3UXdDckR5SE8wZG5OWktTTXZyUGNhemMwUHlBT3MwYS1ZcmxSeU81bUNaODllRWZ4N05wNG9iXzZRUE9sTG5jNEhXUHJFa2V0M2NnRzJEYUNvQkVvWDdPalVvUWwzMVRXNjlKeXBkRVVjMFZ3bHBqNU5XWEpKUHIwaGZ4eVE?oc=5",
+          "source": "DW",
+          "published": "Fri, 21 Nov 2025 12:44:00 GMT",
           "topic": "WORLD",
-          "fetched_at": "2025-11-21T12:11:41.967409"
+          "fetched_at": "2025-11-21T18:10:01.364464"
         },
         "analysis": {
-          "summary": "Nathan Gill, a former Reform UK politician in Wales, is facing legal troubles after WhatsApp messages were uncovered, suggesting he received pro-Russian bribes. The scandal has led to his imprisonment and has sparked controversy over the handling of the evidence by the Senedd.",
+          "summary": "An Indian Air Force Tejas jet crashed during a demonstration flight at the Dubai Air Show, resulting in the death of the pilot. This incident raises concerns about the safety and reliability of the Tejas jet.",
           "key_points": [
-            "Whispergate scandal: Nathan Gill's involvement in bribery and potential ties with Russian interests.",
-            "Legal repercussions: Gill's imprisonment after inappropriate communications were disclosed.",
-            "Controversy over evidence handling: Senedd's refusal to release details of who worked for Gill, raising questions about transparency and accountability."
+            "Indian Air Force Tejas jet crashed during a demo flight at the Dubai Air Show, killing the pilot.",
+            "This incident casts doubt on the safety and reliability of the Tejas jet.",
+            "The crash occurred during a high-profile event, highlighting potential risks in military aviation demonstrations."
           ],
           "sentiment": "negative",
           "confidence": "high",
-          "bias_check": "Potential biases may include the adversarial portrayal of Gill by political opponents, and the implicit bias in the interpretation of the significance of the leaked messages.",
-          "missing_context": "The story may lack details about the specific nature of the alleged bribes, the political climate surrounding the incident, and Gill's contributions or controversies prior to this event. Further, the motivations and power dynamics within Reform UK could be underexplored.",
-          "implications": "This scandal could undermine public trust in political institutions and raise concerns about foreign interference in domestic politics. It also highlights the growing scrutiny of politicians' private communications.",
+          "bias_check": "The article might emphasize the negative aspects of the incident and overlook any positive attributes of the Tejas jet or the context of military aviation demonstrations.",
+          "missing_context": "The article does not provide the pilot's background, the history of the Tejas jet's performance, or the nature of the demonstration flight. Additionally, it does not offer any perspective from Indian Air Force or defense experts.",
+          "implications": "This incident could impact public confidence in India's military aviation capabilities, lead to increased scrutiny of the Tejas jet, and possibly influence future decisions regarding military air shows and demonstrations. It also raises safety concerns for pilots and organizers of similar events worldwide.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-21T12:14:08.072597",
-          "token_usage": {
-            "prompt_tokens": 292,
-            "completion_tokens": 279,
-            "total_tokens": 571
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_3_1763727101",
-          "title": "Ukraine war briefing: Buildings engulfed in flames as Russian air attack on Zaporizhzhia kills five - The Guardian",
-          "description": "Ukraine war briefing: Buildings engulfed in flames as Russian air attack on Zaporizhzhia kills five\u00a0\u00a0The GuardianRussian glide bomb hits an apartment block and kills 5 in southern Ukraine\u00a0\u00a0KSATRussian overnight attack on Zaporizhzhia kills 5, injures 8\u00a0\u00a0The Kyiv IndependentRussians attack fishermen's boat in Zaporizhzhia Oblast: one killed, one injured\u00a0\u00a0\u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430 \u043f\u0440\u0430\u0432\u0434\u0430Ukraine War Latest Update: Russian Guided Bomb Strike Kills 5 in Zaporizhzhia as Region Comes Under Heavy Fire\u00a0\u00a0Kyiv Post",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQdWwzOU1yamNUYWQzcHRoS0JobkFDT1A3SzhmQmxkc1YzOFVURU44emVqVmJ6X1Q2akVWRHl0WU1FcUxmWVBBQlFaS0psNkJZc3VNMC1nVlJ2TUtxYXZ1RWpjQ01udzAwYzNGOFVmTERNdkk2M080VHBtVm9zSnhId3Fab3ZWdzJtVnF6NDdrUjd4NmYyMkZQMlBvNC1Benc4UFVr?oc=5",
-          "source": "The Guardian",
-          "published": "Fri, 21 Nov 2025 05:42:00 GMT",
-          "topic": "WORLD",
-          "fetched_at": "2025-11-21T12:11:41.967430"
-        },
-        "analysis": {
-          "summary": "The article reports a tragic Russian airstrike in Zaporizhzhia, Ukraine, resulting in five deaths and eight injuries, including civilians and a fisherman, as the area comes under heavy bombardment. This incident highlights the ongoing humanitarian and security crisis in the region.",
-          "key_points": [
-            "A Russian airstrike in Zaporizhzhia, Ukraine, killed five people, including civilians.",
-            "The attack injured eight individuals, emphasizing the conflict's impact on non-combatants.",
-            "The strike on a fishermen's boat underscores the indiscriminate nature of the violence in the region."
-          ],
-          "sentiment": "Negative",
-          "confidence": "High",
-          "bias_check": "The article may reflect a Western perspective, which might not fully represent Russian viewpoints. The focus on civilian casualties could also be seen as an attempt to evoke a humanitarian response.",
-          "missing_context": "The geopolitical motivations behind the Russian airstrike, including strategic objectives and broader military campaigns, may not be fully explored. The article does not provide context on the ongoing negotiations or ceasefire discussions between Ukraine and Russia.",
-          "implications": "The incident highlights the severe humanitarian crisis and the ongoing suffering of civilians in conflict zones. It also raises questions about the international community's response and the effectiveness of diplomatic efforts to resolve the conflict.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-21T12:14:15.649054",
-          "token_usage": {
-            "prompt_tokens": 321,
-            "completion_tokens": 283,
-            "total_tokens": 604
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_4_1763727101",
-          "title": "Iran cancels new nuclear inspections it agreed to after bombing campaign - The Washington Post",
-          "description": "Iran cancels new nuclear inspections it agreed to after bombing campaign\u00a0\u00a0The Washington PostIran Withdraws From Deal to Let International Nuclear Inspections Resume\u00a0\u00a0The New York TimesIAEA passes resolution demanding nuclear access from Iran; Tehran rejects\u00a0\u00a0Al JazeeraIntroductory Statement to the Board of Governors\u00a0\u00a0International Atomic Energy AgencyUN nuclear watchdog board passes resolution demanding answers, access from Iran\u00a0\u00a0Reuters",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNSGpRMF96SElkUVYzdzVtVk84RVlyd1VVRDlsV1dlV2t3OTJzR2g1b0R0N3M1TjdaQ3BHMWN4VVp1ajJkVVVpZEc3NkFhSjhPMWFkZXNTLUlHeGJlc0gzZ0tQcm1abDJnMzFsWURnYllVNmNPdGczT0t0MHJzdjFFSTQzb3hITHk0YXVua2VsaFI0V0k?oc=5",
-          "source": "The Washington Post",
-          "published": "Fri, 21 Nov 2025 07:18:50 GMT",
-          "topic": "WORLD",
-          "fetched_at": "2025-11-21T12:11:41.967447"
-        },
-        "analysis": {
-          "summary": "Iran has canceled agreed-upon nuclear inspections following a bombing campaign, leading to international tensions and demands for transparency from the International Atomic Energy Agency (IAEA).",
-          "key_points": [
-            "Iran's cancellation of nuclear inspections escalates tensions with the international community.",
-            "The IAEA has passed a resolution demanding access to Iran's nuclear facilities.",
-            "A bombing campaign prompts Iran to withdraw from previously agreed inspections."
-          ],
-          "sentiment": "negative",
-          "confidence": "high",
-          "bias_check": "Potential biases may include the political perspective of the reporting entity, focusing on the United States' viewpoint and international reactions to Iran's actions.",
-          "missing_context": "The article might not provide detailed context on the reasons behind the bombing campaign or the specific conditions of the originally agreed inspections.",
-          "implications": "This decision could lead to increased sanctions, further diplomatic strain, and potential escalation of tensions in the Middle East.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-21T12:14:21.385580",
+          "analyzed_at": "2025-11-21T18:11:07.712681",
           "token_usage": {
             "prompt_tokens": 274,
-            "completion_tokens": 205,
-            "total_tokens": 479
+            "completion_tokens": 273,
+            "total_tokens": 547
           }
         }
       },
       {
         "article": {
-          "id": "news_0_1763727102",
-          "title": "Stock Market Today: Dow Futures Rise; AI, Chip Stocks Drop; Bitcoin Falls Further \u2014 Live Markets - The Wall Street Journal",
-          "description": "Stock Market Today: Dow Futures Rise; AI, Chip Stocks Drop; Bitcoin Falls Further \u2014 Live Markets\u00a0\u00a0The Wall Street JournalStock market today: Dow, S&P 500, Nasdaq futures pause with Wall Street set to end roller-coaster week\u00a0\u00a0Yahoo FinanceGlobal stocks in meltdown as Wall Street bails out of crypto and AI: \u2018The bubbly is on ice\u2019\u00a0\u00a0FortuneCNBC Daily Open: From AI enthusiasm to bubble worries in one day\u00a0\u00a0CNBCS&P 500, Nasdaq futures under pressure as tech selloff continues\u00a0\u00a0Reuters",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQS0NKaGMyOHlka1lPd25YNGNvN1FLR3RxOHNNVjNlNUtvcXZtQ2ZiQ1ZJOWpZMFhlaW9DSU9wSkRvTV9CUHV3czRFM1Z3U25WbXlRaDZCTkxLUDI3NnFXenNmRlZFZE5hUHVZMDJkekRDc1JxTDE3ZURRQWZiRlFEU3pDd0NxRkE?oc=5",
-          "source": "The Wall Street Journal",
-          "published": "Fri, 21 Nov 2025 12:04:00 GMT",
-          "topic": "BUSINESS",
-          "fetched_at": "2025-11-21T12:11:42.009828"
+          "id": "news_1_1763748601",
+          "title": "Japan\u2019s Takaichi Rejects China Demand to Retract Taiwan Remarks - Bloomberg.com",
+          "description": "Japan\u2019s Takaichi Rejects China Demand to Retract Taiwan Remarks\u00a0\u00a0Bloomberg.comThe real reason behind China\u2019s fury toward Japan\u2019s Takaichi\u00a0\u00a0CNNJapan\u2019s New Leader Mentions Taiwan, and Tanks Her Relationship With China\u00a0\u00a0The New York TimesJapanese concerts in China are getting abruptly canceled as tensions simmer\u00a0\u00a0CNBCJapan Tourism Faces $1.2 Billion Hit as Trip Cancellations Spike on China Rift\u00a0\u00a0Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMkJ6SklIbG5ONWtCUlJyZ09ZSXFXa24wUWpLNXJCNHFhOWFybEpTY3U5bEtwbS1KWDRDclBXaDFyVGNORkVtOEpNSXNualpFNHoyZzBPUG5sRUFOT1pTSGJfYlJDazFqRUp2S3ZzcHJpWkc4RDhGaVdtaC1FdlNqY1c2LTAyWWdtU2Q0OU1VMGtDUVR1WXJ1cS16ZGhHQll6V20yRkwtSmtWQjlpZHNBOTBHdy0?oc=5",
+          "source": "Bloomberg.com",
+          "published": "Fri, 21 Nov 2025 14:25:19 GMT",
+          "topic": "WORLD",
+          "fetched_at": "2025-11-21T18:10:01.364495"
         },
         "analysis": {
-          "summary": "The stock market experiences a roller-coaster week with Dow futures rising amidst a tech selloff, while AI and chip stocks struggle and Bitcoin falls further. Global stocks face turmoil as Wall Street pulls out of crypto and AI, reflecting bubble concerns.",
+          "summary": "The Japanese Prime Minister, Takaichi, has refused to retract remarks about Taiwan, leading to increased tensions with China and resulting in the cancellation of Japanese concerts in China, highlighting the fragile nature of Japan-China relations and the economic impact of political disputes on tourism.",
           "key_points": [
-            "Dow futures rise, indicating a brief recovery or optimism for the end of a volatile week.",
-            "Tech stocks, including AI and chip stocks, are under pressure, reflecting investor caution regarding these sectors.",
-            "Bitcoin continues to decline, signifying ongoing skepticism and potential market corrections in the cryptocurrency space."
+            "Takaichi's refusal to apologize for comments about Taiwan has angered China, causing diplomatic strain and affecting cultural exchanges.",
+            "The incident underscores the complex geopolitical dynamics in East Asia, particularly the relationships between China, Japan, and Taiwan.",
+            "The fallout from this event has had a financial impact on Japan's tourism sector, with trip cancellations leading to significant revenue losses."
           ],
-          "sentiment": "Mixed",
-          "confidence": "High",
-          "bias_check": "The article might reflect a bias towards highlighting negative trends in tech and crypto sectors while not providing enough context on the reasons behind the rise in Dow futures.",
-          "missing_context": "The article lacks details about the specific catalysts for the tech selloff, such as regulatory concerns, earnings reports, or broader economic factors. Also, it doesn't discuss the potential reasons behind the rise in Dow futures.",
-          "implications": "The mixed sentiment in the stock market might reflect broader concerns about overvaluation in tech and crypto sectors, potential regulatory scrutiny, and economic uncertainty. Investors may adopt a more cautious approach, balancing risks and opportunities in these volatile areas.",
+          "sentiment": "mixed",
+          "confidence": "high",
+          "bias_check": "The article may present a Western perspective on the issue, potentially framing the situation in terms of Western political and economic interests. It could also emphasize Japan's defiance over the potential for diplomatic resolution.",
+          "missing_context": "The article does not provide Takaichi's specific remarks about Taiwan, nor does it mention the historical context of Japan-China-Taiwan relations, which are crucial for understanding the full scope of the issue.",
+          "implications": "The incident could lead to a cooling of diplomatic relations between Japan and China and may influence future policy decisions. It also demonstrates how political statements can have immediate economic repercussions, potentially serving as a warning to other nations about the risks of straining international relations.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-21T12:14:30.006371",
+          "analyzed_at": "2025-11-21T18:11:27.307245",
           "token_usage": {
-            "prompt_tokens": 317,
-            "completion_tokens": 280,
+            "prompt_tokens": 285,
+            "completion_tokens": 312,
             "total_tokens": 597
           }
         }
       },
       {
         "article": {
-          "id": "news_1_1763727102",
-          "title": "Live Updates: September Jobs Report Shows Hiring Continued, but Unemployment Rate Rose - The New York Times",
-          "description": "Live Updates: September Jobs Report Shows Hiring Continued, but Unemployment Rate Rose\u00a0\u00a0The New York TimesWait, I thought the economy was terrible. What happened?\u00a0\u00a0CNNDelayed September report shows U.S. added 119,000 jobs, more than expected; unemployment rate at 4.4%\u00a0\u00a0CNBCSeptember Jobs Report Injects More Uncertainty Into Fed\u2019s December Decision\u00a0\u00a0The New York TimesUS posts solid job growth in September, but unemployment rate rises\u00a0\u00a0Reuters",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1FaGY1OUFRaGdZZUk0cnlDczEweGUzQ3FXTUt1Rk1TNkV5czBNT0RvMV9SaGxCNDNmOVdJX2xCYzJWRGdBTi1Mb3RKb0hlV3Rqa0w3anFqQnkybndReWNlNkhqTVg2T1gya3lVdUZCQQ?oc=5",
+          "id": "news_2_1763748601",
+          "title": "Grizzly bear on loose after attacking school group in Canada, injuring 11 - BBC",
+          "description": "Grizzly bear on loose after attacking school group in Canada, injuring 11\u00a0\u00a0BBCEleven injured after grizzly bear attacks schoolchildren and teachers in Canada\u00a0\u00a0The GuardianGrizzly bear attack reported in Canada's British Columbia province\u00a0\u00a0ABC NewsGrizzly bear attacks group of students and teachers in western Canada\u00a0\u00a0CBS News2 in critical condition after grizzly bear attack involving students in Bella Coola: officials\u00a0\u00a0CBC",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9xQzZxT05NSmwwdm9uNW5lTUhrNlVHeWpoMXZwcjkxSy1zODdxVmpUbmJ3aEJJZjFsSlVJc2tGZ21xYmxLeXZYbWtrMVZOWEZ1YmhLbnJwZ3Fpd9IBX0FVX3lxTFBsQnRMa0VHemxaMWVaT0RLRUJxSmtEdGlmZXd4QlJ1cVFPd0w3V1cxNEJ1eEhKOWZMYnA0WTNIU0RzTmVDaUFzWmJVQkZSdFNPNkFDdXhmWTJyUWlqYTJJ?oc=5",
+          "source": "BBC",
+          "published": "Fri, 21 Nov 2025 14:55:18 GMT",
+          "topic": "WORLD",
+          "fetched_at": "2025-11-21T18:10:01.364515"
+        },
+        "analysis": {
+          "summary": "A grizzly bear attack in Canada's British Columbia province resulted in 11 injuries, including 2 people in critical condition, after the bear came into contact with a school group. The incident highlights the dangers of human-wildlife interactions in regions where bears roam freely around populated areas.",
+          "key_points": [
+            "Grizzly bear attack in British Columbia has injured 11 people, including 2 in critical condition.",
+            "The incident involved schoolchildren and teachers, emphasizing the risk to humans in areas inhabited by bears.",
+            "The bear's behavior suggests a possible bear habituation to human presence, raising concerns about safety measures in place."
+          ],
+          "sentiment": "Negative",
+          "confidence": "High",
+          "bias_check": "The story may highlight negative outcomes to emphasize the dangers of wildlife encounters. It may not provide enough context on preventive measures or bear behavior studies in the area.",
+          "missing_context": "The story might not fully explain the local wildlife management practices, the history of bear sightings in the area, or the specific circumstances leading to the encounter.",
+          "implications": "This incident could lead to stricter wildlife management policies, increased education on wildlife safety, and possibly more funding for research on human-wildlife conflict resolution.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-21T18:11:34.657018",
+          "token_usage": {
+            "prompt_tokens": 279,
+            "completion_tokens": 268,
+            "total_tokens": 547
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_3_1763748601",
+          "title": "Former Reform U.K. Politician Sent to Prison for Taking Pro-Russia Bribes - The New York Times",
+          "description": "Former Reform U.K. Politician Sent to Prison for Taking Pro-Russia Bribes\u00a0\u00a0The New York TimesStarmer demands investigation into Reform-Russia links after party's ex-Wales leader jailed\u00a0\u00a0Sky NewsReform UK\u2019s former Wales leader jailed for taking bribes for pro-Russia speeches\u00a0\u00a0The GuardianThe ex-Reform UK leader who took bribes, made pro-Russia speeches\u00a0\u00a0BBCEx-Farage Ally Gets 10.5 Years in Jail for Taking Pro-Russian Bribes\u00a0\u00a0Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQY1JUckRyWFZPU1JtSnZJZ1AxOFBUNDBiWmltMEtXTzlOTDBnOVZqSlZYNkY5dkZTZXJiUWZzYWxjcjR2Q3VUWThXQnNwbEpQX0N3YnlrUllFa1dZV0xjbVZRclZaYndUT3hJS1hzTndwd2cyTS0yY0ZMeVF6eDF4WjdvLVBqLVpNX29wNFpyd2Vzdw?oc=5",
           "source": "The New York Times",
-          "published": "Fri, 21 Nov 2025 03:37:00 GMT",
-          "topic": "BUSINESS",
-          "fetched_at": "2025-11-21T12:11:42.009854"
+          "published": "Fri, 21 Nov 2025 16:50:02 GMT",
+          "topic": "WORLD",
+          "fetched_at": "2025-11-21T18:10:01.364537"
         },
         "analysis": {
-          "summary": "The September jobs report indicates persistent hiring with the addition of 119,000 jobs, yet the unemployment rate rose to 4.4%, injecting uncertainty into the Federal Reserve's decision-making process. This divergence suggests a complex labor market dynamic that continues to challenge conventional economic interpretations.",
+          "summary": "A former UK politician from the Reform Party, who served as the leader of the party in Wales, has been sentenced to 10.5 years in prison for taking bribes in exchange for making pro-Russia speeches. This case has sparked calls for further investigation into the party's links with Russia, raising concerns about the integrity of political processes and the influence of foreign interference in domestic politics.",
           "key_points": [
-            "The U.S. added 119,000 jobs in September, exceeding expectations.",
-            "Despite robust job growth, the unemployment rate increased to 4.4%.",
-            "The discrepancy between job creation and rising unemployment rate introduces uncertainty for the Federal Reserve's policy decisions."
+            "A former Reform Party leader in Wales has been jailed for taking bribes in exchange for pro-Russia speeches.",
+            "The case has prompted calls for an investigation into the Reform Party's connections with Russia.",
+            "This situation highlights potential issues regarding foreign interference in domestic politics and the importance of political transparency."
           ],
           "sentiment": "Mixed",
           "confidence": "High",
-          "bias_check": "The article may present a bias towards highlighting the positive job growth without sufficiently emphasizing the potential negative implications of the rising unemployment rate. Additionally, there might be an implicit expectation for the Federal Reserve to react in a specific way, which can bias the narrative.",
-          "missing_context": "The article does not provide context on the quality of new jobs (e.g., part-time vs. full-time, wage levels), the types of sectors experiencing growth, or the historical trends in job creation and unemployment rates. It also omits potential policy responses and their expected impact on the economy.",
-          "implications": "The rising unemployment rate alongside job growth may signal a mismatch in the labor market, where jobs are being created but not necessarily at a pace that keeps unemployment low. This could affect Federal Reserve policy, potentially leading to a more cautious approach to raising interest rates. Furthermore, it raises questions about the quality of job growth and whether it is translating into broader economic well-being for the population.",
+          "bias_check": "Potential biases could include the political leanings of the publication, the angle of reporting, or the emphasis on the involvement of a specific party over others. The article may also be influenced by the current geopolitical climate regarding Russia.",
+          "missing_context": "Important context might include the politician's career history, the specific nature of the bribes and speeches, and the extent of the Reform Party's overall connections with Russia. Additionally, the response of the public and the political community to this event could provide further insight.",
+          "implications": "This case could have broader implications for political integrity, the scrutiny of party funding sources, and the significance of vigilance against foreign interference in democratic processes. It may also affect public trust in political institutions and lead to increased calls for transparency and accountability.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-21T12:14:38.919720",
+          "analyzed_at": "2025-11-21T18:11:49.031290",
           "token_usage": {
-            "prompt_tokens": 297,
-            "completion_tokens": 350,
-            "total_tokens": 647
+            "prompt_tokens": 308,
+            "completion_tokens": 338,
+            "total_tokens": 646
           }
         }
       },
       {
         "article": {
-          "id": "news_2_1763727102",
-          "title": "Crypto Market Extends Slide With Bitcoin Dropping Below $87,000 - Bloomberg.com",
-          "description": "Crypto Market Extends Slide With Bitcoin Dropping Below $87,000\u00a0\u00a0Bloomberg.comBitcoin falls to lowest level since April\u00a0\u00a0CNBCBitcoin and other crypto assets sink in flight from risk\u00a0\u00a0ReutersBitcoin falls below $82,000 as selling isn\u2019t letting up. Here\u2019s why stock-market investors are keeping close watch.\u00a0\u00a0MarketWatch",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWXpQUWNTeDFPRENHNUFMZXFDSHJFMlNyRmhYazBKSVZRbnRTVUx0TmlwM0lneHAweEhabl9VeGFybjFTdk5HU1I5SUdNd0ZHWTBUNHNIT3N4ekVNb3ZheF9mQmRqb1MtLUtRNV9xQTFQeFJwOHJKVUFWRlFLQTkwVWNiR2lnQTJ1SnN0RUljVm01VGdodFFlaWpUcDktQnZSYUtJTFpJQXJtU2I2WDBxOGVGWQ?oc=5",
-          "source": "Bloomberg.com",
-          "published": "Fri, 21 Nov 2025 03:01:00 GMT",
-          "topic": "BUSINESS",
-          "fetched_at": "2025-11-21T12:11:42.009872"
+          "id": "news_4_1763748601",
+          "title": "EU threatens to block \u2018weak\u2019 COP30 deal - Politico",
+          "description": "EU threatens to block \u2018weak\u2019 COP30 deal\u00a0\u00a0PoliticoCOP30: UN climate summit drops mention of fossil fuels from draft deal\u00a0\u00a0BBC\u2018It\u2019s like arguing with robots\u2019: negotiators on the state of Cop30 talks\u00a0\u00a0The GuardianWhat\u2019s at stake in the COP30 negotiations?\u00a0\u00a0UN NewsCOP30 host urges unity as summit heads for final showdown over fossil fuels\u00a0\u00a0Reuters",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNWVViZHdBa0h6Y2h3eTVmNFJFR0k1Q3VIZ2JyN2gwaVU2X3Z6UEg1SngyWmotV3VFOEJqYm91bTZNeTVnVFg0OUVqaFdSdnY4aHlkWTlLLTBCSWhGVk42U3BURDdENWpVdjZWbUNRS0NnQ0ZvX0hMcjZHemM3WWRsN01MbjVDaG8tWnpRVDIybm8?oc=5",
+          "source": "Politico",
+          "published": "Fri, 21 Nov 2025 16:14:54 GMT",
+          "topic": "WORLD",
+          "fetched_at": "2025-11-21T18:10:01.364555"
         },
         "analysis": {
-          "summary": "The cryptocurrency market is experiencing a downturn with Bitcoin falling below $87,000, the lowest level since April. This decline highlights the ongoing risk aversion among investors as they watch the stock market closely.",
+          "summary": "The EU has threatened to block a COP30 climate deal it deems 'weak' as it fails to adequately address the issue of fossil fuels, amidst growing tensions and a lack of progress in the negotiations.",
           "key_points": [
-            "Bitcoin's price has dropped below $87,000, marking a low since April.",
-            "Investors are shifting focus to the stock market amidst rising risk aversion.",
-            "The fall of Bitcoin below $82,000 indicates persistent selling pressure."
+            "The EU's stance represents a significant pushback against the draft COP30 agreement.",
+            "The failure to mention fossil fuels in the deal is a contentious issue for many countries.",
+            "The COP30 summit, known as COP30, is reaching a critical juncture with the final showdown on fossil fuels."
           ],
-          "sentiment": "negative",
-          "confidence": "high",
-          "bias_check": "The article may be biased towards highlighting the negative aspects of the crypto market without providing sufficient context on the reasons behind the decline or potential for recovery. It also focuses on risk-averse behavior without discussing the underlying factors driving it.",
-          "missing_context": "The article lacks context on the specific events or market conditions that may have triggered this slide. It also doesn't discuss the potential impact on investors who hold Bitcoin or other cryptocurrencies, nor does it mention any regulatory developments or technological advancements that could influence the market.",
-          "implications": "The continued decline in Bitcoin's value could erode investor confidence, leading to further selling pressure. It may also prompt a re-evaluation of investment strategies, particularly among those who have allocated significant assets to cryptocurrencies. Additionally, the downward trend could have broader implications for the overall market sentiment and the perception of cryptocurrencies as a viable investment class.",
+          "sentiment": "Negative",
+          "confidence": "High",
+          "bias_check": "The story may reflect a bias towards the EU's perspective, as it heavily emphasizes the EU's dissatisfaction without extensive coverage of the rationale from other negotiating parties.",
+          "missing_context": "The motivations and positions of other key stakeholders, like China, USA, or smaller countries, are not detailed, which could provide a more balanced view. Additionally, the specific reasons why the EU deems the deal 'weak' are not fully explained.",
+          "implications": "This disagreement could lead to a significant impasse in the COP30 negotiations, potentially undermining global efforts to combat climate change. The EU's threat to block the deal might also influence other countries' positions and willingness to compromise.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-21T12:14:46.713092",
+          "analyzed_at": "2025-11-21T18:11:56.654980",
           "token_usage": {
-            "prompt_tokens": 264,
+            "prompt_tokens": 271,
+            "completion_tokens": 283,
+            "total_tokens": 554
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_0_1763748601",
+          "title": "Futures Rise, Bitcoin Dives After Bears Maul Bulls - Investor's Business Daily",
+          "description": "Futures Rise, Bitcoin Dives After Bears Maul Bulls\u00a0\u00a0Investor's Business DailyWhat on Earth just happened to the stock market?\u00a0\u00a0CNNStock Market Today: Dow Rises; Global Chip Stocks Drop; Bitcoin Falls Further \u2014 Live Markets\u00a0\u00a0The Wall Street JournalCNBC Daily Open: From AI enthusiasm to bubble worries in one day\u00a0\u00a0CNBCUS, global stocks set for weekly declines amid tech valuation concerns, mixed Fed messages\u00a0\u00a0Reuters",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOTHRTT1EzRHlISTJhZkgweEpmY2xvSTU4SU1GbndYVU43WnNzcm9VZElvZWd4UHp4bWZEbzJsVTg0TDQwVkxpU2dQV3RJV2hvdVRrTDNuYk9tZnJvS3J6aGdTNWlEU212dGgxd3NlbnhSSE1qYXVjY2ZmZFh0ZTBPSUVkc2ZHYm1ZRHBIQXNSdWI5X01WNzZhbTVYb0cwNlBlbEFEYVNSWnJMTEpobkZEUjlVV2kxVDQ4Q0cxM2lkUENiTzFs?oc=5",
+          "source": "Investor's Business Daily",
+          "published": "Fri, 21 Nov 2025 13:15:00 GMT",
+          "topic": "BUSINESS",
+          "fetched_at": "2025-11-21T18:10:01.433338"
+        },
+        "analysis": {
+          "summary": "The article discusses a volatile market where futures indices rose while Bitcoin experienced a significant decline. The strong bearish sentiment against bulls, as reflected in the title, indicates a tumultuous trading day with contrasting movements in different asset classes.",
+          "key_points": [
+            "Futures indices saw an increase, indicating a potential positive outlook for those markets.",
+            "Bitcoin suffered a substantial drop, reflecting ongoing bearish sentiment towards the cryptocurrency.",
+            "The market's mixed reactions suggest investor confusion or caution amidst various influencing factors."
+          ],
+          "sentiment": "Mixed",
+          "confidence": "High",
+          "bias_check": "The title may introduce a bias by using 'Bears Maul Bulls,' which suggests a dramatic battle between opposing market forces. This could exaggerate the market's volatility or sentiment.",
+          "missing_context": "The article does not provide details on the specific reasons behind the futures rise or the Bitcoin decline. Additionally, it lacks context on the market's performance over a more extended period or the impact of external factors such as economic announcements or geopolitical events.",
+          "implications": "The contrasting movements in futures and Bitcoin highlight the fragmented nature of the market, where different asset classes can react differently to the same events. This may indicate a need for investors to diversify their portfolios to manage risk. The mixed sentiment could also reflect uncertainty about the future direction of the market, potentially leading to cautious investment strategies.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-21T18:12:04.291122",
+          "token_usage": {
+            "prompt_tokens": 285,
+            "completion_tokens": 296,
+            "total_tokens": 581
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_1_1763748601",
+          "title": "Bitcoin, XRP and Dogecoin Pummeled as Crypto Liquidations Top $2.2 Billion - Decrypt",
+          "description": "Bitcoin, XRP and Dogecoin Pummeled as Crypto Liquidations Top $2.2 Billion\u00a0\u00a0DecryptBitcoin continues slide that's roiling markets, threatens to break below $80,000\u00a0\u00a0CNBCIt Was Supposed to Be Crypto\u2019s Year. Then Came the Crash.\u00a0\u00a0The Wall Street JournalCrypto plunge wipes out nearly $400 billion in a week\u00a0\u00a0AxiosBitcoin sinks to $83,000 Friday. Here\u2019s why stock-market investors are keeping close watch.\u00a0\u00a0MarketWatch",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNU016UXRtQ0JHWTRGd0xjeFhHV3FUS3pOUEVGbk9XTWV6aDV4WDNfRE9lemhMWlVCYV9yRndmVkEyRGRZWW1paVEtZXhxd19nUVh0VXhVQnN5cXBpNEVraXlNanFIVnlweXlQUGZEOWp2Yy1JeFNoMmdnazR3MUx3MVl5WEN2M0s4SVlRMmhKZjNGVmJ1QUHSAZ4BQVVfeXFMTXY5X2VGTDNTWkhFMG9xWUxsVkxzbElLZmRtLWxwTXRBbmRYLTVqcnVOc3BmazRGS1BZV1dBT0NWcjZtUGc3UnZGOFpmVDBRdHVzSWZXNDZLRkxUbnVBT3ZrdHVualc4aWtBSUtaZXFIcDdJR0twY3lydnM5QnZvU2JldXZGR21TMlNmOWQtbGJsei1ra3ZyTHZRNzBrdVE?oc=5",
+          "source": "Decrypt",
+          "published": "Fri, 21 Nov 2025 15:33:54 GMT",
+          "topic": "BUSINESS",
+          "fetched_at": "2025-11-21T18:10:01.433363"
+        },
+        "analysis": {
+          "summary": "The article discusses a significant drop in cryptocurrency values, specifically Bitcoin, XRP, and Dogecoin, leading to a total of $2.2 billion in liquidations, with Bitcoin nearing a critical threshold below $80,000, causing alarm among stock-market investors and reflecting a tumultuous period labeled as 'Crypto\u2019s Year' that ended in a sharp market crash.",
+          "key_points": [
+            "Bitcoin, XRP, and Dogecoin experienced substantial declines leading to $2.2 billion in liquidations.",
+            "Bitcoin's price is close to a critical level of $80,000, which investors are watching closely.",
+            "The market crash wiped out nearly $400 billion in a week, indicating a volatile and unstable crypto market."
+          ],
+          "sentiment": "Negative",
+          "confidence": "High",
+          "bias_check": "The article may have a negative bias, focusing on the losses and downturn without equally discussing potential reasons for the market's fluctuation or the positive aspects of the crypto market.",
+          "missing_context": "There may be missing context regarding the overall market conditions, including other cryptocurrencies' performances, macroeconomic factors, or regulatory news that could have influenced the crash.",
+          "implications": "The implications of this story suggest a high level of volatility in the cryptocurrency market, which could affect investor confidence and lead to tighter regulation. It also highlights the potential risks associated with investing in cryptocurrencies and the importance of market analysis for potential investors.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-21T18:12:12.072241",
+          "token_usage": {
+            "prompt_tokens": 298,
             "completion_tokens": 307,
-            "total_tokens": 571
+            "total_tokens": 605
           }
         }
       },
       {
         "article": {
-          "id": "news_3_1763727102",
-          "title": "CEO Jensen Huang told staff 'the whole world would've fallen apart' if Nvidia delivered a bad quarter - Business Insider",
-          "description": "CEO Jensen Huang told staff 'the whole world would've fallen apart' if Nvidia delivered a bad quarter\u00a0\u00a0Business InsiderDespite China Issues, Nvidia (NVDA) Sees Strong Demand for Blackwell Chips\u00a0\u00a0Yahoo FinanceNvidia\u2019 s Jensen Huang Says Customers Will Determine Financing of AI Buildout\u00a0\u00a0The Wall Street JournalNvidia\u2019s Huang Says Company Has Plenty of New Chips to Sell\u00a0\u00a0Bloomberg.comJensen Huang says \"everybody's job will be different\" amid AI boom\u00a0\u00a0Axios",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQeER3cno4Q0ZJRk5JWjJpNERYandocWVDckFyV3BoZmt5eHFadEdJUVNJTHYycGc5VkxwYlNzS0xwVFZnVm9tX2todk9odkxqYWhSem9ranQwTWI1X2tBdlFxSFdjVDZDcGM2a2hLZVg0Y3A5ZlNDWGN3ZXZrb2hwSmExTHA2elVtakE?oc=5",
-          "source": "Business Insider",
-          "published": "Fri, 21 Nov 2025 00:53:00 GMT",
+          "id": "news_2_1763748601",
+          "title": "Goldman Sachs, JPMorgan and BofA drop verdicts on Nvidia earnings - TheStreet",
+          "description": "Goldman Sachs, JPMorgan and BofA drop verdicts on Nvidia earnings\u00a0\u00a0TheStreetNvidia's reversal stuns the tech world. What the charts say happens next with the stock\u00a0\u00a0CNBCThe market is one stock now\u00a0\u00a0AxiosNVIDIA Announces Financial Results for Third Quarter Fiscal 2026\u00a0\u00a0NVIDIA NewsroomNvidia Stock Gives Back Gains After Earnings. Where Shares Could Go Next.\u00a0\u00a0Barron's",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRy1xN0tkVjdWc3RtYi1UWkhEeXE4STVCaGVJNHRFU0V4RU1Lem9QOWwwM2cydGJyYnRCVmZ5SEdzR3o5eUc3MFhrcXlRMWUzQzU3NDU4SkdnaHlVUUJkR0I0RExBVFBzQVRpSC02WU5XVVdmX0otZlFhREJMU3Z2VV83VHpPejZHRTVvRzdmS0JZOW5BYmNwbzBfeFNtUnh0Z09fMGJOeWRmdHM?oc=5",
+          "source": "TheStreet",
+          "published": "Fri, 21 Nov 2025 13:07:00 GMT",
           "topic": "BUSINESS",
-          "fetched_at": "2025-11-21T12:11:42.009891"
+          "fetched_at": "2025-11-21T18:10:01.433398"
         },
         "analysis": {
-          "summary": "Jensen Huang, CEO of Nvidia, reportedly told staff that the entire world would have fallen apart if Nvidia had delivered a bad quarter, emphasizing the critical importance of their performance amidst global supply chain challenges and semiconductor demands. This statement underscores the pivotal role Nvidia plays in the technology sector and the high stakes involved in their quarterly results.",
+          "summary": "{\n  \"summary\": \"The article reports that Goldman Sachs, JPMorgan, and Bank of America have reversed their initial verdicts on Nvidia's earnings, suggesting a strong market reaction to Nvidia's financial results, which could indicate investor optimism or concerns about the company's future performanc",
           "key_points": [
-            "Nvidia's performance is critical to global technology and AI advancements.",
-            "The company's success is closely tied to the functioning of the global supply chain.",
-            "Jensen Huang's statement highlights the high-pressure environment and expectations on Nvidia.",
-            "Nvidia's strong demand for Blackwell chips despite China issues indicates resilience and market confidence."
+            "{\n  \"summary\": \"The article reports that Goldman Sachs, JPMorgan, and Bank of America have reversed their initial verdicts on Nvidia's earnings, suggesting a strong market reaction to Nvidia's financial results, which could indicate investor optimism or concerns about the company's future performance.\",\n  \"key_points\": [\n    \"Nvidia's earnings report led to a collective change in sentiment among major financial institutions.\",\n    \"The reversal of verdicts may reflect uncertainty or a wait-and-see approach by analysts.\",\n    \"Nvidia's stock performance in the aftermath could be influenced by market perceptions of its future earnings and market position.\"\n  ],\n  \"sentiment\": \"Mixed\",\n  \"confidence\": \"High\",\n  \"bias_check\": \"The article may reflect a bias towards companies in the technology sector, particularly those with a strong market presence like Nvidia. Additionally, the focus on financial institutions' verdicts may overlook other companies' perspective: \"summary results in the article, \"TheStreet's initial change, TheStreet's financial analysis\": \"TheStreet's perspective\": \"TheStreet and analysis, and analysis. The article, \"TheStreet, the market index, TheStreet has a few financial and analysis of TheStreet's analysis, TheStreet: The article, TheStreet, the stock analysis, TheStreet, \"The advanced analysis, The article, TheStreet, The analysis, the, The Street's analysis, the, TheStreet, the analysis, the analysis, the, if not, the\n 3. The, the article, the article, the, the, the, the analysis, the, the, the article, the, the, the, the, the, the analysis, the, the, the article, the, the, the, the, the, the, the, the Apple, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the technology, the, the, The, the, as they, technology, the, the, the, the, the technology, the, the, the, the, the, the, the analysis, the analysis, the, the, the,"
           ],
-          "sentiment": "Mixed",
-          "confidence": "High",
-          "bias_check": "Potential biases may include an overemphasis on Nvidia's significance and underrepresentation of the broader market conditions affecting the tech industry. The source being Business Insider might also lean towards dramatic storytelling.",
-          "missing_context": "The article does not provide details on Nvidia's financial performance in that quarter, the specific challenges faced by the company, or comparisons with other tech companies' performances. It also lacks information on how 'the world falling apart' is directly tied to Nvidia's performance.",
-          "implications": "The statement made by Jensen Huang could lead to increased pressure on Nvidia to maintain their performance, which may impact their strategic decisions and operations. It also places Nvidia in a spotlight, affecting investor sentiment and potentially influencing stock prices. The broader tech industry may also feel the ripple effects of Nvidia's success or failure.",
+          "sentiment": "neutral",
+          "confidence": "medium",
+          "bias_check": "Unable to parse structured response",
+          "missing_context": "",
+          "implications": "",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-21T12:14:55.494008",
+          "analyzed_at": "2025-11-21T18:12:35.757978",
           "token_usage": {
-            "prompt_tokens": 299,
-            "completion_tokens": 337,
-            "total_tokens": 636
+            "prompt_tokens": 281,
+            "completion_tokens": 1000,
+            "total_tokens": 1281
           }
         }
       },
       {
         "article": {
-          "id": "news_4_1763727102",
-          "title": "OpenAI Teams With Foxconn to Design AI Data Center Hardware - Bloomberg.com",
-          "description": "OpenAI Teams With Foxconn to Design AI Data Center Hardware\u00a0\u00a0Bloomberg.comFoxconn to spend up to $3 billion a year on AI, chair sees China EV shakeout\u00a0\u00a0ReutersFoxconn-Nvidia $1.4 billion Taiwan supercomputing cluster to be ready by H1 2026, Foxconn says\u00a0\u00a0Yahoo FinanceNvidia-Foxconn's Taiwan supercomputing center to be ready by H1 2026\u00a0\u00a0Seeking AlphaFoxconn partners with OpenAI on next-generation data center development\u00a0\u00a0Nikkei Asia",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSVdkbWFpNFlVZm5zemJpYVdjVTlnUU5fMmpQRk9NbkhyYU9IMDVCVDZTRUdzMkhjQnRUMDdZaHVWRExEa1JsOU9wdmc0eEFoVkZFSEc2ZEZOaFpWWnV4SklaeGsxU1ktZjRYbjN1ZktSdUFGMmo4RGZZSml6bkl5SVpNT2NyVDVNRTFkM2RQb1A5RE1IdjdwT3BMNHhYclY1U3U0STl2aWtZRXZrZnZzaFNZM3I3Zw?oc=5",
-          "source": "Bloomberg.com",
-          "published": "Fri, 21 Nov 2025 01:12:00 GMT",
+          "id": "news_3_1763748601",
+          "title": "Lilly becomes first drugmaker to hit $1 trillion valuation on weight-loss demand - Reuters",
+          "description": "Lilly becomes first drugmaker to hit $1 trillion valuation on weight-loss demand\u00a0\u00a0ReutersEli Lilly joins the $1 trillion club\u00a0\u00a0AxiosThe $1 Trillion Drug Bet: How Eli Lilly Outsprinted Big Tech on Fat, Pills, and Wall Street Dreams\u00a0\u00a0Yahoo FinanceLilly becomes first healthcare firm to join trillion-dollar club, Wall Street reacts\u00a0\u00a0ReutersLilly Breaks $1 Trillion Mark In Historic Milestone\u00a0\u00a0Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQR2IxVV9iQW1qWVBVaWZIZW5hdDJZM2liR3FpeXNaRzM3Ukdia3BiVEd5R1R3RWVydEwyeDh6V3FsXzM5TDh5T3pfYWZzNzljb0Nrc3VlNUZST1M4YUpsaEw4OXVQaldZbWVVbm1QZzlsd2JIMWNqamczX3FMOVNhWVNWcWRSekIwYWVUM29YQ0xJNTZoTmtLSk5BUnBJYUNncEx0RzlpeFg5Ym5TV3ZlWmpPRG1IZzJZclptRmpESndXZHdZbGFrcjNYdmVZM1UyMTFQNHJUakMxVUE4a05GX05XODBzdw?oc=5",
+          "source": "Reuters",
+          "published": "Fri, 21 Nov 2025 16:41:45 GMT",
           "topic": "BUSINESS",
-          "fetched_at": "2025-11-21T12:11:42.009910"
+          "fetched_at": "2025-11-21T18:10:01.433417"
         },
         "analysis": {
-          "summary": "OpenAI's collaboration with Foxconn to design AI data center hardware signals a significant investment in next-generation computing infrastructure, with Foxconn committing up to $3 billion annually. This partnership could accelerate advancements in AI capabilities and data center efficiency, potentially influencing the global tech landscape.",
+          "summary": "Lilly's climb to a $1 trillion valuation underscores the significant market demand for weight-loss solutions, marking a historic milestone for the company and positioning it ahead of big tech companies and Wall Street expectations. This achievement signals a shift in pharmaceutical investments towards addressing the obesity epidemic and demonstrates the potential profitability of drugs in this sector.",
           "key_points": [
-            "OpenAI and Foxconn are partnering to design advanced AI data center hardware.",
-            "Foxconn is investing up to $3 billion annually, indicating a substantial commitment to AI hardware development.",
-            "The collaboration may enhance AI capabilities and data center efficiencies, impacting the global tech industry."
+            "Lilly's $1 trillion valuation highlights the growing demand for weight-loss medications.",
+            "The company's success in pharmaceuticals outpaces that of big tech companies and Wall Street expectations.",
+            "Lilly's achievement may indicate a broader industry trend towards investing in obesity and weight-loss solutions."
+          ],
+          "sentiment": "positive",
+          "confidence": "high",
+          "bias_check": "Potential bias could stem from a focus on Lilly's success without considering the broader challenges and criticisms of the weight-loss drug market, such as ethical concerns and the effectiveness of such medications.",
+          "missing_context": "The context of Lilly's competition with other pharmaceutical companies, the specific drugs contributing to this valuation, and the overall health implications of promoting weight-loss drugs over lifestyle changes are missing. Additionally, the financial health and future growth prospects of the company are not discussed.",
+          "implications": "This milestone could encourage increased investment in pharmaceuticals targeting weight loss, potentially leading to a surge in obesity-related drug development. However, it also raises ethical considerations about the promotion of medication as a primary solution to complex health issues like obesity.",
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "analyzed_at": "2025-11-21T18:12:43.810301",
+          "token_usage": {
+            "prompt_tokens": 284,
+            "completion_tokens": 308,
+            "total_tokens": 592
+          }
+        }
+      },
+      {
+        "article": {
+          "id": "news_4_1763748601",
+          "title": "Rare earths: Federal backing and tech advances aim to help the U.S. catch up to China - NPR",
+          "description": "Rare earths: Federal backing and tech advances aim to help the U.S. catch up to China\u00a0\u00a0NPRMeet the company that looks to gain a foothold where China dominates \u2014 rare earth elements\u00a0\u00a0Yahoo FinanceWest scrambles to fill heavy rare earth gap as China rivalry deepens\u00a0\u00a0ReutersChinese rare earth magnet exports to US hit 9-month high as trade war resolves\u00a0\u00a0South China Morning PostVertical integration of rare Earth elements for US autonomous dominion\u00a0\u00a0Breaking Defense",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZ3N1MzNPMjJDUjktdWxrWWFLSUlqamhxdkxQRHV3a0ljQmxNRWZsdGpHZ1VESzRaQS1LZjNIQ3VXandPUVlyZVNQbGtHMkNITFRkelhTWldEazhYM3VyOF92TmFySUlxQ0pBOGd1M0FBaEJRbW5rQnEzeW9PNWZTOEtZaw?oc=5",
+          "source": "NPR",
+          "published": "Fri, 21 Nov 2025 10:01:00 GMT",
+          "topic": "BUSINESS",
+          "fetched_at": "2025-11-21T18:10:01.433439"
+        },
+        "analysis": {
+          "summary": "The U.S. is attempting to reduce its dependence on China for rare earth elements, a critical resource for technology and defense, by leveraging federal support and technological advancements. This initiative aims to establish a more autonomous supply chain and reduce geopolitical vulnerabilities.",
+          "key_points": [
+            "U.S. government backing and technology are driving efforts to catch up with China in the rare earth elements sector.",
+            "The U.S. is striving for vertical integration to achieve self-sufficiency in rare earth production and processing.",
+            "Trade tensions with China are influencing the U.S. to secure its own supply chain for these critical materials."
           ],
           "sentiment": "Mixed",
           "confidence": "High",
-          "bias_check": "The article's tone is predominantly positive, focusing on the collaboration's potential benefits. It may downplay any possible challenges or criticisms associated with the partnership.",
-          "missing_context": "The article does not provide detailed information on the specific nature of the hardware being developed, nor does it discuss any potential competition or alternative partnerships that OpenAI might have considered. The broader economic or political implications for Foxconn and the regions involved are also not covered.",
-          "implications": "The partnership between OpenAI and Foxconn could lead to significant advancements in AI technology and data center infrastructure. It may also intensify competition among tech companies and influence global supply chains. Additionally, the collaboration could have economic impacts on Foxconn's operations in China and Taiwan and potentially alter the competitive landscape in the AI and semiconductor industries.",
+          "bias_check": "Potential bias could stem from the U.S. government's nationalistic perspective, emphasizing the need for self-sufficiency and downplaying the challenges involved.",
+          "missing_context": "The story may lack details on the environmental and economic downsides of rare earth production, as well as the complexities of scaling up new technologies for extraction and processing.",
+          "implications": "This move could lead to a reshuffling of global trade dynamics, with the U.S. potentially reducing its reliance on China and other countries. It may also spur innovation and investment in the rare earth sector, but also raise concerns about environmental impact and economic feasibility.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-21T12:15:03.670679",
+          "analyzed_at": "2025-11-21T18:12:51.250860",
           "token_usage": {
-            "prompt_tokens": 303,
-            "completion_tokens": 313,
-            "total_tokens": 616
+            "prompt_tokens": 295,
+            "completion_tokens": 285,
+            "total_tokens": 580
           }
         }
       }
@@ -511,19 +507,19 @@
     "articles_analyzed": 15
   },
   "costs": {
-    "execution_time": 183.37137579917908,
-    "execution_minutes": 3.0561895966529846,
-    "github_actions": 0.02444951677322388,
+    "execution_time": 154.1267683506012,
+    "execution_minutes": 2.56877947251002,
+    "github_actions": 0.02055023578008016,
     "openai": {
-      "input": 0.0006498,
-      "output": 0.0026088,
-      "total": 0.0032586
+      "input": 0.0006453,
+      "output": 0.0030786,
+      "total": 0.0037239
     },
-    "total": 0.02770811677322388,
+    "total": 0.02427413578008016,
     "token_usage": {
-      "prompt_tokens": 4332,
-      "completion_tokens": 4348,
-      "total_tokens": 8680
+      "prompt_tokens": 4302,
+      "completion_tokens": 5131,
+      "total_tokens": 9433
     }
   }
 }
