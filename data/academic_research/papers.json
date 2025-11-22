@@ -1,37 +1,346 @@
 {
   "agent": "agent-a-paper-fetcher",
-  "timestamp": "2025-11-21T09:02:59.940474",
+  "timestamp": "2025-11-22T09:02:50.741614",
   "status": "completed",
   "data": {
-    "papers": [],
-    "count": 0,
+    "papers": [
+      {
+        "id": "2511.16674v1",
+        "title": "Dataset Distillation for Pre-Trained Self-Supervised Vision Models",
+        "authors": [
+          "George Cazenavette",
+          "Antonio Torralba",
+          "Vincent Sitzmann"
+        ],
+        "abstract": "The task of dataset distillation aims to find a small set of synthetic images such that training a model on them reproduces the performance of the same model trained on a much larger dataset of real samples. Existing distillation methods focus on synthesizing datasets that enable training randomly initialized models. In contrast, state-of-the-art vision approaches are increasingly building on large, pre-trained self-supervised models rather than training from scratch. In this paper, we investiga...",
+        "published": "2025-11-20T18:59:57Z",
+        "updated": "2025-11-20T18:59:57Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.16674v1",
+        "abs_url": "https://arxiv.org/abs/2511.16674v1",
+        "categories": [
+          "cs.CV",
+          "cs.AI",
+          "cs.LG"
+        ],
+        "primary_category": "cs.CV"
+      },
+      {
+        "id": "2511.16671v1",
+        "title": "Thinking-while-Generating: Interleaving Textual Reasoning throughout Visual Generation",
+        "authors": [
+          "Ziyu Guo",
+          "Renrui Zhang",
+          "Hongyu Li",
+          "Manyuan Zhang",
+          "Xinyan Chen"
+        ],
+        "abstract": "Recent advances in visual generation have increasingly explored the integration of reasoning capabilities. They incorporate textual reasoning, i.e., think, either before (as pre-planning) or after (as post-refinement) the generation process, yet they lack on-the-fly multimodal interaction during the generation itself. In this preliminary study, we introduce Thinking-while-Generating (TwiG), the first interleaved framework that enables co-evolving textual reasoning throughout the visual generatio...",
+        "published": "2025-11-20T18:59:52Z",
+        "updated": "2025-11-20T18:59:52Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.16671v1",
+        "abs_url": "https://arxiv.org/abs/2511.16671v1",
+        "categories": [
+          "cs.CV",
+          "cs.AI",
+          "cs.CL"
+        ],
+        "primary_category": "cs.CV"
+      },
+      {
+        "id": "2511.16665v1",
+        "title": "Taming the Long-Tail: Efficient Reasoning RL Training with Adaptive Drafter",
+        "authors": [
+          "Qinghao Hu",
+          "Shang Yang",
+          "Junxian Guo",
+          "Xiaozhe Yao",
+          "Yujun Lin"
+        ],
+        "abstract": "The emergence of Large Language Models (LLMs) with strong reasoning capabilities marks a significant milestone, unlocking new frontiers in complex problem-solving. However, training these reasoning models, typically using Reinforcement Learning (RL), encounters critical efficiency bottlenecks: response generation during RL training exhibits a persistent long-tail distribution, where a few very long responses dominate execution time, wasting resources and inflating costs. To address this, we prop...",
+        "published": "2025-11-20T18:59:25Z",
+        "updated": "2025-11-20T18:59:25Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.16665v1",
+        "abs_url": "https://arxiv.org/abs/2511.16665v1",
+        "categories": [
+          "cs.LG",
+          "cs.AI",
+          "cs.DC"
+        ],
+        "primary_category": "cs.LG"
+      },
+      {
+        "id": "2511.16664v1",
+        "title": "Nemotron Elastic: Towards Efficient Many-in-One Reasoning LLMs",
+        "authors": [
+          "Ali Taghibakhshi",
+          "Sharath Turuvekere Sreenivas",
+          "Saurav Muralidharan",
+          "Ruisi Cai",
+          "Marcin Chochowski"
+        ],
+        "abstract": "Training a family of large language models targeting multiple scales and deployment objectives is prohibitively expensive, requiring separate training runs for each different size. Recent work on model compression through pruning and knowledge distillation has reduced this cost; however, this process still incurs hundreds of billions of tokens worth of training cost per compressed model. In this paper, we present Nemotron Elastic, a framework for building reasoning-oriented LLMs, including hybri...",
+        "published": "2025-11-20T18:59:21Z",
+        "updated": "2025-11-20T18:59:21Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.16664v1",
+        "abs_url": "https://arxiv.org/abs/2511.16664v1",
+        "categories": [
+          "cs.CL"
+        ],
+        "primary_category": "cs.CL"
+      },
+      {
+        "id": "2511.16661v1",
+        "title": "Dexterity from Smart Lenses: Multi-Fingered Robot Manipulation with In-the-Wild Human Demonstrations",
+        "authors": [
+          "Irmak Guzey",
+          "Haozhi Qi",
+          "Julen Urain",
+          "Changhao Wang",
+          "Jessica Yin"
+        ],
+        "abstract": "Learning multi-fingered robot policies from humans performing daily tasks in natural environments has long been a grand goal in the robotics community. Achieving this would mark significant progress toward generalizable robot manipulation in human environments, as it would reduce the reliance on labor-intensive robot data collection. Despite substantial efforts, progress toward this goal has been bottle-necked by the embodiment gap between humans and robots, as well as by difficulties in extract...",
+        "published": "2025-11-20T18:59:02Z",
+        "updated": "2025-11-20T18:59:02Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.16661v1",
+        "abs_url": "https://arxiv.org/abs/2511.16661v1",
+        "categories": [
+          "cs.RO",
+          "cs.AI",
+          "cs.LG"
+        ],
+        "primary_category": "cs.RO"
+      },
+      {
+        "id": "2511.16660v1",
+        "title": "Cognitive Foundations for Reasoning and Their Manifestation in LLMs",
+        "authors": [
+          "Priyanka Kargupta",
+          "Shuyue Stella Li",
+          "Haocheng Wang",
+          "Jinu Lee",
+          "Shan Chen"
+        ],
+        "abstract": "Large language models solve complex problems yet fail on simpler variants, suggesting they achieve correct outputs through mechanisms fundamentally different from human reasoning. We synthesize cognitive science research into a taxonomy of 28 cognitive elements spanning computational constraints, meta-cognitive controls, knowledge representations, and transformation operations, then analyze their behavioral manifestations in reasoning traces. We propose a fine-grained cognitive evaluation framew...",
+        "published": "2025-11-20T18:59:00Z",
+        "updated": "2025-11-20T18:59:00Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.16660v1",
+        "abs_url": "https://arxiv.org/abs/2511.16660v1",
+        "categories": [
+          "cs.AI"
+        ],
+        "primary_category": "cs.AI"
+      },
+      {
+        "id": "2511.16657v1",
+        "title": "Enhancing Forex Forecasting Accuracy: The Impact of Hybrid Variable Sets in Cognitive Algorithmic Trading Systems",
+        "authors": [
+          "Juan C. King",
+          "Jose M. Amigo"
+        ],
+        "abstract": "This paper presents the implementation of an advanced artificial intelligence-based algorithmic trading system specifically designed for the EUR-USD pair within the high-frequency environment of the Forex market. The methodological approach centers on integrating a holistic set of input features: key fundamental macroeconomic variables (for example, Gross Domestic Product and Unemployment Rate) collected from both the Euro Zone and the United States, alongside a comprehensive suite of technical ...",
+        "published": "2025-11-20T18:58:22Z",
+        "updated": "2025-11-20T18:58:22Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.16657v1",
+        "abs_url": "https://arxiv.org/abs/2511.16657v1",
+        "categories": [
+          "cs.AI",
+          "math.NA"
+        ],
+        "primary_category": "cs.AI"
+      },
+      {
+        "id": "2511.16655v1",
+        "title": "Solving Spatial Supersensing Without Spatial Supersensing",
+        "authors": [
+          "Vishaal Udandarao",
+          "Shyamgopal Karthik",
+          "Surabhi S. Nath",
+          "Andreas Hochlehnert",
+          "Matthias Bethge"
+        ],
+        "abstract": "Cambrian-S aims to take the first steps towards improving video world models with spatial supersensing by introducing (i) two benchmarks, VSI-Super-Recall (VSR) and VSI-Super-Counting (VSC), and (ii) bespoke predictive sensing inference strategies tailored to each benchmark. In this work, we conduct a critical analysis of Cambrian-S across both these fronts. First, we introduce a simple baseline, NoSense, which discards almost all temporal structure and uses only a bag-of-words SigLIP model, yet...",
+        "published": "2025-11-20T18:57:05Z",
+        "updated": "2025-11-20T18:57:05Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.16655v1",
+        "abs_url": "https://arxiv.org/abs/2511.16655v1",
+        "categories": [
+          "cs.CV",
+          "cs.LG"
+        ],
+        "primary_category": "cs.CV"
+      },
+      {
+        "id": "2511.16654v1",
+        "title": "Comparison of Text-Based and Image-Based Retrieval in Multimodal Retrieval Augmented Generation Large Language Model Systems",
+        "authors": [
+          "Elias Lumer",
+          "Alex Cardenas",
+          "Matt Melich",
+          "Myles Mason",
+          "Sara Dieter"
+        ],
+        "abstract": "Recent advancements in Retrieval-Augmented Generation (RAG) have enabled Large Language Models (LLMs) to access multimodal knowledge bases containing both text and visual information such as charts, diagrams, and tables in financial documents. However, existing multimodal RAG systems rely on LLM-based summarization to convert images into text during preprocessing, storing only text representations in vector databases, which causes loss of contextual information and visual details critical for do...",
+        "published": "2025-11-20T18:56:49Z",
+        "updated": "2025-11-20T18:56:49Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.16654v1",
+        "abs_url": "https://arxiv.org/abs/2511.16654v1",
+        "categories": [
+          "cs.CL"
+        ],
+        "primary_category": "cs.CL"
+      },
+      {
+        "id": "2511.16652v1",
+        "title": "Evolution Strategies at the Hyperscale",
+        "authors": [
+          "Bidipta Sarkar",
+          "Mattie Fellows",
+          "Juan Agustin Duque",
+          "Alistair Letcher",
+          "Antonio Le\u00f3n Villares"
+        ],
+        "abstract": "We introduce Evolution Guided General Optimization via Low-rank Learning (EGGROLL), an evolution strategies (ES) algorithm designed to scale backprop-free optimization to large population sizes for modern large neural network architectures with billions of parameters. ES is a set of powerful blackbox optimisation methods that can handle non-differentiable or noisy objectives with excellent scaling potential through parallelisation. Na{\u00ef}ve ES becomes prohibitively expensive at scale due to the c...",
+        "published": "2025-11-20T18:56:05Z",
+        "updated": "2025-11-20T18:56:05Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.16652v1",
+        "abs_url": "https://arxiv.org/abs/2511.16652v1",
+        "categories": [
+          "cs.LG",
+          "cs.AI"
+        ],
+        "primary_category": "cs.LG"
+      },
+      {
+        "id": "2511.16653v1",
+        "title": "Teacher-Guided One-Shot Pruning via Context-Aware Knowledge Distillation",
+        "authors": [
+          "Md. Samiul Alim",
+          "Sharjil Khan",
+          "Amrijit Biswas",
+          "Fuad Rahman",
+          "Shafin Rahman"
+        ],
+        "abstract": "Unstructured pruning remains a powerful strategy for compressing deep neural networks, yet it often demands iterative train-prune-retrain cycles, resulting in significant computational overhead. To address this challenge, we introduce a novel teacher-guided pruning framework that tightly integrates Knowledge Distillation (KD) with importance score estimation. Unlike prior approaches that apply KD as a post-pruning recovery step, our method leverages gradient signals informed by the teacher durin...",
+        "published": "2025-11-20T18:56:05Z",
+        "updated": "2025-11-20T18:56:05Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.16653v1",
+        "abs_url": "https://arxiv.org/abs/2511.16653v1",
+        "categories": [
+          "cs.CV",
+          "cs.AI"
+        ],
+        "primary_category": "cs.CV"
+      },
+      {
+        "id": "2511.16639v1",
+        "title": "Codec2Vec: Self-Supervised Speech Representation Learning Using Neural Speech Codecs",
+        "authors": [
+          "Wei-Cheng Tseng",
+          "David Harwath"
+        ],
+        "abstract": "Recent advancements in neural audio codecs have not only enabled superior audio compression but also enhanced speech synthesis techniques. Researchers are now exploring their potential as universal acoustic feature extractors for a broader range of speech processing tasks. Building on this trend, we introduce Codec2Vec, the first speech representation learning framework that relies exclusively on discrete audio codec units. This approach offers several advantages, including improved data storage...",
+        "published": "2025-11-20T18:46:15Z",
+        "updated": "2025-11-20T18:46:15Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.16639v1",
+        "abs_url": "https://arxiv.org/abs/2511.16639v1",
+        "categories": [
+          "eess.AS",
+          "cs.CL"
+        ],
+        "primary_category": "eess.AS"
+      },
+      {
+        "id": "2511.16637v1",
+        "title": "Faster Certified Symmetry Breaking Using Orders With Auxiliary Variables",
+        "authors": [
+          "Markus Anders",
+          "Bart Bogaerts",
+          "Benjamin Bog\u00f8",
+          "Arthur Gontier",
+          "Wietze Koops"
+        ],
+        "abstract": "Symmetry breaking is a crucial technique in modern combinatorial solving, but it is difficult to be sure it is implemented correctly. The most successful approach to deal with bugs is to make solvers certifying, so that they output not just a solution, but also a mathematical proof of correctness in a standard format, which can then be checked by a formally verified checker. This requires justifying symmetry reasoning within the proof, but developing efficient methods for this has remained a lon...",
+        "published": "2025-11-20T18:43:05Z",
+        "updated": "2025-11-20T18:43:05Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.16637v1",
+        "abs_url": "https://arxiv.org/abs/2511.16637v1",
+        "categories": [
+          "cs.LO",
+          "cs.AI"
+        ],
+        "primary_category": "cs.LO"
+      },
+      {
+        "id": "2511.16635v1",
+        "title": "SurvAgent: Hierarchical CoT-Enhanced Case Banking and Dichotomy-Based Multi-Agent System for Multimodal Survival Prediction",
+        "authors": [
+          "Guolin Huang",
+          "Wenting Chen",
+          "Jiaqi Yang",
+          "Xinheng Lyu",
+          "Xiaoling Luo"
+        ],
+        "abstract": "Survival analysis is critical for cancer prognosis and treatment planning, yet existing methods lack the transparency essential for clinical adoption. While recent pathology agents have demonstrated explainability in diagnostic tasks, they face three limitations for survival prediction: inability to integrate multimodal data, ineffective region-of-interest exploration, and failure to leverage experiential learning from historical cases. We introduce SurvAgent, the first hierarchical chain-of-tho...",
+        "published": "2025-11-20T18:41:44Z",
+        "updated": "2025-11-20T18:41:44Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.16635v1",
+        "abs_url": "https://arxiv.org/abs/2511.16635v1",
+        "categories": [
+          "cs.CV",
+          "cs.CL"
+        ],
+        "primary_category": "cs.CV"
+      },
+      {
+        "id": "2511.16629v1",
+        "title": "Stabilizing Policy Gradient Methods via Reward Profiling",
+        "authors": [
+          "Shihab Ahmed",
+          "El Houcine Bergou",
+          "Aritra Dutta",
+          "Yue Wang"
+        ],
+        "abstract": "Policy gradient methods, which have been extensively studied in the last decade, offer an effective and efficient framework for reinforcement learning problems. However, their performances can often be unsatisfactory, suffering from unreliable reward improvements and slow convergence, due to high variance in gradient estimations. In this paper, we propose a universal reward profiling framework that can be seamlessly integrated with any policy gradient algorithm, where we selectively update the p...",
+        "published": "2025-11-20T18:35:51Z",
+        "updated": "2025-11-20T18:35:51Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.16629v1",
+        "abs_url": "https://arxiv.org/abs/2511.16629v1",
+        "categories": [
+          "cs.LG",
+          "cs.AI",
+          "eess.SY"
+        ],
+        "primary_category": "cs.LG"
+      }
+    ],
+    "count": 15,
     "categories": [
       "cs.AI",
       "cs.LG",
       "cs.CL"
     ],
-    "fetch_date": "2025-11-21"
+    "fetch_date": "2025-11-22"
   },
   "metadata": {
     "source": "arXiv API",
     "query": "cat:cs.AI OR cat:cs.LG OR cat:cs.CL",
     "deduplication": {
-      "total_fetched": 0,
-      "new_papers": 0,
+      "total_fetched": 15,
+      "new_papers": 15,
       "duplicates_filtered": 0,
-      "last_fetch": "2025-11-20T09:04:05.061368"
+      "last_fetch": "2025-11-21T09:02:59.940474"
     }
   },
   "costs": {
-    "execution_time": 0.26193690299987793,
-    "execution_minutes": 0.004365615049997966,
-    "github_actions": 3.4924920399983726e-05,
+    "execution_time": 0.4654541015625,
+    "execution_minutes": 0.007757568359375,
+    "github_actions": 6.2060546875e-05,
     "openai": {
       "input": 0,
       "output": 0,
       "total": 0
     },
-    "total": 3.4924920399983726e-05,
+    "total": 6.2060546875e-05,
     "token_usage": {}
   }
 }
