@@ -2,501 +2,323 @@
   "agent": "phi-analyzer",
   "model": "Phi-4 Mini",
   "model_id": "microsoft/phi-4-mini-instruct",
-  "timestamp": "2025-11-21T18:12:51.250897",
+  "timestamp": "2025-11-22T00:28:56.189548",
   "status": "completed",
   "data": {
     "analyses": [
       {
         "article": {
-          "id": "news_0_1763748601",
+          "id": "news_0_1763771307",
+          "title": "Apple Launches Second Limited-Edition iPhone Accessory in a Month - MacRumors",
+          "description": "Apple Launches Second Limited-Edition iPhone Accessory in a Month\u00a0\u00a0MacRumorsApple\u2019s new limited edition iPhone grip is all about accessibility\u00a0\u00a0The VergeApple Debuts a New iPhone Accessory Designed With Accessibility in Mind\u00a0\u00a0ELLE DecorApple teamed up with another artist to make this iPhone grip and stand\u00a0\u00a0EngadgetBailey Hikawa makes an iPhone grip and stand that looks odd but is actually pure, powerful purpose\u00a0\u00a0TechRadar",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZjdwVHhvRXVMcllYMkNvdUlxVFNGVEZWZDBsaWl1d3N5SURfa0pDYXpTN2gzZXlRQ2pQdFg3Q3pJelVjUDh1UG5CdjdTaWl2NlRLTGhrMEdJblFpcm43XzVpRDl3ZVhaX05Nb2MwZjdtTUNrbVlfMExwR0JSX2NVcFRDRQ?oc=5",
+          "source": "MacRumors",
+          "published": "Fri, 21 Nov 2025 11:53:35 GMT",
+          "topic": "TECHNOLOGY",
+          "fetched_at": "2025-11-22T00:28:27.036201"
+        },
+        "analysis": {
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "error": "Unauthorized",
+          "error_type": "AuthenticationError",
+          "analyzed_at": "2025-11-22T00:28:41.669614",
+          "summary": "Analysis failed: Unauthorized",
+          "sentiment": "unknown"
+        }
+      },
+      {
+        "article": {
+          "id": "news_1_1763771307",
+          "title": "AirPods Pro 3 and AirPods 4 drop to their best prices yet for Black Friday Week [Updated] - 9to5Mac",
+          "description": "AirPods Pro 3 and AirPods 4 drop to their best prices yet for Black Friday Week [Updated]\u00a0\u00a09to5MacAirPods Pro 3 vs. AirPods 4: Which Apple Earbuds Should You Get for Black Friday?\u00a0\u00a0CNETAirPods now cost just $79.99 for Black Friday, but not at Amazon\u00a0\u00a0MashableAirPods 4 with ANC just hit the Amazon all-time low at $110 for Black Friday, AirPods Pro 3 at $220\u00a0\u00a09to5ToysApple did something with AirPods Pro 3 that I didn't think earbuds could pull off\u00a0\u00a0ZDNET",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNa0hHLWdMRm13NUVSWFhWOXJGdXdhZ3NuUDBwRkFiZ0p0SmhKaktvWjl0NjVKXzByRkMtQ0FkTTFUbUdYQ2dXSFZlMkU3OWVmUE9HMGY2LXhUT3RSVERtMV9uSVdqWFBqa2dRVk5LNHJXMTRfT0hEUWJaSW9OYlBubUVVOXpFbnFGN1BYTU1kN25OQmtm?oc=5",
+          "source": "9to5Mac",
+          "published": "Fri, 21 Nov 2025 21:02:00 GMT",
+          "topic": "TECHNOLOGY",
+          "fetched_at": "2025-11-22T00:28:27.036226"
+        },
+        "analysis": {
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "error": "Unauthorized",
+          "error_type": "AuthenticationError",
+          "analyzed_at": "2025-11-22T00:28:42.706566",
+          "summary": "Analysis failed: Unauthorized",
+          "sentiment": "unknown"
+        }
+      },
+      {
+        "article": {
+          "id": "news_2_1763771307",
+          "title": "You can now try the Xbox Full Screen Experience on any PC, laptop, or tablet - The Verge",
+          "description": "You can now try the Xbox Full Screen Experience on any PC, laptop, or tablet\u00a0\u00a0The VergeStarting today, Full Screen Experience for Windows 11 PCs is available for Xbox Insiders!\u00a0\u00a0Xbox WireMicrosoft built a Windows 11 shell for Xbox and gaming \u2014 so why can\u2019t we get one for phones?\u00a0\u00a0Windows CentralMicrosoft brings the Xbox Ally X's full screen experience to other handhelds\u00a0\u00a0EngadgetMicrosoft makes Full Screen Experience available to all Windows 11 gaming handhelds \u2014 highly requested feature no long",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOb2ViYVRHSVEwNzV5WVF3X0UycVdLWXBfOHpBQkFLWlpkTkgzRHllZzVJYmtJR253M2dNQUd5YkNJYWxZZ0hsT0tudkgzUkkzZjZSZTJYRmM0R2JCOFl5UmZFNUtFS3NCOHFJRjZSNW9FMVV2ZDkzTTlwaW01eHZNYlB3OTFoNXY1aXdPR25rbFljMm1zYTlmZThSbGJaSF9hYjZBQTZkenBrUEU?oc=5",
+          "source": "The Verge",
+          "published": "Fri, 21 Nov 2025 21:08:41 GMT",
+          "topic": "TECHNOLOGY",
+          "fetched_at": "2025-11-22T00:28:27.036270"
+        },
+        "analysis": {
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "error": "Unauthorized",
+          "error_type": "AuthenticationError",
+          "analyzed_at": "2025-11-22T00:28:43.742351",
+          "summary": "Analysis failed: Unauthorized",
+          "sentiment": "unknown"
+        }
+      },
+      {
+        "article": {
+          "id": "news_3_1763771307",
           "title": "PlayStation's 2025 Black Friday Sale is Live: $100 Off PS5 Consoles, 33% Off PS Plus, and More - IGN",
-          "description": "PlayStation's 2025 Black Friday Sale is Live: $100 Off PS5 Consoles, 33% Off PS Plus, and More\u00a0\u00a0IGNThe PlayStation 5 Slim and Pro are on sale for Black Friday\u00a0\u00a0The VergeSave $100 on PlayStation 5 NBA 2K26 bundle this Black Friday\u00a0\u00a0USA TodayDualSense Limited Edition PS5 Controllers On Sale For Black Friday\u00a0\u00a0GameSpotBlack Friday PS5 deals are live \u2013 I'm a PlayStation fanatic and I'm finding all the best offers\u00a0\u00a0TechRadar",
+          "description": "PlayStation's 2025 Black Friday Sale is Live: $100 Off PS5 Consoles, 33% Off PS Plus, and More\u00a0\u00a0IGNThe PlayStation 5 Slim and Pro are on sale for Black Friday\u00a0\u00a0The VergeBlack Friday PS5 deals are live \u2013 I'm a PlayStation fanatic and I'm finding all the best offers\u00a0\u00a0TechRadarDualSense Limited Edition PS5 Controllers On Sale For Black Friday\u00a0\u00a0GameSpotThe PlayStation Portal Gets a Rare Black Friday Discount as Part of PlayStation\u2019s Massive Sale\u00a0\u00a0IGN",
           "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNUmlNbm5abGJrdk9lQVlzX1hTcjZZdFBONW5hUmcwRG5IMGdaSl81akFSUUdKRzdSRXZnNmxoQVltMlBYZDZ6UTBhb3FZdTMzVjQ3R2hKa0g2R3hjWVd4QWp2b1A2djQtUlhySlhBQ0pMYXFLV1FnYVdXb3FKMW1XSUlZSHBMT0tENUE?oc=5",
           "source": "IGN",
           "published": "Fri, 21 Nov 2025 15:00:00 GMT",
           "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-21T18:10:01.243304"
+          "fetched_at": "2025-11-22T00:28:27.036295"
         },
         "analysis": {
-          "summary": "The article highlights the PlayStation 5's Black Friday sale, featuring significant discounts on the PS5 consoles, PS Plus, and various bundles. The sale is generating excitement among gaming enthusiasts.",
-          "key_points": [
-            "The PlayStation 5 has a Black Friday sale with significant discounts on the main console, PS Plus subscription, and bundles.",
-            "The sale is generating excitement among the PlayStation community.",
-            "Various sources are reporting on the sale and its deals."
-          ],
-          "sentiment": "Positive",
-          "confidence": "High",
-          "bias_check": "The article seems to be biased towards the PlayStation 5 and its sales, possibly due to the affiliation with IGN, a gaming website. The article doesn't mention any drawbacks or downsides of the sale, which might create a skewed perspective.",
-          "missing_context": "The article doesn't provide any information about the price before the sale, making it difficult to gauge the true value of the discounts. It also doesn't mention if similar deals are available for competitors like Xbox.",
-          "implications": "The sale could potentially boost PlayStation's sales and market share, especially if the discounts are significant enough to entice customers to switch or upgrade their consoles. It could also impact the gaming industry's competitive landscape.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-21T18:10:24.125439",
-          "token_usage": {
-            "prompt_tokens": 316,
-            "completion_tokens": 258,
-            "total_tokens": 574
-          }
+          "error": "Unauthorized",
+          "error_type": "AuthenticationError",
+          "analyzed_at": "2025-11-22T00:28:44.782610",
+          "summary": "Analysis failed: Unauthorized",
+          "sentiment": "unknown"
         }
       },
       {
         "article": {
-          "id": "news_1_1763748601",
-          "title": "Hands On With Google\u2019s Nano Banana Pro Image Generator - WIRED",
-          "description": "Hands On With Google\u2019s Nano Banana Pro Image Generator\u00a0\u00a0WIREDIntroducing Nano Banana Pro\u00a0\u00a0The KeywordWhat is Nano Banana Pro? Google\u2019s new AI tool lets you generate images\u00a0\u00a0USA TodayGoogle Says Gemini Will Now Be Able to Identify AI Images, but There's a Big Catch\u00a0\u00a0CNETGoogle\u2019s Nano Banana Pro generates excellent conspiracy fuel\u00a0\u00a0The Verge",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9hYWdvendiRGlQZ1lvb1ZEVi1XVjlsUHJieVcwTzh1VUx2a3QzQmgwY2NuYkJqMkZDZ3VzR21tS3lmMy1ZUlYtNE1QUDRBcndwSlM4UFVWak9kSHQtcUhHeklDdC1vQmNkdURZZw?oc=5",
-          "source": "WIRED",
-          "published": "Fri, 21 Nov 2025 00:21:00 GMT",
+          "id": "news_4_1763771307",
+          "title": "Ubisoft Reveals Teammates \u2013 An AI Experiment to Change the Game - Ubisoft",
+          "description": "Ubisoft Reveals Teammates \u2013 An AI Experiment to Change the Game\u00a0\u00a0UbisoftUbisoft Sets Generative-AI Game 'Teammates' From 'Neo NPC' Developers\u00a0\u00a0VarietyUbisoft says AI is 'as big a revolution for our industry as the shift to 3D,' its magical AI NPCs are out of prototyping, and you bet it's got 'all our studios' working with the tech\u00a0\u00a0PC GamerThe future of gaming, or \u2018just a tool\u2019? Hands-on with Teammates, Ubisoft\u2019s ambitious voice AI tech demo\u00a0\u00a0Video Games ChronicleUbisoft's first playable generat",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOT0NtUlJKSXlCTS15WjVXT0VBaUlZcko4bkdQYVh2NHdoMzZBS1R4VU9rQmZrWXpTY3dqWXYwOE05M0dZNkNfcnE3QXdmd0hKeksxa2R4enhnckZSTTliZUljLWdxQU8tbkNzTWY3TFRJQVBBNU1mM3d4U1YtZEc4NWZVdGxBTmpCbkpPZkFQdDJCeVVUR1E3aUJUWWlIWW1mVm80SFhXM1BPT0djZ3BtbV95Q2wyaEpDRURVSXp2cWQ?oc=5",
+          "source": "Ubisoft",
+          "published": "Fri, 21 Nov 2025 18:10:38 GMT",
           "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-21T18:10:01.243333"
+          "fetched_at": "2025-11-22T00:28:27.036320"
         },
         "analysis": {
-          "summary": "The article from WIRED introduces Google's Nano Banana Pro, an AI tool designed to generate images, which has sparked discussions about its capabilities, potential for creating conspiracy theories, and the broader implications of AI-generated content.",
-          "key_points": [
-            "The Nano Banana Pro image generator is a new Google AI tool that allows for the creation of images.",
-            "There are concerns about the potential for the tool to generate images that could be used as conspiracy fuel.",
-            "The tool's introduction raises questions about the future of AI in image generation and the ethical considerations involved."
-          ],
-          "sentiment": "mixed",
-          "confidence": "high",
-          "bias_check": "The article might emphasize the potential negative uses of the tool, such as conspiracy theories, while possibly underplaying its positive applications or the efforts to mitigate misuse.",
-          "missing_context": "The article does not provide detailed information on how Google plans to prevent the misuse of the tool, the specific features of the Nano Banana Pro, or how users are reacting to its launch beyond conspiracy theories.",
-          "implications": "The development of the Nano Banana Pro could have significant implications for the creative industry, the spread of misinformation, and the ethical use of AI technologies. It underscores the need for robust regulations and guidelines to manage the use of powerful generative AI tools responsibly.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-21T18:10:31.853433",
-          "token_usage": {
-            "prompt_tokens": 263,
-            "completion_tokens": 282,
-            "total_tokens": 545
-          }
+          "error": "Unauthorized",
+          "error_type": "AuthenticationError",
+          "analyzed_at": "2025-11-22T00:28:45.819159",
+          "summary": "Analysis failed: Unauthorized",
+          "sentiment": "unknown"
         }
       },
       {
         "article": {
-          "id": "news_2_1763748601",
-          "title": "Anker Black Friday deals include sales on power banks, wireless chargers, power adapters and more - Engadget",
-          "description": "Anker Black Friday deals include sales on power banks, wireless chargers, power adapters and more\u00a0\u00a0EngadgetAmazon just dropped its massive Black Friday deals on Anker chargers, power bricks, and portable power stations\u00a0\u00a0Popular ScienceAmazon Goes All In on Black Friday, Drops Triple 100W USB-C Laptop Power Bank to Mere Pennies\u00a0\u00a0GizmodoDon\u2019t miss Anker\u2019s tiny 100W USB-C GaN charger with 6-foot cable while it\u2019s down at $30 low\u00a0\u00a09to5ToysThis Compact Anker Power Station Is Now Just $100 During Amazo",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNS3Blb2pVQVJ1d3FGNU52WUpRNGFYMHN4TGlUZ2VYRjNQTDVWcWt0WmpXSEJabHA5RlVoYVQ5YWJlYUNuVVhVY2l6dl9rZlB2VGllNmV3YUJaeHBrQjJCSmd3cXBQQlFiYUxDYXdIa1hYclBPNVE4cFVkSmlEZTducUtiNmJtYU9EYS1abkNKRW5LZzZpQ1MtUWxOWlF6dlpDNWhzN0xsT294dVlXU2dWbW83TzMxZGNUMWVFeElNa2pESHNTaG9DWlc1NXJmUWN2MXB2VW9UcDM?oc=5",
-          "source": "Engadget",
-          "published": "Fri, 21 Nov 2025 15:41:20 GMT",
-          "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-21T18:10:01.243356"
-        },
-        "analysis": {
-          "summary": "Engadget reports substantial Black Friday deals on Anker's tech products, with power banks, wireless chargers, and power adapters being among the major items on offer. The low prices attract attention from tech enthusiasts looking to upgrade or replenish their devices with efficient charging solutions.",
-          "key_points": [
-            "Anker is offering steep discounts on its charging products during Black Friday.",
-            "Popular tech items such as power banks, chargers, and power adapters are included in the deals.",
-            "Anker's 100W USB-C power bank is being sold at an exceptionally low price, raising interest among consumers."
-          ],
-          "sentiment": "positive",
-          "confidence": "high",
-          "bias_check": "The article's focus on positive aspects of the deal, such as the low prices and the appeal to tech enthusiasts, could indicate a bias towards consumer excitement without mentioning any potential downsides.",
-          "missing_context": "The article does not provide information on the longevity of the deals or whether the prices are genuinely competitive in the long term. It also does not mention any potential drawbacks, such as limited stock or the inclusion of higher-priced items that don't offer as much value.",
-          "implications": "The deals could lead to a surge in sales for Anker, potentially increasing its market share and profitability. The popularity of these Black Friday deals may also set a precedent for other companies to offer similar discounts, impacting the broader retail strategy for tech products.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-21T18:10:40.113783",
-          "token_usage": {
-            "prompt_tokens": 318,
-            "completion_tokens": 306,
-            "total_tokens": 624
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_3_1763748601",
-          "title": "Shop rare price drops on new Apple tech at Amazon\u2019s Black Friday sale \ud83c\udf4e - USA Today",
-          "description": "Shop rare price drops on new Apple tech at Amazon\u2019s Black Friday sale \ud83c\udf4e\u00a0\u00a0USA TodayFor Black Friday, get the M4 MacBook Air that\u2019s only $150 more than the slower M1 model\u00a0\u00a0The VergeThe best Apple Black Friday deals on iPads, AirPods, MacBooks, Apple Watches and AirTags are already up to 39 percent off\u00a0\u00a0EngadgetApple Black Friday deal: up to $250 gift card with purchase of Mac, iPhone, iPad and more\u00a0\u00a09to5MacAmazon Goes Hard on Apple, Now Selling the MacBook Air at a New Low for Black Friday's Firs",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZF9EcHdSOTdEdXZWUmlTTkxnV1NTUVVCaEw1OFQyTXhsSHVzT0Nya01WQ1ptSFc5aHZkcHpTaUNfVnhfUUlUbVl5bGhpSlBUZGpnclRidkxDNHVwZU1wMk0tNFgtMUszUE93VXJTOU1tS2lTdDNOLU9JTlliUDBqNnVNbzIwRkpRakd6emllUUdBd3VSUUFlYTJjbTRKNUEzUUE?oc=5",
-          "source": "USA Today",
-          "published": "Thu, 20 Nov 2025 17:35:51 GMT",
-          "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-21T18:10:01.243402"
-        },
-        "analysis": {
-          "summary": "The USA Today article highlights the significant Black Friday discounts on various Apple products like the M4 MacBook Air, iPads, AirPods, MacBooks, Apple Watches, and AirTags, with some items like the M4 MacBook Air being less expensive than its predecessor, and others offering up to a $250 gift card with a purchase.",
-          "key_points": [
-            "Apple products are being heavily discounted during Black Friday.",
-            "The M4 MacBook Air is offered at a price point closer to the slower M1 model, indicating a price drop.",
-            "A significant gift card offer is available with certain Apple product purchases."
-          ],
-          "sentiment": "Mixed",
-          "confidence": "High",
-          "bias_check": "The article may display a bias towards promoting Black Friday sales, potentially overlooking the broader financial implications for Apple as a company or the impact on regular customers who may not be able to take advantage of these discounts.",
-          "missing_context": "The article does not provide information on the reasons behind the price drops, such as production costs, market strategy, or product lifecycle, nor does it consider the availability of these deals in other regions outside the USA.",
-          "implications": "The discounts could lead to increased sales volume for Apple during the Black Friday period, potentially impacting consumer behavior by encouraging purchases. It may also set a precedent for future pricing strategies or affect the perceived value of Apple products.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-21T18:10:52.416011",
-          "token_usage": {
-            "prompt_tokens": 325,
-            "completion_tokens": 302,
-            "total_tokens": 627
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_4_1763748601",
-          "title": "Stoke Space goes for broke to solve the only launch problem that \u201cmoves the needle\u201d - Ars Technica",
-          "description": "Stoke Space goes for broke to solve the only launch problem that \u201cmoves the needle\u201d\u00a0\u00a0Ars Technica",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNDNJU0xfMEdRSThyZmJmNzNqd0l1U2ZHTVViMXhXbTJZMjZRN2U0VFZRYlJJank3c3MtM3BTbV9RN3FkSExwSk92UnFlNjVLYXV3Uml2VW5HdkNtV01hWGtMVjJmU0tWWUFJZ3NWMnVRTkRTQWtkUTlTVlVjNWE5S2VXMGZOVktqMUU2VTNrZ0tqVFc0UHc0Ym03c1V0ZVY1Umk5bkJYR2RKazg?oc=5",
-          "source": "Ars Technica",
-          "published": "Fri, 21 Nov 2025 12:00:55 GMT",
-          "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-21T18:10:01.243413"
-        },
-        "analysis": {
-          "summary": "Stoke Space, a UK-based space company, is making a bold move to address a unique and critical issue in rocket launches by investing heavily in their solution, which they believe significantly impacts the launch process. The company\u2019s approach reflects both a commitment to innovation and the high stakes involved in the aerospace industry.",
-          "key_points": [
-            "Stoke Space is investing heavily in a novel solution to a critical and unique problem in rocket launches.",
-            "The company's willingness to go 'for broke' showcases their confidence and determination in solving a significant hurdle.",
-            "This move could potentially set a new precedent in how companies approach innovation in the aerospace sector."
-          ],
-          "sentiment": "Positive",
-          "confidence": "High",
-          "bias_check": "The article might present an overly optimistic view of Stoke Space\u2019s efforts without discussing the risks or challenges faced by such ambitious projects. Additionally, it could be biased towards success stories in the space industry, potentially ignoring or downplaying failures or controversies.",
-          "missing_context": "Details about the specific problem that Stoke Space is addressing, other companies' approaches to similar issues, and any potential downsides or challenges of their solution would provide a more balanced perspective.",
-          "implications": "Stoke Space\u2019s approach could inspire other companies to pursue bold solutions to technical challenges, potentially accelerating innovation in the aerospace industry. However, it also underscores the high risks and costs associated with such endeavors, which could influence the industry's investment strategies and risk assessments.",
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-21T18:11:00.445915",
-          "token_usage": {
-            "prompt_tokens": 220,
-            "completion_tokens": 313,
-            "total_tokens": 533
-          }
-        }
-      },
-      {
-        "article": {
-          "id": "news_0_1763748601",
-          "title": "Indian Air Force Tejas jet crashes at Dubai Air Show - DW",
-          "description": "Indian Air Force Tejas jet crashes at Dubai Air Show\u00a0\u00a0DWIndian Tejas fighter jet crashes in a ball of fire at Dubai Airshow, killing pilot\u00a0\u00a0ReutersIndian fighter jet pilot killed in crash at Dubai airshow\u00a0\u00a0BBCIndian fighter jet crashes during a demo flight at Dubai Air Show, killing the pilot\u00a0\u00a0ABC NewsFatal Crash Of India\u2019s Tejas Light Fighter Mars Dubai Airshow\u00a0\u00a0The War Zone",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPajFwS3Mxdi1SbHk5cVVOaUJvcXZUVUMtWVJvV2xIQXJHMHY0VDk2cDVxV3kxN2pyMjM1Qmh6VnFlQ1htYk96M1RpNkJvcWU4S0FGa3NKR3puNGV0dld5cjZObnhMTTdRdXZRT0dPREZPU0dqLXBGaXIyX1FHbXB3NmdHZWNMYXBuRFZBWjhB0gGOAUFVX3lxTE83OFdfenQ4Mld3UXdDckR5SE8wZG5OWktTTXZyUGNhemMwUHlBT3MwYS1ZcmxSeU81bUNaODllRWZ4N05wNG9iXzZRUE9sTG5jNEhXUHJFa2V0M2NnRzJEYUNvQkVvWDdPalVvUWwzMVRXNjlKeXBkRVVjMFZ3bHBqNU5XWEpKUHIwaGZ4eVE?oc=5",
-          "source": "DW",
-          "published": "Fri, 21 Nov 2025 12:44:00 GMT",
+          "id": "news_0_1763771307",
+          "title": "Grizzly bear on loose after attacking school group in Canada, injuring 11 - BBC",
+          "description": "Grizzly bear on loose after attacking school group in Canada, injuring 11\u00a0\u00a0BBCGrizzly bears in B.C.: What you need to know\u00a0\u00a0Vancouver SunEleven injured after grizzly bear attacks schoolchildren and teachers in Canada\u00a0\u00a0The Guardian3 Children Are Injured in Grizzly Bear Attack in British Columbia\u00a0\u00a0The New York TimesGrizzly bear attacks group of students and teachers in western Canada\u00a0\u00a0CBS News",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9xQzZxT05NSmwwdm9uNW5lTUhrNlVHeWpoMXZwcjkxSy1zODdxVmpUbmJ3aEJJZjFsSlVJc2tGZ21xYmxLeXZYbWtrMVZOWEZ1YmhLbnJwZ3Fpd9IBX0FVX3lxTFBsQnRMa0VHemxaMWVaT0RLRUJxSmtEdGlmZXd4QlJ1cVFPd0w3V1cxNEJ1eEhKOWZMYnA0WTNIU0RzTmVDaUFzWmJVQkZSdFNPNkFDdXhmWTJyUWlqYTJJ?oc=5",
+          "source": "BBC",
+          "published": "Fri, 21 Nov 2025 21:05:30 GMT",
           "topic": "WORLD",
-          "fetched_at": "2025-11-21T18:10:01.364464"
+          "fetched_at": "2025-11-22T00:28:27.083309"
         },
         "analysis": {
-          "summary": "An Indian Air Force Tejas jet crashed during a demonstration flight at the Dubai Air Show, resulting in the death of the pilot. This incident raises concerns about the safety and reliability of the Tejas jet.",
-          "key_points": [
-            "Indian Air Force Tejas jet crashed during a demo flight at the Dubai Air Show, killing the pilot.",
-            "This incident casts doubt on the safety and reliability of the Tejas jet.",
-            "The crash occurred during a high-profile event, highlighting potential risks in military aviation demonstrations."
-          ],
-          "sentiment": "negative",
-          "confidence": "high",
-          "bias_check": "The article might emphasize the negative aspects of the incident and overlook any positive attributes of the Tejas jet or the context of military aviation demonstrations.",
-          "missing_context": "The article does not provide the pilot's background, the history of the Tejas jet's performance, or the nature of the demonstration flight. Additionally, it does not offer any perspective from Indian Air Force or defense experts.",
-          "implications": "This incident could impact public confidence in India's military aviation capabilities, lead to increased scrutiny of the Tejas jet, and possibly influence future decisions regarding military air shows and demonstrations. It also raises safety concerns for pilots and organizers of similar events worldwide.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-21T18:11:07.712681",
-          "token_usage": {
-            "prompt_tokens": 274,
-            "completion_tokens": 273,
-            "total_tokens": 547
-          }
+          "error": "Unauthorized",
+          "error_type": "AuthenticationError",
+          "analyzed_at": "2025-11-22T00:28:46.854721",
+          "summary": "Analysis failed: Unauthorized",
+          "sentiment": "unknown"
         }
       },
       {
         "article": {
-          "id": "news_1_1763748601",
+          "id": "news_1_1763771307",
           "title": "Japan\u2019s Takaichi Rejects China Demand to Retract Taiwan Remarks - Bloomberg.com",
-          "description": "Japan\u2019s Takaichi Rejects China Demand to Retract Taiwan Remarks\u00a0\u00a0Bloomberg.comThe real reason behind China\u2019s fury toward Japan\u2019s Takaichi\u00a0\u00a0CNNJapan\u2019s New Leader Mentions Taiwan, and Tanks Her Relationship With China\u00a0\u00a0The New York TimesJapanese concerts in China are getting abruptly canceled as tensions simmer\u00a0\u00a0CNBCJapan Tourism Faces $1.2 Billion Hit as Trip Cancellations Spike on China Rift\u00a0\u00a0Bloomberg.com",
+          "description": "Japan\u2019s Takaichi Rejects China Demand to Retract Taiwan Remarks\u00a0\u00a0Bloomberg.comThe real reason behind China\u2019s fury toward Japan\u2019s Takaichi\u00a0\u00a0CNNChina & Taiwan Update November 21, 2025\u00a0\u00a0Institute for the Study of WarJapanese concerts in China are getting abruptly canceled as tensions simmer\u00a0\u00a0CNBCChina unleashes 'wolf warriors' in diplomatic duel with Japan\u00a0\u00a0Reuters",
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMkJ6SklIbG5ONWtCUlJyZ09ZSXFXa24wUWpLNXJCNHFhOWFybEpTY3U5bEtwbS1KWDRDclBXaDFyVGNORkVtOEpNSXNualpFNHoyZzBPUG5sRUFOT1pTSGJfYlJDazFqRUp2S3ZzcHJpWkc4RDhGaVdtaC1FdlNqY1c2LTAyWWdtU2Q0OU1VMGtDUVR1WXJ1cS16ZGhHQll6V20yRkwtSmtWQjlpZHNBOTBHdy0?oc=5",
           "source": "Bloomberg.com",
           "published": "Fri, 21 Nov 2025 14:25:19 GMT",
           "topic": "WORLD",
-          "fetched_at": "2025-11-21T18:10:01.364495"
+          "fetched_at": "2025-11-22T00:28:27.083346"
         },
         "analysis": {
-          "summary": "The Japanese Prime Minister, Takaichi, has refused to retract remarks about Taiwan, leading to increased tensions with China and resulting in the cancellation of Japanese concerts in China, highlighting the fragile nature of Japan-China relations and the economic impact of political disputes on tourism.",
-          "key_points": [
-            "Takaichi's refusal to apologize for comments about Taiwan has angered China, causing diplomatic strain and affecting cultural exchanges.",
-            "The incident underscores the complex geopolitical dynamics in East Asia, particularly the relationships between China, Japan, and Taiwan.",
-            "The fallout from this event has had a financial impact on Japan's tourism sector, with trip cancellations leading to significant revenue losses."
-          ],
-          "sentiment": "mixed",
-          "confidence": "high",
-          "bias_check": "The article may present a Western perspective on the issue, potentially framing the situation in terms of Western political and economic interests. It could also emphasize Japan's defiance over the potential for diplomatic resolution.",
-          "missing_context": "The article does not provide Takaichi's specific remarks about Taiwan, nor does it mention the historical context of Japan-China-Taiwan relations, which are crucial for understanding the full scope of the issue.",
-          "implications": "The incident could lead to a cooling of diplomatic relations between Japan and China and may influence future policy decisions. It also demonstrates how political statements can have immediate economic repercussions, potentially serving as a warning to other nations about the risks of straining international relations.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-21T18:11:27.307245",
-          "token_usage": {
-            "prompt_tokens": 285,
-            "completion_tokens": 312,
-            "total_tokens": 597
-          }
+          "error": "Unauthorized",
+          "error_type": "AuthenticationError",
+          "analyzed_at": "2025-11-22T00:28:47.891030",
+          "summary": "Analysis failed: Unauthorized",
+          "sentiment": "unknown"
         }
       },
       {
         "article": {
-          "id": "news_2_1763748601",
-          "title": "Grizzly bear on loose after attacking school group in Canada, injuring 11 - BBC",
-          "description": "Grizzly bear on loose after attacking school group in Canada, injuring 11\u00a0\u00a0BBCEleven injured after grizzly bear attacks schoolchildren and teachers in Canada\u00a0\u00a0The GuardianGrizzly bear attack reported in Canada's British Columbia province\u00a0\u00a0ABC NewsGrizzly bear attacks group of students and teachers in western Canada\u00a0\u00a0CBS News2 in critical condition after grizzly bear attack involving students in Bella Coola: officials\u00a0\u00a0CBC",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9xQzZxT05NSmwwdm9uNW5lTUhrNlVHeWpoMXZwcjkxSy1zODdxVmpUbmJ3aEJJZjFsSlVJc2tGZ21xYmxLeXZYbWtrMVZOWEZ1YmhLbnJwZ3Fpd9IBX0FVX3lxTFBsQnRMa0VHemxaMWVaT0RLRUJxSmtEdGlmZXd4QlJ1cVFPd0w3V1cxNEJ1eEhKOWZMYnA0WTNIU0RzTmVDaUFzWmJVQkZSdFNPNkFDdXhmWTJyUWlqYTJJ?oc=5",
-          "source": "BBC",
-          "published": "Fri, 21 Nov 2025 14:55:18 GMT",
+          "id": "news_2_1763771307",
+          "title": "Cop30 delegates \u2018far apart\u2019 on phasing out fossil fuels and cutting carbon - The Guardian",
+          "description": "Cop30 delegates \u2018far apart\u2019 on phasing out fossil fuels and cutting carbon\u00a0\u00a0The Guardian'A lot of fighting': Fossil fuel row breaks out at UN climate summit\u00a0\u00a0BBCThe sad, sorry state of COP\u00a0\u00a0Politico\u2018It\u2019s like arguing with robots\u2019: negotiators on the state of Cop30 talks\u00a0\u00a0The GuardianCOP30 host Brazil urges unity as climate summit deadlocked over fossil fuels\u00a0\u00a0Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQNU9TZzhSZmdQZnVRMVlDWmpZM0lyNm9fNU44QUhKc1JKWWY4N0pVQ2Z5V0tnUmtrU0RTcXhSUzlhbEdaVFduWnVFVzhIYzdaZmVsNFo4NUxPWkEwQmRIbk84S2JXTC13QVduNk95VVFlZlVrbDVRZW5jdjJoS0wxOHVGLUtrZ3pOVmkzb1ZWdkFjMjEtaXBGeTd0cm56dXZDcWkyTXFZd3ZCR1JQcXh0RmVSZkEyaUdsdG1NbFl4OFpQdw?oc=5",
+          "source": "The Guardian",
+          "published": "Fri, 21 Nov 2025 21:41:00 GMT",
           "topic": "WORLD",
-          "fetched_at": "2025-11-21T18:10:01.364515"
+          "fetched_at": "2025-11-22T00:28:27.083368"
         },
         "analysis": {
-          "summary": "A grizzly bear attack in Canada's British Columbia province resulted in 11 injuries, including 2 people in critical condition, after the bear came into contact with a school group. The incident highlights the dangers of human-wildlife interactions in regions where bears roam freely around populated areas.",
-          "key_points": [
-            "Grizzly bear attack in British Columbia has injured 11 people, including 2 in critical condition.",
-            "The incident involved schoolchildren and teachers, emphasizing the risk to humans in areas inhabited by bears.",
-            "The bear's behavior suggests a possible bear habituation to human presence, raising concerns about safety measures in place."
-          ],
-          "sentiment": "Negative",
-          "confidence": "High",
-          "bias_check": "The story may highlight negative outcomes to emphasize the dangers of wildlife encounters. It may not provide enough context on preventive measures or bear behavior studies in the area.",
-          "missing_context": "The story might not fully explain the local wildlife management practices, the history of bear sightings in the area, or the specific circumstances leading to the encounter.",
-          "implications": "This incident could lead to stricter wildlife management policies, increased education on wildlife safety, and possibly more funding for research on human-wildlife conflict resolution.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-21T18:11:34.657018",
-          "token_usage": {
-            "prompt_tokens": 279,
-            "completion_tokens": 268,
-            "total_tokens": 547
-          }
+          "error": "Unauthorized",
+          "error_type": "AuthenticationError",
+          "analyzed_at": "2025-11-22T00:28:48.931252",
+          "summary": "Analysis failed: Unauthorized",
+          "sentiment": "unknown"
         }
       },
       {
         "article": {
-          "id": "news_3_1763748601",
+          "id": "news_3_1763771307",
           "title": "Former Reform U.K. Politician Sent to Prison for Taking Pro-Russia Bribes - The New York Times",
-          "description": "Former Reform U.K. Politician Sent to Prison for Taking Pro-Russia Bribes\u00a0\u00a0The New York TimesStarmer demands investigation into Reform-Russia links after party's ex-Wales leader jailed\u00a0\u00a0Sky NewsReform UK\u2019s former Wales leader jailed for taking bribes for pro-Russia speeches\u00a0\u00a0The GuardianThe ex-Reform UK leader who took bribes, made pro-Russia speeches\u00a0\u00a0BBCEx-Farage Ally Gets 10.5 Years in Jail for Taking Pro-Russian Bribes\u00a0\u00a0Bloomberg.com",
+          "description": "Former Reform U.K. Politician Sent to Prison for Taking Pro-Russia Bribes\u00a0\u00a0The New York TimesFormer key figure in UK populist party Reform jailed for taking bribes to make pro-Russia statements\u00a0\u00a0CNNEx-Farage Ally Gets 10.5 Years in Jail for Taking Pro-Russian Bribes\u00a0\u00a0Bloomberg.comReform UK's former Wales leader Nathan Gill is being sentenced over pro-Russia bribes\u00a0\u00a0BBCFarage\u2019s views on Russia likely to be further tested after jailing of Nathan Gill\u00a0\u00a0The Guardian",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQY1JUckRyWFZPU1JtSnZJZ1AxOFBUNDBiWmltMEtXTzlOTDBnOVZqSlZYNkY5dkZTZXJiUWZzYWxjcjR2Q3VUWThXQnNwbEpQX0N3YnlrUllFa1dZV0xjbVZRclZaYndUT3hJS1hzTndwd2cyTS0yY0ZMeVF6eDF4WjdvLVBqLVpNX29wNFpyd2Vzdw?oc=5",
           "source": "The New York Times",
           "published": "Fri, 21 Nov 2025 16:50:02 GMT",
           "topic": "WORLD",
-          "fetched_at": "2025-11-21T18:10:01.364537"
+          "fetched_at": "2025-11-22T00:28:27.083390"
         },
         "analysis": {
-          "summary": "A former UK politician from the Reform Party, who served as the leader of the party in Wales, has been sentenced to 10.5 years in prison for taking bribes in exchange for making pro-Russia speeches. This case has sparked calls for further investigation into the party's links with Russia, raising concerns about the integrity of political processes and the influence of foreign interference in domestic politics.",
-          "key_points": [
-            "A former Reform Party leader in Wales has been jailed for taking bribes in exchange for pro-Russia speeches.",
-            "The case has prompted calls for an investigation into the Reform Party's connections with Russia.",
-            "This situation highlights potential issues regarding foreign interference in domestic politics and the importance of political transparency."
-          ],
-          "sentiment": "Mixed",
-          "confidence": "High",
-          "bias_check": "Potential biases could include the political leanings of the publication, the angle of reporting, or the emphasis on the involvement of a specific party over others. The article may also be influenced by the current geopolitical climate regarding Russia.",
-          "missing_context": "Important context might include the politician's career history, the specific nature of the bribes and speeches, and the extent of the Reform Party's overall connections with Russia. Additionally, the response of the public and the political community to this event could provide further insight.",
-          "implications": "This case could have broader implications for political integrity, the scrutiny of party funding sources, and the significance of vigilance against foreign interference in democratic processes. It may also affect public trust in political institutions and lead to increased calls for transparency and accountability.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-21T18:11:49.031290",
-          "token_usage": {
-            "prompt_tokens": 308,
-            "completion_tokens": 338,
-            "total_tokens": 646
-          }
+          "error": "Unauthorized",
+          "error_type": "AuthenticationError",
+          "analyzed_at": "2025-11-22T00:28:49.965674",
+          "summary": "Analysis failed: Unauthorized",
+          "sentiment": "unknown"
         }
       },
       {
         "article": {
-          "id": "news_4_1763748601",
-          "title": "EU threatens to block \u2018weak\u2019 COP30 deal - Politico",
-          "description": "EU threatens to block \u2018weak\u2019 COP30 deal\u00a0\u00a0PoliticoCOP30: UN climate summit drops mention of fossil fuels from draft deal\u00a0\u00a0BBC\u2018It\u2019s like arguing with robots\u2019: negotiators on the state of Cop30 talks\u00a0\u00a0The GuardianWhat\u2019s at stake in the COP30 negotiations?\u00a0\u00a0UN NewsCOP30 host urges unity as summit heads for final showdown over fossil fuels\u00a0\u00a0Reuters",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNWVViZHdBa0h6Y2h3eTVmNFJFR0k1Q3VIZ2JyN2gwaVU2X3Z6UEg1SngyWmotV3VFOEJqYm91bTZNeTVnVFg0OUVqaFdSdnY4aHlkWTlLLTBCSWhGVk42U3BURDdENWpVdjZWbUNRS0NnQ0ZvX0hMcjZHemM3WWRsN01MbjVDaG8tWnpRVDIybm8?oc=5",
-          "source": "Politico",
-          "published": "Fri, 21 Nov 2025 16:14:54 GMT",
+          "id": "news_4_1763771307",
+          "title": "Indian fighter jet crashes during a demo flight at Dubai Air Show, killing the pilot - ABC News",
+          "description": "Indian fighter jet crashes during a demo flight at Dubai Air Show, killing the pilot\u00a0\u00a0ABC NewsIndian Tejas fighter jet crashes in a ball of fire at Dubai Airshow, killing pilot\u00a0\u00a0ReutersIndian fighter jet pilot killed in crash at Dubai airshow\u00a0\u00a0BBCIndian fighter jet crashes during demo flight at Dubai Air Show, killing the pilot - AP Explains\u00a0\u00a0YahooPilot Dies As Tejas Fighter Jet Crashes, Bursts Into Flames At Dubai Air Show\u00a0\u00a0NDTV",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZHZyZTU4VHMwN0EzS0VuRVlhMUlYbDY3VExJQ1I0Q3ctZ1ZNcVU0TVhPWEJMWUhGc2VjTEltSGFJbHA1MWx6eWpQbXpxdEZlNnpDRF9iZEZ3YkZhZ2VnR0RpazhmU1B1M3RoNTBhZUJmNlVMVGlhVGU0aGFxLThzY04zb3JRVjIwdnRUTDJwS0RnQkg2azF2S18yZ3pkeTRyVllVb3pGcGV2aERFM083VdIBtgFBVV95cUxNSF9fY0RnS01CLVNsM1cwOVVaY1ZVdldWbWVyMktyME5tOXBoSC1Ha3ljYXYwdmVXanA5UDlCUklpbU1mVkFnWmtrd01fWXRLN1VlQ3FoMkdMVHpSa2NlQk1kOWlMdXZSOG1heFBZRUM1RU1YZEk1cXB3b3RlYXhWQzQyUXpBeHp4V0lqWXJoLWtzUXRSak5RT2dNc1ZzRHJrMXJyNHhiR1FueF8ySzZZUVBnbkZrdw?oc=5",
+          "source": "ABC News",
+          "published": "Fri, 21 Nov 2025 17:51:13 GMT",
           "topic": "WORLD",
-          "fetched_at": "2025-11-21T18:10:01.364555"
+          "fetched_at": "2025-11-22T00:28:27.083409"
         },
         "analysis": {
-          "summary": "The EU has threatened to block a COP30 climate deal it deems 'weak' as it fails to adequately address the issue of fossil fuels, amidst growing tensions and a lack of progress in the negotiations.",
-          "key_points": [
-            "The EU's stance represents a significant pushback against the draft COP30 agreement.",
-            "The failure to mention fossil fuels in the deal is a contentious issue for many countries.",
-            "The COP30 summit, known as COP30, is reaching a critical juncture with the final showdown on fossil fuels."
-          ],
-          "sentiment": "Negative",
-          "confidence": "High",
-          "bias_check": "The story may reflect a bias towards the EU's perspective, as it heavily emphasizes the EU's dissatisfaction without extensive coverage of the rationale from other negotiating parties.",
-          "missing_context": "The motivations and positions of other key stakeholders, like China, USA, or smaller countries, are not detailed, which could provide a more balanced view. Additionally, the specific reasons why the EU deems the deal 'weak' are not fully explained.",
-          "implications": "This disagreement could lead to a significant impasse in the COP30 negotiations, potentially undermining global efforts to combat climate change. The EU's threat to block the deal might also influence other countries' positions and willingness to compromise.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-21T18:11:56.654980",
-          "token_usage": {
-            "prompt_tokens": 271,
-            "completion_tokens": 283,
-            "total_tokens": 554
-          }
+          "error": "Unauthorized",
+          "error_type": "AuthenticationError",
+          "analyzed_at": "2025-11-22T00:28:51.003894",
+          "summary": "Analysis failed: Unauthorized",
+          "sentiment": "unknown"
         }
       },
       {
         "article": {
-          "id": "news_0_1763748601",
-          "title": "Futures Rise, Bitcoin Dives After Bears Maul Bulls - Investor's Business Daily",
-          "description": "Futures Rise, Bitcoin Dives After Bears Maul Bulls\u00a0\u00a0Investor's Business DailyWhat on Earth just happened to the stock market?\u00a0\u00a0CNNStock Market Today: Dow Rises; Global Chip Stocks Drop; Bitcoin Falls Further \u2014 Live Markets\u00a0\u00a0The Wall Street JournalCNBC Daily Open: From AI enthusiasm to bubble worries in one day\u00a0\u00a0CNBCUS, global stocks set for weekly declines amid tech valuation concerns, mixed Fed messages\u00a0\u00a0Reuters",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOTHRTT1EzRHlISTJhZkgweEpmY2xvSTU4SU1GbndYVU43WnNzcm9VZElvZWd4UHp4bWZEbzJsVTg0TDQwVkxpU2dQV3RJV2hvdVRrTDNuYk9tZnJvS3J6aGdTNWlEU212dGgxd3NlbnhSSE1qYXVjY2ZmZFh0ZTBPSUVkc2ZHYm1ZRHBIQXNSdWI5X01WNzZhbTVYb0cwNlBlbEFEYVNSWnJMTEpobkZEUjlVV2kxVDQ4Q0cxM2lkUENiTzFs?oc=5",
+          "id": "news_0_1763771307",
+          "title": "Stock Market Tumbles On Nvidia, Bitcoin; Walmart, Google Strong: Weekly Review - Investor's Business Daily",
+          "description": "Stock Market Tumbles On Nvidia, Bitcoin; Walmart, Google Strong: Weekly Review\u00a0\u00a0Investor's Business DailyMore swings hit Wall Street, but this time stocks finish higher\u00a0\u00a0AP NewsStock market today: Dow, S&P 500, Nasdaq wipe out gains in sharp reversal lower as Nvidia slides\u00a0\u00a0Yahoo FinanceCNBC Daily Open: From AI enthusiasm to bubble worries in one day\u00a0\u00a0CNBCWhy were stocks down today? What to know as Dow gives up 700-point gain\u00a0\u00a0USA Today",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxORXNtSTNpX25La1k0cTNpcTFZbDJ4ekR5YmczWW9yUVF3S0ZjYlJOUXh6aTMtYjVFZXI5MHVSUnRCT1hCSTE4ei13aW5mSFVsc0V4eUN0S0sxWUtpRHA3aUNYdnVxdHcxTUp0bGhUQWpZN0c5ZFB1N3NiRlMtSmN5d1FJbDZFemRhZ09kNHlDNjhGTlE?oc=5",
           "source": "Investor's Business Daily",
-          "published": "Fri, 21 Nov 2025 13:15:00 GMT",
+          "published": "Fri, 21 Nov 2025 17:41:00 GMT",
           "topic": "BUSINESS",
-          "fetched_at": "2025-11-21T18:10:01.433338"
+          "fetched_at": "2025-11-22T00:28:27.125767"
         },
         "analysis": {
-          "summary": "The article discusses a volatile market where futures indices rose while Bitcoin experienced a significant decline. The strong bearish sentiment against bulls, as reflected in the title, indicates a tumultuous trading day with contrasting movements in different asset classes.",
-          "key_points": [
-            "Futures indices saw an increase, indicating a potential positive outlook for those markets.",
-            "Bitcoin suffered a substantial drop, reflecting ongoing bearish sentiment towards the cryptocurrency.",
-            "The market's mixed reactions suggest investor confusion or caution amidst various influencing factors."
-          ],
-          "sentiment": "Mixed",
-          "confidence": "High",
-          "bias_check": "The title may introduce a bias by using 'Bears Maul Bulls,' which suggests a dramatic battle between opposing market forces. This could exaggerate the market's volatility or sentiment.",
-          "missing_context": "The article does not provide details on the specific reasons behind the futures rise or the Bitcoin decline. Additionally, it lacks context on the market's performance over a more extended period or the impact of external factors such as economic announcements or geopolitical events.",
-          "implications": "The contrasting movements in futures and Bitcoin highlight the fragmented nature of the market, where different asset classes can react differently to the same events. This may indicate a need for investors to diversify their portfolios to manage risk. The mixed sentiment could also reflect uncertainty about the future direction of the market, potentially leading to cautious investment strategies.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-21T18:12:04.291122",
-          "token_usage": {
-            "prompt_tokens": 285,
-            "completion_tokens": 296,
-            "total_tokens": 581
-          }
+          "error": "Unauthorized",
+          "error_type": "AuthenticationError",
+          "analyzed_at": "2025-11-22T00:28:52.040875",
+          "summary": "Analysis failed: Unauthorized",
+          "sentiment": "unknown"
         }
       },
       {
         "article": {
-          "id": "news_1_1763748601",
-          "title": "Bitcoin, XRP and Dogecoin Pummeled as Crypto Liquidations Top $2.2 Billion - Decrypt",
-          "description": "Bitcoin, XRP and Dogecoin Pummeled as Crypto Liquidations Top $2.2 Billion\u00a0\u00a0DecryptBitcoin continues slide that's roiling markets, threatens to break below $80,000\u00a0\u00a0CNBCIt Was Supposed to Be Crypto\u2019s Year. Then Came the Crash.\u00a0\u00a0The Wall Street JournalCrypto plunge wipes out nearly $400 billion in a week\u00a0\u00a0AxiosBitcoin sinks to $83,000 Friday. Here\u2019s why stock-market investors are keeping close watch.\u00a0\u00a0MarketWatch",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNU016UXRtQ0JHWTRGd0xjeFhHV3FUS3pOUEVGbk9XTWV6aDV4WDNfRE9lemhMWlVCYV9yRndmVkEyRGRZWW1paVEtZXhxd19nUVh0VXhVQnN5cXBpNEVraXlNanFIVnlweXlQUGZEOWp2Yy1JeFNoMmdnazR3MUx3MVl5WEN2M0s4SVlRMmhKZjNGVmJ1QUHSAZ4BQVVfeXFMTXY5X2VGTDNTWkhFMG9xWUxsVkxzbElLZmRtLWxwTXRBbmRYLTVqcnVOc3BmazRGS1BZV1dBT0NWcjZtUGc3UnZGOFpmVDBRdHVzSWZXNDZLRkxUbnVBT3ZrdHVualc4aWtBSUtaZXFIcDdJR0twY3lydnM5QnZvU2JldXZGR21TMlNmOWQtbGJsei1ra3ZyTHZRNzBrdVE?oc=5",
-          "source": "Decrypt",
-          "published": "Fri, 21 Nov 2025 15:33:54 GMT",
+          "id": "news_1_1763771307",
+          "title": "Why trouble for the biggest foreign buyer of U.S. debt could ripple through America\u2019s bond market - MarketWatch",
+          "description": "Why trouble for the biggest foreign buyer of U.S. debt could ripple through America\u2019s bond market\u00a0\u00a0MarketWatchJapan announces $135 billion stimulus, NHK reports, in bid to support economy and consumers\u00a0\u00a0CNBCBreakingviews - Japan PM's big fiscal splurge looks self-defeating\u00a0\u00a0ReutersFrom 'Widow-Maker' to market shaker: Why Japan\u2019s bonds are sending shockwaves globally\u00a0\u00a0Times of IndiaTakaichi unveils $135bn stimulus to spur Japan growth\u00a0\u00a0Financial Times",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQSWRlWTBZWGZBbEx6SjJrcERoUTF2UC1McjA1d3pUNzhZSE9ZelRod2MyUUdYdVVGZ3g3WTlqal9OcjlwYkR0Ty1pQXBhUnR4bW0td2Q1YndBbU84NEZ0Z0lhMkZOc3g4OEQxRnU1MGdJcWs3UzhBbDJZRHJzYzBfeWd6MUtsT293QUNjZGVkeHNPeWRqNEwzalpBOEg3WHdHQVBYdkFuV0ZtTURNSzBleHA1N1NPX053c2w5OWVnXzlMeXlwNjJRYUFYQktwbThDc05xQg?oc=5",
+          "source": "MarketWatch",
+          "published": "Fri, 21 Nov 2025 20:41:00 GMT",
           "topic": "BUSINESS",
-          "fetched_at": "2025-11-21T18:10:01.433363"
+          "fetched_at": "2025-11-22T00:28:27.125796"
         },
         "analysis": {
-          "summary": "The article discusses a significant drop in cryptocurrency values, specifically Bitcoin, XRP, and Dogecoin, leading to a total of $2.2 billion in liquidations, with Bitcoin nearing a critical threshold below $80,000, causing alarm among stock-market investors and reflecting a tumultuous period labeled as 'Crypto\u2019s Year' that ended in a sharp market crash.",
-          "key_points": [
-            "Bitcoin, XRP, and Dogecoin experienced substantial declines leading to $2.2 billion in liquidations.",
-            "Bitcoin's price is close to a critical level of $80,000, which investors are watching closely.",
-            "The market crash wiped out nearly $400 billion in a week, indicating a volatile and unstable crypto market."
-          ],
-          "sentiment": "Negative",
-          "confidence": "High",
-          "bias_check": "The article may have a negative bias, focusing on the losses and downturn without equally discussing potential reasons for the market's fluctuation or the positive aspects of the crypto market.",
-          "missing_context": "There may be missing context regarding the overall market conditions, including other cryptocurrencies' performances, macroeconomic factors, or regulatory news that could have influenced the crash.",
-          "implications": "The implications of this story suggest a high level of volatility in the cryptocurrency market, which could affect investor confidence and lead to tighter regulation. It also highlights the potential risks associated with investing in cryptocurrencies and the importance of market analysis for potential investors.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-21T18:12:12.072241",
-          "token_usage": {
-            "prompt_tokens": 298,
-            "completion_tokens": 307,
-            "total_tokens": 605
-          }
+          "error": "Unauthorized",
+          "error_type": "AuthenticationError",
+          "analyzed_at": "2025-11-22T00:28:53.076406",
+          "summary": "Analysis failed: Unauthorized",
+          "sentiment": "unknown"
         }
       },
       {
         "article": {
-          "id": "news_2_1763748601",
-          "title": "Goldman Sachs, JPMorgan and BofA drop verdicts on Nvidia earnings - TheStreet",
-          "description": "Goldman Sachs, JPMorgan and BofA drop verdicts on Nvidia earnings\u00a0\u00a0TheStreetNvidia's reversal stuns the tech world. What the charts say happens next with the stock\u00a0\u00a0CNBCThe market is one stock now\u00a0\u00a0AxiosNVIDIA Announces Financial Results for Third Quarter Fiscal 2026\u00a0\u00a0NVIDIA NewsroomNvidia Stock Gives Back Gains After Earnings. Where Shares Could Go Next.\u00a0\u00a0Barron's",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRy1xN0tkVjdWc3RtYi1UWkhEeXE4STVCaGVJNHRFU0V4RU1Lem9QOWwwM2cydGJyYnRCVmZ5SEdzR3o5eUc3MFhrcXlRMWUzQzU3NDU4SkdnaHlVUUJkR0I0RExBVFBzQVRpSC02WU5XVVdmX0otZlFhREJMU3Z2VV83VHpPejZHRTVvRzdmS0JZOW5BYmNwbzBfeFNtUnh0Z09fMGJOeWRmdHM?oc=5",
-          "source": "TheStreet",
-          "published": "Fri, 21 Nov 2025 13:07:00 GMT",
+          "id": "news_2_1763771307",
+          "title": "Tyson to Close One of the Biggest Beef-Processing Plants in the U.S. - The Wall Street Journal",
+          "description": "Tyson to Close One of the Biggest Beef-Processing Plants in the U.S.\u00a0\u00a0The Wall Street JournalTyson Foods announces it will end operations at Lexington facility\u00a0\u00a0Central Nebraska TodayTyson Foods to close US beef plant as cattle supplies dwindle\u00a0\u00a0ReutersKRVN 880 \u2013 KRVN 93.1 \u2013 KAMI - Tyson to Close Lexington Beef Plant\u00a0\u00a0Rural Radio NetworkTyson Foods to close major beef-processing plant in Lexington\u00a0\u00a0knopnews2.com",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPemd3Ri1pdm5hbEVwR2IyaE5ORm9iMTExZVNlTzJQdGs4ejJhUkxWZFpKeVB1V2VaU3c2cXA0d3BHUEhseC1jU1oxbmtZVlZDanF1b1o2TVo1X2x1cU1FaHdJNUlIa0FzMDY3bGNKaEd3QzhuU2JGUExxT2JjeEE0aFczNjRmQVlZd2R4d0RFZXNRU0UwbVh2bE1tOThUbldwNlduOUNYQms?oc=5",
+          "source": "The Wall Street Journal",
+          "published": "Sat, 22 Nov 2025 00:07:00 GMT",
           "topic": "BUSINESS",
-          "fetched_at": "2025-11-21T18:10:01.433398"
+          "fetched_at": "2025-11-22T00:28:27.125819"
         },
         "analysis": {
-          "summary": "{\n  \"summary\": \"The article reports that Goldman Sachs, JPMorgan, and Bank of America have reversed their initial verdicts on Nvidia's earnings, suggesting a strong market reaction to Nvidia's financial results, which could indicate investor optimism or concerns about the company's future performanc",
-          "key_points": [
-            "{\n  \"summary\": \"The article reports that Goldman Sachs, JPMorgan, and Bank of America have reversed their initial verdicts on Nvidia's earnings, suggesting a strong market reaction to Nvidia's financial results, which could indicate investor optimism or concerns about the company's future performance.\",\n  \"key_points\": [\n    \"Nvidia's earnings report led to a collective change in sentiment among major financial institutions.\",\n    \"The reversal of verdicts may reflect uncertainty or a wait-and-see approach by analysts.\",\n    \"Nvidia's stock performance in the aftermath could be influenced by market perceptions of its future earnings and market position.\"\n  ],\n  \"sentiment\": \"Mixed\",\n  \"confidence\": \"High\",\n  \"bias_check\": \"The article may reflect a bias towards companies in the technology sector, particularly those with a strong market presence like Nvidia. Additionally, the focus on financial institutions' verdicts may overlook other companies' perspective: \"summary results in the article, \"TheStreet's initial change, TheStreet's financial analysis\": \"TheStreet's perspective\": \"TheStreet and analysis, and analysis. The article, \"TheStreet, the market index, TheStreet has a few financial and analysis of TheStreet's analysis, TheStreet: The article, TheStreet, the stock analysis, TheStreet, \"The advanced analysis, The article, TheStreet, The analysis, the, The Street's analysis, the, TheStreet, the analysis, the analysis, the, if not, the\n 3. The, the article, the article, the, the, the, the analysis, the, the, the article, the, the, the, the, the, the analysis, the, the, the article, the, the, the, the, the, the, the, the Apple, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the technology, the, the, The, the, as they, technology, the, the, the, the, the technology, the, the, the, the, the, the, the analysis, the analysis, the, the, the,"
-          ],
-          "sentiment": "neutral",
-          "confidence": "medium",
-          "bias_check": "Unable to parse structured response",
-          "missing_context": "",
-          "implications": "",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-21T18:12:35.757978",
-          "token_usage": {
-            "prompt_tokens": 281,
-            "completion_tokens": 1000,
-            "total_tokens": 1281
-          }
+          "error": "Unauthorized",
+          "error_type": "AuthenticationError",
+          "analyzed_at": "2025-11-22T00:28:54.112355",
+          "summary": "Analysis failed: Unauthorized",
+          "sentiment": "unknown"
         }
       },
       {
         "article": {
-          "id": "news_3_1763748601",
-          "title": "Lilly becomes first drugmaker to hit $1 trillion valuation on weight-loss demand - Reuters",
-          "description": "Lilly becomes first drugmaker to hit $1 trillion valuation on weight-loss demand\u00a0\u00a0ReutersEli Lilly joins the $1 trillion club\u00a0\u00a0AxiosThe $1 Trillion Drug Bet: How Eli Lilly Outsprinted Big Tech on Fat, Pills, and Wall Street Dreams\u00a0\u00a0Yahoo FinanceLilly becomes first healthcare firm to join trillion-dollar club, Wall Street reacts\u00a0\u00a0ReutersLilly Breaks $1 Trillion Mark In Historic Milestone\u00a0\u00a0Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQR2IxVV9iQW1qWVBVaWZIZW5hdDJZM2liR3FpeXNaRzM3Ukdia3BiVEd5R1R3RWVydEwyeDh6V3FsXzM5TDh5T3pfYWZzNzljb0Nrc3VlNUZST1M4YUpsaEw4OXVQaldZbWVVbm1QZzlsd2JIMWNqamczX3FMOVNhWVNWcWRSekIwYWVUM29YQ0xJNTZoTmtLSk5BUnBJYUNncEx0RzlpeFg5Ym5TV3ZlWmpPRG1IZzJZclptRmpESndXZHdZbGFrcjNYdmVZM1UyMTFQNHJUakMxVUE4a05GX05XODBzdw?oc=5",
-          "source": "Reuters",
-          "published": "Fri, 21 Nov 2025 16:41:45 GMT",
+          "id": "news_3_1763771307",
+          "title": "What on Earth just happened to the stock market? - MSN",
+          "description": "What on Earth just happened to the stock market?\u00a0\u00a0MSNView Full Coverage on Google News",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdnItVzA3Tlk5R0l0OEczUWVQZXFFaERleE4xLUMyYnVlX2dQMDhpN3EwSnhpUEZnczNyc3dSVVpFekVySWZ5Y2VsTjJlOFBHWk55eFpYUHJxeERlSkNDcUtJUEVYbnpZSGU1QVR3dHJ1b00xNVA3dWRHMVlnRnRMVnpCM29ma2hlSVRtZWU0am1MMDFDY0dxbFhlTmhSNkJB?oc=5",
+          "source": "MSN",
+          "published": "Fri, 21 Nov 2025 13:16:04 GMT",
           "topic": "BUSINESS",
-          "fetched_at": "2025-11-21T18:10:01.433417"
+          "fetched_at": "2025-11-22T00:28:27.125828"
         },
         "analysis": {
-          "summary": "Lilly's climb to a $1 trillion valuation underscores the significant market demand for weight-loss solutions, marking a historic milestone for the company and positioning it ahead of big tech companies and Wall Street expectations. This achievement signals a shift in pharmaceutical investments towards addressing the obesity epidemic and demonstrates the potential profitability of drugs in this sector.",
-          "key_points": [
-            "Lilly's $1 trillion valuation highlights the growing demand for weight-loss medications.",
-            "The company's success in pharmaceuticals outpaces that of big tech companies and Wall Street expectations.",
-            "Lilly's achievement may indicate a broader industry trend towards investing in obesity and weight-loss solutions."
-          ],
-          "sentiment": "positive",
-          "confidence": "high",
-          "bias_check": "Potential bias could stem from a focus on Lilly's success without considering the broader challenges and criticisms of the weight-loss drug market, such as ethical concerns and the effectiveness of such medications.",
-          "missing_context": "The context of Lilly's competition with other pharmaceutical companies, the specific drugs contributing to this valuation, and the overall health implications of promoting weight-loss drugs over lifestyle changes are missing. Additionally, the financial health and future growth prospects of the company are not discussed.",
-          "implications": "This milestone could encourage increased investment in pharmaceuticals targeting weight loss, potentially leading to a surge in obesity-related drug development. However, it also raises ethical considerations about the promotion of medication as a primary solution to complex health issues like obesity.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-21T18:12:43.810301",
-          "token_usage": {
-            "prompt_tokens": 284,
-            "completion_tokens": 308,
-            "total_tokens": 592
-          }
+          "error": "Unauthorized",
+          "error_type": "AuthenticationError",
+          "analyzed_at": "2025-11-22T00:28:55.152853",
+          "summary": "Analysis failed: Unauthorized",
+          "sentiment": "unknown"
         }
       },
       {
         "article": {
-          "id": "news_4_1763748601",
-          "title": "Rare earths: Federal backing and tech advances aim to help the U.S. catch up to China - NPR",
-          "description": "Rare earths: Federal backing and tech advances aim to help the U.S. catch up to China\u00a0\u00a0NPRMeet the company that looks to gain a foothold where China dominates \u2014 rare earth elements\u00a0\u00a0Yahoo FinanceWest scrambles to fill heavy rare earth gap as China rivalry deepens\u00a0\u00a0ReutersChinese rare earth magnet exports to US hit 9-month high as trade war resolves\u00a0\u00a0South China Morning PostVertical integration of rare Earth elements for US autonomous dominion\u00a0\u00a0Breaking Defense",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZ3N1MzNPMjJDUjktdWxrWWFLSUlqamhxdkxQRHV3a0ljQmxNRWZsdGpHZ1VESzRaQS1LZjNIQ3VXandPUVlyZVNQbGtHMkNITFRkelhTWldEazhYM3VyOF92TmFySUlxQ0pBOGd1M0FBaEJRbW5rQnEzeW9PNWZTOEtZaw?oc=5",
-          "source": "NPR",
-          "published": "Fri, 21 Nov 2025 10:01:00 GMT",
+          "id": "news_4_1763771307",
+          "title": "Crypto plunge wipes out nearly $400 billion in a week - Axios",
+          "description": "Crypto plunge wipes out nearly $400 billion in a week\u00a0\u00a0AxiosBitcoin Heading for Worst Month Since Crypto Collapse of 2022\u00a0\u00a0Yahoo FinanceBitcoin Plunge Hits Market Makers in a Fragile Trading Landscape\u00a0\u00a0Bloomberg.comBitcoin continues slide that's roiling markets, threatens to break below $80,000\u00a0\u00a0CNBCBitcoin on thin ice after sinking in flight from risk\u00a0\u00a0Reuters",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5WMzBaT3hYaU5KRW5qeVhhZmVUWXpKS2hndDU2aFVtc3NBRXN0MVlWQ3YwMm1GYWphLWNvRVc4LUNJQUVTVHpndjRGTy1mMnBJcFl2WDBmRW0wNXNtdXQwdjJUYW9TRnpqV2xPbFJ6Yk83alJNd2lpTnVtXzJ2QQ?oc=5",
+          "source": "Axios",
+          "published": "Fri, 21 Nov 2025 12:26:51 GMT",
           "topic": "BUSINESS",
-          "fetched_at": "2025-11-21T18:10:01.433439"
+          "fetched_at": "2025-11-22T00:28:27.125846"
         },
         "analysis": {
-          "summary": "The U.S. is attempting to reduce its dependence on China for rare earth elements, a critical resource for technology and defense, by leveraging federal support and technological advancements. This initiative aims to establish a more autonomous supply chain and reduce geopolitical vulnerabilities.",
-          "key_points": [
-            "U.S. government backing and technology are driving efforts to catch up with China in the rare earth elements sector.",
-            "The U.S. is striving for vertical integration to achieve self-sufficiency in rare earth production and processing.",
-            "Trade tensions with China are influencing the U.S. to secure its own supply chain for these critical materials."
-          ],
-          "sentiment": "Mixed",
-          "confidence": "High",
-          "bias_check": "Potential bias could stem from the U.S. government's nationalistic perspective, emphasizing the need for self-sufficiency and downplaying the challenges involved.",
-          "missing_context": "The story may lack details on the environmental and economic downsides of rare earth production, as well as the complexities of scaling up new technologies for extraction and processing.",
-          "implications": "This move could lead to a reshuffling of global trade dynamics, with the U.S. potentially reducing its reliance on China and other countries. It may also spur innovation and investment in the rare earth sector, but also raise concerns about environmental impact and economic feasibility.",
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
-          "analyzed_at": "2025-11-21T18:12:51.250860",
-          "token_usage": {
-            "prompt_tokens": 295,
-            "completion_tokens": 285,
-            "total_tokens": 580
-          }
+          "error": "Unauthorized",
+          "error_type": "AuthenticationError",
+          "analyzed_at": "2025-11-22T00:28:56.189501",
+          "summary": "Analysis failed: Unauthorized",
+          "sentiment": "unknown"
         }
       }
     ],
@@ -507,19 +329,19 @@
     "articles_analyzed": 15
   },
   "costs": {
-    "execution_time": 154.1267683506012,
-    "execution_minutes": 2.56877947251002,
-    "github_actions": 0.02055023578008016,
+    "execution_time": 14.912925004959106,
+    "execution_minutes": 0.2485487500826518,
+    "github_actions": 0.001988390000661214,
     "openai": {
-      "input": 0.0006453,
-      "output": 0.0030786,
-      "total": 0.0037239
+      "input": 0.0,
+      "output": 0.0,
+      "total": 0.0
     },
-    "total": 0.02427413578008016,
+    "total": 0.001988390000661214,
     "token_usage": {
-      "prompt_tokens": 4302,
-      "completion_tokens": 5131,
-      "total_tokens": 9433
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0
     }
   }
 }
