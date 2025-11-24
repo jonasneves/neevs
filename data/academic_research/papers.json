@@ -1,37 +1,342 @@
 {
   "agent": "agent-a-paper-fetcher",
-  "timestamp": "2025-11-23T09:02:53.041636",
+  "timestamp": "2025-11-24T09:03:59.666014",
   "status": "completed",
   "data": {
-    "papers": [],
-    "count": 0,
+    "papers": [
+      {
+        "id": "2511.17489v1",
+        "title": "Harnessing Data from Clustered LQR Systems: Personalized and Collaborative Policy Optimization",
+        "authors": [
+          "Vinay Kanakeri",
+          "Shivam Bajaj",
+          "Ashwin Verma",
+          "Vijay Gupta",
+          "Aritra Mitra"
+        ],
+        "abstract": "It is known that reinforcement learning (RL) is data-hungry. To improve sample-efficiency of RL, it has been proposed that the learning algorithm utilize data from 'approximately similar' processes. However, since the process models are unknown, identifying which other processes are similar poses a challenge. In this work, we study this problem in the context of the benchmark Linear Quadratic Regulator (LQR) setting. Specifically, we consider a setting with multiple agents, each corresponding to...",
+        "published": "2025-11-21T18:45:53Z",
+        "updated": "2025-11-21T18:45:53Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.17489v1",
+        "abs_url": "https://arxiv.org/abs/2511.17489v1",
+        "categories": [
+          "cs.LG",
+          "eess.SY",
+          "math.OC"
+        ],
+        "primary_category": "cs.LG"
+      },
+      {
+        "id": "2511.17477v1",
+        "title": "Enhancing Quranic Learning: A Multimodal Deep Learning Approach for Arabic Phoneme Recognition",
+        "authors": [
+          "Ayhan Kucukmanisa",
+          "Derya Gelmez",
+          "Sukru Selim Calik",
+          "Zeynep Hilal Kilimci"
+        ],
+        "abstract": "Recent advances in multimodal deep learning have greatly enhanced the capability of systems for speech analysis and pronunciation assessment. Accurate pronunciation detection remains a key challenge in Arabic, particularly in the context of Quranic recitation, where subtle phonetic differences can alter meaning. Addressing this challenge, the present study proposes a transformer-based multimodal framework for Arabic phoneme mispronunciation detection that combines acoustic and textual representa...",
+        "published": "2025-11-21T18:25:46Z",
+        "updated": "2025-11-21T18:25:46Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.17477v1",
+        "abs_url": "https://arxiv.org/abs/2511.17477v1",
+        "categories": [
+          "cs.SD",
+          "cs.AI"
+        ],
+        "primary_category": "cs.SD"
+      },
+      {
+        "id": "2511.17475v1",
+        "title": "Addressing A Posteriori Performance Degradation in Neural Network Subgrid Stress Models",
+        "authors": [
+          "Andy Wu",
+          "Sanjiva K. Lele"
+        ],
+        "abstract": "Neural network subgrid stress models often have a priori performance that is far better than the a posteriori performance, leading to neural network models that look very promising a priori completely failing in a posteriori Large Eddy Simulations (LES). This performance gap can be decreased by combining two different methods, training data augmentation and reducing input complexity to the neural network. Augmenting the training data with two different filters before training the neural networks...",
+        "published": "2025-11-21T18:24:52Z",
+        "updated": "2025-11-21T18:24:52Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.17475v1",
+        "abs_url": "https://arxiv.org/abs/2511.17475v1",
+        "categories": [
+          "physics.flu-dyn",
+          "cs.LG"
+        ],
+        "primary_category": "physics.flu-dyn"
+      },
+      {
+        "id": "2511.17473v1",
+        "title": "Masked-and-Reordered Self-Supervision for Reinforcement Learning from Verifiable Rewards",
+        "authors": [
+          "Zhen Wang",
+          "Zhifeng Gao",
+          "Guolin Ke"
+        ],
+        "abstract": "Test-time scaling has been shown to substantially improve large language models' (LLMs) mathematical reasoning. However, for a large portion of mathematical corpora, especially theorem proving, RLVR's scalability is limited: intermediate reasoning is crucial, while final answers are difficult to directly and reliably verify. Meanwhile, token-level SFT often degenerates into rote memorization rather than inducing longer chains of thought. Inspired by BERT's self-supervised tasks, we propose MR-RL...",
+        "published": "2025-11-21T18:23:04Z",
+        "updated": "2025-11-21T18:23:04Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.17473v1",
+        "abs_url": "https://arxiv.org/abs/2511.17473v1",
+        "categories": [
+          "cs.CL",
+          "cs.AI",
+          "cs.LG"
+        ],
+        "primary_category": "cs.CL"
+      },
+      {
+        "id": "2511.17467v1",
+        "title": "PersonaAgent with GraphRAG: Community-Aware Knowledge Graphs for Personalized LLM",
+        "authors": [
+          "Siqi Liang",
+          "Yudi Zhang",
+          "Yue Guo"
+        ],
+        "abstract": "We propose a novel framework for persona-based language model system, motivated by the need for personalized AI agents that adapt to individual user preferences. In our approach, the agent embodies the user's \"persona\" (e.g. user profile or taste) and is powered by a large language model (LLM). To enable the agent to leverage rich contextual information, we introduce a Knowledge-Graph-enhanced Retrieval-Augmented Generation (Graph RAG) mechanism that constructs an LLM-derived graph index of rele...",
+        "published": "2025-11-21T18:15:47Z",
+        "updated": "2025-11-21T18:15:47Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.17467v1",
+        "abs_url": "https://arxiv.org/abs/2511.17467v1",
+        "categories": [
+          "cs.LG",
+          "cs.AI"
+        ],
+        "primary_category": "cs.LG"
+      },
+      {
+        "id": "2511.17461v1",
+        "title": "SRA-CP: Spontaneous Risk-Aware Selective Cooperative Perception",
+        "authors": [
+          "Jiaxi Liu",
+          "Chengyuan Ma",
+          "Hang Zhou",
+          "Weizhe Tang",
+          "Shixiao Liang"
+        ],
+        "abstract": "Cooperative perception (CP) offers significant potential to overcome the limitations of single-vehicle sensing by enabling information sharing among connected vehicles (CVs). However, existing generic CP approaches need to transmit large volumes of perception data that are irrelevant to the driving safety, exceeding available communication bandwidth. Moreover, most CP frameworks rely on pre-defined communication partners, making them unsuitable for dynamic traffic environments. This paper propos...",
+        "published": "2025-11-21T18:03:48Z",
+        "updated": "2025-11-21T18:03:48Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.17461v1",
+        "abs_url": "https://arxiv.org/abs/2511.17461v1",
+        "categories": [
+          "cs.AI"
+        ],
+        "primary_category": "cs.AI"
+      },
+      {
+        "id": "2511.17450v1",
+        "title": "Planning with Sketch-Guided Verification for Physics-Aware Video Generation",
+        "authors": [
+          "Yidong Huang",
+          "Zun Wang",
+          "Han Lin",
+          "Dong-Ki Kim",
+          "Shayegan Omidshafiei"
+        ],
+        "abstract": "Recent video generation approaches increasingly rely on planning intermediate control signals such as object trajectories to improve temporal coherence and motion fidelity. However, these methods mostly employ single-shot plans that are typically limited to simple motions, or iterative refinement which requires multiple calls to the video generator, incuring high computational cost. To overcome these limitations, we propose SketchVerify, a training-free, sketch-verification-based planning framew...",
+        "published": "2025-11-21T17:48:02Z",
+        "updated": "2025-11-21T17:48:02Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.17450v1",
+        "abs_url": "https://arxiv.org/abs/2511.17450v1",
+        "categories": [
+          "cs.CV",
+          "cs.AI",
+          "cs.CL"
+        ],
+        "primary_category": "cs.CV"
+      },
+      {
+        "id": "2511.17446v1",
+        "title": "Unmasking Airborne Threats: Guided-Transformers for Portable Aerosol Mass Spectrometry",
+        "authors": [
+          "Kyle M. Regan",
+          "Michael McLoughlin",
+          "Wayne A. Bryden",
+          "Gonzalo R. Arce"
+        ],
+        "abstract": "Matrix Assisted Laser Desorption/Ionization Mass Spectrometry (MALDI-MS) is a cornerstone in biomolecular analysis, offering precise identification of pathogens through unique mass spectral signatures. Yet, its reliance on labor-intensive sample preparation and multi-shot spectral averaging restricts its use to laboratory settings, rendering it impractical for real-time environmental monitoring. These limitations are especially pronounced in emerging aerosol MALDI-MS systems, where autonomous sa...",
+        "published": "2025-11-21T17:45:00Z",
+        "updated": "2025-11-21T17:45:00Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.17446v1",
+        "abs_url": "https://arxiv.org/abs/2511.17446v1",
+        "categories": [
+          "cs.LG"
+        ],
+        "primary_category": "cs.LG"
+      },
+      {
+        "id": "2511.17443v1",
+        "title": "GRAPHIC--Guidelines for Reviewing Algorithmic Practices in Human-centred Design and Interaction for Creativity",
+        "authors": [
+          "Joana Rovira Martins",
+          "Pedro Martins",
+          "Ana Boavida"
+        ],
+        "abstract": "Artificial Intelligence (AI) has been increasingly applied to creative domains, leading to the development of systems that collaborate with humans in design processes. In Graphic Design, integrating computational systems into co-creative workflows presents specific challenges, as it requires balancing scientific rigour with the subjective and visual nature of design practice. Following the PRISMA methodology, we identified 872 articles, resulting in a final corpus of 71 publications describing 6...",
+        "published": "2025-11-21T17:42:09Z",
+        "updated": "2025-11-21T17:42:09Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.17443v1",
+        "abs_url": "https://arxiv.org/abs/2511.17443v1",
+        "categories": [
+          "cs.HC",
+          "cs.AI",
+          "cs.GR"
+        ],
+        "primary_category": "cs.HC"
+      },
+      {
+        "id": "2511.17442v1",
+        "title": "REMSA: An LLM Agent for Foundation Model Selection in Remote Sensing",
+        "authors": [
+          "Binger Chen",
+          "Tacettin Emre B\u00f6k",
+          "Behnood Rasti",
+          "Volker Markl",
+          "Beg\u00fcm Demir"
+        ],
+        "abstract": "Foundation Models (FMs) are increasingly used in remote sensing (RS) for tasks such as environmental monitoring, disaster assessment, and land-use mapping. These models include unimodal vision encoders trained on a single data modality and multimodal architectures trained on combinations of SAR, multispectral, hyperspectral, and image-text data. They support diverse RS tasks including semantic segmentation, image classification, change detection, and visual question answering. However, selecting...",
+        "published": "2025-11-21T17:41:26Z",
+        "updated": "2025-11-21T17:41:26Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.17442v1",
+        "abs_url": "https://arxiv.org/abs/2511.17442v1",
+        "categories": [
+          "cs.CV",
+          "cs.AI"
+        ],
+        "primary_category": "cs.CV"
+      },
+      {
+        "id": "2511.17439v1",
+        "title": "InTAct: Interval-based Task Activation Consolidation for Continual Learning",
+        "authors": [
+          "Patryk Krukowski",
+          "Jan Miksa",
+          "Piotr Helm",
+          "Jacek Tabor",
+          "Pawe\u0142 Wawrzy\u0144ski"
+        ],
+        "abstract": "Continual learning aims to enable neural networks to acquire new knowledge without forgetting previously learned information. While recent prompt-based methods perform strongly in class-incremental settings, they remain vulnerable under domain shifts, where the input distribution changes but the label space remains fixed. This exposes a persistent problem known as representation drift. Shared representations evolve in ways that overwrite previously useful features and cause forgetting even when ...",
+        "published": "2025-11-21T17:36:12Z",
+        "updated": "2025-11-21T17:36:12Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.17439v1",
+        "abs_url": "https://arxiv.org/abs/2511.17439v1",
+        "categories": [
+          "cs.LG",
+          "cs.AI"
+        ],
+        "primary_category": "cs.LG"
+      },
+      {
+        "id": "2511.17436v1",
+        "title": "A Framework for Adaptive Stabilisation of Nonlinear Stochastic Systems",
+        "authors": [
+          "Seth Siriya",
+          "Jingge Zhu",
+          "Dragan Ne\u0161i\u0107",
+          "Ye Pu"
+        ],
+        "abstract": "We consider the adaptive control problem for discrete-time, nonlinear stochastic systems with linearly parameterised uncertainty. Assuming access to a parameterised family of controllers that can stabilise the system in a bounded set within an informative region of the state space when the parameter is well-chosen, we propose a certainty equivalence learning-based adaptive control strategy, and subsequently derive stability bounds on the closed-loop system that hold for some probabilities. We th...",
+        "published": "2025-11-21T17:33:00Z",
+        "updated": "2025-11-21T17:33:00Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.17436v1",
+        "abs_url": "https://arxiv.org/abs/2511.17436v1",
+        "categories": [
+          "eess.SY",
+          "cs.LG",
+          "math.OC"
+        ],
+        "primary_category": "eess.SY"
+      },
+      {
+        "id": "2511.17435v1",
+        "title": "Multi-Agent Pointer Transformer: Seq-to-Seq Reinforcement Learning for Multi-Vehicle Dynamic Pickup-Delivery Problems",
+        "authors": [
+          "Zengyu Zou",
+          "Jingyuan Wang",
+          "Yixuan Huang",
+          "Junjie Wu"
+        ],
+        "abstract": "This paper addresses the cooperative Multi-Vehicle Dynamic Pickup and Delivery Problem with Stochastic Requests (MVDPDPSR) and proposes an end-to-end centralized decision-making framework based on sequence-to-sequence, named Multi-Agent Pointer Transformer (MAPT). MVDPDPSR is an extension of the vehicle routing problem and a spatio-temporal system optimization problem, widely applied in scenarios such as on-demand delivery. Classical operations research methods face bottlenecks in computational ...",
+        "published": "2025-11-21T17:32:10Z",
+        "updated": "2025-11-21T17:32:10Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.17435v1",
+        "abs_url": "https://arxiv.org/abs/2511.17435v1",
+        "categories": [
+          "cs.LG"
+        ],
+        "primary_category": "cs.LG"
+      },
+      {
+        "id": "2511.17432v1",
+        "title": "SMILE: A Composite Lexical-Semantic Metric for Question-Answering Evaluation",
+        "authors": [
+          "Shrikant Kendre",
+          "Austin Xu",
+          "Honglu Zhou",
+          "Michael Ryoo",
+          "Shafiq Joty"
+        ],
+        "abstract": "Traditional evaluation metrics for textual and visual question answering, like ROUGE, METEOR, and Exact Match (EM), focus heavily on n-gram based lexical similarity, often missing the deeper semantic understanding needed for accurate assessment. While measures like BERTScore and MoverScore leverage contextual embeddings to address this limitation, they lack flexibility in balancing sentence-level and keyword-level semantics and ignore lexical similarity, which remains important. Large Language M...",
+        "published": "2025-11-21T17:30:18Z",
+        "updated": "2025-11-21T17:30:18Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.17432v1",
+        "abs_url": "https://arxiv.org/abs/2511.17432v1",
+        "categories": [
+          "cs.CL",
+          "cs.AI",
+          "cs.CV"
+        ],
+        "primary_category": "cs.CL"
+      },
+      {
+        "id": "2511.17427v1",
+        "title": "Towards fully differentiable neural ocean model with Veros",
+        "authors": [
+          "Etienne Meunier",
+          "Said Ouala",
+          "Hugo Frezat",
+          "Julien Le Sommer",
+          "Ronan Fablet"
+        ],
+        "abstract": "We present a differentiable extension of the VEROS ocean model, enabling automatic differentiation through its dynamical core. We describe the key modifications required to make the model fully compatible with JAX autodifferentiation framework and evaluate the numerical consistency of the resulting implementation. Two illustrative applications are then demonstrated: (i) the correction of an initial ocean state through gradient-based optimization, and (ii) the calibration of unknown physical para...",
+        "published": "2025-11-21T17:24:00Z",
+        "updated": "2025-11-21T17:24:00Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.17427v1",
+        "abs_url": "https://arxiv.org/abs/2511.17427v1",
+        "categories": [
+          "cs.LG"
+        ],
+        "primary_category": "cs.LG"
+      }
+    ],
+    "count": 15,
     "categories": [
       "cs.AI",
       "cs.LG",
       "cs.CL"
     ],
-    "fetch_date": "2025-11-23"
+    "fetch_date": "2025-11-24"
   },
   "metadata": {
     "source": "arXiv API",
     "query": "cat:cs.AI OR cat:cs.LG OR cat:cs.CL",
     "deduplication": {
       "total_fetched": 15,
-      "new_papers": 0,
-      "duplicates_filtered": 15,
-      "last_fetch": "2025-11-22T09:02:50.741614"
+      "new_papers": 15,
+      "duplicates_filtered": 0,
+      "last_fetch": "2025-11-23T09:02:53.041636"
     }
   },
   "costs": {
-    "execution_time": 0.3890395164489746,
-    "execution_minutes": 0.006483991940816243,
-    "github_actions": 5.187193552652995e-05,
+    "execution_time": 0.35806798934936523,
+    "execution_minutes": 0.0059677998224894205,
+    "github_actions": 4.774239857991537e-05,
     "openai": {
       "input": 0,
       "output": 0,
       "total": 0
     },
-    "total": 5.187193552652995e-05,
+    "total": 4.774239857991537e-05,
     "token_usage": {}
   }
 }
