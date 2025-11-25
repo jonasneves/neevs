@@ -1,19 +1,19 @@
 {
   "agent": "perspective-synthesizer",
-  "timestamp": "2025-11-25T12:14:07.588187",
+  "timestamp": "2025-11-25T18:10:56.046598",
   "status": "completed",
   "data": {
     "articles": [
       {
         "article": {
-          "id": "news_0_1764072796",
-          "title": "Google says Gemini isn\u2019t trained on Gmail, pushing back on \u2018misleading reports\u2019 - 9to5Google",
-          "description": "Google says Gemini isn\u2019t trained on Gmail, pushing back on \u2018misleading reports\u2019\u00a0\u00a09to5Google[Correction] Gmail can read your emails and attachments to power \"smart features\"\u00a0\u00a0MalwarebytesGoogle denies \u2018misleading\u2019 reports of Gmail using your emails to train AI\u00a0\u00a0The VergeHow to stop Google AI from scanning your Gmail\u00a0\u00a0Fox NewsGoogle denies analyzing your emails for AI training - here's what happened\u00a0\u00a0ZDNET",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPbDB4Vmlhbm44Vm4zbHZPaXA1Q1ZkY29YeVFzNmllOTYzRXcwUmk0LVpDQ21DNVR6eXVHSDkzNXNJbGxSMHMxYUprUUt3VjVycWs3ekJxanctMVVDbkZ2eGRZb3lNVHU2clhVbWFKQWhiVmtnYlJ1d1ZjS0ZLcXpzVnI4UDlTckNsXzQtQldqbWluZzJlYkRsWWV3?oc=5",
-          "source": "9to5Google",
-          "published": "Mon, 24 Nov 2025 16:58:00 GMT",
+          "id": "news_0_1764094211",
+          "title": "Apple Deals Are Rare. Lucky for You, We Found Black Friday Gems on iPads, MacBooks, and More. - The New York Times",
+          "description": "Apple Deals Are Rare. Lucky for You, We Found Black Friday Gems on iPads, MacBooks, and More.\u00a0\u00a0The New York TimesApple Just Slashed Prices On So Many Top-Rated Products \u2014 And These Deals Are Jaw-Dropping\u00a0\u00a0HuffPostBlack Friday 2025: Score discounts on Apple MacBooks, AirPods and more\u00a0\u00a0Good Morning AmericaHuge discounts hit iPad, iPad Air, and more for Black Friday (from $274)\u00a0\u00a09to5MacBest Black Friday iPad deals 2025: We've tested every iPad, and these are our favorite deals\u00a0\u00a0ZDNET",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9ZUFFCVDBPZk1MYU40ZFFDTUhuNG02cE45dlYtOWRQUWR4dW5Kb2hENmFrWmVrSVYwT3F6U0RuVG13aWl2Q25CNS0zdG1feHpCWk00RkhnZmE3aTl5NEk2NU1Ed2NfRFlqOFM4TlpvbjB3NmVVVG9qblZFUQ?oc=5",
+          "source": "The New York Times",
+          "published": "Tue, 25 Nov 2025 13:08:33 GMT",
           "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-25T12:13:16.870855"
+          "fetched_at": "2025-11-25T18:10:11.353942"
         },
         "perspectives": [
           {
@@ -27,7 +27,7 @@
             "bias_check": "",
             "missing_context": "",
             "implications": "",
-            "analyzed_at": "2025-11-25T12:13:37.074079"
+            "analyzed_at": "2025-11-25T18:10:30.365434"
           },
           {
             "model": "GPT-4o Mini",
@@ -40,7 +40,20 @@
             "bias_check": "",
             "missing_context": "",
             "implications": "",
-            "analyzed_at": "2025-11-25T12:13:42.429577"
+            "analyzed_at": "2025-11-25T18:10:35.666936"
+          },
+          {
+            "model": "GPT-4o Mini",
+            "model_id": "openai/gpt-4o-mini",
+            "emoji": "\ud83d\udfe2",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-11-25T18:10:40.975448"
           },
           {
             "model": "Llama 3.1 8B",
@@ -53,7 +66,7 @@
             "bias_check": "",
             "missing_context": "",
             "implications": "",
-            "analyzed_at": "2025-11-25T12:13:33.030952"
+            "analyzed_at": "2025-11-25T18:10:30.076596"
           },
           {
             "model": "Llama 3.1 8B",
@@ -66,7 +79,20 @@
             "bias_check": "",
             "missing_context": "",
             "implications": "",
-            "analyzed_at": "2025-11-25T12:13:38.195100"
+            "analyzed_at": "2025-11-25T18:10:35.552798"
+          },
+          {
+            "model": "Llama 3.1 8B",
+            "model_id": "meta/meta-llama-3.1-8b-instruct",
+            "emoji": "\ud83d\udd35",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-11-25T18:10:41.029569"
           },
           {
             "model": "Phi-4 Mini",
@@ -79,7 +105,7 @@
             "bias_check": "",
             "missing_context": "",
             "implications": "",
-            "analyzed_at": "2025-11-25T12:13:39.375632"
+            "analyzed_at": "2025-11-25T18:10:26.226770"
           },
           {
             "model": "Phi-4 Mini",
@@ -92,26 +118,39 @@
             "bias_check": "",
             "missing_context": "",
             "implications": "",
-            "analyzed_at": "2025-11-25T12:13:44.608945"
+            "analyzed_at": "2025-11-25T18:10:31.413898"
+          },
+          {
+            "model": "Phi-4 Mini",
+            "model_id": "microsoft/phi-4-mini-instruct",
+            "emoji": "\ud83d\udfe1",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-11-25T18:10:36.579152"
           }
         ],
         "consensus": {
           "dominant_sentiment": "mixed",
           "agreement_percentage": 0,
           "sentiment_distribution": {},
-          "models_analyzed": 6
+          "models_analyzed": 9
         }
       },
       {
         "article": {
-          "id": "news_1_1764072796",
-          "title": "The OnePlus 15R smartphone is budget-friendly, durable and coming next month - Engadget",
-          "description": "The OnePlus 15R smartphone is budget-friendly, durable and coming next month\u00a0\u00a0EngadgetOnePlus Launching 15R Phone, Tablet and Watch Just Ahead of the Holidays\u00a0\u00a0CNETOnePlus Ace 6T announced for China with Snapdragon 8 Gen 5 - GSMArena.com news\u00a0\u00a0GSMArena.comOnePlus 15R will get a late launch next month\u00a0\u00a0The VergeThe OnePlus 15R is coming to North America in December, alongside the Pad Go 2\u00a0\u00a09to5Google",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPalppNVNNb0VqNWtTYUtwbk1zTGZfblBZcjdfTW96c0FLbEdWVW5iZnJJbGg1b1p0SU5EN21aRjlmdGZoWGVoU2piZTZPa29WUV9ITHJNX1J0VExhTVVoUC1PVnlheVplNmJVMlRfX1dBYUtlZlNhQjRGLVhWcTZLNXlndXkzSkhXUHRzNTJSaEttYk14Yk4xbTA2ZkZZMm55MEVHN1RMQXZjLV9CcE1iOGtHSE9Sb0p3WVNGSU9yZXRkQTNYZEZVVWV4Sm8zdjg?oc=5",
-          "source": "Engadget",
-          "published": "Mon, 24 Nov 2025 16:30:00 GMT",
+          "id": "news_1_1764094211",
+          "title": "Aluminium OS will be Google\u2019s take on Android for PC - The Verge",
+          "description": "Aluminium OS will be Google\u2019s take on Android for PC\u00a0\u00a0The VergeGoogle's new 'Aluminium OS' project brings Android to PC: Here's what we know\u00a0\u00a0Android AuthorityGoogle listing says Android PC OS, \u2018Aluminium,\u2019 will have \u2018AI at the core\u2019\u00a0\u00a09to5GoogleGoogle\u2019s new \u201cAluminium OS\u201d is the Android-based future of ChromeOS, and we have the first details\u00a0\u00a0Chrome UnboxedGoogle is looking to take over the desktop with Aluminium OS\u00a0\u00a0Android Police",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOTldIM25DeVhQckR1cnVNTGpQSkhmY3VCeTAzOVViQm8xb0tLWVZqbDJ6WXdjMmIxQmFlSjVnRHhpWUtKOXk5T1FDY21LU1A4dmtuWmZRX0dfTFJXOVJITG1uNTJ2NkdUZ0Q5NGFNZ2podTBNSzhaaEJ5VGgxbTFETjhMWVNRdw?oc=5",
+          "source": "The Verge",
+          "published": "Tue, 25 Nov 2025 13:23:20 GMT",
           "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-25T12:13:16.870881"
+          "fetched_at": "2025-11-25T18:10:11.353971"
         },
         "perspectives": [
           {
@@ -125,7 +164,7 @@
             "bias_check": "",
             "missing_context": "",
             "implications": "",
-            "analyzed_at": "2025-11-25T12:13:38.141096"
+            "analyzed_at": "2025-11-25T18:10:31.424866"
           },
           {
             "model": "GPT-4o Mini",
@@ -138,7 +177,20 @@
             "bias_check": "",
             "missing_context": "",
             "implications": "",
-            "analyzed_at": "2025-11-25T12:13:43.499642"
+            "analyzed_at": "2025-11-25T18:10:36.725680"
+          },
+          {
+            "model": "GPT-4o Mini",
+            "model_id": "openai/gpt-4o-mini",
+            "emoji": "\ud83d\udfe2",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-11-25T18:10:42.046169"
           },
           {
             "model": "Llama 3.1 8B",
@@ -151,7 +203,7 @@
             "bias_check": "",
             "missing_context": "",
             "implications": "",
-            "analyzed_at": "2025-11-25T12:13:34.061433"
+            "analyzed_at": "2025-11-25T18:10:31.168947"
           },
           {
             "model": "Llama 3.1 8B",
@@ -164,7 +216,20 @@
             "bias_check": "",
             "missing_context": "",
             "implications": "",
-            "analyzed_at": "2025-11-25T12:13:39.225829"
+            "analyzed_at": "2025-11-25T18:10:36.661850"
+          },
+          {
+            "model": "Llama 3.1 8B",
+            "model_id": "meta/meta-llama-3.1-8b-instruct",
+            "emoji": "\ud83d\udd35",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-11-25T18:10:42.126543"
           },
           {
             "model": "Phi-4 Mini",
@@ -177,7 +242,7 @@
             "bias_check": "",
             "missing_context": "",
             "implications": "",
-            "analyzed_at": "2025-11-25T12:13:40.420129"
+            "analyzed_at": "2025-11-25T18:10:27.263634"
           },
           {
             "model": "Phi-4 Mini",
@@ -190,26 +255,39 @@
             "bias_check": "",
             "missing_context": "",
             "implications": "",
-            "analyzed_at": "2025-11-25T12:13:45.652110"
+            "analyzed_at": "2025-11-25T18:10:32.443986"
+          },
+          {
+            "model": "Phi-4 Mini",
+            "model_id": "microsoft/phi-4-mini-instruct",
+            "emoji": "\ud83d\udfe1",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-11-25T18:10:37.610663"
           }
         ],
         "consensus": {
           "dominant_sentiment": "mixed",
           "agreement_percentage": 0,
           "sentiment_distribution": {},
-          "models_analyzed": 6
+          "models_analyzed": 9
         }
       },
       {
         "article": {
-          "id": "news_2_1764072796",
-          "title": "New rumor makes \u2018iPhone Ultra\u2019 foldable next year seem more likely - 9to5Mac",
-          "description": "New rumor makes \u2018iPhone Ultra\u2019 foldable next year seem more likely\u00a0\u00a09to5MacFubon expects the first foldable iPhone to cost $2,399\u00a0\u00a0Investing.comApple iPhone Fold To Debut At 2x The Price Of An iPhone 17 Pro Max\u00a0\u00a0WccftechCrease-Free iPhone Fold on Track for 2026 Launch as Development Advances\u00a0\u00a0MacRumorsFoldable iPhone might make the Galaxy Z Fold 7 look affordable\u00a0\u00a0PhoneArena",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdnNaaVUwRkdGQXlzLVFycjZYdzZJcmlmcEhOckwzbFI0RlA4NWVUcjZmdVNPUnk3VDNSWHQ0NlEyNzNzelY3cUZuT1dUb3JaTVE3Q1F5V29Na2RVQ04zN3dFQTh0V01hRHlFY2cxeUZSeVV2YkRCcEUxUFFHQmxUd0JGNGdSUjRJdkktNnd5Wjg2Y3AwOGpnRHR5dXM?oc=5",
-          "source": "9to5Mac",
-          "published": "Mon, 24 Nov 2025 15:01:00 GMT",
+          "id": "news_2_1764094211",
+          "title": "Valve\u2019s Steam Machine looks like a console, but don\u2019t expect it to be priced like one - Ars Technica",
+          "description": "Valve\u2019s Steam Machine looks like a console, but don\u2019t expect it to be priced like one\u00a0\u00a0Ars TechnicaValve Says Steam Machine Isn\u2019t a Console\u2014but It Is\u00a0\u00a0WIREDValve Confirms Steam Machine Will Not Be Subsidized Hardware Like Consoles, and Some Are Questioning That Strategy While Bracing Themselves for a 'Current PC Market' Price\u00a0\u00a0IGNSteam Machine and Steam Frame: your questions answered\u00a0\u00a0The VergeValve Finally Built the Living Room PC Microsoft Spent a Decade Trying to Invent\u00a0\u00a0Yahoo Sports",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUm5RX2tkTGJPVWpJR2pSd3VhRS1qR3FJdlVfUE1MQWktQU03UFVweEhpLUhBTHpxejdsY09wb2FNX2t3bUhnVVg3LUNjVWUydDIzOV84SUFVdnFtZjZhSmZqT1BrMWUzNnhmMXVpTEpRYlhqVmViUzR2eFJiODQxWTh3YVBCa0tvY09BNlNjOVZuWWtNbHpuZ05NeVB5aFpBT0pQdjVNQjVfbFlKd1g4Yk9OcEQ0QlFzd0VMUlRGQQ?oc=5",
+          "source": "Ars Technica",
+          "published": "Tue, 25 Nov 2025 16:51:40 GMT",
           "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-25T12:13:16.870904"
+          "fetched_at": "2025-11-25T18:10:11.353994"
         },
         "perspectives": [
           {
@@ -223,7 +301,7 @@
             "bias_check": "",
             "missing_context": "",
             "implications": "",
-            "analyzed_at": "2025-11-25T12:13:39.213883"
+            "analyzed_at": "2025-11-25T18:10:32.484855"
           },
           {
             "model": "GPT-4o Mini",
@@ -236,7 +314,20 @@
             "bias_check": "",
             "missing_context": "",
             "implications": "",
-            "analyzed_at": "2025-11-25T12:13:44.565796"
+            "analyzed_at": "2025-11-25T18:10:37.783227"
+          },
+          {
+            "model": "GPT-4o Mini",
+            "model_id": "openai/gpt-4o-mini",
+            "emoji": "\ud83d\udfe2",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-11-25T18:10:43.105163"
           },
           {
             "model": "Llama 3.1 8B",
@@ -249,7 +340,7 @@
             "bias_check": "",
             "missing_context": "",
             "implications": "",
-            "analyzed_at": "2025-11-25T12:13:35.104151"
+            "analyzed_at": "2025-11-25T18:10:32.260426"
           },
           {
             "model": "Llama 3.1 8B",
@@ -262,7 +353,20 @@
             "bias_check": "",
             "missing_context": "",
             "implications": "",
-            "analyzed_at": "2025-11-25T12:13:40.258854"
+            "analyzed_at": "2025-11-25T18:10:37.765118"
+          },
+          {
+            "model": "Llama 3.1 8B",
+            "model_id": "meta/meta-llama-3.1-8b-instruct",
+            "emoji": "\ud83d\udd35",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-11-25T18:10:43.219473"
           },
           {
             "model": "Phi-4 Mini",
@@ -275,7 +379,7 @@
             "bias_check": "",
             "missing_context": "",
             "implications": "",
-            "analyzed_at": "2025-11-25T12:13:41.467106"
+            "analyzed_at": "2025-11-25T18:10:28.295175"
           },
           {
             "model": "Phi-4 Mini",
@@ -288,26 +392,39 @@
             "bias_check": "",
             "missing_context": "",
             "implications": "",
-            "analyzed_at": "2025-11-25T12:13:46.696743"
+            "analyzed_at": "2025-11-25T18:10:33.484302"
+          },
+          {
+            "model": "Phi-4 Mini",
+            "model_id": "microsoft/phi-4-mini-instruct",
+            "emoji": "\ud83d\udfe1",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-11-25T18:10:38.642044"
           }
         ],
         "consensus": {
           "dominant_sentiment": "mixed",
           "agreement_percentage": 0,
           "sentiment_distribution": {},
-          "models_analyzed": 6
+          "models_analyzed": 9
         }
       },
       {
         "article": {
-          "id": "news_3_1764072796",
-          "title": "Black Friday Streaming Deals Offered By Hulu, Disney+, HBO Max, Peacock & More - Deadline",
-          "description": "Black Friday Streaming Deals Offered By Hulu, Disney+, HBO Max, Peacock & More\u00a0\u00a0DeadlineDisney+, Hulu Bundle Black Friday deal 2025: $4.99 per month for 1 year\u00a0\u00a0ABC NewsBundle Disney+ and Hulu for only $4.99 a month during limited time Black Friday sale\u00a0\u00a0Syracuse.comYou can grab a year of Disney Plus and Hulu for just $5 a month for Black Friday\u00a0\u00a0The VergeBlack Friday Streaming Deals 2025: Save on Hulu, Disney+, Starz, ESPN, and More\u00a0\u00a0Business Insider",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUV9JWDJyMzRka1VoQUMxcUVkejlCV0FZMkppLWRORDcybEJGMHZ1MXpYZTgwa2l5QXdwYmFQRVNQcmFwcWk1cklVR0l0Z25Wd3hNT1hUVUN2NW1OSWQzWjV6aVJXeFhETjdENjh5N0FpczZVVUJrRG5oenFmQkc0VFdvWQ?oc=5",
-          "source": "Deadline",
-          "published": "Mon, 24 Nov 2025 22:33:00 GMT",
+          "id": "news_3_1764094211",
+          "title": "This officially licensed footwear from Crocs has been designed to look like an Xbox controller - Eurogamer",
+          "description": "This officially licensed footwear from Crocs has been designed to look like an Xbox controller\u00a0\u00a0EurogamerLevel Up Your Look: Xbox and Crocs Launch Exclusive Gaming-Inspired Classic Clogs\u00a0\u00a0Xbox WireXbox Crocs are real\u00a0\u00a0The VergeMicrosoft spits in God's face with Xbox-style Crocs that cost $80 and the sum total of your dignity\u00a0\u00a0PC GamerOfficial Xbox Crocs Sure Look Like Crocs\u00a0\u00a0Kotaku",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOZC1fSk9aUVNyYVRjRnJxbnh4d2Q2WVMxSUk0VVVFdzFzUThBaXVQeEloUm96NExlcnlETTVsREJRMkJpME9PRXZ3ZGdsLU1ydlZCVVhMUVloNldBRmhzR29SY1RoV0ZBRmVsckdidi1Ga19vWE9ibmF0MFhjYlFOT2Z3dnpfSXI3SndOTmlNQ0pHQWtDUldrSUVVdUZzUXpvOWY3MzNPa0xHYTN0VEhxbl81bjk3VVNNSEVkTQ?oc=5",
+          "source": "Eurogamer",
+          "published": "Tue, 25 Nov 2025 14:38:17 GMT",
           "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-25T12:13:16.870925"
+          "fetched_at": "2025-11-25T18:10:11.354017"
         },
         "perspectives": [
           {
@@ -321,7 +438,7 @@
             "bias_check": "",
             "missing_context": "",
             "implications": "",
-            "analyzed_at": "2025-11-25T12:13:40.280824"
+            "analyzed_at": "2025-11-25T18:10:33.544750"
           },
           {
             "model": "GPT-4o Mini",
@@ -334,7 +451,20 @@
             "bias_check": "",
             "missing_context": "",
             "implications": "",
-            "analyzed_at": "2025-11-25T12:13:45.644132"
+            "analyzed_at": "2025-11-25T18:10:38.843121"
+          },
+          {
+            "model": "GPT-4o Mini",
+            "model_id": "openai/gpt-4o-mini",
+            "emoji": "\ud83d\udfe2",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-11-25T18:10:44.168795"
           },
           {
             "model": "Llama 3.1 8B",
@@ -347,7 +477,7 @@
             "bias_check": "",
             "missing_context": "",
             "implications": "",
-            "analyzed_at": "2025-11-25T12:13:36.132676"
+            "analyzed_at": "2025-11-25T18:10:33.356091"
           },
           {
             "model": "Llama 3.1 8B",
@@ -360,7 +490,20 @@
             "bias_check": "",
             "missing_context": "",
             "implications": "",
-            "analyzed_at": "2025-11-25T12:13:41.293491"
+            "analyzed_at": "2025-11-25T18:10:38.852657"
+          },
+          {
+            "model": "Llama 3.1 8B",
+            "model_id": "meta/meta-llama-3.1-8b-instruct",
+            "emoji": "\ud83d\udd35",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-11-25T18:10:44.306093"
           },
           {
             "model": "Phi-4 Mini",
@@ -373,7 +516,7 @@
             "bias_check": "",
             "missing_context": "",
             "implications": "",
-            "analyzed_at": "2025-11-25T12:13:42.510733"
+            "analyzed_at": "2025-11-25T18:10:29.330661"
           },
           {
             "model": "Phi-4 Mini",
@@ -386,26 +529,39 @@
             "bias_check": "",
             "missing_context": "",
             "implications": "",
-            "analyzed_at": "2025-11-25T12:13:47.745539"
+            "analyzed_at": "2025-11-25T18:10:34.516636"
+          },
+          {
+            "model": "Phi-4 Mini",
+            "model_id": "microsoft/phi-4-mini-instruct",
+            "emoji": "\ud83d\udfe1",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-11-25T18:10:39.676693"
           }
         ],
         "consensus": {
           "dominant_sentiment": "mixed",
           "agreement_percentage": 0,
           "sentiment_distribution": {},
-          "models_analyzed": 6
+          "models_analyzed": 9
         }
       },
       {
         "article": {
-          "id": "news_4_1764072796",
-          "title": "Samsung Follows Apple's AI Strategy With Perplexity-Powered Bixby - MacRumors",
-          "description": "Samsung Follows Apple's AI Strategy With Perplexity-Powered Bixby\u00a0\u00a0MacRumorsSamsung reportedly upgrading Bixby with the help of Perplexity instead of Gemini\u00a0\u00a09to5GoogleSamsung Galaxy S26 series likely to feature Perplexity-powered Bixby assistant- Details\u00a0\u00a0Hindustan TimesSamsung Copies Apple\u2019s Playbook: Perplexity AI To Power Bixby\u00a0\u00a0WccftechSamsung may revamp Bixby with Perplexity AI in Galaxy S26 for smarter, deeper answers: Here\u2019s what we know\u00a0\u00a0digit.in",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA0cXdPdlEwaWR3Y3hOOWxTcEtiaGNoVTBaZVNrdldIcTFQVlQxU2JvUzFkbVlmU1pFci03RkZBQnZXWnRqTV9rLXVucnVuUVVZd0liTU8tbTU4TlpDNWJRTmlxYjNmeE5FR0syeXlsY3hYSXZUMnczSDdR?oc=5",
-          "source": "MacRumors",
-          "published": "Mon, 24 Nov 2025 12:56:41 GMT",
+          "id": "news_4_1764094211",
+          "title": "Huawei Mate 80 Pro Max has the world\u2019s brightest phone screen - The Verge",
+          "description": "Huawei Mate 80 Pro Max has the world\u2019s brightest phone screen\u00a0\u00a0The VergeHuawei\u2019s latest Kirin 9030 processor powers premium Mate 80 smartphones\u00a0\u00a0South China Morning PostHuawei Mate X7 brings IP59 rating, larger battery and Kirin 9030 Pro chipset - GSMArena.com news\u00a0\u00a0GSMArena.comHuawei Mate 80 Pro Max Has World\u2019s Brightest Screen and Two Periscope Cameras\u00a0\u00a0PetaPixelHuawei Mate 80 RS Master Edition Phone Price, Specs, Comparison and Reviews (25th November 2025)\u00a0\u00a0Gadgets 360",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSXZNX1NvS1V4RldidnJudGtKX1c0Tl9hVnhBSVhtX0t3czFvZVhSYU11b2FqNTc0RU5CaGlSNHdGRlFld1M2cXdVZHBfc0FjMkNjSVg4U1dRYWdLaDBHY3dkTnZ5aVZIM2w3N01NNTJtM0dYaUhhVHBjWHBCZFRXWUd5ZnpLWTJJNV9WZTJwbGJCMXE3Y1R0UQ?oc=5",
+          "source": "The Verge",
+          "published": "Tue, 25 Nov 2025 12:21:49 GMT",
           "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-25T12:13:16.870948"
+          "fetched_at": "2025-11-25T18:10:11.354040"
         },
         "perspectives": [
           {
@@ -419,7 +575,7 @@
             "bias_check": "",
             "missing_context": "",
             "implications": "",
-            "analyzed_at": "2025-11-25T12:13:41.350538"
+            "analyzed_at": "2025-11-25T18:10:34.605908"
           },
           {
             "model": "GPT-4o Mini",
@@ -432,80 +588,8 @@
             "bias_check": "",
             "missing_context": "",
             "implications": "",
-            "analyzed_at": "2025-11-25T12:13:46.712449"
+            "analyzed_at": "2025-11-25T18:10:39.905284"
           },
-          {
-            "model": "Llama 3.1 8B",
-            "model_id": "meta/meta-llama-3.1-8b-instruct",
-            "emoji": "\ud83d\udd35",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-11-25T12:13:37.163769"
-          },
-          {
-            "model": "Llama 3.1 8B",
-            "model_id": "meta/meta-llama-3.1-8b-instruct",
-            "emoji": "\ud83d\udd35",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-11-25T12:13:42.325484"
-          },
-          {
-            "model": "Phi-4 Mini",
-            "model_id": "microsoft/phi-4-mini-instruct",
-            "emoji": "\ud83d\udfe1",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-11-25T12:13:43.562397"
-          },
-          {
-            "model": "Phi-4 Mini",
-            "model_id": "microsoft/phi-4-mini-instruct",
-            "emoji": "\ud83d\udfe1",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-11-25T12:13:48.786576"
-          }
-        ],
-        "consensus": {
-          "dominant_sentiment": "mixed",
-          "agreement_percentage": 0,
-          "sentiment_distribution": {},
-          "models_analyzed": 6
-        }
-      },
-      {
-        "article": {
-          "id": "news_0_1764072797",
-          "title": "Stocks get boost from rising chances of Fed cut; dollar steady - Reuters",
-          "description": "Stocks get boost from rising chances of Fed cut; dollar steady\u00a0\u00a0ReutersAsia-Pacific markets trade mixed after Wall Street's tech stocks rebound\u00a0\u00a0CNBCAsian shares mixed after Wall Street gets a lift from hopes for a Fed rate cut\u00a0\u00a0Yahoo FinanceAsian stocks creep higher with US rate cuts back in focus By Reuters\u00a0\u00a0Investing.comWorld shares advance after Wall Street gets a lift from hopes for a Fed rate cut\u00a0\u00a0WRAL",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZWtxVnF3VGRsRHBKTFlYc0Rqb3JlZXI0NnNqbVlyb01LXzBfSlItLW5FRlNHdjNKclp0WWl1clUwa3phRFV6RUlVZGlaTHBFSEZiMURFY3pXRnU4ZlBPeHZ4QllMQUFXMzAtcXhzMFZVLWk5MExlSTlpMmgtOXZwRU9hVQ?oc=5",
-          "source": "Reuters",
-          "published": "Tue, 25 Nov 2025 09:40:16 GMT",
-          "topic": "BUSINESS",
-          "fetched_at": "2025-11-25T12:13:17.621965"
-        },
-        "perspectives": [
           {
             "model": "GPT-4o Mini",
             "model_id": "openai/gpt-4o-mini",
@@ -517,7 +601,7 @@
             "bias_check": "",
             "missing_context": "",
             "implications": "",
-            "analyzed_at": "2025-11-25T12:13:47.780124"
+            "analyzed_at": "2025-11-25T18:10:45.230055"
           },
           {
             "model": "Llama 3.1 8B",
@@ -530,53 +614,7 @@
             "bias_check": "",
             "missing_context": "",
             "implications": "",
-            "analyzed_at": "2025-11-25T12:13:43.360427"
-          },
-          {
-            "model": "Phi-4 Mini",
-            "model_id": "microsoft/phi-4-mini-instruct",
-            "emoji": "\ud83d\udfe1",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-11-25T12:13:49.833094"
-          }
-        ],
-        "consensus": {
-          "dominant_sentiment": "mixed",
-          "agreement_percentage": 0,
-          "sentiment_distribution": {},
-          "models_analyzed": 3
-        }
-      },
-      {
-        "article": {
-          "id": "news_1_1764072797",
-          "title": "We're shopping our feelings this Black Friday. Here are 3 things to know - NPR",
-          "description": "We're shopping our feelings this Black Friday. Here are 3 things to know\u00a0\u00a0NPRThe dirty secret of America\u2019s holiday shopping season\u00a0\u00a0CNNA record 187 million Americans will shop this week: Here are 5 simple ways to save\u00a0\u00a0CNBCChecking it price\u00a0\u00a0Retail BrewWith early start to holiday shopping, consumers seek value, practicality \u2014 and nostalgia\u00a0\u00a0SiouxFalls.Business",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA4NFp5LXJIcnFtbkFRQmVCbkt5dDdFd01fV054VS1LRS1XOGt3S0NES2hDcXF5QjZVS25YbDVwVmpXZmdpbmhmanU0LWR5RkZOWDZPbnZybzNkZFJwUU80d0FseVhncXVwVm00SmpsVDQ4UXd1ZGlPTQ?oc=5",
-          "source": "NPR",
-          "published": "Tue, 25 Nov 2025 10:00:00 GMT",
-          "topic": "BUSINESS",
-          "fetched_at": "2025-11-25T12:13:17.621995"
-        },
-        "perspectives": [
-          {
-            "model": "GPT-4o Mini",
-            "model_id": "openai/gpt-4o-mini",
-            "emoji": "\ud83d\udfe2",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-11-25T12:13:48.847613"
+            "analyzed_at": "2025-11-25T18:10:34.463984"
           },
           {
             "model": "Llama 3.1 8B",
@@ -589,53 +627,7 @@
             "bias_check": "",
             "missing_context": "",
             "implications": "",
-            "analyzed_at": "2025-11-25T12:13:44.394927"
-          },
-          {
-            "model": "Phi-4 Mini",
-            "model_id": "microsoft/phi-4-mini-instruct",
-            "emoji": "\ud83d\udfe1",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-11-25T12:13:50.874587"
-          }
-        ],
-        "consensus": {
-          "dominant_sentiment": "mixed",
-          "agreement_percentage": 0,
-          "sentiment_distribution": {},
-          "models_analyzed": 3
-        }
-      },
-      {
-        "article": {
-          "id": "news_2_1764072797",
-          "title": "Nvidia Shares Drop on Report of Google Challenge in AI Chips - Bloomberg.com",
-          "description": "Nvidia Shares Drop on Report of Google Challenge in AI Chips\u00a0\u00a0Bloomberg.comNvidia shares fall 3% on report Meta will use Google AI chips\u00a0\u00a0CNBCGoogle Further Encroaches on Nvidia\u2019s Turf With New AI Chip Push\u00a0\u00a0The InformationAlphabet\u2019s stock rises as possible Meta chip deal highlights new twist in the AI trade\u00a0\u00a0MarketWatchGoogle Throws Down Gauntlet to Nvidia\u00a0\u00a0Bloomberg.com",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPOEhyaV9tVHFJZXdNM1hvck5NVzh5WU50ZVlPZmFfcjdtSmlKdkxoYUMyRnJIWGNkUHJGMVVJc1BBU3Z1clQ3RWFiMFEyV3labzBGSGFzUnZRS3hiaVRMcGloM1FWSHR0MjIyZHdMcm5mX2xoaHU4YTBGOWV2elRoa3FYT2xybXhseXdPcDN1N3FHTXU1QWU2djVnR01JSERfWVVZaDBJOHRzRDQ?oc=5",
-          "source": "Bloomberg.com",
-          "published": "Tue, 25 Nov 2025 09:17:30 GMT",
-          "topic": "BUSINESS",
-          "fetched_at": "2025-11-25T12:13:17.622016"
-        },
-        "perspectives": [
-          {
-            "model": "GPT-4o Mini",
-            "model_id": "openai/gpt-4o-mini",
-            "emoji": "\ud83d\udfe2",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-11-25T12:13:49.914955"
+            "analyzed_at": "2025-11-25T18:10:39.943048"
           },
           {
             "model": "Llama 3.1 8B",
@@ -648,7 +640,7 @@
             "bias_check": "",
             "missing_context": "",
             "implications": "",
-            "analyzed_at": "2025-11-25T12:13:45.432089"
+            "analyzed_at": "2025-11-25T18:10:45.398276"
           },
           {
             "model": "Phi-4 Mini",
@@ -661,53 +653,7 @@
             "bias_check": "",
             "missing_context": "",
             "implications": "",
-            "analyzed_at": "2025-11-25T12:13:51.914974"
-          }
-        ],
-        "consensus": {
-          "dominant_sentiment": "mixed",
-          "agreement_percentage": 0,
-          "sentiment_distribution": {},
-          "models_analyzed": 3
-        }
-      },
-      {
-        "article": {
-          "id": "news_3_1764072797",
-          "title": "Dow Jones Futures: What To Do As Stock Market Roars To Key Level; Tesla, Palantir, Broadcom Jump - Investor's Business Daily",
-          "description": "Dow Jones Futures: What To Do As Stock Market Roars To Key Level; Tesla, Palantir, Broadcom Jump\u00a0\u00a0Investor's Business DailyStock market today: Nasdaq sees biggest jump since May, S&P 500 soars as Alphabet, Tesla lead tech rally\u00a0\u00a0Yahoo FinanceSuddenly, the Fed interest rate cut in December looks like it is very much back on the table\u00a0\u00a0FortuneStocks rally on rising hopes for December rate cut and renewed AI enthusiasm\u00a0\u00a0NBC NewsFed Cut: The 'Greenspan Put' Beats a Correction, Once Again\u00a0\u00a0Bloomberg.",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNekZOLWdKTlYxd1pvOUVTOWw0b25ySGJIbmtCUnk4M19lZUlqMHFmSzNKV2ZNN3BuOXlmbXNGd2NXc1gycjVhMFVRVDMzVFZFT1o0MFFGcXFnZmUyMzVobUlaYjF2QWJXdWFFWDNMWWRzLWk2V3d6dWszczluSnktdnRnM0ZscnIycHAwQUpTTDE3ZkxVNjZlSlBud0dpVWRjZmxHbmlDdFhSdHZlQVpr?oc=5",
-          "source": "Investor's Business Daily",
-          "published": "Tue, 25 Nov 2025 04:08:00 GMT",
-          "topic": "BUSINESS",
-          "fetched_at": "2025-11-25T12:13:17.622039"
-        },
-        "perspectives": [
-          {
-            "model": "GPT-4o Mini",
-            "model_id": "openai/gpt-4o-mini",
-            "emoji": "\ud83d\udfe2",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-11-25T12:13:50.978354"
-          },
-          {
-            "model": "Llama 3.1 8B",
-            "model_id": "meta/meta-llama-3.1-8b-instruct",
-            "emoji": "\ud83d\udd35",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-11-25T12:13:46.461968"
+            "analyzed_at": "2025-11-25T18:10:30.363117"
           },
           {
             "model": "Phi-4 Mini",
@@ -720,53 +666,7 @@
             "bias_check": "",
             "missing_context": "",
             "implications": "",
-            "analyzed_at": "2025-11-25T12:13:52.957828"
-          }
-        ],
-        "consensus": {
-          "dominant_sentiment": "mixed",
-          "agreement_percentage": 0,
-          "sentiment_distribution": {},
-          "models_analyzed": 3
-        }
-      },
-      {
-        "article": {
-          "id": "news_4_1764072797",
-          "title": "Exclusive | Fed\u2019s Daly Backs December Rate Cut, Citing Vulnerable Labor Market - The Wall Street Journal",
-          "description": "Exclusive | Fed\u2019s Daly Backs December Rate Cut, Citing Vulnerable Labor Market\u00a0\u00a0The Wall Street JournalFed may generate sugar rush in 2026\u00a0\u00a0ReutersFed\u2019s Waller Calls for December Cut, Then Meeting-By-Meeting\u00a0\u00a0Bloomberg.comThe Fed is so divided that the next vote on rates could result in an unprecedented tie, analysts say\u00a0\u00a0FortuneA December Interest Rate Cut Looks Likely\u2014Again\u00a0\u00a0Morningstar",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcG1iNXZHSGlFR3o5TWZIdHpYX2NzN3g0aGxfYUs5cTZxdVhKSk1QMEoxTlRUZmluOFNrczNLQi1MdGZlLV9vQTdBamVkOWZIVWN0SG1vYU1Ib0JZRHctVGJiLUotRVY0UWVrdHBpMXQ1MGNsUHJURURRSDd1WDdrdlZrQmJQa0NuNW5RYTE0clkzQkg5Rk1uN1hDSmxpemI5NGlTZUE4a3dHQkNRRlljM0hBWGlsSnRI?oc=5",
-          "source": "The Wall Street Journal",
-          "published": "Mon, 24 Nov 2025 19:55:00 GMT",
-          "topic": "BUSINESS",
-          "fetched_at": "2025-11-25T12:13:17.622059"
-        },
-        "perspectives": [
-          {
-            "model": "GPT-4o Mini",
-            "model_id": "openai/gpt-4o-mini",
-            "emoji": "\ud83d\udfe2",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-11-25T12:13:52.046045"
-          },
-          {
-            "model": "Llama 3.1 8B",
-            "model_id": "meta/meta-llama-3.1-8b-instruct",
-            "emoji": "\ud83d\udd35",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-11-25T12:13:47.491197"
+            "analyzed_at": "2025-11-25T18:10:35.547812"
           },
           {
             "model": "Phi-4 Mini",
@@ -779,14 +679,14 @@
             "bias_check": "",
             "missing_context": "",
             "implications": "",
-            "analyzed_at": "2025-11-25T12:13:54.001256"
+            "analyzed_at": "2025-11-25T18:10:40.721474"
           }
         ],
         "consensus": {
           "dominant_sentiment": "mixed",
           "agreement_percentage": 0,
           "sentiment_distribution": {},
-          "models_analyzed": 3
+          "models_analyzed": 9
         }
       },
       {
@@ -1054,7 +954,7 @@
         }
       }
     ],
-    "count": 13,
+    "count": 8,
     "consensus": {
       "dominant_sentiment": "unknown",
       "sentiment_distribution": {
@@ -1093,18 +993,18 @@
       "Grok 3"
     ],
     "total_perspectives": 51,
-    "generated_at": "2025-11-25 12:14:07 UTC"
+    "generated_at": "2025-11-25 18:10:56 UTC"
   },
   "costs": {
-    "execution_time": 0.000759124755859375,
-    "execution_minutes": 1.2652079264322917e-05,
-    "github_actions": 1.0121663411458334e-07,
+    "execution_time": 0.0007569789886474609,
+    "execution_minutes": 1.2616316477457682e-05,
+    "github_actions": 1.0093053181966146e-07,
     "openai": {
       "input": 0,
       "output": 0,
       "total": 0
     },
-    "total": 1.0121663411458334e-07,
+    "total": 1.0093053181966146e-07,
     "token_usage": {}
   }
 }
