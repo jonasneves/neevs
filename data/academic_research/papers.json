@@ -1,312 +1,330 @@
 {
   "agent": "agent-a-paper-fetcher",
-  "timestamp": "2025-11-24T09:03:59.666014",
+  "timestamp": "2025-11-25T09:04:23.290444",
   "status": "completed",
   "data": {
     "papers": [
       {
-        "id": "2511.17489v1",
-        "title": "Harnessing Data from Clustered LQR Systems: Personalized and Collaborative Policy Optimization",
+        "id": "2511.19436v1",
+        "title": "VDC-Agent: When Video Detailed Captioners Evolve Themselves via Agentic Self-Reflection",
         "authors": [
-          "Vinay Kanakeri",
-          "Shivam Bajaj",
-          "Ashwin Verma",
-          "Vijay Gupta",
-          "Aritra Mitra"
+          "Qiang Wang",
+          "Xinyuan Gao",
+          "SongLin Dong",
+          "Jizhou Han",
+          "Jiangyang Li"
         ],
-        "abstract": "It is known that reinforcement learning (RL) is data-hungry. To improve sample-efficiency of RL, it has been proposed that the learning algorithm utilize data from 'approximately similar' processes. However, since the process models are unknown, identifying which other processes are similar poses a challenge. In this work, we study this problem in the context of the benchmark Linear Quadratic Regulator (LQR) setting. Specifically, we consider a setting with multiple agents, each corresponding to...",
-        "published": "2025-11-21T18:45:53Z",
-        "updated": "2025-11-21T18:45:53Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.17489v1",
-        "abs_url": "https://arxiv.org/abs/2511.17489v1",
-        "categories": [
-          "cs.LG",
-          "eess.SY",
-          "math.OC"
-        ],
-        "primary_category": "cs.LG"
-      },
-      {
-        "id": "2511.17477v1",
-        "title": "Enhancing Quranic Learning: A Multimodal Deep Learning Approach for Arabic Phoneme Recognition",
-        "authors": [
-          "Ayhan Kucukmanisa",
-          "Derya Gelmez",
-          "Sukru Selim Calik",
-          "Zeynep Hilal Kilimci"
-        ],
-        "abstract": "Recent advances in multimodal deep learning have greatly enhanced the capability of systems for speech analysis and pronunciation assessment. Accurate pronunciation detection remains a key challenge in Arabic, particularly in the context of Quranic recitation, where subtle phonetic differences can alter meaning. Addressing this challenge, the present study proposes a transformer-based multimodal framework for Arabic phoneme mispronunciation detection that combines acoustic and textual representa...",
-        "published": "2025-11-21T18:25:46Z",
-        "updated": "2025-11-21T18:25:46Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.17477v1",
-        "abs_url": "https://arxiv.org/abs/2511.17477v1",
-        "categories": [
-          "cs.SD",
-          "cs.AI"
-        ],
-        "primary_category": "cs.SD"
-      },
-      {
-        "id": "2511.17475v1",
-        "title": "Addressing A Posteriori Performance Degradation in Neural Network Subgrid Stress Models",
-        "authors": [
-          "Andy Wu",
-          "Sanjiva K. Lele"
-        ],
-        "abstract": "Neural network subgrid stress models often have a priori performance that is far better than the a posteriori performance, leading to neural network models that look very promising a priori completely failing in a posteriori Large Eddy Simulations (LES). This performance gap can be decreased by combining two different methods, training data augmentation and reducing input complexity to the neural network. Augmenting the training data with two different filters before training the neural networks...",
-        "published": "2025-11-21T18:24:52Z",
-        "updated": "2025-11-21T18:24:52Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.17475v1",
-        "abs_url": "https://arxiv.org/abs/2511.17475v1",
-        "categories": [
-          "physics.flu-dyn",
-          "cs.LG"
-        ],
-        "primary_category": "physics.flu-dyn"
-      },
-      {
-        "id": "2511.17473v1",
-        "title": "Masked-and-Reordered Self-Supervision for Reinforcement Learning from Verifiable Rewards",
-        "authors": [
-          "Zhen Wang",
-          "Zhifeng Gao",
-          "Guolin Ke"
-        ],
-        "abstract": "Test-time scaling has been shown to substantially improve large language models' (LLMs) mathematical reasoning. However, for a large portion of mathematical corpora, especially theorem proving, RLVR's scalability is limited: intermediate reasoning is crucial, while final answers are difficult to directly and reliably verify. Meanwhile, token-level SFT often degenerates into rote memorization rather than inducing longer chains of thought. Inspired by BERT's self-supervised tasks, we propose MR-RL...",
-        "published": "2025-11-21T18:23:04Z",
-        "updated": "2025-11-21T18:23:04Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.17473v1",
-        "abs_url": "https://arxiv.org/abs/2511.17473v1",
-        "categories": [
-          "cs.CL",
-          "cs.AI",
-          "cs.LG"
-        ],
-        "primary_category": "cs.CL"
-      },
-      {
-        "id": "2511.17467v1",
-        "title": "PersonaAgent with GraphRAG: Community-Aware Knowledge Graphs for Personalized LLM",
-        "authors": [
-          "Siqi Liang",
-          "Yudi Zhang",
-          "Yue Guo"
-        ],
-        "abstract": "We propose a novel framework for persona-based language model system, motivated by the need for personalized AI agents that adapt to individual user preferences. In our approach, the agent embodies the user's \"persona\" (e.g. user profile or taste) and is powered by a large language model (LLM). To enable the agent to leverage rich contextual information, we introduce a Knowledge-Graph-enhanced Retrieval-Augmented Generation (Graph RAG) mechanism that constructs an LLM-derived graph index of rele...",
-        "published": "2025-11-21T18:15:47Z",
-        "updated": "2025-11-21T18:15:47Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.17467v1",
-        "abs_url": "https://arxiv.org/abs/2511.17467v1",
-        "categories": [
-          "cs.LG",
-          "cs.AI"
-        ],
-        "primary_category": "cs.LG"
-      },
-      {
-        "id": "2511.17461v1",
-        "title": "SRA-CP: Spontaneous Risk-Aware Selective Cooperative Perception",
-        "authors": [
-          "Jiaxi Liu",
-          "Chengyuan Ma",
-          "Hang Zhou",
-          "Weizhe Tang",
-          "Shixiao Liang"
-        ],
-        "abstract": "Cooperative perception (CP) offers significant potential to overcome the limitations of single-vehicle sensing by enabling information sharing among connected vehicles (CVs). However, existing generic CP approaches need to transmit large volumes of perception data that are irrelevant to the driving safety, exceeding available communication bandwidth. Moreover, most CP frameworks rely on pre-defined communication partners, making them unsuitable for dynamic traffic environments. This paper propos...",
-        "published": "2025-11-21T18:03:48Z",
-        "updated": "2025-11-21T18:03:48Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.17461v1",
-        "abs_url": "https://arxiv.org/abs/2511.17461v1",
-        "categories": [
-          "cs.AI"
-        ],
-        "primary_category": "cs.AI"
-      },
-      {
-        "id": "2511.17450v1",
-        "title": "Planning with Sketch-Guided Verification for Physics-Aware Video Generation",
-        "authors": [
-          "Yidong Huang",
-          "Zun Wang",
-          "Han Lin",
-          "Dong-Ki Kim",
-          "Shayegan Omidshafiei"
-        ],
-        "abstract": "Recent video generation approaches increasingly rely on planning intermediate control signals such as object trajectories to improve temporal coherence and motion fidelity. However, these methods mostly employ single-shot plans that are typically limited to simple motions, or iterative refinement which requires multiple calls to the video generator, incuring high computational cost. To overcome these limitations, we propose SketchVerify, a training-free, sketch-verification-based planning framew...",
-        "published": "2025-11-21T17:48:02Z",
-        "updated": "2025-11-21T17:48:02Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.17450v1",
-        "abs_url": "https://arxiv.org/abs/2511.17450v1",
+        "abstract": "We present VDC-Agent, a self-evolving framework for Video Detailed Captioning that requires neither human annotations nor larger teacher models. The agent forms a closed loop of caption generation, principle-guided scoring (score and textual suggestions), and prompt refinement. When caption quality regresses, a self-reflection path leverages the previous chain-of-thought to amend the update. Running this process on unlabeled videos produces trajectories of (caption, score) pairs. We convert the ...",
+        "published": "2025-11-24T18:59:56Z",
+        "updated": "2025-11-24T18:59:56Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.19436v1",
+        "abs_url": "https://arxiv.org/abs/2511.19436v1",
         "categories": [
           "cs.CV",
           "cs.AI",
-          "cs.CL"
+          "cs.LG",
+          "cs.MM"
         ],
         "primary_category": "cs.CV"
       },
       {
-        "id": "2511.17446v1",
-        "title": "Unmasking Airborne Threats: Guided-Transformers for Portable Aerosol Mass Spectrometry",
+        "id": "2511.19434v1",
+        "title": "Breaking the Likelihood-Quality Trade-off in Diffusion Models by Merging Pretrained Experts",
         "authors": [
-          "Kyle M. Regan",
-          "Michael McLoughlin",
-          "Wayne A. Bryden",
-          "Gonzalo R. Arce"
+          "Yasin Esfandiari",
+          "Stefan Bauer",
+          "Sebastian U. Stich",
+          "Andrea Dittadi"
         ],
-        "abstract": "Matrix Assisted Laser Desorption/Ionization Mass Spectrometry (MALDI-MS) is a cornerstone in biomolecular analysis, offering precise identification of pathogens through unique mass spectral signatures. Yet, its reliance on labor-intensive sample preparation and multi-shot spectral averaging restricts its use to laboratory settings, rendering it impractical for real-time environmental monitoring. These limitations are especially pronounced in emerging aerosol MALDI-MS systems, where autonomous sa...",
-        "published": "2025-11-21T17:45:00Z",
-        "updated": "2025-11-21T17:45:00Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.17446v1",
-        "abs_url": "https://arxiv.org/abs/2511.17446v1",
-        "categories": [
-          "cs.LG"
-        ],
-        "primary_category": "cs.LG"
-      },
-      {
-        "id": "2511.17443v1",
-        "title": "GRAPHIC--Guidelines for Reviewing Algorithmic Practices in Human-centred Design and Interaction for Creativity",
-        "authors": [
-          "Joana Rovira Martins",
-          "Pedro Martins",
-          "Ana Boavida"
-        ],
-        "abstract": "Artificial Intelligence (AI) has been increasingly applied to creative domains, leading to the development of systems that collaborate with humans in design processes. In Graphic Design, integrating computational systems into co-creative workflows presents specific challenges, as it requires balancing scientific rigour with the subjective and visual nature of design practice. Following the PRISMA methodology, we identified 872 articles, resulting in a final corpus of 71 publications describing 6...",
-        "published": "2025-11-21T17:42:09Z",
-        "updated": "2025-11-21T17:42:09Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.17443v1",
-        "abs_url": "https://arxiv.org/abs/2511.17443v1",
-        "categories": [
-          "cs.HC",
-          "cs.AI",
-          "cs.GR"
-        ],
-        "primary_category": "cs.HC"
-      },
-      {
-        "id": "2511.17442v1",
-        "title": "REMSA: An LLM Agent for Foundation Model Selection in Remote Sensing",
-        "authors": [
-          "Binger Chen",
-          "Tacettin Emre B\u00f6k",
-          "Behnood Rasti",
-          "Volker Markl",
-          "Beg\u00fcm Demir"
-        ],
-        "abstract": "Foundation Models (FMs) are increasingly used in remote sensing (RS) for tasks such as environmental monitoring, disaster assessment, and land-use mapping. These models include unimodal vision encoders trained on a single data modality and multimodal architectures trained on combinations of SAR, multispectral, hyperspectral, and image-text data. They support diverse RS tasks including semantic segmentation, image classification, change detection, and visual question answering. However, selecting...",
-        "published": "2025-11-21T17:41:26Z",
-        "updated": "2025-11-21T17:41:26Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.17442v1",
-        "abs_url": "https://arxiv.org/abs/2511.17442v1",
+        "abstract": "Diffusion models for image generation often exhibit a trade-off between perceptual sample quality and data likelihood: training objectives emphasizing high-noise denoising steps yield realistic images but poor likelihoods, whereas likelihood-oriented training overweights low-noise steps and harms visual fidelity. We introduce a simple plug-and-play sampling method that combines two pretrained diffusion experts by switching between them along the denoising trajectory. Specifically, we apply an im...",
+        "published": "2025-11-24T18:59:53Z",
+        "updated": "2025-11-24T18:59:53Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.19434v1",
+        "abs_url": "https://arxiv.org/abs/2511.19434v1",
         "categories": [
           "cs.CV",
-          "cs.AI"
+          "cs.LG",
+          "stat.ML"
         ],
         "primary_category": "cs.CV"
       },
       {
-        "id": "2511.17439v1",
-        "title": "InTAct: Interval-based Task Activation Consolidation for Continual Learning",
+        "id": "2511.19433v1",
+        "title": "Mixture of Horizons in Action Chunking",
         "authors": [
-          "Patryk Krukowski",
-          "Jan Miksa",
-          "Piotr Helm",
-          "Jacek Tabor",
-          "Pawe\u0142 Wawrzy\u0144ski"
+          "Dong Jing",
+          "Gang Wang",
+          "Jiaqi Liu",
+          "Weiliang Tang",
+          "Zelong Sun"
         ],
-        "abstract": "Continual learning aims to enable neural networks to acquire new knowledge without forgetting previously learned information. While recent prompt-based methods perform strongly in class-incremental settings, they remain vulnerable under domain shifts, where the input distribution changes but the label space remains fixed. This exposes a persistent problem known as representation drift. Shared representations evolve in ways that overwrite previously useful features and cause forgetting even when ...",
-        "published": "2025-11-21T17:36:12Z",
-        "updated": "2025-11-21T17:36:12Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.17439v1",
-        "abs_url": "https://arxiv.org/abs/2511.17439v1",
+        "abstract": "Vision-language-action (VLA) models have shown remarkable capabilities in robotic manipulation, but their performance is sensitive to the $\\textbf{action chunk length}$ used during training, termed $\\textbf{horizon}$. Our empirical study reveals an inherent trade-off: longer horizons provide stronger global foresight but degrade fine-grained accuracy, while shorter ones sharpen local control yet struggle on long-term tasks, implying fixed choice of single horizons being suboptimal. To mitigate t...",
+        "published": "2025-11-24T18:59:51Z",
+        "updated": "2025-11-24T18:59:51Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.19433v1",
+        "abs_url": "https://arxiv.org/abs/2511.19433v1",
         "categories": [
-          "cs.LG",
-          "cs.AI"
-        ],
-        "primary_category": "cs.LG"
-      },
-      {
-        "id": "2511.17436v1",
-        "title": "A Framework for Adaptive Stabilisation of Nonlinear Stochastic Systems",
-        "authors": [
-          "Seth Siriya",
-          "Jingge Zhu",
-          "Dragan Ne\u0161i\u0107",
-          "Ye Pu"
-        ],
-        "abstract": "We consider the adaptive control problem for discrete-time, nonlinear stochastic systems with linearly parameterised uncertainty. Assuming access to a parameterised family of controllers that can stabilise the system in a bounded set within an informative region of the state space when the parameter is well-chosen, we propose a certainty equivalence learning-based adaptive control strategy, and subsequently derive stability bounds on the closed-loop system that hold for some probabilities. We th...",
-        "published": "2025-11-21T17:33:00Z",
-        "updated": "2025-11-21T17:33:00Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.17436v1",
-        "abs_url": "https://arxiv.org/abs/2511.17436v1",
-        "categories": [
-          "eess.SY",
-          "cs.LG",
-          "math.OC"
-        ],
-        "primary_category": "eess.SY"
-      },
-      {
-        "id": "2511.17435v1",
-        "title": "Multi-Agent Pointer Transformer: Seq-to-Seq Reinforcement Learning for Multi-Vehicle Dynamic Pickup-Delivery Problems",
-        "authors": [
-          "Zengyu Zou",
-          "Jingyuan Wang",
-          "Yixuan Huang",
-          "Junjie Wu"
-        ],
-        "abstract": "This paper addresses the cooperative Multi-Vehicle Dynamic Pickup and Delivery Problem with Stochastic Requests (MVDPDPSR) and proposes an end-to-end centralized decision-making framework based on sequence-to-sequence, named Multi-Agent Pointer Transformer (MAPT). MVDPDPSR is an extension of the vehicle routing problem and a spatio-temporal system optimization problem, widely applied in scenarios such as on-demand delivery. Classical operations research methods face bottlenecks in computational ...",
-        "published": "2025-11-21T17:32:10Z",
-        "updated": "2025-11-21T17:32:10Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.17435v1",
-        "abs_url": "https://arxiv.org/abs/2511.17435v1",
-        "categories": [
-          "cs.LG"
-        ],
-        "primary_category": "cs.LG"
-      },
-      {
-        "id": "2511.17432v1",
-        "title": "SMILE: A Composite Lexical-Semantic Metric for Question-Answering Evaluation",
-        "authors": [
-          "Shrikant Kendre",
-          "Austin Xu",
-          "Honglu Zhou",
-          "Michael Ryoo",
-          "Shafiq Joty"
-        ],
-        "abstract": "Traditional evaluation metrics for textual and visual question answering, like ROUGE, METEOR, and Exact Match (EM), focus heavily on n-gram based lexical similarity, often missing the deeper semantic understanding needed for accurate assessment. While measures like BERTScore and MoverScore leverage contextual embeddings to address this limitation, they lack flexibility in balancing sentence-level and keyword-level semantics and ignore lexical similarity, which remains important. Large Language M...",
-        "published": "2025-11-21T17:30:18Z",
-        "updated": "2025-11-21T17:30:18Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.17432v1",
-        "abs_url": "https://arxiv.org/abs/2511.17432v1",
-        "categories": [
-          "cs.CL",
+          "cs.RO",
           "cs.AI",
           "cs.CV"
         ],
+        "primary_category": "cs.RO"
+      },
+      {
+        "id": "2511.19428v1",
+        "title": "Flow Map Distillation Without Data",
+        "authors": [
+          "Shangyuan Tong",
+          "Nanye Ma",
+          "Saining Xie",
+          "Tommi Jaakkola"
+        ],
+        "abstract": "State-of-the-art flow models achieve remarkable quality but require slow, iterative sampling. To accelerate this, flow maps can be distilled from pre-trained teachers, a procedure that conventionally requires sampling from an external dataset. We argue that this data-dependency introduces a fundamental risk of Teacher-Data Mismatch, as a static dataset may provide an incomplete or even misaligned representation of the teacher's full generative capabilities. This leads us to question whether this...",
+        "published": "2025-11-24T18:58:55Z",
+        "updated": "2025-11-24T18:58:55Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.19428v1",
+        "abs_url": "https://arxiv.org/abs/2511.19428v1",
+        "categories": [
+          "cs.LG",
+          "cs.CV"
+        ],
+        "primary_category": "cs.LG"
+      },
+      {
+        "id": "2511.19427v1",
+        "title": "Prompt Less, Smile More: MTP with Semantic Engineering in Lieu of Prompt Engineering",
+        "authors": [
+          "Jayanaka L. Dantanarayana",
+          "Savini Kashmira",
+          "Thakee Nathees",
+          "Zichen Zhang",
+          "Krisztian Flautner"
+        ],
+        "abstract": "AI-Integrated programming is emerging as a foundational paradigm for building intelligent systems with large language models (LLMs). Recent approaches such as Meaning Typed Programming (MTP) automate prompt generation by leveraging the semantics already present in code. However, many real-world applications depend on contextual cues, developer intent, and domain-specific reasoning that extend beyond what static code semantics alone can express. To address this limitation, we introduce Semantic E...",
+        "published": "2025-11-24T18:58:22Z",
+        "updated": "2025-11-24T18:58:22Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.19427v1",
+        "abs_url": "https://arxiv.org/abs/2511.19427v1",
+        "categories": [
+          "cs.SE",
+          "cs.AI"
+        ],
+        "primary_category": "cs.SE"
+      },
+      {
+        "id": "2511.19423v1",
+        "title": "Beyond Protein Language Models: An Agentic LLM Framework for Mechanistic Enzyme Design",
+        "authors": [
+          "Bruno Jacob",
+          "Khushbu Agarwal",
+          "Marcel Baer",
+          "Peter Rice",
+          "Simone Raugei"
+        ],
+        "abstract": "We present Genie-CAT, a tool-augmented large-language-model (LLM) system designed to accelerate scientific hypothesis generation in protein design. Using metalloproteins (e.g., ferredoxins) as a case study, Genie-CAT integrates four capabilities -- literature-grounded reasoning through retrieval-augmented generation (RAG), structural parsing of Protein Data Bank files, electrostatic potential calculations, and machine-learning prediction of redox properties -- into a unified agentic workflow. By...",
+        "published": "2025-11-24T18:57:07Z",
+        "updated": "2025-11-24T18:57:07Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.19423v1",
+        "abs_url": "https://arxiv.org/abs/2511.19423v1",
+        "categories": [
+          "q-bio.QM",
+          "cs.AI"
+        ],
+        "primary_category": "q-bio.QM"
+      },
+      {
+        "id": "2511.19422v1",
+        "title": "SLMFix: Leveraging Small Language Models for Error Fixing with Reinforcement Learning",
+        "authors": [
+          "David Jiahao Fu",
+          "Aryan Gupta",
+          "Aaron Councilman",
+          "David Grove",
+          "Yu-Xiong Wang"
+        ],
+        "abstract": "Recent advancements in large language models (LLMs) have shown very impressive capabilities in code generation across many programming languages. However, even state-of-the-art LLMs generate programs that contains syntactic errors and fail to complete the given tasks, especially for low-resource programming languages (LRPLs). In addition, high training cost makes finetuning LLMs unaffordable with constrained computational resources, further undermining the effectiveness of LLMs for code generati...",
+        "published": "2025-11-24T18:56:47Z",
+        "updated": "2025-11-24T18:56:47Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.19422v1",
+        "abs_url": "https://arxiv.org/abs/2511.19422v1",
+        "categories": [
+          "cs.SE",
+          "cs.AI",
+          "cs.PL"
+        ],
+        "primary_category": "cs.SE"
+      },
+      {
+        "id": "2511.19418v1",
+        "title": "Chain-of-Visual-Thought: Teaching VLMs to See and Think Better with Continuous Visual Tokens",
+        "authors": [
+          "Yiming Qin",
+          "Bomin Wei",
+          "Jiaxin Ge",
+          "Konstantinos Kallidromitis",
+          "Stephanie Fu"
+        ],
+        "abstract": "Vision-Language Models (VLMs) excel at reasoning in linguistic space but struggle with perceptual understanding that requires dense visual perception, e.g., spatial reasoning and geometric awareness. This limitation stems from the fact that current VLMs have limited mechanisms to capture dense visual information across spatial dimensions. We introduce Chain-of-Visual-Thought (COVT), a framework that enables VLMs to reason not only in words but also through continuous visual tokens-compact latent...",
+        "published": "2025-11-24T18:55:19Z",
+        "updated": "2025-11-24T18:55:19Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.19418v1",
+        "abs_url": "https://arxiv.org/abs/2511.19418v1",
+        "categories": [
+          "cs.CV",
+          "cs.AI",
+          "cs.LG"
+        ],
+        "primary_category": "cs.CV"
+      },
+      {
+        "id": "2511.19417v1",
+        "title": "Be My Eyes: Extending Large Language Models to New Modalities Through Multi-Agent Collaboration",
+        "authors": [
+          "James Y. Huang",
+          "Sheng Zhang",
+          "Qianchu Liu",
+          "Guanghui Qin",
+          "Tinghui Zhu"
+        ],
+        "abstract": "Large Language Models (LLMs) have demonstrated remarkable capabilities in challenging, knowledge-intensive reasoning tasks. However, extending LLMs to perceive and reason over a new modality (e.g., vision), often requires costly development of large-scale vision language models (VLMs) with LLMs as backbones. Smaller VLMs are more efficient and adaptable but often lack the broad knowledge and reasoning capabilities of frontier LLMs. In this work, we propose BeMyEyes, a modular, multi-agent framew...",
+        "published": "2025-11-24T18:55:16Z",
+        "updated": "2025-11-24T18:55:16Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.19417v1",
+        "abs_url": "https://arxiv.org/abs/2511.19417v1",
+        "categories": [
+          "cs.CL",
+          "cs.AI",
+          "cs.LG"
+        ],
         "primary_category": "cs.CL"
       },
       {
-        "id": "2511.17427v1",
-        "title": "Towards fully differentiable neural ocean model with Veros",
+        "id": "2511.19413v1",
+        "title": "UniGame: Turning a Unified Multimodal Model Into Its Own Adversary",
         "authors": [
-          "Etienne Meunier",
-          "Said Ouala",
-          "Hugo Frezat",
-          "Julien Le Sommer",
-          "Ronan Fablet"
+          "Zhaolong Su",
+          "Wang Lu",
+          "Hao Chen",
+          "Sharon Li",
+          "Jindong Wang"
         ],
-        "abstract": "We present a differentiable extension of the VEROS ocean model, enabling automatic differentiation through its dynamical core. We describe the key modifications required to make the model fully compatible with JAX autodifferentiation framework and evaluate the numerical consistency of the resulting implementation. Two illustrative applications are then demonstrated: (i) the correction of an initial ocean state through gradient-based optimization, and (ii) the calibration of unknown physical para...",
-        "published": "2025-11-21T17:24:00Z",
-        "updated": "2025-11-21T17:24:00Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.17427v1",
-        "abs_url": "https://arxiv.org/abs/2511.17427v1",
+        "abstract": "Unified Multimodal Models (UMMs) have shown impressive performance in both understanding and generation with a single architecture. However, UMMs still exhibit a fundamental inconsistency: understanding favors compact embeddings, whereas generation favors reconstruction-rich representations. This structural trade-off produces misaligned decision boundaries, degraded cross-modal coherence, and heightened vulnerability under distributional and adversarial shifts. In this paper, we present UniGame,...",
+        "published": "2025-11-24T18:50:01Z",
+        "updated": "2025-11-24T18:50:01Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.19413v1",
+        "abs_url": "https://arxiv.org/abs/2511.19413v1",
+        "categories": [
+          "cs.LG",
+          "cs.AI",
+          "cs.CV"
+        ],
+        "primary_category": "cs.LG"
+      },
+      {
+        "id": "2511.19405v1",
+        "title": "Learning Robust Social Strategies with Large Language Models",
+        "authors": [
+          "Dereck Piche",
+          "Mohammed Muqeeth",
+          "Milad Aghajohari",
+          "Juan Duque",
+          "Michael Noukhovitch"
+        ],
+        "abstract": "As agentic AI becomes more widespread, agents with distinct and possibly conflicting goals will interact in complex ways. These multi-agent interactions pose a fundamental challenge, particularly in social dilemmas, where agents' individual incentives can undermine collective welfare. While reinforcement learning (RL) has been effective for aligning large language models (LLMs) in the single-agent regime, prior small-network results suggest that standard RL in multi-agent settings often converge...",
+        "published": "2025-11-24T18:43:46Z",
+        "updated": "2025-11-24T18:43:46Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.19405v1",
+        "abs_url": "https://arxiv.org/abs/2511.19405v1",
         "categories": [
           "cs.LG"
         ],
         "primary_category": "cs.LG"
+      },
+      {
+        "id": "2511.19404v1",
+        "title": "Nonparametric Instrumental Variable Regression with Observed Covariates",
+        "authors": [
+          "Zikai Shen",
+          "Zonghao Chen",
+          "Dimitri Meunier",
+          "Ingo Steinwart",
+          "Arthur Gretton"
+        ],
+        "abstract": "We study the problem of nonparametric instrumental variable regression with observed covariates, which we refer to as NPIV-O. Compared with standard nonparametric instrumental variable regression (NPIV), the additional observed covariates facilitate causal identification and enables heterogeneous causal effect estimation. However, the presence of observed covariates introduces two challenges for its theoretical analysis. First, it induces a partial identity structure, which renders previous NPIV...",
+        "published": "2025-11-24T18:42:49Z",
+        "updated": "2025-11-24T18:42:49Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.19404v1",
+        "abs_url": "https://arxiv.org/abs/2511.19404v1",
+        "categories": [
+          "stat.ML",
+          "cs.LG",
+          "math.ST"
+        ],
+        "primary_category": "stat.ML"
+      },
+      {
+        "id": "2511.19401v1",
+        "title": "In-Video Instructions: Visual Signals as Generative Control",
+        "authors": [
+          "Gongfan Fang",
+          "Xinyin Ma",
+          "Xinchao Wang"
+        ],
+        "abstract": "Large-scale video generative models have recently demonstrated strong visual capabilities, enabling the prediction of future frames that adhere to the logical and physical cues in the current observation. In this work, we investigate whether such capabilities can be harnessed for controllable image-to-video generation by interpreting visual signals embedded within the frames as instructions, a paradigm we term In-Video Instruction. In contrast to prompt-based control, which provides textual desc...",
+        "published": "2025-11-24T18:38:45Z",
+        "updated": "2025-11-24T18:38:45Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.19401v1",
+        "abs_url": "https://arxiv.org/abs/2511.19401v1",
+        "categories": [
+          "cs.CV",
+          "cs.AI"
+        ],
+        "primary_category": "cs.CV"
+      },
+      {
+        "id": "2511.19399v1",
+        "title": "DR Tulu: Reinforcement Learning with Evolving Rubrics for Deep Research",
+        "authors": [
+          "Rulin Shao",
+          "Akari Asai",
+          "Shannon Zejiang Shen",
+          "Hamish Ivison",
+          "Varsha Kishore"
+        ],
+        "abstract": "Deep research models perform multi-step research to produce long-form, well-attributed answers. However, most open deep research models are trained on easily verifiable short-form QA tasks via reinforcement learning with verifiable rewards (RLVR), which does not extend to realistic long-form tasks. We address this with Reinforcement Learning with Evolving Rubrics (RLER), in which we construct and maintain rubrics that co-evolve with the policy model during training; this allows the rubrics to in...",
+        "published": "2025-11-24T18:35:54Z",
+        "updated": "2025-11-24T18:35:54Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.19399v1",
+        "abs_url": "https://arxiv.org/abs/2511.19399v1",
+        "categories": [
+          "cs.CL",
+          "cs.AI",
+          "cs.LG"
+        ],
+        "primary_category": "cs.CL"
+      },
+      {
+        "id": "2511.19398v1",
+        "title": "PTF Testing Lower Bounds for Non-Gaussian Component Analysis",
+        "authors": [
+          "Ilias Diakonikolas",
+          "Daniel M. Kane",
+          "Sihan Liu",
+          "Thanasis Pittas"
+        ],
+        "abstract": "This work studies information-computation gaps for statistical problems. A common approach for providing evidence of such gaps is to show sample complexity lower bounds (that are stronger than the information-theoretic optimum) against natural models of computation. A popular such model in the literature is the family of low-degree polynomial tests. While these tests are defined in such a way that make them easy to analyze, the class of algorithms that they rule out is somewhat restricted. An im...",
+        "published": "2025-11-24T18:35:29Z",
+        "updated": "2025-11-24T18:35:29Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.19398v1",
+        "abs_url": "https://arxiv.org/abs/2511.19398v1",
+        "categories": [
+          "cs.DS",
+          "cs.IT",
+          "cs.LG",
+          "math.ST",
+          "stat.ML"
+        ],
+        "primary_category": "cs.DS"
       }
     ],
     "count": 15,
@@ -315,7 +333,7 @@
       "cs.LG",
       "cs.CL"
     ],
-    "fetch_date": "2025-11-24"
+    "fetch_date": "2025-11-25"
   },
   "metadata": {
     "source": "arXiv API",
@@ -324,19 +342,19 @@
       "total_fetched": 15,
       "new_papers": 15,
       "duplicates_filtered": 0,
-      "last_fetch": "2025-11-23T09:02:53.041636"
+      "last_fetch": "2025-11-24T09:03:59.666014"
     }
   },
   "costs": {
-    "execution_time": 0.35806798934936523,
-    "execution_minutes": 0.0059677998224894205,
-    "github_actions": 4.774239857991537e-05,
+    "execution_time": 0.5326287746429443,
+    "execution_minutes": 0.008877146244049072,
+    "github_actions": 7.101716995239257e-05,
     "openai": {
       "input": 0,
       "output": 0,
       "total": 0
     },
-    "total": 4.774239857991537e-05,
+    "total": 7.101716995239257e-05,
     "token_usage": {}
   }
 }
