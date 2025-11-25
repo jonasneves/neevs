@@ -1,122 +1,301 @@
 {
   "agent": "agent-b-paper-analyzer",
-  "timestamp": "2025-11-24T09:05:35.847359",
+  "timestamp": "2025-11-25T09:06:33.769995",
   "status": "completed",
   "input_from": "agent-a-paper-fetcher",
   "data": {
     "analyzed_papers": [
       {
-        "id": "2511.17489v1",
-        "title": "Harnessing Data from Clustered LQR Systems: Personalized and Collaborative Policy Optimization",
+        "id": "2511.19436v1",
+        "title": "VDC-Agent: When Video Detailed Captioners Evolve Themselves via Agentic Self-Reflection",
         "authors": [
-          "Vinay Kanakeri",
-          "Shivam Bajaj",
-          "Ashwin Verma",
-          "Vijay Gupta",
-          "Aritra Mitra"
+          "Qiang Wang",
+          "Xinyuan Gao",
+          "SongLin Dong",
+          "Jizhou Han",
+          "Jiangyang Li"
         ],
-        "abstract": "It is known that reinforcement learning (RL) is data-hungry. To improve sample-efficiency of RL, it has been proposed that the learning algorithm utilize data from 'approximately similar' processes. However, since the process models are unknown, identifying which other processes are similar poses a challenge. In this work, we study this problem in the context of the benchmark Linear Quadratic Regulator (LQR) setting. Specifically, we consider a setting with multiple agents, each corresponding to...",
-        "published": "2025-11-21T18:45:53Z",
-        "updated": "2025-11-21T18:45:53Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.17489v1",
-        "abs_url": "https://arxiv.org/abs/2511.17489v1",
+        "abstract": "We present VDC-Agent, a self-evolving framework for Video Detailed Captioning that requires neither human annotations nor larger teacher models. The agent forms a closed loop of caption generation, principle-guided scoring (score and textual suggestions), and prompt refinement. When caption quality regresses, a self-reflection path leverages the previous chain-of-thought to amend the update. Running this process on unlabeled videos produces trajectories of (caption, score) pairs. We convert the ...",
+        "published": "2025-11-24T18:59:56Z",
+        "updated": "2025-11-24T18:59:56Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.19436v1",
+        "abs_url": "https://arxiv.org/abs/2511.19436v1",
+        "categories": [
+          "cs.CV",
+          "cs.AI",
+          "cs.LG",
+          "cs.MM"
+        ],
+        "primary_category": "cs.CV",
+        "analysis": {
+          "tldr": "This paper introduces VDC-Agent, a clever system for creating detailed captions for videos without needing human input or extensive pre-trained models. It uses a self-evolving loop to improve its captioning based on its own performance feedback.",
+          "eli5": "Imagine a robot that watches videos and writes descriptions for them. Instead of needing a human to tell it what's good or bad, this robot learns on its own. It checks its own work and makes adjustments when it notices it\u2019s not doing so well, all while keeping track of how it improves over time. This means it can get better at captioning videos without relying on anyone else's help.",
+          "key_contributions": [
+            "Introducing the VDC-Agent framework for self-evolving video captioning.",
+            "Eliminating the need for human annotations or large teacher models, making the process more efficient.",
+            "Implementing a self-reflection mechanism that allows the agent to learn and improve based on its past performance."
+          ],
+          "why_care": "This research is essential because it can enhance how we understand and interact with video content online. Better automated captioning means improved accessibility for the hearing impaired and can aid in content discovery, making video platforms more user-friendly for everyone.",
+          "accessibility": "General Audience",
+          "spicy_take": "This approach could redefine how AI learns from its mistakes, making it a game-changer in the field of natural language processing and machine learning.",
+          "reading_time_minutes": 5
+        }
+      },
+      {
+        "id": "2511.19434v1",
+        "title": "Breaking the Likelihood-Quality Trade-off in Diffusion Models by Merging Pretrained Experts",
+        "authors": [
+          "Yasin Esfandiari",
+          "Stefan Bauer",
+          "Sebastian U. Stich",
+          "Andrea Dittadi"
+        ],
+        "abstract": "Diffusion models for image generation often exhibit a trade-off between perceptual sample quality and data likelihood: training objectives emphasizing high-noise denoising steps yield realistic images but poor likelihoods, whereas likelihood-oriented training overweights low-noise steps and harms visual fidelity. We introduce a simple plug-and-play sampling method that combines two pretrained diffusion experts by switching between them along the denoising trajectory. Specifically, we apply an im...",
+        "published": "2025-11-24T18:59:53Z",
+        "updated": "2025-11-24T18:59:53Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.19434v1",
+        "abs_url": "https://arxiv.org/abs/2511.19434v1",
+        "categories": [
+          "cs.CV",
+          "cs.LG",
+          "stat.ML"
+        ],
+        "primary_category": "cs.CV",
+        "analysis": {
+          "tldr": "This paper presents a new method to improve image generation in diffusion models by combining two different pretrained models, allowing for better quality images without sacrificing likelihood. Essentially, it aims to have the best of both worlds in image creation.",
+          "eli5": "The authors tackled a problem where generating high-quality images often meant that the model couldn\u2019t confidently predict how likely those images are based on the training data. They created a clever way to use two different trained models together, switching between them as needed to produce better images.",
+          "key_contributions": [
+            "Introduced a new sampling method that merges two pretrained diffusion models to enhance image quality.",
+            "Addressed the common trade-off between image quality and likelihood in diffusion models.",
+            "Provided a practical solution that can be easily integrated into existing systems."
+          ],
+          "why_care": "Improving image generation technology has vast implications across various fields, from art and design to medical imaging and video game development. Better models mean more realistic and useful images, which can enhance creativity and innovation.",
+          "accessibility": "Tech-Savvy",
+          "spicy_take": "If implemented widely, this method could redefine standards for image generation, making it a game changer in the AI art world.",
+          "reading_time_minutes": 5
+        }
+      },
+      {
+        "id": "2511.19433v1",
+        "title": "Mixture of Horizons in Action Chunking",
+        "authors": [
+          "Dong Jing",
+          "Gang Wang",
+          "Jiaqi Liu",
+          "Weiliang Tang",
+          "Zelong Sun"
+        ],
+        "abstract": "Vision-language-action (VLA) models have shown remarkable capabilities in robotic manipulation, but their performance is sensitive to the $\\textbf{action chunk length}$ used during training, termed $\\textbf{horizon}$. Our empirical study reveals an inherent trade-off: longer horizons provide stronger global foresight but degrade fine-grained accuracy, while shorter ones sharpen local control yet struggle on long-term tasks, implying fixed choice of single horizons being suboptimal. To mitigate t...",
+        "published": "2025-11-24T18:59:51Z",
+        "updated": "2025-11-24T18:59:51Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.19433v1",
+        "abs_url": "https://arxiv.org/abs/2511.19433v1",
+        "categories": [
+          "cs.RO",
+          "cs.AI",
+          "cs.CV"
+        ],
+        "primary_category": "cs.RO",
+        "analysis": {
+          "tldr": "This paper explores how the length of action sequences, called horizons, affects the performance of robots in tasks that require both vision and language understanding. The authors propose a mixture of horizons approach that balances short and long action sequences to improve robotic manipulation.",
+          "eli5": "Imagine teaching a robot to pick up toys. If you only tell it to do one thing at a time (a short action sequence), it might do great up close but struggle to plan for what's next. If you give it a long list of tasks (a long action sequence), it can see the big picture but might mess up the details. This paper suggests using a mix of both approaches to help robots do better overall.",
+          "key_contributions": [
+            "Introduces the concept of mixing different action chunk lengths to optimize robot performance.",
+            "Reveals the trade-offs between short and long horizons and how they affect task execution.",
+            "Provides empirical evidence to support the use of varied horizons for improved robotic manipulation."
+          ],
+          "why_care": "As robots become increasingly integrated into our daily lives\u2014think delivery drones or home assistants\u2014making them more efficient and capable of complex tasks can revolutionize industries and enhance our day-to-day convenience.",
+          "accessibility": "Tech-Savvy",
+          "spicy_take": "Mixing action horizons might just be the secret sauce that could take robotic manipulation from clunky to seamless.",
+          "reading_time_minutes": 5
+        }
+      },
+      {
+        "id": "2511.19428v1",
+        "title": "Flow Map Distillation Without Data",
+        "authors": [
+          "Shangyuan Tong",
+          "Nanye Ma",
+          "Saining Xie",
+          "Tommi Jaakkola"
+        ],
+        "abstract": "State-of-the-art flow models achieve remarkable quality but require slow, iterative sampling. To accelerate this, flow maps can be distilled from pre-trained teachers, a procedure that conventionally requires sampling from an external dataset. We argue that this data-dependency introduces a fundamental risk of Teacher-Data Mismatch, as a static dataset may provide an incomplete or even misaligned representation of the teacher's full generative capabilities. This leads us to question whether this...",
+        "published": "2025-11-24T18:58:55Z",
+        "updated": "2025-11-24T18:58:55Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.19428v1",
+        "abs_url": "https://arxiv.org/abs/2511.19428v1",
         "categories": [
           "cs.LG",
-          "eess.SY",
-          "math.OC"
+          "cs.CV"
         ],
         "primary_category": "cs.LG",
         "analysis": {
-          "tldr": "This paper tackles the issue of making reinforcement learning (RL) more efficient by allowing agents to share data from similar learning processes, even when their underlying models are unknown.",
-          "eli5": "Imagine teaching a group of kids how to ride bikes, but each kid has a different type of bike and they learn at different speeds. Instead of each kid learning alone, they can share tips and experiences with each other to speed up the process. This paper explores how multiple agents can learn from each other in a similar way, using data from their experiences to become better at their tasks faster.",
+          "tldr": "This paper explores a method for speeding up flow models by distilling flow maps from pre-trained models without needing external data. It highlights the risks of relying on static datasets that may not fully capture the teacher model's abilities.",
+          "eli5": "Imagine you have a really smart teacher (a flow model) that can create amazing stories, but it takes a long time for them to write each one. Instead of copying their stories from an old book (static dataset), this paper looks at how to learn directly from the teacher without needing that book, making the process faster and potentially better.",
           "key_contributions": [
-            "Introduces a method for agents to identify and utilize data from other similar processes to improve learning efficiency.",
-            "Develops a framework within the Linear Quadratic Regulator (LQR) context to demonstrate collaborative policy optimization.",
-            "Provides empirical evidence supporting the effectiveness of shared learning in clustered environments of agents."
+            "Introduces a novel method for distilling flow maps without the need for external datasets, reducing dependence on potentially flawed data.",
+            "Identifies and addresses the issue of Teacher-Data Mismatch, which can compromise the quality of the generated models.",
+            "Provides theoretical insights and practical implications for improving the efficiency of generative models in various applications."
           ],
-          "why_care": "Improving how machines learn from data can lead to more efficient AI applications in industries like robotics, autonomous vehicles, and personalized health which rely on reinforcement learning.",
+          "why_care": "This research can significantly improve how we generate complex data, like images or text, making it faster and more reliable, which has implications for industries like AI-driven content creation, gaming, and even healthcare.",
           "accessibility": "Tech-Savvy",
-          "spicy_take": "While this paper makes strides in collaborative learning, it raises the question of how far we can push data sharing before we compromise individual agent autonomy.",
-          "reading_time_minutes": 8
+          "spicy_take": "Relying on static datasets is like trying to memorize a cookbook instead of learning to cook from a chef\u2014this paper champions the chef's way!",
+          "reading_time_minutes": 6
         }
       },
       {
-        "id": "2511.17477v1",
-        "title": "Enhancing Quranic Learning: A Multimodal Deep Learning Approach for Arabic Phoneme Recognition",
+        "id": "2511.19427v1",
+        "title": "Prompt Less, Smile More: MTP with Semantic Engineering in Lieu of Prompt Engineering",
         "authors": [
-          "Ayhan Kucukmanisa",
-          "Derya Gelmez",
-          "Sukru Selim Calik",
-          "Zeynep Hilal Kilimci"
+          "Jayanaka L. Dantanarayana",
+          "Savini Kashmira",
+          "Thakee Nathees",
+          "Zichen Zhang",
+          "Krisztian Flautner"
         ],
-        "abstract": "Recent advances in multimodal deep learning have greatly enhanced the capability of systems for speech analysis and pronunciation assessment. Accurate pronunciation detection remains a key challenge in Arabic, particularly in the context of Quranic recitation, where subtle phonetic differences can alter meaning. Addressing this challenge, the present study proposes a transformer-based multimodal framework for Arabic phoneme mispronunciation detection that combines acoustic and textual representa...",
-        "published": "2025-11-21T18:25:46Z",
-        "updated": "2025-11-21T18:25:46Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.17477v1",
-        "abs_url": "https://arxiv.org/abs/2511.17477v1",
+        "abstract": "AI-Integrated programming is emerging as a foundational paradigm for building intelligent systems with large language models (LLMs). Recent approaches such as Meaning Typed Programming (MTP) automate prompt generation by leveraging the semantics already present in code. However, many real-world applications depend on contextual cues, developer intent, and domain-specific reasoning that extend beyond what static code semantics alone can express. To address this limitation, we introduce Semantic E...",
+        "published": "2025-11-24T18:58:22Z",
+        "updated": "2025-11-24T18:58:22Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.19427v1",
+        "abs_url": "https://arxiv.org/abs/2511.19427v1",
         "categories": [
-          "cs.SD",
+          "cs.SE",
           "cs.AI"
         ],
-        "primary_category": "cs.SD",
+        "primary_category": "cs.SE",
         "analysis": {
-          "tldr": "This paper explores a new approach for improving the recognition of Arabic phonemes, especially in Quranic recitation, by using a multimodal deep learning framework that analyzes both sound and text. It aims to enhance pronunciation accuracy by detecting subtle mispronunciations that can change meanings.",
-          "eli5": "Imagine you're trying to learn how to pronounce words in Arabic, particularly when reciting the Quran. This study looks at how computers can help by using advanced technology to listen to your pronunciation and compare it to the correct sounds, all while considering the text you're reading. It\u2019s like having a super smart tutor that can spot mistakes even when they\u2019re really tiny.",
+          "tldr": "This paper introduces a new approach for programming with AI that focuses on understanding the meaning behind code instead of just generating prompts. It aims to make AI systems smarter by considering context and developer intent in addition to the code itself.",
+          "eli5": "Think of coding like telling a story. Traditionally, AI would help you write the story by suggesting words based on the surface meaning of what you've already written. This paper suggests a smarter way where the AI understands the deeper meaning and context of your story, helping you tell it better without needing to tell it what to say at every turn.",
           "key_contributions": [
-            "Introduced a transformer-based multimodal framework specifically for detecting mispronunciations in Arabic phonemes.",
-            "Combined both acoustic signals (what you hear) and textual data (what you read) to improve accuracy in pronunciation assessment.",
-            "Addressed the unique challenges of Arabic pronunciation in the context of Quranic recitation, where mispronouncing a single phoneme can change the meaning of a verse."
+            "The introduction of Meaning Typed Programming (MTP) that automates prompt generation based on code semantics.",
+            "A new framework called Semantic Engineering that enriches AI understanding by incorporating contextual clues and developer intent.",
+            "A practical approach that bridges the gap between static code and dynamic reasoning required for real-world applications."
           ],
-          "why_care": "Understanding and accurately pronouncing Quranic text is important for millions of Arabic speakers and learners. This research not only improves educational tools for effective learning but also preserves the integrity of Quranic recitation, ensuring that meanings remain intact across generations.",
-          "accessibility": "General Audience",
-          "spicy_take": "This technology could revolutionize language learning for Arabic and other languages, making it easier for anyone, anywhere, to master pronunciation with precision.",
+          "why_care": "As AI becomes more integrated into software development, this approach could lead to more intuitive and efficient coding practices, enabling programmers to focus on creativity and problem-solving rather than getting bogged down in the mechanics of prompt generation.",
+          "accessibility": "Tech-Savvy",
+          "spicy_take": "By prioritizing semantic understanding over prompt engineering, this work might just be the key to unlocking truly intelligent AI systems that can write code almost as well as seasoned developers.",
           "reading_time_minutes": 5
         }
       },
       {
-        "id": "2511.17475v1",
-        "title": "Addressing A Posteriori Performance Degradation in Neural Network Subgrid Stress Models",
+        "id": "2511.19423v1",
+        "title": "Beyond Protein Language Models: An Agentic LLM Framework for Mechanistic Enzyme Design",
         "authors": [
-          "Andy Wu",
-          "Sanjiva K. Lele"
+          "Bruno Jacob",
+          "Khushbu Agarwal",
+          "Marcel Baer",
+          "Peter Rice",
+          "Simone Raugei"
         ],
-        "abstract": "Neural network subgrid stress models often have a priori performance that is far better than the a posteriori performance, leading to neural network models that look very promising a priori completely failing in a posteriori Large Eddy Simulations (LES). This performance gap can be decreased by combining two different methods, training data augmentation and reducing input complexity to the neural network. Augmenting the training data with two different filters before training the neural networks...",
-        "published": "2025-11-21T18:24:52Z",
-        "updated": "2025-11-21T18:24:52Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.17475v1",
-        "abs_url": "https://arxiv.org/abs/2511.17475v1",
+        "abstract": "We present Genie-CAT, a tool-augmented large-language-model (LLM) system designed to accelerate scientific hypothesis generation in protein design. Using metalloproteins (e.g., ferredoxins) as a case study, Genie-CAT integrates four capabilities -- literature-grounded reasoning through retrieval-augmented generation (RAG), structural parsing of Protein Data Bank files, electrostatic potential calculations, and machine-learning prediction of redox properties -- into a unified agentic workflow. By...",
+        "published": "2025-11-24T18:57:07Z",
+        "updated": "2025-11-24T18:57:07Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.19423v1",
+        "abs_url": "https://arxiv.org/abs/2511.19423v1",
         "categories": [
-          "physics.flu-dyn",
+          "q-bio.QM",
+          "cs.AI"
+        ],
+        "primary_category": "q-bio.QM",
+        "analysis": {
+          "tldr": "This paper introduces Genie-CAT, an advanced tool that combines the power of large language models with various scientific techniques to speed up the design of proteins, particularly metalloproteins. It\u2019s like giving researchers a supercharged assistant to help generate and test new ideas quickly.",
+          "eli5": "Imagine you're trying to build a really cool robot, but you don't know exactly how to do it. Genie-CAT is like a smart friend who not only knows a lot about building robots but can also find the best instructions and tools to make your robot work better. In this case, the 'robots' are proteins that can do important things in biology.",
+          "key_contributions": [
+            "The introduction of Genie-CAT as a comprehensive system that integrates multiple scientific processes into one tool.",
+            "The ability to conduct literature-grounded reasoning, which helps researchers pull relevant information from existing studies to guide their designs.",
+            "The automation of complex calculations related to protein structure and function, which saves time and enhances accuracy in enzyme design."
+          ],
+          "why_care": "This research could lead to breakthroughs in biotechnology, medicine, and environmental science by designing proteins that can, for example, break down pollutants or create new pharmaceuticals. It\u2019s not just a lab curiosity; it has the potential to impact our everyday lives.",
+          "accessibility": "Tech-Savvy",
+          "spicy_take": "If researchers don\u2019t start using tools like Genie-CAT, they risk falling behind in the race to innovate, similar to when companies ignored the Internet in the early days.",
+          "reading_time_minutes": 5
+        }
+      },
+      {
+        "id": "2511.19422v1",
+        "title": "SLMFix: Leveraging Small Language Models for Error Fixing with Reinforcement Learning",
+        "authors": [
+          "David Jiahao Fu",
+          "Aryan Gupta",
+          "Aaron Councilman",
+          "David Grove",
+          "Yu-Xiong Wang"
+        ],
+        "abstract": "Recent advancements in large language models (LLMs) have shown very impressive capabilities in code generation across many programming languages. However, even state-of-the-art LLMs generate programs that contains syntactic errors and fail to complete the given tasks, especially for low-resource programming languages (LRPLs). In addition, high training cost makes finetuning LLMs unaffordable with constrained computational resources, further undermining the effectiveness of LLMs for code generati...",
+        "published": "2025-11-24T18:56:47Z",
+        "updated": "2025-11-24T18:56:47Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.19422v1",
+        "abs_url": "https://arxiv.org/abs/2511.19422v1",
+        "categories": [
+          "cs.SE",
+          "cs.AI",
+          "cs.PL"
+        ],
+        "primary_category": "cs.SE",
+        "analysis": {
+          "tldr": "This paper introduces SLMFix, a method that uses small language models to fix errors in code generated by larger models, especially when dealing with less common programming languages. It tackles the problem of high costs and inefficiencies in fine-tuning large models for specific tasks.",
+          "eli5": "Imagine you have a really smart robot that can write computer code, but sometimes it makes mistakes or can't finish its job, especially when dealing with less popular programming languages. This paper presents a clever solution by using smaller, more affordable robots to help fix those mistakes without needing to teach the big robot all over again.",
+          "key_contributions": [
+            "Presents a novel approach to error correction in code generation using small language models.",
+            "Demonstrates that SLMFix can effectively address errors in low-resource programming languages, which are often overlooked by larger models.",
+            "Introduces a reinforcement learning framework that allows for more efficient and cost-effective code fixing."
+          ],
+          "why_care": "As coding becomes increasingly important in various fields, improving code generation can enhance productivity for developers, particularly for those working with less common programming languages. This research can lead to more accessible and reliable programming tools, benefiting businesses and hobbyists alike.",
+          "accessibility": "Tech-Savvy",
+          "spicy_take": "The future of coding might not depend on massive language models, but rather on clever, smaller models that can work together to patch up mistakes without breaking the bank.",
+          "reading_time_minutes": 5
+        }
+      },
+      {
+        "id": "2511.19418v1",
+        "title": "Chain-of-Visual-Thought: Teaching VLMs to See and Think Better with Continuous Visual Tokens",
+        "authors": [
+          "Yiming Qin",
+          "Bomin Wei",
+          "Jiaxin Ge",
+          "Konstantinos Kallidromitis",
+          "Stephanie Fu"
+        ],
+        "abstract": "Vision-Language Models (VLMs) excel at reasoning in linguistic space but struggle with perceptual understanding that requires dense visual perception, e.g., spatial reasoning and geometric awareness. This limitation stems from the fact that current VLMs have limited mechanisms to capture dense visual information across spatial dimensions. We introduce Chain-of-Visual-Thought (COVT), a framework that enables VLMs to reason not only in words but also through continuous visual tokens-compact latent...",
+        "published": "2025-11-24T18:55:19Z",
+        "updated": "2025-11-24T18:55:19Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.19418v1",
+        "abs_url": "https://arxiv.org/abs/2511.19418v1",
+        "categories": [
+          "cs.CV",
+          "cs.AI",
           "cs.LG"
         ],
-        "primary_category": "physics.flu-dyn",
+        "primary_category": "cs.CV",
         "analysis": {
-          "tldr": "This paper tackles the problem of neural networks that seem promising in theory but fail to deliver in practice when used in complex simulations. The authors propose methods to improve the performance of these models in real-world applications.",
-          "eli5": "Imagine you have a magic box (the neural network) that predicts how things will move and interact in a big storm. At first, it seems super smart, but when the storm actually happens, it often gets things wrong. The researchers found that by giving the magic box more training with different types of data and simplifying what it has to think about, it can make better predictions in real storms.",
+          "tldr": "This paper presents a new framework called Chain-of-Visual-Thought (COVT) that enhances vision-language models (VLMs) by allowing them to process and reason with dense visual information, improving their understanding of complex spatial and geometric concepts.",
+          "eli5": "Think of vision-language models like a smart assistant that can read and interpret text, but struggles with understanding images in detail. This paper introduces a method for these models to not just read about things but also 'see' and 'think' in a way that helps them make better sense of visual information, kind of like adding a new layer to their brain that helps them visualize better.",
           "key_contributions": [
-            "Introduces a novel approach to reduce the performance gap in neural network models used for simulations.",
-            "Combines training data augmentation with input complexity reduction to enhance model accuracy.",
-            "Offers practical strategies that could improve the effectiveness of these models in real-world applications."
+            "Introduces the Chain-of-Visual-Thought (COVT) framework that integrates continuous visual tokens into VLMs, improving their visual reasoning capabilities.",
+            "Demonstrates how this approach allows models to perform better on tasks requiring spatial reasoning and geometric awareness.",
+            "Provides empirical evidence showing that incorporating dense visual information significantly enhances the performance of VLMs across various benchmarks."
           ],
-          "why_care": "Improving how we predict complex phenomena, like weather patterns or fluid dynamics, can lead to better decision-making in various fields, from engineering to environmental science. This research could help create more reliable simulations that affect everything from building safer structures to improving climate models.",
+          "why_care": "Improving how machines understand and interpret visual information can have huge implications for fields like augmented reality, robotics, and even everyday applications like better image search algorithms or enhanced accessibility tools for the visually impaired.",
           "accessibility": "Tech-Savvy",
-          "spicy_take": null,
-          "reading_time_minutes": 5
+          "spicy_take": "If we want machines to truly understand our visual world, we need to stop treating images as mere labels and start teaching them to think visually\u2014this paper is a big step in that direction.",
+          "reading_time_minutes": 6
         }
       },
       {
-        "id": "2511.17473v1",
-        "title": "Masked-and-Reordered Self-Supervision for Reinforcement Learning from Verifiable Rewards",
+        "id": "2511.19417v1",
+        "title": "Be My Eyes: Extending Large Language Models to New Modalities Through Multi-Agent Collaboration",
         "authors": [
-          "Zhen Wang",
-          "Zhifeng Gao",
-          "Guolin Ke"
+          "James Y. Huang",
+          "Sheng Zhang",
+          "Qianchu Liu",
+          "Guanghui Qin",
+          "Tinghui Zhu"
         ],
-        "abstract": "Test-time scaling has been shown to substantially improve large language models' (LLMs) mathematical reasoning. However, for a large portion of mathematical corpora, especially theorem proving, RLVR's scalability is limited: intermediate reasoning is crucial, while final answers are difficult to directly and reliably verify. Meanwhile, token-level SFT often degenerates into rote memorization rather than inducing longer chains of thought. Inspired by BERT's self-supervised tasks, we propose MR-RL...",
-        "published": "2025-11-21T18:23:04Z",
-        "updated": "2025-11-21T18:23:04Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.17473v1",
-        "abs_url": "https://arxiv.org/abs/2511.17473v1",
+        "abstract": "Large Language Models (LLMs) have demonstrated remarkable capabilities in challenging, knowledge-intensive reasoning tasks. However, extending LLMs to perceive and reason over a new modality (e.g., vision), often requires costly development of large-scale vision language models (VLMs) with LLMs as backbones. Smaller VLMs are more efficient and adaptable but often lack the broad knowledge and reasoning capabilities of frontier LLMs. In this work, we propose BeMyEyes, a modular, multi-agent framew...",
+        "published": "2025-11-24T18:55:16Z",
+        "updated": "2025-11-24T18:55:16Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.19417v1",
+        "abs_url": "https://arxiv.org/abs/2511.19417v1",
         "categories": [
           "cs.CL",
           "cs.AI",
@@ -124,215 +303,51 @@
         ],
         "primary_category": "cs.CL",
         "analysis": {
-          "tldr": "This paper introduces a new approach to reinforcement learning that improves how machines learn from feedback, especially when it involves complex reasoning tasks like theorem proving. It seeks to overcome challenges in traditional methods that often lead to memory-based responses instead of thoughtful conclusions.",
-          "eli5": "Imagine teaching a robot to solve puzzles, but instead of just telling it the answer, we want it to figure out the steps to get there. This paper suggests a clever way to help the robot learn from both its own mistakes and from previous puzzle answers in a way that encourages deeper thinking rather than just memorizing solutions.",
+          "tldr": "This paper introduces BeMyEyes, an innovative system that enhances large language models by allowing them to collaborate with smaller models across different modalities, like vision and text. This approach aims to make it easier and cheaper to develop models that can understand and reason about images and text together.",
+          "eli5": "Imagine you have a super-smart friend who can read and write really well (that's the large language model), but they struggle to see pictures. Instead of making them learn how to see from scratch, you team them up with a buddy who\u2019s great at interpreting pictures (the smaller model). Together, they can create a better understanding of both words and images, making learning and problem-solving easier and less expensive.",
           "key_contributions": [
-            "Introducing Masked-and-Reordered Self-Supervision (MR-RL) which enhances how reinforcement learning systems can learn from complex reasoning tasks.",
-            "Demonstrating that this new method can better handle scenarios where verifying answers is tough, like in theorem proving.",
-            "Providing a framework that encourages a more thoughtful, step-by-step reasoning process in AI, moving beyond simple memorization."
+            "Introduction of BeMyEyes, a collaborative framework that allows large language models to extend their capabilities into new domains without expensive development.",
+            "Demonstration of how smaller, specialized models can work alongside large models to enhance understanding and reasoning across modalities.",
+            "A proof-of-concept showing the efficiency and adaptability of modular systems in AI, paving the way for more versatile AI applications."
           ],
-          "why_care": "As AI continues to integrate into various aspects of our lives\u2014from healthcare to education\u2014the ability to reason through complex problems will be crucial. This research has the potential to improve AI's decision-making capabilities, making it more reliable in critical applications.",
-          "accessibility": "Tech-Savvy",
-          "spicy_take": "If we want AI to eventually tackle real-world problems, we need to stop settling for mere memorization and start demanding genuine reasoning skills. This paper is a step in that direction.",
-          "reading_time_minutes": 6
+          "why_care": "This research has real-world implications for making AI more accessible and practical for everyday tasks, such as improving assistive technologies for the visually impaired or enhancing communication tools that rely on understanding both text and visuals. By lowering the barrier to developing advanced AI, it opens doors for innovations that can benefit everyone.",
+          "accessibility": "General Audience",
+          "spicy_take": "This approach might just be the future of AI collaboration\u2014forget the monolithic models; it's all about teamwork now!",
+          "reading_time_minutes": 5
         }
       },
       {
-        "id": "2511.17467v1",
-        "title": "PersonaAgent with GraphRAG: Community-Aware Knowledge Graphs for Personalized LLM",
+        "id": "2511.19413v1",
+        "title": "UniGame: Turning a Unified Multimodal Model Into Its Own Adversary",
         "authors": [
-          "Siqi Liang",
-          "Yudi Zhang",
-          "Yue Guo"
+          "Zhaolong Su",
+          "Wang Lu",
+          "Hao Chen",
+          "Sharon Li",
+          "Jindong Wang"
         ],
-        "abstract": "We propose a novel framework for persona-based language model system, motivated by the need for personalized AI agents that adapt to individual user preferences. In our approach, the agent embodies the user's \"persona\" (e.g. user profile or taste) and is powered by a large language model (LLM). To enable the agent to leverage rich contextual information, we introduce a Knowledge-Graph-enhanced Retrieval-Augmented Generation (Graph RAG) mechanism that constructs an LLM-derived graph index of rele...",
-        "published": "2025-11-21T18:15:47Z",
-        "updated": "2025-11-21T18:15:47Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.17467v1",
-        "abs_url": "https://arxiv.org/abs/2511.17467v1",
+        "abstract": "Unified Multimodal Models (UMMs) have shown impressive performance in both understanding and generation with a single architecture. However, UMMs still exhibit a fundamental inconsistency: understanding favors compact embeddings, whereas generation favors reconstruction-rich representations. This structural trade-off produces misaligned decision boundaries, degraded cross-modal coherence, and heightened vulnerability under distributional and adversarial shifts. In this paper, we present UniGame,...",
+        "published": "2025-11-24T18:50:01Z",
+        "updated": "2025-11-24T18:50:01Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.19413v1",
+        "abs_url": "https://arxiv.org/abs/2511.19413v1",
         "categories": [
           "cs.LG",
-          "cs.AI"
+          "cs.AI",
+          "cs.CV"
         ],
         "primary_category": "cs.LG",
         "analysis": {
-          "tldr": "This paper introduces a new type of AI agent that tailors its responses based on individual user preferences, using a system that combines a language model with a personalized knowledge graph.",
-          "eli5": "Imagine having a virtual assistant that knows exactly what you like and dislike, and can adapt its answers accordingly. This research shows how to create such an assistant by linking your personal preferences with a smart way of retrieving and generating information.",
+          "tldr": "This paper introduces a new approach called UniGame that helps improve Unified Multimodal Models (UMMs) by addressing their inconsistencies between understanding and generating data. It aims to make these models more robust and effective in handling different types of data.",
+          "eli5": "Imagine you have a really smart robot that can look at pictures and write stories about them. Sometimes, it gets confused because it needs to understand the picture and tell a detailed story at the same time. This paper suggests a way to help the robot do both tasks better by making it compete with itself, which helps it learn to be more accurate and consistent in its responses.",
           "key_contributions": [
-            "A new framework for creating personalized AI agents that embody user personas.",
-            "Introduction of a Knowledge-Graph-enhanced Retrieval-Augmented Generation (Graph RAG) mechanism.",
-            "Demonstration of how these personalized agents can improve interaction quality by leveraging rich contextual information."
+            "Introduces the UniGame framework that allows UMMs to self-advocate for better performance by balancing understanding and generation.",
+            "Identifies and addresses the trade-offs in multimodal models that lead to misaligned decision-making.",
+            "Demonstrates improved robustness against shifts in data distribution and adversarial attacks through the proposed method."
           ],
-          "why_care": "As AI becomes more integrated into our daily lives, having agents that understand and adapt to our unique preferences could lead to more meaningful interactions and improved user experiences, whether for customer service, personal assistants, or educational tools.",
-          "accessibility": "General Audience",
-          "spicy_take": "Personalized AI agents could revolutionize how we interact with technology, but they also raise questions about privacy and data management that we need to tackle head-on.",
-          "reading_time_minutes": 5
-        }
-      },
-      {
-        "id": "2511.17461v1",
-        "title": "SRA-CP: Spontaneous Risk-Aware Selective Cooperative Perception",
-        "authors": [
-          "Jiaxi Liu",
-          "Chengyuan Ma",
-          "Hang Zhou",
-          "Weizhe Tang",
-          "Shixiao Liang"
-        ],
-        "abstract": "Cooperative perception (CP) offers significant potential to overcome the limitations of single-vehicle sensing by enabling information sharing among connected vehicles (CVs). However, existing generic CP approaches need to transmit large volumes of perception data that are irrelevant to the driving safety, exceeding available communication bandwidth. Moreover, most CP frameworks rely on pre-defined communication partners, making them unsuitable for dynamic traffic environments. This paper propos...",
-        "published": "2025-11-21T18:03:48Z",
-        "updated": "2025-11-21T18:03:48Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.17461v1",
-        "abs_url": "https://arxiv.org/abs/2511.17461v1",
-        "categories": [
-          "cs.AI"
-        ],
-        "primary_category": "cs.AI",
-        "analysis": {
-          "tldr": "This paper introduces a new method called SRA-CP that optimizes how connected vehicles share information about their surroundings, making it safer and more efficient in dynamic traffic situations.",
-          "eli5": "Imagine cars talking to each other about what's happening on the road. This paper shows a smarter way for them to share only the important info, like a friend giving you just the highlights of a long story instead of the whole thing. This means less chatter and more focus on driving safely.",
-          "key_contributions": [
-            "Developed SRA-CP, a system that intelligently filters and shares relevant driving information among connected vehicles, reducing unnecessary data transfer.",
-            "Introduced a dynamic communication model that allows vehicles to choose the best partners for information sharing based on the current traffic situation.",
-            "Enhanced driving safety by ensuring that only critical perception data is shared, which helps to overcome bandwidth limitations in real-time conditions."
-          ],
-          "why_care": "As vehicles become increasingly connected, improving how they communicate can significantly enhance road safety and efficiency. This research has the potential to lead to safer roads and fewer accidents, benefiting everyone from commuters to city planners.",
+          "why_care": "As we increasingly rely on AI for tasks like generating content, analyzing data, and making decisions, improving these models can lead to more reliable and effective applications in areas like healthcare, finance, and creative industries. More robust models mean fewer errors and better outcomes in real-world applications.",
           "accessibility": "Tech-Savvy",
-          "spicy_take": "By focusing on essential data sharing, this research could revolutionize the future of automotive communication, making it a game-changer in reducing traffic incidents.",
-          "reading_time_minutes": 5
-        }
-      },
-      {
-        "id": "2511.17450v1",
-        "title": "Planning with Sketch-Guided Verification for Physics-Aware Video Generation",
-        "authors": [
-          "Yidong Huang",
-          "Zun Wang",
-          "Han Lin",
-          "Dong-Ki Kim",
-          "Shayegan Omidshafiei"
-        ],
-        "abstract": "Recent video generation approaches increasingly rely on planning intermediate control signals such as object trajectories to improve temporal coherence and motion fidelity. However, these methods mostly employ single-shot plans that are typically limited to simple motions, or iterative refinement which requires multiple calls to the video generator, incuring high computational cost. To overcome these limitations, we propose SketchVerify, a training-free, sketch-verification-based planning framew...",
-        "published": "2025-11-21T17:48:02Z",
-        "updated": "2025-11-21T17:48:02Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.17450v1",
-        "abs_url": "https://arxiv.org/abs/2511.17450v1",
-        "categories": [
-          "cs.CV",
-          "cs.AI",
-          "cs.CL"
-        ],
-        "primary_category": "cs.CV",
-        "analysis": {
-          "tldr": "This paper introduces SketchVerify, a novel approach to generating videos that improves the movement of objects over time without needing complex, expensive computations. It's all about making video generation smarter and more efficient.",
-          "eli5": "Imagine you're trying to create a cartoon where a ball bounces across the screen. Instead of just drawing the ball's path once or having to keep redrawing it, SketchVerify helps plan the ball's movements in a way that looks realistic without requiring a lot of computer power. It essentially uses a smart sketch to ensure the ball moves just right.",
-          "key_contributions": [
-            "A training-free method for planning object movements in video generation.",
-            "Improved temporal coherence and motion fidelity in generated videos.",
-            "Reduction of computational costs compared to traditional iterative refinement methods."
-          ],
-          "why_care": "This research has real-world applications in areas like animation, game design, and even virtual reality, where smooth and realistic motion is essential. Better video generation techniques can lead to more engaging content and improved experiences for users.",
-          "accessibility": "General Audience",
-          "spicy_take": "This approach could revolutionize how we think about video generation, making it accessible even for smaller studios without massive computational resources.",
-          "reading_time_minutes": 5
-        }
-      },
-      {
-        "id": "2511.17446v1",
-        "title": "Unmasking Airborne Threats: Guided-Transformers for Portable Aerosol Mass Spectrometry",
-        "authors": [
-          "Kyle M. Regan",
-          "Michael McLoughlin",
-          "Wayne A. Bryden",
-          "Gonzalo R. Arce"
-        ],
-        "abstract": "Matrix Assisted Laser Desorption/Ionization Mass Spectrometry (MALDI-MS) is a cornerstone in biomolecular analysis, offering precise identification of pathogens through unique mass spectral signatures. Yet, its reliance on labor-intensive sample preparation and multi-shot spectral averaging restricts its use to laboratory settings, rendering it impractical for real-time environmental monitoring. These limitations are especially pronounced in emerging aerosol MALDI-MS systems, where autonomous sa...",
-        "published": "2025-11-21T17:45:00Z",
-        "updated": "2025-11-21T17:45:00Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.17446v1",
-        "abs_url": "https://arxiv.org/abs/2511.17446v1",
-        "categories": [
-          "cs.LG"
-        ],
-        "primary_category": "cs.LG",
-        "analysis": {
-          "tldr": "This paper presents a new method using guided-transformers for portable aerosol mass spectrometry, making it easier to identify airborne pathogens in real-time without the cumbersome lab processes traditionally required.",
-          "eli5": "Imagine trying to find a needle in a haystack, but instead of hay, you're dealing with tiny germs floating in the air. This paper introduces a cool tech upgrade that helps scientists quickly spot these germs without needing to take the haystack back to the lab and sort through it for hours.",
-          "key_contributions": [
-            "Introduces guided-transformers to enhance the speed and accuracy of aerosol mass spectrometry.",
-            "Reduces the need for complex sample preparation, allowing for on-site pathogen detection.",
-            "Addresses the limitations of existing aerosol analysis techniques, making it more practical for environmental monitoring."
-          ],
-          "why_care": "This research could revolutionize how we monitor air quality and detect pathogens in real time, potentially improving public health responses to outbreaks and providing valuable data for environmental protection efforts.",
-          "accessibility": "General Audience",
-          "spicy_take": "This breakthrough could render traditional lab-based pathogen detection methods obsolete, marking a significant shift in public health monitoring.",
-          "reading_time_minutes": 5
-        }
-      },
-      {
-        "id": "2511.17443v1",
-        "title": "GRAPHIC--Guidelines for Reviewing Algorithmic Practices in Human-centred Design and Interaction for Creativity",
-        "authors": [
-          "Joana Rovira Martins",
-          "Pedro Martins",
-          "Ana Boavida"
-        ],
-        "abstract": "Artificial Intelligence (AI) has been increasingly applied to creative domains, leading to the development of systems that collaborate with humans in design processes. In Graphic Design, integrating computational systems into co-creative workflows presents specific challenges, as it requires balancing scientific rigour with the subjective and visual nature of design practice. Following the PRISMA methodology, we identified 872 articles, resulting in a final corpus of 71 publications describing 6...",
-        "published": "2025-11-21T17:42:09Z",
-        "updated": "2025-11-21T17:42:09Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.17443v1",
-        "abs_url": "https://arxiv.org/abs/2511.17443v1",
-        "categories": [
-          "cs.HC",
-          "cs.AI",
-          "cs.GR"
-        ],
-        "primary_category": "cs.HC",
-        "analysis": {
-          "tldr": "This paper explores how AI can be effectively integrated into creative processes, particularly in graphic design, while ensuring that the human touch remains central. It outlines guidelines for reviewing the algorithmic practices in human-centered design to enhance collaboration between AI and designers.",
-          "eli5": "Imagine you're working on a school project where you and a robot have to create a poster together. This paper talks about how to make sure the robot helps you without taking away your creative ideas. It looks at ways to use AI in design that actually make the process better and more enjoyable for people.",
-          "key_contributions": [
-            "The paper presents new guidelines for evaluating how AI tools are used in creative design, ensuring they support rather than hinder human creativity.",
-            "It identifies common challenges in integrating AI into graphic design workflows, shedding light on the balance between technology and artistic expression.",
-            "The research uncovers a substantial body of literature (71 key papers) which provides a foundation for future studies on the intersection of AI and creativity."
-          ],
-          "why_care": "Understanding how AI can improve creative workflows is crucial for designers, businesses, and educators. As technology continues to evolve, knowing how to effectively collaborate with AI can lead to more innovative designs and better products in the marketplace.",
-          "accessibility": "General Audience",
-          "spicy_take": "If we don't set clear guidelines for AI in creativity, we risk losing the very essence of what makes design a human endeavor.",
-          "reading_time_minutes": 5
-        }
-      },
-      {
-        "id": "2511.17442v1",
-        "title": "REMSA: An LLM Agent for Foundation Model Selection in Remote Sensing",
-        "authors": [
-          "Binger Chen",
-          "Tacettin Emre B\u00f6k",
-          "Behnood Rasti",
-          "Volker Markl",
-          "Beg\u00fcm Demir"
-        ],
-        "abstract": "Foundation Models (FMs) are increasingly used in remote sensing (RS) for tasks such as environmental monitoring, disaster assessment, and land-use mapping. These models include unimodal vision encoders trained on a single data modality and multimodal architectures trained on combinations of SAR, multispectral, hyperspectral, and image-text data. They support diverse RS tasks including semantic segmentation, image classification, change detection, and visual question answering. However, selecting...",
-        "published": "2025-11-21T17:41:26Z",
-        "updated": "2025-11-21T17:41:26Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.17442v1",
-        "abs_url": "https://arxiv.org/abs/2511.17442v1",
-        "categories": [
-          "cs.CV",
-          "cs.AI"
-        ],
-        "primary_category": "cs.CV",
-        "analysis": {
-          "tldr": "This paper introduces REMSA, a smart tool that helps choose the best large language models for various remote sensing tasks, like monitoring the environment and assessing disasters.",
-          "eli5": "Imagine you want to use powerful computer models to analyze images of our planet from space, like checking how land use changes over time or spotting areas affected by disasters. This paper presents a system called REMSA that helps you pick the best model for these tasks, ensuring you get the most accurate results without getting lost in technical jargon.",
-          "key_contributions": [
-            "REMSA offers a systematic way to select foundation models for remote sensing applications, enhancing efficiency and accuracy.",
-            "It addresses the challenge of dealing with various types of data, such as images and text, by providing a framework that supports multiple modalities.",
-            "The paper highlights the versatility of foundation models, demonstrating their effectiveness across a range of tasks in remote sensing."
-          ],
-          "why_care": "Understanding how to select the right models for analyzing remote data can lead to better environmental monitoring and disaster management, ultimately helping communities respond more effectively to challenges like climate change and natural disasters.",
-          "accessibility": "Tech-Savvy",
-          "spicy_take": "In a world where data is king, REMSA could be the crown jewel for remote sensing, making model selection as straightforward as ordering a pizza.",
+          "spicy_take": "If we want AI to truly understand and generate content like a human, we need more papers like this that encourage models to 'play against themselves' for better learning.",
           "reading_time_minutes": 5
         }
       }
@@ -340,11 +355,11 @@
     "summary": {
       "total_analyzed": 10,
       "by_accessibility": {
-        "General Audience": 5,
-        "Tech-Savvy": 5,
+        "General Audience": 2,
+        "Tech-Savvy": 8,
         "Researchers Only": 0
       },
-      "avg_reading_time": 5.4
+      "avg_reading_time": 5.2
     }
   },
   "metadata": {
@@ -353,19 +368,19 @@
     "style": "blog-accessible"
   },
   "costs": {
-    "execution_time": 83.19949769973755,
-    "execution_minutes": 1.3866582949956259,
-    "github_actions": 0.011093266359965007,
+    "execution_time": 106.9352490901947,
+    "execution_minutes": 1.782254151503245,
+    "github_actions": 0.01425803321202596,
     "openai": {
-      "input": 0.0004959,
-      "output": 0.0017615999999999999,
-      "total": 0.0022575
+      "input": 0.0005036999999999999,
+      "output": 0.0019056,
+      "total": 0.0024092999999999996
     },
-    "total": 0.013350766359965006,
+    "total": 0.01666733321202596,
     "token_usage": {
-      "prompt_tokens": 3306,
-      "completion_tokens": 2936,
-      "total_tokens": 6242
+      "prompt_tokens": 3358,
+      "completion_tokens": 3176,
+      "total_tokens": 6534
     }
   }
 }
