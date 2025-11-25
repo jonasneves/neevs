@@ -2,321 +2,321 @@
   "agent": "phi-analyzer",
   "model": "Phi-4 Mini",
   "model_id": "microsoft/phi-4-mini-instruct",
-  "timestamp": "2025-11-25T06:11:33.803080",
+  "timestamp": "2025-11-25T12:13:54.001319",
   "status": "completed",
   "data": {
     "analyses": [
       {
         "article": {
-          "id": "news_0_1764051062",
+          "id": "news_0_1764072796",
+          "title": "Google says Gemini isn\u2019t trained on Gmail, pushing back on \u2018misleading reports\u2019 - 9to5Google",
+          "description": "Google says Gemini isn\u2019t trained on Gmail, pushing back on \u2018misleading reports\u2019\u00a0\u00a09to5Google[Correction] Gmail can read your emails and attachments to power \"smart features\"\u00a0\u00a0MalwarebytesGoogle denies \u2018misleading\u2019 reports of Gmail using your emails to train AI\u00a0\u00a0The VergeHow to stop Google AI from scanning your Gmail\u00a0\u00a0Fox NewsGoogle denies analyzing your emails for AI training - here's what happened\u00a0\u00a0ZDNET",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPbDB4Vmlhbm44Vm4zbHZPaXA1Q1ZkY29YeVFzNmllOTYzRXcwUmk0LVpDQ21DNVR6eXVHSDkzNXNJbGxSMHMxYUprUUt3VjVycWs3ekJxanctMVVDbkZ2eGRZb3lNVHU2clhVbWFKQWhiVmtnYlJ1d1ZjS0ZLcXpzVnI4UDlTckNsXzQtQldqbWluZzJlYkRsWWV3?oc=5",
+          "source": "9to5Google",
+          "published": "Mon, 24 Nov 2025 16:58:00 GMT",
+          "topic": "TECHNOLOGY",
+          "fetched_at": "2025-11-25T12:13:16.870855"
+        },
+        "analysis": {
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "error": "Unauthorized",
+          "error_type": "AuthenticationError",
+          "analyzed_at": "2025-11-25T12:13:39.375632",
+          "summary": "Analysis failed: Unauthorized",
+          "sentiment": "unknown"
+        }
+      },
+      {
+        "article": {
+          "id": "news_1_1764072796",
+          "title": "The OnePlus 15R smartphone is budget-friendly, durable and coming next month - Engadget",
+          "description": "The OnePlus 15R smartphone is budget-friendly, durable and coming next month\u00a0\u00a0EngadgetOnePlus Launching 15R Phone, Tablet and Watch Just Ahead of the Holidays\u00a0\u00a0CNETOnePlus Ace 6T announced for China with Snapdragon 8 Gen 5 - GSMArena.com news\u00a0\u00a0GSMArena.comOnePlus 15R will get a late launch next month\u00a0\u00a0The VergeThe OnePlus 15R is coming to North America in December, alongside the Pad Go 2\u00a0\u00a09to5Google",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPalppNVNNb0VqNWtTYUtwbk1zTGZfblBZcjdfTW96c0FLbEdWVW5iZnJJbGg1b1p0SU5EN21aRjlmdGZoWGVoU2piZTZPa29WUV9ITHJNX1J0VExhTVVoUC1PVnlheVplNmJVMlRfX1dBYUtlZlNhQjRGLVhWcTZLNXlndXkzSkhXUHRzNTJSaEttYk14Yk4xbTA2ZkZZMm55MEVHN1RMQXZjLV9CcE1iOGtHSE9Sb0p3WVNGSU9yZXRkQTNYZEZVVWV4Sm8zdjg?oc=5",
+          "source": "Engadget",
+          "published": "Mon, 24 Nov 2025 16:30:00 GMT",
+          "topic": "TECHNOLOGY",
+          "fetched_at": "2025-11-25T12:13:16.870881"
+        },
+        "analysis": {
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "error": "Unauthorized",
+          "error_type": "AuthenticationError",
+          "analyzed_at": "2025-11-25T12:13:40.420129",
+          "summary": "Analysis failed: Unauthorized",
+          "sentiment": "unknown"
+        }
+      },
+      {
+        "article": {
+          "id": "news_2_1764072796",
           "title": "New rumor makes \u2018iPhone Ultra\u2019 foldable next year seem more likely - 9to5Mac",
           "description": "New rumor makes \u2018iPhone Ultra\u2019 foldable next year seem more likely\u00a0\u00a09to5MacFubon expects the first foldable iPhone to cost $2,399\u00a0\u00a0Investing.comApple iPhone Fold To Debut At 2x The Price Of An iPhone 17 Pro Max\u00a0\u00a0WccftechCrease-Free iPhone Fold on Track for 2026 Launch as Development Advances\u00a0\u00a0MacRumorsFoldable iPhone might make the Galaxy Z Fold 7 look affordable\u00a0\u00a0PhoneArena",
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdnNaaVUwRkdGQXlzLVFycjZYdzZJcmlmcEhOckwzbFI0RlA4NWVUcjZmdVNPUnk3VDNSWHQ0NlEyNzNzelY3cUZuT1dUb3JaTVE3Q1F5V29Na2RVQ04zN3dFQTh0V01hRHlFY2cxeUZSeVV2YkRCcEUxUFFHQmxUd0JGNGdSUjRJdkktNnd5Wjg2Y3AwOGpnRHR5dXM?oc=5",
           "source": "9to5Mac",
           "published": "Mon, 24 Nov 2025 15:01:00 GMT",
           "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-25T06:11:02.789977"
+          "fetched_at": "2025-11-25T12:13:16.870904"
         },
         "analysis": {
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
           "error": "Unauthorized",
           "error_type": "AuthenticationError",
-          "analyzed_at": "2025-11-25T06:11:18.873042",
+          "analyzed_at": "2025-11-25T12:13:41.467106",
           "summary": "Analysis failed: Unauthorized",
           "sentiment": "unknown"
         }
       },
       {
         "article": {
-          "id": "news_1_1764051062",
+          "id": "news_3_1764072796",
           "title": "Black Friday Streaming Deals Offered By Hulu, Disney+, HBO Max, Peacock & More - Deadline",
-          "description": "Black Friday Streaming Deals Offered By Hulu, Disney+, HBO Max, Peacock & More\u00a0\u00a0DeadlineDisney+, Hulu Bundle Black Friday deal 2025: $4.99 per month for 1 year\u00a0\u00a0ABC NewsYou can grab a year of Disney Plus and Hulu for just $5 a month for Black Friday\u00a0\u00a0The VergeBlack Friday Streaming Deals 2025: Save on Hulu, Disney+, Starz, ESPN, and More\u00a0\u00a0Business Insider20+ Black Friday streaming deals: Save up to 75% on HBO Max, Apple TV, Disney+, Hulu, and Spotify\u00a0\u00a0Mashable",
+          "description": "Black Friday Streaming Deals Offered By Hulu, Disney+, HBO Max, Peacock & More\u00a0\u00a0DeadlineDisney+, Hulu Bundle Black Friday deal 2025: $4.99 per month for 1 year\u00a0\u00a0ABC NewsBundle Disney+ and Hulu for only $4.99 a month during limited time Black Friday sale\u00a0\u00a0Syracuse.comYou can grab a year of Disney Plus and Hulu for just $5 a month for Black Friday\u00a0\u00a0The VergeBlack Friday Streaming Deals 2025: Save on Hulu, Disney+, Starz, ESPN, and More\u00a0\u00a0Business Insider",
           "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUV9JWDJyMzRka1VoQUMxcUVkejlCV0FZMkppLWRORDcybEJGMHZ1MXpYZTgwa2l5QXdwYmFQRVNQcmFwcWk1cklVR0l0Z25Wd3hNT1hUVUN2NW1OSWQzWjV6aVJXeFhETjdENjh5N0FpczZVVUJrRG5oenFmQkc0VFdvWQ?oc=5",
           "source": "Deadline",
           "published": "Mon, 24 Nov 2025 22:33:00 GMT",
           "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-25T06:11:02.790004"
+          "fetched_at": "2025-11-25T12:13:16.870925"
         },
         "analysis": {
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
           "error": "Unauthorized",
           "error_type": "AuthenticationError",
-          "analyzed_at": "2025-11-25T06:11:19.942075",
+          "analyzed_at": "2025-11-25T12:13:42.510733",
           "summary": "Analysis failed: Unauthorized",
           "sentiment": "unknown"
         }
       },
       {
         "article": {
-          "id": "news_2_1764051062",
-          "title": "Walmart Black Friday deals include the AirPods Pro 2 for their lowest price yet - Engadget",
-          "description": "Walmart Black Friday deals include the AirPods Pro 2 for their lowest price yet\u00a0\u00a0EngadgetThis Black Friday deal sounds as good as the Apple AirPods 4 \u2014 now just $79.99\u00a0\u00a0MashableApple's Midnight black AirPods Max (USB-C) also now at $430 Black Friday price (Nearly $120 off)\u00a0\u00a09to5ToysGet the 2nd Gen Apple AirPods Pro Earbuds for $108, Half the Cost of the AirPods Pro 3 for Black Friday\u00a0\u00a0IGNI Tested AirPods Pro 3\u2019s Heart Rate Sensor and Hearing Tools\u2014Here\u2019s How Accurate They Really Are\u00a0\u00a0Prevention",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNcE1JU2h2Slp6dzc4RzBranlOTXlUM3lkX0I1V19PMTRETThNeTNUY25uRTRUaDF1eEpXRDVYcFd1Mkw4aExQcHRmTXdpQzNka2xqZzk1Q3FzMEZDc1lkX0lmblFoNUhXNXIyUUoxVWFtYlVsaVJxRm1KZElTUmRLM21jSWo2bU4tTVhnM1hmWko4anVDak5OZm1hdExfci11X1VZM2JHMy02LUduWURuR29BZWVyVkt0dWttaGxSaVdFaTA?oc=5",
-          "source": "Engadget",
-          "published": "Mon, 24 Nov 2025 17:00:32 GMT",
+          "id": "news_4_1764072796",
+          "title": "Samsung Follows Apple's AI Strategy With Perplexity-Powered Bixby - MacRumors",
+          "description": "Samsung Follows Apple's AI Strategy With Perplexity-Powered Bixby\u00a0\u00a0MacRumorsSamsung reportedly upgrading Bixby with the help of Perplexity instead of Gemini\u00a0\u00a09to5GoogleSamsung Galaxy S26 series likely to feature Perplexity-powered Bixby assistant- Details\u00a0\u00a0Hindustan TimesSamsung Copies Apple\u2019s Playbook: Perplexity AI To Power Bixby\u00a0\u00a0WccftechSamsung may revamp Bixby with Perplexity AI in Galaxy S26 for smarter, deeper answers: Here\u2019s what we know\u00a0\u00a0digit.in",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA0cXdPdlEwaWR3Y3hOOWxTcEtiaGNoVTBaZVNrdldIcTFQVlQxU2JvUzFkbVlmU1pFci03RkZBQnZXWnRqTV9rLXVucnVuUVVZd0liTU8tbTU4TlpDNWJRTmlxYjNmeE5FR0syeXlsY3hYSXZUMnczSDdR?oc=5",
+          "source": "MacRumors",
+          "published": "Mon, 24 Nov 2025 12:56:41 GMT",
           "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-25T06:11:02.790027"
+          "fetched_at": "2025-11-25T12:13:16.870948"
         },
         "analysis": {
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
           "error": "Unauthorized",
           "error_type": "AuthenticationError",
-          "analyzed_at": "2025-11-25T06:11:21.006696",
+          "analyzed_at": "2025-11-25T12:13:43.562397",
           "summary": "Analysis failed: Unauthorized",
           "sentiment": "unknown"
         }
       },
       {
         "article": {
-          "id": "news_3_1764051062",
-          "title": "The OnePlus 15R is coming to North America in December, alongside the Pad Go 2 - 9to5Google",
-          "description": "The OnePlus 15R is coming to North America in December, alongside the Pad Go 2\u00a0\u00a09to5GoogleOnePlus Launching 15R Phone, Tablet and Watch Just Ahead of the Holidays\u00a0\u00a0CNETOnePlus Ace 6T announced for China with Snapdragon 8 Gen 5 - GSMArena.com news\u00a0\u00a0GSMArena.comThe OnePlus 15R smartphone is budget-friendly, durable and coming next month\u00a0\u00a0EngadgetOnePlus 15R will get a late launch next month\u00a0\u00a0The Verge",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1UejNQaXljbmgyNll2Z2JFMWVnYVNKZS16Q01MZkRQUkhBNldFV0tBdjJycjJqUV9QZE5ySmxKOGpvQ3M2bmx0d1ZLcnhCNUsyZkdvbjV4QkxuWjRUWXM1SnROM3A3STNIcHV3anhMdEEzWWpwNGpEWXo2UQ?oc=5",
-          "source": "9to5Google",
-          "published": "Mon, 24 Nov 2025 17:40:00 GMT",
-          "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-25T06:11:02.790049"
-        },
-        "analysis": {
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "error": "Unauthorized",
-          "error_type": "AuthenticationError",
-          "analyzed_at": "2025-11-25T06:11:22.071869",
-          "summary": "Analysis failed: Unauthorized",
-          "sentiment": "unknown"
-        }
-      },
-      {
-        "article": {
-          "id": "news_4_1764051062",
-          "title": "Apple Black Friday deals: We found the biggest savings on AirPods, iPads, MacBooks, Apple Watches and AirTags - Engadget",
-          "description": "Apple Black Friday deals: We found the biggest savings on AirPods, iPads, MacBooks, Apple Watches and AirTags\u00a0\u00a0EngadgetI\u2019ve Discovered 35+ Early Black Friday Deals on Apple iPads, MacBooks, Apple Watches and Even Airtags\u00a0\u00a0CNETApple Black Friday deals: Pick up the iPad A16 while it's down to an all-time low\u00a0\u00a0EngadgetApple Black Friday deal: up to $250 gift card with purchase of Mac, iPhone, iPad and more\u00a0\u00a09to5MacApple's 11th Gen iPad Drops to $279 for Black Friday\u00a0\u00a0MacRumors",
-          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNOGUwZ01iN01FN2ZQcVYtTTNjc2VfQTIwT181dFZUakVXN0hFY2JwamhUemsyaHpVSWl4VGNhOTFyeUNMSHhVU2tCNXlyRVZoUHJKUjRqSThyNHZxSDVIc2xBd2treXVGNi0zNzlhMlhYaFhrZDRoTUplbjJmaGwyOERNdGlHMDR3T2RVaF9Zd0FGYWVTZnBWSDBMcUNVTEpCQUFRd2NhLU1oR1hENmJqNktmdngzZUtJRExIR2p2NmZ4NHN1UXNnakF0MUJLVmYyOEg2Z1dNMU5rZHJnZ19hTlRMbjB6Zw?oc=5",
-          "source": "Engadget",
-          "published": "Mon, 24 Nov 2025 18:04:47 GMT",
-          "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-25T06:11:02.790071"
-        },
-        "analysis": {
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "error": "Unauthorized",
-          "error_type": "AuthenticationError",
-          "analyzed_at": "2025-11-25T06:11:23.136128",
-          "summary": "Analysis failed: Unauthorized",
-          "sentiment": "unknown"
-        }
-      },
-      {
-        "article": {
-          "id": "news_0_1764051062",
-          "title": "Trump says he will visit China in April after call with Xi - BBC",
-          "description": "Trump says he will visit China in April after call with Xi\u00a0\u00a0BBCXi Presses Trump on Taiwan as They Agree to Meet in China in April\u00a0\u00a0The New York TimesTrump spoke with Chinese President Xi\u00a0\u00a0CNBCChina\u2019s Xi Jinping raises future of Taiwan in call with Donald Trump\u00a0\u00a0The GuardianTrump admin live updates: Trump accepts invitation from Xi to visit Beijing in April\u00a0\u00a0ABC News",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5xSWhwczFIRko1MlE2RUpkNG9LTjgwc1daOXpBSzEtSFN4Z2V5NUdKd0tvTGdEb0FRSWpWWGRKUS1ucjQ5TEZJb3FBeXluZGVBejliTHRFVndoUQ?oc=5",
-          "source": "BBC",
-          "published": "Mon, 24 Nov 2025 23:03:34 GMT",
+          "id": "news_0_1764072796",
+          "title": "6 dead as Russian missiles 'rain down' in Kyiv, Ukrainian officials say - ABC News",
+          "description": "6 dead as Russian missiles 'rain down' in Kyiv, Ukrainian officials say\u00a0\u00a0ABC NewsRussia Bombards Kyiv After Peace Talks End in Geneva\u00a0\u00a0The New York TimesRussia Bombards Kyiv Hours After Trump Voices Hope for Ukraine Deal\u00a0\u00a0Bloomberg.comRussian barrage on Kyiv kills six, disrupts energy supplies, Ukrainian officials say\u00a0\u00a0ReutersRussia-Ukraine war live: Nine killed in Kyiv, Rostov in overnight attacks\u00a0\u00a0Al Jazeera",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQX0F5azBEbW1HelZUdGJpVWxkOG9hN0Fzc09LZWMxcnZPTkRxSG1QeEgtUzZFT0FNMWMxZm1EN3Uyc3V3SkVqN2hEZkhac25FdUFUd2VSM2pqY3FURlRZbzYxbE9TeDNXcXpmYXJQN2ItNDNmSTdmNnJhZ0JrX3JiLWlqcW5QY3pVaElVWkhtVFRxZ2JfTmtyUGZzNnJxbUYxVm1qRUdhSdIBrAFBVV95cUxQbk5PemQ3QVRLNHhzMG1SanJfdmZZTHlvZ0Fpd2o0dTVsZ0IzVUdZQnZIZFJhV2lEUjFndVVWVW1hU2JFbmZ2UDNvcVRwODZvMG1nWG9vei1jUl84cmR2eXBYT3JvdmxXeU9zTjN2UHRTVXB3eGxza3NldEtfdFVUVnZ3T0xJYWVXZVpnZzZwUDhNQWZONWQzTXRyclFUc01kbVFLaVpDVV9tTUZi?oc=5",
+          "source": "ABC News",
+          "published": "Tue, 25 Nov 2025 09:33:45 GMT",
           "topic": "WORLD",
-          "fetched_at": "2025-11-25T06:11:02.903932"
+          "fetched_at": "2025-11-25T12:13:16.978798"
         },
         "analysis": {
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
           "error": "Unauthorized",
           "error_type": "AuthenticationError",
-          "analyzed_at": "2025-11-25T06:11:24.201665",
+          "analyzed_at": "2025-11-25T12:13:44.608945",
           "summary": "Analysis failed: Unauthorized",
           "sentiment": "unknown"
         }
       },
       {
         "article": {
-          "id": "news_1_1764051062",
-          "title": "Afghanistan says Pakistan bombed Khost, killing nine children and a woman - Al Jazeera",
-          "description": "Afghanistan says Pakistan bombed Khost, killing nine children and a woman\u00a0\u00a0Al JazeeraTaliban Says Pakistani Strikes in Eastern Afghanistan Kill 10\u00a0\u00a0Bloomberg.comUS backs Israeli right to \u2018self-defense\u2019 after IDF strike on Hezbollah army chief\u00a0\u00a0The Times of IsraelAfghanistan Says Pakistani Airstrikes in East of the Country Have Killed 10 People, Mostly Children\u00a0\u00a0U.S. News & World ReportTaliban accuses Pakistan of killing 10 \u2013 including nine children \u2013 in strikes on Afghanistan\u00a0\u00a0The Guardian",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNTmNhS09heVlqYUc1TEIzWk9XRHNHTEZ3elh4N0xhbnFmaXhhVlFEcFRVUUdybTdZRXplYUZ5M2tzVlFZUTM1cDl6M00wWHd6X3FBcHZuVE5MazBkendzdUdNOG5VazlacUNKSllaT2V0eEV0WmNQd1AyalNlVE43LTNxMWhzd3RuTk9Ua2xZaElMRGt3dUtmaHJlM2RQOGxLQ2h4blNGWUF3RDE3dkp2ZW9ib1h5V0XSAbwBQVVfeXFMTWN3OS1vM3VLclprR19CYnhPS3Uya2NFNFZLX0RidnR6QWZzWnNWRnRmbTlWaGhPQzBHaW9iU25GMERZRS1SdV9EUU9aNjJwbVcxUENKdG5XVUFVTFlGQzZLRVdKSEdncWE5T0M1NGpUMHRQS3hDQ2tMaWpyempOY19zN2hkMDVua1pvak9GLWlUR2pFQ0lHQS1MZGljNjZJemMyaXd5b2lObWxRWXZJNWotRkJBU3FsbmF4a1Q?oc=5",
-          "source": "Al Jazeera",
-          "published": "Tue, 25 Nov 2025 03:00:00 GMT",
+          "id": "news_1_1764072796",
+          "title": "China launches spacecraft to bring 3 stranded astronauts back from space station sometime next year - CBS News",
+          "description": "China launches spacecraft to bring 3 stranded astronauts back from space station sometime next year\u00a0\u00a0CBS NewsChina launches Shenzhou 22 spacecraft to assist in return of 3 stranded astronauts\u00a0\u00a0NPRChina completes first emergency mission to Tiangong space station\u00a0\u00a0ReutersChina sends spacecraft to pick up stranded astronauts\u00a0\u00a0Al JazeeraChina\u2019s first emergency launch: vessel with repair kit reaches space station\u00a0\u00a0South China Morning Post",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNSEpXMk9DMmNQZ0pPTlUwUE1oakxKRDdFcGp3bWU0bmdFenZlQjRMMGlVUUpSb1VHOWxHbUYyVk9PTjlmVzhuTnlZUXdrWUhjOUlzTWdIT2FOSlRxUGJpcXByMXpJaWJVSVVUdE95NUxBTkUtMGxwdllEckFrOXd0TVJYMThfaV9jWXNwRU1uWURpVWdpMVVHRW0xc3QtR2Y5NDdlUF9vS1h4aXpIVFpqdXZ5MTJ4bTVLaVFQS25YRURMMnFLN1FzRtIBzgFBVV95cUxQanB6UVdJNUJac0dGOVlnc0hKNXloWTJOZlNJOU5UaGVsandwb1IxcFAzY0VmQWs0cU9jNHZ1WGlNYjFSS25MUjFNR1RhNnhHMFIzNnBXTEJQN21MbFFnd0NfNTZJWWFLRUNEQmFqNUlOOWQyMTA2TzR4UjgxeTNLdGFWY1phUGdVc1lyTWtsMFdhQ2tNR0NDc1R2aW1xeE5tb3E3Q3p3cnhGeFhZT25OSzgtaDRkSWV4UXFlS2pEcXktalVuMDVkR2VfSm93dw?oc=5",
+          "source": "CBS News",
+          "published": "Tue, 25 Nov 2025 06:21:05 GMT",
           "topic": "WORLD",
-          "fetched_at": "2025-11-25T06:11:02.903967"
+          "fetched_at": "2025-11-25T12:13:16.978834"
         },
         "analysis": {
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
           "error": "Unauthorized",
           "error_type": "AuthenticationError",
-          "analyzed_at": "2025-11-25T06:11:25.268179",
+          "analyzed_at": "2025-11-25T12:13:45.652110",
           "summary": "Analysis failed: Unauthorized",
           "sentiment": "unknown"
         }
       },
       {
         "article": {
-          "id": "news_2_1764051062",
-          "title": "\u2018The Zionists should be worried\u2019: Threats, anti-US chants at funeral of Hezbollah No. 2 - The Times of Israel",
-          "description": "\u2018The Zionists should be worried\u2019: Threats, anti-US chants at funeral of Hezbollah No. 2\u00a0\u00a0The Times of IsraelIsrael Says It Killed Top Hezbollah Commander in Beirut\u00a0\u00a0The Wall Street JournalWho was Haytham Ali Tabatabai, Hezbollah official killed by Israel?\u00a0\u00a0Al JazeeraHeadlines for November 24, 2025\u00a0\u00a0Democracy Now!Israel says it killed a senior Hezbollah official in first strike on Beirut in months\u00a0\u00a0Politico",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdWdQbHJNdzBQaTZaMkx4eGZPaXZrRjV1UDE3dDFleDBEeFV5elRQeDk3UU93SDlMLWhaVUFpa3Mtc1NReFF4LUVtNGFaSHZYdzJ0UktpX2k5MFBhMFpNd0h0R251WjNXOWNpUHNIeENqYlpBcTR6WUdYVkgxd3phVE1JLUlrMkwyVXd4WFBXUmJEaEJ5OF9zN3Z2T0dXSUFhWUVvaTMybUdhVmd2YWoyZHctZ9IBuAFBVV95cUxQczJQS1Rud0JtbVU1T3JJX2IwUU5ObFNaTjh6YWtiSFZxUVJhMWlCOTl4Z1B6ekR6RDNfVmd5Ym1LZ0J3NUJoUTNDT0ZfSXBGc2FJX09wRXJXbXc2SWhuYml5WlRWWldJSV9CczZEX2FwSnR0b3FHOGlpRUFteng0UU1lN1BxWXdOSndMQTRWeGtaRnlzcWppOEtSRXZOQXY5SWI2c1hXS2pfbFRfRll4Z0wzcDdDQzRO?oc=5",
-          "source": "The Times of Israel",
-          "published": "Mon, 24 Nov 2025 21:31:00 GMT",
+          "id": "news_2_1764072796",
+          "title": "Taiwan Pleased Trump Didn\u2019t Mention Island in Readout of Xi Call - Bloomberg.com",
+          "description": "Taiwan Pleased Trump Didn\u2019t Mention Island in Readout of Xi Call\u00a0\u00a0Bloomberg.comChina\u2019s Xi Jinping raises future of Taiwan in call with Donald Trump\u00a0\u00a0The GuardianXi Puts Biggest US-China Flashpoint Back on Agenda in Trump Call\u00a0\u00a0Bloomberg.comTrump spoke with Chinese President Xi\u00a0\u00a0CNBCTrump tariffs live updates: Trump, Xi hold first call since US-China truce; signs of US-EU friction emerge\u00a0\u00a0Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUFM1ejgyMTJhLUNydkRuOWJXb2EwS2wwU0thNm5jZnFVS0R5X3IxY2plVVRXcTBXRGc0UUlNc2lmeFN3YVd4Zmd1VE1BeWdNM3pZWHBfeXEyM1ZNQ0E5NEtXVXFSenY5Tk90YVdwbTVuTWg5b1gydTMydmJrMUdIcGc0bFRYRmRhZDRxR0hDTHZXVkUza3lRSGF2ZGRhRHh1NnV0a3lrVmFzLS1tQWNDUm0zUHBDZw?oc=5",
+          "source": "Bloomberg.com",
+          "published": "Tue, 25 Nov 2025 04:36:00 GMT",
           "topic": "WORLD",
-          "fetched_at": "2025-11-25T06:11:02.903991"
+          "fetched_at": "2025-11-25T12:13:16.978857"
         },
         "analysis": {
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
           "error": "Unauthorized",
           "error_type": "AuthenticationError",
-          "analyzed_at": "2025-11-25T06:11:26.337259",
+          "analyzed_at": "2025-11-25T12:13:46.696743",
           "summary": "Analysis failed: Unauthorized",
           "sentiment": "unknown"
         }
       },
       {
         "article": {
-          "id": "news_3_1764051062",
-          "title": "Budget 2025: What can nervous businesses expect from the Budget? - BBC",
-          "description": "Budget 2025: What can nervous businesses expect from the Budget?\u00a0\u00a0BBCMarkets are on tenterhooks over the UK's budget plans, here's what's at stake\u00a0\u00a0CNBCBritain's unpopular government prepares a high-stakes budget and hopes for growth\u00a0\u00a0KSATBond market power: why Rachel Reeves is keen to keep the \u00a32.7tn \u2018beast\u2019 onside\u00a0\u00a0The GuardianBudget 2025: Three things Rachel Reeves's speech boils down to - and two tricks the chancellor will fall back on\u00a0\u00a0Sky News",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9tZ3BNTXVvcUVLek1ydUJhNnpHRi14RjJxUmpvR1FUMVEzSTNEaGgzaU9XU2lGNk1ROUNLWVI5UC10enJ5bnhSLUhMWTJXdU5ySE9hNkd0WUtGQdIBX0FVX3lxTE9PME8xck5xdXNDUmRLZFNveHNkNUx1MmdtSTNMTllYSnd6QTVrNU5lRG4zRlJLX2J1TF9Xczk4bFc4ZmhvdVRBT090V1UxQTgwVktMZjlJOWJ1SkpBdHBZ?oc=5",
-          "source": "BBC",
-          "published": "Mon, 24 Nov 2025 12:35:53 GMT",
-          "topic": "WORLD",
-          "fetched_at": "2025-11-25T06:11:02.904012"
-        },
-        "analysis": {
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "error": "Unauthorized",
-          "error_type": "AuthenticationError",
-          "analyzed_at": "2025-11-25T06:11:27.404184",
-          "summary": "Analysis failed: Unauthorized",
-          "sentiment": "unknown"
-        }
-      },
-      {
-        "article": {
-          "id": "news_4_1764051062",
-          "title": "Images From Vietnam\u2019s Year of Deadly Wet Weather - The New York Times",
-          "description": "Images From Vietnam\u2019s Year of Deadly Wet Weather\u00a0\u00a0The New York TimesVietnam floods leave at least 90 dead and 12 missing\u00a0\u00a0BBCDeadly floods and landslides continue to plague Southeast Asia\u00a0\u00a0Al JazeeraDeadly flooding leaves thousands stranded and nearly 100 confirmed dead as heavy rain slams communities: 'We've never experienced that'\u00a0\u00a0YahooDeath toll climbs in Southeast Asia as heavy rains cause floods and landslides\u00a0\u00a0ABC News",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNXzRxNVZ6bWFuczJQc0xOaGtOV0YzaDh1bTBFUUtraHg4ZHRybDFrNGk5ODFyRHB5dEhISktDOVBwTkM1bm5TT1QzcUoxdWZLMXYtTU16Vm5RV1hRbExNMEphSFlJRFlBdm5JeU5lQUxlUEE0MzZsMWY4SUVzUkE1SzJ5NmdkOFI3XzQ1SUVn?oc=5",
-          "source": "The New York Times",
-          "published": "Tue, 25 Nov 2025 02:27:09 GMT",
-          "topic": "WORLD",
-          "fetched_at": "2025-11-25T06:11:02.904032"
-        },
-        "analysis": {
-          "model": "Phi-4 Mini",
-          "model_id": "microsoft/phi-4-mini-instruct",
-          "error": "Unauthorized",
-          "error_type": "AuthenticationError",
-          "analyzed_at": "2025-11-25T06:11:28.472295",
-          "summary": "Analysis failed: Unauthorized",
-          "sentiment": "unknown"
-        }
-      },
-      {
-        "article": {
-          "id": "news_0_1764051062",
-          "title": "Tyson\u2019s beef plant closure in Nebraska will impact a reliant town and ranchers nationwide - AP News",
-          "description": "Tyson\u2019s beef plant closure in Nebraska will impact a reliant town and ranchers nationwide\u00a0\u00a0AP NewsTyson Foods to close Nebraska plant as it faces $600 million loss in beef business\u00a0\u00a0Yahoo FinanceTyson Foods to close major beef plant, scale back operations as cattle supplies decline\u00a0\u00a0Fox BusinessLargest US meat supplier closing vast beef plant as industry reckons with Trump\u00a0\u00a0The IndependentState hunts way forward after Nebraska got \u2018butts kicked\u2019 by Tyson plant closure\u00a0\u00a0Nebraska Examiner",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNSkNFS3d6aXZ4bVZJRmMxWHlJdWdSbDd1UXZpUkFmbVlITng2WXNIV1M1ZU4xcWRYdS1ZMHppU29hUVJXT3hSTlViN2lHLWlfdzhNVjBOelU1SGNIeVc2cGFPcUNYVnV6WFh0SmJEbERjQkNvUjFqVFJFSWo3M1hJdVJsaWhsOHA5eHZRdW1yRFBOSHp5OUE?oc=5",
+          "id": "news_3_1764072796",
+          "title": "2 climbers die and 2 more rescued on New Zealand\u2019s highest peak - AP News",
+          "description": "2 climbers die and 2 more rescued on New Zealand\u2019s highest peak\u00a0\u00a0AP NewsAoraki Mount Cook: Two climbers dead on New Zealand's tallest mountain\u00a0\u00a0BBC2 climbers die and 2 more rescued on New Zealand's highest peak\u00a0\u00a0ABC NewsBodies recovered after two climbers die in Aoraki Mt Cook fall\u00a0\u00a0RNZAlpine accident on NZ's tallest peak claims lives of two climbers\u00a0\u00a0abc.net.au",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQWZpM1g4Z2xhSFRvX0xDTnhpRkU0dlBLdGlOV09hOWxlMDFwMHM1R1BxSVRYQ1ktSUJ0dW5XdkE3NDQxZmJpcFZrRF9QeVR0YWxyZTE5SExOOU9IMGpvVGY3VGhFdG1fb0RCRGlFRXp3UjMxSXY4aWMzSy01NlRITnZHMzBILTk3N0J3ZXZ0UTNnVE50VWg5aEJObU0xdWszSDlR?oc=5",
           "source": "AP News",
-          "published": "Tue, 25 Nov 2025 03:26:00 GMT",
-          "topic": "BUSINESS",
-          "fetched_at": "2025-11-25T06:11:02.972296"
+          "published": "Tue, 25 Nov 2025 03:06:00 GMT",
+          "topic": "WORLD",
+          "fetched_at": "2025-11-25T12:13:16.978877"
         },
         "analysis": {
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
           "error": "Unauthorized",
           "error_type": "AuthenticationError",
-          "analyzed_at": "2025-11-25T06:11:29.539716",
+          "analyzed_at": "2025-11-25T12:13:47.745539",
           "summary": "Analysis failed: Unauthorized",
           "sentiment": "unknown"
         }
       },
       {
         "article": {
-          "id": "news_1_1764051062",
-          "title": "Asia-Pacific markets trade mixed after Wall Street's tech stocks rebound - CNBC",
-          "description": "Asia-Pacific markets trade mixed after Wall Street's tech stocks rebound\u00a0\u00a0CNBCAsian Stocks Set to Track Wall Street Tech Rebound: Markets Wrap\u00a0\u00a0Bloomberg.comAsian stocks edge higher as US rate cut hopes rise\u00a0\u00a0ReutersAsian Shares Mixed After Wall Street Gets a Lift From Hopes for a Fed Rate Cut\u00a0\u00a0U.S. News & World ReportAsia Market Open: Bitcoin Edges Higher Above $87K, Stocks Gain On Rising Expectations Of Fed Easing\u00a0\u00a0Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPNGNMd2FqTmppVWxKQVEzaFpRcjdJclhaT2VUcFBUQTFJTFNnU2k5MTlTOGlFWWp1U1R3bWgxRk9fb2RXY1NjejltY0JUMFJ2NzFZU1JWN0gxVElGVDIxa085MlBXVjVadC1ZOElWT1RMVGQ4N05pMzIxRjFUYmgzY2RVbGNwcUxYZ1BxQVpGZXlEYjY5bW1FS2NkYXNlZjNBV0FZMzJMSWd0YkUtMUh4MWh2LWlScFdJQjZUVXFR0gHDAUFVX3lxTFBPV2U3ZVRsVzdzSDJ6MnFVSHUwU3c4NGlqdUg5YmhFaEhCRFpGeHZ1WS01cGpvczAyZElndzZrakJFS0N6d0NzTDFKQkVXWU13TlZBN01ZV25TeHNhS0t2cEtRUjFoTEhSTUxzcDFIZU5KdXRuZVNrUWZBSnh1Unh4NzBKMTJ6aHMxUkVCV0lKQzk4czZCTDZIZDlTTzRVSnZ0Y1BpNjhSZDVZbUpPbWZDTEhUUlFWZlhzM1EzNDhxX2ZpZw?oc=5",
-          "source": "CNBC",
-          "published": "Mon, 24 Nov 2025 23:43:11 GMT",
-          "topic": "BUSINESS",
-          "fetched_at": "2025-11-25T06:11:02.972320"
+          "id": "news_4_1764072796",
+          "title": "Italy's Campi Flegrei supervolcano is stirring. Could this seismic giant soon erupt? - NPR",
+          "description": "Italy's Campi Flegrei supervolcano is stirring. Could this seismic giant soon erupt?\u00a0\u00a0NPR",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPNEJJYkUzRjR6Z2k3T1plSzZ4eWtBc1NvcXMtbkdOZnRFMW8tMmxjQ2FpdWUycXlsa2VLdHhNcDRnUm85N2w4QXNzVTFIRVR3SG4yajl2bUR0V1JUeThXbGtBWG9NZlNCVjlmMU01d0FpMzBsR0dpelg0Z0VXakphVzFoeHJrYWxybmxFSFowbFhwWUJOTVVEc3Z5dmJ1Tkx2RmZ6SjhZODBWTURIV21YRVRTckpadw?oc=5",
+          "source": "NPR",
+          "published": "Tue, 25 Nov 2025 10:03:00 GMT",
+          "topic": "WORLD",
+          "fetched_at": "2025-11-25T12:13:16.978885"
         },
         "analysis": {
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
           "error": "Unauthorized",
           "error_type": "AuthenticationError",
-          "analyzed_at": "2025-11-25T06:11:30.604798",
+          "analyzed_at": "2025-11-25T12:13:48.786576",
           "summary": "Analysis failed: Unauthorized",
           "sentiment": "unknown"
         }
       },
       {
         "article": {
-          "id": "news_2_1764051062",
-          "title": "Alphabet Gains on Report Meta to Use Its AI Chips; Nvidia Falls - Bloomberg.com",
-          "description": "Alphabet Gains on Report Meta to Use Its AI Chips; Nvidia Falls\u00a0\u00a0Bloomberg.comNvidia Shares Drop on Report of Google Challenge in AI Chips\u00a0\u00a0Yahoo FinanceAlphabet\u2019s stock rises as possible Meta chip deal highlights new twist in the AI trade\u00a0\u00a0MarketWatchNvidia sales are 'off the charts,' but Google, Amazon and others now make their own custom AI chips\u00a0\u00a0CNBCNvidia\u2019s Faltering Make You Nervous? These AI Plays Can Fill The Gap.\u00a0\u00a0FS Insight",
+          "id": "news_0_1764072797",
+          "title": "Stocks get boost from rising chances of Fed cut; dollar steady - Reuters",
+          "description": "Stocks get boost from rising chances of Fed cut; dollar steady\u00a0\u00a0ReutersAsia-Pacific markets trade mixed after Wall Street's tech stocks rebound\u00a0\u00a0CNBCAsian shares mixed after Wall Street gets a lift from hopes for a Fed rate cut\u00a0\u00a0Yahoo FinanceAsian stocks creep higher with US rate cuts back in focus By Reuters\u00a0\u00a0Investing.comWorld shares advance after Wall Street gets a lift from hopes for a Fed rate cut\u00a0\u00a0WRAL",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZWtxVnF3VGRsRHBKTFlYc0Rqb3JlZXI0NnNqbVlyb01LXzBfSlItLW5FRlNHdjNKclp0WWl1clUwa3phRFV6RUlVZGlaTHBFSEZiMURFY3pXRnU4ZlBPeHZ4QllMQUFXMzAtcXhzMFZVLWk5MExlSTlpMmgtOXZwRU9hVQ?oc=5",
+          "source": "Reuters",
+          "published": "Tue, 25 Nov 2025 09:40:16 GMT",
+          "topic": "BUSINESS",
+          "fetched_at": "2025-11-25T12:13:17.621965"
+        },
+        "analysis": {
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "error": "Unauthorized",
+          "error_type": "AuthenticationError",
+          "analyzed_at": "2025-11-25T12:13:49.833094",
+          "summary": "Analysis failed: Unauthorized",
+          "sentiment": "unknown"
+        }
+      },
+      {
+        "article": {
+          "id": "news_1_1764072797",
+          "title": "We're shopping our feelings this Black Friday. Here are 3 things to know - NPR",
+          "description": "We're shopping our feelings this Black Friday. Here are 3 things to know\u00a0\u00a0NPRThe dirty secret of America\u2019s holiday shopping season\u00a0\u00a0CNNA record 187 million Americans will shop this week: Here are 5 simple ways to save\u00a0\u00a0CNBCChecking it price\u00a0\u00a0Retail BrewWith early start to holiday shopping, consumers seek value, practicality \u2014 and nostalgia\u00a0\u00a0SiouxFalls.Business",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA4NFp5LXJIcnFtbkFRQmVCbkt5dDdFd01fV054VS1LRS1XOGt3S0NES2hDcXF5QjZVS25YbDVwVmpXZmdpbmhmanU0LWR5RkZOWDZPbnZybzNkZFJwUU80d0FseVhncXVwVm00SmpsVDQ4UXd1ZGlPTQ?oc=5",
+          "source": "NPR",
+          "published": "Tue, 25 Nov 2025 10:00:00 GMT",
+          "topic": "BUSINESS",
+          "fetched_at": "2025-11-25T12:13:17.621995"
+        },
+        "analysis": {
+          "model": "Phi-4 Mini",
+          "model_id": "microsoft/phi-4-mini-instruct",
+          "error": "Unauthorized",
+          "error_type": "AuthenticationError",
+          "analyzed_at": "2025-11-25T12:13:50.874587",
+          "summary": "Analysis failed: Unauthorized",
+          "sentiment": "unknown"
+        }
+      },
+      {
+        "article": {
+          "id": "news_2_1764072797",
+          "title": "Nvidia Shares Drop on Report of Google Challenge in AI Chips - Bloomberg.com",
+          "description": "Nvidia Shares Drop on Report of Google Challenge in AI Chips\u00a0\u00a0Bloomberg.comNvidia shares fall 3% on report Meta will use Google AI chips\u00a0\u00a0CNBCGoogle Further Encroaches on Nvidia\u2019s Turf With New AI Chip Push\u00a0\u00a0The InformationAlphabet\u2019s stock rises as possible Meta chip deal highlights new twist in the AI trade\u00a0\u00a0MarketWatchGoogle Throws Down Gauntlet to Nvidia\u00a0\u00a0Bloomberg.com",
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPOEhyaV9tVHFJZXdNM1hvck5NVzh5WU50ZVlPZmFfcjdtSmlKdkxoYUMyRnJIWGNkUHJGMVVJc1BBU3Z1clQ3RWFiMFEyV3labzBGSGFzUnZRS3hiaVRMcGloM1FWSHR0MjIyZHdMcm5mX2xoaHU4YTBGOWV2elRoa3FYT2xybXhseXdPcDN1N3FHTXU1QWU2djVnR01JSERfWVVZaDBJOHRzRDQ?oc=5",
           "source": "Bloomberg.com",
-          "published": "Tue, 25 Nov 2025 01:46:00 GMT",
+          "published": "Tue, 25 Nov 2025 09:17:30 GMT",
           "topic": "BUSINESS",
-          "fetched_at": "2025-11-25T06:11:02.972342"
+          "fetched_at": "2025-11-25T12:13:17.622016"
         },
         "analysis": {
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
           "error": "Unauthorized",
           "error_type": "AuthenticationError",
-          "analyzed_at": "2025-11-25T06:11:31.670768",
+          "analyzed_at": "2025-11-25T12:13:51.914974",
           "summary": "Analysis failed: Unauthorized",
           "sentiment": "unknown"
         }
       },
       {
         "article": {
-          "id": "news_3_1764051062",
+          "id": "news_3_1764072797",
           "title": "Dow Jones Futures: What To Do As Stock Market Roars To Key Level; Tesla, Palantir, Broadcom Jump - Investor's Business Daily",
-          "description": "Dow Jones Futures: What To Do As Stock Market Roars To Key Level; Tesla, Palantir, Broadcom Jump\u00a0\u00a0Investor's Business DailyStock market today: Nasdaq sees biggest jump since May, S&P 500 soars as Alphabet, Tesla lead tech rally\u00a0\u00a0Yahoo FinanceFed Cut: The 'Greenspan Put' Beats a Correction, Once Again\u00a0\u00a0Bloomberg.comStocks rally on rising hopes for December rate cut and renewed AI enthusiasm\u00a0\u00a0NBC NewsSuddenly, the Fed interest rate cut in December looks like it is very much back on the table\u00a0\u00a0Fort",
+          "description": "Dow Jones Futures: What To Do As Stock Market Roars To Key Level; Tesla, Palantir, Broadcom Jump\u00a0\u00a0Investor's Business DailyStock market today: Nasdaq sees biggest jump since May, S&P 500 soars as Alphabet, Tesla lead tech rally\u00a0\u00a0Yahoo FinanceSuddenly, the Fed interest rate cut in December looks like it is very much back on the table\u00a0\u00a0FortuneStocks rally on rising hopes for December rate cut and renewed AI enthusiasm\u00a0\u00a0NBC NewsFed Cut: The 'Greenspan Put' Beats a Correction, Once Again\u00a0\u00a0Bloomberg.",
           "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNekZOLWdKTlYxd1pvOUVTOWw0b25ySGJIbmtCUnk4M19lZUlqMHFmSzNKV2ZNN3BuOXlmbXNGd2NXc1gycjVhMFVRVDMzVFZFT1o0MFFGcXFnZmUyMzVobUlaYjF2QWJXdWFFWDNMWWRzLWk2V3d6dWszczluSnktdnRnM0ZscnIycHAwQUpTTDE3ZkxVNjZlSlBud0dpVWRjZmxHbmlDdFhSdHZlQVpr?oc=5",
           "source": "Investor's Business Daily",
-          "published": "Tue, 25 Nov 2025 04:02:00 GMT",
+          "published": "Tue, 25 Nov 2025 04:08:00 GMT",
           "topic": "BUSINESS",
-          "fetched_at": "2025-11-25T06:11:02.972366"
+          "fetched_at": "2025-11-25T12:13:17.622039"
         },
         "analysis": {
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
           "error": "Unauthorized",
           "error_type": "AuthenticationError",
-          "analyzed_at": "2025-11-25T06:11:32.735350",
+          "analyzed_at": "2025-11-25T12:13:52.957828",
           "summary": "Analysis failed: Unauthorized",
           "sentiment": "unknown"
         }
       },
       {
         "article": {
-          "id": "news_4_1764051062",
-          "title": "A longtime family-owned furniture retailer turns to bankruptcy, plans to shutter dozens of stores - Business Insider",
-          "description": "A longtime family-owned furniture retailer turns to bankruptcy, plans to shutter dozens of stores\u00a0\u00a0Business InsiderValue City Furniture\u2019s parent company files for bankruptcy, stores remain open amid sales\u00a0\u00a0WSYXAmerican Signature, Inc. Files Voluntary Petitions for Chapter 11 Relief\u00a0\u00a0Business WireThese Value City Furniture stores are closing following bankruptcy\u00a0\u00a0USA TodayAmerican Signature files for bankruptcy amid furniture sales slump\u00a0\u00a0Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOOGZFcWgxT3gzbEZhZUNiQTRfNlBoYWhqSHFGRFhUVDhpUWI5NUhFbUFSaGpucDdDOVdrVkNvRkNIUkgwM2hfdXVsOVVHdVBJQWtUNHpPOE5WdlBUbncxVV9wMGdOSURtUlNlTk10UlotZUZ2eDVvOFRzZnUwc0ZXeG9KTmNhTW9kZGJZQmE0a0N2QnFKa2EzUjhlNXl4Q2dKSFpLSGtBeHZUVHM?oc=5",
-          "source": "Business Insider",
-          "published": "Mon, 24 Nov 2025 22:33:00 GMT",
+          "id": "news_4_1764072797",
+          "title": "Exclusive | Fed\u2019s Daly Backs December Rate Cut, Citing Vulnerable Labor Market - The Wall Street Journal",
+          "description": "Exclusive | Fed\u2019s Daly Backs December Rate Cut, Citing Vulnerable Labor Market\u00a0\u00a0The Wall Street JournalFed may generate sugar rush in 2026\u00a0\u00a0ReutersFed\u2019s Waller Calls for December Cut, Then Meeting-By-Meeting\u00a0\u00a0Bloomberg.comThe Fed is so divided that the next vote on rates could result in an unprecedented tie, analysts say\u00a0\u00a0FortuneA December Interest Rate Cut Looks Likely\u2014Again\u00a0\u00a0Morningstar",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcG1iNXZHSGlFR3o5TWZIdHpYX2NzN3g0aGxfYUs5cTZxdVhKSk1QMEoxTlRUZmluOFNrczNLQi1MdGZlLV9vQTdBamVkOWZIVWN0SG1vYU1Ib0JZRHctVGJiLUotRVY0UWVrdHBpMXQ1MGNsUHJURURRSDd1WDdrdlZrQmJQa0NuNW5RYTE0clkzQkg5Rk1uN1hDSmxpemI5NGlTZUE4a3dHQkNRRlljM0hBWGlsSnRI?oc=5",
+          "source": "The Wall Street Journal",
+          "published": "Mon, 24 Nov 2025 19:55:00 GMT",
           "topic": "BUSINESS",
-          "fetched_at": "2025-11-25T06:11:02.972386"
+          "fetched_at": "2025-11-25T12:13:17.622059"
         },
         "analysis": {
           "model": "Phi-4 Mini",
           "model_id": "microsoft/phi-4-mini-instruct",
           "error": "Unauthorized",
           "error_type": "AuthenticationError",
-          "analyzed_at": "2025-11-25T06:11:33.803021",
+          "analyzed_at": "2025-11-25T12:13:54.001256",
           "summary": "Analysis failed: Unauthorized",
           "sentiment": "unknown"
         }
@@ -329,15 +329,15 @@
     "articles_analyzed": 15
   },
   "costs": {
-    "execution_time": 15.459815263748169,
-    "execution_minutes": 0.25766358772913617,
-    "github_actions": 0.0020613087018330895,
+    "execution_time": 15.168621301651001,
+    "execution_minutes": 0.2528103550275167,
+    "github_actions": 0.0020224828402201334,
     "openai": {
       "input": 0.0,
       "output": 0.0,
       "total": 0.0
     },
-    "total": 0.0020613087018330895,
+    "total": 0.0020224828402201334,
     "token_usage": {
       "prompt_tokens": 0,
       "completion_tokens": 0,
