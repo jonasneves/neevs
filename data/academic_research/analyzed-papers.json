@@ -1,301 +1,163 @@
 {
   "agent": "agent-b-paper-analyzer",
-  "timestamp": "2025-11-25T09:06:33.769995",
+  "timestamp": "2025-11-26T09:05:36.620437",
   "status": "completed",
   "input_from": "agent-a-paper-fetcher",
   "data": {
     "analyzed_papers": [
       {
-        "id": "2511.19436v1",
-        "title": "VDC-Agent: When Video Detailed Captioners Evolve Themselves via Agentic Self-Reflection",
+        "id": "2511.20650v1",
+        "title": "MedROV: Towards Real-Time Open-Vocabulary Detection Across Diverse Medical Imaging Modalities",
         "authors": [
-          "Qiang Wang",
-          "Xinyuan Gao",
-          "SongLin Dong",
-          "Jizhou Han",
-          "Jiangyang Li"
+          "Tooba Tehreem Sheikh",
+          "Jean Lahoud",
+          "Rao Muhammad Anwer",
+          "Fahad Shahbaz Khan",
+          "Salman Khan"
         ],
-        "abstract": "We present VDC-Agent, a self-evolving framework for Video Detailed Captioning that requires neither human annotations nor larger teacher models. The agent forms a closed loop of caption generation, principle-guided scoring (score and textual suggestions), and prompt refinement. When caption quality regresses, a self-reflection path leverages the previous chain-of-thought to amend the update. Running this process on unlabeled videos produces trajectories of (caption, score) pairs. We convert the ...",
-        "published": "2025-11-24T18:59:56Z",
-        "updated": "2025-11-24T18:59:56Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.19436v1",
-        "abs_url": "https://arxiv.org/abs/2511.19436v1",
+        "abstract": "Traditional object detection models in medical imaging operate within a closed-set paradigm, limiting their ability to detect objects of novel labels. Open-vocabulary object detection (OVOD) addresses this limitation but remains underexplored in medical imaging due to dataset scarcity and weak text-image alignment. To bridge this gap, we introduce MedROV, the first Real-time Open Vocabulary detection model for medical imaging. To enable open-vocabulary learning, we curate a large-scale dataset, ...",
+        "published": "2025-11-25T18:59:53Z",
+        "updated": "2025-11-25T18:59:53Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.20650v1",
+        "abs_url": "https://arxiv.org/abs/2511.20650v1",
         "categories": [
           "cs.CV",
-          "cs.AI",
-          "cs.LG",
-          "cs.MM"
+          "cs.AI"
         ],
         "primary_category": "cs.CV",
         "analysis": {
-          "tldr": "This paper introduces VDC-Agent, a clever system for creating detailed captions for videos without needing human input or extensive pre-trained models. It uses a self-evolving loop to improve its captioning based on its own performance feedback.",
-          "eli5": "Imagine a robot that watches videos and writes descriptions for them. Instead of needing a human to tell it what's good or bad, this robot learns on its own. It checks its own work and makes adjustments when it notices it\u2019s not doing so well, all while keeping track of how it improves over time. This means it can get better at captioning videos without relying on anyone else's help.",
+          "tldr": "This paper introduces MedROV, a groundbreaking model for detecting medical objects in real-time without being limited to a fixed set of labels. It overcomes the challenges of traditional models by leveraging open-vocabulary capabilities.",
+          "eli5": "Imagine a doctor looking at X-rays and being able to quickly spot not just common issues like fractures, but also rare conditions that they haven't explicitly trained for. MedROV makes this possible by allowing the detection system to recognize a wider variety of medical terms, even those it hasn't seen before.",
           "key_contributions": [
-            "Introducing the VDC-Agent framework for self-evolving video captioning.",
-            "Eliminating the need for human annotations or large teacher models, making the process more efficient.",
-            "Implementing a self-reflection mechanism that allows the agent to learn and improve based on its past performance."
+            "MedROV is the first real-time model designed for open-vocabulary object detection in medical imaging.",
+            "The authors created a large-scale dataset that helps train this model, which is crucial for improving detection accuracy.",
+            "The model addresses the limitations of traditional systems by enabling detection of novel labels that were not part of its original training set."
           ],
-          "why_care": "This research is essential because it can enhance how we understand and interact with video content online. Better automated captioning means improved accessibility for the hearing impaired and can aid in content discovery, making video platforms more user-friendly for everyone.",
+          "why_care": "This advancement could revolutionize how medical professionals diagnose conditions, making it faster and potentially more accurate. It could save lives by enabling detection of rare diseases or conditions that may not be in standard reference manuals.",
           "accessibility": "General Audience",
-          "spicy_take": "This approach could redefine how AI learns from its mistakes, making it a game-changer in the field of natural language processing and machine learning.",
+          "spicy_take": "If MedROV succeeds, it could render traditional closed-set detection models obsolete in the medical field.",
           "reading_time_minutes": 5
         }
       },
       {
-        "id": "2511.19434v1",
-        "title": "Breaking the Likelihood-Quality Trade-off in Diffusion Models by Merging Pretrained Experts",
+        "id": "2511.20643v1",
+        "title": "Concept-Aware Batch Sampling Improves Language-Image Pretraining",
         "authors": [
-          "Yasin Esfandiari",
-          "Stefan Bauer",
-          "Sebastian U. Stich",
-          "Andrea Dittadi"
+          "Adhiraj Ghosh",
+          "Vishaal Udandarao",
+          "Thao Nguyen",
+          "Matteo Farina",
+          "Mehdi Cherti"
         ],
-        "abstract": "Diffusion models for image generation often exhibit a trade-off between perceptual sample quality and data likelihood: training objectives emphasizing high-noise denoising steps yield realistic images but poor likelihoods, whereas likelihood-oriented training overweights low-noise steps and harms visual fidelity. We introduce a simple plug-and-play sampling method that combines two pretrained diffusion experts by switching between them along the denoising trajectory. Specifically, we apply an im...",
-        "published": "2025-11-24T18:59:53Z",
-        "updated": "2025-11-24T18:59:53Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.19434v1",
-        "abs_url": "https://arxiv.org/abs/2511.19434v1",
+        "abstract": "What data should a vision-language model be trained on? To answer this question, many data curation efforts center on the quality of a dataset. However, most of these existing methods are (i) offline, i.e. they produce a static dataset from a set of predetermined filtering criteria, and (ii) concept-agnostic, i.e. they use model-based filters which induce additional data biases. In this work, we go beyond such offline, concept-agnostic methods and advocate for more flexible, task-adaptive online...",
+        "published": "2025-11-25T18:58:07Z",
+        "updated": "2025-11-25T18:58:07Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.20643v1",
+        "abs_url": "https://arxiv.org/abs/2511.20643v1",
         "categories": [
           "cs.CV",
-          "cs.LG",
-          "stat.ML"
-        ],
-        "primary_category": "cs.CV",
-        "analysis": {
-          "tldr": "This paper presents a new method to improve image generation in diffusion models by combining two different pretrained models, allowing for better quality images without sacrificing likelihood. Essentially, it aims to have the best of both worlds in image creation.",
-          "eli5": "The authors tackled a problem where generating high-quality images often meant that the model couldn\u2019t confidently predict how likely those images are based on the training data. They created a clever way to use two different trained models together, switching between them as needed to produce better images.",
-          "key_contributions": [
-            "Introduced a new sampling method that merges two pretrained diffusion models to enhance image quality.",
-            "Addressed the common trade-off between image quality and likelihood in diffusion models.",
-            "Provided a practical solution that can be easily integrated into existing systems."
-          ],
-          "why_care": "Improving image generation technology has vast implications across various fields, from art and design to medical imaging and video game development. Better models mean more realistic and useful images, which can enhance creativity and innovation.",
-          "accessibility": "Tech-Savvy",
-          "spicy_take": "If implemented widely, this method could redefine standards for image generation, making it a game changer in the AI art world.",
-          "reading_time_minutes": 5
-        }
-      },
-      {
-        "id": "2511.19433v1",
-        "title": "Mixture of Horizons in Action Chunking",
-        "authors": [
-          "Dong Jing",
-          "Gang Wang",
-          "Jiaqi Liu",
-          "Weiliang Tang",
-          "Zelong Sun"
-        ],
-        "abstract": "Vision-language-action (VLA) models have shown remarkable capabilities in robotic manipulation, but their performance is sensitive to the $\\textbf{action chunk length}$ used during training, termed $\\textbf{horizon}$. Our empirical study reveals an inherent trade-off: longer horizons provide stronger global foresight but degrade fine-grained accuracy, while shorter ones sharpen local control yet struggle on long-term tasks, implying fixed choice of single horizons being suboptimal. To mitigate t...",
-        "published": "2025-11-24T18:59:51Z",
-        "updated": "2025-11-24T18:59:51Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.19433v1",
-        "abs_url": "https://arxiv.org/abs/2511.19433v1",
-        "categories": [
-          "cs.RO",
-          "cs.AI",
-          "cs.CV"
-        ],
-        "primary_category": "cs.RO",
-        "analysis": {
-          "tldr": "This paper explores how the length of action sequences, called horizons, affects the performance of robots in tasks that require both vision and language understanding. The authors propose a mixture of horizons approach that balances short and long action sequences to improve robotic manipulation.",
-          "eli5": "Imagine teaching a robot to pick up toys. If you only tell it to do one thing at a time (a short action sequence), it might do great up close but struggle to plan for what's next. If you give it a long list of tasks (a long action sequence), it can see the big picture but might mess up the details. This paper suggests using a mix of both approaches to help robots do better overall.",
-          "key_contributions": [
-            "Introduces the concept of mixing different action chunk lengths to optimize robot performance.",
-            "Reveals the trade-offs between short and long horizons and how they affect task execution.",
-            "Provides empirical evidence to support the use of varied horizons for improved robotic manipulation."
-          ],
-          "why_care": "As robots become increasingly integrated into our daily lives\u2014think delivery drones or home assistants\u2014making them more efficient and capable of complex tasks can revolutionize industries and enhance our day-to-day convenience.",
-          "accessibility": "Tech-Savvy",
-          "spicy_take": "Mixing action horizons might just be the secret sauce that could take robotic manipulation from clunky to seamless.",
-          "reading_time_minutes": 5
-        }
-      },
-      {
-        "id": "2511.19428v1",
-        "title": "Flow Map Distillation Without Data",
-        "authors": [
-          "Shangyuan Tong",
-          "Nanye Ma",
-          "Saining Xie",
-          "Tommi Jaakkola"
-        ],
-        "abstract": "State-of-the-art flow models achieve remarkable quality but require slow, iterative sampling. To accelerate this, flow maps can be distilled from pre-trained teachers, a procedure that conventionally requires sampling from an external dataset. We argue that this data-dependency introduces a fundamental risk of Teacher-Data Mismatch, as a static dataset may provide an incomplete or even misaligned representation of the teacher's full generative capabilities. This leads us to question whether this...",
-        "published": "2025-11-24T18:58:55Z",
-        "updated": "2025-11-24T18:58:55Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.19428v1",
-        "abs_url": "https://arxiv.org/abs/2511.19428v1",
-        "categories": [
-          "cs.LG",
-          "cs.CV"
-        ],
-        "primary_category": "cs.LG",
-        "analysis": {
-          "tldr": "This paper explores a method for speeding up flow models by distilling flow maps from pre-trained models without needing external data. It highlights the risks of relying on static datasets that may not fully capture the teacher model's abilities.",
-          "eli5": "Imagine you have a really smart teacher (a flow model) that can create amazing stories, but it takes a long time for them to write each one. Instead of copying their stories from an old book (static dataset), this paper looks at how to learn directly from the teacher without needing that book, making the process faster and potentially better.",
-          "key_contributions": [
-            "Introduces a novel method for distilling flow maps without the need for external datasets, reducing dependence on potentially flawed data.",
-            "Identifies and addresses the issue of Teacher-Data Mismatch, which can compromise the quality of the generated models.",
-            "Provides theoretical insights and practical implications for improving the efficiency of generative models in various applications."
-          ],
-          "why_care": "This research can significantly improve how we generate complex data, like images or text, making it faster and more reliable, which has implications for industries like AI-driven content creation, gaming, and even healthcare.",
-          "accessibility": "Tech-Savvy",
-          "spicy_take": "Relying on static datasets is like trying to memorize a cookbook instead of learning to cook from a chef\u2014this paper champions the chef's way!",
-          "reading_time_minutes": 6
-        }
-      },
-      {
-        "id": "2511.19427v1",
-        "title": "Prompt Less, Smile More: MTP with Semantic Engineering in Lieu of Prompt Engineering",
-        "authors": [
-          "Jayanaka L. Dantanarayana",
-          "Savini Kashmira",
-          "Thakee Nathees",
-          "Zichen Zhang",
-          "Krisztian Flautner"
-        ],
-        "abstract": "AI-Integrated programming is emerging as a foundational paradigm for building intelligent systems with large language models (LLMs). Recent approaches such as Meaning Typed Programming (MTP) automate prompt generation by leveraging the semantics already present in code. However, many real-world applications depend on contextual cues, developer intent, and domain-specific reasoning that extend beyond what static code semantics alone can express. To address this limitation, we introduce Semantic E...",
-        "published": "2025-11-24T18:58:22Z",
-        "updated": "2025-11-24T18:58:22Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.19427v1",
-        "abs_url": "https://arxiv.org/abs/2511.19427v1",
-        "categories": [
-          "cs.SE",
-          "cs.AI"
-        ],
-        "primary_category": "cs.SE",
-        "analysis": {
-          "tldr": "This paper introduces a new approach for programming with AI that focuses on understanding the meaning behind code instead of just generating prompts. It aims to make AI systems smarter by considering context and developer intent in addition to the code itself.",
-          "eli5": "Think of coding like telling a story. Traditionally, AI would help you write the story by suggesting words based on the surface meaning of what you've already written. This paper suggests a smarter way where the AI understands the deeper meaning and context of your story, helping you tell it better without needing to tell it what to say at every turn.",
-          "key_contributions": [
-            "The introduction of Meaning Typed Programming (MTP) that automates prompt generation based on code semantics.",
-            "A new framework called Semantic Engineering that enriches AI understanding by incorporating contextual clues and developer intent.",
-            "A practical approach that bridges the gap between static code and dynamic reasoning required for real-world applications."
-          ],
-          "why_care": "As AI becomes more integrated into software development, this approach could lead to more intuitive and efficient coding practices, enabling programmers to focus on creativity and problem-solving rather than getting bogged down in the mechanics of prompt generation.",
-          "accessibility": "Tech-Savvy",
-          "spicy_take": "By prioritizing semantic understanding over prompt engineering, this work might just be the key to unlocking truly intelligent AI systems that can write code almost as well as seasoned developers.",
-          "reading_time_minutes": 5
-        }
-      },
-      {
-        "id": "2511.19423v1",
-        "title": "Beyond Protein Language Models: An Agentic LLM Framework for Mechanistic Enzyme Design",
-        "authors": [
-          "Bruno Jacob",
-          "Khushbu Agarwal",
-          "Marcel Baer",
-          "Peter Rice",
-          "Simone Raugei"
-        ],
-        "abstract": "We present Genie-CAT, a tool-augmented large-language-model (LLM) system designed to accelerate scientific hypothesis generation in protein design. Using metalloproteins (e.g., ferredoxins) as a case study, Genie-CAT integrates four capabilities -- literature-grounded reasoning through retrieval-augmented generation (RAG), structural parsing of Protein Data Bank files, electrostatic potential calculations, and machine-learning prediction of redox properties -- into a unified agentic workflow. By...",
-        "published": "2025-11-24T18:57:07Z",
-        "updated": "2025-11-24T18:57:07Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.19423v1",
-        "abs_url": "https://arxiv.org/abs/2511.19423v1",
-        "categories": [
-          "q-bio.QM",
-          "cs.AI"
-        ],
-        "primary_category": "q-bio.QM",
-        "analysis": {
-          "tldr": "This paper introduces Genie-CAT, an advanced tool that combines the power of large language models with various scientific techniques to speed up the design of proteins, particularly metalloproteins. It\u2019s like giving researchers a supercharged assistant to help generate and test new ideas quickly.",
-          "eli5": "Imagine you're trying to build a really cool robot, but you don't know exactly how to do it. Genie-CAT is like a smart friend who not only knows a lot about building robots but can also find the best instructions and tools to make your robot work better. In this case, the 'robots' are proteins that can do important things in biology.",
-          "key_contributions": [
-            "The introduction of Genie-CAT as a comprehensive system that integrates multiple scientific processes into one tool.",
-            "The ability to conduct literature-grounded reasoning, which helps researchers pull relevant information from existing studies to guide their designs.",
-            "The automation of complex calculations related to protein structure and function, which saves time and enhances accuracy in enzyme design."
-          ],
-          "why_care": "This research could lead to breakthroughs in biotechnology, medicine, and environmental science by designing proteins that can, for example, break down pollutants or create new pharmaceuticals. It\u2019s not just a lab curiosity; it has the potential to impact our everyday lives.",
-          "accessibility": "Tech-Savvy",
-          "spicy_take": "If researchers don\u2019t start using tools like Genie-CAT, they risk falling behind in the race to innovate, similar to when companies ignored the Internet in the early days.",
-          "reading_time_minutes": 5
-        }
-      },
-      {
-        "id": "2511.19422v1",
-        "title": "SLMFix: Leveraging Small Language Models for Error Fixing with Reinforcement Learning",
-        "authors": [
-          "David Jiahao Fu",
-          "Aryan Gupta",
-          "Aaron Councilman",
-          "David Grove",
-          "Yu-Xiong Wang"
-        ],
-        "abstract": "Recent advancements in large language models (LLMs) have shown very impressive capabilities in code generation across many programming languages. However, even state-of-the-art LLMs generate programs that contains syntactic errors and fail to complete the given tasks, especially for low-resource programming languages (LRPLs). In addition, high training cost makes finetuning LLMs unaffordable with constrained computational resources, further undermining the effectiveness of LLMs for code generati...",
-        "published": "2025-11-24T18:56:47Z",
-        "updated": "2025-11-24T18:56:47Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.19422v1",
-        "abs_url": "https://arxiv.org/abs/2511.19422v1",
-        "categories": [
-          "cs.SE",
-          "cs.AI",
-          "cs.PL"
-        ],
-        "primary_category": "cs.SE",
-        "analysis": {
-          "tldr": "This paper introduces SLMFix, a method that uses small language models to fix errors in code generated by larger models, especially when dealing with less common programming languages. It tackles the problem of high costs and inefficiencies in fine-tuning large models for specific tasks.",
-          "eli5": "Imagine you have a really smart robot that can write computer code, but sometimes it makes mistakes or can't finish its job, especially when dealing with less popular programming languages. This paper presents a clever solution by using smaller, more affordable robots to help fix those mistakes without needing to teach the big robot all over again.",
-          "key_contributions": [
-            "Presents a novel approach to error correction in code generation using small language models.",
-            "Demonstrates that SLMFix can effectively address errors in low-resource programming languages, which are often overlooked by larger models.",
-            "Introduces a reinforcement learning framework that allows for more efficient and cost-effective code fixing."
-          ],
-          "why_care": "As coding becomes increasingly important in various fields, improving code generation can enhance productivity for developers, particularly for those working with less common programming languages. This research can lead to more accessible and reliable programming tools, benefiting businesses and hobbyists alike.",
-          "accessibility": "Tech-Savvy",
-          "spicy_take": "The future of coding might not depend on massive language models, but rather on clever, smaller models that can work together to patch up mistakes without breaking the bank.",
-          "reading_time_minutes": 5
-        }
-      },
-      {
-        "id": "2511.19418v1",
-        "title": "Chain-of-Visual-Thought: Teaching VLMs to See and Think Better with Continuous Visual Tokens",
-        "authors": [
-          "Yiming Qin",
-          "Bomin Wei",
-          "Jiaxin Ge",
-          "Konstantinos Kallidromitis",
-          "Stephanie Fu"
-        ],
-        "abstract": "Vision-Language Models (VLMs) excel at reasoning in linguistic space but struggle with perceptual understanding that requires dense visual perception, e.g., spatial reasoning and geometric awareness. This limitation stems from the fact that current VLMs have limited mechanisms to capture dense visual information across spatial dimensions. We introduce Chain-of-Visual-Thought (COVT), a framework that enables VLMs to reason not only in words but also through continuous visual tokens-compact latent...",
-        "published": "2025-11-24T18:55:19Z",
-        "updated": "2025-11-24T18:55:19Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.19418v1",
-        "abs_url": "https://arxiv.org/abs/2511.19418v1",
-        "categories": [
-          "cs.CV",
-          "cs.AI",
           "cs.LG"
         ],
         "primary_category": "cs.CV",
         "analysis": {
-          "tldr": "This paper presents a new framework called Chain-of-Visual-Thought (COVT) that enhances vision-language models (VLMs) by allowing them to process and reason with dense visual information, improving their understanding of complex spatial and geometric concepts.",
-          "eli5": "Think of vision-language models like a smart assistant that can read and interpret text, but struggles with understanding images in detail. This paper introduces a method for these models to not just read about things but also 'see' and 'think' in a way that helps them make better sense of visual information, kind of like adding a new layer to their brain that helps them visualize better.",
+          "tldr": "This paper introduces a smarter way to select data for training vision-language models, focusing on flexibility and relevance rather than sticking to rigid, outdated methods.",
+          "eli5": "Imagine you\u2019re trying to teach a robot to understand pictures and words, but instead of choosing the best examples for learning, you just pick random ones. This research suggests a better way to choose those examples that really help the robot get smarter, making it more adaptable to different tasks and avoiding mistakes from biased data.",
           "key_contributions": [
-            "Introduces the Chain-of-Visual-Thought (COVT) framework that integrates continuous visual tokens into VLMs, improving their visual reasoning capabilities.",
-            "Demonstrates how this approach allows models to perform better on tasks requiring spatial reasoning and geometric awareness.",
-            "Provides empirical evidence showing that incorporating dense visual information significantly enhances the performance of VLMs across various benchmarks."
+            "Introduces a concept-aware batch sampling method that selects training data based on relevance to the task at hand.",
+            "Challenges traditional static and bias-prone methods of data selection that don't adapt to changing needs.",
+            "Demonstrates that this new approach leads to improved performance in vision-language tasks."
           ],
-          "why_care": "Improving how machines understand and interpret visual information can have huge implications for fields like augmented reality, robotics, and even everyday applications like better image search algorithms or enhanced accessibility tools for the visually impaired.",
-          "accessibility": "Tech-Savvy",
-          "spicy_take": "If we want machines to truly understand our visual world, we need to stop treating images as mere labels and start teaching them to think visually\u2014this paper is a big step in that direction.",
-          "reading_time_minutes": 6
+          "why_care": "Improving how we train AI models has real-world implications, from enhancing how machines understand our images and texts to making digital assistants more effective and reducing the chances of biased outputs.",
+          "accessibility": "General Audience",
+          "spicy_take": "This research could be the turning point in how we approach training data for AI, pushing us closer to genuinely intelligent systems.",
+          "reading_time_minutes": 5
         }
       },
       {
-        "id": "2511.19417v1",
-        "title": "Be My Eyes: Extending Large Language Models to New Modalities Through Multi-Agent Collaboration",
+        "id": "2511.20641v1",
+        "title": "Unleashing the Power of Vision-Language Models for Long-Tailed Multi-Label Visual Recognition",
         "authors": [
-          "James Y. Huang",
-          "Sheng Zhang",
-          "Qianchu Liu",
-          "Guanghui Qin",
-          "Tinghui Zhu"
+          "Wei Tang",
+          "Zuo-Zheng Wang",
+          "Kun Zhang",
+          "Tong Wei",
+          "Min-Ling Zhang"
         ],
-        "abstract": "Large Language Models (LLMs) have demonstrated remarkable capabilities in challenging, knowledge-intensive reasoning tasks. However, extending LLMs to perceive and reason over a new modality (e.g., vision), often requires costly development of large-scale vision language models (VLMs) with LLMs as backbones. Smaller VLMs are more efficient and adaptable but often lack the broad knowledge and reasoning capabilities of frontier LLMs. In this work, we propose BeMyEyes, a modular, multi-agent framew...",
-        "published": "2025-11-24T18:55:16Z",
-        "updated": "2025-11-24T18:55:16Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.19417v1",
-        "abs_url": "https://arxiv.org/abs/2511.19417v1",
+        "abstract": "Long-tailed multi-label visual recognition poses a significant challenge, as images typically contain multiple labels with highly imbalanced class distributions, leading to biased models that favor head classes while underperforming on tail classes. Recent efforts have leveraged pre-trained vision-language models, such as CLIP, alongside long-tailed learning techniques to exploit rich visual-textual priors for improved performance. However, existing methods often derive semantic inter-class rela...",
+        "published": "2025-11-25T18:57:28Z",
+        "updated": "2025-11-25T18:57:28Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.20641v1",
+        "abs_url": "https://arxiv.org/abs/2511.20641v1",
+        "categories": [
+          "cs.CV",
+          "cs.LG"
+        ],
+        "primary_category": "cs.CV",
+        "analysis": {
+          "tldr": "This paper explores how to improve the accuracy of recognizing images that have multiple labels, especially when some labels are much less common than others. It combines advanced vision-language models with techniques designed for handling imbalanced data to help ensure all labels are treated fairly.",
+          "eli5": "Imagine you have a basket of fruit where most of the apples are red, but you also have a few green apples and oranges. If you only train a robot to recognize apples based on the red ones, it might ignore the green apples and oranges. This research finds a way to train the robot so it recognizes all kinds of fruit equally well, even the less common ones, by using clever models that understand both images and text.",
+          "key_contributions": [
+            "Introduces a new approach that effectively leverages vision-language models for better label recognition in images.",
+            "Demonstrates methods to balance the performance between common (head) and rare (tail) labels in visual datasets.",
+            "Provides insights on the semantic relationships between classes that can enhance model understanding and performance."
+          ],
+          "why_care": "This research can lead to better image recognition technologies that are less biased, which is important in many real-world applications such as search engines, accessibility tools, and content moderation, ensuring that even less common categories are recognized accurately.",
+          "accessibility": "Tech-Savvy",
+          "spicy_take": "If we want technology to be truly intelligent, we need to ensure it doesn't just learn from the loudest voices\u2014this paper gives us a path toward a more equitable AI.",
+          "reading_time_minutes": 5
+        }
+      },
+      {
+        "id": "2511.20640v1",
+        "title": "MotionV2V: Editing Motion in a Video",
+        "authors": [
+          "Ryan Burgert",
+          "Charles Herrmann",
+          "Forrester Cole",
+          "Michael S Ryoo",
+          "Neal Wadhwa"
+        ],
+        "abstract": "While generative video models have achieved remarkable fidelity and consistency, applying these capabilities to video editing remains a complex challenge. Recent research has explored motion controllability as a means to enhance text-to-video generation or image animation; however, we identify precise motion control as a promising yet under-explored paradigm for editing existing videos. In this work, we propose modifying video motion by directly editing sparse trajectories extracted from the inp...",
+        "published": "2025-11-25T18:57:25Z",
+        "updated": "2025-11-25T18:57:25Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.20640v1",
+        "abs_url": "https://arxiv.org/abs/2511.20640v1",
+        "categories": [
+          "cs.CV",
+          "cs.AI",
+          "cs.GR",
+          "cs.LG"
+        ],
+        "primary_category": "cs.CV",
+        "analysis": {
+          "tldr": "This paper presents a new method for editing the motion in videos by directly manipulating the paths of moving objects, making video editing more intuitive and precise.",
+          "eli5": "Imagine you have a video of a soccer game, but you want to change how a player moves\u2014like making them run faster or take a different path. This research shows a way to do just that by editing the invisible lines (trajectories) that show where the players go in the video, allowing for more creative edits without needing to start from scratch.",
+          "key_contributions": [
+            "Introduces a novel approach to editing motion in existing videos through trajectory manipulation.",
+            "Demonstrates the effectiveness of this method in enhancing the control over video content.",
+            "Provides insights into the potential of motion controllability in generative video models."
+          ],
+          "why_care": "This technology could revolutionize video editing for filmmakers, game developers, and anyone who creates video content, making complex edits easier and opening up new creative possibilities.",
+          "accessibility": "Tech-Savvy",
+          "spicy_take": "If this method catches on, it could make traditional video editing software feel as outdated as VHS tapes.",
+          "reading_time_minutes": 5
+        }
+      },
+      {
+        "id": "2511.20639v1",
+        "title": "Latent Collaboration in Multi-Agent Systems",
+        "authors": [
+          "Jiaru Zou",
+          "Xiyuan Yang",
+          "Ruizhong Qiu",
+          "Gaotang Li",
+          "Katherine Tieu"
+        ],
+        "abstract": "Multi-agent systems (MAS) extend large language models (LLMs) from independent single-model reasoning to coordinative system-level intelligence. While existing LLM agents depend on text-based mediation for reasoning and communication, we take a step forward by enabling models to collaborate directly within the continuous latent space. We introduce LatentMAS, an end-to-end training-free framework that enables pure latent collaboration among LLM agents. In LatentMAS, each agent first performs auto...",
+        "published": "2025-11-25T18:56:57Z",
+        "updated": "2025-11-25T18:56:57Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.20639v1",
+        "abs_url": "https://arxiv.org/abs/2511.20639v1",
         "categories": [
           "cs.CL",
           "cs.AI",
@@ -303,51 +165,179 @@
         ],
         "primary_category": "cs.CL",
         "analysis": {
-          "tldr": "This paper introduces BeMyEyes, an innovative system that enhances large language models by allowing them to collaborate with smaller models across different modalities, like vision and text. This approach aims to make it easier and cheaper to develop models that can understand and reason about images and text together.",
-          "eli5": "Imagine you have a super-smart friend who can read and write really well (that's the large language model), but they struggle to see pictures. Instead of making them learn how to see from scratch, you team them up with a buddy who\u2019s great at interpreting pictures (the smaller model). Together, they can create a better understanding of both words and images, making learning and problem-solving easier and less expensive.",
+          "tldr": "This paper introduces LatentMAS, a new framework that allows multiple language models to collaborate directly in a shared space, bypassing the need for text-based communication. It represents a significant shift in how we think about teamwork among AI agents.",
+          "eli5": "Imagine a group of really smart robots working together on a project, but instead of talking or texting each other, they can share ideas directly in their 'brain' space, making it faster and more efficient. This paper shows how they can do that without needing to be trained anew each time.",
           "key_contributions": [
-            "Introduction of BeMyEyes, a collaborative framework that allows large language models to extend their capabilities into new domains without expensive development.",
-            "Demonstration of how smaller, specialized models can work alongside large models to enhance understanding and reasoning across modalities.",
-            "A proof-of-concept showing the efficiency and adaptability of modular systems in AI, paving the way for more versatile AI applications."
+            "LatentMAS allows multi-agent systems to collaborate in a shared latent space, enhancing their ability to work together without relying on text-based communication.",
+            "It offers an end-to-end training-free approach, simplifying the deployment of collaborative AI agents.",
+            "The framework expands the capabilities of large language models by facilitating direct interaction, paving the way for more advanced AI systems."
           ],
-          "why_care": "This research has real-world implications for making AI more accessible and practical for everyday tasks, such as improving assistive technologies for the visually impaired or enhancing communication tools that rely on understanding both text and visuals. By lowering the barrier to developing advanced AI, it opens doors for innovations that can benefit everyone.",
-          "accessibility": "General Audience",
-          "spicy_take": "This approach might just be the future of AI collaboration\u2014forget the monolithic models; it's all about teamwork now!",
+          "why_care": "Understanding how AI models can collaborate more effectively could lead to smarter AI applications in various fields, from autonomous vehicles working in a team to virtual assistants that understand context better and help us more efficiently.",
+          "accessibility": "Tech-Savvy",
+          "spicy_take": "This work could redefine how we approach AI collaboration, suggesting that the future of intelligent systems might not involve language at all, but rather a more direct form of 'thought exchange'.",
           "reading_time_minutes": 5
         }
       },
       {
-        "id": "2511.19413v1",
-        "title": "UniGame: Turning a Unified Multimodal Model Into Its Own Adversary",
+        "id": "2511.20636v1",
+        "title": "Image2Gcode: Image-to-G-code Generation for Additive Manufacturing Using Diffusion-Transformer Model",
         "authors": [
-          "Zhaolong Su",
-          "Wang Lu",
-          "Hao Chen",
-          "Sharon Li",
-          "Jindong Wang"
+          "Ziyue Wang",
+          "Yayati Jadhav",
+          "Peter Pak",
+          "Amir Barati Farimani"
         ],
-        "abstract": "Unified Multimodal Models (UMMs) have shown impressive performance in both understanding and generation with a single architecture. However, UMMs still exhibit a fundamental inconsistency: understanding favors compact embeddings, whereas generation favors reconstruction-rich representations. This structural trade-off produces misaligned decision boundaries, degraded cross-modal coherence, and heightened vulnerability under distributional and adversarial shifts. In this paper, we present UniGame,...",
-        "published": "2025-11-24T18:50:01Z",
-        "updated": "2025-11-24T18:50:01Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.19413v1",
-        "abs_url": "https://arxiv.org/abs/2511.19413v1",
+        "abstract": "Mechanical design and manufacturing workflows conventionally begin with conceptual design, followed by the creation of a computer-aided design (CAD) model and fabrication through material-extrusion (MEX) printing. This process requires converting CAD geometry into machine-readable G-code through slicing and path planning. While each step is well established, dependence on CAD modeling remains a major bottleneck: constructing object-specific 3D geometry is slow and poorly suited to rapid prototyp...",
+        "published": "2025-11-25T18:55:12Z",
+        "updated": "2025-11-25T18:55:12Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.20636v1",
+        "abs_url": "https://arxiv.org/abs/2511.20636v1",
         "categories": [
-          "cs.LG",
-          "cs.AI",
-          "cs.CV"
+          "cs.LG"
         ],
         "primary_category": "cs.LG",
         "analysis": {
-          "tldr": "This paper introduces a new approach called UniGame that helps improve Unified Multimodal Models (UMMs) by addressing their inconsistencies between understanding and generating data. It aims to make these models more robust and effective in handling different types of data.",
-          "eli5": "Imagine you have a really smart robot that can look at pictures and write stories about them. Sometimes, it gets confused because it needs to understand the picture and tell a detailed story at the same time. This paper suggests a way to help the robot do both tasks better by making it compete with itself, which helps it learn to be more accurate and consistent in its responses.",
+          "tldr": "This paper introduces Image2Gcode, a novel method that turns images into G-code for 3D printing, bypassing the tedious step of designing complex CAD models. It utilizes a cutting-edge diffusion-transformer model to streamline the additive manufacturing process.",
+          "eli5": "Imagine you have a cool picture you want to turn into a 3D object, but usually, you\u2019d need a fancy computer model to do that. This paper shows a way to take that picture directly and convert it into instructions for a 3D printer, making the whole process way faster and easier.",
           "key_contributions": [
-            "Introduces the UniGame framework that allows UMMs to self-advocate for better performance by balancing understanding and generation.",
-            "Identifies and addresses the trade-offs in multimodal models that lead to misaligned decision-making.",
-            "Demonstrates improved robustness against shifts in data distribution and adversarial attacks through the proposed method."
+            "Introduction of Image2Gcode, which simplifies the conversion of 2D images to G-code for 3D printing.",
+            "Utilization of a diffusion-transformer model, which improves the quality and efficiency of the image-to-G-code process.",
+            "Reduction of reliance on traditional CAD modeling, allowing for faster prototyping and increased accessibility in additive manufacturing."
           ],
-          "why_care": "As we increasingly rely on AI for tasks like generating content, analyzing data, and making decisions, improving these models can lead to more reliable and effective applications in areas like healthcare, finance, and creative industries. More robust models mean fewer errors and better outcomes in real-world applications.",
+          "why_care": "This technology could revolutionize how we create 3D printed objects, making it easier for artists, designers, and hobbyists to bring their ideas to life without needing extensive design skills. It could also enhance rapid prototyping in industries, speeding up innovation and product development.",
+          "accessibility": "General Audience",
+          "spicy_take": "If this method gains traction, we might soon see an explosion of creativity in 3D printing, where anyone with an image can become a maker, potentially changing the landscape of design and manufacturing forever.",
+          "reading_time_minutes": 5
+        }
+      },
+      {
+        "id": "2511.20629v1",
+        "title": "MapReduce LoRA: Advancing the Pareto Front in Multi-Preference Optimization for Generative Models",
+        "authors": [
+          "Chieh-Yun Chen",
+          "Zhonghao Wang",
+          "Qi Chen",
+          "Zhifan Ye",
+          "Min Shi"
+        ],
+        "abstract": "Reinforcement learning from human feedback (RLHF) with reward models has advanced alignment of generative models to human aesthetic and perceptual preferences. However, jointly optimizing multiple rewards often incurs an alignment tax, improving one dimension while degrading others. To address this, we introduce two complementary methods: MapReduce LoRA and Reward-aware Token Embedding (RaTE). MapReduce LoRA trains preference-specific LoRA experts in parallel and iteratively merges them to refin...",
+        "published": "2025-11-25T18:49:21Z",
+        "updated": "2025-11-25T18:49:21Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.20629v1",
+        "abs_url": "https://arxiv.org/abs/2511.20629v1",
+        "categories": [
+          "cs.CV",
+          "cs.AI",
+          "cs.LG"
+        ],
+        "primary_category": "cs.CV",
+        "analysis": {
+          "tldr": "This paper presents new methods to improve how generative models are trained to align with human preferences, particularly when those preferences conflict. The methods aim to optimize multiple reward criteria simultaneously without sacrificing performance.",
+          "eli5": "Imagine you have a robot artist trying to create the perfect painting. It needs to balance colors, shapes, and emotions based on what people like. This paper introduces clever techniques that help the robot learn all these preferences better at the same time, instead of improving one aspect while messing up another.",
+          "key_contributions": [
+            "Introduction of MapReduce LoRA, which allows for training different preference models in parallel and combining them effectively.",
+            "Development of Reward-aware Token Embedding (RaTE) that helps models understand and prioritize various aesthetic preferences during training.",
+            "A framework that demonstrates how to maintain performance across multiple dimensions of human preference without the usual trade-offs."
+          ],
+          "why_care": "Generative models are increasingly used in creative industries, from art to content generation. Improving how these models align with human tastes can lead to better user experiences, more personalized content, and ultimately, innovations in how we interact with technology.",
           "accessibility": "Tech-Savvy",
-          "spicy_take": "If we want AI to truly understand and generate content like a human, we need more papers like this that encourage models to 'play against themselves' for better learning.",
+          "spicy_take": "If generative models can master multiple preferences simultaneously, we might be on the brink of AI that truly understands human creativity, changing everything from marketing to entertainment.",
+          "reading_time_minutes": 7
+        }
+      },
+      {
+        "id": "2511.20627v1",
+        "title": "Fighting AI with AI: Leveraging Foundation Models for Assuring AI-Enabled Safety-Critical Systems",
+        "authors": [
+          "Anastasia Mavridou",
+          "Divya Gopinath",
+          "Corina S. P\u0103s\u0103reanu"
+        ],
+        "abstract": "The integration of AI components, particularly Deep Neural Networks (DNNs), into safety-critical systems such as aerospace and autonomous vehicles presents fundamental challenges for assurance. The opacity of AI systems, combined with the semantic gap between high-level requirements and low-level network representations, creates barriers to traditional verification approaches. These AI-specific challenges are amplified by longstanding issues in Requirements Engineering, including ambiguity in na...",
+        "published": "2025-11-25T18:48:19Z",
+        "updated": "2025-11-25T18:48:19Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.20627v1",
+        "abs_url": "https://arxiv.org/abs/2511.20627v1",
+        "categories": [
+          "cs.AI"
+        ],
+        "primary_category": "cs.AI",
+        "analysis": {
+          "tldr": "This paper explores how we can use advanced AI, specifically foundation models, to ensure the reliability and safety of AI systems used in critical areas like aerospace and self-driving cars. It highlights the challenges posed by the complexity and unpredictability of AI, especially when trying to meet safety standards.",
+          "eli5": "Imagine trying to make sure that a super-smart robot is safe to use in things like airplanes or self-driving cars. This paper talks about how we can use another type of smart AI to help check that the first one is doing its job right. It\u2019s tricky because the way these smart AIs think is really complicated, and we need to make sure they don\u2019t make mistakes.",
+          "key_contributions": [
+            "Introduces the use of foundation models to address safety verification challenges in AI systems.",
+            "Highlights the limitations of traditional verification methods when applied to AI components.",
+            "Discusses the integration of requirements engineering with AI assurance to bridge the gap between high-level goals and low-level implementations."
+          ],
+          "why_care": "As AI becomes more prevalent in critical systems that affect our safety\u2014like cars and medical devices\u2014ensuring these systems work correctly is essential. If we don't develop reliable methods to verify their safety, it could lead to disastrous consequences, impacting lives and trust in technology.",
+          "accessibility": "Tech-Savvy",
+          "spicy_take": "Relying solely on traditional verification methods for AI systems is like using a flip phone to navigate the complexities of modern smartphones; we need to adapt our tools to keep pace with AI advancements.",
+          "reading_time_minutes": 5
+        }
+      },
+      {
+        "id": "2511.20626v1",
+        "title": "ROOT: Robust Orthogonalized Optimizer for Neural Network Training",
+        "authors": [
+          "Wei He",
+          "Kai Han",
+          "Hang Zhou",
+          "Hanting Chen",
+          "Zhicheng Liu"
+        ],
+        "abstract": "The optimization of large language models (LLMs) remains a critical challenge, particularly as model scaling exacerbates sensitivity to algorithmic imprecision and training instability. Recent advances in optimizers have improved convergence efficiency through momentum orthogonalization, but suffer from two key robustness limitations: dimensional fragility in orthogonalization precision and vulnerability to outlier-induced noise. To address these robustness challenges, we introduce ROOT, a Robus...",
+        "published": "2025-11-25T18:48:05Z",
+        "updated": "2025-11-25T18:48:05Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.20626v1",
+        "abs_url": "https://arxiv.org/abs/2511.20626v1",
+        "categories": [
+          "cs.LG",
+          "cs.AI"
+        ],
+        "primary_category": "cs.LG",
+        "analysis": {
+          "tldr": "This paper introduces ROOT, a new optimizer designed to train large language models more effectively by overcoming issues related to precision and noise sensitivity in existing methods.",
+          "eli5": "Imagine trying to teach a robot how to write a book, but every time it gets distracted by random weird ideas or makes tiny mistakes that throw it off track. ROOT is like giving the robot a better guide that helps it stay focused and learn more efficiently, even when things get tricky.",
+          "key_contributions": [
+            "ROOT addresses the fragility of current optimization methods by improving the precision of orthogonalization, making it more robust in various training scenarios.",
+            "It enhances resistance to outliers and noise, ensuring that unexpected data points don't derail the training process.",
+            "The proposed optimizer demonstrates improved convergence speeds, making it possible to train larger models more effectively."
+          ],
+          "why_care": "As machine learning models continue to grow in size and complexity, a more efficient and stable training process can lead to better AI tools in everyday life, impacting everything from customer service chatbots to advanced language translation.",
+          "accessibility": "Tech-Savvy",
+          "spicy_take": "This could be a game-changer in making large language models more accessible to smaller companies that can't afford extensive computational resources.",
+          "reading_time_minutes": 6
+        }
+      },
+      {
+        "id": "2511.20623v1",
+        "title": "Copyright Detection in Large Language Models: An Ethical Approach to Generative AI Development",
+        "authors": [
+          "David Szczecina",
+          "Senan Gaffori",
+          "Edmond Li"
+        ],
+        "abstract": "The widespread use of Large Language Models (LLMs) raises critical concerns regarding the unauthorized inclusion of copyrighted content in training data. Existing detection frameworks, such as DE-COP, are computationally intensive, and largely inaccessible to independent creators. As legal scrutiny increases, there is a pressing need for a scalable, transparent, and user-friendly solution. This paper introduce an open-source copyright detection platform that enables content creators to verify wh...",
+        "published": "2025-11-25T18:46:14Z",
+        "updated": "2025-11-25T18:46:14Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.20623v1",
+        "abs_url": "https://arxiv.org/abs/2511.20623v1",
+        "categories": [
+          "cs.AI"
+        ],
+        "primary_category": "cs.AI",
+        "analysis": {
+          "tldr": "This paper addresses the issue of copyright infringement in Large Language Models (LLMs) by introducing a new open-source platform for detecting unauthorized use of copyrighted content. It aims to make copyright verification accessible for all content creators, not just large corporations.",
+          "eli5": "Imagine if you created a really cool drawing, but then someone took it and used it without asking. This paper talks about how computers that write things, like chatbots, can accidentally use other people's work without permission. The authors created a tool that helps people check if their work has been used without consent.",
+          "key_contributions": [
+            "The authors developed an open-source copyright detection platform that is more accessible to independent creators.",
+            "They highlighted the limitations of existing detection frameworks, which are often too complex and costly for smaller creators.",
+            "The paper discusses the ethical implications of using copyrighted material in LLM training, pushing for transparency and fairness."
+          ],
+          "why_care": "As generative AI becomes more widespread, it's crucial for content creators to protect their work. This paper provides tools and insights that can help prevent copyright violations, fostering a fairer environment for everyone involved in creative industries.",
+          "accessibility": "General Audience",
+          "spicy_take": "Without proper copyright detection tools, we risk creating a Wild West of creative theft, where only the tech giants benefit from the hard work of individual creators.",
           "reading_time_minutes": 5
         }
       }
@@ -355,11 +345,11 @@
     "summary": {
       "total_analyzed": 10,
       "by_accessibility": {
-        "General Audience": 2,
-        "Tech-Savvy": 8,
+        "General Audience": 4,
+        "Tech-Savvy": 6,
         "Researchers Only": 0
       },
-      "avg_reading_time": 5.2
+      "avg_reading_time": 5.3
     }
   },
   "metadata": {
@@ -368,19 +358,19 @@
     "style": "blog-accessible"
   },
   "costs": {
-    "execution_time": 106.9352490901947,
-    "execution_minutes": 1.782254151503245,
-    "github_actions": 0.01425803321202596,
+    "execution_time": 72.10542035102844,
+    "execution_minutes": 1.201757005850474,
+    "github_actions": 0.009614056046803793,
     "openai": {
-      "input": 0.0005036999999999999,
-      "output": 0.0019056,
-      "total": 0.0024092999999999996
+      "input": 0.00049695,
+      "output": 0.0018078,
+      "total": 0.00230475
     },
-    "total": 0.01666733321202596,
+    "total": 0.011918806046803792,
     "token_usage": {
-      "prompt_tokens": 3358,
-      "completion_tokens": 3176,
-      "total_tokens": 6534
+      "prompt_tokens": 3313,
+      "completion_tokens": 3013,
+      "total_tokens": 6326
     }
   }
 }
