@@ -1,341 +1,37 @@
 {
   "agent": "agent-a-paper-fetcher",
-  "timestamp": "2025-11-26T09:04:05.481402",
+  "timestamp": "2025-11-27T09:03:33.596795",
   "status": "completed",
   "data": {
-    "papers": [
-      {
-        "id": "2511.20650v1",
-        "title": "MedROV: Towards Real-Time Open-Vocabulary Detection Across Diverse Medical Imaging Modalities",
-        "authors": [
-          "Tooba Tehreem Sheikh",
-          "Jean Lahoud",
-          "Rao Muhammad Anwer",
-          "Fahad Shahbaz Khan",
-          "Salman Khan"
-        ],
-        "abstract": "Traditional object detection models in medical imaging operate within a closed-set paradigm, limiting their ability to detect objects of novel labels. Open-vocabulary object detection (OVOD) addresses this limitation but remains underexplored in medical imaging due to dataset scarcity and weak text-image alignment. To bridge this gap, we introduce MedROV, the first Real-time Open Vocabulary detection model for medical imaging. To enable open-vocabulary learning, we curate a large-scale dataset, ...",
-        "published": "2025-11-25T18:59:53Z",
-        "updated": "2025-11-25T18:59:53Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.20650v1",
-        "abs_url": "https://arxiv.org/abs/2511.20650v1",
-        "categories": [
-          "cs.CV",
-          "cs.AI"
-        ],
-        "primary_category": "cs.CV"
-      },
-      {
-        "id": "2511.20643v1",
-        "title": "Concept-Aware Batch Sampling Improves Language-Image Pretraining",
-        "authors": [
-          "Adhiraj Ghosh",
-          "Vishaal Udandarao",
-          "Thao Nguyen",
-          "Matteo Farina",
-          "Mehdi Cherti"
-        ],
-        "abstract": "What data should a vision-language model be trained on? To answer this question, many data curation efforts center on the quality of a dataset. However, most of these existing methods are (i) offline, i.e. they produce a static dataset from a set of predetermined filtering criteria, and (ii) concept-agnostic, i.e. they use model-based filters which induce additional data biases. In this work, we go beyond such offline, concept-agnostic methods and advocate for more flexible, task-adaptive online...",
-        "published": "2025-11-25T18:58:07Z",
-        "updated": "2025-11-25T18:58:07Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.20643v1",
-        "abs_url": "https://arxiv.org/abs/2511.20643v1",
-        "categories": [
-          "cs.CV",
-          "cs.LG"
-        ],
-        "primary_category": "cs.CV"
-      },
-      {
-        "id": "2511.20641v1",
-        "title": "Unleashing the Power of Vision-Language Models for Long-Tailed Multi-Label Visual Recognition",
-        "authors": [
-          "Wei Tang",
-          "Zuo-Zheng Wang",
-          "Kun Zhang",
-          "Tong Wei",
-          "Min-Ling Zhang"
-        ],
-        "abstract": "Long-tailed multi-label visual recognition poses a significant challenge, as images typically contain multiple labels with highly imbalanced class distributions, leading to biased models that favor head classes while underperforming on tail classes. Recent efforts have leveraged pre-trained vision-language models, such as CLIP, alongside long-tailed learning techniques to exploit rich visual-textual priors for improved performance. However, existing methods often derive semantic inter-class rela...",
-        "published": "2025-11-25T18:57:28Z",
-        "updated": "2025-11-25T18:57:28Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.20641v1",
-        "abs_url": "https://arxiv.org/abs/2511.20641v1",
-        "categories": [
-          "cs.CV",
-          "cs.LG"
-        ],
-        "primary_category": "cs.CV"
-      },
-      {
-        "id": "2511.20640v1",
-        "title": "MotionV2V: Editing Motion in a Video",
-        "authors": [
-          "Ryan Burgert",
-          "Charles Herrmann",
-          "Forrester Cole",
-          "Michael S Ryoo",
-          "Neal Wadhwa"
-        ],
-        "abstract": "While generative video models have achieved remarkable fidelity and consistency, applying these capabilities to video editing remains a complex challenge. Recent research has explored motion controllability as a means to enhance text-to-video generation or image animation; however, we identify precise motion control as a promising yet under-explored paradigm for editing existing videos. In this work, we propose modifying video motion by directly editing sparse trajectories extracted from the inp...",
-        "published": "2025-11-25T18:57:25Z",
-        "updated": "2025-11-25T18:57:25Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.20640v1",
-        "abs_url": "https://arxiv.org/abs/2511.20640v1",
-        "categories": [
-          "cs.CV",
-          "cs.AI",
-          "cs.GR",
-          "cs.LG"
-        ],
-        "primary_category": "cs.CV"
-      },
-      {
-        "id": "2511.20639v1",
-        "title": "Latent Collaboration in Multi-Agent Systems",
-        "authors": [
-          "Jiaru Zou",
-          "Xiyuan Yang",
-          "Ruizhong Qiu",
-          "Gaotang Li",
-          "Katherine Tieu"
-        ],
-        "abstract": "Multi-agent systems (MAS) extend large language models (LLMs) from independent single-model reasoning to coordinative system-level intelligence. While existing LLM agents depend on text-based mediation for reasoning and communication, we take a step forward by enabling models to collaborate directly within the continuous latent space. We introduce LatentMAS, an end-to-end training-free framework that enables pure latent collaboration among LLM agents. In LatentMAS, each agent first performs auto...",
-        "published": "2025-11-25T18:56:57Z",
-        "updated": "2025-11-25T18:56:57Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.20639v1",
-        "abs_url": "https://arxiv.org/abs/2511.20639v1",
-        "categories": [
-          "cs.CL",
-          "cs.AI",
-          "cs.LG"
-        ],
-        "primary_category": "cs.CL"
-      },
-      {
-        "id": "2511.20636v1",
-        "title": "Image2Gcode: Image-to-G-code Generation for Additive Manufacturing Using Diffusion-Transformer Model",
-        "authors": [
-          "Ziyue Wang",
-          "Yayati Jadhav",
-          "Peter Pak",
-          "Amir Barati Farimani"
-        ],
-        "abstract": "Mechanical design and manufacturing workflows conventionally begin with conceptual design, followed by the creation of a computer-aided design (CAD) model and fabrication through material-extrusion (MEX) printing. This process requires converting CAD geometry into machine-readable G-code through slicing and path planning. While each step is well established, dependence on CAD modeling remains a major bottleneck: constructing object-specific 3D geometry is slow and poorly suited to rapid prototyp...",
-        "published": "2025-11-25T18:55:12Z",
-        "updated": "2025-11-25T18:55:12Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.20636v1",
-        "abs_url": "https://arxiv.org/abs/2511.20636v1",
-        "categories": [
-          "cs.LG"
-        ],
-        "primary_category": "cs.LG"
-      },
-      {
-        "id": "2511.20629v1",
-        "title": "MapReduce LoRA: Advancing the Pareto Front in Multi-Preference Optimization for Generative Models",
-        "authors": [
-          "Chieh-Yun Chen",
-          "Zhonghao Wang",
-          "Qi Chen",
-          "Zhifan Ye",
-          "Min Shi"
-        ],
-        "abstract": "Reinforcement learning from human feedback (RLHF) with reward models has advanced alignment of generative models to human aesthetic and perceptual preferences. However, jointly optimizing multiple rewards often incurs an alignment tax, improving one dimension while degrading others. To address this, we introduce two complementary methods: MapReduce LoRA and Reward-aware Token Embedding (RaTE). MapReduce LoRA trains preference-specific LoRA experts in parallel and iteratively merges them to refin...",
-        "published": "2025-11-25T18:49:21Z",
-        "updated": "2025-11-25T18:49:21Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.20629v1",
-        "abs_url": "https://arxiv.org/abs/2511.20629v1",
-        "categories": [
-          "cs.CV",
-          "cs.AI",
-          "cs.LG"
-        ],
-        "primary_category": "cs.CV"
-      },
-      {
-        "id": "2511.20627v1",
-        "title": "Fighting AI with AI: Leveraging Foundation Models for Assuring AI-Enabled Safety-Critical Systems",
-        "authors": [
-          "Anastasia Mavridou",
-          "Divya Gopinath",
-          "Corina S. P\u0103s\u0103reanu"
-        ],
-        "abstract": "The integration of AI components, particularly Deep Neural Networks (DNNs), into safety-critical systems such as aerospace and autonomous vehicles presents fundamental challenges for assurance. The opacity of AI systems, combined with the semantic gap between high-level requirements and low-level network representations, creates barriers to traditional verification approaches. These AI-specific challenges are amplified by longstanding issues in Requirements Engineering, including ambiguity in na...",
-        "published": "2025-11-25T18:48:19Z",
-        "updated": "2025-11-25T18:48:19Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.20627v1",
-        "abs_url": "https://arxiv.org/abs/2511.20627v1",
-        "categories": [
-          "cs.AI"
-        ],
-        "primary_category": "cs.AI"
-      },
-      {
-        "id": "2511.20626v1",
-        "title": "ROOT: Robust Orthogonalized Optimizer for Neural Network Training",
-        "authors": [
-          "Wei He",
-          "Kai Han",
-          "Hang Zhou",
-          "Hanting Chen",
-          "Zhicheng Liu"
-        ],
-        "abstract": "The optimization of large language models (LLMs) remains a critical challenge, particularly as model scaling exacerbates sensitivity to algorithmic imprecision and training instability. Recent advances in optimizers have improved convergence efficiency through momentum orthogonalization, but suffer from two key robustness limitations: dimensional fragility in orthogonalization precision and vulnerability to outlier-induced noise. To address these robustness challenges, we introduce ROOT, a Robus...",
-        "published": "2025-11-25T18:48:05Z",
-        "updated": "2025-11-25T18:48:05Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.20626v1",
-        "abs_url": "https://arxiv.org/abs/2511.20626v1",
-        "categories": [
-          "cs.LG",
-          "cs.AI"
-        ],
-        "primary_category": "cs.LG"
-      },
-      {
-        "id": "2511.20623v1",
-        "title": "Copyright Detection in Large Language Models: An Ethical Approach to Generative AI Development",
-        "authors": [
-          "David Szczecina",
-          "Senan Gaffori",
-          "Edmond Li"
-        ],
-        "abstract": "The widespread use of Large Language Models (LLMs) raises critical concerns regarding the unauthorized inclusion of copyrighted content in training data. Existing detection frameworks, such as DE-COP, are computationally intensive, and largely inaccessible to independent creators. As legal scrutiny increases, there is a pressing need for a scalable, transparent, and user-friendly solution. This paper introduce an open-source copyright detection platform that enables content creators to verify wh...",
-        "published": "2025-11-25T18:46:14Z",
-        "updated": "2025-11-25T18:46:14Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.20623v1",
-        "abs_url": "https://arxiv.org/abs/2511.20623v1",
-        "categories": [
-          "cs.AI"
-        ],
-        "primary_category": "cs.AI"
-      },
-      {
-        "id": "2511.20621v1",
-        "title": "DiFR: Inference Verification Despite Nondeterminism",
-        "authors": [
-          "Adam Karvonen",
-          "Daniel Reuter",
-          "Roy Rinberg",
-          "Luke Marks",
-          "Adri\u00e0 Garriga-Alonso"
-        ],
-        "abstract": "As demand for LLM inference grows, it is becoming increasingly important that providers and their customers can verify that inference processes are performed correctly, without errors or tampering. However, re-running the same inference process twice often leads to different results due to benign numerical noise, making it difficult to distinguish legitimate variation from actual problems. To address this problem, we introduce Token-DiFR (Token-Divergence-From-Reference), a method for verifying ...",
-        "published": "2025-11-25T18:44:22Z",
-        "updated": "2025-11-25T18:44:22Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.20621v1",
-        "abs_url": "https://arxiv.org/abs/2511.20621v1",
-        "categories": [
-          "cs.LG",
-          "cs.AI"
-        ],
-        "primary_category": "cs.LG"
-      },
-      {
-        "id": "2511.20615v1",
-        "title": "Evaluating the Performance of Deep Learning Models in Whole-body Dynamic 3D Posture Prediction During Load-reaching Activities",
-        "authors": [
-          "Seyede Niloofar Hosseini",
-          "Ali Mojibi",
-          "Mahdi Mohseni",
-          "Navid Arjmand",
-          "Alireza Taheri"
-        ],
-        "abstract": "This study aimed to explore the application of deep neural networks for whole-body human posture prediction during dynamic load-reaching activities. Two time-series models were trained using bidirectional long short-term memory (BLSTM) and transformer architectures. The dataset consisted of 3D full-body plug-in gait dynamic coordinates from 20 normal-weight healthy male individuals each performing 204 load-reaching tasks from different load positions while adapting various lifting and handling t...",
-        "published": "2025-11-25T18:40:48Z",
-        "updated": "2025-11-25T18:40:48Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.20615v1",
-        "abs_url": "https://arxiv.org/abs/2511.20615v1",
-        "categories": [
-          "cs.CV",
-          "cs.AI"
-        ],
-        "primary_category": "cs.CV"
-      },
-      {
-        "id": "2511.20613v1",
-        "title": "Can Vibe Coding Beat Graduate CS Students? An LLM vs. Human Coding Tournament on Market-driven Strategic Planning",
-        "authors": [
-          "Panayiotis Danassis",
-          "Naman Goel"
-        ],
-        "abstract": "The rapid proliferation of Large Language Models (LLMs) has revolutionized AI-assisted code generation. This rapid development of LLMs has outpaced our ability to properly benchmark them. Prevailing benchmarks emphasize unit-test pass rates and syntactic correctness. Such metrics understate the difficulty of many real-world problems that require planning, optimization, and strategic interaction. We introduce a multi-agent reasoning-driven benchmark based on a real-world logistics optimization pr...",
-        "published": "2025-11-25T18:40:22Z",
-        "updated": "2025-11-25T18:40:22Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.20613v1",
-        "abs_url": "https://arxiv.org/abs/2511.20613v1",
-        "categories": [
-          "cs.LG",
-          "cs.AI",
-          "cs.MA"
-        ],
-        "primary_category": "cs.LG"
-      },
-      {
-        "id": "2511.20612v1",
-        "title": "Sparse-to-Field Reconstruction via Stochastic Neural Dynamic Mode Decomposition",
-        "authors": [
-          "Yujin Kim",
-          "Sarah Dean"
-        ],
-        "abstract": "Many consequential real-world systems, like wind fields and ocean currents, are dynamic and hard to model. Learning their governing dynamics remains a central challenge in scientific machine learning. Dynamic Mode Decomposition (DMD) provides a simple, data-driven approximation, but practical use is limited by sparse/noisy observations from continuous fields, reliance on linear approximations, and the lack of principled uncertainty quantification. To address these issues, we introduce Stochastic...",
-        "published": "2025-11-25T18:39:50Z",
-        "updated": "2025-11-25T18:39:50Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.20612v1",
-        "abs_url": "https://arxiv.org/abs/2511.20612v1",
-        "categories": [
-          "cs.LG",
-          "eess.SY"
-        ],
-        "primary_category": "cs.LG"
-      },
-      {
-        "id": "2511.20610v1",
-        "title": "Building a Foundation Model for Trajectory from Scratch",
-        "authors": [
-          "Gaspard Merten",
-          "Mahmoud Sakr",
-          "Gilles Dejaegere"
-        ],
-        "abstract": "Foundation models are transformative in artificial intelligence, but building them from scratch, especially for mobility trajectories, is not yet clear or documented. This tutorial bridges this gap by demonstrating the steps and code of a minimal implementation of a trajectory-focused foundation model starting from GPT-2. Through a concise, step-by-step, code-driven process, we demonstrate adapting GPT-2 for spatiotemporal data. We then review and compare representative trajectory foundation mod...",
-        "published": "2025-11-25T18:37:55Z",
-        "updated": "2025-11-25T18:37:55Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.20610v1",
-        "abs_url": "https://arxiv.org/abs/2511.20610v1",
-        "categories": [
-          "cs.AI"
-        ],
-        "primary_category": "cs.AI"
-      }
-    ],
-    "count": 15,
+    "papers": [],
+    "count": 0,
     "categories": [
       "cs.AI",
       "cs.LG",
       "cs.CL"
     ],
-    "fetch_date": "2025-11-26"
+    "fetch_date": "2025-11-27"
   },
   "metadata": {
     "source": "arXiv API",
     "query": "cat:cs.AI OR cat:cs.LG OR cat:cs.CL",
     "deduplication": {
-      "total_fetched": 15,
-      "new_papers": 15,
+      "total_fetched": 0,
+      "new_papers": 0,
       "duplicates_filtered": 0,
-      "last_fetch": "2025-11-25T09:04:23.290444"
+      "last_fetch": "2025-11-26T09:04:05.481402"
     }
   },
   "costs": {
-    "execution_time": 21.544126987457275,
-    "execution_minutes": 0.3590687831242879,
-    "github_actions": 0.0028725502649943036,
+    "execution_time": 0.3772718906402588,
+    "execution_minutes": 0.006287864844004313,
+    "github_actions": 5.030291875203451e-05,
     "openai": {
       "input": 0,
       "output": 0,
       "total": 0
     },
-    "total": 0.0028725502649943036,
+    "total": 5.030291875203451e-05,
     "token_usage": {}
   }
 }
