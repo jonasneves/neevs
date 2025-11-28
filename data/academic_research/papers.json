@@ -1,6 +1,6 @@
 {
   "agent": "agent-a-paper-fetcher",
-  "timestamp": "2025-11-27T09:03:33.596795",
+  "timestamp": "2025-11-28T09:04:27.960536",
   "status": "completed",
   "data": {
     "papers": [],
@@ -10,7 +10,7 @@
       "cs.LG",
       "cs.CL"
     ],
-    "fetch_date": "2025-11-27"
+    "fetch_date": "2025-11-28"
   },
   "metadata": {
     "source": "arXiv API",
@@ -19,19 +19,19 @@
       "total_fetched": 0,
       "new_papers": 0,
       "duplicates_filtered": 0,
-      "last_fetch": "2025-11-26T09:04:05.481402"
+      "last_fetch": "2025-11-27T09:03:33.596795"
     }
   },
   "costs": {
-    "execution_time": 0.3772718906402588,
-    "execution_minutes": 0.006287864844004313,
-    "github_actions": 5.030291875203451e-05,
+    "execution_time": 46.254018783569336,
+    "execution_minutes": 0.7709003130594889,
+    "github_actions": 0.006167202504475912,
     "openai": {
       "input": 0,
       "output": 0,
       "total": 0
     },
-    "total": 5.030291875203451e-05,
+    "total": 0.006167202504475912,
     "token_usage": {}
   }
 }
