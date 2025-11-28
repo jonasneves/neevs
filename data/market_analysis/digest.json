@@ -1,23 +1,23 @@
 {
   "agent": "agent-c-digest-writer",
-  "timestamp": "2025-11-28T09:08:21.658485",
+  "timestamp": "2025-11-28T21:06:40.817200",
   "status": "completed",
   "data": {
     "digest": {
       "title": "Market Analysis Digest",
       "subtitle": "Market Update \u2022 November 28, 2025",
-      "generated_at": "2025-11-28T09:08:21.658396",
+      "generated_at": "2025-11-28T21:06:40.817124",
       "summary": {
         "headline": "Daily Market Snapshot",
-        "content": "**Market Headline:**  \n\"Crypto and Stock Markets Surge Amid Optimism, Led by Bitcoin and Tech Giants\"\n\n**Executive Summary:**  \nThe cryptocurrency market is experiencing a bullish trend, with Bitcoin and Ethereum posting impressive weekly gains of 9.51% and 11.90%, respectively, while XRP's 16.76% rise highlights renewed investor interest. Concurrently, the stock market is buoyed by strong performances across all major indices, particularly in the technology sector, as companies like NVDA capitalize on robust demand for AI and semiconductors. Positive economic indicators support this momentum, although caution is warranted as profit-taking in high-flying stocks could introduce volatility.\n\n**Key Opportunity to Watch:**  \nMonitor the potential for increased capital inflow into altcoins, especially those with solid fundamentals, should Bitcoin maintain support above $90,000.\n\n**Key Risk to Monitor:**  \nBe alert for potential profit-taking in the tech sector, particularly with high-flying stocks like NVDA and TSLA, which could lead to increased market volatility.",
+        "content": "**Market Headline:** \"Crypto and Stocks Surge as Investor Sentiment Turns Bullish Amid Economic Resilience\"\n\n**Executive Summary:** The cryptocurrency market is experiencing a bullish trend, led by significant gains in Bitcoin and Ethereum, driven by increased interest in decentralized finance and strong ecosystem developments. Meanwhile, the stock market also reflects positive sentiment, particularly in technology sectors, bolstered by robust corporate earnings despite some profit-taking in individual stocks. As economic indicators suggest consumer resilience, prospects for continued growth remain strong.\n\n**Key Opportunity to Watch:** Monitor Bitcoin's ability to sustain its position above $90,000, as this could catalyze further investment and trading activity across the cryptocurrency market.\n\n**Key Risk to Monitor:** Keep an eye on potential volatility in the stock market as investors adjust positions ahead of key economic data releases, which could impact market sentiment and performance.",
         "stats": {
-          "total_crypto_market_cap": "$2.87T",
-          "crypto_24h_avg_change": "+0.41%",
+          "total_crypto_market_cap": "$2.86T",
+          "crypto_24h_avg_change": "-0.54%",
           "indices_avg_change": "+1.03%",
           "market_sentiment": {
-            "label": "Bullish",
-            "emoji": "\ud83d\udcc8",
-            "color": "lightgreen"
+            "label": "Neutral",
+            "emoji": "\u27a1\ufe0f",
+            "color": "gray"
           }
         }
       },
@@ -27,29 +27,29 @@
           {
             "symbol": "BTC",
             "name": "Bitcoin",
-            "price": 91544,
-            "price_formatted": "$91,544.00",
-            "market_cap": 1827200891228,
-            "market_cap_formatted": "$1.83T",
-            "change_24h": 0.04817,
-            "change_24h_formatted": "+0.05%",
-            "change_7d": 9.514546859816482,
-            "change_7d_formatted": "+9.51%",
+            "price": 91207,
+            "price_formatted": "$91,207.00",
+            "market_cap": 1820186351988,
+            "market_cap_formatted": "$1.82T",
+            "change_24h": -0.17348,
+            "change_24h_formatted": "-0.17%",
+            "change_7d": 8.005453373778558,
+            "change_7d_formatted": "+8.01%",
             "rank": 1,
             "image": "https://coin-images.coingecko.com/coins/images/1/large/bitcoin.png?1696501400",
-            "is_gaining": true
+            "is_gaining": false
           },
           {
             "symbol": "ETH",
             "name": "Ethereum",
-            "price": 3060.48,
-            "price_formatted": "$3,060.48",
-            "market_cap": 369097231668,
-            "market_cap_formatted": "$369.10B",
-            "change_24h": 1.12157,
-            "change_24h_formatted": "+1.12%",
-            "change_7d": 11.903455707249718,
-            "change_7d_formatted": "+11.90%",
+            "price": 3057.83,
+            "price_formatted": "$3,057.83",
+            "market_cap": 369063963637,
+            "market_cap_formatted": "$369.06B",
+            "change_24h": 0.68433,
+            "change_24h_formatted": "+0.68%",
+            "change_7d": 11.522336986945046,
+            "change_7d_formatted": "+11.52%",
             "rank": 2,
             "image": "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628",
             "is_gaining": true
@@ -57,82 +57,82 @@
           {
             "symbol": "USDT",
             "name": "Tether",
-            "price": 0.999946,
-            "price_formatted": "$0.9999",
-            "market_cap": 184566523734,
-            "market_cap_formatted": "$184.57B",
-            "change_24h": -0.00349,
-            "change_24h_formatted": "-0.00%",
-            "change_7d": 0.09200816787035919,
-            "change_7d_formatted": "+0.09%",
+            "price": 1.0,
+            "price_formatted": "$1.00",
+            "market_cap": 184626195934,
+            "market_cap_formatted": "$184.63B",
+            "change_24h": 0.03445,
+            "change_24h_formatted": "+0.03%",
+            "change_7d": 0.1036081901832777,
+            "change_7d_formatted": "+0.10%",
             "rank": 3,
             "image": "https://coin-images.coingecko.com/coins/images/325/large/Tether.png?1696501661",
-            "is_gaining": false
+            "is_gaining": true
           },
           {
             "symbol": "XRP",
             "name": "XRP",
-            "price": 2.24,
-            "price_formatted": "$2.24",
-            "market_cap": 135039382284,
-            "market_cap_formatted": "$135.04B",
-            "change_24h": 1.78738,
-            "change_24h_formatted": "+1.79%",
-            "change_7d": 16.75502026578638,
-            "change_7d_formatted": "+16.76%",
+            "price": 2.19,
+            "price_formatted": "$2.19",
+            "market_cap": 132119376346,
+            "market_cap_formatted": "$132.12B",
+            "change_24h": -1.46474,
+            "change_24h_formatted": "-1.46%",
+            "change_7d": 12.658305631218662,
+            "change_7d_formatted": "+12.66%",
             "rank": 4,
             "image": "https://coin-images.coingecko.com/coins/images/44/large/xrp-symbol-white-128.png?1696501442",
-            "is_gaining": true
+            "is_gaining": false
           },
           {
             "symbol": "BNB",
             "name": "BNB",
-            "price": 891.76,
-            "price_formatted": "$891.76",
-            "market_cap": 122780625063,
-            "market_cap_formatted": "$122.78B",
-            "change_24h": -0.15694,
-            "change_24h_formatted": "-0.16%",
-            "change_7d": 7.597133245696114,
-            "change_7d_formatted": "+7.60%",
+            "price": 890.0,
+            "price_formatted": "$890.00",
+            "market_cap": 122587912485,
+            "market_cap_formatted": "$122.59B",
+            "change_24h": -0.671,
+            "change_24h_formatted": "-0.67%",
+            "change_7d": 8.031513600840318,
+            "change_7d_formatted": "+8.03%",
             "rank": 5,
             "image": "https://coin-images.coingecko.com/coins/images/825/large/bnb-icon2_2x.png?1696501970",
             "is_gaining": false
           }
         ],
-        "analysis": "The overall market sentiment appears to be bullish, as indicated by the positive weekly gains across major cryptocurrencies, particularly Bitcoin (BTC) and Ethereum (ETH), which have seen increases of 9.51% and 11.90%, respectively. Notable trends include XRP's significant weekly rise of 16.76%, suggesting strong investor interest possibly driven by recent regulatory developments or partnerships that have renewed confidence in its utility. Bitcoin remains stable with minimal 24-hour movement, indicating consolidation at these high levels, while Ethereum is benefiting from broader market optimism and ongoing developments in the DeFi sector. Looking ahead, if the upward momentum continues and Bitcoin maintains support above $90,000, we could see further capital inflow into altcoins, especially those with strong fundamentals.",
+        "analysis": "The overall market sentiment remains bullish as indicated by the positive weekly performance across major cryptocurrencies, with Bitcoin (BTC) and Ethereum (ETH) both showing substantial gains of 8.01% and 11.52% over the past week, respectively. Notably, Ethereum's recent uptrend may be attributed to growing interest in decentralized finance (DeFi) and ongoing developments in its ecosystem, while XRP's slight downturn despite a strong weekly increase suggests profit-taking after recent gains. Additionally, Tether (USDT) maintains stability, reflecting a cautious approach among investors amidst volatility in other assets. Looking ahead, the market appears poised for further growth, particularly if Bitcoin can maintain its position above $90,000, which may encourage additional investment and trading activity.",
         "top_performers": [
           {
-            "symbol": "XRP",
-            "name": "XRP",
-            "change_24h": 1.78738
-          },
-          {
-            "symbol": "TRX",
-            "name": "TRON",
-            "change_24h": 1.38803
+            "symbol": "STETH",
+            "name": "Lido Staked Ether",
+            "change_24h": 0.83143
           },
           {
             "symbol": "ETH",
             "name": "Ethereum",
-            "change_24h": 1.12157
+            "change_24h": 0.68433
+          },
+          {
+            "symbol": "TRX",
+            "name": "TRON",
+            "change_24h": 0.62858
           }
         ],
         "top_losers": [
           {
             "symbol": "SOL",
             "name": "Solana",
-            "change_24h": -0.69686
+            "change_24h": -3.2045
           },
           {
             "symbol": "DOGE",
             "name": "Dogecoin",
-            "change_24h": -0.54189
+            "change_24h": -2.07
           },
           {
-            "symbol": "BNB",
-            "name": "BNB",
-            "change_24h": -0.15694
+            "symbol": "XRP",
+            "name": "XRP",
+            "change_24h": -1.46474
           }
         ]
       },
@@ -235,7 +235,7 @@
             "is_gaining": false
           }
         ],
-        "analysis": "The overall market sentiment appears bullish, as evidenced by the positive performances of all major indices, with the NASDAQ leading the way at +1.71%. Notably, the technology sector is showing strong momentum, particularly with NVDA surging +5.88%, reflecting robust demand for AI and semiconductor technologies. Key drivers of this rally include positive earnings reports and renewed investor confidence following favorable economic data suggesting resilience in consumer spending. Looking ahead, traders may remain optimistic, but should watch for potential profit-taking or volatility, particularly in high-flying tech stocks like NVDA and TSLA, which has seen a decline of -1.47%.",
+        "analysis": "The overall market sentiment appears positive, with all major indices showing gains, particularly the NASDAQ, which is up 1.71%, reflecting strong investor confidence in technology stocks. Notably, NVDA stands out with a significant increase of 5.88%, indicating robust demand or positive news impacting the semiconductor sector, while TSLA's decline of 1.47% may suggest some profit-taking or concerns within the electric vehicle market. Key drivers include ongoing corporate earnings reports, which have largely exceeded expectations, and macroeconomic indicators suggesting resilience in consumer spending despite inflationary pressures. Looking ahead, the trading outlook remains cautiously optimistic, but investors should monitor potential volatility as market participants adjust positions ahead of upcoming economic data releases.",
         "market_direction": "strongly_bullish",
         "top_gainers": [
           {
@@ -268,11 +268,11 @@
       },
       "highlights": {
         "biggest_crypto_mover": {
-          "symbol": "XRP",
-          "name": "XRP",
-          "change": 1.78738,
-          "change_formatted": "+1.79%",
-          "direction": "up"
+          "symbol": "SOL",
+          "name": "Solana",
+          "change": -3.2045,
+          "change_formatted": "-3.20%",
+          "direction": "down"
         },
         "biggest_stock_mover": {
           "symbol": "NVDA",
@@ -290,7 +290,7 @@
       "metadata": {
         "assets_tracked": 15,
         "indices_tracked": 3,
-        "last_updated": "2025-11-28T09:08:21.658482"
+        "last_updated": "2025-11-28T21:06:40.817198"
       }
     }
   },
