@@ -1,568 +1,19 @@
 {
   "agent": "perspective-synthesizer",
-  "timestamp": "2025-11-29T12:11:49.250352",
+  "timestamp": "2025-11-29T18:10:00.664841",
   "status": "completed",
   "data": {
     "articles": [
       {
         "article": {
-          "id": "news_0_1764418266",
-          "title": "Hong Kong begins three days of mourning after deadly apartment fires - The Guardian",
-          "description": "Hong Kong begins three days of mourning after deadly apartment fires\u00a0\u00a0The GuardianA visual timeline of the few hours it took a small fire to grow into Hong Kong\u2019s worst blaze in decades\u00a0\u00a0CNNAuthorities probe corruption, negligence in Hong Kong fire that killed at least 128\u00a0\u00a0CBS NewsThree days of mourning begin after Hong Kong's deadliest fire in decades\u00a0\u00a0BBCHong Kong fire: Anti-corruption agency arrests 8 over apartment tower blaze as death toll raises to 128\u00a0\u00a0ABC7 Los Angeles",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUC1ZVGNrcnd6bGxVY09pZXhTWi1QY0VjYTAxVmFMbU9xb2YzQkRQN05JY2J2bjBlcWh0dXFwb1p3VzlOdS1yTTFLelE2aTZrMXFnWXdoTHlwZXZ0Wno4R3JacTFjXzVlRENmWU5uMW9tbFhvRGw3V0lFYnRucjMzTkJZU0pHbFc5QVNrbnFYRVN4cW0yNmhTeGZZY2JTQkJOaEdGY3VCNGhlaXMtcF9pc2RxQQ?oc=5",
-          "source": "The Guardian",
-          "published": "Sat, 29 Nov 2025 03:28:00 GMT",
-          "topic": "WORLD",
-          "fetched_at": "2025-11-29T12:11:06.084455"
-        },
-        "perspectives": [
-          {
-            "model": "GPT-4o Mini",
-            "model_id": "openai/gpt-4o-mini",
-            "emoji": "\ud83d\udfe2",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-11-29T12:11:26.086501"
-          },
-          {
-            "model": "GPT-4o Mini",
-            "model_id": "openai/gpt-4o-mini",
-            "emoji": "\ud83d\udfe2",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-11-29T12:11:31.490139"
-          },
-          {
-            "model": "Llama 3.1 8B",
-            "model_id": "meta/meta-llama-3.1-8b-instruct",
-            "emoji": "\ud83d\udd35",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-11-29T12:11:28.416483"
-          },
-          {
-            "model": "Llama 3.1 8B",
-            "model_id": "meta/meta-llama-3.1-8b-instruct",
-            "emoji": "\ud83d\udd35",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-11-29T12:11:33.631041"
-          },
-          {
-            "model": "Phi-4 Mini",
-            "model_id": "microsoft/phi-4-mini-instruct",
-            "emoji": "\ud83d\udfe1",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-11-29T12:11:26.101019"
-          },
-          {
-            "model": "Phi-4 Mini",
-            "model_id": "microsoft/phi-4-mini-instruct",
-            "emoji": "\ud83d\udfe1",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-11-29T12:11:31.268815"
-          }
-        ],
-        "consensus": {
-          "dominant_sentiment": "mixed",
-          "agreement_percentage": 0,
-          "sentiment_distribution": {},
-          "models_analyzed": 6
-        }
-      },
-      {
-        "article": {
-          "id": "news_1_1764418266",
-          "title": "Pope Leo removes shoes but does not appear to pray in first mosque visit - CNN",
-          "description": "Pope Leo removes shoes but does not appear to pray in first mosque visit\u00a0\u00a0CNNPope's visit to Lebanon sparks hope but also frustration\u00a0\u00a0NPRIn Turkey, Pope Seeks to Soothe an Ancient Christian Divide\u00a0\u00a0The New York TimesPope: Nicaea invites Christians to unity in face of violence, conflict\u00a0\u00a0Vatican NewsPope Leo XIV pays visit to Blue Mosque in Istanbul\u00a0\u00a0Yahoo",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1hWkEtRjhzUW5iQkhia2FSblA2ZFZ0OUdTaWRwQ01GdEJvQ2ZYaHMwcjVLU2c2RjJRMXZya1V3OVVjUDIyRFRPcHk5Z2VrbFlDZHF6R1dzRWNaWGQ0ZWJDZmRyUHlhV3dkSFFRN2xxa2hneWhEUC1UaEJmY3Y?oc=5",
-          "source": "CNN",
-          "published": "Sat, 29 Nov 2025 10:28:18 GMT",
-          "topic": "WORLD",
-          "fetched_at": "2025-11-29T12:11:06.084487"
-        },
-        "perspectives": [
-          {
-            "model": "GPT-4o Mini",
-            "model_id": "openai/gpt-4o-mini",
-            "emoji": "\ud83d\udfe2",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-11-29T12:11:27.166082"
-          },
-          {
-            "model": "GPT-4o Mini",
-            "model_id": "openai/gpt-4o-mini",
-            "emoji": "\ud83d\udfe2",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-11-29T12:11:32.570031"
-          },
-          {
-            "model": "Llama 3.1 8B",
-            "model_id": "meta/meta-llama-3.1-8b-instruct",
-            "emoji": "\ud83d\udd35",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-11-29T12:11:29.457936"
-          },
-          {
-            "model": "Llama 3.1 8B",
-            "model_id": "meta/meta-llama-3.1-8b-instruct",
-            "emoji": "\ud83d\udd35",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-11-29T12:11:34.672914"
-          },
-          {
-            "model": "Phi-4 Mini",
-            "model_id": "microsoft/phi-4-mini-instruct",
-            "emoji": "\ud83d\udfe1",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-11-29T12:11:27.132327"
-          },
-          {
-            "model": "Phi-4 Mini",
-            "model_id": "microsoft/phi-4-mini-instruct",
-            "emoji": "\ud83d\udfe1",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-11-29T12:11:32.303559"
-          }
-        ],
-        "consensus": {
-          "dominant_sentiment": "mixed",
-          "agreement_percentage": 0,
-          "sentiment_distribution": {},
-          "models_analyzed": 6
-        }
-      },
-      {
-        "article": {
-          "id": "news_2_1764418266",
-          "title": "Ukraine reportedly strikes Afipsky Oil Refinery in Russia's Krasnodar Krai - The Kyiv Independent",
-          "description": "Ukraine reportedly strikes Afipsky Oil Refinery in Russia's Krasnodar Krai\u00a0\u00a0The Kyiv IndependentUkraine's Long-Distance Drones Take Toll On Russia's Oil Business -- And War Chest\u00a0\u00a0Radio Free Europe/Radio LibertyUkraine Says It Hit Saratov Refinery in Russian Volga Region\u00a0\u00a0Bloomberg.comUkrainian Drones Target Rosneft Refinery in Samara \u2013 Reports\u00a0\u00a0The Moscow TimesUkraine Strikes Russian Saky Airbase in Crimea, Hits Drone Storage and Air Defenses, Video\u00a0\u00a0UNITED24 Media",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZzFHM2h3eUlNT3dya1JHMmhyNndkdTJrZHIwNDRaczltcGJiTzlPeFM1dFFXZGI4eEJfM2RxQ1pDdXg5MTlXZEhaUDJLcHJZdEFUNlM2OVh3Tzc5dDJTS1FkejFxb0FKbkFsdWhyb0hGYlRfRWN2dWZMdjFNVkVVVG03UmcxREdlVkt1YkppdDJPUHRtOEptdHRqU3pidXFOeDZlNw?oc=5",
-          "source": "The Kyiv Independent",
-          "published": "Sat, 29 Nov 2025 02:23:25 GMT",
-          "topic": "WORLD",
-          "fetched_at": "2025-11-29T12:11:06.084511"
-        },
-        "perspectives": [
-          {
-            "model": "GPT-4o Mini",
-            "model_id": "openai/gpt-4o-mini",
-            "emoji": "\ud83d\udfe2",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-11-29T12:11:28.247203"
-          },
-          {
-            "model": "GPT-4o Mini",
-            "model_id": "openai/gpt-4o-mini",
-            "emoji": "\ud83d\udfe2",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-11-29T12:11:33.649641"
-          },
-          {
-            "model": "Llama 3.1 8B",
-            "model_id": "meta/meta-llama-3.1-8b-instruct",
-            "emoji": "\ud83d\udd35",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-11-29T12:11:30.502437"
-          },
-          {
-            "model": "Llama 3.1 8B",
-            "model_id": "meta/meta-llama-3.1-8b-instruct",
-            "emoji": "\ud83d\udd35",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-11-29T12:11:35.715120"
-          },
-          {
-            "model": "Phi-4 Mini",
-            "model_id": "microsoft/phi-4-mini-instruct",
-            "emoji": "\ud83d\udfe1",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-11-29T12:11:28.165979"
-          },
-          {
-            "model": "Phi-4 Mini",
-            "model_id": "microsoft/phi-4-mini-instruct",
-            "emoji": "\ud83d\udfe1",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-11-29T12:11:33.333954"
-          }
-        ],
-        "consensus": {
-          "dominant_sentiment": "mixed",
-          "agreement_percentage": 0,
-          "sentiment_distribution": {},
-          "models_analyzed": 6
-        }
-      },
-      {
-        "article": {
-          "id": "news_3_1764418266",
-          "title": "Paris prosecutor says arrested man is thought to be 4th member of Louvre heist gang - AP News",
-          "description": "Paris prosecutor says arrested man is thought to be 4th member of Louvre heist gang\u00a0\u00a0AP NewsFour new arrests made following Louvre jewellery heist\u00a0\u00a0BBC4 more arrested in $102M Louvre jewel heist, Paris prosecutor says\u00a0\u00a0AP NewsFour more suspects detained over Louvre jewel heist\u00a0\u00a0CNNArrested man is thought to be 4th member of Louvre heist crew, Paris prosecutor says\u00a0\u00a0CBS News",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZFY5b2VheFBBc25QcGsweHo3ZjNSRWZEM3RyRGJuS01SSVhSblZaYlRRQVpBaGFReTlwQzJXTks4N2Jnd0pvanByLUk3OXVMNUhMSXU4aGFyelFueWg1c1BvQXEyQjUxd1puR1RlcEVIWmlPQzlKV2N0Vnlwdk9YV2FWSG12QXNxdVNKTlRuZkFVajNwQzBIZzRNbHFKVGRNZ2lEbDJFVHA?oc=5",
-          "source": "AP News",
-          "published": "Fri, 28 Nov 2025 17:30:00 GMT",
-          "topic": "WORLD",
-          "fetched_at": "2025-11-29T12:11:06.084529"
-        },
-        "perspectives": [
-          {
-            "model": "GPT-4o Mini",
-            "model_id": "openai/gpt-4o-mini",
-            "emoji": "\ud83d\udfe2",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-11-29T12:11:29.328975"
-          },
-          {
-            "model": "GPT-4o Mini",
-            "model_id": "openai/gpt-4o-mini",
-            "emoji": "\ud83d\udfe2",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-11-29T12:11:34.734422"
-          },
-          {
-            "model": "Llama 3.1 8B",
-            "model_id": "meta/meta-llama-3.1-8b-instruct",
-            "emoji": "\ud83d\udd35",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-11-29T12:11:31.546769"
-          },
-          {
-            "model": "Llama 3.1 8B",
-            "model_id": "meta/meta-llama-3.1-8b-instruct",
-            "emoji": "\ud83d\udd35",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-11-29T12:11:36.756883"
-          },
-          {
-            "model": "Phi-4 Mini",
-            "model_id": "microsoft/phi-4-mini-instruct",
-            "emoji": "\ud83d\udfe1",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-11-29T12:11:29.205930"
-          },
-          {
-            "model": "Phi-4 Mini",
-            "model_id": "microsoft/phi-4-mini-instruct",
-            "emoji": "\ud83d\udfe1",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-11-29T12:11:34.364782"
-          }
-        ],
-        "consensus": {
-          "dominant_sentiment": "mixed",
-          "agreement_percentage": 0,
-          "sentiment_distribution": {},
-          "models_analyzed": 6
-        }
-      },
-      {
-        "article": {
-          "id": "news_4_1764418266",
-          "title": "EU weighs Plan B for Ukraine as Belgium raises bar on reparations loan - Euronews.com",
-          "description": "EU weighs Plan B for Ukraine as Belgium raises bar on reparations loan\u00a0\u00a0Euronews.comBelgium hits back at EU plan to use frozen Russian assets to aid Ukraine\u00a0\u00a0The GuardianBelgian PM says using frozen Russian assets could block Ukraine peace deal\u00a0\u00a0ReutersEU\u2019s frozen-assets loan plan risks rattling markets, Euroclear warns\u00a0\u00a0Financial TimesUnfreeze and use Russian assets to meet Ukraine\u2019s needs\u00a0\u00a0The Hill",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOV1lPcEpwUzlMTjMyNVlBREZzSDFzREJzQ3ZqVWNlam1QQjluQTEwMnhXREhpejg5bXdpS2cwa01VMEU4X3U0VEZpT1N0cjFFYVVoVHRVM054b3dCUnRXWXpkZTlGSUc3QzNCZXNscTdPTGJMT3dCWjZZb2NueVdwekFqLTZkd1Q3RWNpMUdSVWYzUmlfNTI5WjlHdkJ4U01tRVBaYWxMVm80VkFYT0RhY1h1WHpXN0RuVjRzcGNrWFk3dw?oc=5",
-          "source": "Euronews.com",
-          "published": "Sat, 29 Nov 2025 07:30:01 GMT",
-          "topic": "WORLD",
-          "fetched_at": "2025-11-29T12:11:06.084549"
-        },
-        "perspectives": [
-          {
-            "model": "GPT-4o Mini",
-            "model_id": "openai/gpt-4o-mini",
-            "emoji": "\ud83d\udfe2",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-11-29T12:11:30.410789"
-          },
-          {
-            "model": "GPT-4o Mini",
-            "model_id": "openai/gpt-4o-mini",
-            "emoji": "\ud83d\udfe2",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-11-29T12:11:35.813454"
-          },
-          {
-            "model": "Llama 3.1 8B",
-            "model_id": "meta/meta-llama-3.1-8b-instruct",
-            "emoji": "\ud83d\udd35",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-11-29T12:11:32.589982"
-          },
-          {
-            "model": "Llama 3.1 8B",
-            "model_id": "meta/meta-llama-3.1-8b-instruct",
-            "emoji": "\ud83d\udd35",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-11-29T12:11:37.802859"
-          },
-          {
-            "model": "Phi-4 Mini",
-            "model_id": "microsoft/phi-4-mini-instruct",
-            "emoji": "\ud83d\udfe1",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-11-29T12:11:30.236712"
-          },
-          {
-            "model": "Phi-4 Mini",
-            "model_id": "microsoft/phi-4-mini-instruct",
-            "emoji": "\ud83d\udfe1",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-11-29T12:11:35.395033"
-          }
-        ],
-        "consensus": {
-          "dominant_sentiment": "mixed",
-          "agreement_percentage": 0,
-          "sentiment_distribution": {},
-          "models_analyzed": 6
-        }
-      },
-      {
-        "article": {
-          "id": "news_0_1764418265",
-          "title": "Fire TV Stick owners urged to hand in their devices to Amazon this week - UNILAD",
-          "description": "Fire TV Stick owners urged to hand in their devices to Amazon this week\u00a0\u00a0UNILAD7 Black Friday streaming deals to avoid (and 6 you should jump on)\u00a0\u00a0PCWorldAmazon Fire TV Stick 4K Select top features explained amid Amazon's call to return old devices\u00a0\u00a0LADbibleTeach Your Old TV New Tricks With My Favorite Media Streamer, Now $50 Off for Black Friday\u00a0\u00a0PCMag UKThis is the only Black Friday Fire TV Stick deal you should care about\u00a0\u00a0Pocket-lint",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMzUtQWhUeHEwS0xmTzRBNTJja2Vkc19kdDN0bG5Vdl9nYlQ2NU1vZndZTUtJaTZTTEd3N3JQeHZzUFpGRkluTklEanZyemxvaDlYeDRiSm1aaTBPX0ZtOHE4ckNReS15enUyUV9FRklOWU85dHBkQXlvbWZKYkNNM200UThfRjZrVE1KRkJJbmUwdGYtb0VLb2MxRDNZZnVl?oc=5",
-          "source": "UNILAD",
-          "published": "Fri, 28 Nov 2025 21:03:45 GMT",
-          "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-29T12:11:05.999131"
-        },
-        "perspectives": [
-          {
-            "model": "GPT-4o Mini",
-            "model_id": "openai/gpt-4o-mini",
-            "emoji": "\ud83d\udfe2",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-11-29T12:11:20.682572"
-          },
-          {
-            "model": "Llama 3.1 8B",
-            "model_id": "meta/meta-llama-3.1-8b-instruct",
-            "emoji": "\ud83d\udd35",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-11-29T12:11:23.197637"
-          },
-          {
-            "model": "Phi-4 Mini",
-            "model_id": "microsoft/phi-4-mini-instruct",
-            "emoji": "\ud83d\udfe1",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-11-29T12:11:20.936184"
-          }
-        ],
-        "consensus": {
-          "dominant_sentiment": "mixed",
-          "agreement_percentage": 0,
-          "sentiment_distribution": {},
-          "models_analyzed": 3
-        }
-      },
-      {
-        "article": {
-          "id": "news_1_1764418265",
-          "title": "The best Black Friday deals you can still get on AirTags, iPad, and other Apple gear - The Verge",
-          "description": "The best Black Friday deals you can still get on AirTags, iPad, and other Apple gear\u00a0\u00a0The VergeWe Found 30+ Apple Black Friday Deals on Apple Watch, MacBooks, iPads, and More.\u00a0\u00a0The New York TimesApple Black Friday 2025 Deals \u2014 Save on MacBooks, iPads, AirPods and More\u00a0\u00a0NBC NewsApple\u2019s most affordable iPad is over 20 percent off for Black Friday\u00a0\u00a0The VergeApple Black Friday deals are live: Some of the biggest sales we've seen this year on AirPods, iPads, MacBooks, Apple Watches and AirTags\u00a0\u00a0Engad",
+          "id": "news_0_1764439758",
+          "title": "Black Friday deals are still going strong on Apple AirTags, iPads, and more - The Verge",
+          "description": "Black Friday deals are still going strong on Apple AirTags, iPads, and more\u00a0\u00a0The VergeApple Black Friday 2025 Deals \u2014 Save on AirPods, iPads and more still available\u00a0\u00a0NBC News30+ Great Apple Black Friday Deals Still Live: iPads, MacBooks, Apple Watches, and More\u00a0\u00a0The New York TimesApple\u2019s most affordable iPad is over 20 percent off for Black Friday\u00a0\u00a0The VergeTop Stories: Black Friday Apple Deals, iOS 26.2 and iOS 27 Rumors, and More\u00a0\u00a0MacRumors",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPVGFGdnpCRVBxZE1JRjRfekJrQ3lheUlOaXZITFd0QmxpQ25uTGJzTVpmbjRuTk8wRUt4aEl5eElzdGUwRUQzclo4N2QtWThvcUJqdnhRaUhBU2lfMi15MVhkSi1sdmlVNzBhSzBOR2NmT2ItTHlfZG9YYWIxc2ZWajNwNHJMUQ?oc=5",
           "source": "The Verge",
           "published": "Sat, 29 Nov 2025 06:59:00 GMT",
           "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-29T12:11:05.999185"
+          "fetched_at": "2025-11-29T18:09:18.674488"
         },
         "perspectives": [
           {
@@ -576,7 +27,33 @@
             "bias_check": "",
             "missing_context": "",
             "implications": "",
-            "analyzed_at": "2025-11-29T12:11:21.761609"
+            "analyzed_at": "2025-11-29T18:09:37.110450"
+          },
+          {
+            "model": "GPT-4o Mini",
+            "model_id": "openai/gpt-4o-mini",
+            "emoji": "\ud83d\udfe2",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-11-29T18:09:42.312242"
+          },
+          {
+            "model": "GPT-4o Mini",
+            "model_id": "openai/gpt-4o-mini",
+            "emoji": "\ud83d\udfe2",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-11-29T18:09:47.505380"
           },
           {
             "model": "Llama 3.1 8B",
@@ -589,7 +66,33 @@
             "bias_check": "",
             "missing_context": "",
             "implications": "",
-            "analyzed_at": "2025-11-29T12:11:24.240473"
+            "analyzed_at": "2025-11-29T18:09:34.817078"
+          },
+          {
+            "model": "Llama 3.1 8B",
+            "model_id": "meta/meta-llama-3.1-8b-instruct",
+            "emoji": "\ud83d\udd35",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-11-29T18:09:39.926897"
+          },
+          {
+            "model": "Llama 3.1 8B",
+            "model_id": "meta/meta-llama-3.1-8b-instruct",
+            "emoji": "\ud83d\udd35",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-11-29T18:09:45.039703"
           },
           {
             "model": "Phi-4 Mini",
@@ -602,26 +105,52 @@
             "bias_check": "",
             "missing_context": "",
             "implications": "",
-            "analyzed_at": "2025-11-29T12:11:21.968279"
+            "analyzed_at": "2025-11-29T18:09:35.052312"
+          },
+          {
+            "model": "Phi-4 Mini",
+            "model_id": "microsoft/phi-4-mini-instruct",
+            "emoji": "\ud83d\udfe1",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-11-29T18:09:40.156993"
+          },
+          {
+            "model": "Phi-4 Mini",
+            "model_id": "microsoft/phi-4-mini-instruct",
+            "emoji": "\ud83d\udfe1",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-11-29T18:09:45.263497"
           }
         ],
         "consensus": {
           "dominant_sentiment": "mixed",
           "agreement_percentage": 0,
           "sentiment_distribution": {},
-          "models_analyzed": 3
+          "models_analyzed": 9
         }
       },
       {
         "article": {
-          "id": "news_2_1764418265",
-          "title": "You can pick up 32GB of DDR5 RAM with a whole PC for $999 for Black Friday - The Verge",
-          "description": "You can pick up 32GB of DDR5 RAM with a whole PC for $999 for Black Friday\u00a0\u00a0The VergeWe built a Black Friday gaming PC for less than $950, complete with 16GB of VRAM and 32GB of memory\u00a0\u00a0Tom's HardwareThe iBuypower Slate RTX 5070 Gaming PC Drops Below $1,000 for the First Time Ever for Black Friday\u00a0\u00a0IGNThis RTX 5070 gaming PC is cheaper than most RTX 5060 Ti rigs for Black Friday\u00a0\u00a0PC GamerI crafted the cheapest Black Friday gaming PC build again. It\u2019s brutal this year\u00a0\u00a0PCWorld",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSFBQRzdnNGlPTGg0OTlkNW5UMlI1NWpFS0lXUWRnTlllSVZrSlhDNU9oZ0lpV1cteFJ5UEpSZk9jOENvZmlVRUVsNXZyN1lFd3RXUmF0ZjdWcjVFQUprdmVUTDZqS0JGdWpXSTc4bW9JRkZPcUZnTDBfc2R0UGxTczJKZ3F6aWZJM2VzNVM2cHFFR3NFVU5MQjhLejhPMW53eGVqX2VjM1lwdnNKa18xNFZn?oc=5",
-          "source": "The Verge",
-          "published": "Sat, 29 Nov 2025 02:30:00 GMT",
+          "id": "news_1_1764439758",
+          "title": "Black Friday Weekend TV Deals Are Getting Wildly Cheap With Up to $1,500 Off Hisense, LG, Samsung, and Sony - PCMag",
+          "description": "Black Friday Weekend TV Deals Are Getting Wildly Cheap With Up to $1,500 Off Hisense, LG, Samsung, and Sony\u00a0\u00a0PCMagFour big things to know if you\u2019re going to buy a TV this weekend\u00a0\u00a0The Washington PostThese Are The Best TV Deals This Black Friday Weekend\u00a0\u00a0WIREDWalmart is offering $200 off the TCL 85\u201d Roku TV for Black Friday\u00a0\u00a0AL.comBest Black Friday TV deal on a budget: An 85-inch TCL Roku TV for $498\u00a0\u00a0Mashable",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxObHhoY3QwXzZjQzBwM2FRNF92NVJ6RHdWQW4tVXpfY01JcWx4eG1vbzc1X19STkwwYXFTM3dGTGRNaV9ycmlWUlF5ZGMwTEd2akZ4NUV4QnBQRmJYZmE4QWdSWUw2QWo3eGEtcVI5MjdhcVlhTGJ1QnRpak44cDJabnliaVhiQWgtY29yQUNpM1BVUUU?oc=5",
+          "source": "PCMag",
+          "published": "Fri, 28 Nov 2025 14:18:31 GMT",
           "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-29T12:11:05.999226"
+          "fetched_at": "2025-11-29T18:09:18.674518"
         },
         "perspectives": [
           {
@@ -635,7 +164,33 @@
             "bias_check": "",
             "missing_context": "",
             "implications": "",
-            "analyzed_at": "2025-11-29T12:11:22.842250"
+            "analyzed_at": "2025-11-29T18:09:38.149255"
+          },
+          {
+            "model": "GPT-4o Mini",
+            "model_id": "openai/gpt-4o-mini",
+            "emoji": "\ud83d\udfe2",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-11-29T18:09:43.350674"
+          },
+          {
+            "model": "GPT-4o Mini",
+            "model_id": "openai/gpt-4o-mini",
+            "emoji": "\ud83d\udfe2",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-11-29T18:09:48.545106"
           },
           {
             "model": "Llama 3.1 8B",
@@ -648,7 +203,33 @@
             "bias_check": "",
             "missing_context": "",
             "implications": "",
-            "analyzed_at": "2025-11-29T12:11:25.285963"
+            "analyzed_at": "2025-11-29T18:09:35.836366"
+          },
+          {
+            "model": "Llama 3.1 8B",
+            "model_id": "meta/meta-llama-3.1-8b-instruct",
+            "emoji": "\ud83d\udd35",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-11-29T18:09:40.954253"
+          },
+          {
+            "model": "Llama 3.1 8B",
+            "model_id": "meta/meta-llama-3.1-8b-instruct",
+            "emoji": "\ud83d\udd35",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-11-29T18:09:46.060127"
           },
           {
             "model": "Phi-4 Mini",
@@ -661,26 +242,52 @@
             "bias_check": "",
             "missing_context": "",
             "implications": "",
-            "analyzed_at": "2025-11-29T12:11:23.000835"
+            "analyzed_at": "2025-11-29T18:09:36.073734"
+          },
+          {
+            "model": "Phi-4 Mini",
+            "model_id": "microsoft/phi-4-mini-instruct",
+            "emoji": "\ud83d\udfe1",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-11-29T18:09:41.177331"
+          },
+          {
+            "model": "Phi-4 Mini",
+            "model_id": "microsoft/phi-4-mini-instruct",
+            "emoji": "\ud83d\udfe1",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-11-29T18:09:46.284158"
           }
         ],
         "consensus": {
           "dominant_sentiment": "mixed",
           "agreement_percentage": 0,
           "sentiment_distribution": {},
-          "models_analyzed": 3
+          "models_analyzed": 9
         }
       },
       {
         "article": {
-          "id": "news_3_1764418265",
-          "title": "I just found the 20 best Black Friday laptop and computer deals so you don\u2019t have to - CNN",
-          "description": "I just found the 20 best Black Friday laptop and computer deals so you don\u2019t have to\u00a0\u00a0CNNView Full Coverage on Google News",
+          "id": "news_2_1764439758",
+          "title": "I\u2019ve found the 20 best Black Friday laptop and computer deals that are still alive - CNN",
+          "description": "I\u2019ve found the 20 best Black Friday laptop and computer deals that are still alive\u00a0\u00a0CNNThese laptops are still steeply discounted for Black Friday \u2014 many are over $400 off\u00a0\u00a0The VergeCome with me as chase down all the best Black Friday PC gaming deals\u00a0\u00a0PC GamerBest Amazon Black Friday laptop deals 2025: Nov 29\u00a0\u00a0PCWorldAmazon is selling a $1,000 gaming laptop for $560 for Black Friday\u00a0\u00a0TheStreet",
           "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOTm9ZX2ZUdHdaRjZnNFdpRmdrNjRRZ2ktQXJIbEpYWXloek94NG9KZldhYnRKcXh2cmw3NTJIYm1LUWhITE9pbkgyUFZWeFZmNzdhTmVtWUoydjNlMWNrRWNiMnZvaTdXTElNQVpYclhHRDgzaWROZGdaQnBoQzVpY0hTZ0t5blB1Y3BxWF9BakrSAZYBQVVfeXFMTkxWV3d5MWdubUh4VmlsVUNJU255a2NFRkUxajAtYXJPcUFSUlNpUHdVRzRaWkZFY2FkbkJDZnl1T3BseTdQMkNtUkhZT2JyWWNBLS0zREZkN2c3VV94Nk10ZVZZQnh4ZTdlVkxfQXA3OW1jUG1iSGdLU1F5MTlLUUN0VDFzWDBuMDhYWC1FRXhzSzdSUTZR?oc=5",
           "source": "CNN",
-          "published": "Fri, 28 Nov 2025 07:56:00 GMT",
+          "published": "Sat, 29 Nov 2025 15:41:00 GMT",
           "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-29T12:11:05.999247"
+          "fetched_at": "2025-11-29T18:09:18.674541"
         },
         "perspectives": [
           {
@@ -694,7 +301,33 @@
             "bias_check": "",
             "missing_context": "",
             "implications": "",
-            "analyzed_at": "2025-11-29T12:11:23.926788"
+            "analyzed_at": "2025-11-29T18:09:39.190116"
+          },
+          {
+            "model": "GPT-4o Mini",
+            "model_id": "openai/gpt-4o-mini",
+            "emoji": "\ud83d\udfe2",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-11-29T18:09:44.388160"
+          },
+          {
+            "model": "GPT-4o Mini",
+            "model_id": "openai/gpt-4o-mini",
+            "emoji": "\ud83d\udfe2",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-11-29T18:09:49.585883"
           },
           {
             "model": "Llama 3.1 8B",
@@ -707,7 +340,33 @@
             "bias_check": "",
             "missing_context": "",
             "implications": "",
-            "analyzed_at": "2025-11-29T12:11:26.328399"
+            "analyzed_at": "2025-11-29T18:09:36.862156"
+          },
+          {
+            "model": "Llama 3.1 8B",
+            "model_id": "meta/meta-llama-3.1-8b-instruct",
+            "emoji": "\ud83d\udd35",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-11-29T18:09:41.974796"
+          },
+          {
+            "model": "Llama 3.1 8B",
+            "model_id": "meta/meta-llama-3.1-8b-instruct",
+            "emoji": "\ud83d\udd35",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-11-29T18:09:47.079030"
           },
           {
             "model": "Phi-4 Mini",
@@ -720,26 +379,52 @@
             "bias_check": "",
             "missing_context": "",
             "implications": "",
-            "analyzed_at": "2025-11-29T12:11:24.032766"
+            "analyzed_at": "2025-11-29T18:09:37.092538"
+          },
+          {
+            "model": "Phi-4 Mini",
+            "model_id": "microsoft/phi-4-mini-instruct",
+            "emoji": "\ud83d\udfe1",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-11-29T18:09:42.197534"
+          },
+          {
+            "model": "Phi-4 Mini",
+            "model_id": "microsoft/phi-4-mini-instruct",
+            "emoji": "\ud83d\udfe1",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-11-29T18:09:47.304433"
           }
         ],
         "consensus": {
           "dominant_sentiment": "mixed",
           "agreement_percentage": 0,
           "sentiment_distribution": {},
-          "models_analyzed": 3
+          "models_analyzed": 9
         }
       },
       {
         "article": {
-          "id": "news_4_1764418265",
-          "title": "These Are The Best Black Friday TV Deals This Year - WIRED",
-          "description": "These Are The Best Black Friday TV Deals This Year\u00a0\u00a0WIREDFour big things to know if you\u2019re going to buy a TV this weekend\u00a0\u00a0The Washington PostWalmart is offering $200 off the TCL 85\u201d Roku TV for Black Friday\u00a0\u00a0AL.comBest Black Friday TV deals 2025: Samsung, LG, TCL, and Hisense at record lows\u00a0\u00a0MashableYou Only Have a Few Hours Left to Nab This 75-Inch Toshiba 4K Fire TV for $350 With This Black Friday Deal\u00a0\u00a0CNET",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1kOFkwczlNZ3U3SHZqNXdoZVZEeTBzRHJSWlltNXZ4ZVl6eUZJZTlwMjV0SF81U0hPdngtekxFUE00NUpHY2RvcXc1M3BtS3ZmY2NLbjhVbkhKWG8tZE5nZTV1SUhXZw?oc=5",
-          "source": "WIRED",
-          "published": "Fri, 28 Nov 2025 13:30:00 GMT",
+          "id": "news_3_1764439758",
+          "title": "AirPods Black Friday deals: Save on AirPods Pro 3, $69 AirPods 4, and much more - 9to5Mac",
+          "description": "AirPods Black Friday deals: Save on AirPods Pro 3, $69 AirPods 4, and much more\u00a0\u00a09to5MacApple AirPods Black Friday Deals 2025 \u2014 Save 47% Now\u00a0\u00a0NBC NewsAmazon\u2019s AirPods Pro 3 deal drops Apple\u2019s earbuds to their best price yet\u00a0\u00a0PCWorldAirPods Are Up to 47% Off for Black Friday\u00a0\u00a0Consequence of SoundGet up to 47% off AirPods: every AirPods Pro 3, AirPods Pro 2 and AirPods 4 Black Friday deal live now \u2013 run!\u00a0\u00a0TechRadar",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBXX0ZxRGtDel9KRTJyd213V0pNTFRBY2YtTjhDLTFmTUY0bGxIRlpHcnR1VzJkcG9jMlpKUHpCcWhRMnJWMnBQdTVEZktPaTlkRjZvZzN5MU9WanNZbmE1Q2JvaWQ1YU1GaE1XUmZzWGtIOE55QlE?oc=5",
+          "source": "9to5Mac",
+          "published": "Fri, 28 Nov 2025 12:44:00 GMT",
           "topic": "TECHNOLOGY",
-          "fetched_at": "2025-11-29T12:11:05.999285"
+          "fetched_at": "2025-11-29T18:09:18.674563"
         },
         "perspectives": [
           {
@@ -753,7 +438,33 @@
             "bias_check": "",
             "missing_context": "",
             "implications": "",
-            "analyzed_at": "2025-11-29T12:11:25.006615"
+            "analyzed_at": "2025-11-29T18:09:40.228624"
+          },
+          {
+            "model": "GPT-4o Mini",
+            "model_id": "openai/gpt-4o-mini",
+            "emoji": "\ud83d\udfe2",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-11-29T18:09:45.427659"
+          },
+          {
+            "model": "GPT-4o Mini",
+            "model_id": "openai/gpt-4o-mini",
+            "emoji": "\ud83d\udfe2",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-11-29T18:09:50.622440"
           },
           {
             "model": "Llama 3.1 8B",
@@ -766,7 +477,33 @@
             "bias_check": "",
             "missing_context": "",
             "implications": "",
-            "analyzed_at": "2025-11-29T12:11:27.371909"
+            "analyzed_at": "2025-11-29T18:09:37.880208"
+          },
+          {
+            "model": "Llama 3.1 8B",
+            "model_id": "meta/meta-llama-3.1-8b-instruct",
+            "emoji": "\ud83d\udd35",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-11-29T18:09:42.997018"
+          },
+          {
+            "model": "Llama 3.1 8B",
+            "model_id": "meta/meta-llama-3.1-8b-instruct",
+            "emoji": "\ud83d\udd35",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-11-29T18:09:48.099005"
           },
           {
             "model": "Phi-4 Mini",
@@ -779,14 +516,177 @@
             "bias_check": "",
             "missing_context": "",
             "implications": "",
-            "analyzed_at": "2025-11-29T12:11:25.069744"
+            "analyzed_at": "2025-11-29T18:09:38.115418"
+          },
+          {
+            "model": "Phi-4 Mini",
+            "model_id": "microsoft/phi-4-mini-instruct",
+            "emoji": "\ud83d\udfe1",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-11-29T18:09:43.219717"
+          },
+          {
+            "model": "Phi-4 Mini",
+            "model_id": "microsoft/phi-4-mini-instruct",
+            "emoji": "\ud83d\udfe1",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-11-29T18:09:48.329244"
           }
         ],
         "consensus": {
           "dominant_sentiment": "mixed",
           "agreement_percentage": 0,
           "sentiment_distribution": {},
-          "models_analyzed": 3
+          "models_analyzed": 9
+        }
+      },
+      {
+        "article": {
+          "id": "news_4_1764439758",
+          "title": "The best Black Friday Nintendo Switch 2 deals in 2025: all the biggest console, game, and accessory offers still live - GamesRadar+",
+          "description": "The best Black Friday Nintendo Switch 2 deals in 2025: all the biggest console, game, and accessory offers still live\u00a0\u00a0GamesRadar+Large-capacity microSD cards are now regularly out of stock in Japan as storage crunch claims another victim \u2014 high-capacity HDDs are also vanishing\u00a0\u00a0Tom's HardwareThe best Black Friday Nintendo Switch deals: Best-ever prices on games, controllers, accessories, and more\u00a0\u00a0MashableSave 20% On Pokemon: Legends Z-A For Nintendo Switch This Black Friday\u00a0\u00a0IGNMy favorite Nin",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOLUppa1BUWVV5SzlZRmNUQndzNGFYSFdEMlk0d010RXRzQndNb1pOQnBpU1ZISWFuanhpZ1QtTjkzR1JFYm1OT21jZ3RBZ2pJeUo5R1pnQkxGZVA4aHZYQUU4NGwxekw0LU5OLWdfQXE4cGpKNmR3WlMzTE1sWGc2OVd1OEloa1hYZzIwVUUtREhkQUJvWEE?oc=5",
+          "source": "GamesRadar+",
+          "published": "Sat, 29 Nov 2025 11:08:22 GMT",
+          "topic": "TECHNOLOGY",
+          "fetched_at": "2025-11-29T18:09:18.674585"
+        },
+        "perspectives": [
+          {
+            "model": "GPT-4o Mini",
+            "model_id": "openai/gpt-4o-mini",
+            "emoji": "\ud83d\udfe2",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-11-29T18:09:41.271586"
+          },
+          {
+            "model": "GPT-4o Mini",
+            "model_id": "openai/gpt-4o-mini",
+            "emoji": "\ud83d\udfe2",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-11-29T18:09:46.466278"
+          },
+          {
+            "model": "GPT-4o Mini",
+            "model_id": "openai/gpt-4o-mini",
+            "emoji": "\ud83d\udfe2",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-11-29T18:09:51.663372"
+          },
+          {
+            "model": "Llama 3.1 8B",
+            "model_id": "meta/meta-llama-3.1-8b-instruct",
+            "emoji": "\ud83d\udd35",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-11-29T18:09:38.898311"
+          },
+          {
+            "model": "Llama 3.1 8B",
+            "model_id": "meta/meta-llama-3.1-8b-instruct",
+            "emoji": "\ud83d\udd35",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-11-29T18:09:44.021947"
+          },
+          {
+            "model": "Llama 3.1 8B",
+            "model_id": "meta/meta-llama-3.1-8b-instruct",
+            "emoji": "\ud83d\udd35",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-11-29T18:09:49.119545"
+          },
+          {
+            "model": "Phi-4 Mini",
+            "model_id": "microsoft/phi-4-mini-instruct",
+            "emoji": "\ud83d\udfe1",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-11-29T18:09:39.136370"
+          },
+          {
+            "model": "Phi-4 Mini",
+            "model_id": "microsoft/phi-4-mini-instruct",
+            "emoji": "\ud83d\udfe1",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-11-29T18:09:44.240759"
+          },
+          {
+            "model": "Phi-4 Mini",
+            "model_id": "microsoft/phi-4-mini-instruct",
+            "emoji": "\ud83d\udfe1",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-11-29T18:09:49.349277"
+          }
+        ],
+        "consensus": {
+          "dominant_sentiment": "mixed",
+          "agreement_percentage": 0,
+          "sentiment_distribution": {},
+          "models_analyzed": 9
         }
       },
       {
@@ -1054,7 +954,7 @@
         }
       }
     ],
-    "count": 13,
+    "count": 8,
     "consensus": {
       "dominant_sentiment": "unknown",
       "sentiment_distribution": {
@@ -1093,18 +993,18 @@
       "Grok 3"
     ],
     "total_perspectives": 51,
-    "generated_at": "2025-11-29 12:11:49 UTC"
+    "generated_at": "2025-11-29 18:10:00 UTC"
   },
   "costs": {
-    "execution_time": 0.0007097721099853516,
-    "execution_minutes": 1.1829535166422526e-05,
-    "github_actions": 9.463628133138021e-08,
+    "execution_time": 0.00078582763671875,
+    "execution_minutes": 1.3097127278645833e-05,
+    "github_actions": 1.0477701822916667e-07,
     "openai": {
       "input": 0,
       "output": 0,
       "total": 0
     },
-    "total": 9.463628133138021e-08,
+    "total": 1.0477701822916667e-07,
     "token_usage": {}
   }
 }
