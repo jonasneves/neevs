@@ -1,18 +1,359 @@
 {
   "agent": "agent-b-paper-analyzer",
-  "timestamp": "2025-11-28T09:04:41.670499",
+  "timestamp": "2025-11-29T09:04:36.528904",
   "status": "completed",
   "input_from": "agent-a-paper-fetcher",
   "data": {
-    "analyzed_papers": [],
+    "analyzed_papers": [
+      {
+        "id": "2511.21692v1",
+        "title": "Revisiting Generalization Across Difficulty Levels: It's Not So Easy",
+        "authors": [
+          "Yeganeh Kordi",
+          "Nihal V. Nayak",
+          "Max Zuo",
+          "Ilana Nguyen",
+          "Stephen H. Bach"
+        ],
+        "abstract": "We investigate how well large language models (LLMs) generalize across different task difficulties, a key question for effective data curation and evaluation. Existing research is mixed regarding whether training on easier or harder data leads to better results, and whether those gains come on easier or harder test data. We address this question by conducting a systematic evaluation of LLMs' generalization across models, datasets, and fine-grained groups of example difficulty. We rank examples i...",
+        "published": "2025-11-26T18:59:57Z",
+        "updated": "2025-11-26T18:59:57Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.21692v1",
+        "abs_url": "https://arxiv.org/abs/2511.21692v1",
+        "categories": [
+          "cs.CL",
+          "cs.AI"
+        ],
+        "primary_category": "cs.CL",
+        "analysis": {
+          "tldr": "This paper explores how well large language models (LLMs) can adapt to tasks of varying difficulty. The authors aim to resolve the debate on whether training on simpler data or more complex data leads to better performance and under what conditions.",
+          "eli5": "Imagine you\u2019re training for a race. If you train only on easy tracks, you might not do well on a hard one later. But if you only train on tough tracks, you might get tired and not run well at all. This paper looks at how LLMs, like the ones that help us with text or chat, perform when faced with different levels of task difficulty and which training method works better.",
+          "key_contributions": [
+            "A systematic evaluation of how different LLMs generalize across tasks of varying difficulty.",
+            "New insights into the debate on whether training on easier or harder data yields better performance.",
+            "A framework for ranking tasks by difficulty, which can guide future data curation and model training."
+          ],
+          "why_care": "Understanding how LLMs generalize across different task difficulties can lead to better training strategies, ultimately improving AI tools we use in everyday life, such as chatbots, virtual assistants, and even educational software.",
+          "accessibility": "Tech-Savvy",
+          "spicy_take": "If we don't sort out this generalization question soon, our AI might forever be stuck in a training loop of mediocrity!",
+          "reading_time_minutes": 5
+        }
+      },
+      {
+        "id": "2511.21690v1",
+        "title": "TraceGen: World Modeling in 3D Trace Space Enables Learning from Cross-Embodiment Videos",
+        "authors": [
+          "Seungjae Lee",
+          "Yoonkyo Jung",
+          "Inkook Chun",
+          "Yao-Chih Lee",
+          "Zikui Cai"
+        ],
+        "abstract": "Learning new robot tasks on new platforms and in new scenes from only a handful of demonstrations remains challenging. While videos of other embodiments - humans and different robots - are abundant, differences in embodiment, camera, and environment hinder their direct use. We address the small-data problem by introducing a unifying, symbolic representation - a compact 3D \"trace-space\" of scene-level trajectories - that enables learning from cross-embodiment, cross-environment, and cross-task vi...",
+        "published": "2025-11-26T18:59:55Z",
+        "updated": "2025-11-26T18:59:55Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.21690v1",
+        "abs_url": "https://arxiv.org/abs/2511.21690v1",
+        "categories": [
+          "cs.RO",
+          "cs.CV",
+          "cs.LG"
+        ],
+        "primary_category": "cs.RO",
+        "analysis": {
+          "tldr": "This paper introduces a new method called TraceGen that allows robots to learn tasks from videos of different beings, like humans or other robots, despite variations in how they move and the environments they're in. It creates a 3D 'trace-space' to help overcome challenges associated with limited data.",
+          "eli5": "Imagine you want a robot to learn how to pick up a toy by watching videos of different people and robots doing it. However, the problem is that they all move differently and are in different places. This paper presents a clever way to turn those various movements into a simple 3D map that helps the robot understand and learn the task better from just a few video examples.",
+          "key_contributions": [
+            "Introduces the concept of 'trace-space' for 3D modeling of movements, allowing for better task learning from a variety of sources.",
+            "Addresses the challenge of learning from limited data by allowing robots to generalize across different embodiments and environments.",
+            "Shows how this method can effectively learn complex tasks in a more efficient way, making it easier for robots to adapt and function in diverse scenarios."
+          ],
+          "why_care": "This research is important as it can lead to more versatile and adaptable robots, which means they can learn from real-world examples more effectively. This could open up new applications in industries like healthcare, manufacturing, and home assistance, where robots can quickly adapt to different tasks and environments.",
+          "accessibility": "General Audience",
+          "spicy_take": "This could be a game-changer for robot learning, allowing them to finally become the multi-talented helpers we've always imagined, rather than just one-trick ponies.",
+          "reading_time_minutes": 5
+        }
+      },
+      {
+        "id": "2511.21689v1",
+        "title": "ToolOrchestra: Elevating Intelligence via Efficient Model and Tool Orchestration",
+        "authors": [
+          "Hongjin Su",
+          "Shizhe Diao",
+          "Ximing Lu",
+          "Mingjie Liu",
+          "Jiacheng Xu"
+        ],
+        "abstract": "Large language models are powerful generalists, yet solving deep and complex problems such as those of the Humanity's Last Exam (HLE) remains both conceptually challenging and computationally expensive. We show that small orchestrators managing other models and a variety of tools can both push the upper bound of intelligence and improve efficiency in solving difficult agentic tasks. We introduce ToolOrchestra, a method for training small orchestrators that coordinate intelligent tools. ToolOrche...",
+        "published": "2025-11-26T18:59:46Z",
+        "updated": "2025-11-26T18:59:46Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.21689v1",
+        "abs_url": "https://arxiv.org/abs/2511.21689v1",
+        "categories": [
+          "cs.CL",
+          "cs.AI",
+          "cs.LG",
+          "cs.MA"
+        ],
+        "primary_category": "cs.CL",
+        "analysis": {
+          "tldr": "This paper introduces ToolOrchestra, a system that uses smaller models to efficiently manage and coordinate larger AI tools, helping to solve complex problems more effectively and with less computational power.",
+          "eli5": "Think of ToolOrchestra like a skilled conductor leading an orchestra. Instead of one big musician trying to play all the instruments at once (which would be really hard), you have a smaller conductor (the orchestrator) that knows how to best use each musician (the tools and models) to create beautiful music (solve complex problems) efficiently.",
+          "key_contributions": [
+            "The introduction of small orchestrators that can manage multiple models and tools effectively.",
+            "Demonstration that this orchestration method can improve both intelligence and efficiency when tackling difficult tasks.",
+            "A new framework for training these orchestrators specifically designed for complex problem-solving."
+          ],
+          "why_care": "Understanding how to efficiently manage AI tools can lead to faster and more effective solutions in various fields, from healthcare to environmental science, making advanced AI capabilities more accessible and practical in everyday applications.",
+          "accessibility": "General Audience",
+          "spicy_take": "This approach might be the key to unlocking the next level of AI capabilities without the need for supercomputers \u2013 a game changer for resource-constrained environments!",
+          "reading_time_minutes": 5
+        }
+      },
+      {
+        "id": "2511.21688v1",
+        "title": "G$^2$VLM: Geometry Grounded Vision Language Model with Unified 3D Reconstruction and Spatial Reasoning",
+        "authors": [
+          "Wenbo Hu",
+          "Jingli Lin",
+          "Yilin Long",
+          "Yunlong Ran",
+          "Lihan Jiang"
+        ],
+        "abstract": "Vision-Language Models (VLMs) still lack robustness in spatial intelligence, demonstrating poor performance on spatial understanding and reasoning tasks. We attribute this gap to the absence of a visual geometry learning process capable of reconstructing 3D space from 2D images. We present G$^2$VLM, a geometry grounded vision-language model that bridges two fundamental aspects of spatial intelligence: spatial 3D reconstruction and spatial understanding. G$^2$VLM natively leverages learned 3D vis...",
+        "published": "2025-11-26T18:59:39Z",
+        "updated": "2025-11-26T18:59:39Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.21688v1",
+        "abs_url": "https://arxiv.org/abs/2511.21688v1",
+        "categories": [
+          "cs.CV",
+          "cs.AI",
+          "cs.CL"
+        ],
+        "primary_category": "cs.CV",
+        "analysis": {
+          "tldr": "This paper introduces G$^2$VLM, a new model that enhances how machines understand and interpret 3D spaces from 2D images. By combining spatial reasoning with 3D reconstruction, it aims to improve the performance of vision-language models in tasks requiring spatial intelligence.",
+          "eli5": "Imagine if you could look at a flat picture and instantly know how all the objects in it would look in three dimensions, like turning a drawing into a real model. This paper talks about a new system that does just that, making it smarter about understanding where things are in space and how they relate to each other.",
+          "key_contributions": [
+            "G$^2$VLM is the first model to integrate 3D spatial reconstruction with vision-language processing, allowing for better spatial reasoning.",
+            "It addresses the limitations of existing Vision-Language Models by introducing a new way to learn about visual geometry from 2D images.",
+            "The model demonstrates improved performance on various spatial understanding tasks, showcasing its practical benefits in real-world applications."
+          ],
+          "why_care": "Improved spatial reasoning in machines can revolutionize fields like robotics, autonomous driving, and virtual reality, allowing for safer navigation and more immersive experiences. This research brings us a step closer to creating machines that can 'see' and 'think' spatially like humans do.",
+          "accessibility": "Tech-Savvy",
+          "spicy_take": "G$^2$VLM could be the breakthrough we need to finally put spatial reasoning in AI on par with human capabilities, potentially transforming how we interact with technology.",
+          "reading_time_minutes": 5
+        }
+      },
+      {
+        "id": "2511.21686v1",
+        "title": "Matrix: Peer-to-Peer Multi-Agent Synthetic Data Generation Framework",
+        "authors": [
+          "Dong Wang",
+          "Yang Li",
+          "Ansong Ni",
+          "Ching-Feng Yeh",
+          "Youssef Emad"
+        ],
+        "abstract": "Synthetic data has become increasingly important for training large language models, especially when real data is scarce, expensive, or privacy-sensitive. Many such generation tasks require coordinated multi-agent workflows, where specialized agents collaborate to produce data that is higher quality, more diverse, and structurally richer. However, existing frameworks for multi-agent synthesis often depend on a centralized orchestrator, creating scalability bottlenecks, or are hardcoded for speci...",
+        "published": "2025-11-26T18:59:28Z",
+        "updated": "2025-11-26T18:59:28Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.21686v1",
+        "abs_url": "https://arxiv.org/abs/2511.21686v1",
+        "categories": [
+          "cs.CL",
+          "cs.AI",
+          "cs.LG"
+        ],
+        "primary_category": "cs.CL",
+        "analysis": {
+          "tldr": "This paper introduces Matrix, a new framework for generating synthetic data using multiple collaborating agents in a decentralized manner. This approach aims to overcome limitations of existing methods, making synthetic data generation more scalable and efficient.",
+          "eli5": "Imagine you need lots of practice questions to study for an exam, but you can't find enough online. Instead of asking one person to make them all, you gather a group of friends, each with their own strengths, to create questions together. Matrix allows different AI agents to work together in a similar way to generate high-quality synthetic data without relying on a single leader or system, making the process faster and more versatile.",
+          "key_contributions": [
+            "Introduces a decentralized approach for synthetic data generation that improves scalability by eliminating the need for a centralized controller.",
+            "Enhances data quality and diversity through collaborative workflows among specialized agents.",
+            "Addresses existing limitations of multi-agent frameworks, making it easier to adapt to different data generation tasks."
+          ],
+          "why_care": "As AI models require vast amounts of data to train effectively, being able to generate rich, diverse synthetic data can lead to better AI applications in areas like healthcare, finance, and privacy-sensitive situations. This means more innovative solutions can be developed without compromising real data security or accessibility.",
+          "accessibility": "Tech-Savvy",
+          "spicy_take": "This framework could revolutionize how we think about data generation; if adopted widely, it might render traditional data collection methods nearly obsolete.",
+          "reading_time_minutes": 6
+        }
+      },
+      {
+        "id": "2511.21678v1",
+        "title": "Agentic Learner with Grow-and-Refine Multimodal Semantic Memory",
+        "authors": [
+          "Weihao Bo",
+          "Shan Zhang",
+          "Yanpeng Sun",
+          "Jingjing Wu",
+          "Qunyi Xie"
+        ],
+        "abstract": "MLLMs exhibit strong reasoning on isolated queries, yet they operate de novo -- solving each problem independently and often repeating the same mistakes. Existing memory-augmented agents mainly store past trajectories for reuse. However, trajectory-based memory suffers from brevity bias, gradually losing essential domain knowledge. More critically, even in truly multimodal problem-solving settings, it records only a single-modality trace of past behavior, failing to preserve how visual attention...",
+        "published": "2025-11-26T18:55:08Z",
+        "updated": "2025-11-26T18:55:08Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.21678v1",
+        "abs_url": "https://arxiv.org/abs/2511.21678v1",
+        "categories": [
+          "cs.AI",
+          "cs.LG"
+        ],
+        "primary_category": "cs.AI",
+        "analysis": {
+          "tldr": "This paper introduces a new approach for improving how machines learn and remember information, allowing them to reason better and avoid repeating mistakes. The authors propose a system that enhances memory by combining different types of information, rather than just relying on past experiences.",
+          "eli5": "Imagine teaching a robot to solve puzzles. Right now, it learns each puzzle separately, often making the same mistakes over and over. This paper suggests a smarter way for the robot to remember not just the puzzles it has solved, but also how it solved them and from different angles\u2014like remembering both the picture and the instructions. This way, it can become a better problem solver.",
+          "key_contributions": [
+            "Introduces a multimodal memory system that integrates various types of information for better problem-solving.",
+            "Addresses the limitations of existing memory-augmented agents that only store brief, single-modal experiences.",
+            "Provides a framework to enhance the reasoning capabilities of machines, making them more efficient and less prone to errors."
+          ],
+          "why_care": "As technology increasingly integrates into our daily lives, improving how machines learn from past experiences can lead to smarter AI systems in areas like healthcare, education, and autonomous vehicles. This means more reliable and effective tools that can assist us in complex tasks.",
+          "accessibility": "Tech-Savvy",
+          "spicy_take": "If we don't start enhancing machine memory now, we're risking the development of systems that will always leave us with a 'groundhog day' of errors, making our reliance on AI less trustworthy.",
+          "reading_time_minutes": 5
+        }
+      },
+      {
+        "id": "2511.21675v1",
+        "title": "On Evolution-Based Models for Experimentation Under Interference",
+        "authors": [
+          "Sadegh Shirani",
+          "Mohsen Bayati"
+        ],
+        "abstract": "Causal effect estimation in networked systems is central to data-driven decision making. In such settings, interventions on one unit can spill over to others, and in complex physical or social systems, the interaction pathways driving these interference structures remain largely unobserved. We argue that for identifying population-level causal effects, it is not necessary to recover the exact network structure; instead, it suffices to characterize how those interactions contribute to the evoluti...",
+        "published": "2025-11-26T18:53:46Z",
+        "updated": "2025-11-26T18:53:46Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.21675v1",
+        "abs_url": "https://arxiv.org/abs/2511.21675v1",
+        "categories": [
+          "stat.ML",
+          "cs.LG",
+          "cs.SI",
+          "econ.EM"
+        ],
+        "primary_category": "stat.ML",
+        "analysis": {
+          "tldr": "This paper explores how to understand the effects of actions in interconnected systems, like social networks or ecosystems, without needing a complete map of all interactions. It emphasizes that knowing the nature of these interactions is key to making better decisions based on data.",
+          "eli5": "Imagine you have a group of friends who influence each other's decisions, like whether to try a new restaurant. This paper suggests that instead of figuring out exactly how each friend connects to every other friend, you can still make good guesses about how popular a restaurant will be based on how friends affect each other. It's all about understanding the flow of influence.",
+          "key_contributions": [
+            "This work proposes a new approach to estimate causal effects in complex networks without requiring a detailed understanding of the entire network's structure.",
+            "It demonstrates how characterizing the nature of interactions can lead to more effective decision-making in real-world scenarios.",
+            "The authors provide theoretical foundations that could inform future research and applications in various fields, including economics and public health."
+          ],
+          "why_care": "Understanding how interventions affect interconnected systems is crucial for making informed decisions in everything from public health policies to marketing strategies. This research helps refine our methods of analyzing these effects, leading to better outcomes in real-world situations.",
+          "accessibility": "Tech-Savvy",
+          "spicy_take": "Relying on overly complex models may be the enemy of good decision-making; sometimes simpler approaches that capture the essence of interactions are all we need.",
+          "reading_time_minutes": 5
+        }
+      },
+      {
+        "id": "2511.21669v1",
+        "title": "DSD: A Distributed Speculative Decoding Solution for Edge-Cloud Agile Large Model Serving",
+        "authors": [
+          "Fengze Yu",
+          "Leshu Li",
+          "Brad McDanel",
+          "Saiqian Zhang"
+        ],
+        "abstract": "Large language model (LLM) inference often suffers from high decoding latency and limited scalability across heterogeneous edge-cloud environments. Existing speculative decoding (SD) techniques accelerate token generation but remain confined to single-node execution. We propose DSD, a distributed speculative decoding framework that extends SD to multi-device deployments through coordinated draft-target execution. Given the lack of prior work on simulating this paradigm, we first introduce DSD-Si...",
+        "published": "2025-11-26T18:47:25Z",
+        "updated": "2025-11-26T18:47:25Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.21669v1",
+        "abs_url": "https://arxiv.org/abs/2511.21669v1",
+        "categories": [
+          "cs.LG",
+          "cs.DC"
+        ],
+        "primary_category": "cs.LG",
+        "analysis": {
+          "tldr": "This paper introduces DSD, a new framework that improves the speed and scalability of large language model inference by allowing multiple devices to work together on generating text more efficiently.",
+          "eli5": "Imagine you're trying to bake a cake, but you're only allowed to use one oven. It takes a long time! Now, picture having a whole team of ovens working together, each baking a part of the cake at the same time. DSD does this for language models, making them faster and able to handle more requests from users by using multiple devices.",
+          "key_contributions": [
+            "The development of a distributed speculative decoding framework, enabling multi-device operation for faster text generation.",
+            "Innovative coordinated draft-target execution that allows devices to work together seamlessly.",
+            "Introduction of a simulation model (DSD-Sim) to analyze and optimize this new framework."
+          ],
+          "why_care": "As large language models become more integrated into everyday applications, faster response times and better scalability mean that users can get answers more quickly and reliably, making technology more accessible and efficient.",
+          "accessibility": "Tech-Savvy",
+          "spicy_take": "This approach could redefine how we think about real-time AI applications, potentially making single-device setups a thing of the past.",
+          "reading_time_minutes": 5
+        }
+      },
+      {
+        "id": "2511.21668v1",
+        "title": "Through the telecom lens: Are all training samples important?",
+        "authors": [
+          "Shruti Bothe",
+          "Illyyne Saffar",
+          "Aurelie Boisbunon",
+          "Hasan Farooq",
+          "Julien Forgeat"
+        ],
+        "abstract": "The rise of AI in telecommunications, from optimizing Radio Access Networks to managing user experience, has sharply increased data volumes and training demands. Telecom data is often noisy, high-dimensional, costly to store, process, and label. Despite Ai's critical role, standard workflows still assume all training samples contribute equally. On the other hand, next generation systems require AI models that are accurate, efficient, and sustainable.The paper questions the assumptions of equal i...",
+        "published": "2025-11-26T18:44:02Z",
+        "updated": "2025-11-26T18:44:02Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.21668v1",
+        "abs_url": "https://arxiv.org/abs/2511.21668v1",
+        "categories": [
+          "cs.LG",
+          "cs.AI"
+        ],
+        "primary_category": "cs.LG",
+        "analysis": {
+          "tldr": "This paper explores whether all data samples used to train AI in telecommunications are equally important, suggesting that some may be more valuable than others. This could lead to more efficient and sustainable AI systems in an industry overwhelmed by data.",
+          "eli5": "Imagine trying to teach a dog new tricks using every single treat you have, even the stale ones. This paper argues that when training AI in telecom, we shouldn't treat every piece of data the same; some data can be more useful than others for making better AI systems.",
+          "key_contributions": [
+            "It challenges the traditional belief that all training data is equally important for AI models.",
+            "It proposes methods to identify and prioritize the most valuable training samples.",
+            "It emphasizes the need for AI in telecom to be not just accurate, but also efficient and sustainable in handling vast amounts of data."
+          ],
+          "why_care": "As telecom companies face exploding data volumes, improving how we use this data can lead to better user experiences, lower costs, and a more sustainable approach to technology. Everyone benefits from faster, more reliable services.",
+          "accessibility": "General Audience",
+          "spicy_take": "If the telecom industry doesn't embrace smarter data utilization, we'll be stuck with outdated AI that does more harm than good\u2014like trying to fill a bathtub with a garden hose.",
+          "reading_time_minutes": 5
+        }
+      },
+      {
+        "id": "2511.21667v1",
+        "title": "Escaping the Verifier: Learning to Reason via Demonstrations",
+        "authors": [
+          "Locke Cai",
+          "Ivan Provilkov"
+        ],
+        "abstract": "Training Large Language Models (LLMs) to reason often relies on Reinforcement Learning (RL) with task-specific verifiers. However, many real-world reasoning-intensive tasks lack verifiers, despite offering abundant expert demonstrations that remain under-utilized for reasoning-focused training. We introduce RARO (Relativistic Adversarial Reasoning Optimization) that learns strong reasoning capabilities from only expert demonstrations via Inverse Reinforcement Learning. Our method sets up an adve...",
+        "published": "2025-11-26T18:42:52Z",
+        "updated": "2025-11-26T18:42:52Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.21667v1",
+        "abs_url": "https://arxiv.org/abs/2511.21667v1",
+        "categories": [
+          "cs.LG",
+          "cs.AI"
+        ],
+        "primary_category": "cs.LG",
+        "analysis": {
+          "tldr": "This paper introduces a new method called RARO that helps large language models learn reasoning skills from expert demonstrations instead of relying on specific task verifiers. It's a step towards making reasoning in AI more efficient and applicable to real-world scenarios.",
+          "eli5": "Imagine teaching a robot to solve puzzles by showing it how experts do it, instead of giving it a strict set of rules. This paper shows how a new technique can help AI learn to think better by observing smart people, even when there aren't clear guidelines to follow.",
+          "key_contributions": [
+            "Introduces RARO, a novel method for teaching reasoning through expert demonstrations instead of relying on specific verifiers.",
+            "Utilizes Inverse Reinforcement Learning to derive reasoning capabilities from examples rather than explicit instructions.",
+            "Demonstrates the potential of this approach on tasks where traditional verification methods are not available."
+          ],
+          "why_care": "This work is important because it moves AI closer to understanding and reasoning like humans do, which can lead to better decision-making tools in fields like healthcare, finance, and automated problem-solving.",
+          "accessibility": "Tech-Savvy",
+          "spicy_take": "This could revolutionize how we train AI, making it more intuitive and less reliant on rigid frameworks, but it also raises questions about accountability in AI decision-making.",
+          "reading_time_minutes": 6
+        }
+      }
+    ],
     "summary": {
-      "total_analyzed": 0,
+      "total_analyzed": 10,
       "by_accessibility": {
-        "General Audience": 0,
-        "Tech-Savvy": 0,
+        "General Audience": 3,
+        "Tech-Savvy": 7,
         "Researchers Only": 0
       },
-      "avg_reading_time": 0
+      "avg_reading_time": 5.2
     }
   },
   "metadata": {
@@ -21,19 +362,19 @@
     "style": "blog-accessible"
   },
   "costs": {
-    "execution_time": 0.49353528022766113,
-    "execution_minutes": 0.008225588003794353,
-    "github_actions": 6.580470403035482e-05,
+    "execution_time": 85.40268588066101,
+    "execution_minutes": 1.423378098011017,
+    "github_actions": 0.011387024784088135,
     "openai": {
-      "input": 0.0,
-      "output": 0.0,
-      "total": 0.0
+      "input": 0.00049755,
+      "output": 0.0018744,
+      "total": 0.0023719500000000003
     },
-    "total": 6.580470403035482e-05,
+    "total": 0.013758974784088135,
     "token_usage": {
-      "prompt_tokens": 0,
-      "completion_tokens": 0,
-      "total_tokens": 0
+      "prompt_tokens": 3317,
+      "completion_tokens": 3124,
+      "total_tokens": 6441
     }
   }
 }
