@@ -1,353 +1,37 @@
 {
   "agent": "agent-a-paper-fetcher",
-  "timestamp": "2025-11-29T09:02:59.589428",
+  "timestamp": "2025-11-30T09:02:39.195002",
   "status": "completed",
   "data": {
-    "papers": [
-      {
-        "id": "2511.21692v1",
-        "title": "Revisiting Generalization Across Difficulty Levels: It's Not So Easy",
-        "authors": [
-          "Yeganeh Kordi",
-          "Nihal V. Nayak",
-          "Max Zuo",
-          "Ilana Nguyen",
-          "Stephen H. Bach"
-        ],
-        "abstract": "We investigate how well large language models (LLMs) generalize across different task difficulties, a key question for effective data curation and evaluation. Existing research is mixed regarding whether training on easier or harder data leads to better results, and whether those gains come on easier or harder test data. We address this question by conducting a systematic evaluation of LLMs' generalization across models, datasets, and fine-grained groups of example difficulty. We rank examples i...",
-        "published": "2025-11-26T18:59:57Z",
-        "updated": "2025-11-26T18:59:57Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.21692v1",
-        "abs_url": "https://arxiv.org/abs/2511.21692v1",
-        "categories": [
-          "cs.CL",
-          "cs.AI"
-        ],
-        "primary_category": "cs.CL"
-      },
-      {
-        "id": "2511.21690v1",
-        "title": "TraceGen: World Modeling in 3D Trace Space Enables Learning from Cross-Embodiment Videos",
-        "authors": [
-          "Seungjae Lee",
-          "Yoonkyo Jung",
-          "Inkook Chun",
-          "Yao-Chih Lee",
-          "Zikui Cai"
-        ],
-        "abstract": "Learning new robot tasks on new platforms and in new scenes from only a handful of demonstrations remains challenging. While videos of other embodiments - humans and different robots - are abundant, differences in embodiment, camera, and environment hinder their direct use. We address the small-data problem by introducing a unifying, symbolic representation - a compact 3D \"trace-space\" of scene-level trajectories - that enables learning from cross-embodiment, cross-environment, and cross-task vi...",
-        "published": "2025-11-26T18:59:55Z",
-        "updated": "2025-11-26T18:59:55Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.21690v1",
-        "abs_url": "https://arxiv.org/abs/2511.21690v1",
-        "categories": [
-          "cs.RO",
-          "cs.CV",
-          "cs.LG"
-        ],
-        "primary_category": "cs.RO"
-      },
-      {
-        "id": "2511.21689v1",
-        "title": "ToolOrchestra: Elevating Intelligence via Efficient Model and Tool Orchestration",
-        "authors": [
-          "Hongjin Su",
-          "Shizhe Diao",
-          "Ximing Lu",
-          "Mingjie Liu",
-          "Jiacheng Xu"
-        ],
-        "abstract": "Large language models are powerful generalists, yet solving deep and complex problems such as those of the Humanity's Last Exam (HLE) remains both conceptually challenging and computationally expensive. We show that small orchestrators managing other models and a variety of tools can both push the upper bound of intelligence and improve efficiency in solving difficult agentic tasks. We introduce ToolOrchestra, a method for training small orchestrators that coordinate intelligent tools. ToolOrche...",
-        "published": "2025-11-26T18:59:46Z",
-        "updated": "2025-11-26T18:59:46Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.21689v1",
-        "abs_url": "https://arxiv.org/abs/2511.21689v1",
-        "categories": [
-          "cs.CL",
-          "cs.AI",
-          "cs.LG",
-          "cs.MA"
-        ],
-        "primary_category": "cs.CL"
-      },
-      {
-        "id": "2511.21688v1",
-        "title": "G$^2$VLM: Geometry Grounded Vision Language Model with Unified 3D Reconstruction and Spatial Reasoning",
-        "authors": [
-          "Wenbo Hu",
-          "Jingli Lin",
-          "Yilin Long",
-          "Yunlong Ran",
-          "Lihan Jiang"
-        ],
-        "abstract": "Vision-Language Models (VLMs) still lack robustness in spatial intelligence, demonstrating poor performance on spatial understanding and reasoning tasks. We attribute this gap to the absence of a visual geometry learning process capable of reconstructing 3D space from 2D images. We present G$^2$VLM, a geometry grounded vision-language model that bridges two fundamental aspects of spatial intelligence: spatial 3D reconstruction and spatial understanding. G$^2$VLM natively leverages learned 3D vis...",
-        "published": "2025-11-26T18:59:39Z",
-        "updated": "2025-11-26T18:59:39Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.21688v1",
-        "abs_url": "https://arxiv.org/abs/2511.21688v1",
-        "categories": [
-          "cs.CV",
-          "cs.AI",
-          "cs.CL"
-        ],
-        "primary_category": "cs.CV"
-      },
-      {
-        "id": "2511.21686v1",
-        "title": "Matrix: Peer-to-Peer Multi-Agent Synthetic Data Generation Framework",
-        "authors": [
-          "Dong Wang",
-          "Yang Li",
-          "Ansong Ni",
-          "Ching-Feng Yeh",
-          "Youssef Emad"
-        ],
-        "abstract": "Synthetic data has become increasingly important for training large language models, especially when real data is scarce, expensive, or privacy-sensitive. Many such generation tasks require coordinated multi-agent workflows, where specialized agents collaborate to produce data that is higher quality, more diverse, and structurally richer. However, existing frameworks for multi-agent synthesis often depend on a centralized orchestrator, creating scalability bottlenecks, or are hardcoded for speci...",
-        "published": "2025-11-26T18:59:28Z",
-        "updated": "2025-11-26T18:59:28Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.21686v1",
-        "abs_url": "https://arxiv.org/abs/2511.21686v1",
-        "categories": [
-          "cs.CL",
-          "cs.AI",
-          "cs.LG"
-        ],
-        "primary_category": "cs.CL"
-      },
-      {
-        "id": "2511.21678v1",
-        "title": "Agentic Learner with Grow-and-Refine Multimodal Semantic Memory",
-        "authors": [
-          "Weihao Bo",
-          "Shan Zhang",
-          "Yanpeng Sun",
-          "Jingjing Wu",
-          "Qunyi Xie"
-        ],
-        "abstract": "MLLMs exhibit strong reasoning on isolated queries, yet they operate de novo -- solving each problem independently and often repeating the same mistakes. Existing memory-augmented agents mainly store past trajectories for reuse. However, trajectory-based memory suffers from brevity bias, gradually losing essential domain knowledge. More critically, even in truly multimodal problem-solving settings, it records only a single-modality trace of past behavior, failing to preserve how visual attention...",
-        "published": "2025-11-26T18:55:08Z",
-        "updated": "2025-11-26T18:55:08Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.21678v1",
-        "abs_url": "https://arxiv.org/abs/2511.21678v1",
-        "categories": [
-          "cs.AI",
-          "cs.LG"
-        ],
-        "primary_category": "cs.AI"
-      },
-      {
-        "id": "2511.21675v1",
-        "title": "On Evolution-Based Models for Experimentation Under Interference",
-        "authors": [
-          "Sadegh Shirani",
-          "Mohsen Bayati"
-        ],
-        "abstract": "Causal effect estimation in networked systems is central to data-driven decision making. In such settings, interventions on one unit can spill over to others, and in complex physical or social systems, the interaction pathways driving these interference structures remain largely unobserved. We argue that for identifying population-level causal effects, it is not necessary to recover the exact network structure; instead, it suffices to characterize how those interactions contribute to the evoluti...",
-        "published": "2025-11-26T18:53:46Z",
-        "updated": "2025-11-26T18:53:46Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.21675v1",
-        "abs_url": "https://arxiv.org/abs/2511.21675v1",
-        "categories": [
-          "stat.ML",
-          "cs.LG",
-          "cs.SI",
-          "econ.EM"
-        ],
-        "primary_category": "stat.ML"
-      },
-      {
-        "id": "2511.21669v1",
-        "title": "DSD: A Distributed Speculative Decoding Solution for Edge-Cloud Agile Large Model Serving",
-        "authors": [
-          "Fengze Yu",
-          "Leshu Li",
-          "Brad McDanel",
-          "Saiqian Zhang"
-        ],
-        "abstract": "Large language model (LLM) inference often suffers from high decoding latency and limited scalability across heterogeneous edge-cloud environments. Existing speculative decoding (SD) techniques accelerate token generation but remain confined to single-node execution. We propose DSD, a distributed speculative decoding framework that extends SD to multi-device deployments through coordinated draft-target execution. Given the lack of prior work on simulating this paradigm, we first introduce DSD-Si...",
-        "published": "2025-11-26T18:47:25Z",
-        "updated": "2025-11-26T18:47:25Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.21669v1",
-        "abs_url": "https://arxiv.org/abs/2511.21669v1",
-        "categories": [
-          "cs.LG",
-          "cs.DC"
-        ],
-        "primary_category": "cs.LG"
-      },
-      {
-        "id": "2511.21668v1",
-        "title": "Through the telecom lens: Are all training samples important?",
-        "authors": [
-          "Shruti Bothe",
-          "Illyyne Saffar",
-          "Aurelie Boisbunon",
-          "Hasan Farooq",
-          "Julien Forgeat"
-        ],
-        "abstract": "The rise of AI in telecommunications, from optimizing Radio Access Networks to managing user experience, has sharply increased data volumes and training demands. Telecom data is often noisy, high-dimensional, costly to store, process, and label. Despite Ai's critical role, standard workflows still assume all training samples contribute equally. On the other hand, next generation systems require AI models that are accurate, efficient, and sustainable.The paper questions the assumptions of equal i...",
-        "published": "2025-11-26T18:44:02Z",
-        "updated": "2025-11-26T18:44:02Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.21668v1",
-        "abs_url": "https://arxiv.org/abs/2511.21668v1",
-        "categories": [
-          "cs.LG",
-          "cs.AI"
-        ],
-        "primary_category": "cs.LG"
-      },
-      {
-        "id": "2511.21667v1",
-        "title": "Escaping the Verifier: Learning to Reason via Demonstrations",
-        "authors": [
-          "Locke Cai",
-          "Ivan Provilkov"
-        ],
-        "abstract": "Training Large Language Models (LLMs) to reason often relies on Reinforcement Learning (RL) with task-specific verifiers. However, many real-world reasoning-intensive tasks lack verifiers, despite offering abundant expert demonstrations that remain under-utilized for reasoning-focused training. We introduce RARO (Relativistic Adversarial Reasoning Optimization) that learns strong reasoning capabilities from only expert demonstrations via Inverse Reinforcement Learning. Our method sets up an adve...",
-        "published": "2025-11-26T18:42:52Z",
-        "updated": "2025-11-26T18:42:52Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.21667v1",
-        "abs_url": "https://arxiv.org/abs/2511.21667v1",
-        "categories": [
-          "cs.LG",
-          "cs.AI"
-        ],
-        "primary_category": "cs.LG"
-      },
-      {
-        "id": "2511.21663v1",
-        "title": "Attention-Guided Patch-Wise Sparse Adversarial Attacks on Vision-Language-Action Models",
-        "authors": [
-          "Naifu Zhang",
-          "Wei Tao",
-          "Xi Xiao",
-          "Qianpu Sun",
-          "Yuxin Zheng"
-        ],
-        "abstract": "In recent years, Vision-Language-Action (VLA) models in embodied intelligence have developed rapidly. However, existing adversarial attack methods require costly end-to-end training and often generate noticeable perturbation patches. To address these limitations, we propose ADVLA, a framework that directly applies adversarial perturbations on features projected from the visual encoder into the textual feature space. ADVLA efficiently disrupts downstream action predictions under low-amplitude con...",
-        "published": "2025-11-26T18:37:54Z",
-        "updated": "2025-11-26T18:37:54Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.21663v1",
-        "abs_url": "https://arxiv.org/abs/2511.21663v1",
-        "categories": [
-          "cs.CV",
-          "cs.AI"
-        ],
-        "primary_category": "cs.CV"
-      },
-      {
-        "id": "2511.21654v1",
-        "title": "EvilGenie: A Reward Hacking Benchmark",
-        "authors": [
-          "Jonathan Gabor",
-          "Jayson Lynch",
-          "Jonathan Rosenfeld"
-        ],
-        "abstract": "We introduce EvilGenie, a benchmark for reward hacking in programming settings. We source problems from LiveCodeBench and create an environment in which agents can easily reward hack, such as by hardcoding test cases or editing the testing files. We measure reward hacking in three ways: held out unit tests, LLM judges, and test file edit detection. We verify these methods against human review and each other. We find the LLM judge to be highly effective at detecting reward hacking in unambiguous ...",
-        "published": "2025-11-26T18:27:17Z",
-        "updated": "2025-11-26T18:27:17Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.21654v1",
-        "abs_url": "https://arxiv.org/abs/2511.21654v1",
-        "categories": [
-          "cs.LG"
-        ],
-        "primary_category": "cs.LG"
-      },
-      {
-        "id": "2511.21652v1",
-        "title": "Continual Error Correction on Low-Resource Devices",
-        "authors": [
-          "Kirill Paramonov",
-          "Mete Ozay",
-          "Aristeidis Mystakidis",
-          "Nikolaos Tsalikidis",
-          "Dimitrios Sotos"
-        ],
-        "abstract": "The proliferation of AI models in everyday devices has highlighted a critical challenge: prediction errors that degrade user experience. While existing solutions focus on error detection, they rarely provide efficient correction mechanisms, especially for resource-constrained devices. We present a novel system enabling users to correct AI misclassifications through few-shot learning, requiring minimal computational resources and storage. Our approach combines server-side foundation model trainin...",
-        "published": "2025-11-26T18:24:11Z",
-        "updated": "2025-11-26T18:24:11Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.21652v1",
-        "abs_url": "https://arxiv.org/abs/2511.21652v1",
-        "categories": [
-          "cs.CV",
-          "cs.AI",
-          "cs.LG"
-        ],
-        "primary_category": "cs.CV"
-      },
-      {
-        "id": "2511.21638v1",
-        "title": "Aligning LLMs Toward Multi-Turn Conversational Outcomes Using Iterative PPO",
-        "authors": [
-          "Daniel R. Jiang",
-          "Jalaj Bhandari",
-          "Yukai Yang",
-          "R\u00e9mi Munos",
-          "Tyler Lu"
-        ],
-        "abstract": "Optimizing large language models (LLMs) for multi-turn conversational outcomes remains a significant challenge, especially in goal-oriented settings like AI marketing or sales agents who facilitate transactions via messaging platforms. The difficulty stems from sparse, long-horizon rewards and the discrepancy between response-level planning and token-level generation. In this technical note, we propose a formal reduction of the multi-turn RL problem into a sequence of single-turn RLHF-style prob...",
-        "published": "2025-11-26T18:12:16Z",
-        "updated": "2025-11-26T18:12:16Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.21638v1",
-        "abs_url": "https://arxiv.org/abs/2511.21638v1",
-        "categories": [
-          "cs.LG"
-        ],
-        "primary_category": "cs.LG"
-      },
-      {
-        "id": "2511.21636v1",
-        "title": "Bridging the Unavoidable A Priori: A Framework for Comparative Causal Modeling",
-        "authors": [
-          "Peter S. Hovmand",
-          "Kari O'Donnell",
-          "Callie Ogland-Hand",
-          "Brian Biroscak",
-          "Douglas D. Gunzler"
-        ],
-        "abstract": "AI/ML models have rapidly gained prominence as innovations for solving previously unsolved problems and their unintended consequences from amplifying human biases. Advocates for responsible AI/ML have sought ways to draw on the richer causal models of system dynamics to better inform the development of responsible AI/ML. However, a major barrier to advancing this work is the difficulty of bringing together methods rooted in different underlying assumptions (i.e., Dana Meadow's \"the unavoidable a...",
-        "published": "2025-11-26T18:08:20Z",
-        "updated": "2025-11-26T18:08:20Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.21636v1",
-        "abs_url": "https://arxiv.org/abs/2511.21636v1",
-        "categories": [
-          "cs.AI",
-          "stat.AP",
-          "stat.CO",
-          "stat.ME",
-          "stat.ML"
-        ],
-        "primary_category": "cs.AI"
-      }
-    ],
-    "count": 15,
+    "papers": [],
+    "count": 0,
     "categories": [
       "cs.AI",
       "cs.LG",
       "cs.CL"
     ],
-    "fetch_date": "2025-11-29"
+    "fetch_date": "2025-11-30"
   },
   "metadata": {
     "source": "arXiv API",
     "query": "cat:cs.AI OR cat:cs.LG OR cat:cs.CL",
     "deduplication": {
       "total_fetched": 15,
-      "new_papers": 15,
-      "duplicates_filtered": 0,
-      "last_fetch": "2025-11-28T09:04:27.960536"
+      "new_papers": 0,
+      "duplicates_filtered": 15,
+      "last_fetch": "2025-11-29T09:02:59.589428"
     }
   },
   "costs": {
-    "execution_time": 2.1577372550964355,
-    "execution_minutes": 0.03596228758494059,
-    "github_actions": 0.00028769830067952476,
+    "execution_time": 0.6994261741638184,
+    "execution_minutes": 0.011657102902730306,
+    "github_actions": 9.325682322184245e-05,
     "openai": {
       "input": 0,
       "output": 0,
       "total": 0
     },
-    "total": 0.00028769830067952476,
+    "total": 9.325682322184245e-05,
     "token_usage": {}
   }
 }
