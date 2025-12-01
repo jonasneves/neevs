@@ -1,37 +1,342 @@
 {
   "agent": "agent-a-paper-fetcher",
-  "timestamp": "2025-11-30T09:02:39.195002",
+  "timestamp": "2025-12-01T09:05:27.945831",
   "status": "completed",
   "data": {
-    "papers": [],
-    "count": 0,
+    "papers": [
+      {
+        "id": "2511.23476v1",
+        "title": "Thinking by Doing: Building Efficient World Model Reasoning in LLMs via Multi-turn Interaction",
+        "authors": [
+          "Bao Shu",
+          "Yan Cai",
+          "Jianjian Sun",
+          "Chunrui Han",
+          "En Yu"
+        ],
+        "abstract": "Developing robust world model reasoning is crucial for large language model (LLM) agents to plan and interact in complex environments. While multi-turn interaction offers a superior understanding of environmental dynamics via authentic feedback, current approaches often impose a rigid reasoning process, which constrains the model's active learning, ultimately hindering efficient world model reasoning. To address these issues, we explore world-model internalization through efficient interaction a...",
+        "published": "2025-11-28T18:59:47Z",
+        "updated": "2025-11-28T18:59:47Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.23476v1",
+        "abs_url": "https://arxiv.org/abs/2511.23476v1",
+        "categories": [
+          "cs.AI"
+        ],
+        "primary_category": "cs.AI"
+      },
+      {
+        "id": "2511.23473v1",
+        "title": "ThetaEvolve: Test-time Learning on Open Problems",
+        "authors": [
+          "Yiping Wang",
+          "Shao-Rong Su",
+          "Zhiyuan Zeng",
+          "Eva Xu",
+          "Liliang Ren"
+        ],
+        "abstract": "Recent advances in large language models (LLMs) have enabled breakthroughs in mathematical discovery, exemplified by AlphaEvolve, a closed-source system that evolves programs to improve bounds on open problems. However, it relies on ensembles of frontier LLMs to achieve new bounds and is a pure inference system that models cannot internalize the evolving strategies. We introduce ThetaEvolve, an open-source framework that simplifies and extends AlphaEvolve to efficiently scale both in-context lea...",
+        "published": "2025-11-28T18:58:14Z",
+        "updated": "2025-11-28T18:58:14Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.23473v1",
+        "abs_url": "https://arxiv.org/abs/2511.23473v1",
+        "categories": [
+          "cs.LG",
+          "cs.CL"
+        ],
+        "primary_category": "cs.LG"
+      },
+      {
+        "id": "2511.23465v1",
+        "title": "SmallWorlds: Assessing Dynamics Understanding of World Models in Isolated Environments",
+        "authors": [
+          "Xinyi Li",
+          "Zaishuo Xia",
+          "Weyl Lu",
+          "Chenjie Hao",
+          "Yubei Chen"
+        ],
+        "abstract": "Current world models lack a unified and controlled setting for systematic evaluation, making it difficult to assess whether they truly capture the underlying rules that govern environment dynamics. In this work, we address this open challenge by introducing the SmallWorld Benchmark, a testbed designed to assess world model capability under isolated and precisely controlled dynamics without relying on handcrafted reward signals. Using this benchmark, we conduct comprehensive experiments in the fu...",
+        "published": "2025-11-28T18:56:02Z",
+        "updated": "2025-11-28T18:56:02Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.23465v1",
+        "abs_url": "https://arxiv.org/abs/2511.23465v1",
+        "categories": [
+          "cs.LG"
+        ],
+        "primary_category": "cs.LG"
+      },
+      {
+        "id": "2511.23455v1",
+        "title": "The Price of Progress: Algorithmic Efficiency and the Falling Cost of AI Inference",
+        "authors": [
+          "Hans Gundlach",
+          "Jayson Lynch",
+          "Matthias Mertens",
+          "Neil Thompson"
+        ],
+        "abstract": "Language models have seen enormous progress on advanced benchmarks in recent years, but much of this progress has only been possible by using more costly models. Benchmarks may therefore present a warped picture of progress in practical capabilities per dollar. To remedy this, we use data from Artificial Analysis and Epoch AI to form the largest dataset of current and historical prices to run benchmarks to date. We find that the price for a given level of benchmark performance has decreased rema...",
+        "published": "2025-11-28T18:47:33Z",
+        "updated": "2025-11-28T18:47:33Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.23455v1",
+        "abs_url": "https://arxiv.org/abs/2511.23455v1",
+        "categories": [
+          "cs.LG",
+          "cs.AI",
+          "cs.CY"
+        ],
+        "primary_category": "cs.LG"
+      },
+      {
+        "id": "2511.23449v1",
+        "title": "Physics-Informed Neural Networks for Thermophysical Property Retrieval",
+        "authors": [
+          "Ali Waseem",
+          "Malcolm Mielle"
+        ],
+        "abstract": "Inverse heat problems refer to the estimation of material thermophysical properties given observed or known heat diffusion behaviour. Inverse heat problems have wide-ranging uses, but a critical application lies in quantifying how building facade renovation reduces thermal transmittance, a key determinant of building energy efficiency. However, solving inverse heat problems with non-invasive data collected in situ is error-prone due to environmental variability or deviations from theoretically a...",
+        "published": "2025-11-28T18:41:08Z",
+        "updated": "2025-11-28T18:41:08Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.23449v1",
+        "abs_url": "https://arxiv.org/abs/2511.23449v1",
+        "categories": [
+          "cs.LG",
+          "cs.AI",
+          "cs.CE",
+          "cs.CV"
+        ],
+        "primary_category": "cs.LG"
+      },
+      {
+        "id": "2511.23443v1",
+        "title": "Provable Benefits of Sinusoidal Activation for Modular Addition",
+        "authors": [
+          "Tianlong Huang",
+          "Zhiyuan Li"
+        ],
+        "abstract": "This paper studies the role of activation functions in learning modular addition with two-layer neural networks. We first establish a sharp expressivity gap: sine MLPs admit width-$2$ exact realizations for any fixed length $m$ and, with bias, width-$2$ exact realizations uniformly over all lengths. In contrast, the width of ReLU networks must scale linearly with $m$ to interpolate, and they cannot simultaneously fit two lengths with different residues modulo $p$. We then provide a novel Nataraj...",
+        "published": "2025-11-28T18:37:03Z",
+        "updated": "2025-11-28T18:37:03Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.23443v1",
+        "abs_url": "https://arxiv.org/abs/2511.23443v1",
+        "categories": [
+          "cs.LG",
+          "stat.ML"
+        ],
+        "primary_category": "cs.LG"
+      },
+      {
+        "id": "2511.23442v1",
+        "title": "ASTRO: Adaptive Stitching via Dynamics-Guided Trajectory Rollouts",
+        "authors": [
+          "Hang Yu",
+          "Di Zhang",
+          "Qiwei Du",
+          "Yanping Zhao",
+          "Hai Zhang"
+        ],
+        "abstract": "Offline reinforcement learning (RL) enables agents to learn optimal policies from pre-collected datasets. However, datasets containing suboptimal and fragmented trajectories present challenges for reward propagation, resulting in inaccurate value estimation and degraded policy performance. While trajectory stitching via generative models offers a promising solution, existing augmentation methods frequently produce trajectories that are either confined to the support of the behavior policy or vio...",
+        "published": "2025-11-28T18:35:37Z",
+        "updated": "2025-11-28T18:35:37Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.23442v1",
+        "abs_url": "https://arxiv.org/abs/2511.23442v1",
+        "categories": [
+          "cs.LG",
+          "cs.AI"
+        ],
+        "primary_category": "cs.LG"
+      },
+      {
+        "id": "2511.23440v1",
+        "title": "Accelerated Execution of Bayesian Neural Networks using a Single Probabilistic Forward Pass and Code Generation",
+        "authors": [
+          "Bernhard Klein",
+          "Falk Selker",
+          "Hendrik Borras",
+          "Sophie Steger",
+          "Franz Pernkopf"
+        ],
+        "abstract": "Machine learning models perform well across domains such as diagnostics, weather forecasting, NLP, and autonomous driving, but their limited uncertainty handling restricts use in safety-critical settings. Traditional neural networks often fail to detect out-of-domain (OOD) data and may output confident yet incorrect predictions. Bayesian neural networks (BNNs) address this by providing probabilistic estimates, but incur high computational cost because predictions require sampling weight distribu...",
+        "published": "2025-11-28T18:35:20Z",
+        "updated": "2025-11-28T18:35:20Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.23440v1",
+        "abs_url": "https://arxiv.org/abs/2511.23440v1",
+        "categories": [
+          "cs.LG",
+          "cs.AR",
+          "cs.DC",
+          "stat.ML"
+        ],
+        "primary_category": "cs.LG"
+      },
+      {
+        "id": "2511.23436v1",
+        "title": "Towards Continuous Intelligence Growth: Self-Training, Continual Learning, and Dual-Scale Memory in SuperIntelliAgent",
+        "authors": [
+          "Jianzhe Lin",
+          "Zeyu Pan",
+          "Yun Zhu",
+          "Ruiqi Song",
+          "Jining Yang"
+        ],
+        "abstract": "We introduce SuperIntelliAgent, an agentic learning framework that couples a trainable small diffusion model (the learner) with a frozen large language model (the verifier) to enable continual intelligence growth through self-supervised interaction. Unlike conventional supervised fine-tuning, SuperIntelliAgent learns autonomously without annotation: the learner generates candidate outputs, the verifier evaluates them through step-by-step reasoning, and their interaction produces chosen/rejected ...",
+        "published": "2025-11-28T18:32:49Z",
+        "updated": "2025-11-28T18:32:49Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.23436v1",
+        "abs_url": "https://arxiv.org/abs/2511.23436v1",
+        "categories": [
+          "cs.AI"
+        ],
+        "primary_category": "cs.AI"
+      },
+      {
+        "id": "2511.23408v1",
+        "title": "Evaluating LLMs for One-Shot Patching of Real and Artificial Vulnerabilities",
+        "authors": [
+          "Aayush Garg",
+          "Zanis Ali Khan",
+          "Renzo Degiovanni",
+          "Qiang Tang"
+        ],
+        "abstract": "Automated vulnerability patching is crucial for software security, and recent advancements in Large Language Models (LLMs) present promising capabilities for automating this task. However, existing research has primarily assessed LLMs using publicly disclosed vulnerabilities, leaving their effectiveness on related artificial vulnerabilities largely unexplored. In this study, we empirically evaluate the patching effectiveness and complementarity of several prominent LLMs, such as OpenAI's GPT var...",
+        "published": "2025-11-28T18:03:47Z",
+        "updated": "2025-11-28T18:03:47Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.23408v1",
+        "abs_url": "https://arxiv.org/abs/2511.23408v1",
+        "categories": [
+          "cs.CR",
+          "cs.AI",
+          "cs.SE"
+        ],
+        "primary_category": "cs.CR"
+      },
+      {
+        "id": "2511.23404v1",
+        "title": "LFM2 Technical Report",
+        "authors": [
+          "Alexander Amini",
+          "Anna Banaszak",
+          "Harold Benoit",
+          "Arthur B\u00f6\u00f6k",
+          "Tarek Dakhran"
+        ],
+        "abstract": "We present LFM2, a family of Liquid Foundation Models designed for efficient on-device deployment and strong task capabilities. Using hardware-in-the-loop architecture search under edge latency and memory constraints, we obtain a compact hybrid backbone that combines gated short convolutions with a small number of grouped query attention blocks, delivering up to 2x faster prefill and decode on CPUs compared to similarly sized models. The LFM2 family covers 350M-8.3B parameters, including dense m...",
+        "published": "2025-11-28T17:56:35Z",
+        "updated": "2025-11-28T17:56:35Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.23404v1",
+        "abs_url": "https://arxiv.org/abs/2511.23404v1",
+        "categories": [
+          "cs.LG",
+          "cs.AI"
+        ],
+        "primary_category": "cs.LG"
+      },
+      {
+        "id": "2511.23402v1",
+        "title": "Quantized-Tinyllava: a new multimodal foundation model enables efficient split learning",
+        "authors": [
+          "Jiajun Guo",
+          "Xin Luo",
+          "Jie Liu"
+        ],
+        "abstract": "Split learning is well known as a method for resolving data privacy concerns by training a model on distributed devices, thereby avoiding data sharing that raises privacy issues. However, high network communication costs are always an impediment to split learning, especially for large foundation models that require transmitting large amounts of high-dimensional data. To resolve this issue, we present a new multimodal model structure that incorporates a learning-based data compression method, whi...",
+        "published": "2025-11-28T17:53:05Z",
+        "updated": "2025-11-28T17:53:05Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.23402v1",
+        "abs_url": "https://arxiv.org/abs/2511.23402v1",
+        "categories": [
+          "cs.LG",
+          "stat.ML"
+        ],
+        "primary_category": "cs.LG"
+      },
+      {
+        "id": "2511.23397v1",
+        "title": "MegaChat: A Synthetic Persian Q&A Dataset for High-Quality Sales Chatbot Evaluation",
+        "authors": [
+          "Mahdi Rahmani",
+          "AmirHossein Saffari",
+          "Reyhane Rahmani"
+        ],
+        "abstract": "Small and medium-sized enterprises (SMEs) in Iran increasingly leverage Telegram for sales, where real-time engagement is essential for conversion. However, developing AI-driven chatbots for this purpose requires large, high-quality question-and-answer (Q&A) datasets, which are typically expensive and resource-intensive to produce, especially for low-resource languages like Persian. In this paper, we introduce MegaChat, the first fully synthetic Persian Q&A dataset designed to evaluate intellige...",
+        "published": "2025-11-28T17:44:20Z",
+        "updated": "2025-11-28T17:44:20Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.23397v1",
+        "abs_url": "https://arxiv.org/abs/2511.23397v1",
+        "categories": [
+          "cs.CL",
+          "cs.AI",
+          "cs.MA"
+        ],
+        "primary_category": "cs.CL"
+      },
+      {
+        "id": "2511.23391v1",
+        "title": "Ambiguity Awareness Optimization: Towards Semantic Disambiguation for Direct Preference Optimization",
+        "authors": [
+          "Jian Li",
+          "Shenglin Yin",
+          "Yujia Zhang",
+          "Alan Zhao",
+          "Xi Chen"
+        ],
+        "abstract": "Direct Preference Optimization (DPO) is a widely used reinforcement learning from human feedback (RLHF) method across various domains. Recent research has increasingly focused on the role of token importance in improving DPO effectiveness. It is observed that identical or semantically similar content (defined as ambiguous content) frequently appears within the preference pairs. We hypothesize that the presence of ambiguous content during DPO training may introduce ambiguity, thereby limiting fur...",
+        "published": "2025-11-28T17:32:54Z",
+        "updated": "2025-11-28T17:32:54Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.23391v1",
+        "abs_url": "https://arxiv.org/abs/2511.23391v1",
+        "categories": [
+          "cs.CL"
+        ],
+        "primary_category": "cs.CL"
+      },
+      {
+        "id": "2511.23388v1",
+        "title": "Learning-Augmented Online Bipartite Matching in the Random Arrival Order Model",
+        "authors": [
+          "Kunanon Burathep",
+          "Thomas Erlebach",
+          "William K. Moses"
+        ],
+        "abstract": "We study the online unweighted bipartite matching problem in the random arrival order model, with $n$ offline and $n$ online vertices, in the learning-augmented setting: The algorithm is provided with untrusted predictions of the types (neighborhoods) of the online vertices. We build upon the work of Choo et al. (ICML 2024, pp. 8762-8781) who proposed an approach that uses a prefix of the arrival sequence as a sample to determine whether the predictions are close to the true arrival sequence and...",
+        "published": "2025-11-28T17:31:11Z",
+        "updated": "2025-11-28T17:31:11Z",
+        "pdf_url": "https://arxiv.org/pdf/2511.23388v1",
+        "abs_url": "https://arxiv.org/abs/2511.23388v1",
+        "categories": [
+          "cs.LG",
+          "cs.DS"
+        ],
+        "primary_category": "cs.LG"
+      }
+    ],
+    "count": 15,
     "categories": [
       "cs.AI",
       "cs.LG",
       "cs.CL"
     ],
-    "fetch_date": "2025-11-30"
+    "fetch_date": "2025-12-01"
   },
   "metadata": {
     "source": "arXiv API",
     "query": "cat:cs.AI OR cat:cs.LG OR cat:cs.CL",
     "deduplication": {
       "total_fetched": 15,
-      "new_papers": 0,
-      "duplicates_filtered": 15,
-      "last_fetch": "2025-11-29T09:02:59.589428"
+      "new_papers": 15,
+      "duplicates_filtered": 0,
+      "last_fetch": "2025-11-30T09:02:39.195002"
     }
   },
   "costs": {
-    "execution_time": 0.6994261741638184,
-    "execution_minutes": 0.011657102902730306,
-    "github_actions": 9.325682322184245e-05,
+    "execution_time": 0.06621313095092773,
+    "execution_minutes": 0.0011035521825154622,
+    "github_actions": 8.828417460123698e-06,
     "openai": {
       "input": 0,
       "output": 0,
       "total": 0
     },
-    "total": 9.325682322184245e-05,
+    "total": 8.828417460123698e-06,
     "token_usage": {}
   }
 }
