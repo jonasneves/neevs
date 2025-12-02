@@ -1,342 +1,347 @@
 {
   "agent": "agent-b-paper-analyzer",
-  "timestamp": "2025-12-01T09:06:55.876367",
+  "timestamp": "2025-12-02T09:07:10.504297",
   "status": "completed",
   "input_from": "agent-a-paper-fetcher",
   "data": {
     "analyzed_papers": [
       {
-        "id": "2511.23476v1",
-        "title": "Thinking by Doing: Building Efficient World Model Reasoning in LLMs via Multi-turn Interaction",
+        "id": "2512.02020v1",
+        "title": "EfficientFlow: Efficient Equivariant Flow Policy Learning for Embodied AI",
         "authors": [
-          "Bao Shu",
-          "Yan Cai",
-          "Jianjian Sun",
-          "Chunrui Han",
-          "En Yu"
+          "Jianlei Chang",
+          "Ruofeng Mei",
+          "Wei Ke",
+          "Xiangyu Xu"
         ],
-        "abstract": "Developing robust world model reasoning is crucial for large language model (LLM) agents to plan and interact in complex environments. While multi-turn interaction offers a superior understanding of environmental dynamics via authentic feedback, current approaches often impose a rigid reasoning process, which constrains the model's active learning, ultimately hindering efficient world model reasoning. To address these issues, we explore world-model internalization through efficient interaction a...",
-        "published": "2025-11-28T18:59:47Z",
-        "updated": "2025-11-28T18:59:47Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.23476v1",
-        "abs_url": "https://arxiv.org/abs/2511.23476v1",
+        "abstract": "Generative modeling has recently shown remarkable promise for visuomotor policy learning, enabling flexible and expressive control across diverse embodied AI tasks. However, existing generative policies often struggle with data inefficiency, requiring large-scale demonstrations, and sampling inefficiency, incurring slow action generation during inference. We introduce EfficientFlow, a unified framework for efficient embodied AI with flow-based policy learning. To enhance data efficiency, we brin...",
+        "published": "2025-12-01T18:59:59Z",
+        "updated": "2025-12-01T18:59:59Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.02020v1",
+        "abs_url": "https://arxiv.org/abs/2512.02020v1",
         "categories": [
-          "cs.AI"
+          "cs.RO",
+          "cs.AI",
+          "cs.CV",
+          "cs.LG"
         ],
-        "primary_category": "cs.AI",
+        "primary_category": "cs.RO",
         "analysis": {
-          "tldr": "This paper explores how we can improve large language models (LLMs) by allowing them to learn and reason through multi-turn interactions, rather than following a strict reasoning process. The authors propose a new method for LLMs to develop a better understanding of complex environments, enhancing their planning and interaction capabilities.",
-          "eli5": "Imagine you're teaching a robot to play a game. Instead of just giving it rules and expecting it to follow them perfectly, you let it play multiple rounds, learn from its mistakes, and get feedback after each move. This paper talks about how large language models can do something similar\u2014by interacting and getting feedback multiple times, they can become smarter and better at understanding the world around them.",
+          "tldr": "This paper introduces EfficientFlow, a new method for teaching robots and AI systems how to move and act more efficiently. It addresses issues of requiring too much data and being slow at making decisions during actions.",
+          "eli5": "Imagine you have a robot that needs to learn how to navigate a maze. Current methods often need to see thousands of examples before it gets good at it, and when it finally does, it takes forever to decide what to do next. EfficientFlow helps the robot learn faster and act quicker by using a new way of learning from less data and making smart choices on the fly.",
           "key_contributions": [
-            "Introduced a method for LLMs to internalize world models through efficient multi-turn interactions.",
-            "Demonstrated that allowing models to learn from feedback in a flexible way improves their reasoning about complex environments.",
-            "Provided insights into the limitations of rigid reasoning processes in LLMs and how to overcome them for better performance."
+            "EfficientFlow introduces a flow-based approach that improves both how robots learn from fewer examples and how quickly they can decide on actions.",
+            "It unifies different aspects of embodied AI tasks into one framework, making it easier to apply across various scenarios.",
+            "The method showcases impressive performance improvements in both data efficiency and action generation speed compared to existing techniques."
           ],
-          "why_care": "As LLMs become more integrated into our daily lives, improving their ability to understand and reason about the world can lead to advancements in areas like robotics, personalized AI assistants, and more intuitive human-computer interactions. This research could help create smarter, more adaptable AI that can handle real-world complexities.",
+          "why_care": "Efficient AI can lead to more capable and responsive robots in real-world applications, from manufacturing to healthcare, enhancing productivity and safety in various sectors.",
           "accessibility": "Tech-Savvy",
-          "spicy_take": null,
+          "spicy_take": "If EfficientFlow delivers on its promises, it could disrupt the way we train robots, making them as efficient as they are essential in our future.",
           "reading_time_minutes": 5
         }
       },
       {
-        "id": "2511.23473v1",
-        "title": "ThetaEvolve: Test-time Learning on Open Problems",
+        "id": "2512.02019v1",
+        "title": "A Diffusion Model Framework for Maximum Entropy Reinforcement Learning",
         "authors": [
-          "Yiping Wang",
-          "Shao-Rong Su",
-          "Zhiyuan Zeng",
-          "Eva Xu",
-          "Liliang Ren"
+          "Sebastian Sanokowski",
+          "Kaustubh Patil",
+          "Alois Knoll"
         ],
-        "abstract": "Recent advances in large language models (LLMs) have enabled breakthroughs in mathematical discovery, exemplified by AlphaEvolve, a closed-source system that evolves programs to improve bounds on open problems. However, it relies on ensembles of frontier LLMs to achieve new bounds and is a pure inference system that models cannot internalize the evolving strategies. We introduce ThetaEvolve, an open-source framework that simplifies and extends AlphaEvolve to efficiently scale both in-context lea...",
-        "published": "2025-11-28T18:58:14Z",
-        "updated": "2025-11-28T18:58:14Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.23473v1",
-        "abs_url": "https://arxiv.org/abs/2511.23473v1",
+        "abstract": "Diffusion models have achieved remarkable success in data-driven learning and in sampling from complex, unnormalized target distributions. Building on this progress, we reinterpret Maximum Entropy Reinforcement Learning (MaxEntRL) as a diffusion model-based sampling problem. We tackle this problem by minimizing the reverse Kullback-Leibler (KL) divergence between the diffusion policy and the optimal policy distribution using a tractable upper bound. By applying the policy gradient theorem to thi...",
+        "published": "2025-12-01T18:59:58Z",
+        "updated": "2025-12-01T18:59:58Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.02019v1",
+        "abs_url": "https://arxiv.org/abs/2512.02019v1",
+        "categories": [
+          "cs.LG",
+          "cs.AI",
+          "stat.ML"
+        ],
+        "primary_category": "cs.LG",
+        "analysis": {
+          "tldr": "This paper presents a novel approach to Maximum Entropy Reinforcement Learning by framing it as a problem of sampling from diffusion models. It introduces techniques to improve policy optimization by focusing on minimizing divergence between the learned and optimal policies.",
+          "eli5": "Imagine you have a very complex puzzle, and you want to put the pieces together in the best way possible. This paper uses a new method to help figure out the best arrangement of the puzzle pieces by treating the process like a game of chance, where you're trying to learn the most effective moves over time while keeping things random enough to explore new options.",
+          "key_contributions": [
+            "Reinterprets Maximum Entropy Reinforcement Learning as a diffusion model sampling problem.",
+            "Introduces a new technique to minimize the reverse Kullback-Leibler divergence for better policy optimization.",
+            "Applies the policy gradient theorem innovatively to bridge the gap between diffusion models and reinforcement learning."
+          ],
+          "why_care": "Optimizing learning in AI can have significant impacts on various industries, from improving autonomous vehicles to enhancing personalized recommendations. This work could lead to more efficient and flexible AI systems that can learn complex tasks with greater effectiveness and fewer resources.",
+          "accessibility": "Tech-Savvy",
+          "spicy_take": "This approach might just be the missing link between complex AI models and practical applications, but it\u2019s still a long way from real-world deployment.",
+          "reading_time_minutes": 5
+        }
+      },
+      {
+        "id": "2512.02017v1",
+        "title": "Visual Sync: Multi-Camera Synchronization via Cross-View Object Motion",
+        "authors": [
+          "Shaowei Liu",
+          "David Yifan Yao",
+          "Saurabh Gupta",
+          "Shenlong Wang"
+        ],
+        "abstract": "Today, people can easily record memorable moments, ranging from concerts, sports events, lectures, family gatherings, and birthday parties with multiple consumer cameras. However, synchronizing these cross-camera streams remains challenging. Existing methods assume controlled settings, specific targets, manual correction, or costly hardware. We present VisualSync, an optimization framework based on multi-view dynamics that aligns unposed, unsynchronized videos at millisecond accuracy. Our key in...",
+        "published": "2025-12-01T18:59:57Z",
+        "updated": "2025-12-01T18:59:57Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.02017v1",
+        "abs_url": "https://arxiv.org/abs/2512.02017v1",
+        "categories": [
+          "cs.CV",
+          "cs.AI",
+          "cs.LG",
+          "cs.RO"
+        ],
+        "primary_category": "cs.CV",
+        "analysis": {
+          "tldr": "This paper introduces VisualSync, a new method for synchronizing videos recorded from multiple cameras without requiring control over the environment or expensive equipment. It allows for precise alignment of footage, making it easier to create cohesive videos from various sources.",
+          "eli5": "Imagine you have a bunch of videos taken from different angles at a birthday party, and they\u2019re all out of sync. This paper shows how to use the movements of the people in the videos to figure out how to line them up perfectly. It\u2019s like solving a puzzle where the pieces are moving around!",
+          "key_contributions": [
+            "VisualSync can synchronize videos from multiple cameras with millisecond accuracy, even when the cameras are unposed and unsynchronized.",
+            "It uses an innovative optimization framework that takes into account the dynamics of the scene, improving upon previous methods that needed controlled environments.",
+            "This approach eliminates the need for manual corrections or expensive synchronization hardware, making it accessible for everyone."
+          ],
+          "why_care": "For anyone who loves filming events or creating videos, this technology simplifies the editing process, allowing for smoother transitions and better storytelling. It has implications for content creators, educators, and even surveillance, where accurate video synchronization is crucial.",
+          "accessibility": "General Audience",
+          "spicy_take": "This could revolutionize the way we capture and edit memories, making professional-quality video easily accessible to anyone with a smartphone!",
+          "reading_time_minutes": 5
+        }
+      },
+      {
+        "id": "2512.02012v1",
+        "title": "Improved Mean Flows: On the Challenges of Fastforward Generative Models",
+        "authors": [
+          "Zhengyang Geng",
+          "Yiyang Lu",
+          "Zongze Wu",
+          "Eli Shechtman",
+          "J. Zico Kolter"
+        ],
+        "abstract": "MeanFlow (MF) has recently been established as a framework for one-step generative modeling. However, its ``fastforward'' nature introduces key challenges in both the training objective and the guidance mechanism. First, the original MF's training target depends not only on the underlying ground-truth fields but also on the network itself. To address this issue, we recast the objective as a loss on the instantaneous velocity $v$, re-parameterized by a network that predicts the average velocity $...",
+        "published": "2025-12-01T18:59:49Z",
+        "updated": "2025-12-01T18:59:49Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.02012v1",
+        "abs_url": "https://arxiv.org/abs/2512.02012v1",
+        "categories": [
+          "cs.CV",
+          "cs.LG"
+        ],
+        "primary_category": "cs.CV",
+        "analysis": {
+          "tldr": "This paper tackles the challenges of training generative models using a new approach called MeanFlow. By rethinking how these models learn from data, the authors aim to improve their performance and efficiency.",
+          "eli5": "Imagine you're trying to predict how clouds will move in the sky. Traditional models might get stuck on past movements, but this new approach, MeanFlow, allows for a more straightforward and dynamic way to understand and predict those movements by focusing on the 'speed' of the clouds rather than just their position.",
+          "key_contributions": [
+            "The paper introduces a new training objective that focuses on the instantaneous velocity of generative models, allowing them to be more responsive to changes in data.",
+            "It identifies and addresses key challenges related to the 'fastforward' nature of MeanFlow, which can lead to inaccuracies during training.",
+            "The authors propose a novel guidance mechanism that improves how these models learn from data, resulting in better overall performance."
+          ],
+          "why_care": "Improving generative models like MeanFlow could revolutionize fields like animation, weather forecasting, and even video game design, where realistic movement and changes in environments can enhance user experience and realism.",
+          "accessibility": "Tech-Savvy",
+          "spicy_take": "This work could redefine how we think about generative models, moving them closer to real-time applications and making them more intuitive in their predictions.",
+          "reading_time_minutes": 5
+        }
+      },
+      {
+        "id": "2512.02010v1",
+        "title": "Four Over Six: More Accurate NVFP4 Quantization with Adaptive Block Scaling",
+        "authors": [
+          "Jack Cook",
+          "Junxian Guo",
+          "Guangxuan Xiao",
+          "Yujun Lin",
+          "Song Han"
+        ],
+        "abstract": "As large language models have grown larger, low-precision numerical formats such as NVFP4 have become increasingly popular due to the speed and memory benefits they provide. However, to accelerate computation with NVFP4, all matrix multiplication operands--weights and activations in the forward pass, and weights, activations, and gradients in the backward pass--must be quantized to NVFP4, often leading to divergence during training and performance degradation during inference. NVFP4 by evaluatin...",
+        "published": "2025-12-01T18:59:45Z",
+        "updated": "2025-12-01T18:59:45Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.02010v1",
+        "abs_url": "https://arxiv.org/abs/2512.02010v1",
+        "categories": [
+          "cs.CL",
+          "cs.LG"
+        ],
+        "primary_category": "cs.CL",
+        "analysis": {
+          "tldr": "This paper introduces a new method for quantizing large language models using NVFP4, making it more efficient and accurate. The authors propose adaptive block scaling to improve performance during training and inference.",
+          "eli5": "Imagine trying to make a giant sandwich (a large language model) but running out of space in your fridge (memory). The authors of this paper found a smart way to cut the sandwich into smaller, manageable pieces (NVFP4 quantization) that not only fit better but also taste great (maintain performance). They focused on ensuring that these smaller pieces don\u2019t lose their flavor (accuracy) during the cooking process (training and inference), making everything work together nicely.",
+          "key_contributions": [
+            "Introduced adaptive block scaling for NVFP4, leading to improved quantization accuracy.",
+            "Showed that this method reduces divergence during the training of large models.",
+            "Demonstrated real-world performance improvements in inference speed and memory usage."
+          ],
+          "why_care": "As AI models get bigger, we need smarter ways to make them faster and less resource-intensive. This research has practical implications for developing more efficient AI applications, from self-driving cars to personalized recommendations, ultimately enhancing everyday technology.",
+          "accessibility": "Tech-Savvy",
+          "spicy_take": "This approach could be a game changer in making AI more approachable for smaller companies, leveling the playing field against tech giants.",
+          "reading_time_minutes": 5
+        }
+      },
+      {
+        "id": "2512.02008v1",
+        "title": "The Art of Scaling Test-Time Compute for Large Language Models",
+        "authors": [
+          "Aradhye Agarwal",
+          "Ayan Sengupta",
+          "Tanmoy Chakraborty"
+        ],
+        "abstract": "Test-time scaling (TTS) -- the dynamic allocation of compute during inference -- is a promising direction for improving reasoning in large language models (LLMs). However, a systematic comparison of well-known TTS strategies under identical conditions is missing, and the influence of model type and problem difficulty on performance remains unclear. To address these gaps, we conduct the first large-scale study of TTS, spanning over thirty billion tokens generated using eight open-source LLMs (7B ...",
+        "published": "2025-12-01T18:59:28Z",
+        "updated": "2025-12-01T18:59:28Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.02008v1",
+        "abs_url": "https://arxiv.org/abs/2512.02008v1",
+        "categories": [
+          "cs.CL"
+        ],
+        "primary_category": "cs.CL",
+        "analysis": {
+          "tldr": "This paper explores how to intelligently allocate computing resources when large language models (LLMs) are solving problems. It compares various strategies to determine the best approaches for enhancing reasoning performance during inference.",
+          "eli5": "Imagine you have a super-smart robot that can answer questions or solve problems but needs the right amount of brain power (compute) to do it efficiently. This study looks at different ways to give that robot just the right amount of brain power when it's working, especially for tough questions. The researchers tested eight different versions of this robot on a massive scale to see which strategies worked best.",
+          "key_contributions": [
+            "The first systematic comparison of various test-time scaling strategies for large language models under controlled conditions.",
+            "Analysis of how different types of language models and the complexity of problems affect reasoning performance.",
+            "Insights from a large-scale study involving over thirty billion tokens generated, providing a robust dataset for future research."
+          ],
+          "why_care": "Understanding how to better allocate computing resources can significantly enhance the capabilities of AI systems we use every day, from customer service bots to complex problem-solving applications. This research could lead to more efficient and effective AI, which affects how businesses operate and how users interact with technology.",
+          "accessibility": "General Audience",
+          "spicy_take": "If we can master test-time scaling, it could revolutionize how we use language models, making them more adaptable and efficient, much like how tailor-fit clothing outperforms off-the-rack options.",
+          "reading_time_minutes": 5
+        }
+      },
+      {
+        "id": "2512.02004v1",
+        "title": "AlignSAE: Concept-Aligned Sparse Autoencoders",
+        "authors": [
+          "Minglai Yang",
+          "Xinyu Guo",
+          "Mihai Surdeanu",
+          "Liangming Pan"
+        ],
+        "abstract": "Large Language Models (LLMs) encode factual knowledge within hidden parametric spaces that are difficult to inspect or control. While Sparse Autoencoders (SAEs) can decompose hidden activations into more fine-grained, interpretable features, they often struggle to reliably align these features with human-defined concepts, resulting in entangled and distributed feature representations. To address this, we introduce AlignSAE, a method that aligns SAE features with a defined ontology through a \"pre...",
+        "published": "2025-12-01T18:58:22Z",
+        "updated": "2025-12-01T18:58:22Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.02004v1",
+        "abs_url": "https://arxiv.org/abs/2512.02004v1",
         "categories": [
           "cs.LG",
           "cs.CL"
         ],
         "primary_category": "cs.LG",
         "analysis": {
-          "tldr": "ThetaEvolve is an open-source system that enhances mathematical problem-solving by allowing models to learn and adapt during use, unlike its predecessor which was closed-source and less flexible.",
-          "eli5": "Imagine you have a really smart robot that can solve math problems, but instead of learning from its mistakes and getting better over time, it just follows a set of rules. ThetaEvolve is like giving that robot a brain that lets it learn and improve while it's working on tough problems!",
+          "tldr": "This paper introduces AlignSAE, a new method that improves Sparse Autoencoders by aligning their features with clearly defined concepts, making it easier to understand and control the knowledge encoded in large language models.",
+          "eli5": "Imagine if you could take a super complicated puzzle (like a large language model) and organize the pieces (features) in a way that makes sense to you. AlignSAE is like a special guide that helps sort the puzzle pieces based on concepts we understand, so we can see how the puzzle fits together without getting lost in a jumble of confusing pieces.",
           "key_contributions": [
-            "ThetaEvolve is open-source, making advanced mathematical problem-solving tools accessible to everyone.",
-            "It allows for in-context learning, meaning that the system can adapt its strategies based on the problems it's currently tackling.",
-            "It simplifies and extends the capabilities of AlphaEvolve, pushing the boundaries of what's possible with large language models in math."
+            "AlignSAE provides a framework to align features from Sparse Autoencoders with human-defined concepts, enhancing interpretability.",
+            "The method allows for better control over the knowledge representation in large language models, addressing the challenge of entangled features.",
+            "It introduces a systematic approach for integrating ontology into sparse representations, bridging gaps between machine learning and human reasoning."
           ],
-          "why_care": "Better mathematical problem-solving tools can lead to innovations across various fields, from computer science to engineering and beyond. By democratizing access to these tools, we can foster collaboration and accelerate discoveries.",
+          "why_care": "As AI systems increasingly influence our lives, understanding how they work becomes crucial. AlignSAE helps ensure that AI can be more transparent and aligned with human values, which is especially important in applications like healthcare, law, and education.",
           "accessibility": "Tech-Savvy",
-          "spicy_take": "The success of ThetaEvolve could signal the beginning of a new era where open-source frameworks outperform their closed counterparts, challenging the status quo in AI research.",
+          "spicy_take": "AlignSAE might just be the key to preventing AI from becoming a black box, making it not only a technical advancement but an ethical one too.",
           "reading_time_minutes": 5
         }
       },
       {
-        "id": "2511.23465v1",
-        "title": "SmallWorlds: Assessing Dynamics Understanding of World Models in Isolated Environments",
+        "id": "2512.01996v1",
+        "title": "Learning Sim-to-Real Humanoid Locomotion in 15 Minutes",
         "authors": [
-          "Xinyi Li",
-          "Zaishuo Xia",
-          "Weyl Lu",
-          "Chenjie Hao",
-          "Yubei Chen"
+          "Younggyo Seo",
+          "Carmelo Sferrazza",
+          "Juyue Chen",
+          "Guanya Shi",
+          "Rocky Duan"
         ],
-        "abstract": "Current world models lack a unified and controlled setting for systematic evaluation, making it difficult to assess whether they truly capture the underlying rules that govern environment dynamics. In this work, we address this open challenge by introducing the SmallWorld Benchmark, a testbed designed to assess world model capability under isolated and precisely controlled dynamics without relying on handcrafted reward signals. Using this benchmark, we conduct comprehensive experiments in the fu...",
-        "published": "2025-11-28T18:56:02Z",
-        "updated": "2025-11-28T18:56:02Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.23465v1",
-        "abs_url": "https://arxiv.org/abs/2511.23465v1",
+        "abstract": "Massively parallel simulation has reduced reinforcement learning (RL) training time for robots from days to minutes. However, achieving fast and reliable sim-to-real RL for humanoid control remains difficult due to the challenges introduced by factors such as high dimensionality and domain randomization. In this work, we introduce a simple and practical recipe based on off-policy RL algorithms, i.e., FastSAC and FastTD3, that enables rapid training of humanoid locomotion policies in just 15 minu...",
+        "published": "2025-12-01T18:55:17Z",
+        "updated": "2025-12-01T18:55:17Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.01996v1",
+        "abs_url": "https://arxiv.org/abs/2512.01996v1",
         "categories": [
+          "cs.RO",
+          "cs.AI",
           "cs.LG"
         ],
-        "primary_category": "cs.LG",
+        "primary_category": "cs.RO",
         "analysis": {
-          "tldr": "This paper introduces a new benchmark called SmallWorld to evaluate how well machine learning models understand the rules of their environments without relying on tailored rewards. It aims to create a controlled testing ground for these models to see if they genuinely grasp the dynamics they operate in.",
-          "eli5": "Imagine trying to teach a robot how to play a game, but instead of giving it hints or points, you want to see if it can figure out the rules by itself in a simple world you created. This paper sets up a special testing area for robots (or models) to see if they can learn and predict what happens in their environment all on their own, which is really important for making smarter AI.",
+          "tldr": "This paper presents a groundbreaking method that allows robots to learn how to walk like humans in just 15 minutes of simulation time. By using advanced reinforcement learning techniques, the authors tackle the complex challenges of transferring this learning from simulation to real-world applications.",
+          "eli5": "Imagine teaching a robot how to walk like a person. This study shows that by using some clever computer tricks, robots can learn this skill super fast in a virtual world, and then they can do it in the real world too. It\u2019s like giving a robot a quick crash course in walking that actually works outside the computer!",
           "key_contributions": [
-            "The introduction of the SmallWorld Benchmark, which allows for systematic evaluation of world models in controlled environments.",
-            "A method for assessing world model capabilities without needing handcrafted rewards, making evaluations more objective.",
-            "Comprehensive experiments that demonstrate the benchmark's effectiveness in revealing the strengths and weaknesses of various world models."
+            "The introduction of a fast training method for humanoid locomotion using off-policy RL algorithms.",
+            "The reduction of training time from days to just 15 minutes, making it practical for real-world applications.",
+            "A focus on overcoming challenges like high dimensionality and domain randomization that typically hinder sim-to-real performance."
           ],
-          "why_care": "As AI systems become more integrated into everyday life, understanding how they learn and interact with their environments is crucial for safety and effectiveness. This research helps ensure that AI can understand the world around it in a more reliable way, which can lead to better decision-making in everything from autonomous vehicles to virtual assistants.",
+          "why_care": "Fast-tracking robot learning means we could see humanoid robots helping in real-world tasks like caregiving or search and rescue much sooner. This could revolutionize industries and improve our daily lives by making robots more useful and adaptable.",
           "accessibility": "Tech-Savvy",
-          "spicy_take": "The reliance on handcrafted rewards has been a crutch for too long; this benchmark might be the wake-up call the AI community needs to rethink how we teach machines.",
+          "spicy_take": "This work could be a game-changer for robotics, but let\u2019s not forget: faster learning doesn\u2019t always mean smarter robots. We need to ensure that these robots are safe and ethical in real-world interactions.",
           "reading_time_minutes": 5
         }
       },
       {
-        "id": "2511.23455v1",
-        "title": "The Price of Progress: Algorithmic Efficiency and the Falling Cost of AI Inference",
+        "id": "2512.01993v1",
+        "title": "RoaD: Rollouts as Demonstrations for Closed-Loop Supervised Fine-Tuning of Autonomous Driving Policies",
         "authors": [
-          "Hans Gundlach",
-          "Jayson Lynch",
-          "Matthias Mertens",
-          "Neil Thompson"
+          "Guillermo Garcia-Cobo",
+          "Maximilian Igl",
+          "Peter Karkus",
+          "Zhejun Zhang",
+          "Michael Watson"
         ],
-        "abstract": "Language models have seen enormous progress on advanced benchmarks in recent years, but much of this progress has only been possible by using more costly models. Benchmarks may therefore present a warped picture of progress in practical capabilities per dollar. To remedy this, we use data from Artificial Analysis and Epoch AI to form the largest dataset of current and historical prices to run benchmarks to date. We find that the price for a given level of benchmark performance has decreased rema...",
-        "published": "2025-11-28T18:47:33Z",
-        "updated": "2025-11-28T18:47:33Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.23455v1",
-        "abs_url": "https://arxiv.org/abs/2511.23455v1",
+        "abstract": "Autonomous driving policies are typically trained via open-loop behavior cloning of human demonstrations. However, such policies suffer from covariate shift when deployed in closed loop, leading to compounding errors. We introduce Rollouts as Demonstrations (RoaD), a simple and efficient method to mitigate covariate shift by leveraging the policy's own closed-loop rollouts as additional training data. During rollout generation, RoaD incorporates expert guidance to bias trajectories toward high-q...",
+        "published": "2025-12-01T18:52:03Z",
+        "updated": "2025-12-01T18:52:03Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.01993v1",
+        "abs_url": "https://arxiv.org/abs/2512.01993v1",
         "categories": [
-          "cs.LG",
+          "cs.RO",
           "cs.AI",
-          "cs.CY"
+          "cs.CV",
+          "cs.LG"
         ],
-        "primary_category": "cs.LG",
+        "primary_category": "cs.RO",
         "analysis": {
-          "tldr": "This paper explores how the cost of running AI models has decreased over time, even as their performance on benchmarks has improved. By analyzing extensive price data, the authors reveal that we may be underestimating the practical advancements in AI capabilities relative to their costs.",
-          "eli5": "Imagine if you had a video game that got way cooler over time, but to play it, you needed a fancier console that cost a lot more money. This paper is like saying, 'Hey, even though we needed better consoles, the price to play has actually gone down recently!' It helps us understand how much we really pay for progress in AI.",
+          "tldr": "This paper presents a method called RoaD that improves the training of self-driving car policies by using the car's own experiences in the real world as practice data, rather than relying solely on human examples.",
+          "eli5": "Imagine teaching a robot how to drive by showing it videos of people driving. That's traditional training. This paper suggests that instead of just using those videos, we let the robot learn from its own driving experiences, making it better at handling real-life driving situations.",
           "key_contributions": [
-            "The authors compiled the largest dataset of historical and current prices for running AI benchmarks.",
-            "They demonstrated that the cost to achieve benchmark performance has significantly decreased.",
-            "This work highlights a gap in understanding AI progress, as benchmarks alone can misrepresent true efficiency improvements."
+            "Introducing RoaD, a method that uses a self-driving car's own rollouts (its own driving experiences) as training demonstrations.",
+            "Reducing the problem of covariate shift, which occurs when the robot's training conditions differ from real-world conditions.",
+            "Integrating expert guidance during training to enhance the quality of the car's learning process."
           ],
-          "why_care": "Understanding these cost dynamics is crucial for businesses and developers. It can help them make better decisions about investing in AI technologies, ultimately leading to more efficient and affordable applications that can benefit everyone from startups to large corporations.",
-          "accessibility": "General Audience",
-          "spicy_take": "As AI continues to advance, the industry's focus should shift from just pushing for higher benchmarks to also considering the cost-effectiveness of these advancements.",
-          "reading_time_minutes": 6
+          "why_care": "As self-driving technology continues to develop, making these systems safer and more reliable is crucial. This research could lead to fewer accidents and more efficient driving, benefiting everyone on the road.",
+          "accessibility": "Tech-Savvy",
+          "spicy_take": "Leveraging a vehicle's own experiences for training may be the game-changer we need to finally see fully autonomous cars become a reality sooner than we think.",
+          "reading_time_minutes": 5
         }
       },
       {
-        "id": "2511.23449v1",
-        "title": "Physics-Informed Neural Networks for Thermophysical Property Retrieval",
+        "id": "2512.01992v1",
+        "title": "LLM CHESS: Benchmarking Reasoning and Instruction-Following in LLMs through Chess",
         "authors": [
-          "Ali Waseem",
-          "Malcolm Mielle"
+          "Sai Kolasani",
+          "Maxim Saplin",
+          "Nicholas Crispino",
+          "Kyle Montgomery",
+          "Jared Quincy Davis"
         ],
-        "abstract": "Inverse heat problems refer to the estimation of material thermophysical properties given observed or known heat diffusion behaviour. Inverse heat problems have wide-ranging uses, but a critical application lies in quantifying how building facade renovation reduces thermal transmittance, a key determinant of building energy efficiency. However, solving inverse heat problems with non-invasive data collected in situ is error-prone due to environmental variability or deviations from theoretically a...",
-        "published": "2025-11-28T18:41:08Z",
-        "updated": "2025-11-28T18:41:08Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.23449v1",
-        "abs_url": "https://arxiv.org/abs/2511.23449v1",
+        "abstract": "We introduce LLM CHESS, an evaluation framework designed to probe the generalization of reasoning and instruction-following abilities in large language models (LLMs) through extended agentic interaction in the domain of chess. We rank over 50 open and closed source models by playing against a random opponent using a range of behavioral metrics, including win and loss rates, move quality, move legality, hallucinated actions, and game duration. For a subset of top reasoning models, we derive an El...",
+        "published": "2025-12-01T18:51:08Z",
+        "updated": "2025-12-01T18:51:08Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.01992v1",
+        "abs_url": "https://arxiv.org/abs/2512.01992v1",
         "categories": [
-          "cs.LG",
           "cs.AI",
-          "cs.CE",
-          "cs.CV"
-        ],
-        "primary_category": "cs.LG",
-        "analysis": {
-          "tldr": "This paper explores how Physics-Informed Neural Networks (PINNs) can help estimate the thermal properties of materials based on heat diffusion data, which is crucial for improving energy efficiency in buildings.",
-          "eli5": "Imagine you want to find out how well your house keeps heat in during winter, but instead of measuring temperature directly, you watch how heat spreads in the walls. This paper shows how advanced AI techniques can analyze that heat spread to figure out how much heat escapes, helping us make homes more energy-efficient.",
-          "key_contributions": [
-            "The introduction of a novel approach using Physics-Informed Neural Networks to solve inverse heat problems more accurately.",
-            "Demonstration of the effectiveness of this method in real-world data scenarios, which traditionally struggle with accuracy due to varying environmental conditions.",
-            "A new framework for quantifying the impact of building renovations on energy efficiency, providing valuable insights for architects and builders."
-          ],
-          "why_care": "Improving the energy efficiency of buildings can lead to significant cost savings on energy bills and contribute to environmental sustainability by reducing carbon footprints. Understanding how renovations impact thermal properties is essential for designing better living spaces.",
-          "accessibility": "Tech-Savvy",
-          "spicy_take": "This research could revolutionize how we approach building renovations\u2014it's about time we let AI do the heavy lifting in energy efficiency!",
-          "reading_time_minutes": 5
-        }
-      },
-      {
-        "id": "2511.23443v1",
-        "title": "Provable Benefits of Sinusoidal Activation for Modular Addition",
-        "authors": [
-          "Tianlong Huang",
-          "Zhiyuan Li"
-        ],
-        "abstract": "This paper studies the role of activation functions in learning modular addition with two-layer neural networks. We first establish a sharp expressivity gap: sine MLPs admit width-$2$ exact realizations for any fixed length $m$ and, with bias, width-$2$ exact realizations uniformly over all lengths. In contrast, the width of ReLU networks must scale linearly with $m$ to interpolate, and they cannot simultaneously fit two lengths with different residues modulo $p$. We then provide a novel Nataraj...",
-        "published": "2025-11-28T18:37:03Z",
-        "updated": "2025-11-28T18:37:03Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.23443v1",
-        "abs_url": "https://arxiv.org/abs/2511.23443v1",
-        "categories": [
-          "cs.LG",
-          "stat.ML"
-        ],
-        "primary_category": "cs.LG",
-        "analysis": {
-          "tldr": "This paper reveals that using sine functions as activation methods in neural networks can greatly enhance their ability to perform modular addition, outperforming traditional ReLU networks in certain scenarios.",
-          "eli5": "Think of neural networks as advanced calculators. This research shows that when these calculators use sine waves instead of the usual methods, they can solve specific math problems (like adding numbers in a special way) much better and faster, even with fewer parts!",
-          "key_contributions": [
-            "Proves that sine-based neural networks can achieve exact solutions for modular addition with fewer components than traditional ReLU networks.",
-            "Establishes that sine networks can handle different lengths of numbers simultaneously, which ReLU networks struggle with.",
-            "Introduces a new method called the Nataraj, which showcases the flexibility and power of sine activation in a clear mathematical framework."
-          ],
-          "why_care": "Understanding how different activation functions can enhance neural network performance is crucial for anyone working with artificial intelligence. This research could lead to more efficient algorithms in various applications, from cryptography to complex calculations in computing.",
-          "accessibility": "Tech-Savvy",
-          "spicy_take": "The sine function might be the secret weapon we didn't know we needed in the AI toolbox, challenging the dominance of ReLU!",
-          "reading_time_minutes": 5
-        }
-      },
-      {
-        "id": "2511.23442v1",
-        "title": "ASTRO: Adaptive Stitching via Dynamics-Guided Trajectory Rollouts",
-        "authors": [
-          "Hang Yu",
-          "Di Zhang",
-          "Qiwei Du",
-          "Yanping Zhao",
-          "Hai Zhang"
-        ],
-        "abstract": "Offline reinforcement learning (RL) enables agents to learn optimal policies from pre-collected datasets. However, datasets containing suboptimal and fragmented trajectories present challenges for reward propagation, resulting in inaccurate value estimation and degraded policy performance. While trajectory stitching via generative models offers a promising solution, existing augmentation methods frequently produce trajectories that are either confined to the support of the behavior policy or vio...",
-        "published": "2025-11-28T18:35:37Z",
-        "updated": "2025-11-28T18:35:37Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.23442v1",
-        "abs_url": "https://arxiv.org/abs/2511.23442v1",
-        "categories": [
-          "cs.LG",
-          "cs.AI"
-        ],
-        "primary_category": "cs.LG",
-        "analysis": {
-          "tldr": "This paper introduces a new approach called ASTRO that improves how reinforcement learning agents learn from fragmented and imperfect datasets by stitching together trajectories more effectively. It aims to enhance policy performance and reward estimation in offline learning scenarios.",
-          "eli5": "Imagine teaching a robot to play a game using a bunch of old game recordings. Sometimes, these recordings are incomplete or not very good. This paper presents a way for the robot to take those recordings and create better, more complete strategies so it can play the game much smarter, even with the old data.",
-          "key_contributions": [
-            "ASTRO introduces an adaptive method for stitching together incomplete data trajectories, enhancing the learning quality for reinforcement learning agents.",
-            "The approach uses dynamics-guided trajectory rollouts to ensure that the new trajectories created are more accurate and useful for decision-making.",
-            "It offers a solution to the common problem of value estimation in offline reinforcement learning, leading to improved policy performance."
-          ],
-          "why_care": "Improving how machines learn from past experiences is crucial for applications like robotics, autonomous vehicles, and personalized AI systems. Better learning from imperfect data can lead to more reliable and efficient technologies that impact everyday life.",
-          "accessibility": "Tech-Savvy",
-          "spicy_take": "This method could revolutionize offline learning in AI, making it possible for machines to learn as effectively as humans do from incomplete experiences.",
-          "reading_time_minutes": 5
-        }
-      },
-      {
-        "id": "2511.23440v1",
-        "title": "Accelerated Execution of Bayesian Neural Networks using a Single Probabilistic Forward Pass and Code Generation",
-        "authors": [
-          "Bernhard Klein",
-          "Falk Selker",
-          "Hendrik Borras",
-          "Sophie Steger",
-          "Franz Pernkopf"
-        ],
-        "abstract": "Machine learning models perform well across domains such as diagnostics, weather forecasting, NLP, and autonomous driving, but their limited uncertainty handling restricts use in safety-critical settings. Traditional neural networks often fail to detect out-of-domain (OOD) data and may output confident yet incorrect predictions. Bayesian neural networks (BNNs) address this by providing probabilistic estimates, but incur high computational cost because predictions require sampling weight distribu...",
-        "published": "2025-11-28T18:35:20Z",
-        "updated": "2025-11-28T18:35:20Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.23440v1",
-        "abs_url": "https://arxiv.org/abs/2511.23440v1",
-        "categories": [
-          "cs.LG",
-          "cs.AR",
-          "cs.DC",
-          "stat.ML"
-        ],
-        "primary_category": "cs.LG",
-        "analysis": {
-          "tldr": "This paper presents a method to speed up Bayesian Neural Networks (BNNs) by using a single probabilistic forward pass, making them faster and more efficient without sacrificing their ability to assess uncertainty in predictions.",
-          "eli5": "Imagine asking a friend to guess a number, but instead of just giving you a guess, they also say how sure they are about it. Bayesian Neural Networks do something similar, providing not just answers but also a sense of how reliable those answers are. This paper finds a way to make those smart guesses much quicker, which is super helpful in fields where getting it right matters a lot.",
-          "key_contributions": [
-            "Introduces an efficient approach to execute Bayesian Neural Networks using a single probabilistic forward pass, reducing computational costs.",
-            "Enhances the ability of BNNs to handle uncertainty, making them more reliable for safety-critical applications.",
-            "Develops code generation techniques to streamline the implementation of the proposed method, making it more accessible for real-world applications."
-          ],
-          "why_care": "As machine learning becomes more integrated into areas like healthcare and self-driving cars, understanding the confidence behind predictions becomes crucial. This research helps make BNNs faster and more practical, potentially leading to safer and more reliable AI systems in everyday life.",
-          "accessibility": "Tech-Savvy",
-          "spicy_take": "By simplifying Bayesian Neural Networks, this paper could be a game-changer in making AI safer for all, which is a huge leap for responsible machine learning.",
-          "reading_time_minutes": 5
-        }
-      },
-      {
-        "id": "2511.23436v1",
-        "title": "Towards Continuous Intelligence Growth: Self-Training, Continual Learning, and Dual-Scale Memory in SuperIntelliAgent",
-        "authors": [
-          "Jianzhe Lin",
-          "Zeyu Pan",
-          "Yun Zhu",
-          "Ruiqi Song",
-          "Jining Yang"
-        ],
-        "abstract": "We introduce SuperIntelliAgent, an agentic learning framework that couples a trainable small diffusion model (the learner) with a frozen large language model (the verifier) to enable continual intelligence growth through self-supervised interaction. Unlike conventional supervised fine-tuning, SuperIntelliAgent learns autonomously without annotation: the learner generates candidate outputs, the verifier evaluates them through step-by-step reasoning, and their interaction produces chosen/rejected ...",
-        "published": "2025-11-28T18:32:49Z",
-        "updated": "2025-11-28T18:32:49Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.23436v1",
-        "abs_url": "https://arxiv.org/abs/2511.23436v1",
-        "categories": [
-          "cs.AI"
+          "cs.CL"
         ],
         "primary_category": "cs.AI",
         "analysis": {
-          "tldr": "This paper presents SuperIntelliAgent, a novel framework that enables machines to learn continuously and improve their intelligence without needing constant human oversight or labeled data. It does this by using a small model to generate ideas and a larger model to evaluate them, creating a feedback loop for growth.",
-          "eli5": "Imagine a smart robot that's trying to learn on its own. Instead of needing a teacher to give it answers, it comes up with its own ideas and then asks a bigger, smarter robot if those ideas make sense. If the big robot says 'good job' or 'try again,' the little robot gets better at figuring things out over time.",
+          "tldr": "This paper introduces LLM CHESS, a testing framework that evaluates how well large language models can reason and follow instructions, using chess as the playing field. It ranks over 50 different models based on their performance against random opponents in chess games.",
+          "eli5": "Imagine teaching a robot to play chess and then testing it to see how smart it really is. This research looks at how well different AI models can understand the game and make good moves, ranking them to see which ones are the best at reasoning and following instructions, just like a human player would.",
           "key_contributions": [
-            "Introduction of a dual-scale memory system that enhances continual learning.",
-            "Development of a self-supervised interaction method for autonomous learning without human labels.",
-            "Coupling a small, agile model with a powerful, static model for efficient intelligence growth."
+            "The creation of LLM CHESS, a unique benchmarking framework specifically for assessing language models in a game scenario.",
+            "A comprehensive ranking of over 50 AI models based on various performance metrics in chess.",
+            "Insights into how well these AI models generalize reasoning skills and follow instructions in a complex, strategic environment."
           ],
-          "why_care": "As AI systems become more integrated into our daily lives, the ability for them to learn and adapt continuously without human intervention is crucial. This research could lead to smarter AI that can improve itself over time, making it more useful in applications from healthcare to customer service.",
+          "why_care": "Understanding how AI models reason and follow instructions in games like chess can help improve their performance in real-world applications, such as decision-making, education, and interactive AI systems.",
           "accessibility": "Tech-Savvy",
-          "spicy_take": "This approach could redefine our expectations of AI, pushing us closer to a future where machines truly learn and evolve, making traditional training methods feel outdated.",
-          "reading_time_minutes": 5
-        }
-      },
-      {
-        "id": "2511.23408v1",
-        "title": "Evaluating LLMs for One-Shot Patching of Real and Artificial Vulnerabilities",
-        "authors": [
-          "Aayush Garg",
-          "Zanis Ali Khan",
-          "Renzo Degiovanni",
-          "Qiang Tang"
-        ],
-        "abstract": "Automated vulnerability patching is crucial for software security, and recent advancements in Large Language Models (LLMs) present promising capabilities for automating this task. However, existing research has primarily assessed LLMs using publicly disclosed vulnerabilities, leaving their effectiveness on related artificial vulnerabilities largely unexplored. In this study, we empirically evaluate the patching effectiveness and complementarity of several prominent LLMs, such as OpenAI's GPT var...",
-        "published": "2025-11-28T18:03:47Z",
-        "updated": "2025-11-28T18:03:47Z",
-        "pdf_url": "https://arxiv.org/pdf/2511.23408v1",
-        "abs_url": "https://arxiv.org/abs/2511.23408v1",
-        "categories": [
-          "cs.CR",
-          "cs.AI",
-          "cs.SE"
-        ],
-        "primary_category": "cs.CR",
-        "analysis": {
-          "tldr": "This paper investigates how well Large Language Models (LLMs) can automatically fix both real and artificial software vulnerabilities, highlighting a gap in previous research focused only on known issues.",
-          "eli5": "Imagine you have a robot that writes code for you. This study checks how good that robot is at fixing bugs in software\u2014both the ones we know about and some made-up ones. It's like testing a superhero's ability to save the day in various scenarios, not just the ones everyone knows about.",
-          "key_contributions": [
-            "Evaluating LLMs on a broader set of vulnerabilities, including previously unexplored artificial ones.",
-            "Comparing the effectiveness of different leading LLMs in the context of automated patching.",
-            "Providing insights into the limitations and strengths of LLMs in software security tasks."
-          ],
-          "why_care": "As software becomes more integral to our lives, ensuring its security is paramount. Understanding how AI can help patch vulnerabilities means safer software for everyone, from individual users to large corporations.",
-          "accessibility": "Tech-Savvy",
-          "spicy_take": "If LLMs can master the art of patching vulnerabilities, they might just become the unsung heroes of cybersecurity\u2014saving us from potential disasters while we sleep.",
+          "spicy_take": "Chess might be just the tip of the iceberg; if AI can learn to strategize in games, imagine the possibilities for tackling real-world problems like climate change or disease management.",
           "reading_time_minutes": 5
         }
       }
@@ -344,11 +349,11 @@
     "summary": {
       "total_analyzed": 10,
       "by_accessibility": {
-        "General Audience": 1,
-        "Tech-Savvy": 9,
+        "General Audience": 2,
+        "Tech-Savvy": 8,
         "Researchers Only": 0
       },
-      "avg_reading_time": 5.1
+      "avg_reading_time": 5.0
     }
   },
   "metadata": {
@@ -357,19 +362,19 @@
     "style": "blog-accessible"
   },
   "costs": {
-    "execution_time": 74.1623740196228,
-    "execution_minutes": 1.2360395669937134,
-    "github_actions": 0.009888316535949708,
+    "execution_time": 77.31549453735352,
+    "execution_minutes": 1.2885915756225585,
+    "github_actions": 0.010308732604980468,
     "openai": {
-      "input": 0.00048794999999999996,
-      "output": 0.0018306,
-      "total": 0.00231855
+      "input": 0.0005028,
+      "output": 0.0018486,
+      "total": 0.0023514
     },
-    "total": 0.012206866535949708,
+    "total": 0.012660132604980468,
     "token_usage": {
-      "prompt_tokens": 3253,
-      "completion_tokens": 3051,
-      "total_tokens": 6304
+      "prompt_tokens": 3352,
+      "completion_tokens": 3081,
+      "total_tokens": 6433
     }
   }
 }
