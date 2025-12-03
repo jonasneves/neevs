@@ -1,274 +1,85 @@
 {
   "agent": "agent-a-paper-fetcher",
-  "timestamp": "2025-12-02T09:05:39.074003",
+  "timestamp": "2025-12-03T09:05:20.321173",
   "status": "completed",
   "data": {
     "papers": [
       {
-        "id": "2512.02020v1",
-        "title": "EfficientFlow: Efficient Equivariant Flow Policy Learning for Embodied AI",
+        "id": "2512.03042v1",
+        "title": "PPTArena: A Benchmark for Agentic PowerPoint Editing",
         "authors": [
-          "Jianlei Chang",
-          "Ruofeng Mei",
-          "Wei Ke",
-          "Xiangyu Xu"
+          "Michael Ofengenden",
+          "Yunze Man",
+          "Ziqi Pang",
+          "Yu-Xiong Wang"
         ],
-        "abstract": "Generative modeling has recently shown remarkable promise for visuomotor policy learning, enabling flexible and expressive control across diverse embodied AI tasks. However, existing generative policies often struggle with data inefficiency, requiring large-scale demonstrations, and sampling inefficiency, incurring slow action generation during inference. We introduce EfficientFlow, a unified framework for efficient embodied AI with flow-based policy learning. To enhance data efficiency, we brin...",
-        "published": "2025-12-01T18:59:59Z",
-        "updated": "2025-12-01T18:59:59Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.02020v1",
-        "abs_url": "https://arxiv.org/abs/2512.02020v1",
-        "categories": [
-          "cs.RO",
-          "cs.AI",
-          "cs.CV",
-          "cs.LG"
-        ],
-        "primary_category": "cs.RO"
-      },
-      {
-        "id": "2512.02019v1",
-        "title": "A Diffusion Model Framework for Maximum Entropy Reinforcement Learning",
-        "authors": [
-          "Sebastian Sanokowski",
-          "Kaustubh Patil",
-          "Alois Knoll"
-        ],
-        "abstract": "Diffusion models have achieved remarkable success in data-driven learning and in sampling from complex, unnormalized target distributions. Building on this progress, we reinterpret Maximum Entropy Reinforcement Learning (MaxEntRL) as a diffusion model-based sampling problem. We tackle this problem by minimizing the reverse Kullback-Leibler (KL) divergence between the diffusion policy and the optimal policy distribution using a tractable upper bound. By applying the policy gradient theorem to thi...",
-        "published": "2025-12-01T18:59:58Z",
-        "updated": "2025-12-01T18:59:58Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.02019v1",
-        "abs_url": "https://arxiv.org/abs/2512.02019v1",
-        "categories": [
-          "cs.LG",
-          "cs.AI",
-          "stat.ML"
-        ],
-        "primary_category": "cs.LG"
-      },
-      {
-        "id": "2512.02017v1",
-        "title": "Visual Sync: Multi-Camera Synchronization via Cross-View Object Motion",
-        "authors": [
-          "Shaowei Liu",
-          "David Yifan Yao",
-          "Saurabh Gupta",
-          "Shenlong Wang"
-        ],
-        "abstract": "Today, people can easily record memorable moments, ranging from concerts, sports events, lectures, family gatherings, and birthday parties with multiple consumer cameras. However, synchronizing these cross-camera streams remains challenging. Existing methods assume controlled settings, specific targets, manual correction, or costly hardware. We present VisualSync, an optimization framework based on multi-view dynamics that aligns unposed, unsynchronized videos at millisecond accuracy. Our key in...",
-        "published": "2025-12-01T18:59:57Z",
-        "updated": "2025-12-01T18:59:57Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.02017v1",
-        "abs_url": "https://arxiv.org/abs/2512.02017v1",
+        "abstract": "We introduce PPTArena, a benchmark for PowerPoint editing that measures reliable modifications to real slides under natural-language instructions. In contrast to image-PDF renderings or text-to-slide generation, PPTArena focuses on in-place editing across 100 decks, 2125 slides, and over 800 targeted edits covering text, charts, tables, animations, and master-level styles. Each case includes a ground-truth deck, a fully specified target outcome, and a dual VLM-as-judge pipeline that separately s...",
+        "published": "2025-12-02T18:59:50Z",
+        "updated": "2025-12-02T18:59:50Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.03042v1",
+        "abs_url": "https://arxiv.org/abs/2512.03042v1",
         "categories": [
           "cs.CV",
-          "cs.AI",
-          "cs.LG",
-          "cs.RO"
+          "cs.AI"
         ],
         "primary_category": "cs.CV"
       },
       {
-        "id": "2512.02012v1",
-        "title": "Improved Mean Flows: On the Challenges of Fastforward Generative Models",
+        "id": "2512.03040v1",
+        "title": "Video4Spatial: Towards Visuospatial Intelligence with Context-Guided Video Generation",
         "authors": [
-          "Zhengyang Geng",
-          "Yiyang Lu",
-          "Zongze Wu",
-          "Eli Shechtman",
-          "J. Zico Kolter"
+          "Zeqi Xiao",
+          "Yiwei Zhao",
+          "Lingxiao Li",
+          "Yushi Lan",
+          "Yu Ning"
         ],
-        "abstract": "MeanFlow (MF) has recently been established as a framework for one-step generative modeling. However, its ``fastforward'' nature introduces key challenges in both the training objective and the guidance mechanism. First, the original MF's training target depends not only on the underlying ground-truth fields but also on the network itself. To address this issue, we recast the objective as a loss on the instantaneous velocity $v$, re-parameterized by a network that predicts the average velocity $...",
-        "published": "2025-12-01T18:59:49Z",
-        "updated": "2025-12-01T18:59:49Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.02012v1",
-        "abs_url": "https://arxiv.org/abs/2512.02012v1",
+        "abstract": "We investigate whether video generative models can exhibit visuospatial intelligence, a capability central to human cognition, using only visual data. To this end, we present Video4Spatial, a framework showing that video diffusion models conditioned solely on video-based scene context can perform complex spatial tasks. We validate on two tasks: scene navigation - following camera-pose instructions while remaining consistent with 3D geometry of the scene, and object grounding - which requires sem...",
+        "published": "2025-12-02T18:59:44Z",
+        "updated": "2025-12-02T18:59:44Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.03040v1",
+        "abs_url": "https://arxiv.org/abs/2512.03040v1",
         "categories": [
           "cs.CV",
-          "cs.LG"
+          "cs.AI"
         ],
         "primary_category": "cs.CV"
       },
       {
-        "id": "2512.02010v1",
-        "title": "Four Over Six: More Accurate NVFP4 Quantization with Adaptive Block Scaling",
+        "id": "2512.03036v1",
+        "title": "ViSAudio: End-to-End Video-Driven Binaural Spatial Audio Generation",
         "authors": [
-          "Jack Cook",
-          "Junxian Guo",
-          "Guangxuan Xiao",
-          "Yujun Lin",
-          "Song Han"
+          "Mengchen Zhang",
+          "Qi Chen",
+          "Tong Wu",
+          "Zihan Liu",
+          "Dahua Lin"
         ],
-        "abstract": "As large language models have grown larger, low-precision numerical formats such as NVFP4 have become increasingly popular due to the speed and memory benefits they provide. However, to accelerate computation with NVFP4, all matrix multiplication operands--weights and activations in the forward pass, and weights, activations, and gradients in the backward pass--must be quantized to NVFP4, often leading to divergence during training and performance degradation during inference. NVFP4 by evaluatin...",
-        "published": "2025-12-01T18:59:45Z",
-        "updated": "2025-12-01T18:59:45Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.02010v1",
-        "abs_url": "https://arxiv.org/abs/2512.02010v1",
+        "abstract": "Despite progress in video-to-audio generation, the field focuses predominantly on mono output, lacking spatial immersion. Existing binaural approaches remain constrained by a two-stage pipeline that first generates mono audio and then performs spatialization, often resulting in error accumulation and spatio-temporal inconsistencies. To address this limitation, we introduce the task of end-to-end binaural spatial audio generation directly from silent video. To support this task, we present the Bi...",
+        "published": "2025-12-02T18:56:12Z",
+        "updated": "2025-12-02T18:56:12Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.03036v1",
+        "abs_url": "https://arxiv.org/abs/2512.03036v1",
         "categories": [
-          "cs.CL",
-          "cs.LG"
-        ],
-        "primary_category": "cs.CL"
-      },
-      {
-        "id": "2512.02008v1",
-        "title": "The Art of Scaling Test-Time Compute for Large Language Models",
-        "authors": [
-          "Aradhye Agarwal",
-          "Ayan Sengupta",
-          "Tanmoy Chakraborty"
-        ],
-        "abstract": "Test-time scaling (TTS) -- the dynamic allocation of compute during inference -- is a promising direction for improving reasoning in large language models (LLMs). However, a systematic comparison of well-known TTS strategies under identical conditions is missing, and the influence of model type and problem difficulty on performance remains unclear. To address these gaps, we conduct the first large-scale study of TTS, spanning over thirty billion tokens generated using eight open-source LLMs (7B ...",
-        "published": "2025-12-01T18:59:28Z",
-        "updated": "2025-12-01T18:59:28Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.02008v1",
-        "abs_url": "https://arxiv.org/abs/2512.02008v1",
-        "categories": [
-          "cs.CL"
-        ],
-        "primary_category": "cs.CL"
-      },
-      {
-        "id": "2512.02004v1",
-        "title": "AlignSAE: Concept-Aligned Sparse Autoencoders",
-        "authors": [
-          "Minglai Yang",
-          "Xinyu Guo",
-          "Mihai Surdeanu",
-          "Liangming Pan"
-        ],
-        "abstract": "Large Language Models (LLMs) encode factual knowledge within hidden parametric spaces that are difficult to inspect or control. While Sparse Autoencoders (SAEs) can decompose hidden activations into more fine-grained, interpretable features, they often struggle to reliably align these features with human-defined concepts, resulting in entangled and distributed feature representations. To address this, we introduce AlignSAE, a method that aligns SAE features with a defined ontology through a \"pre...",
-        "published": "2025-12-01T18:58:22Z",
-        "updated": "2025-12-01T18:58:22Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.02004v1",
-        "abs_url": "https://arxiv.org/abs/2512.02004v1",
-        "categories": [
-          "cs.LG",
-          "cs.CL"
-        ],
-        "primary_category": "cs.LG"
-      },
-      {
-        "id": "2512.01996v1",
-        "title": "Learning Sim-to-Real Humanoid Locomotion in 15 Minutes",
-        "authors": [
-          "Younggyo Seo",
-          "Carmelo Sferrazza",
-          "Juyue Chen",
-          "Guanya Shi",
-          "Rocky Duan"
-        ],
-        "abstract": "Massively parallel simulation has reduced reinforcement learning (RL) training time for robots from days to minutes. However, achieving fast and reliable sim-to-real RL for humanoid control remains difficult due to the challenges introduced by factors such as high dimensionality and domain randomization. In this work, we introduce a simple and practical recipe based on off-policy RL algorithms, i.e., FastSAC and FastTD3, that enables rapid training of humanoid locomotion policies in just 15 minu...",
-        "published": "2025-12-01T18:55:17Z",
-        "updated": "2025-12-01T18:55:17Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.01996v1",
-        "abs_url": "https://arxiv.org/abs/2512.01996v1",
-        "categories": [
-          "cs.RO",
-          "cs.AI",
-          "cs.LG"
-        ],
-        "primary_category": "cs.RO"
-      },
-      {
-        "id": "2512.01993v1",
-        "title": "RoaD: Rollouts as Demonstrations for Closed-Loop Supervised Fine-Tuning of Autonomous Driving Policies",
-        "authors": [
-          "Guillermo Garcia-Cobo",
-          "Maximilian Igl",
-          "Peter Karkus",
-          "Zhejun Zhang",
-          "Michael Watson"
-        ],
-        "abstract": "Autonomous driving policies are typically trained via open-loop behavior cloning of human demonstrations. However, such policies suffer from covariate shift when deployed in closed loop, leading to compounding errors. We introduce Rollouts as Demonstrations (RoaD), a simple and efficient method to mitigate covariate shift by leveraging the policy's own closed-loop rollouts as additional training data. During rollout generation, RoaD incorporates expert guidance to bias trajectories toward high-q...",
-        "published": "2025-12-01T18:52:03Z",
-        "updated": "2025-12-01T18:52:03Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.01993v1",
-        "abs_url": "https://arxiv.org/abs/2512.01993v1",
-        "categories": [
-          "cs.RO",
-          "cs.AI",
           "cs.CV",
-          "cs.LG"
+          "cs.AI"
         ],
-        "primary_category": "cs.RO"
+        "primary_category": "cs.CV"
       },
       {
-        "id": "2512.01992v1",
-        "title": "LLM CHESS: Benchmarking Reasoning and Instruction-Following in LLMs through Chess",
+        "id": "2512.03035v1",
+        "title": "Learning Physically Consistent Lagrangian Control Models Without Acceleration Measurements",
         "authors": [
-          "Sai Kolasani",
-          "Maxim Saplin",
-          "Nicholas Crispino",
-          "Kyle Montgomery",
-          "Jared Quincy Davis"
+          "Ibrahim Laiche",
+          "Mokrane Boudaoud",
+          "Patrick Gallinari",
+          "Pascal Morin"
         ],
-        "abstract": "We introduce LLM CHESS, an evaluation framework designed to probe the generalization of reasoning and instruction-following abilities in large language models (LLMs) through extended agentic interaction in the domain of chess. We rank over 50 open and closed source models by playing against a random opponent using a range of behavioral metrics, including win and loss rates, move quality, move legality, hallucinated actions, and game duration. For a subset of top reasoning models, we derive an El...",
-        "published": "2025-12-01T18:51:08Z",
-        "updated": "2025-12-01T18:51:08Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.01992v1",
-        "abs_url": "https://arxiv.org/abs/2512.01992v1",
-        "categories": [
-          "cs.AI",
-          "cs.CL"
-        ],
-        "primary_category": "cs.AI"
-      },
-      {
-        "id": "2512.01987v1",
-        "title": "Forecasting in Offline Reinforcement Learning for Non-stationary Environments",
-        "authors": [
-          "Suzan Ece Ada",
-          "Georg Martius",
-          "Emre Ugur",
-          "Erhan Oztop"
-        ],
-        "abstract": "Offline Reinforcement Learning (RL) provides a promising avenue for training policies from pre-collected datasets when gathering additional interaction data is infeasible. However, existing offline RL methods often assume stationarity or only consider synthetic perturbations at test time, assumptions that often fail in real-world scenarios characterized by abrupt, time-varying offsets. These offsets can lead to partial observability, causing agents to misperceive their true state and degrade per...",
-        "published": "2025-12-01T18:45:05Z",
-        "updated": "2025-12-01T18:45:05Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.01987v1",
-        "abs_url": "https://arxiv.org/abs/2512.01987v1",
-        "categories": [
-          "cs.LG",
-          "cs.AI",
-          "cs.RO"
-        ],
-        "primary_category": "cs.LG"
-      },
-      {
-        "id": "2512.01986v1",
-        "title": "A robust generalizable device-agnostic deep learning model for sleep-wake determination from triaxial wrist accelerometry",
-        "authors": [
-          "Nasim Montazeri",
-          "Stone Yang",
-          "Dominik Luszczynski",
-          "John Zhang",
-          "Dharmendra Gurve"
-        ],
-        "abstract": "Study Objectives: Wrist accelerometry is widely used for inferring sleep-wake state. Previous works demonstrated poor wake detection, without cross-device generalizability and validation in different age range and sleep disorders. We developed a robust deep learning model for to detect sleep-wakefulness from triaxial accelerometry and evaluated its validity across three devices and in a large adult population spanning a wide range of ages with and without sleep disorders. Methods: We collected w...",
-        "published": "2025-12-01T18:43:51Z",
-        "updated": "2025-12-01T18:43:51Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.01986v1",
-        "abs_url": "https://arxiv.org/abs/2512.01986v1",
-        "categories": [
-          "q-bio.QM",
-          "cs.LG"
-        ],
-        "primary_category": "q-bio.QM"
-      },
-      {
-        "id": "2512.01984v1",
-        "title": "ECO: Energy-Constrained Operator Learning for Chaotic Dynamics with Boundedness Guarantees",
-        "authors": [
-          "Andrea Goertzen",
-          "Sunbochen Tang",
-          "Navid Azizan"
-        ],
-        "abstract": "Chaos is a fundamental feature of many complex dynamical systems, including weather systems and fluid turbulence. These systems are inherently difficult to predict due to their extreme sensitivity to initial conditions. Many chaotic systems are dissipative and ergodic, motivating data-driven models that aim to learn invariant statistical properties over long time horizons. While recent models have shown empirical success in preserving invariant statistics, they are prone to generating unbounded ...",
-        "published": "2025-12-01T18:42:02Z",
-        "updated": "2025-12-01T18:42:02Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.01984v1",
-        "abs_url": "https://arxiv.org/abs/2512.01984v1",
+        "abstract": "This article investigates the modeling and control of Lagrangian systems involving non-conservative forces using a hybrid method that does not require acceleration calculations. It focuses in particular on the derivation and identification of physically consistent models, which are essential for model-based control synthesis. Lagrangian or Hamiltonian neural networks provide useful structural guarantees but the learning of such models often leads to inconsistent models, especially on real physic...",
+        "published": "2025-12-02T18:56:02Z",
+        "updated": "2025-12-02T18:56:02Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.03035v1",
+        "abs_url": "https://arxiv.org/abs/2512.03035v1",
         "categories": [
           "eess.SY",
           "cs.LG"
@@ -276,47 +87,232 @@
         "primary_category": "eess.SY"
       },
       {
-        "id": "2512.01983v1",
-        "title": "Feature-Based Semantics-Aware Scheduling for Energy-Harvesting Federated Learning",
+        "id": "2512.03028v1",
+        "title": "SMP: Reusable Score-Matching Motion Priors for Physics-Based Character Control",
         "authors": [
-          "Eunjeong Jeong",
-          "Giovanni Perin",
-          "Howard H. Yang",
-          "Nikolaos Pappas"
+          "Yuxuan Mu",
+          "Ziyu Zhang",
+          "Yi Shi",
+          "Minami Matsumoto",
+          "Kotaro Imamura"
         ],
-        "abstract": "Federated Learning (FL) on resource-constrained edge devices faces a critical challenge: The computational energy required for training Deep Neural Networks (DNNs) often dominates communication costs. However, most existing Energy-Harvesting FL (EHFL) strategies fail to account for this reality, resulting in wasted energy due to redundant local computations. For efficient and proactive resource management, algorithms that predict local update contributions must be devised. We propose a lightweig...",
-        "published": "2025-12-01T18:40:26Z",
-        "updated": "2025-12-01T18:40:26Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.01983v1",
-        "abs_url": "https://arxiv.org/abs/2512.01983v1",
+        "abstract": "Data-driven motion priors that can guide agents toward producing naturalistic behaviors play a pivotal role in creating life-like virtual characters. Adversarial imitation learning has been a highly effective method for learning motion priors from reference motion data. However, adversarial priors, with few exceptions, need to be retrained for each new controller, thereby limiting their reusability and necessitating the retention of the reference motion data when training on downstream tasks. In...",
+        "published": "2025-12-02T18:54:12Z",
+        "updated": "2025-12-02T18:54:12Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.03028v1",
+        "abs_url": "https://arxiv.org/abs/2512.03028v1",
+        "categories": [
+          "cs.GR",
+          "cs.AI",
+          "cs.CV",
+          "cs.RO"
+        ],
+        "primary_category": "cs.GR"
+      },
+      {
+        "id": "2512.03026v1",
+        "title": "The Moral Consistency Pipeline: Continuous Ethical Evaluation for Large Language Models",
+        "authors": [
+          "Saeid Jamshidi",
+          "Kawser Wazed Nafi",
+          "Arghavan Moradi Dakhel",
+          "Negar Shahabi",
+          "Foutse Khomh"
+        ],
+        "abstract": "The rapid advancement and adaptability of Large Language Models (LLMs) highlight the need for moral consistency, the capacity to maintain ethically coherent reasoning across varied contexts. Existing alignment frameworks, structured approaches designed to align model behavior with human ethical and social norms, often rely on static datasets and post-hoc evaluations, offering limited insight into how ethical reasoning may evolve across different contexts or temporal scales. This study presents t...",
+        "published": "2025-12-02T18:52:29Z",
+        "updated": "2025-12-02T18:52:29Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.03026v1",
+        "abs_url": "https://arxiv.org/abs/2512.03026v1",
+        "categories": [
+          "cs.CL",
+          "cs.AI"
+        ],
+        "primary_category": "cs.CL"
+      },
+      {
+        "id": "2512.03025v1",
+        "title": "LORE: A Large Generative Model for Search Relevance",
+        "authors": [
+          "Chenji Lu",
+          "Zhuo Chen",
+          "Hui Zhao",
+          "Zhiyuan Zeng",
+          "Gang Zhao"
+        ],
+        "abstract": "Achievement. We introduce LORE, a systematic framework for Large Generative Model-based relevance in e-commerce search. Deployed and iterated over three years, LORE achieves a cumulative +27\\% improvement in online GoodRate metrics. This report shares the valuable experience gained throughout its development lifecycle, spanning data, features, training, evaluation, and deployment. Insight. While existing works apply Chain-of-Thought (CoT) to enhance relevance, they often hit a performance ceilin...",
+        "published": "2025-12-02T18:50:42Z",
+        "updated": "2025-12-02T18:50:42Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.03025v1",
+        "abs_url": "https://arxiv.org/abs/2512.03025v1",
+        "categories": [
+          "cs.IR",
+          "cs.AI",
+          "cs.CL",
+          "cs.LG"
+        ],
+        "primary_category": "cs.IR"
+      },
+      {
+        "id": "2512.03024v1",
+        "title": "TokenPowerBench: Benchmarking the Power Consumption of LLM Inference",
+        "authors": [
+          "Chenxu Niu",
+          "Wei Zhang",
+          "Jie Li",
+          "Yongjian Zhao",
+          "Tongyang Wang"
+        ],
+        "abstract": "Large language model (LLM) services now answer billions of queries per day, and industry reports show that inference, not training, accounts for more than 90% of total power consumption. However, existing benchmarks focus on either training/fine-tuning or performance of inference and provide little support for power consumption measurement and analysis of inference. We introduce TokenPowerBench, the first lightweight and extensible benchmark designed for LLM-inference power consumption studies. ...",
+        "published": "2025-12-02T18:50:17Z",
+        "updated": "2025-12-02T18:50:17Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.03024v1",
+        "abs_url": "https://arxiv.org/abs/2512.03024v1",
         "categories": [
           "cs.LG",
-          "cs.DC",
-          "cs.IT",
-          "cs.NI",
-          "eess.SP"
+          "cs.AI",
+          "cs.CY",
+          "cs.DC"
         ],
         "primary_category": "cs.LG"
       },
       {
-        "id": "2512.01980v1",
-        "title": "Low-Rank Prehab: Preparing Neural Networks for SVD Compression",
+        "id": "2512.03019v1",
+        "title": "Distribution-Calibrated Inference time compute for Thinking LLM-as-a-Judge",
         "authors": [
-          "Haoran Qin",
-          "Shansita Sharma",
-          "Ali Abbasi",
-          "Chayne Thrash",
-          "Soheil Kolouri"
+          "Hamid Dadkhahi",
+          "Firas Trabelsi",
+          "Parker Riley",
+          "Juraj Juraska",
+          "Mehdi Mirzazadeh"
         ],
-        "abstract": "Low-rank approximation methods such as singular value decomposition (SVD) and its variants (e.g., Fisher-weighted SVD, Activation SVD) have recently emerged as effective tools for neural network compression. In this setting, decomposition acts as a \"surgical\" intervention, followed by fine-tuning that serves as \"rehab\" to recover accuracy. Inspired by prehabilitation in surgery, we introduce a pre-compression fine-tuning stage, Low-Rank Prehab, that explicitly encourages low-rank structure in we...",
-        "published": "2025-12-01T18:37:53Z",
-        "updated": "2025-12-01T18:37:53Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.01980v1",
-        "abs_url": "https://arxiv.org/abs/2512.01980v1",
+        "abstract": "Thinking Large Language Models (LLMs) used as judges for pairwise preferences remain noisy at the single-sample level, and common aggregation rules (majority vote, soft self-consistency, or instruction-based self-aggregation) are inconsistent when ties are allowed. We study inference-time compute (ITC) for evaluators that generate n independent thinking-rating samples per item, and propose a principled, distribution-calibrated aggregation scheme. Our method models three-way preferences with a Br...",
+        "published": "2025-12-02T18:46:47Z",
+        "updated": "2025-12-02T18:46:47Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.03019v1",
+        "abs_url": "https://arxiv.org/abs/2512.03019v1",
+        "categories": [
+          "cs.LG",
+          "cs.AI"
+        ],
+        "primary_category": "cs.LG"
+      },
+      {
+        "id": "2512.03013v1",
+        "title": "In-Context Sync-LoRA for Portrait Video Editing",
+        "authors": [
+          "Sagi Polaczek",
+          "Or Patashnik",
+          "Ali Mahdavi-Amiri",
+          "Daniel Cohen-Or"
+        ],
+        "abstract": "Editing portrait videos is a challenging task that requires flexible yet precise control over a wide range of modifications, such as appearance changes, expression edits, or the addition of objects. The key difficulty lies in preserving the subject's original temporal behavior, demanding that every edited frame remains precisely synchronized with the corresponding source frame. We present Sync-LoRA, a method for editing portrait videos that achieves high-quality visual modifications while mainta...",
+        "published": "2025-12-02T18:40:35Z",
+        "updated": "2025-12-02T18:40:35Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.03013v1",
+        "abs_url": "https://arxiv.org/abs/2512.03013v1",
+        "categories": [
+          "cs.CV",
+          "cs.AI",
+          "cs.GR"
+        ],
+        "primary_category": "cs.CV"
+      },
+      {
+        "id": "2512.03005v1",
+        "title": "From Moderation to Mediation: Can LLMs Serve as Mediators in Online Flame Wars?",
+        "authors": [
+          "Dawei Li",
+          "Abdullah Alnaibari",
+          "Arslan Bisharat",
+          "Manny Sandoval",
+          "Deborah Hall"
+        ],
+        "abstract": "The rapid advancement of large language models (LLMs) has opened new possibilities for AI for good applications. As LLMs increasingly mediate online communication, their potential to foster empathy and constructive dialogue becomes an important frontier for responsible AI research. This work explores whether LLMs can serve not only as moderators that detect harmful content, but as mediators capable of understanding and de-escalating online conflicts. Our framework decomposes mediation into two s...",
+        "published": "2025-12-02T18:31:18Z",
+        "updated": "2025-12-02T18:31:18Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.03005v1",
+        "abs_url": "https://arxiv.org/abs/2512.03005v1",
+        "categories": [
+          "cs.AI"
+        ],
+        "primary_category": "cs.AI"
+      },
+      {
+        "id": "2512.03001v1",
+        "title": "Invasive Context Engineering to Control Large Language Models",
+        "authors": [
+          "Thomas Rivasseau"
+        ],
+        "abstract": "Current research on operator control of Large Language Models improves model robustness against adversarial attacks and misbehavior by training on preference examples, prompting, and input/output filtering. Despite good results, LLMs remain susceptible to abuse, and jailbreak probability increases with context length. There is a need for robust LLM security guarantees in long-context situations. We propose control sentences inserted into the LLM context as invasive context engineering to partial...",
+        "published": "2025-12-02T18:25:55Z",
+        "updated": "2025-12-02T18:25:55Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.03001v1",
+        "abs_url": "https://arxiv.org/abs/2512.03001v1",
+        "categories": [
+          "cs.AI"
+        ],
+        "primary_category": "cs.AI"
+      },
+      {
+        "id": "2512.02987v1",
+        "title": "Fine-Tuned Large Language Models for Logical Translation: Reducing Hallucinations with Lang2Logic",
+        "authors": [
+          "Muyu Pan",
+          "Dheeraj Kodakandla",
+          "Mahfuza Farooque"
+        ],
+        "abstract": "Recent advances in natural language processing (NLP), particularly large language models (LLMs), have motivated the automatic translation of natural language statements into formal logic without human intervention. This enables automated reasoning and facilitates debugging, finding loop invariants, and adhering to specifications in software systems. However, hallucinations-incorrect outputs generated by LLMs are challenging, particularly for logical translation tasks requiring precision. This wo...",
+        "published": "2025-12-02T18:03:06Z",
+        "updated": "2025-12-02T18:03:06Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.02987v1",
+        "abs_url": "https://arxiv.org/abs/2512.02987v1",
+        "categories": [
+          "cs.CL",
+          "cs.AI"
+        ],
+        "primary_category": "cs.CL"
+      },
+      {
+        "id": "2512.02983v1",
+        "title": "ProteinPNet: Prototypical Part Networks for Concept Learning in Spatial Proteomics",
+        "authors": [
+          "Louis McConnell",
+          "Jieran Sun",
+          "Theo Maffei",
+          "Raphael Gottardo",
+          "Marianna Rapsomaniki"
+        ],
+        "abstract": "Understanding the spatial architecture of the tumor microenvironment (TME) is critical to advance precision oncology. We present ProteinPNet, a novel framework based on prototypical part networks that discovers TME motifs from spatial proteomics data. Unlike traditional post-hoc explanability models, ProteinPNet directly learns discriminative, interpretable, faithful spatial prototypes through supervised training. We validate our approach on synthetic datasets with ground truth motifs, and furth...",
+        "published": "2025-12-02T18:00:03Z",
+        "updated": "2025-12-02T18:00:03Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.02983v1",
+        "abs_url": "https://arxiv.org/abs/2512.02983v1",
         "categories": [
           "cs.LG"
         ],
         "primary_category": "cs.LG"
+      },
+      {
+        "id": "2512.02978v1",
+        "title": "Rethinking Generalized BCIs: Benchmarking 340,000+ Unique Algorithmic Configurations for EEG Mental Command Decoding",
+        "authors": [
+          "Paul Barbaste",
+          "Olivier Oullier",
+          "Xavier Vasques"
+        ],
+        "abstract": "Robust decoding and classification of brain patterns measured with electroencephalography (EEG) remains a major challenge for real-world (i.e. outside scientific lab and medical facilities) brain-computer interface (BCI) applications due to well documented inter- and intra-participant variability. Here, we present a large-scale benchmark evaluating over 340,000+ unique combinations of spatial and nonlinear EEG classification. Our methodological pipeline consists in combinations of Common Spatial...",
+        "published": "2025-12-02T17:56:46Z",
+        "updated": "2025-12-02T17:56:46Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.02978v1",
+        "abs_url": "https://arxiv.org/abs/2512.02978v1",
+        "categories": [
+          "q-bio.NC",
+          "cs.AI",
+          "cs.HC",
+          "cs.LG"
+        ],
+        "primary_category": "q-bio.NC"
       }
     ],
     "count": 15,
@@ -325,7 +321,7 @@
       "cs.LG",
       "cs.CL"
     ],
-    "fetch_date": "2025-12-02"
+    "fetch_date": "2025-12-03"
   },
   "metadata": {
     "source": "arXiv API",
@@ -334,19 +330,19 @@
       "total_fetched": 15,
       "new_papers": 15,
       "duplicates_filtered": 0,
-      "last_fetch": "2025-12-01T09:05:27.945831"
+      "last_fetch": "2025-12-02T09:05:39.074003"
     }
   },
   "costs": {
-    "execution_time": 0.52117919921875,
-    "execution_minutes": 0.008686319986979166,
-    "github_actions": 6.949055989583334e-05,
+    "execution_time": 0.40001487731933594,
+    "execution_minutes": 0.006666914621988932,
+    "github_actions": 5.333531697591146e-05,
     "openai": {
       "input": 0,
       "output": 0,
       "total": 0
     },
-    "total": 6.949055989583334e-05,
+    "total": 5.333531697591146e-05,
     "token_usage": {}
   }
 }
