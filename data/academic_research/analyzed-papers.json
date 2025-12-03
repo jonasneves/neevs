@@ -1,347 +1,351 @@
 {
   "agent": "agent-b-paper-analyzer",
-  "timestamp": "2025-12-02T09:07:10.504297",
+  "timestamp": "2025-12-03T09:07:21.265488",
   "status": "completed",
   "input_from": "agent-a-paper-fetcher",
   "data": {
     "analyzed_papers": [
       {
-        "id": "2512.02020v1",
-        "title": "EfficientFlow: Efficient Equivariant Flow Policy Learning for Embodied AI",
+        "id": "2512.03042v1",
+        "title": "PPTArena: A Benchmark for Agentic PowerPoint Editing",
         "authors": [
-          "Jianlei Chang",
-          "Ruofeng Mei",
-          "Wei Ke",
-          "Xiangyu Xu"
+          "Michael Ofengenden",
+          "Yunze Man",
+          "Ziqi Pang",
+          "Yu-Xiong Wang"
         ],
-        "abstract": "Generative modeling has recently shown remarkable promise for visuomotor policy learning, enabling flexible and expressive control across diverse embodied AI tasks. However, existing generative policies often struggle with data inefficiency, requiring large-scale demonstrations, and sampling inefficiency, incurring slow action generation during inference. We introduce EfficientFlow, a unified framework for efficient embodied AI with flow-based policy learning. To enhance data efficiency, we brin...",
-        "published": "2025-12-01T18:59:59Z",
-        "updated": "2025-12-01T18:59:59Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.02020v1",
-        "abs_url": "https://arxiv.org/abs/2512.02020v1",
+        "abstract": "We introduce PPTArena, a benchmark for PowerPoint editing that measures reliable modifications to real slides under natural-language instructions. In contrast to image-PDF renderings or text-to-slide generation, PPTArena focuses on in-place editing across 100 decks, 2125 slides, and over 800 targeted edits covering text, charts, tables, animations, and master-level styles. Each case includes a ground-truth deck, a fully specified target outcome, and a dual VLM-as-judge pipeline that separately s...",
+        "published": "2025-12-02T18:59:50Z",
+        "updated": "2025-12-02T18:59:50Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.03042v1",
+        "abs_url": "https://arxiv.org/abs/2512.03042v1",
         "categories": [
-          "cs.RO",
-          "cs.AI",
           "cs.CV",
+          "cs.AI"
+        ],
+        "primary_category": "cs.CV",
+        "analysis": {
+          "tldr": "This paper presents PPTArena, a new benchmark designed to assess the effectiveness of AI in editing PowerPoint presentations based on natural language instructions. Unlike previous methods, it focuses on making precise edits to existing slides rather than generating new ones from scratch.",
+          "eli5": "Think of PPTArena as a test for smart computer programs that help you edit PowerPoint slides. Instead of just creating slides from text, it looks at how well these programs can change what's already there, like fixing typos, changing colors, or updating charts, all based on what you ask them to do in plain English.",
+          "key_contributions": [
+            "PPTArena introduces a unique benchmark specifically for in-place editing of PowerPoint presentations, which is a shift from previous methods that focused more on generating slides from scratch.",
+            "The benchmark includes a comprehensive dataset with 100 presentation decks and over 800 specific edits, providing a rich resource for evaluating AI performance in real-world scenarios.",
+            "It utilizes a dual VLM-as-judge pipeline to ensure that the quality of edits can be reliably assessed, setting a new standard for evaluating AI editing capabilities."
+          ],
+          "why_care": "This research is crucial because it improves how we can use AI to assist in creating effective presentations, making it easier for professionals, educators, and students to communicate their ideas clearly without getting bogged down by tedious editing tasks.",
+          "accessibility": "Tech-Savvy",
+          "spicy_take": "With PPTArena, we might finally be looking at a future where PowerPoint presentations edit themselves\u2014if only we could get them to keep our jokes intact!",
+          "reading_time_minutes": 5
+        }
+      },
+      {
+        "id": "2512.03040v1",
+        "title": "Video4Spatial: Towards Visuospatial Intelligence with Context-Guided Video Generation",
+        "authors": [
+          "Zeqi Xiao",
+          "Yiwei Zhao",
+          "Lingxiao Li",
+          "Yushi Lan",
+          "Yu Ning"
+        ],
+        "abstract": "We investigate whether video generative models can exhibit visuospatial intelligence, a capability central to human cognition, using only visual data. To this end, we present Video4Spatial, a framework showing that video diffusion models conditioned solely on video-based scene context can perform complex spatial tasks. We validate on two tasks: scene navigation - following camera-pose instructions while remaining consistent with 3D geometry of the scene, and object grounding - which requires sem...",
+        "published": "2025-12-02T18:59:44Z",
+        "updated": "2025-12-02T18:59:44Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.03040v1",
+        "abs_url": "https://arxiv.org/abs/2512.03040v1",
+        "categories": [
+          "cs.CV",
+          "cs.AI"
+        ],
+        "primary_category": "cs.CV",
+        "analysis": {
+          "tldr": "This paper explores how generative video models can develop something akin to human visuospatial intelligence using just visual data. The authors present a new framework called Video4Spatial that can tackle complex spatial tasks by conditioning on video scenes.",
+          "eli5": "Imagine teaching a computer not just to watch videos but to understand and interact with the world in a way similar to how we do. This study introduces a system that can look at a video and figure out how to move around in that space or find specific objects, all based on what it sees in the video.",
+          "key_contributions": [
+            "Introduction of Video4Spatial, a framework that demonstrates how video diffusion models can achieve visuospatial intelligence.",
+            "Validation of the framework through two complex tasks: scene navigation and object grounding, showcasing its capabilities.",
+            "Demonstration that video models can understand and manipulate 3D space based solely on visual input, opening avenues for advanced AI applications."
+          ],
+          "why_care": "As AI increasingly permeates our lives, enhancing its ability to understand and interact with the world in human-like ways could lead to more intuitive technologies, from autonomous vehicles to advanced robotics. This work represents a step toward making AI more capable and versatile in real-world applications.",
+          "accessibility": "Tech-Savvy",
+          "spicy_take": "If AI can master visuospatial tasks like humans through video alone, we might be looking at a future where our machines not only see but also 'think' about what they see, transforming fields like entertainment, navigation, and automation.",
+          "reading_time_minutes": 5
+        }
+      },
+      {
+        "id": "2512.03036v1",
+        "title": "ViSAudio: End-to-End Video-Driven Binaural Spatial Audio Generation",
+        "authors": [
+          "Mengchen Zhang",
+          "Qi Chen",
+          "Tong Wu",
+          "Zihan Liu",
+          "Dahua Lin"
+        ],
+        "abstract": "Despite progress in video-to-audio generation, the field focuses predominantly on mono output, lacking spatial immersion. Existing binaural approaches remain constrained by a two-stage pipeline that first generates mono audio and then performs spatialization, often resulting in error accumulation and spatio-temporal inconsistencies. To address this limitation, we introduce the task of end-to-end binaural spatial audio generation directly from silent video. To support this task, we present the Bi...",
+        "published": "2025-12-02T18:56:12Z",
+        "updated": "2025-12-02T18:56:12Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.03036v1",
+        "abs_url": "https://arxiv.org/abs/2512.03036v1",
+        "categories": [
+          "cs.CV",
+          "cs.AI"
+        ],
+        "primary_category": "cs.CV",
+        "analysis": {
+          "tldr": "This paper introduces a novel method for generating immersive 3D audio directly from silent video, skipping the traditional steps that often lead to audio errors. The new technique aims to deliver a more realistic and engaging listening experience.",
+          "eli5": "Imagine watching a silent movie and wanting to hear sounds that match the action perfectly around you, like a scene in a park where birds chirp from above and leaves rustle beside you. This paper creates a system that can generate those sounds in a way that feels like you're really there, all from just the video, without messing things up along the way.",
+          "key_contributions": [
+            "Pioneered an end-to-end approach for binaural spatial audio generation from silent video, eliminating the typical mono-to-binaural conversion errors.",
+            "Introduced a new dataset designed specifically for training models to understand the spatial audio landscape from video content.",
+            "Demonstrated improved audio realism and immersion compared to previous methods, showcasing the effectiveness of their approach."
+          ],
+          "why_care": "This research has the potential to revolutionize how we experience media, making soundtracks richer and more engaging in movies, games, and virtual reality. As we spend more time in digital environments, enhancing our auditory experience could significantly improve our enjoyment and immersion.",
+          "accessibility": "General Audience",
+          "spicy_take": "This could be the next big step in audio technology, potentially overshadowing traditional filmmaking techniques by making sound as important as visuals in storytelling.",
+          "reading_time_minutes": 5
+        }
+      },
+      {
+        "id": "2512.03035v1",
+        "title": "Learning Physically Consistent Lagrangian Control Models Without Acceleration Measurements",
+        "authors": [
+          "Ibrahim Laiche",
+          "Mokrane Boudaoud",
+          "Patrick Gallinari",
+          "Pascal Morin"
+        ],
+        "abstract": "This article investigates the modeling and control of Lagrangian systems involving non-conservative forces using a hybrid method that does not require acceleration calculations. It focuses in particular on the derivation and identification of physically consistent models, which are essential for model-based control synthesis. Lagrangian or Hamiltonian neural networks provide useful structural guarantees but the learning of such models often leads to inconsistent models, especially on real physic...",
+        "published": "2025-12-02T18:56:02Z",
+        "updated": "2025-12-02T18:56:02Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.03035v1",
+        "abs_url": "https://arxiv.org/abs/2512.03035v1",
+        "categories": [
+          "eess.SY",
           "cs.LG"
         ],
-        "primary_category": "cs.RO",
+        "primary_category": "eess.SY",
         "analysis": {
-          "tldr": "This paper introduces EfficientFlow, a new method for teaching robots and AI systems how to move and act more efficiently. It addresses issues of requiring too much data and being slow at making decisions during actions.",
-          "eli5": "Imagine you have a robot that needs to learn how to navigate a maze. Current methods often need to see thousands of examples before it gets good at it, and when it finally does, it takes forever to decide what to do next. EfficientFlow helps the robot learn faster and act quicker by using a new way of learning from less data and making smart choices on the fly.",
+          "tldr": "This paper presents a novel approach to model and control Lagrangian systems without needing to measure accelerations, which is crucial for accurately simulating how these systems behave, especially when they interact with non-conservative forces.",
+          "eli5": "Imagine you\u2019re trying to teach a robot how to move smoothly without bumping into things or falling over. This study shows a way to create a smarter robot that can learn to control its movements using a combination of physics rules and smart algorithms, all without needing to track every tiny acceleration detail. It's like teaching it to dance using only the music and the rhythm, rather than counting each step.",
           "key_contributions": [
-            "EfficientFlow introduces a flow-based approach that improves both how robots learn from fewer examples and how quickly they can decide on actions.",
-            "It unifies different aspects of embodied AI tasks into one framework, making it easier to apply across various scenarios.",
-            "The method showcases impressive performance improvements in both data efficiency and action generation speed compared to existing techniques."
+            "Introduces a hybrid method that enables modeling Lagrangian systems without relying on acceleration measurements.",
+            "Develops techniques for deriving physically consistent models essential for effective control in real-world applications.",
+            "Demonstrates the application of Lagrangian and Hamiltonian neural networks while ensuring they produce reliable results despite the complexity of physical systems."
           ],
-          "why_care": "Efficient AI can lead to more capable and responsive robots in real-world applications, from manufacturing to healthcare, enhancing productivity and safety in various sectors.",
+          "why_care": "This research has real-world implications for robotics, autonomous vehicles, and any system that needs to respond intelligently to changing environments. By improving our ability to model these systems accurately, we can enhance safety, efficiency, and performance in various applications, from manufacturing to space exploration.",
           "accessibility": "Tech-Savvy",
-          "spicy_take": "If EfficientFlow delivers on its promises, it could disrupt the way we train robots, making them as efficient as they are essential in our future.",
+          "spicy_take": "This approach could redefine how we think about physical simulations in real-time applications, paving the way to a new era where machines learn from the environment more intuitively.",
           "reading_time_minutes": 5
         }
       },
       {
-        "id": "2512.02019v1",
-        "title": "A Diffusion Model Framework for Maximum Entropy Reinforcement Learning",
+        "id": "2512.03028v1",
+        "title": "SMP: Reusable Score-Matching Motion Priors for Physics-Based Character Control",
         "authors": [
-          "Sebastian Sanokowski",
-          "Kaustubh Patil",
-          "Alois Knoll"
+          "Yuxuan Mu",
+          "Ziyu Zhang",
+          "Yi Shi",
+          "Minami Matsumoto",
+          "Kotaro Imamura"
         ],
-        "abstract": "Diffusion models have achieved remarkable success in data-driven learning and in sampling from complex, unnormalized target distributions. Building on this progress, we reinterpret Maximum Entropy Reinforcement Learning (MaxEntRL) as a diffusion model-based sampling problem. We tackle this problem by minimizing the reverse Kullback-Leibler (KL) divergence between the diffusion policy and the optimal policy distribution using a tractable upper bound. By applying the policy gradient theorem to thi...",
-        "published": "2025-12-01T18:59:58Z",
-        "updated": "2025-12-01T18:59:58Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.02019v1",
-        "abs_url": "https://arxiv.org/abs/2512.02019v1",
+        "abstract": "Data-driven motion priors that can guide agents toward producing naturalistic behaviors play a pivotal role in creating life-like virtual characters. Adversarial imitation learning has been a highly effective method for learning motion priors from reference motion data. However, adversarial priors, with few exceptions, need to be retrained for each new controller, thereby limiting their reusability and necessitating the retention of the reference motion data when training on downstream tasks. In...",
+        "published": "2025-12-02T18:54:12Z",
+        "updated": "2025-12-02T18:54:12Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.03028v1",
+        "abs_url": "https://arxiv.org/abs/2512.03028v1",
         "categories": [
-          "cs.LG",
+          "cs.GR",
           "cs.AI",
-          "stat.ML"
-        ],
-        "primary_category": "cs.LG",
-        "analysis": {
-          "tldr": "This paper presents a novel approach to Maximum Entropy Reinforcement Learning by framing it as a problem of sampling from diffusion models. It introduces techniques to improve policy optimization by focusing on minimizing divergence between the learned and optimal policies.",
-          "eli5": "Imagine you have a very complex puzzle, and you want to put the pieces together in the best way possible. This paper uses a new method to help figure out the best arrangement of the puzzle pieces by treating the process like a game of chance, where you're trying to learn the most effective moves over time while keeping things random enough to explore new options.",
-          "key_contributions": [
-            "Reinterprets Maximum Entropy Reinforcement Learning as a diffusion model sampling problem.",
-            "Introduces a new technique to minimize the reverse Kullback-Leibler divergence for better policy optimization.",
-            "Applies the policy gradient theorem innovatively to bridge the gap between diffusion models and reinforcement learning."
-          ],
-          "why_care": "Optimizing learning in AI can have significant impacts on various industries, from improving autonomous vehicles to enhancing personalized recommendations. This work could lead to more efficient and flexible AI systems that can learn complex tasks with greater effectiveness and fewer resources.",
-          "accessibility": "Tech-Savvy",
-          "spicy_take": "This approach might just be the missing link between complex AI models and practical applications, but it\u2019s still a long way from real-world deployment.",
-          "reading_time_minutes": 5
-        }
-      },
-      {
-        "id": "2512.02017v1",
-        "title": "Visual Sync: Multi-Camera Synchronization via Cross-View Object Motion",
-        "authors": [
-          "Shaowei Liu",
-          "David Yifan Yao",
-          "Saurabh Gupta",
-          "Shenlong Wang"
-        ],
-        "abstract": "Today, people can easily record memorable moments, ranging from concerts, sports events, lectures, family gatherings, and birthday parties with multiple consumer cameras. However, synchronizing these cross-camera streams remains challenging. Existing methods assume controlled settings, specific targets, manual correction, or costly hardware. We present VisualSync, an optimization framework based on multi-view dynamics that aligns unposed, unsynchronized videos at millisecond accuracy. Our key in...",
-        "published": "2025-12-01T18:59:57Z",
-        "updated": "2025-12-01T18:59:57Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.02017v1",
-        "abs_url": "https://arxiv.org/abs/2512.02017v1",
-        "categories": [
           "cs.CV",
-          "cs.AI",
-          "cs.LG",
           "cs.RO"
         ],
-        "primary_category": "cs.CV",
+        "primary_category": "cs.GR",
         "analysis": {
-          "tldr": "This paper introduces VisualSync, a new method for synchronizing videos recorded from multiple cameras without requiring control over the environment or expensive equipment. It allows for precise alignment of footage, making it easier to create cohesive videos from various sources.",
-          "eli5": "Imagine you have a bunch of videos taken from different angles at a birthday party, and they\u2019re all out of sync. This paper shows how to use the movements of the people in the videos to figure out how to line them up perfectly. It\u2019s like solving a puzzle where the pieces are moving around!",
+          "tldr": "This paper introduces SMP, a new approach for creating reusable motion models that help virtual characters move realistically, without needing to start from scratch each time a new character is created. It aims to make character control in games and simulations more efficient and versatile.",
+          "eli5": "Imagine if every time you wanted to make a new video game character, you had to teach it to walk all over again. This paper solves that problem by creating a reusable toolkit that lets characters learn from past experiences, making them move in a lifelike way without needing constant retraining.",
           "key_contributions": [
-            "VisualSync can synchronize videos from multiple cameras with millisecond accuracy, even when the cameras are unposed and unsynchronized.",
-            "It uses an innovative optimization framework that takes into account the dynamics of the scene, improving upon previous methods that needed controlled environments.",
-            "This approach eliminates the need for manual corrections or expensive synchronization hardware, making it accessible for everyone."
+            "Introduces a reusable score-matching framework for training motion priors, enhancing efficiency in character control.",
+            "Reduces the need for large datasets of reference motion, allowing for more adaptable character training.",
+            "Demonstrates that the proposed method outperforms traditional adversarial imitation learning in various scenarios."
           ],
-          "why_care": "For anyone who loves filming events or creating videos, this technology simplifies the editing process, allowing for smoother transitions and better storytelling. It has implications for content creators, educators, and even surveillance, where accurate video synchronization is crucial.",
+          "why_care": "This research is important for anyone who enjoys video games, animation, or virtual reality because it paves the way for more realistic and fluid character movements, making our digital experiences more immersive and enjoyable.",
           "accessibility": "General Audience",
-          "spicy_take": "This could revolutionize the way we capture and edit memories, making professional-quality video easily accessible to anyone with a smartphone!",
+          "spicy_take": "The gaming industry needs to embrace this technology to avoid the pitfalls of repetitive motion capture sessions that contribute little innovation to character realism.",
           "reading_time_minutes": 5
         }
       },
       {
-        "id": "2512.02012v1",
-        "title": "Improved Mean Flows: On the Challenges of Fastforward Generative Models",
+        "id": "2512.03026v1",
+        "title": "The Moral Consistency Pipeline: Continuous Ethical Evaluation for Large Language Models",
         "authors": [
-          "Zhengyang Geng",
-          "Yiyang Lu",
-          "Zongze Wu",
-          "Eli Shechtman",
-          "J. Zico Kolter"
+          "Saeid Jamshidi",
+          "Kawser Wazed Nafi",
+          "Arghavan Moradi Dakhel",
+          "Negar Shahabi",
+          "Foutse Khomh"
         ],
-        "abstract": "MeanFlow (MF) has recently been established as a framework for one-step generative modeling. However, its ``fastforward'' nature introduces key challenges in both the training objective and the guidance mechanism. First, the original MF's training target depends not only on the underlying ground-truth fields but also on the network itself. To address this issue, we recast the objective as a loss on the instantaneous velocity $v$, re-parameterized by a network that predicts the average velocity $...",
-        "published": "2025-12-01T18:59:49Z",
-        "updated": "2025-12-01T18:59:49Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.02012v1",
-        "abs_url": "https://arxiv.org/abs/2512.02012v1",
+        "abstract": "The rapid advancement and adaptability of Large Language Models (LLMs) highlight the need for moral consistency, the capacity to maintain ethically coherent reasoning across varied contexts. Existing alignment frameworks, structured approaches designed to align model behavior with human ethical and social norms, often rely on static datasets and post-hoc evaluations, offering limited insight into how ethical reasoning may evolve across different contexts or temporal scales. This study presents t...",
+        "published": "2025-12-02T18:52:29Z",
+        "updated": "2025-12-02T18:52:29Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.03026v1",
+        "abs_url": "https://arxiv.org/abs/2512.03026v1",
         "categories": [
-          "cs.CV",
-          "cs.LG"
+          "cs.CL",
+          "cs.AI"
         ],
-        "primary_category": "cs.CV",
+        "primary_category": "cs.CL",
         "analysis": {
-          "tldr": "This paper tackles the challenges of training generative models using a new approach called MeanFlow. By rethinking how these models learn from data, the authors aim to improve their performance and efficiency.",
-          "eli5": "Imagine you're trying to predict how clouds will move in the sky. Traditional models might get stuck on past movements, but this new approach, MeanFlow, allows for a more straightforward and dynamic way to understand and predict those movements by focusing on the 'speed' of the clouds rather than just their position.",
+          "tldr": "This paper proposes a new approach for ensuring that large language models (LLMs) remain ethically consistent in their responses, adapting to different situations over time. It emphasizes the importance of ongoing ethical evaluation rather than relying solely on fixed standards.",
+          "eli5": "Imagine if your favorite robot friend could chat with you about anything, but sometimes it gives answers that don\u2019t seem fair or kind. This paper talks about how we can help such robots make better, more ethical choices, no matter what question you ask them. Instead of just checking their answers once, we should keep checking and improving their sense of right and wrong as they learn.",
           "key_contributions": [
-            "The paper introduces a new training objective that focuses on the instantaneous velocity of generative models, allowing them to be more responsive to changes in data.",
-            "It identifies and addresses key challenges related to the 'fastforward' nature of MeanFlow, which can lead to inaccuracies during training.",
-            "The authors propose a novel guidance mechanism that improves how these models learn from data, resulting in better overall performance."
+            "Introduces the 'Moral Consistency Pipeline,' a method for continuously evaluating and refining the ethical reasoning of LLMs.",
+            "Moves away from static assessments to a more dynamic approach that adapts to changing contexts.",
+            "Highlights the limitations of current ethical alignment frameworks and offers solutions to improve them."
           ],
-          "why_care": "Improving generative models like MeanFlow could revolutionize fields like animation, weather forecasting, and even video game design, where realistic movement and changes in environments can enhance user experience and realism.",
-          "accessibility": "Tech-Savvy",
-          "spicy_take": "This work could redefine how we think about generative models, moving them closer to real-time applications and making them more intuitive in their predictions.",
+          "why_care": "As LLMs become integrated into more areas of our lives\u2014from education to healthcare\u2014ensuring they act ethically is crucial. If these models can\u2019t maintain consistent morals, their use could lead to harmful or biased decisions affecting real people.",
+          "accessibility": "General Audience",
+          "spicy_take": "By focusing on continuous ethical evaluation, this research could set a new standard for LLM development, making it less acceptable to deploy models that don't have robust moral frameworks.",
           "reading_time_minutes": 5
         }
       },
       {
-        "id": "2512.02010v1",
-        "title": "Four Over Six: More Accurate NVFP4 Quantization with Adaptive Block Scaling",
+        "id": "2512.03025v1",
+        "title": "LORE: A Large Generative Model for Search Relevance",
         "authors": [
-          "Jack Cook",
-          "Junxian Guo",
-          "Guangxuan Xiao",
-          "Yujun Lin",
-          "Song Han"
+          "Chenji Lu",
+          "Zhuo Chen",
+          "Hui Zhao",
+          "Zhiyuan Zeng",
+          "Gang Zhao"
         ],
-        "abstract": "As large language models have grown larger, low-precision numerical formats such as NVFP4 have become increasingly popular due to the speed and memory benefits they provide. However, to accelerate computation with NVFP4, all matrix multiplication operands--weights and activations in the forward pass, and weights, activations, and gradients in the backward pass--must be quantized to NVFP4, often leading to divergence during training and performance degradation during inference. NVFP4 by evaluatin...",
-        "published": "2025-12-01T18:59:45Z",
-        "updated": "2025-12-01T18:59:45Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.02010v1",
-        "abs_url": "https://arxiv.org/abs/2512.02010v1",
+        "abstract": "Achievement. We introduce LORE, a systematic framework for Large Generative Model-based relevance in e-commerce search. Deployed and iterated over three years, LORE achieves a cumulative +27\\% improvement in online GoodRate metrics. This report shares the valuable experience gained throughout its development lifecycle, spanning data, features, training, evaluation, and deployment. Insight. While existing works apply Chain-of-Thought (CoT) to enhance relevance, they often hit a performance ceilin...",
+        "published": "2025-12-02T18:50:42Z",
+        "updated": "2025-12-02T18:50:42Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.03025v1",
+        "abs_url": "https://arxiv.org/abs/2512.03025v1",
         "categories": [
+          "cs.IR",
+          "cs.AI",
           "cs.CL",
           "cs.LG"
         ],
-        "primary_category": "cs.CL",
+        "primary_category": "cs.IR",
         "analysis": {
-          "tldr": "This paper introduces a new method for quantizing large language models using NVFP4, making it more efficient and accurate. The authors propose adaptive block scaling to improve performance during training and inference.",
-          "eli5": "Imagine trying to make a giant sandwich (a large language model) but running out of space in your fridge (memory). The authors of this paper found a smart way to cut the sandwich into smaller, manageable pieces (NVFP4 quantization) that not only fit better but also taste great (maintain performance). They focused on ensuring that these smaller pieces don\u2019t lose their flavor (accuracy) during the cooking process (training and inference), making everything work together nicely.",
+          "tldr": "This paper introduces LORE, a new framework that significantly improves search relevance in e-commerce over three years of development, achieving a 27% boost in performance metrics. It shares insights from its journey to help others in the field.",
+          "eli5": "Imagine you\u2019re shopping online and the search results don\u2019t quite match what you\u2019re looking for. LORE is like a super-smart assistant that learns from your searches and helps make those results way better, so you find what you want faster. This paper explains how they built and improved this assistant over time.",
           "key_contributions": [
-            "Introduced adaptive block scaling for NVFP4, leading to improved quantization accuracy.",
-            "Showed that this method reduces divergence during the training of large models.",
-            "Demonstrated real-world performance improvements in inference speed and memory usage."
+            "LORE is a novel framework that leverages large generative models specifically tailored for enhancing search relevance in e-commerce.",
+            "The framework achieved a remarkable 27% improvement in online metrics, demonstrating its effectiveness.",
+            "The authors provide a detailed account of the development lifecycle, offering insights on data, features, training, evaluation, and deployment that can guide future research."
           ],
-          "why_care": "As AI models get bigger, we need smarter ways to make them faster and less resource-intensive. This research has practical implications for developing more efficient AI applications, from self-driving cars to personalized recommendations, ultimately enhancing everyday technology.",
-          "accessibility": "Tech-Savvy",
-          "spicy_take": "This approach could be a game changer in making AI more approachable for smaller companies, leveling the playing field against tech giants.",
-          "reading_time_minutes": 5
-        }
-      },
-      {
-        "id": "2512.02008v1",
-        "title": "The Art of Scaling Test-Time Compute for Large Language Models",
-        "authors": [
-          "Aradhye Agarwal",
-          "Ayan Sengupta",
-          "Tanmoy Chakraborty"
-        ],
-        "abstract": "Test-time scaling (TTS) -- the dynamic allocation of compute during inference -- is a promising direction for improving reasoning in large language models (LLMs). However, a systematic comparison of well-known TTS strategies under identical conditions is missing, and the influence of model type and problem difficulty on performance remains unclear. To address these gaps, we conduct the first large-scale study of TTS, spanning over thirty billion tokens generated using eight open-source LLMs (7B ...",
-        "published": "2025-12-01T18:59:28Z",
-        "updated": "2025-12-01T18:59:28Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.02008v1",
-        "abs_url": "https://arxiv.org/abs/2512.02008v1",
-        "categories": [
-          "cs.CL"
-        ],
-        "primary_category": "cs.CL",
-        "analysis": {
-          "tldr": "This paper explores how to intelligently allocate computing resources when large language models (LLMs) are solving problems. It compares various strategies to determine the best approaches for enhancing reasoning performance during inference.",
-          "eli5": "Imagine you have a super-smart robot that can answer questions or solve problems but needs the right amount of brain power (compute) to do it efficiently. This study looks at different ways to give that robot just the right amount of brain power when it's working, especially for tough questions. The researchers tested eight different versions of this robot on a massive scale to see which strategies worked best.",
-          "key_contributions": [
-            "The first systematic comparison of various test-time scaling strategies for large language models under controlled conditions.",
-            "Analysis of how different types of language models and the complexity of problems affect reasoning performance.",
-            "Insights from a large-scale study involving over thirty billion tokens generated, providing a robust dataset for future research."
-          ],
-          "why_care": "Understanding how to better allocate computing resources can significantly enhance the capabilities of AI systems we use every day, from customer service bots to complex problem-solving applications. This research could lead to more efficient and effective AI, which affects how businesses operate and how users interact with technology.",
+          "why_care": "Improving search relevance has a direct impact on online shopping experiences, meaning consumers can find products they truly want without endless scrolling. This research not only makes shopping easier but can also lead to increased sales for businesses, making it relevant for everyone from consumers to e-commerce companies.",
           "accessibility": "General Audience",
-          "spicy_take": "If we can master test-time scaling, it could revolutionize how we use language models, making them more adaptable and efficient, much like how tailor-fit clothing outperforms off-the-rack options.",
+          "spicy_take": "While generative models are all the rage, LORE proves that a focused approach to search relevance can yield better results than simply throwing more data at the problem.",
           "reading_time_minutes": 5
         }
       },
       {
-        "id": "2512.02004v1",
-        "title": "AlignSAE: Concept-Aligned Sparse Autoencoders",
+        "id": "2512.03024v1",
+        "title": "TokenPowerBench: Benchmarking the Power Consumption of LLM Inference",
         "authors": [
-          "Minglai Yang",
-          "Xinyu Guo",
-          "Mihai Surdeanu",
-          "Liangming Pan"
+          "Chenxu Niu",
+          "Wei Zhang",
+          "Jie Li",
+          "Yongjian Zhao",
+          "Tongyang Wang"
         ],
-        "abstract": "Large Language Models (LLMs) encode factual knowledge within hidden parametric spaces that are difficult to inspect or control. While Sparse Autoencoders (SAEs) can decompose hidden activations into more fine-grained, interpretable features, they often struggle to reliably align these features with human-defined concepts, resulting in entangled and distributed feature representations. To address this, we introduce AlignSAE, a method that aligns SAE features with a defined ontology through a \"pre...",
-        "published": "2025-12-01T18:58:22Z",
-        "updated": "2025-12-01T18:58:22Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.02004v1",
-        "abs_url": "https://arxiv.org/abs/2512.02004v1",
+        "abstract": "Large language model (LLM) services now answer billions of queries per day, and industry reports show that inference, not training, accounts for more than 90% of total power consumption. However, existing benchmarks focus on either training/fine-tuning or performance of inference and provide little support for power consumption measurement and analysis of inference. We introduce TokenPowerBench, the first lightweight and extensible benchmark designed for LLM-inference power consumption studies. ...",
+        "published": "2025-12-02T18:50:17Z",
+        "updated": "2025-12-02T18:50:17Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.03024v1",
+        "abs_url": "https://arxiv.org/abs/2512.03024v1",
         "categories": [
           "cs.LG",
-          "cs.CL"
+          "cs.AI",
+          "cs.CY",
+          "cs.DC"
         ],
         "primary_category": "cs.LG",
         "analysis": {
-          "tldr": "This paper introduces AlignSAE, a new method that improves Sparse Autoencoders by aligning their features with clearly defined concepts, making it easier to understand and control the knowledge encoded in large language models.",
-          "eli5": "Imagine if you could take a super complicated puzzle (like a large language model) and organize the pieces (features) in a way that makes sense to you. AlignSAE is like a special guide that helps sort the puzzle pieces based on concepts we understand, so we can see how the puzzle fits together without getting lost in a jumble of confusing pieces.",
+          "tldr": "This paper introduces TokenPowerBench, a new tool for measuring the power consumption of large language models (LLMs) during inference, which is crucial since inference accounts for the majority of power usage in these models.",
+          "eli5": "Imagine you have a super-smart assistant (like a large language model) that helps you answer questions. While training this assistant is like teaching it to be smart (which takes a lot of energy), using it (inference) to answer questions uses even more energy! This paper creates a new way to measure just how much energy these assistants use when they\u2019re answering our queries.",
           "key_contributions": [
-            "AlignSAE provides a framework to align features from Sparse Autoencoders with human-defined concepts, enhancing interpretability.",
-            "The method allows for better control over the knowledge representation in large language models, addressing the challenge of entangled features.",
-            "It introduces a systematic approach for integrating ontology into sparse representations, bridging gaps between machine learning and human reasoning."
+            "Introduced TokenPowerBench as the first benchmark focused specifically on measuring the power consumption of LLM inference.",
+            "Provides a lightweight and extensible framework that can be adapted for various models and scenarios.",
+            "Fills the gap in existing benchmarks which mostly focus on training or performance, neglecting the energy demands during actual usage."
           ],
-          "why_care": "As AI systems increasingly influence our lives, understanding how they work becomes crucial. AlignSAE helps ensure that AI can be more transparent and aligned with human values, which is especially important in applications like healthcare, law, and education.",
+          "why_care": "As large language models become integral to many applications, understanding their energy consumption is vital for sustainable AI development. This research helps companies and developers optimize their models, potentially leading to lower operational costs and a smaller carbon footprint.",
           "accessibility": "Tech-Savvy",
-          "spicy_take": "AlignSAE might just be the key to preventing AI from becoming a black box, making it not only a technical advancement but an ethical one too.",
+          "spicy_take": "If we don\u2019t start taking energy consumption of AI seriously, we might end up with super-intelligent models that are also super wasteful!",
           "reading_time_minutes": 5
         }
       },
       {
-        "id": "2512.01996v1",
-        "title": "Learning Sim-to-Real Humanoid Locomotion in 15 Minutes",
+        "id": "2512.03019v1",
+        "title": "Distribution-Calibrated Inference time compute for Thinking LLM-as-a-Judge",
         "authors": [
-          "Younggyo Seo",
-          "Carmelo Sferrazza",
-          "Juyue Chen",
-          "Guanya Shi",
-          "Rocky Duan"
+          "Hamid Dadkhahi",
+          "Firas Trabelsi",
+          "Parker Riley",
+          "Juraj Juraska",
+          "Mehdi Mirzazadeh"
         ],
-        "abstract": "Massively parallel simulation has reduced reinforcement learning (RL) training time for robots from days to minutes. However, achieving fast and reliable sim-to-real RL for humanoid control remains difficult due to the challenges introduced by factors such as high dimensionality and domain randomization. In this work, we introduce a simple and practical recipe based on off-policy RL algorithms, i.e., FastSAC and FastTD3, that enables rapid training of humanoid locomotion policies in just 15 minu...",
-        "published": "2025-12-01T18:55:17Z",
-        "updated": "2025-12-01T18:55:17Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.01996v1",
-        "abs_url": "https://arxiv.org/abs/2512.01996v1",
+        "abstract": "Thinking Large Language Models (LLMs) used as judges for pairwise preferences remain noisy at the single-sample level, and common aggregation rules (majority vote, soft self-consistency, or instruction-based self-aggregation) are inconsistent when ties are allowed. We study inference-time compute (ITC) for evaluators that generate n independent thinking-rating samples per item, and propose a principled, distribution-calibrated aggregation scheme. Our method models three-way preferences with a Br...",
+        "published": "2025-12-02T18:46:47Z",
+        "updated": "2025-12-02T18:46:47Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.03019v1",
+        "abs_url": "https://arxiv.org/abs/2512.03019v1",
         "categories": [
-          "cs.RO",
-          "cs.AI",
-          "cs.LG"
+          "cs.LG",
+          "cs.AI"
         ],
-        "primary_category": "cs.RO",
+        "primary_category": "cs.LG",
         "analysis": {
-          "tldr": "This paper presents a groundbreaking method that allows robots to learn how to walk like humans in just 15 minutes of simulation time. By using advanced reinforcement learning techniques, the authors tackle the complex challenges of transferring this learning from simulation to real-world applications.",
-          "eli5": "Imagine teaching a robot how to walk like a person. This study shows that by using some clever computer tricks, robots can learn this skill super fast in a virtual world, and then they can do it in the real world too. It\u2019s like giving a robot a quick crash course in walking that actually works outside the computer!",
+          "tldr": "This paper tackles the issue of noise in the judgments made by large language models (LLMs) when evaluating preferences between pairs. It introduces a new method for aggregating the results from these models to improve consistency and accuracy.",
+          "eli5": "Imagine you have a bunch of friends who give opinions on which movie is better between two choices. Sometimes their opinions conflict or seem random, which makes it hard to decide. This paper looks at how we can ask a language model (like a super-smart robot) for multiple opinions and then combine those opinions in a better way to reach a clearer decision.",
           "key_contributions": [
-            "The introduction of a fast training method for humanoid locomotion using off-policy RL algorithms.",
-            "The reduction of training time from days to just 15 minutes, making it practical for real-world applications.",
-            "A focus on overcoming challenges like high dimensionality and domain randomization that typically hinder sim-to-real performance."
+            "Introduces a new aggregation method that improves the accuracy of LLM judgments by modeling three-way preferences.",
+            "Demonstrates how aggregating multiple independent samples can reduce noise in decision-making.",
+            "Provides a principled framework for distribution-calibrated inference time compute, making LLM evaluations more reliable."
           ],
-          "why_care": "Fast-tracking robot learning means we could see humanoid robots helping in real-world tasks like caregiving or search and rescue much sooner. This could revolutionize industries and improve our daily lives by making robots more useful and adaptable.",
+          "why_care": "As LLMs are increasingly used in various fields, from customer service to legal decisions, ensuring their judgments are reliable and consistent is crucial. This research could lead to better applications of AI in real-world decision-making scenarios.",
           "accessibility": "Tech-Savvy",
-          "spicy_take": "This work could be a game-changer for robotics, but let\u2019s not forget: faster learning doesn\u2019t always mean smarter robots. We need to ensure that these robots are safe and ethical in real-world interactions.",
+          "spicy_take": "If we don't get a handle on noisy AI judgments now, we might end up with a digital version of a jury that can't agree on anything. Spoiler alert: that's not the future we want.",
           "reading_time_minutes": 5
         }
       },
       {
-        "id": "2512.01993v1",
-        "title": "RoaD: Rollouts as Demonstrations for Closed-Loop Supervised Fine-Tuning of Autonomous Driving Policies",
+        "id": "2512.03013v1",
+        "title": "In-Context Sync-LoRA for Portrait Video Editing",
         "authors": [
-          "Guillermo Garcia-Cobo",
-          "Maximilian Igl",
-          "Peter Karkus",
-          "Zhejun Zhang",
-          "Michael Watson"
+          "Sagi Polaczek",
+          "Or Patashnik",
+          "Ali Mahdavi-Amiri",
+          "Daniel Cohen-Or"
         ],
-        "abstract": "Autonomous driving policies are typically trained via open-loop behavior cloning of human demonstrations. However, such policies suffer from covariate shift when deployed in closed loop, leading to compounding errors. We introduce Rollouts as Demonstrations (RoaD), a simple and efficient method to mitigate covariate shift by leveraging the policy's own closed-loop rollouts as additional training data. During rollout generation, RoaD incorporates expert guidance to bias trajectories toward high-q...",
-        "published": "2025-12-01T18:52:03Z",
-        "updated": "2025-12-01T18:52:03Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.01993v1",
-        "abs_url": "https://arxiv.org/abs/2512.01993v1",
+        "abstract": "Editing portrait videos is a challenging task that requires flexible yet precise control over a wide range of modifications, such as appearance changes, expression edits, or the addition of objects. The key difficulty lies in preserving the subject's original temporal behavior, demanding that every edited frame remains precisely synchronized with the corresponding source frame. We present Sync-LoRA, a method for editing portrait videos that achieves high-quality visual modifications while mainta...",
+        "published": "2025-12-02T18:40:35Z",
+        "updated": "2025-12-02T18:40:35Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.03013v1",
+        "abs_url": "https://arxiv.org/abs/2512.03013v1",
         "categories": [
-          "cs.RO",
-          "cs.AI",
           "cs.CV",
-          "cs.LG"
-        ],
-        "primary_category": "cs.RO",
-        "analysis": {
-          "tldr": "This paper presents a method called RoaD that improves the training of self-driving car policies by using the car's own experiences in the real world as practice data, rather than relying solely on human examples.",
-          "eli5": "Imagine teaching a robot how to drive by showing it videos of people driving. That's traditional training. This paper suggests that instead of just using those videos, we let the robot learn from its own driving experiences, making it better at handling real-life driving situations.",
-          "key_contributions": [
-            "Introducing RoaD, a method that uses a self-driving car's own rollouts (its own driving experiences) as training demonstrations.",
-            "Reducing the problem of covariate shift, which occurs when the robot's training conditions differ from real-world conditions.",
-            "Integrating expert guidance during training to enhance the quality of the car's learning process."
-          ],
-          "why_care": "As self-driving technology continues to develop, making these systems safer and more reliable is crucial. This research could lead to fewer accidents and more efficient driving, benefiting everyone on the road.",
-          "accessibility": "Tech-Savvy",
-          "spicy_take": "Leveraging a vehicle's own experiences for training may be the game-changer we need to finally see fully autonomous cars become a reality sooner than we think.",
-          "reading_time_minutes": 5
-        }
-      },
-      {
-        "id": "2512.01992v1",
-        "title": "LLM CHESS: Benchmarking Reasoning and Instruction-Following in LLMs through Chess",
-        "authors": [
-          "Sai Kolasani",
-          "Maxim Saplin",
-          "Nicholas Crispino",
-          "Kyle Montgomery",
-          "Jared Quincy Davis"
-        ],
-        "abstract": "We introduce LLM CHESS, an evaluation framework designed to probe the generalization of reasoning and instruction-following abilities in large language models (LLMs) through extended agentic interaction in the domain of chess. We rank over 50 open and closed source models by playing against a random opponent using a range of behavioral metrics, including win and loss rates, move quality, move legality, hallucinated actions, and game duration. For a subset of top reasoning models, we derive an El...",
-        "published": "2025-12-01T18:51:08Z",
-        "updated": "2025-12-01T18:51:08Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.01992v1",
-        "abs_url": "https://arxiv.org/abs/2512.01992v1",
-        "categories": [
           "cs.AI",
-          "cs.CL"
+          "cs.GR"
         ],
-        "primary_category": "cs.AI",
+        "primary_category": "cs.CV",
         "analysis": {
-          "tldr": "This paper introduces LLM CHESS, a testing framework that evaluates how well large language models can reason and follow instructions, using chess as the playing field. It ranks over 50 different models based on their performance against random opponents in chess games.",
-          "eli5": "Imagine teaching a robot to play chess and then testing it to see how smart it really is. This research looks at how well different AI models can understand the game and make good moves, ranking them to see which ones are the best at reasoning and following instructions, just like a human player would.",
+          "tldr": "This paper introduces Sync-LoRA, a new method for editing portrait videos that allows for detailed changes while keeping the original motion and expressions intact across all frames. It simplifies the complex task of video editing by ensuring that every edit looks natural.",
+          "eli5": "Imagine you want to change someone's facial expression in a home video, like making them smile instead of frown. This paper talks about a cool new tool that lets you do that seamlessly without making it look weird or jerky. It keeps their movements and the flow of the video smooth, so it feels like nothing has been altered.",
           "key_contributions": [
-            "The creation of LLM CHESS, a unique benchmarking framework specifically for assessing language models in a game scenario.",
-            "A comprehensive ranking of over 50 AI models based on various performance metrics in chess.",
-            "Insights into how well these AI models generalize reasoning skills and follow instructions in a complex, strategic environment."
+            "Sync-LoRA introduces a novel approach to ensure edited video frames stay in sync with the original while allowing for detailed modifications.",
+            "It offers a flexible editing tool that can handle a variety of changes, such as facial expressions and adding new elements to the scene.",
+            "The method enhances the quality of video editing by focusing on preserving the natural behavior of the subject throughout the video."
           ],
-          "why_care": "Understanding how AI models reason and follow instructions in games like chess can help improve their performance in real-world applications, such as decision-making, education, and interactive AI systems.",
+          "why_care": "As video content becomes an increasingly important part of communication and entertainment, tools that allow for easy and natural editing can empower creators, from social media influencers to filmmakers, to produce high-quality content without needing extensive technical skills.",
           "accessibility": "Tech-Savvy",
-          "spicy_take": "Chess might be just the tip of the iceberg; if AI can learn to strategize in games, imagine the possibilities for tackling real-world problems like climate change or disease management.",
+          "spicy_take": "Sync-LoRA could be a game-changer for the video editing industry, potentially democratizing high-quality video production for amateurs and professionals alike.",
           "reading_time_minutes": 5
         }
       }
@@ -349,8 +353,8 @@
     "summary": {
       "total_analyzed": 10,
       "by_accessibility": {
-        "General Audience": 2,
-        "Tech-Savvy": 8,
+        "General Audience": 4,
+        "Tech-Savvy": 6,
         "Researchers Only": 0
       },
       "avg_reading_time": 5.0
@@ -362,19 +366,19 @@
     "style": "blog-accessible"
   },
   "costs": {
-    "execution_time": 77.31549453735352,
-    "execution_minutes": 1.2885915756225585,
-    "github_actions": 0.010308732604980468,
+    "execution_time": 107.66184520721436,
+    "execution_minutes": 1.794364086786906,
+    "github_actions": 0.014354912694295247,
     "openai": {
-      "input": 0.0005028,
-      "output": 0.0018486,
-      "total": 0.0023514
+      "input": 0.000498,
+      "output": 0.0019283999999999998,
+      "total": 0.0024263999999999996
     },
-    "total": 0.012660132604980468,
+    "total": 0.016781312694295246,
     "token_usage": {
-      "prompt_tokens": 3352,
-      "completion_tokens": 3081,
-      "total_tokens": 6433
+      "prompt_tokens": 3320,
+      "completion_tokens": 3214,
+      "total_tokens": 6534
     }
   }
 }
