@@ -1,124 +1,253 @@
 {
   "agent": "agent-a-paper-fetcher",
-  "timestamp": "2025-12-04T09:04:52.243912",
+  "timestamp": "2025-12-05T09:03:57.931804",
   "status": "completed",
   "data": {
     "papers": [
       {
-        "id": "2512.04072v1",
-        "title": "SkillFactory: Self-Distillation For Learning Cognitive Behaviors",
+        "id": "2512.05117v1",
+        "title": "The Universal Weight Subspace Hypothesis",
         "authors": [
-          "Zayne Sprague",
-          "Jack Lu",
-          "Manya Wadhwa",
-          "Sedrick Keh",
-          "Mengye Ren"
+          "Prakhar Kaushik",
+          "Shravan Chaudhari",
+          "Ankit Vaidya",
+          "Rama Chellappa",
+          "Alan Yuille"
         ],
-        "abstract": "Reasoning models leveraging long chains of thought employ various cognitive skills, such as verification of their answers, backtracking, retrying by an alternate method, and more. Previous work has shown that when a base language model exhibits these skills, training that model further with reinforcement learning (RL) can learn to leverage them. How can we get models to leverage skills that aren't exhibited by base models? Our work, SkillFactory, is a method for fine-tuning models to roughly lea...",
-        "published": "2025-12-03T18:54:53Z",
-        "updated": "2025-12-03T18:54:53Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.04072v1",
-        "abs_url": "https://arxiv.org/abs/2512.04072v1",
+        "abstract": "We show that deep neural networks trained across diverse tasks exhibit remarkably similar low-dimensional parametric subspaces. We provide the first large-scale empirical evidence that demonstrates that neural networks systematically converge to shared spectral subspaces regardless of initialization, task, or domain. Through mode-wise spectral analysis of over 1100 models - including 500 Mistral-7B LoRAs, 500 Vision Transformers, and 50 LLaMA-8B models - we identify universal subspaces capturing...",
+        "published": "2025-12-04T18:59:58Z",
+        "updated": "2025-12-04T18:59:58Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.05117v1",
+        "abs_url": "https://arxiv.org/abs/2512.05117v1",
+        "categories": [
+          "cs.LG",
+          "cs.AI",
+          "cs.CV"
+        ],
+        "primary_category": "cs.LG"
+      },
+      {
+        "id": "2512.05116v1",
+        "title": "Value Gradient Guidance for Flow Matching Alignment",
+        "authors": [
+          "Zhen Liu",
+          "Tim Z. Xiao",
+          "Carles Domingo-Enrich",
+          "Weiyang Liu",
+          "Dinghuai Zhang"
+        ],
+        "abstract": "While methods exist for aligning flow matching models--a popular and effective class of generative models--with human preferences, existing approaches fail to achieve both adaptation efficiency and probabilistically sound prior preservation. In this work, we leverage the theory of optimal control and propose VGG-Flow, a gradient-matching-based method for finetuning pretrained flow matching models. The key idea behind this algorithm is that the optimal difference between the finetuned velocity fi...",
+        "published": "2025-12-04T18:59:57Z",
+        "updated": "2025-12-04T18:59:57Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.05116v1",
+        "abs_url": "https://arxiv.org/abs/2512.05116v1",
+        "categories": [
+          "cs.LG",
+          "cs.CV"
+        ],
+        "primary_category": "cs.LG"
+      },
+      {
+        "id": "2512.05114v1",
+        "title": "Deep infant brain segmentation from multi-contrast MRI",
+        "authors": [
+          "Malte Hoffmann",
+          "Lilla Z\u00f6llei",
+          "Adrian V. Dalca"
+        ],
+        "abstract": "Segmentation of magnetic resonance images (MRI) facilitates analysis of human brain development by delineating anatomical structures. However, in infants and young children, accurate segmentation is challenging due to development and imaging constraints. Pediatric brain MRI is notoriously difficult to acquire, with inconsistent availability of imaging modalities, substantial non-head anatomy in the field of view, and frequent motion artifacts. This has led to specialized segmentation models that...",
+        "published": "2025-12-04T18:59:55Z",
+        "updated": "2025-12-04T18:59:55Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.05114v1",
+        "abs_url": "https://arxiv.org/abs/2512.05114v1",
+        "categories": [
+          "cs.LG",
+          "cs.CV",
+          "eess.IV"
+        ],
+        "primary_category": "cs.LG"
+      },
+      {
+        "id": "2512.05112v1",
+        "title": "DraCo: Draft as CoT for Text-to-Image Preview and Rare Concept Generation",
+        "authors": [
+          "Dongzhi Jiang",
+          "Renrui Zhang",
+          "Haodong Li",
+          "Zhuofan Zong",
+          "Ziyu Guo"
+        ],
+        "abstract": "Recent unified multimodal large language models (MLLMs) have shown impressive capabilities, incorporating chain-of-thought (CoT) reasoning for enhanced text-to-image generation. However, existing approaches remain limited, either treating the model merely as a standalone generator or relying on abstract textual planning. To this end, we propose Draft-as-CoT (DraCo), a novel interleaved reasoning paradigm that fully leverages both textual and visual contents in CoT for better planning and verific...",
+        "published": "2025-12-04T18:59:53Z",
+        "updated": "2025-12-04T18:59:53Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.05112v1",
+        "abs_url": "https://arxiv.org/abs/2512.05112v1",
+        "categories": [
+          "cs.CV",
+          "cs.AI",
+          "cs.CL",
+          "cs.LG"
+        ],
+        "primary_category": "cs.CV"
+      },
+      {
+        "id": "2512.05110v1",
+        "title": "ShadowDraw: From Any Object to Shadow-Drawing Compositional Art",
+        "authors": [
+          "Rundong Luo",
+          "Noah Snavely",
+          "Wei-Chiu Ma"
+        ],
+        "abstract": "We introduce ShadowDraw, a framework that transforms ordinary 3D objects into shadow-drawing compositional art. Given a 3D object, our system predicts scene parameters, including object pose and lighting, together with a partial line drawing, such that the cast shadow completes the drawing into a recognizable image. To this end, we optimize scene configurations to reveal meaningful shadows, employ shadow strokes to guide line drawing generation, and adopt automatic evaluation to enforce shadow-d...",
+        "published": "2025-12-04T18:59:51Z",
+        "updated": "2025-12-04T18:59:51Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.05110v1",
+        "abs_url": "https://arxiv.org/abs/2512.05110v1",
+        "categories": [
+          "cs.CV",
+          "cs.AI",
+          "cs.GR"
+        ],
+        "primary_category": "cs.CV"
+      },
+      {
+        "id": "2512.05105v1",
+        "title": "Semantic Soft Bootstrapping: Long Context Reasoning in LLMs without Reinforcement Learning",
+        "authors": [
+          "Purbesh Mitra",
+          "Sennur Ulukus"
+        ],
+        "abstract": "Long context reasoning in large language models (LLMs) has demonstrated enhancement of their cognitive capabilities via chain-of-thought (CoT) inference. Training such models is usually done via reinforcement learning with verifiable rewards (RLVR) in reasoning based problems, like math and programming. However, RLVR is limited by several bottlenecks, such as, lack of dense reward, and inadequate sample efficiency. As a result, it requires significant compute resources in post-training phase. To...",
+        "published": "2025-12-04T18:59:18Z",
+        "updated": "2025-12-04T18:59:18Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.05105v1",
+        "abs_url": "https://arxiv.org/abs/2512.05105v1",
         "categories": [
           "cs.CL",
-          "cs.AI"
+          "cs.AI",
+          "cs.IT",
+          "cs.LG",
+          "eess.SP"
         ],
         "primary_category": "cs.CL"
       },
       {
-        "id": "2512.04068v1",
-        "title": "Learning Steerable Clarification Policies with Collaborative Self-play",
+        "id": "2512.05106v1",
+        "title": "NeuralRemaster: Phase-Preserving Diffusion for Structure-Aligned Generation",
         "authors": [
-          "Jonathan Berant",
-          "Maximillian Chen",
-          "Adam Fisch",
-          "Reza Aghajani",
-          "Fantine Huot"
+          "Yu Zeng",
+          "Charles Ochoa",
+          "Mingyuan Zhou",
+          "Vishal M. Patel",
+          "Vitor Guizilini"
         ],
-        "abstract": "To handle underspecified or ambiguous queries, AI assistants need a policy for managing their uncertainty to determine (a) when to guess the user intent and answer directly, (b) when to enumerate and answer multiple possible intents, and (c) when to ask a clarifying question. However, such policies are contextually dependent on factors such as user preferences or modality. For example, enumerating multiple possible user intentions is cumbersome on small screens or in a voice setting. In this wor...",
-        "published": "2025-12-03T18:49:54Z",
-        "updated": "2025-12-03T18:49:54Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.04068v1",
-        "abs_url": "https://arxiv.org/abs/2512.04068v1",
+        "abstract": "Standard diffusion corrupts data using Gaussian noise whose Fourier coefficients have random magnitudes and random phases. While effective for unconditional or text-to-image generation, corrupting phase components destroys spatial structure, making it ill-suited for tasks requiring geometric consistency, such as re-rendering, simulation enhancement, and image-to-image translation. We introduce Phase-Preserving Diffusion \u03c6-PD, a model-agnostic reformulation of the diffusion process that preserves...",
+        "published": "2025-12-04T18:59:18Z",
+        "updated": "2025-12-04T18:59:18Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.05106v1",
+        "abs_url": "https://arxiv.org/abs/2512.05106v1",
         "categories": [
-          "cs.LG"
+          "cs.CV",
+          "cs.GR",
+          "cs.LG",
+          "cs.RO"
+        ],
+        "primary_category": "cs.CV"
+      },
+      {
+        "id": "2512.05103v1",
+        "title": "TV2TV: A Unified Framework for Interleaved Language and Video Generation",
+        "authors": [
+          "Xiaochuang Han",
+          "Youssef Emad",
+          "Melissa Hall",
+          "John Nguyen",
+          "Karthik Padthe"
+        ],
+        "abstract": "Video generation models are rapidly advancing, but can still struggle with complex video outputs that require significant semantic branching or repeated high-level reasoning about what should happen next. In this paper, we introduce a new class of omni video-text models that integrate ideas from recent LM reasoning advances to address this challenge. More specifically, we present TV2TV, a unified generative modeling framework which decomposes video generation into an interleaved text and video g...",
+        "published": "2025-12-04T18:59:09Z",
+        "updated": "2025-12-04T18:59:09Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.05103v1",
+        "abs_url": "https://arxiv.org/abs/2512.05103v1",
+        "categories": [
+          "cs.LG",
+          "cs.AI",
+          "cs.CV"
         ],
         "primary_category": "cs.LG"
       },
       {
-        "id": "2512.04065v1",
-        "title": "Fare Comparison App of Uber, Ola and Rapido",
+        "id": "2512.05100v1",
+        "title": "Structured Document Translation via Format Reinforcement Learning",
         "authors": [
-          "Ashlesha Gopinath Sawant",
-          "Sahil S. Jadhav",
-          "Vidhan R. Jain",
-          "Shriraj S. Jagtap",
-          "Prachi Jadhav"
+          "Haiyue Song",
+          "Johannes Eschbach-Dymanus",
+          "Hour Kaing",
+          "Sumire Honda",
+          "Hideki Tanaka"
         ],
-        "abstract": "In todays increasing world, it is very important to have good hailing services like Ola, Uber, and Rapido as it is very essential for our daily transportation. Users often face difficulties in choosing the most appropriate and efficient ride that would lead to both cost-effective and would take us to our destination in less time. This project provides you with the web application that helps you to select the most beneficial ride for you by providing users with the fare comparison between Ola, Ub...",
-        "published": "2025-12-03T18:48:33Z",
-        "updated": "2025-12-03T18:48:33Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.04065v1",
-        "abs_url": "https://arxiv.org/abs/2512.04065v1",
+        "abstract": "Recent works on structured text translation remain limited to the sentence level, as they struggle to effectively handle the complex document-level XML or HTML structures. To address this, we propose \\textbf{Format Reinforcement Learning (FormatRL)}, which employs Group Relative Policy Optimization on top of a supervised fine-tuning model to directly optimize novel structure-aware rewards: 1) TreeSim, which measures structural similarity between predicted and reference XML trees and 2) Node-chrF...",
+        "published": "2025-12-04T18:58:30Z",
+        "updated": "2025-12-04T18:58:30Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.05100v1",
+        "abs_url": "https://arxiv.org/abs/2512.05100v1",
         "categories": [
-          "cs.LG",
+          "cs.CL",
+          "cs.AI",
+          "cs.LG"
+        ],
+        "primary_category": "cs.CL"
+      },
+      {
+        "id": "2512.05098v1",
+        "title": "SA-IQA: Redefining Image Quality Assessment for Spatial Aesthetics with Multi-Dimensional Rewards",
+        "authors": [
+          "Yuan Gao",
+          "Jin Song"
+        ],
+        "abstract": "In recent years, Image Quality Assessment (IQA) for AI-generated images (AIGI) has advanced rapidly; however, existing methods primarily target portraits and artistic images, lacking a systematic evaluation of interior scenes. We introduce Spatial Aesthetics, a paradigm that assesses the aesthetic quality of interior images along four dimensions: layout, harmony, lighting, and distortion. We construct SA-BENCH, the first benchmark for spatial aesthetics, comprising 18,000 images and 50,000 preci...",
+        "published": "2025-12-04T18:58:18Z",
+        "updated": "2025-12-04T18:58:18Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.05098v1",
+        "abs_url": "https://arxiv.org/abs/2512.05098v1",
+        "categories": [
+          "cs.CV",
           "cs.AI"
         ],
-        "primary_category": "cs.LG"
+        "primary_category": "cs.CV"
       },
       {
-        "id": "2512.04062v1",
-        "title": "Eval Factsheets: A Structured Framework for Documenting AI Evaluations",
+        "id": "2512.05092v1",
+        "title": "Foundations of Diffusion Models in General State Spaces: A Self-Contained Introduction",
         "authors": [
-          "Florian Bordes",
-          "Candace Ross",
-          "Justine T Kao",
-          "Evangelia Spiliopoulou",
-          "Adina Williams"
+          "Vincent Pauline",
+          "Tobias H\u00f6ppe",
+          "Kirill Neklyudov",
+          "Alexander Tong",
+          "Stefan Bauer"
         ],
-        "abstract": "The rapid proliferation of benchmarks has created significant challenges in reproducibility, transparency, and informed decision-making. However, unlike datasets and models -- which benefit from structured documentation frameworks like Datasheets and Model Cards -- evaluation methodologies lack systematic documentation standards. We introduce Eval Factsheets, a structured, descriptive framework for documenting AI system evaluations through a comprehensive taxonomy and questionnaire-based approac...",
-        "published": "2025-12-03T18:46:50Z",
-        "updated": "2025-12-03T18:46:50Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.04062v1",
-        "abs_url": "https://arxiv.org/abs/2512.04062v1",
+        "abstract": "Although diffusion models now occupy a central place in generative modeling, introductory treatments commonly assume Euclidean data and seldom clarify their connection to discrete-state analogues. This article is a self-contained primer on diffusion over general state spaces, unifying continuous domains and discrete/categorical structures under one lens. We develop the discrete-time view (forward noising via Markov kernels and learned reverse dynamics) alongside its continuous-time limits -- sto...",
+        "published": "2025-12-04T18:55:36Z",
+        "updated": "2025-12-04T18:55:36Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.05092v1",
+        "abs_url": "https://arxiv.org/abs/2512.05092v1",
         "categories": [
+          "stat.ML",
           "cs.LG"
         ],
-        "primary_category": "cs.LG"
+        "primary_category": "stat.ML"
       },
       {
-        "id": "2512.04058v1",
-        "title": "Closing the problem of which causal structures of up to six total nodes have a classical-quantum gap",
+        "id": "2512.05089v1",
+        "title": "The Geometry of Intelligence: Deterministic Functional Topology as a Foundation for Real-World Perception",
         "authors": [
-          "Shashaank Khanna",
-          "Matthew Pusey",
-          "Roger Colbeck"
+          "Eduardo Di Santi"
         ],
-        "abstract": "The discovery of Bell that there exist quantum correlations that cannot be reproduced classically is one of the most important in the foundations of quantum mechanics, as well as having practical implications. Bell's result was originally proven in a simple bipartite causal structure, but analogous results have also been shown in further causal structures. Here we study the only causal structure with six or fewer nodes in which the question of whether or not there exist quantum correlations that...",
-        "published": "2025-12-03T18:44:25Z",
-        "updated": "2025-12-03T18:44:25Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.04058v1",
-        "abs_url": "https://arxiv.org/abs/2512.04058v1",
-        "categories": [
-          "quant-ph",
-          "cs.LG",
-          "math.ST"
-        ],
-        "primary_category": "quant-ph"
-      },
-      {
-        "id": "2512.04051v1",
-        "title": "Convergence for Discrete Parameter Updates",
-        "authors": [
-          "Paul Wilson",
-          "Fabio Zanasi",
-          "George Constantinides"
-        ],
-        "abstract": "Modern deep learning models require immense computational resources, motivating research into low-precision training. Quantised training addresses this by representing training components in low-bit integers, but typically relies on discretising real-valued updates. We introduce an alternative approach where the update rule itself is discrete, avoiding the quantisation of continuous updates by design. We establish convergence guarantees for a general class of such discrete schemes, and present a...",
-        "published": "2025-12-03T18:34:26Z",
-        "updated": "2025-12-03T18:34:26Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.04051v1",
-        "abs_url": "https://arxiv.org/abs/2512.04051v1",
+        "abstract": "Real-world physical processes do not generate arbitrary variability: their signals concentrate on compact and low-variability subsets of functional space. This geometric structure enables rapid generalization from a few examples in both biological and artificial systems.\n  This work develops a deterministic functional-topological framework in which the set of valid realizations of a physical phenomenon forms a compact perceptual manifold with stable invariants and a finite Hausdorff radius. We s...",
+        "published": "2025-12-04T18:54:07Z",
+        "updated": "2025-12-04T18:54:07Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.05089v1",
+        "abs_url": "https://arxiv.org/abs/2512.05089v1",
         "categories": [
           "cs.LG",
           "math.OC"
@@ -126,186 +255,63 @@
         "primary_category": "cs.LG"
       },
       {
-        "id": "2512.04048v1",
-        "title": "Stable Signer: Hierarchical Sign Language Generative Model",
+        "id": "2512.05084v1",
+        "title": "Gradient Descent with Provably Tuned Learning-rate Schedules",
         "authors": [
-          "Sen Fang",
-          "Yalin Feng",
-          "Hongbin Zhong",
-          "Yanxin Zhang",
-          "Dimitris N. Metaxas"
+          "Dravyansh Sharma"
         ],
-        "abstract": "Sign Language Production (SLP) is the process of converting the complex input text into a real video. Most previous works focused on the Text2Gloss, Gloss2Pose, Pose2Vid stages, and some concentrated on Prompt2Gloss and Text2Avatar stages. However, this field has made slow progress due to the inaccuracy of text conversion, pose generation, and the rendering of poses into real human videos in these stages, resulting in gradually accumulating errors. Therefore, in this paper, we streamline the tra...",
-        "published": "2025-12-03T18:33:40Z",
-        "updated": "2025-12-03T18:33:40Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.04048v1",
-        "abs_url": "https://arxiv.org/abs/2512.04048v1",
+        "abstract": "Gradient-based iterative optimization methods are the workhorse of modern machine learning. They crucially rely on careful tuning of parameters like learning rate and momentum. However, one typically sets them using heuristic approaches without formal near-optimality guarantees. Recent work by Gupta and Roughgarden studies how to learn a good step-size in gradient descent. However, like most of the literature with theoretical guarantees for gradient-based optimization, their results rely on stro...",
+        "published": "2025-12-04T18:49:58Z",
+        "updated": "2025-12-04T18:49:58Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.05084v1",
+        "abs_url": "https://arxiv.org/abs/2512.05084v1",
         "categories": [
-          "cs.CV",
-          "cs.CL",
-          "cs.CY"
+          "cs.LG"
         ],
-        "primary_category": "cs.CV"
+        "primary_category": "cs.LG"
       },
       {
-        "id": "2512.04047v1",
-        "title": "Polarization by Design: How Elites Could Shape Mass Preferences as AI Reduces Persuasion Costs",
+        "id": "2512.05080v1",
+        "title": "OMTRA: A Multi-Task Generative Model for Structure-Based Drug Design",
         "authors": [
-          "Nadav Kunievsky"
+          "Ian Dunn",
+          "Liv Toft",
+          "Tyler Katz",
+          "Juhi Gupta",
+          "Riya Shah"
         ],
-        "abstract": "In democracies, major policy decisions typically require some form of majority or consensus, so elites must secure mass support to govern. Historically, elites could shape support only through limited instruments like schooling and mass media; advances in AI-driven persuasion sharply reduce the cost and increase the precision of shaping public opinion, making the distribution of preferences itself an object of deliberate design. We develop a dynamic model in which elites choose how much to resha...",
-        "published": "2025-12-03T18:33:26Z",
-        "updated": "2025-12-03T18:33:26Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.04047v1",
-        "abs_url": "https://arxiv.org/abs/2512.04047v1",
+        "abstract": "Structure-based drug design (SBDD) focuses on designing small-molecule ligands that bind to specific protein pockets. Computational methods are integral in modern SBDD workflows and often make use of virtual screening methods via docking or pharmacophore search. Modern generative modeling approaches have focused on improving novel ligand discovery by enabling de novo design. In this work, we recognize that these tasks share a common structure and can therefore be represented as different instant...",
+        "published": "2025-12-04T18:46:35Z",
+        "updated": "2025-12-04T18:46:35Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.05080v1",
+        "abs_url": "https://arxiv.org/abs/2512.05080v1",
         "categories": [
-          "econ.GN",
-          "cs.AI",
-          "cs.CY"
+          "cs.LG"
         ],
-        "primary_category": "econ.GN"
+        "primary_category": "cs.LG"
       },
       {
-        "id": "2512.04044v1",
-        "title": "MarkTune: Improving the Quality-Detectability Trade-off in Open-Weight LLM Watermarking",
+        "id": "2512.05073v1",
+        "title": "David vs. Goliath: Can Small Models Win Big with Agentic AI in Hardware Design?",
         "authors": [
-          "Yizhou Zhao",
-          "Zhiwei Steven Wu",
-          "Adam Block"
+          "Shashwat Shankar",
+          "Subhranshu Pandey",
+          "Innocent Dengkhw Mochahari",
+          "Bhabesh Mali",
+          "Animesh Basak Chowdhury"
         ],
-        "abstract": "Watermarking aims to embed hidden signals in generated text that can be reliably detected when given access to a secret key. Open-weight language models pose acute challenges for such watermarking schemes because the inference-time interventions that dominate contemporary approaches cannot be enforced once model weights are public. Existing watermaking techniques for open-weight models, such as the recently proposed GaussMark, typically rely on small modifications to model weights, which can yie...",
-        "published": "2025-12-03T18:32:19Z",
-        "updated": "2025-12-03T18:32:19Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.04044v1",
-        "abs_url": "https://arxiv.org/abs/2512.04044v1",
+        "abstract": "Large Language Model(LLM) inference demands massive compute and energy, making domain-specific tasks expensive and unsustainable. As foundation models keep scaling, we ask: Is bigger always better for hardware design? Our work tests this by evaluating Small Language Models coupled with a curated agentic AI framework on NVIDIA's Comprehensive Verilog Design Problems(CVDP) benchmark. Results show that agentic workflows: through task decomposition, iterative feedback, and correction - not only unlo...",
+        "published": "2025-12-04T18:37:29Z",
+        "updated": "2025-12-04T18:37:29Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.05073v1",
+        "abs_url": "https://arxiv.org/abs/2512.05073v1",
         "categories": [
           "cs.LG",
           "cs.AI",
-          "cs.CR"
+          "cs.AR",
+          "cs.SE"
         ],
         "primary_category": "cs.LG"
-      },
-      {
-        "id": "2512.04039v1",
-        "title": "Fast & Efficient Normalizing Flows and Applications of Image Generative Models",
-        "authors": [
-          "Sandeep Nagar"
-        ],
-        "abstract": "This thesis presents novel contributions in two primary areas: advancing the efficiency of generative models, particularly normalizing flows, and applying generative models to solve real-world computer vision challenges. The first part introduce significant improvements to normalizing flow architectures through six key innovations: 1) Development of invertible 3x3 Convolution layers with mathematically proven necessary and sufficient conditions for invertibility, (2) introduction of a more effic...",
-        "published": "2025-12-03T18:29:03Z",
-        "updated": "2025-12-03T18:29:03Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.04039v1",
-        "abs_url": "https://arxiv.org/abs/2512.04039v1",
-        "categories": [
-          "cs.CV",
-          "cs.AI",
-          "cs.LG"
-        ],
-        "primary_category": "cs.CV"
-      },
-      {
-        "id": "2512.04034v1",
-        "title": "Domain Feature Collapse: Implications for Out-of-Distribution Detection and Solutions",
-        "authors": [
-          "Hong Yang",
-          "Devroop Kar",
-          "Qi Yu",
-          "Alex Ororbia",
-          "Travis Desell"
-        ],
-        "abstract": "Why do state-of-the-art OOD detection methods exhibit catastrophic failure when models are trained on single-domain datasets? We provide the first theoretical explanation for this phenomenon through the lens of information theory. We prove that supervised learning on single-domain data inevitably produces domain feature collapse -- representations where I(x_d; z) = 0, meaning domain-specific information is completely discarded. This is a fundamental consequence of information bottleneck optimiza...",
-        "published": "2025-12-03T18:17:49Z",
-        "updated": "2025-12-03T18:17:49Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.04034v1",
-        "abs_url": "https://arxiv.org/abs/2512.04034v1",
-        "categories": [
-          "cs.LG"
-        ],
-        "primary_category": "cs.LG"
-      },
-      {
-        "id": "2512.04032v1",
-        "title": "Jina-VLM: Small Multilingual Vision Language Model",
-        "authors": [
-          "Andreas Koukounas",
-          "Georgios Mastrapas",
-          "Florian H\u00f6nicke",
-          "Sedigheh Eslami",
-          "Guillaume Roncari"
-        ],
-        "abstract": "We present Jina-VLM, a 2.4B parameter vision-language model that achieves state-of-the-art multilingual visual question answering among open 2B-scale VLMs. The model couples a SigLIP2 vision encoder with a Qwen3 language backbone through an attention-pooling connector that enables token-efficient processing of arbitrary-resolution images. Across standard VQA benchmarks and multilingual evaluations, Jina-VLM outperforms comparable models while preserving competitive text-only performance....",
-        "published": "2025-12-03T18:13:41Z",
-        "updated": "2025-12-03T18:13:41Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.04032v1",
-        "abs_url": "https://arxiv.org/abs/2512.04032v1",
-        "categories": [
-          "cs.CL",
-          "cs.AI",
-          "cs.CV"
-        ],
-        "primary_category": "cs.CL"
-      },
-      {
-        "id": "2512.04031v1",
-        "title": "Large Language Models for Limited Noisy Data: A Gravitational Wave Identification Study",
-        "authors": [
-          "Yixuan Li",
-          "Yuhao Lu",
-          "Yang Liu",
-          "Liang Li",
-          "R. Ruffini"
-        ],
-        "abstract": "This work investigates whether large language models (LLMs) offer advantages over traditional neural networks for astronomical data processing, in regimes with non-Gaussian, non-stationary noise and limited labeled samples. Gravitational wave observations provide an suitable test case, using only 90 LIGO events, finetuned LLMs achieve 97.4\\% accuracy for identifying signals. Further experiments show that, in contrast to traditional networks that rely on large simulated datasets, additional simul...",
-        "published": "2025-12-03T18:13:01Z",
-        "updated": "2025-12-03T18:13:01Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.04031v1",
-        "abs_url": "https://arxiv.org/abs/2512.04031v1",
-        "categories": [
-          "astro-ph.IM",
-          "astro-ph.HE",
-          "cs.AI"
-        ],
-        "primary_category": "astro-ph.IM"
-      },
-      {
-        "id": "2512.04025v1",
-        "title": "PSA: Pyramid Sparse Attention for Efficient Video Understanding and Generation",
-        "authors": [
-          "Xiaolong Li",
-          "Youping Gu",
-          "Xi Lin",
-          "Weijie Wang",
-          "Bohan Zhuang"
-        ],
-        "abstract": "Attention mechanisms are the core of foundation models, but their quadratic complexity remains a critical bottleneck for scaling. This challenge has driven the development of efficient attention mechanisms, with sparsity emerging as the dominant paradigm. Current methods typically retain or discard entire key-value blocks with binary masks, resulting in substantial information loss under high sparsity. To mitigate this gap, we present Pyramid Sparse Attention (PSA), a versatile module applicable...",
-        "published": "2025-12-03T18:02:11Z",
-        "updated": "2025-12-03T18:02:11Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.04025v1",
-        "abs_url": "https://arxiv.org/abs/2512.04025v1",
-        "categories": [
-          "cs.CV",
-          "cs.AI",
-          "cs.LG"
-        ],
-        "primary_category": "cs.CV"
-      },
-      {
-        "id": "2512.04016v1",
-        "title": "TARA Test-by-Adaptive-Ranks for Quantum Anomaly Detection with Conformal Prediction Guarantees",
-        "authors": [
-          "Davut Emre Tasar",
-          "Ceren Ocal Tasar"
-        ],
-        "abstract": "Quantum key distribution (QKD) security fundamentally relies on the ability to distinguish genuine quantum correlations from classical eavesdropper simulations, yet existing certification methods lack rigorous statistical guarantees under finite-sample conditions and adversarial scenarios. We introduce TARA (Test by Adaptive Ranks), a novel framework combining conformal prediction with sequential martingale testing for quantum anomaly detection that provides distribution-free validity guarantees...",
-        "published": "2025-12-03T17:53:38Z",
-        "updated": "2025-12-03T17:53:38Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.04016v1",
-        "abs_url": "https://arxiv.org/abs/2512.04016v1",
-        "categories": [
-          "quant-ph",
-          "cs.AI"
-        ],
-        "primary_category": "quant-ph"
       }
     ],
     "count": 15,
@@ -314,7 +320,7 @@
       "cs.LG",
       "cs.CL"
     ],
-    "fetch_date": "2025-12-04"
+    "fetch_date": "2025-12-05"
   },
   "metadata": {
     "source": "arXiv API",
@@ -323,19 +329,19 @@
       "total_fetched": 15,
       "new_papers": 15,
       "duplicates_filtered": 0,
-      "last_fetch": "2025-12-03T09:05:20.321173"
+      "last_fetch": "2025-12-04T09:04:52.243912"
     }
   },
   "costs": {
-    "execution_time": 0.9560515880584717,
-    "execution_minutes": 0.015934193134307863,
-    "github_actions": 0.0001274735450744629,
+    "execution_time": 0.7144827842712402,
+    "execution_minutes": 0.01190804640452067,
+    "github_actions": 9.526437123616537e-05,
     "openai": {
       "input": 0,
       "output": 0,
       "total": 0
     },
-    "total": 0.0001274735450744629,
+    "total": 9.526437123616537e-05,
     "token_usage": {}
   }
 }
