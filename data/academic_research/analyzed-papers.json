@@ -1,336 +1,349 @@
 {
   "agent": "agent-b-paper-analyzer",
-  "timestamp": "2025-12-04T09:06:22.936458",
+  "timestamp": "2025-12-05T09:05:26.615369",
   "status": "completed",
   "input_from": "agent-a-paper-fetcher",
   "data": {
     "analyzed_papers": [
       {
-        "id": "2512.04072v1",
-        "title": "SkillFactory: Self-Distillation For Learning Cognitive Behaviors",
+        "id": "2512.05117v1",
+        "title": "The Universal Weight Subspace Hypothesis",
         "authors": [
-          "Zayne Sprague",
-          "Jack Lu",
-          "Manya Wadhwa",
-          "Sedrick Keh",
-          "Mengye Ren"
+          "Prakhar Kaushik",
+          "Shravan Chaudhari",
+          "Ankit Vaidya",
+          "Rama Chellappa",
+          "Alan Yuille"
         ],
-        "abstract": "Reasoning models leveraging long chains of thought employ various cognitive skills, such as verification of their answers, backtracking, retrying by an alternate method, and more. Previous work has shown that when a base language model exhibits these skills, training that model further with reinforcement learning (RL) can learn to leverage them. How can we get models to leverage skills that aren't exhibited by base models? Our work, SkillFactory, is a method for fine-tuning models to roughly lea...",
-        "published": "2025-12-03T18:54:53Z",
-        "updated": "2025-12-03T18:54:53Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.04072v1",
-        "abs_url": "https://arxiv.org/abs/2512.04072v1",
+        "abstract": "We show that deep neural networks trained across diverse tasks exhibit remarkably similar low-dimensional parametric subspaces. We provide the first large-scale empirical evidence that demonstrates that neural networks systematically converge to shared spectral subspaces regardless of initialization, task, or domain. Through mode-wise spectral analysis of over 1100 models - including 500 Mistral-7B LoRAs, 500 Vision Transformers, and 50 LLaMA-8B models - we identify universal subspaces capturing...",
+        "published": "2025-12-04T18:59:58Z",
+        "updated": "2025-12-04T18:59:58Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.05117v1",
+        "abs_url": "https://arxiv.org/abs/2512.05117v1",
+        "categories": [
+          "cs.LG",
+          "cs.AI",
+          "cs.CV"
+        ],
+        "primary_category": "cs.LG",
+        "analysis": {
+          "tldr": "This paper reveals that deep neural networks, despite their different tasks and setups, end up sharing similar low-dimensional spaces of parameters. It provides solid evidence that these models gravitate toward common patterns, no matter what they're trained for.",
+          "eli5": "Think of deep neural networks as chefs cooking various dishes. Even though they're using different recipes (tasks), they often end up using the same ingredients (parameters). This research found that no matter what dish they're making, they tend to settle on familiar flavor combinations (shared subspaces) that make them successful.",
+          "key_contributions": [
+            "This is the first large-scale evidence showing that neural networks converge to similar low-dimensional subspaces across diverse tasks and models.",
+            "The study analyzes over 1100 models, providing a comprehensive view of how these subspaces function in real applications.",
+            "It offers insights into the structure of neural networks, which can improve our understanding of their behavior and performance."
+          ],
+          "why_care": "Understanding these shared patterns can help researchers design better neural networks, leading to improved AI systems that are more efficient and effective across various tasks. This has real-world implications in technology, healthcare, finance, and beyond.",
+          "accessibility": "Tech-Savvy",
+          "spicy_take": "If the findings are confirmed across more models, we might be able to simplify deep learning design significantly, leading to a new era of more interpretable AI.",
+          "reading_time_minutes": 5
+        }
+      },
+      {
+        "id": "2512.05116v1",
+        "title": "Value Gradient Guidance for Flow Matching Alignment",
+        "authors": [
+          "Zhen Liu",
+          "Tim Z. Xiao",
+          "Carles Domingo-Enrich",
+          "Weiyang Liu",
+          "Dinghuai Zhang"
+        ],
+        "abstract": "While methods exist for aligning flow matching models--a popular and effective class of generative models--with human preferences, existing approaches fail to achieve both adaptation efficiency and probabilistically sound prior preservation. In this work, we leverage the theory of optimal control and propose VGG-Flow, a gradient-matching-based method for finetuning pretrained flow matching models. The key idea behind this algorithm is that the optimal difference between the finetuned velocity fi...",
+        "published": "2025-12-04T18:59:57Z",
+        "updated": "2025-12-04T18:59:57Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.05116v1",
+        "abs_url": "https://arxiv.org/abs/2512.05116v1",
+        "categories": [
+          "cs.LG",
+          "cs.CV"
+        ],
+        "primary_category": "cs.LG",
+        "analysis": {
+          "tldr": "This paper introduces VGG-Flow, a new method for fine-tuning flow matching models that improves how these models align with human preferences while keeping their underlying structure intact. It combines ideas from optimal control theory and gradient matching to achieve this.",
+          "eli5": "Imagine you have a robot that draws pictures based on what it sees, but sometimes it gets it wrong and doesn't quite understand what you want. This paper proposes a smart way to teach the robot to draw better by using a special set of rules that help it learn from mistakes without losing what it already knows. The authors want to make sure that when we teach it, it keeps its original drawing style while getting better at understanding your preferences.",
+          "key_contributions": [
+            "The introduction of VGG-Flow, a novel method that enhances the alignment of flow matching models with human preferences efficiently.",
+            "A framework that preserves the model's original characteristics while allowing it to adapt to new preferences.",
+            "Utilization of optimal control theory combined with gradient matching, which is a fresh approach in the domain of generative models."
+          ],
+          "why_care": "As generative models are increasingly used in creative fields like art, music, and content generation, improving how they align with human preferences can lead to more satisfying results for users, making these models more useful and enjoyable in everyday applications.",
+          "accessibility": "Tech-Savvy",
+          "spicy_take": "This method could redefine how we interact with AI by making it not just a tool but a partner in creativity, as it learns and adapts to our preferences without losing its original flair.",
+          "reading_time_minutes": 5
+        }
+      },
+      {
+        "id": "2512.05114v1",
+        "title": "Deep infant brain segmentation from multi-contrast MRI",
+        "authors": [
+          "Malte Hoffmann",
+          "Lilla Z\u00f6llei",
+          "Adrian V. Dalca"
+        ],
+        "abstract": "Segmentation of magnetic resonance images (MRI) facilitates analysis of human brain development by delineating anatomical structures. However, in infants and young children, accurate segmentation is challenging due to development and imaging constraints. Pediatric brain MRI is notoriously difficult to acquire, with inconsistent availability of imaging modalities, substantial non-head anatomy in the field of view, and frequent motion artifacts. This has led to specialized segmentation models that...",
+        "published": "2025-12-04T18:59:55Z",
+        "updated": "2025-12-04T18:59:55Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.05114v1",
+        "abs_url": "https://arxiv.org/abs/2512.05114v1",
+        "categories": [
+          "cs.LG",
+          "cs.CV",
+          "eess.IV"
+        ],
+        "primary_category": "cs.LG",
+        "analysis": {
+          "tldr": "This paper presents a new approach for accurately segmenting brain images of infants using advanced MRI techniques. It addresses the unique challenges posed by the infancy stage, such as motion artifacts and inconsistent imaging quality.",
+          "eli5": "Imagine trying to take a clear picture of a small child who can't sit still\u2014that's similar to what researchers face when doing MRI scans on infants. This paper introduces a smart way to identify and outline different parts of an infant's brain from these challenging pictures, helping us better understand how their brains develop.",
+          "key_contributions": [
+            "A novel segmentation model tailored specifically for the complexities of infant brain MRI.",
+            "Improved accuracy in delineating anatomical structures despite the difficulties posed by motion and other factors.",
+            "Potential to enhance research and clinical assessments of brain development in infants."
+          ],
+          "why_care": "Understanding how infants' brains develop is crucial for early diagnosis of neurological issues, and this research could improve pediatric care significantly\u2014allowing doctors to intervene sooner and more effectively.",
+          "accessibility": "Tech-Savvy",
+          "spicy_take": "If we want to truly understand brain development, we need to invest more in methods like these rather than relying solely on outdated imaging techniques.",
+          "reading_time_minutes": 5
+        }
+      },
+      {
+        "id": "2512.05112v1",
+        "title": "DraCo: Draft as CoT for Text-to-Image Preview and Rare Concept Generation",
+        "authors": [
+          "Dongzhi Jiang",
+          "Renrui Zhang",
+          "Haodong Li",
+          "Zhuofan Zong",
+          "Ziyu Guo"
+        ],
+        "abstract": "Recent unified multimodal large language models (MLLMs) have shown impressive capabilities, incorporating chain-of-thought (CoT) reasoning for enhanced text-to-image generation. However, existing approaches remain limited, either treating the model merely as a standalone generator or relying on abstract textual planning. To this end, we propose Draft-as-CoT (DraCo), a novel interleaved reasoning paradigm that fully leverages both textual and visual contents in CoT for better planning and verific...",
+        "published": "2025-12-04T18:59:53Z",
+        "updated": "2025-12-04T18:59:53Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.05112v1",
+        "abs_url": "https://arxiv.org/abs/2512.05112v1",
+        "categories": [
+          "cs.CV",
+          "cs.AI",
+          "cs.CL",
+          "cs.LG"
+        ],
+        "primary_category": "cs.CV",
+        "analysis": {
+          "tldr": "This paper introduces a new approach called DraCo that improves how we generate images from text by combining reasoning processes for better planning and verification. It aims to unlock the potential of complex ideas in image generation.",
+          "eli5": "Imagine you're trying to draw a picture based on a story. Instead of just scribbling down what you think the story means, DraCo helps you think through the details step by step, using both words and images to make sure your drawing really captures the essence of the story.",
+          "key_contributions": [
+            "DraCo presents a new way to use text and visuals together in reasoning for image generation, rather than treating them separately.",
+            "It enhances the planning aspect of image generation by allowing for a more interactive and iterative process.",
+            "The paper introduces a method for better verification of the generated images, ensuring they accurately reflect the intended concepts."
+          ],
+          "why_care": "As image generation becomes more integrated into our daily lives\u2014from social media to design work\u2014improving how we translate text to visuals can lead to richer, more accurate representations, enhancing creative expression and communication.",
+          "accessibility": "Tech-Savvy",
+          "spicy_take": "If DraCo succeeds in its goals, it could revolutionize how we think about creativity and collaboration between machines and humans in artistic fields.",
+          "reading_time_minutes": 5
+        }
+      },
+      {
+        "id": "2512.05110v1",
+        "title": "ShadowDraw: From Any Object to Shadow-Drawing Compositional Art",
+        "authors": [
+          "Rundong Luo",
+          "Noah Snavely",
+          "Wei-Chiu Ma"
+        ],
+        "abstract": "We introduce ShadowDraw, a framework that transforms ordinary 3D objects into shadow-drawing compositional art. Given a 3D object, our system predicts scene parameters, including object pose and lighting, together with a partial line drawing, such that the cast shadow completes the drawing into a recognizable image. To this end, we optimize scene configurations to reveal meaningful shadows, employ shadow strokes to guide line drawing generation, and adopt automatic evaluation to enforce shadow-d...",
+        "published": "2025-12-04T18:59:51Z",
+        "updated": "2025-12-04T18:59:51Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.05110v1",
+        "abs_url": "https://arxiv.org/abs/2512.05110v1",
+        "categories": [
+          "cs.CV",
+          "cs.AI",
+          "cs.GR"
+        ],
+        "primary_category": "cs.CV",
+        "analysis": {
+          "tldr": "ShadowDraw is a new framework that turns everyday 3D objects into artistic shadow drawings by predicting how light and positioning can create meaningful shadows. It takes a basic line drawing and enhances it with these shadows to create a complete image.",
+          "eli5": "Imagine you have a toy and you shine a light on it. The shadow it casts can look like something cool, like a cartoon character. ShadowDraw uses smart computer tricks to figure out how to set up the toy and the light so that the shadow matches a drawing and makes it look like a real picture.",
+          "key_contributions": [
+            "This work introduces a method to create art from shadows of 3D objects, a novel approach in the realm of digital art and design.",
+            "It optimizes how objects are posed and lit to produce shadows that complete a line drawing into something recognizable.",
+            "The framework uses automatic evaluations to ensure that the produced shadows effectively enhance the artistic output."
+          ],
+          "why_care": "This technology could revolutionize how artists and designers create visual content, making it easier to generate unique art pieces. It has implications in fields like animation, game design, and educational tools, allowing for creative expressions that blend science and art.",
+          "accessibility": "General Audience",
+          "spicy_take": "ShadowDraw might just be the artistic revolution we didn\u2019t know we needed\u2014who knew shadows could be this creative?",
+          "reading_time_minutes": 5
+        }
+      },
+      {
+        "id": "2512.05105v1",
+        "title": "Semantic Soft Bootstrapping: Long Context Reasoning in LLMs without Reinforcement Learning",
+        "authors": [
+          "Purbesh Mitra",
+          "Sennur Ulukus"
+        ],
+        "abstract": "Long context reasoning in large language models (LLMs) has demonstrated enhancement of their cognitive capabilities via chain-of-thought (CoT) inference. Training such models is usually done via reinforcement learning with verifiable rewards (RLVR) in reasoning based problems, like math and programming. However, RLVR is limited by several bottlenecks, such as, lack of dense reward, and inadequate sample efficiency. As a result, it requires significant compute resources in post-training phase. To...",
+        "published": "2025-12-04T18:59:18Z",
+        "updated": "2025-12-04T18:59:18Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.05105v1",
+        "abs_url": "https://arxiv.org/abs/2512.05105v1",
         "categories": [
           "cs.CL",
-          "cs.AI"
+          "cs.AI",
+          "cs.IT",
+          "cs.LG",
+          "eess.SP"
         ],
         "primary_category": "cs.CL",
         "analysis": {
-          "tldr": "This paper introduces SkillFactory, a method to enhance language models by teaching them advanced cognitive skills like verification and backtracking, even if they weren't initially present. It aims to make these models smarter and more efficient in problem-solving.",
-          "eli5": "Imagine teaching a robot to solve puzzles. Some robots are good at checking their answers and trying different approaches when they get stuck. This paper talks about a new way to teach robots (or language models) these smart skills, even if they didn't know them before, so they can tackle problems better and faster.",
+          "tldr": "This paper presents a novel method called Semantic Soft Bootstrapping that improves long-context reasoning in large language models without relying on traditional reinforcement learning, thus making the training process more efficient.",
+          "eli5": "Imagine teaching a robot how to solve puzzles. Normally, you might reward it every time it gets closer to solving a puzzle, but that can be slow and costly. This paper suggests a smarter way to help the robot learn by letting it use what it already knows in a more flexible way, allowing it to figure things out faster and with less effort.",
           "key_contributions": [
-            "SkillFactory provides a novel approach to fine-tuning language models to adopt cognitive skills that they didn't initially possess.",
-            "It demonstrates the effectiveness of reinforcement learning in enhancing model capabilities beyond their basic training.",
-            "The method includes techniques for improving reasoning and problem-solving, making models more adept at complex tasks."
+            "Introduces Semantic Soft Bootstrapping, a new training approach that enhances reasoning abilities without traditional reinforcement learning.",
+            "Addresses limitations of existing reinforcement learning methods, improving sample efficiency and reducing computational demands.",
+            "Demonstrates that long-context reasoning in language models can be achieved more effectively, potentially leading to better performance in tasks like math and programming."
           ],
-          "why_care": "Improving how language models reason and solve problems can lead to smarter AI applications in various fields, from customer support to medical diagnosis, ultimately enhancing our interaction with technology and its effectiveness in everyday tasks.",
+          "why_care": "As AI becomes more integrated into our daily lives, improving how these models understand and reason over long pieces of information can lead to smarter assistants, better decision-making tools, and more effective automation in various industries.",
           "accessibility": "Tech-Savvy",
-          "spicy_take": "SkillFactory could be the game-changer in AI development, pushing us closer to truly autonomous and intelligent systems capable of complex thought processes.",
+          "spicy_take": "This could be a game-changer for AI training\u2014if traditional reinforcement learning is the old playbook, Semantic Soft Bootstrapping is a revolutionary new chapter.",
           "reading_time_minutes": 5
         }
       },
       {
-        "id": "2512.04068v1",
-        "title": "Learning Steerable Clarification Policies with Collaborative Self-play",
+        "id": "2512.05106v1",
+        "title": "NeuralRemaster: Phase-Preserving Diffusion for Structure-Aligned Generation",
         "authors": [
-          "Jonathan Berant",
-          "Maximillian Chen",
-          "Adam Fisch",
-          "Reza Aghajani",
-          "Fantine Huot"
+          "Yu Zeng",
+          "Charles Ochoa",
+          "Mingyuan Zhou",
+          "Vishal M. Patel",
+          "Vitor Guizilini"
         ],
-        "abstract": "To handle underspecified or ambiguous queries, AI assistants need a policy for managing their uncertainty to determine (a) when to guess the user intent and answer directly, (b) when to enumerate and answer multiple possible intents, and (c) when to ask a clarifying question. However, such policies are contextually dependent on factors such as user preferences or modality. For example, enumerating multiple possible user intentions is cumbersome on small screens or in a voice setting. In this wor...",
-        "published": "2025-12-03T18:49:54Z",
-        "updated": "2025-12-03T18:49:54Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.04068v1",
-        "abs_url": "https://arxiv.org/abs/2512.04068v1",
+        "abstract": "Standard diffusion corrupts data using Gaussian noise whose Fourier coefficients have random magnitudes and random phases. While effective for unconditional or text-to-image generation, corrupting phase components destroys spatial structure, making it ill-suited for tasks requiring geometric consistency, such as re-rendering, simulation enhancement, and image-to-image translation. We introduce Phase-Preserving Diffusion \u03c6-PD, a model-agnostic reformulation of the diffusion process that preserves...",
+        "published": "2025-12-04T18:59:18Z",
+        "updated": "2025-12-04T18:59:18Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.05106v1",
+        "abs_url": "https://arxiv.org/abs/2512.05106v1",
         "categories": [
-          "cs.LG"
+          "cs.CV",
+          "cs.GR",
+          "cs.LG",
+          "cs.RO"
+        ],
+        "primary_category": "cs.CV",
+        "analysis": {
+          "tldr": "This paper introduces a new method called Phase-Preserving Diffusion that improves how images are generated by keeping their spatial structure intact. This is particularly useful for applications that require maintaining geometric consistency, like enhancing simulations or translating images.",
+          "eli5": "Imagine you're trying to create a beautiful painting by mixing colors, but instead of just using the colors, you randomly throw in some weird noises that mess up the whole picture. The authors found a way to keep the painting's original shape intact while still adding noise, so it looks even better and stays true to its structure.",
+          "key_contributions": [
+            "Introduces Phase-Preserving Diffusion (\u03c6-PD), a method that enhances diffusion processes by maintaining the important structural elements of data.",
+            "Shows that \u03c6-PD is effective for various tasks like image-to-image translation and re-rendering, where retaining the original layout is crucial.",
+            "Proposes a model-agnostic approach, meaning it can be applied broadly across different models without being tied to a specific one."
+          ],
+          "why_care": "This research could revolutionize how we enhance and generate images in industries like gaming, film, and virtual reality, where maintaining realistic shapes and structures is vital for immersion and quality.",
+          "accessibility": "Tech-Savvy",
+          "spicy_take": "This work could be the tipping point in making AI-generated images indistinguishable from real ones, pushing the boundaries of digital creativity.",
+          "reading_time_minutes": 5
+        }
+      },
+      {
+        "id": "2512.05103v1",
+        "title": "TV2TV: A Unified Framework for Interleaved Language and Video Generation",
+        "authors": [
+          "Xiaochuang Han",
+          "Youssef Emad",
+          "Melissa Hall",
+          "John Nguyen",
+          "Karthik Padthe"
+        ],
+        "abstract": "Video generation models are rapidly advancing, but can still struggle with complex video outputs that require significant semantic branching or repeated high-level reasoning about what should happen next. In this paper, we introduce a new class of omni video-text models that integrate ideas from recent LM reasoning advances to address this challenge. More specifically, we present TV2TV, a unified generative modeling framework which decomposes video generation into an interleaved text and video g...",
+        "published": "2025-12-04T18:59:09Z",
+        "updated": "2025-12-04T18:59:09Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.05103v1",
+        "abs_url": "https://arxiv.org/abs/2512.05103v1",
+        "categories": [
+          "cs.LG",
+          "cs.AI",
+          "cs.CV"
         ],
         "primary_category": "cs.LG",
         "analysis": {
-          "tldr": "This paper explores how AI assistants can better handle vague questions by learning when to guess, give multiple answers, or ask for clarification. It introduces a collaborative method for training these decision-making policies using self-play techniques.",
-          "eli5": "Imagine you're asking your voice assistant a question, but it's not completely clear what you mean. This paper helps the assistant learn when to take a guess at your question, suggest several possible answers, or simply ask you to clarify what you meant. The authors teach the AI to make these choices better by letting it practice with itself, kind of like playing a game.",
+          "tldr": "This paper introduces TV2TV, a new framework that combines text and video generation to create more complex and coherent videos. By leveraging recent advancements in language models, it aims to solve the challenges of generating videos that require nuanced storytelling and logical progression.",
+          "eli5": "Imagine you want to create a movie that tells a detailed story with characters and actions. TV2TV is like a smart assistant that helps you write the script and direct the scenes simultaneously, making sure everything flows together perfectly. It combines the power of text understanding with video creation to produce better videos that make sense.",
           "key_contributions": [
-            "The introduction of a self-play method for training AI to handle ambiguous queries effectively.",
-            "Development of steerable clarification policies that adapt based on user preferences and context.",
-            "Demonstration of how these policies can optimize user experience across different modalities like voice and text."
+            "TV2TV introduces a unified approach that interleaves language and video generation, allowing for better coherence in complex video outputs.",
+            "The framework utilizes recent advancements in language model reasoning, enhancing the ability to understand and predict sequential events in videos.",
+            "It addresses the common challenges in video generation, such as semantic branching and maintaining narrative flow, which previous models struggled with."
           ],
-          "why_care": "As AI assistants become part of our daily lives, improving their ability to understand us leads to better user experiences and less frustration when we interact with technology. This work could make assistants smarter and more helpful in real-world situations.",
+          "why_care": "As video content becomes increasingly popular on social media and streaming platforms, improving the technology behind video generation can lead to richer, more engaging content. This research could pave the way for creating more sophisticated AI-generated videos, benefiting creators, advertisers, and audiences alike.",
           "accessibility": "Tech-Savvy",
-          "spicy_take": "This research could revolutionize how we interact with AI, but it's time to put the power of these advancements into the hands of the average user, not just tech enthusiasts.",
+          "spicy_take": "If AI continues down this path, we might soon see movies entirely generated by machines, raising questions about creativity and authorship.",
           "reading_time_minutes": 5
         }
       },
       {
-        "id": "2512.04065v1",
-        "title": "Fare Comparison App of Uber, Ola and Rapido",
+        "id": "2512.05100v1",
+        "title": "Structured Document Translation via Format Reinforcement Learning",
         "authors": [
-          "Ashlesha Gopinath Sawant",
-          "Sahil S. Jadhav",
-          "Vidhan R. Jain",
-          "Shriraj S. Jagtap",
-          "Prachi Jadhav"
+          "Haiyue Song",
+          "Johannes Eschbach-Dymanus",
+          "Hour Kaing",
+          "Sumire Honda",
+          "Hideki Tanaka"
         ],
-        "abstract": "In todays increasing world, it is very important to have good hailing services like Ola, Uber, and Rapido as it is very essential for our daily transportation. Users often face difficulties in choosing the most appropriate and efficient ride that would lead to both cost-effective and would take us to our destination in less time. This project provides you with the web application that helps you to select the most beneficial ride for you by providing users with the fare comparison between Ola, Ub...",
-        "published": "2025-12-03T18:48:33Z",
-        "updated": "2025-12-03T18:48:33Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.04065v1",
-        "abs_url": "https://arxiv.org/abs/2512.04065v1",
+        "abstract": "Recent works on structured text translation remain limited to the sentence level, as they struggle to effectively handle the complex document-level XML or HTML structures. To address this, we propose \\textbf{Format Reinforcement Learning (FormatRL)}, which employs Group Relative Policy Optimization on top of a supervised fine-tuning model to directly optimize novel structure-aware rewards: 1) TreeSim, which measures structural similarity between predicted and reference XML trees and 2) Node-chrF...",
+        "published": "2025-12-04T18:58:30Z",
+        "updated": "2025-12-04T18:58:30Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.05100v1",
+        "abs_url": "https://arxiv.org/abs/2512.05100v1",
         "categories": [
-          "cs.LG",
+          "cs.CL",
+          "cs.AI",
+          "cs.LG"
+        ],
+        "primary_category": "cs.CL",
+        "analysis": {
+          "tldr": "This paper introduces a new method called Format Reinforcement Learning to improve the translation of documents with complex structures like XML and HTML, moving beyond basic sentence translations.",
+          "eli5": "Imagine trying to translate a recipe written in a fancy cookbook that uses lots of hierarchical sections, like ingredients, steps, and notes. This paper presents a new way to teach computers to understand and translate these complex recipes correctly, not just word by word, but by keeping the whole structure in mind.",
+          "key_contributions": [
+            "Introduction of Format Reinforcement Learning (FormatRL) to address the limitations of translating structured documents.",
+            "Creation of novel rewards like TreeSim to assess how closely the translated document matches the original structure.",
+            "Utilization of Group Relative Policy Optimization to enhance the learning process for better translation outcomes."
+          ],
+          "why_care": "This research has practical implications for industries that rely on accurate document translations, such as legal, technical, and medical fields, where retaining the structure of documents is as important as the content. Better translation tools can improve communication and accessibility worldwide.",
+          "accessibility": "Tech-Savvy",
+          "spicy_take": "If we want machines to understand human language beyond just vocabulary, we need to start treating document structures like the precious jewels they are, and this paper is a step in that direction.",
+          "reading_time_minutes": 5
+        }
+      },
+      {
+        "id": "2512.05098v1",
+        "title": "SA-IQA: Redefining Image Quality Assessment for Spatial Aesthetics with Multi-Dimensional Rewards",
+        "authors": [
+          "Yuan Gao",
+          "Jin Song"
+        ],
+        "abstract": "In recent years, Image Quality Assessment (IQA) for AI-generated images (AIGI) has advanced rapidly; however, existing methods primarily target portraits and artistic images, lacking a systematic evaluation of interior scenes. We introduce Spatial Aesthetics, a paradigm that assesses the aesthetic quality of interior images along four dimensions: layout, harmony, lighting, and distortion. We construct SA-BENCH, the first benchmark for spatial aesthetics, comprising 18,000 images and 50,000 preci...",
+        "published": "2025-12-04T18:58:18Z",
+        "updated": "2025-12-04T18:58:18Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.05098v1",
+        "abs_url": "https://arxiv.org/abs/2512.05098v1",
+        "categories": [
+          "cs.CV",
           "cs.AI"
         ],
-        "primary_category": "cs.LG",
-        "analysis": {
-          "tldr": "This paper introduces a web application that helps users compare fares between popular ride-hailing services like Uber, Ola, and Rapido, making it easier to choose the best ride based on cost and time. It aims to streamline the decision-making process for commuters in today's busy world.",
-          "eli5": "Imagine you want to take a ride, but there are multiple options like Uber, Ola, and Rapido. Each one charges differently and gets you to your destination at different speeds. This project builds a tool that lets you easily see which ride is the cheapest and fastest, so you can make a smart choice without any hassle.",
-          "key_contributions": [
-            "Development of a user-friendly web application for fare comparison among popular ride-hailing services.",
-            "Analysis of fare structures and time efficiency of Uber, Ola, and Rapido, providing valuable insights for users.",
-            "Encouragement of competition among ride-hailing services to improve customer service and pricing."
-          ],
-          "why_care": "As urban populations grow, effective transportation is crucial for daily life. This tool empowers consumers to make informed choices, potentially saving them money and time, which is something anyone who commutes can appreciate. Plus, it pushes ride-hailing companies to be more competitive and transparent.",
-          "accessibility": "General Audience",
-          "spicy_take": "This app could be a game-changer for urban commuters, but it also raises questions about how data from such comparisons could influence pricing strategies in the ride-hailing market.",
-          "reading_time_minutes": 5
-        }
-      },
-      {
-        "id": "2512.04062v1",
-        "title": "Eval Factsheets: A Structured Framework for Documenting AI Evaluations",
-        "authors": [
-          "Florian Bordes",
-          "Candace Ross",
-          "Justine T Kao",
-          "Evangelia Spiliopoulou",
-          "Adina Williams"
-        ],
-        "abstract": "The rapid proliferation of benchmarks has created significant challenges in reproducibility, transparency, and informed decision-making. However, unlike datasets and models -- which benefit from structured documentation frameworks like Datasheets and Model Cards -- evaluation methodologies lack systematic documentation standards. We introduce Eval Factsheets, a structured, descriptive framework for documenting AI system evaluations through a comprehensive taxonomy and questionnaire-based approac...",
-        "published": "2025-12-03T18:46:50Z",
-        "updated": "2025-12-03T18:46:50Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.04062v1",
-        "abs_url": "https://arxiv.org/abs/2512.04062v1",
-        "categories": [
-          "cs.LG"
-        ],
-        "primary_category": "cs.LG",
-        "analysis": {
-          "tldr": "This paper introduces Eval Factsheets, a new framework designed to standardize the documentation of AI evaluations, addressing issues of transparency and reproducibility in AI research. It fills a gap in the documentation landscape that has previously only focused on datasets and models.",
-          "eli5": "Think of Eval Factsheets like a detailed instruction manual for AI evaluations. Just like you want clear guidelines on how to use a new gadget, researchers need structured ways to document how they evaluate AI systems. This paper presents a system that helps make those evaluations clearer and more trustworthy.",
-          "key_contributions": [
-            "Introduction of Eval Factsheets as a structured framework for documenting AI evaluations.",
-            "Creation of a comprehensive taxonomy that categorizes different aspects of AI evaluations.",
-            "Development of a questionnaire-based approach to ensure thorough and systematic documentation."
-          ],
-          "why_care": "This matters beyond academia because better documentation of AI evaluations leads to more reliable and transparent AI systems. As AI becomes part of everyday life, having trustworthy evaluations helps everyone, from consumers to policymakers, make informed decisions.",
-          "accessibility": "General Audience",
-          "spicy_take": "If we truly want to advance AI responsibly, every evaluation should come with an Eval Factsheet\u2014think of it as the nutritional label for AI systems.",
-          "reading_time_minutes": 5
-        }
-      },
-      {
-        "id": "2512.04058v1",
-        "title": "Closing the problem of which causal structures of up to six total nodes have a classical-quantum gap",
-        "authors": [
-          "Shashaank Khanna",
-          "Matthew Pusey",
-          "Roger Colbeck"
-        ],
-        "abstract": "The discovery of Bell that there exist quantum correlations that cannot be reproduced classically is one of the most important in the foundations of quantum mechanics, as well as having practical implications. Bell's result was originally proven in a simple bipartite causal structure, but analogous results have also been shown in further causal structures. Here we study the only causal structure with six or fewer nodes in which the question of whether or not there exist quantum correlations that...",
-        "published": "2025-12-03T18:44:25Z",
-        "updated": "2025-12-03T18:44:25Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.04058v1",
-        "abs_url": "https://arxiv.org/abs/2512.04058v1",
-        "categories": [
-          "quant-ph",
-          "cs.LG",
-          "math.ST"
-        ],
-        "primary_category": "quant-ph",
-        "analysis": {
-          "tldr": "This paper explores a specific causal structure involving six nodes to determine if quantum correlations can exist that classical systems simply cannot reproduce. It builds on foundational work in quantum mechanics and highlights the differences between classical and quantum worlds.",
-          "eli5": "Imagine you have a magic box that can do things that regular boxes just can't, like teleport stuff instantly. This paper digs into whether there are certain setups (called causal structures) where you can find these magical differences between how quantum and classical boxes work, especially when you have six of them interacting.",
-          "key_contributions": [
-            "This paper identifies the only causal structure with six or fewer nodes where the gap between classical and quantum correlations is still an open question.",
-            "It offers a comprehensive analysis of existing causal structures and their limitations in demonstrating quantum advantages.",
-            "The findings can inspire future research into more complex causal structures and their implications for quantum information theory."
-          ],
-          "why_care": "Understanding the differences between classical and quantum systems can lead to significant advancements in fields like quantum computing, cryptography, and information theory, potentially affecting everything from secure communication to advanced computing technologies.",
-          "accessibility": "General Audience",
-          "spicy_take": null,
-          "reading_time_minutes": 5
-        }
-      },
-      {
-        "id": "2512.04051v1",
-        "title": "Convergence for Discrete Parameter Updates",
-        "authors": [
-          "Paul Wilson",
-          "Fabio Zanasi",
-          "George Constantinides"
-        ],
-        "abstract": "Modern deep learning models require immense computational resources, motivating research into low-precision training. Quantised training addresses this by representing training components in low-bit integers, but typically relies on discretising real-valued updates. We introduce an alternative approach where the update rule itself is discrete, avoiding the quantisation of continuous updates by design. We establish convergence guarantees for a general class of such discrete schemes, and present a...",
-        "published": "2025-12-03T18:34:26Z",
-        "updated": "2025-12-03T18:34:26Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.04051v1",
-        "abs_url": "https://arxiv.org/abs/2512.04051v1",
-        "categories": [
-          "cs.LG",
-          "math.OC"
-        ],
-        "primary_category": "cs.LG",
-        "analysis": {
-          "tldr": "This paper explores a new way to optimize deep learning models by using discrete updates instead of the usual continuous ones, potentially making training less resource-intensive. The authors provide guarantees that these discrete updates can still effectively lead to convergence in training.",
-          "eli5": "Imagine you're trying to teach a robot to walk using steps instead of continuous movements. This paper suggests that instead of just adjusting its movements in tiny, smooth increments, we should teach it to make specific jumps or steps. This way, the robot can learn faster and use less energy, making it easier for us to train it without needing supercomputers.",
-          "key_contributions": [
-            "Introduces a novel approach to training deep learning models with discrete updates instead of continuous ones.",
-            "Offers convergence guarantees for a broader class of discrete training schemes.",
-            "Provides insights that could lead to more efficient training processes in deep learning, reducing the need for high computational resources."
-          ],
-          "why_care": "As deep learning continues to grow in real-world applications, from self-driving cars to medical diagnostics, finding ways to make training these models more efficient could lower costs and make advanced technology accessible to more people and organizations.",
-          "accessibility": "Tech-Savvy",
-          "spicy_take": "This could be a game-changer in the quest for sustainable AI; if we can train models with fewer resources, we might finally democratize access to cutting-edge technology.",
-          "reading_time_minutes": 5
-        }
-      },
-      {
-        "id": "2512.04048v1",
-        "title": "Stable Signer: Hierarchical Sign Language Generative Model",
-        "authors": [
-          "Sen Fang",
-          "Yalin Feng",
-          "Hongbin Zhong",
-          "Yanxin Zhang",
-          "Dimitris N. Metaxas"
-        ],
-        "abstract": "Sign Language Production (SLP) is the process of converting the complex input text into a real video. Most previous works focused on the Text2Gloss, Gloss2Pose, Pose2Vid stages, and some concentrated on Prompt2Gloss and Text2Avatar stages. However, this field has made slow progress due to the inaccuracy of text conversion, pose generation, and the rendering of poses into real human videos in these stages, resulting in gradually accumulating errors. Therefore, in this paper, we streamline the tra...",
-        "published": "2025-12-03T18:33:40Z",
-        "updated": "2025-12-03T18:33:40Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.04048v1",
-        "abs_url": "https://arxiv.org/abs/2512.04048v1",
-        "categories": [
-          "cs.CV",
-          "cs.CL",
-          "cs.CY"
-        ],
         "primary_category": "cs.CV",
         "analysis": {
-          "tldr": "This paper introduces a new model that improves how we generate realistic sign language videos from written text. It aims to reduce errors that typically occur during the conversion process, making sign language production more accurate and efficient.",
-          "eli5": "Imagine you want to create a video of someone signing a message in sign language, starting from just the words in a text. This paper presents a smarter way to do that by fixing the mistakes that happen when translating text to signs and then to a video, resulting in a smoother and more reliable output.",
+          "tldr": "This paper introduces a new way to evaluate the quality of interior images, focusing on their aesthetic appeal through a multi-dimensional approach. It creates a benchmark dataset to help in understanding how to assess spatial aesthetics effectively.",
+          "eli5": "Imagine you're looking at a photo of a living room. This paper talks about a new system that checks how good the room looks by looking at things like how well the furniture is arranged, if the colors match, how the lighting feels, and if there are any weird distortions in the image. Instead of just checking if a photo is pretty or not, it breaks down what makes it appealing in detail.",
           "key_contributions": [
-            "The introduction of a hierarchical generative model that addresses multiple stages of sign language production more effectively.",
-            "A streamlined approach that minimizes errors in converting text to sign gestures and then rendering them into video.",
-            "The integration of innovative techniques that enhance the realism of sign language videos, making them suitable for various applications."
+            "Introduces the concept of Spatial Aesthetics to evaluate interior images.",
+            "Creates SA-BENCH, the first large-scale benchmark dataset for assessing spatial aesthetics, containing 18,000 images.",
+            "Offers a multi-dimensional approach to image quality assessment that goes beyond traditional methods focused mainly on portraits and artistic works."
           ],
-          "why_care": "Improving the accuracy of sign language video generation can greatly benefit the deaf and hard-of-hearing community, enhancing communication tools and access to information. This technology could also find its way into education, entertainment, and virtual communication, making sign language more accessible.",
-          "accessibility": "Tech-Savvy",
-          "spicy_take": "If the innovations in this paper can be successfully implemented, we might just see an explosion in the use of sign language in digital contexts, finally bridging a gap that has long existed in communication.",
-          "reading_time_minutes": 5
-        }
-      },
-      {
-        "id": "2512.04047v1",
-        "title": "Polarization by Design: How Elites Could Shape Mass Preferences as AI Reduces Persuasion Costs",
-        "authors": [
-          "Nadav Kunievsky"
-        ],
-        "abstract": "In democracies, major policy decisions typically require some form of majority or consensus, so elites must secure mass support to govern. Historically, elites could shape support only through limited instruments like schooling and mass media; advances in AI-driven persuasion sharply reduce the cost and increase the precision of shaping public opinion, making the distribution of preferences itself an object of deliberate design. We develop a dynamic model in which elites choose how much to resha...",
-        "published": "2025-12-03T18:33:26Z",
-        "updated": "2025-12-03T18:33:26Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.04047v1",
-        "abs_url": "https://arxiv.org/abs/2512.04047v1",
-        "categories": [
-          "econ.GN",
-          "cs.AI",
-          "cs.CY"
-        ],
-        "primary_category": "econ.GN",
-        "analysis": {
-          "tldr": "This paper explores how powerful elites can now more easily influence public opinion using AI, and how this might change the way they secure support for their policies.",
-          "eli5": "Imagine the leaders in a country want to make a big decision, like changing a law. In the past, they had to rely on schools or newspapers to convince people. Now, with artificial intelligence, they can tailor their messages to each person more efficiently. This paper looks at how this technology changes the game for those in power, allowing them to design public preferences more effectively.",
-          "key_contributions": [
-            "This work highlights how AI reduces the cost of persuading the public, making opinion shaping much easier for elites.",
-            "It introduces a dynamic model that shows how elites might choose to manipulate mass preferences over time.",
-            "The research lays out the implications of these changes for democracy and the potential risks of elite-driven polarization."
-          ],
-          "why_care": "Understanding these dynamics is crucial because it affects how decisions are made in democracies and how vulnerable the public may be to manipulation. This could lead to greater polarization and undermine democratic processes, making it essential for citizens to be aware of how their opinions might be influenced.",
+          "why_care": "As more people interact with AI-generated images in design, marketing, and social media, understanding what makes these images appealing can greatly enhance user experience and product effectiveness. This research can help improve automated design tools and enhance interior design practices.",
           "accessibility": "General Audience",
-          "spicy_take": "If we don't address the implications of AI in political persuasion, we might be paving the way for a new era of manipulation that could fundamentally alter democratic engagement.",
-          "reading_time_minutes": 5
-        }
-      },
-      {
-        "id": "2512.04044v1",
-        "title": "MarkTune: Improving the Quality-Detectability Trade-off in Open-Weight LLM Watermarking",
-        "authors": [
-          "Yizhou Zhao",
-          "Zhiwei Steven Wu",
-          "Adam Block"
-        ],
-        "abstract": "Watermarking aims to embed hidden signals in generated text that can be reliably detected when given access to a secret key. Open-weight language models pose acute challenges for such watermarking schemes because the inference-time interventions that dominate contemporary approaches cannot be enforced once model weights are public. Existing watermaking techniques for open-weight models, such as the recently proposed GaussMark, typically rely on small modifications to model weights, which can yie...",
-        "published": "2025-12-03T18:32:19Z",
-        "updated": "2025-12-03T18:32:19Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.04044v1",
-        "abs_url": "https://arxiv.org/abs/2512.04044v1",
-        "categories": [
-          "cs.LG",
-          "cs.AI",
-          "cs.CR"
-        ],
-        "primary_category": "cs.LG",
-        "analysis": {
-          "tldr": "The paper introduces 'MarkTune', a method to enhance the effectiveness of watermarking in open-weight language models, allowing for better detection of embedded signals without compromising the quality of generated text. This tackles the challenge that arises when model weights are publicly accessible, making traditional watermarking less effective.",
-          "eli5": "Imagine you're trying to send secret messages in a book, but anyone can take the book and change the words around. 'MarkTune' is like a new method that helps you add invisible signals to your messages that are still easy to find, even if others can mess with the book. It ensures that the messages stay recognizable and clear, making them harder to alter without detection.",
-          "key_contributions": [
-            "Introduction of 'MarkTune', a novel approach to watermarking in open-weight language models that improves detection reliability.",
-            "Demonstration of a better quality-detectability balance compared to existing methods like GaussMark.",
-            "Empirical results showing that the new method maintains text quality while enhancing watermark detection."
-          ],
-          "why_care": "As AI-generated content becomes more prevalent, ensuring the authenticity and ownership of text is crucial. This research directly impacts how we safeguard intellectual property and combat misinformation, which is vital for industries, media, and the general public.",
-          "accessibility": "Tech-Savvy",
-          "spicy_take": "If AI is the wild west of technology, then watermarking is our sheriff \u2013 MarkTune may just be the new badge we need to enforce the law.",
-          "reading_time_minutes": 5
-        }
-      },
-      {
-        "id": "2512.04039v1",
-        "title": "Fast & Efficient Normalizing Flows and Applications of Image Generative Models",
-        "authors": [
-          "Sandeep Nagar"
-        ],
-        "abstract": "This thesis presents novel contributions in two primary areas: advancing the efficiency of generative models, particularly normalizing flows, and applying generative models to solve real-world computer vision challenges. The first part introduce significant improvements to normalizing flow architectures through six key innovations: 1) Development of invertible 3x3 Convolution layers with mathematically proven necessary and sufficient conditions for invertibility, (2) introduction of a more effic...",
-        "published": "2025-12-03T18:29:03Z",
-        "updated": "2025-12-03T18:29:03Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.04039v1",
-        "abs_url": "https://arxiv.org/abs/2512.04039v1",
-        "categories": [
-          "cs.CV",
-          "cs.AI",
-          "cs.LG"
-        ],
-        "primary_category": "cs.CV",
-        "analysis": {
-          "tldr": "This paper discusses ways to make generative models, specifically normalizing flows, faster and more efficient, while also applying them to real-world image generation challenges.",
-          "eli5": "Imagine if you could teach a computer to create realistic images or understand visual data, like a super-smart artist. This paper introduces advanced techniques to help these computers work faster and better by improving how they learn from data.",
-          "key_contributions": [
-            "Development of invertible 3x3 convolution layers that are guaranteed to be invertible, which is a big deal for ensuring models can learn and recreate data accurately.",
-            "Introduction of novel architectural improvements that significantly enhance the efficiency of normalizing flows, making them faster while maintaining performance.",
-            "Exploration of practical applications for these improved models in solving real-world computer vision problems, such as generating high-quality images."
-          ],
-          "why_care": "Improving generative models can lead to advancements in various fields like art, design, and computer vision, making technology more accessible and powerful for everyday applications, from creating lifelike images to enhancing automated systems.",
-          "accessibility": "Tech-Savvy",
-          "spicy_take": "These advancements might just propel generative models from the lab into the mainstream, revolutionizing how we interact with visual content.",
+          "spicy_take": "This research could revolutionize how we perceive and create interior spaces, pushing the boundaries of AI in design aesthetics.",
           "reading_time_minutes": 5
         }
       }
@@ -338,8 +351,8 @@
     "summary": {
       "total_analyzed": 10,
       "by_accessibility": {
-        "General Audience": 4,
-        "Tech-Savvy": 6,
+        "General Audience": 2,
+        "Tech-Savvy": 8,
         "Researchers Only": 0
       },
       "avg_reading_time": 5.0
@@ -351,19 +364,19 @@
     "style": "blog-accessible"
   },
   "costs": {
-    "execution_time": 76.96820831298828,
-    "execution_minutes": 1.282803471883138,
-    "github_actions": 0.010262427775065105,
+    "execution_time": 75.53885555267334,
+    "execution_minutes": 1.258980925877889,
+    "github_actions": 0.010071847407023111,
     "openai": {
-      "input": 0.0004908,
-      "output": 0.0017993999999999998,
-      "total": 0.0022902
+      "input": 0.0004974,
+      "output": 0.0018383999999999998,
+      "total": 0.0023358
     },
-    "total": 0.012552627775065106,
+    "total": 0.01240764740702311,
     "token_usage": {
-      "prompt_tokens": 3272,
-      "completion_tokens": 2999,
-      "total_tokens": 6271
+      "prompt_tokens": 3316,
+      "completion_tokens": 3064,
+      "total_tokens": 6380
     }
   }
 }
