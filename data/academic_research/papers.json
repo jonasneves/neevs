@@ -1,347 +1,37 @@
 {
   "agent": "agent-a-paper-fetcher",
-  "timestamp": "2025-12-05T09:03:57.931804",
+  "timestamp": "2025-12-06T09:02:49.624654",
   "status": "completed",
   "data": {
-    "papers": [
-      {
-        "id": "2512.05117v1",
-        "title": "The Universal Weight Subspace Hypothesis",
-        "authors": [
-          "Prakhar Kaushik",
-          "Shravan Chaudhari",
-          "Ankit Vaidya",
-          "Rama Chellappa",
-          "Alan Yuille"
-        ],
-        "abstract": "We show that deep neural networks trained across diverse tasks exhibit remarkably similar low-dimensional parametric subspaces. We provide the first large-scale empirical evidence that demonstrates that neural networks systematically converge to shared spectral subspaces regardless of initialization, task, or domain. Through mode-wise spectral analysis of over 1100 models - including 500 Mistral-7B LoRAs, 500 Vision Transformers, and 50 LLaMA-8B models - we identify universal subspaces capturing...",
-        "published": "2025-12-04T18:59:58Z",
-        "updated": "2025-12-04T18:59:58Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.05117v1",
-        "abs_url": "https://arxiv.org/abs/2512.05117v1",
-        "categories": [
-          "cs.LG",
-          "cs.AI",
-          "cs.CV"
-        ],
-        "primary_category": "cs.LG"
-      },
-      {
-        "id": "2512.05116v1",
-        "title": "Value Gradient Guidance for Flow Matching Alignment",
-        "authors": [
-          "Zhen Liu",
-          "Tim Z. Xiao",
-          "Carles Domingo-Enrich",
-          "Weiyang Liu",
-          "Dinghuai Zhang"
-        ],
-        "abstract": "While methods exist for aligning flow matching models--a popular and effective class of generative models--with human preferences, existing approaches fail to achieve both adaptation efficiency and probabilistically sound prior preservation. In this work, we leverage the theory of optimal control and propose VGG-Flow, a gradient-matching-based method for finetuning pretrained flow matching models. The key idea behind this algorithm is that the optimal difference between the finetuned velocity fi...",
-        "published": "2025-12-04T18:59:57Z",
-        "updated": "2025-12-04T18:59:57Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.05116v1",
-        "abs_url": "https://arxiv.org/abs/2512.05116v1",
-        "categories": [
-          "cs.LG",
-          "cs.CV"
-        ],
-        "primary_category": "cs.LG"
-      },
-      {
-        "id": "2512.05114v1",
-        "title": "Deep infant brain segmentation from multi-contrast MRI",
-        "authors": [
-          "Malte Hoffmann",
-          "Lilla Z\u00f6llei",
-          "Adrian V. Dalca"
-        ],
-        "abstract": "Segmentation of magnetic resonance images (MRI) facilitates analysis of human brain development by delineating anatomical structures. However, in infants and young children, accurate segmentation is challenging due to development and imaging constraints. Pediatric brain MRI is notoriously difficult to acquire, with inconsistent availability of imaging modalities, substantial non-head anatomy in the field of view, and frequent motion artifacts. This has led to specialized segmentation models that...",
-        "published": "2025-12-04T18:59:55Z",
-        "updated": "2025-12-04T18:59:55Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.05114v1",
-        "abs_url": "https://arxiv.org/abs/2512.05114v1",
-        "categories": [
-          "cs.LG",
-          "cs.CV",
-          "eess.IV"
-        ],
-        "primary_category": "cs.LG"
-      },
-      {
-        "id": "2512.05112v1",
-        "title": "DraCo: Draft as CoT for Text-to-Image Preview and Rare Concept Generation",
-        "authors": [
-          "Dongzhi Jiang",
-          "Renrui Zhang",
-          "Haodong Li",
-          "Zhuofan Zong",
-          "Ziyu Guo"
-        ],
-        "abstract": "Recent unified multimodal large language models (MLLMs) have shown impressive capabilities, incorporating chain-of-thought (CoT) reasoning for enhanced text-to-image generation. However, existing approaches remain limited, either treating the model merely as a standalone generator or relying on abstract textual planning. To this end, we propose Draft-as-CoT (DraCo), a novel interleaved reasoning paradigm that fully leverages both textual and visual contents in CoT for better planning and verific...",
-        "published": "2025-12-04T18:59:53Z",
-        "updated": "2025-12-04T18:59:53Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.05112v1",
-        "abs_url": "https://arxiv.org/abs/2512.05112v1",
-        "categories": [
-          "cs.CV",
-          "cs.AI",
-          "cs.CL",
-          "cs.LG"
-        ],
-        "primary_category": "cs.CV"
-      },
-      {
-        "id": "2512.05110v1",
-        "title": "ShadowDraw: From Any Object to Shadow-Drawing Compositional Art",
-        "authors": [
-          "Rundong Luo",
-          "Noah Snavely",
-          "Wei-Chiu Ma"
-        ],
-        "abstract": "We introduce ShadowDraw, a framework that transforms ordinary 3D objects into shadow-drawing compositional art. Given a 3D object, our system predicts scene parameters, including object pose and lighting, together with a partial line drawing, such that the cast shadow completes the drawing into a recognizable image. To this end, we optimize scene configurations to reveal meaningful shadows, employ shadow strokes to guide line drawing generation, and adopt automatic evaluation to enforce shadow-d...",
-        "published": "2025-12-04T18:59:51Z",
-        "updated": "2025-12-04T18:59:51Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.05110v1",
-        "abs_url": "https://arxiv.org/abs/2512.05110v1",
-        "categories": [
-          "cs.CV",
-          "cs.AI",
-          "cs.GR"
-        ],
-        "primary_category": "cs.CV"
-      },
-      {
-        "id": "2512.05105v1",
-        "title": "Semantic Soft Bootstrapping: Long Context Reasoning in LLMs without Reinforcement Learning",
-        "authors": [
-          "Purbesh Mitra",
-          "Sennur Ulukus"
-        ],
-        "abstract": "Long context reasoning in large language models (LLMs) has demonstrated enhancement of their cognitive capabilities via chain-of-thought (CoT) inference. Training such models is usually done via reinforcement learning with verifiable rewards (RLVR) in reasoning based problems, like math and programming. However, RLVR is limited by several bottlenecks, such as, lack of dense reward, and inadequate sample efficiency. As a result, it requires significant compute resources in post-training phase. To...",
-        "published": "2025-12-04T18:59:18Z",
-        "updated": "2025-12-04T18:59:18Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.05105v1",
-        "abs_url": "https://arxiv.org/abs/2512.05105v1",
-        "categories": [
-          "cs.CL",
-          "cs.AI",
-          "cs.IT",
-          "cs.LG",
-          "eess.SP"
-        ],
-        "primary_category": "cs.CL"
-      },
-      {
-        "id": "2512.05106v1",
-        "title": "NeuralRemaster: Phase-Preserving Diffusion for Structure-Aligned Generation",
-        "authors": [
-          "Yu Zeng",
-          "Charles Ochoa",
-          "Mingyuan Zhou",
-          "Vishal M. Patel",
-          "Vitor Guizilini"
-        ],
-        "abstract": "Standard diffusion corrupts data using Gaussian noise whose Fourier coefficients have random magnitudes and random phases. While effective for unconditional or text-to-image generation, corrupting phase components destroys spatial structure, making it ill-suited for tasks requiring geometric consistency, such as re-rendering, simulation enhancement, and image-to-image translation. We introduce Phase-Preserving Diffusion \u03c6-PD, a model-agnostic reformulation of the diffusion process that preserves...",
-        "published": "2025-12-04T18:59:18Z",
-        "updated": "2025-12-04T18:59:18Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.05106v1",
-        "abs_url": "https://arxiv.org/abs/2512.05106v1",
-        "categories": [
-          "cs.CV",
-          "cs.GR",
-          "cs.LG",
-          "cs.RO"
-        ],
-        "primary_category": "cs.CV"
-      },
-      {
-        "id": "2512.05103v1",
-        "title": "TV2TV: A Unified Framework for Interleaved Language and Video Generation",
-        "authors": [
-          "Xiaochuang Han",
-          "Youssef Emad",
-          "Melissa Hall",
-          "John Nguyen",
-          "Karthik Padthe"
-        ],
-        "abstract": "Video generation models are rapidly advancing, but can still struggle with complex video outputs that require significant semantic branching or repeated high-level reasoning about what should happen next. In this paper, we introduce a new class of omni video-text models that integrate ideas from recent LM reasoning advances to address this challenge. More specifically, we present TV2TV, a unified generative modeling framework which decomposes video generation into an interleaved text and video g...",
-        "published": "2025-12-04T18:59:09Z",
-        "updated": "2025-12-04T18:59:09Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.05103v1",
-        "abs_url": "https://arxiv.org/abs/2512.05103v1",
-        "categories": [
-          "cs.LG",
-          "cs.AI",
-          "cs.CV"
-        ],
-        "primary_category": "cs.LG"
-      },
-      {
-        "id": "2512.05100v1",
-        "title": "Structured Document Translation via Format Reinforcement Learning",
-        "authors": [
-          "Haiyue Song",
-          "Johannes Eschbach-Dymanus",
-          "Hour Kaing",
-          "Sumire Honda",
-          "Hideki Tanaka"
-        ],
-        "abstract": "Recent works on structured text translation remain limited to the sentence level, as they struggle to effectively handle the complex document-level XML or HTML structures. To address this, we propose \\textbf{Format Reinforcement Learning (FormatRL)}, which employs Group Relative Policy Optimization on top of a supervised fine-tuning model to directly optimize novel structure-aware rewards: 1) TreeSim, which measures structural similarity between predicted and reference XML trees and 2) Node-chrF...",
-        "published": "2025-12-04T18:58:30Z",
-        "updated": "2025-12-04T18:58:30Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.05100v1",
-        "abs_url": "https://arxiv.org/abs/2512.05100v1",
-        "categories": [
-          "cs.CL",
-          "cs.AI",
-          "cs.LG"
-        ],
-        "primary_category": "cs.CL"
-      },
-      {
-        "id": "2512.05098v1",
-        "title": "SA-IQA: Redefining Image Quality Assessment for Spatial Aesthetics with Multi-Dimensional Rewards",
-        "authors": [
-          "Yuan Gao",
-          "Jin Song"
-        ],
-        "abstract": "In recent years, Image Quality Assessment (IQA) for AI-generated images (AIGI) has advanced rapidly; however, existing methods primarily target portraits and artistic images, lacking a systematic evaluation of interior scenes. We introduce Spatial Aesthetics, a paradigm that assesses the aesthetic quality of interior images along four dimensions: layout, harmony, lighting, and distortion. We construct SA-BENCH, the first benchmark for spatial aesthetics, comprising 18,000 images and 50,000 preci...",
-        "published": "2025-12-04T18:58:18Z",
-        "updated": "2025-12-04T18:58:18Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.05098v1",
-        "abs_url": "https://arxiv.org/abs/2512.05098v1",
-        "categories": [
-          "cs.CV",
-          "cs.AI"
-        ],
-        "primary_category": "cs.CV"
-      },
-      {
-        "id": "2512.05092v1",
-        "title": "Foundations of Diffusion Models in General State Spaces: A Self-Contained Introduction",
-        "authors": [
-          "Vincent Pauline",
-          "Tobias H\u00f6ppe",
-          "Kirill Neklyudov",
-          "Alexander Tong",
-          "Stefan Bauer"
-        ],
-        "abstract": "Although diffusion models now occupy a central place in generative modeling, introductory treatments commonly assume Euclidean data and seldom clarify their connection to discrete-state analogues. This article is a self-contained primer on diffusion over general state spaces, unifying continuous domains and discrete/categorical structures under one lens. We develop the discrete-time view (forward noising via Markov kernels and learned reverse dynamics) alongside its continuous-time limits -- sto...",
-        "published": "2025-12-04T18:55:36Z",
-        "updated": "2025-12-04T18:55:36Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.05092v1",
-        "abs_url": "https://arxiv.org/abs/2512.05092v1",
-        "categories": [
-          "stat.ML",
-          "cs.LG"
-        ],
-        "primary_category": "stat.ML"
-      },
-      {
-        "id": "2512.05089v1",
-        "title": "The Geometry of Intelligence: Deterministic Functional Topology as a Foundation for Real-World Perception",
-        "authors": [
-          "Eduardo Di Santi"
-        ],
-        "abstract": "Real-world physical processes do not generate arbitrary variability: their signals concentrate on compact and low-variability subsets of functional space. This geometric structure enables rapid generalization from a few examples in both biological and artificial systems.\n  This work develops a deterministic functional-topological framework in which the set of valid realizations of a physical phenomenon forms a compact perceptual manifold with stable invariants and a finite Hausdorff radius. We s...",
-        "published": "2025-12-04T18:54:07Z",
-        "updated": "2025-12-04T18:54:07Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.05089v1",
-        "abs_url": "https://arxiv.org/abs/2512.05089v1",
-        "categories": [
-          "cs.LG",
-          "math.OC"
-        ],
-        "primary_category": "cs.LG"
-      },
-      {
-        "id": "2512.05084v1",
-        "title": "Gradient Descent with Provably Tuned Learning-rate Schedules",
-        "authors": [
-          "Dravyansh Sharma"
-        ],
-        "abstract": "Gradient-based iterative optimization methods are the workhorse of modern machine learning. They crucially rely on careful tuning of parameters like learning rate and momentum. However, one typically sets them using heuristic approaches without formal near-optimality guarantees. Recent work by Gupta and Roughgarden studies how to learn a good step-size in gradient descent. However, like most of the literature with theoretical guarantees for gradient-based optimization, their results rely on stro...",
-        "published": "2025-12-04T18:49:58Z",
-        "updated": "2025-12-04T18:49:58Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.05084v1",
-        "abs_url": "https://arxiv.org/abs/2512.05084v1",
-        "categories": [
-          "cs.LG"
-        ],
-        "primary_category": "cs.LG"
-      },
-      {
-        "id": "2512.05080v1",
-        "title": "OMTRA: A Multi-Task Generative Model for Structure-Based Drug Design",
-        "authors": [
-          "Ian Dunn",
-          "Liv Toft",
-          "Tyler Katz",
-          "Juhi Gupta",
-          "Riya Shah"
-        ],
-        "abstract": "Structure-based drug design (SBDD) focuses on designing small-molecule ligands that bind to specific protein pockets. Computational methods are integral in modern SBDD workflows and often make use of virtual screening methods via docking or pharmacophore search. Modern generative modeling approaches have focused on improving novel ligand discovery by enabling de novo design. In this work, we recognize that these tasks share a common structure and can therefore be represented as different instant...",
-        "published": "2025-12-04T18:46:35Z",
-        "updated": "2025-12-04T18:46:35Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.05080v1",
-        "abs_url": "https://arxiv.org/abs/2512.05080v1",
-        "categories": [
-          "cs.LG"
-        ],
-        "primary_category": "cs.LG"
-      },
-      {
-        "id": "2512.05073v1",
-        "title": "David vs. Goliath: Can Small Models Win Big with Agentic AI in Hardware Design?",
-        "authors": [
-          "Shashwat Shankar",
-          "Subhranshu Pandey",
-          "Innocent Dengkhw Mochahari",
-          "Bhabesh Mali",
-          "Animesh Basak Chowdhury"
-        ],
-        "abstract": "Large Language Model(LLM) inference demands massive compute and energy, making domain-specific tasks expensive and unsustainable. As foundation models keep scaling, we ask: Is bigger always better for hardware design? Our work tests this by evaluating Small Language Models coupled with a curated agentic AI framework on NVIDIA's Comprehensive Verilog Design Problems(CVDP) benchmark. Results show that agentic workflows: through task decomposition, iterative feedback, and correction - not only unlo...",
-        "published": "2025-12-04T18:37:29Z",
-        "updated": "2025-12-04T18:37:29Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.05073v1",
-        "abs_url": "https://arxiv.org/abs/2512.05073v1",
-        "categories": [
-          "cs.LG",
-          "cs.AI",
-          "cs.AR",
-          "cs.SE"
-        ],
-        "primary_category": "cs.LG"
-      }
-    ],
-    "count": 15,
+    "papers": [],
+    "count": 0,
     "categories": [
       "cs.AI",
       "cs.LG",
       "cs.CL"
     ],
-    "fetch_date": "2025-12-05"
+    "fetch_date": "2025-12-06"
   },
   "metadata": {
     "source": "arXiv API",
     "query": "cat:cs.AI OR cat:cs.LG OR cat:cs.CL",
     "deduplication": {
       "total_fetched": 15,
-      "new_papers": 15,
-      "duplicates_filtered": 0,
-      "last_fetch": "2025-12-04T09:04:52.243912"
+      "new_papers": 0,
+      "duplicates_filtered": 15,
+      "last_fetch": "2025-12-05T09:03:57.931804"
     }
   },
   "costs": {
-    "execution_time": 0.7144827842712402,
-    "execution_minutes": 0.01190804640452067,
-    "github_actions": 9.526437123616537e-05,
+    "execution_time": 0.39948606491088867,
+    "execution_minutes": 0.006658101081848144,
+    "github_actions": 5.326480865478515e-05,
     "openai": {
       "input": 0,
       "output": 0,
       "total": 0
     },
-    "total": 9.526437123616537e-05,
+    "total": 5.326480865478515e-05,
     "token_usage": {}
   }
 }
