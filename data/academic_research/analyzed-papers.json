@@ -1,18 +1,353 @@
 {
   "agent": "agent-b-paper-analyzer",
-  "timestamp": "2025-12-08T09:06:57.189868",
+  "timestamp": "2025-12-09T09:07:00.704505",
   "status": "completed",
   "input_from": "agent-a-paper-fetcher",
   "data": {
-    "analyzed_papers": [],
+    "analyzed_papers": [
+      {
+        "id": "2512.07833v1",
+        "title": "Relational Visual Similarity",
+        "authors": [
+          "Thao Nguyen",
+          "Sicheng Mo",
+          "Krishna Kumar Singh",
+          "Yilin Wang",
+          "Jing Shi"
+        ],
+        "abstract": "Humans do not just see attribute similarity -- we also see relational similarity. An apple is like a peach because both are reddish fruit, but the Earth is also like a peach: its crust, mantle, and core correspond to the peach's skin, flesh, and pit. This ability to perceive and recognize relational similarity, is arguable by cognitive scientist to be what distinguishes humans from other species. Yet, all widely used visual similarity metrics today (e.g., LPIPS, CLIP, DINO) focus solely on perce...",
+        "published": "2025-12-08T18:59:56Z",
+        "updated": "2025-12-08T18:59:56Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.07833v1",
+        "abs_url": "https://arxiv.org/abs/2512.07833v1",
+        "categories": [
+          "cs.CV",
+          "cs.AI",
+          "cs.LG"
+        ],
+        "primary_category": "cs.CV",
+        "analysis": {
+          "tldr": "This paper explores how humans perceive similarities not just in individual attributes, but also in relationships between objects. It argues that current visual similarity metrics fail to account for this deeper understanding of relationships.",
+          "eli5": "Imagine you can see that an apple and peach are similar because they're both fruits, but you can also see that the Earth and a peach are similar because they have layers (like skin and flesh). This paper argues that understanding these relationships is what makes human perception special, yet most technology only looks at basic similarities.",
+          "key_contributions": [
+            "Introduces the concept of relational visual similarity, highlighting its importance in human perception.",
+            "Critiques existing visual similarity metrics for their focus on attribute similarity rather than relational context.",
+            "Proposes potential frameworks for integrating relational similarity into visual recognition systems."
+          ],
+          "why_care": "Understanding how we perceive relationships between objects can improve AI and technology in areas like image recognition, leading to smarter systems that better mimic human understanding. This could have implications in various fields, from marketing to AI development.",
+          "accessibility": "Tech-Savvy",
+          "spicy_take": "If AI can't understand relationships like humans do, it will always remain a step behind in truly grasping the world around us.",
+          "reading_time_minutes": 5
+        }
+      },
+      {
+        "id": "2512.07832v1",
+        "title": "Do Generalisation Results Generalise?",
+        "authors": [
+          "Matteo Boglioni",
+          "Andrea Sgobbi",
+          "Gabriel Tavernini",
+          "Francesco Rita",
+          "Marius Mosbach"
+        ],
+        "abstract": "A large language model's (LLM's) out-of-distribution (OOD) generalisation ability is crucial to its deployment. Previous work assessing LLMs' generalisation performance, however, typically focuses on a single out-of-distribution dataset. This approach may fail to precisely evaluate the capabilities of the model, as the data shifts encountered once a model is deployed are much more diverse. In this work, we investigate whether OOD generalisation results generalise. More specifically, we evaluate ...",
+        "published": "2025-12-08T18:59:51Z",
+        "updated": "2025-12-08T18:59:51Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.07832v1",
+        "abs_url": "https://arxiv.org/abs/2512.07832v1",
+        "categories": [
+          "cs.CL",
+          "cs.LG"
+        ],
+        "primary_category": "cs.CL",
+        "analysis": {
+          "tldr": "This paper examines whether the results from testing how well large language models (LLMs) handle unexpected data can be trusted. It suggests that earlier evaluations might not truly reflect a model's capabilities when faced with real-world data diversity.",
+          "eli5": "Imagine a robot trained to understand English by reading a set of books. If you only test it with one new book, you might think it\u2019s great at understanding all sorts of English. But what if it gets thrown into a busy library with all kinds of weird and different books? This paper explores if testing LLMs with just one new type of data is enough to know if they can handle anything in the wild.",
+          "key_contributions": [
+            "This study expands the evaluation of LLMs' out-of-distribution generalization by using multiple datasets rather than just one.",
+            "It highlights the potential gaps in current evaluation methods for LLMs, emphasizing the need for more robust testing.",
+            "The findings provide insights that can guide future research and development in LLM deployment, making them more reliable in real-world applications."
+          ],
+          "why_care": "Understanding how well AI models adapt to new information is crucial for their safe and effective use in everything from customer service to healthcare. If we can't trust these models to handle unexpected situations, it could lead to mistakes that affect our daily lives.",
+          "accessibility": "Tech-Savvy",
+          "spicy_take": "Relying on single OOD tests is like evaluating a chef's skills based on one dish - it\u2019s bound to lead to disappointments.",
+          "reading_time_minutes": 6
+        }
+      },
+      {
+        "id": "2512.07829v1",
+        "title": "One Layer Is Enough: Adapting Pretrained Visual Encoders for Image Generation",
+        "authors": [
+          "Yuan Gao",
+          "Chen Chen",
+          "Tianrong Chen",
+          "Jiatao Gu"
+        ],
+        "abstract": "Visual generative models (e.g., diffusion models) typically operate in compressed latent spaces to balance training efficiency and sample quality. In parallel, there has been growing interest in leveraging high-quality pre-trained visual representations, either by aligning them inside VAEs or directly within the generative model. However, adapting such representations remains challenging due to fundamental mismatches between understanding-oriented features and generation-friendly latent spaces. ...",
+        "published": "2025-12-08T18:57:26Z",
+        "updated": "2025-12-08T18:57:26Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.07829v1",
+        "abs_url": "https://arxiv.org/abs/2512.07829v1",
+        "categories": [
+          "cs.CV",
+          "cs.AI"
+        ],
+        "primary_category": "cs.CV",
+        "analysis": {
+          "tldr": "This paper explores how to improve image generation by using existing visual models in a simpler way. The authors propose that a single layer of these pretrained models can be enough to enhance the quality of generated images.",
+          "eli5": "Imagine you have a really smart robot that understands pictures perfectly, but it struggles to create new ones from scratch. This research shows that instead of using the whole robot, we can just take a small part of it that\u2019s good at understanding and use it to help the robot make better images. It\u2019s like using a cheat sheet to draw better!",
+          "key_contributions": [
+            "The authors demonstrate that a single layer from pretrained visual models can significantly enhance image generation quality, simplifying the adaptation process.",
+            "They identify and address the challenges of aligning understanding-focused features with generation-friendly spaces, bridging a major gap in existing methods.",
+            "This work opens up new avenues for efficiently using powerful pretrained models in generative tasks without the need for complex architectures."
+          ],
+          "why_care": "This research could lead to better image generation technologies, which have applications in fields such as digital art, virtual reality, and even enhancing tools for social media. Better images can improve user experiences and creativity in various industries.",
+          "accessibility": "Tech-Savvy",
+          "spicy_take": "This paper could redefine how we think about using pretrained models in generative AI, showing that less can truly be more.",
+          "reading_time_minutes": 5
+        }
+      },
+      {
+        "id": "2512.07828v1",
+        "title": "The Adoption and Usage of AI Agents: Early Evidence from Perplexity",
+        "authors": [
+          "Jeremy Yang",
+          "Noah Yonack",
+          "Kate Zyskowski",
+          "Denis Yarats",
+          "Johnny Ho"
+        ],
+        "abstract": "This paper presents the first large-scale field study of the adoption, usage intensity, and use cases of general-purpose AI agents operating in open-world web environments. Our analysis centers on Comet, an AI-powered browser developed by Perplexity, and its integrated agent, Comet Assistant. Drawing on hundreds of millions of anonymized user interactions, we address three fundamental questions: Who is using AI agents? How intensively are they using them? And what are they using them for? Our fi...",
+        "published": "2025-12-08T18:56:10Z",
+        "updated": "2025-12-08T18:56:10Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.07828v1",
+        "abs_url": "https://arxiv.org/abs/2512.07828v1",
+        "categories": [
+          "cs.LG",
+          "econ.GN"
+        ],
+        "primary_category": "cs.LG",
+        "analysis": {
+          "tldr": "This paper examines how users are adopting and interacting with AI agents, specifically focusing on a tool called Comet that helps people browse the web. By analyzing user data, the authors uncover trends in who uses these agents and for what purposes.",
+          "eli5": "Imagine you have a smart assistant that helps you find information on the internet, much like a supercharged search engine. This study looks at how many people are using such assistants, how often they use them, and what they actually do with them, using data from a tool called Comet.",
+          "key_contributions": [
+            "The paper is the first large-scale study of AI agents in real-world web environments, providing unprecedented insights into their adoption and usage.",
+            "It identifies the demographics and behaviors of users engaging with AI tools, highlighting patterns in usage intensity.",
+            "The authors categorize the various use cases of AI agents, shedding light on how different groups utilize these technologies for their needs."
+          ],
+          "why_care": "As AI agents become increasingly integrated into our daily online experiences, understanding their usage can inform future design and policy decisions. This knowledge can help developers create better tools that meet user needs and help users navigate the complexities of information online.",
+          "accessibility": "General Audience",
+          "spicy_take": "The findings suggest that AI agents might not just be a passing trend but could become essential tools for navigating the web, raising questions about digital literacy and dependency in the coming years.",
+          "reading_time_minutes": 5
+        }
+      },
+      {
+        "id": "2512.07827v1",
+        "title": "An Adaptive Multi-Layered Honeynet Architecture for Threat Behavior Analysis via Deep Learning",
+        "authors": [
+          "Lukas Johannes M\u00f6ller"
+        ],
+        "abstract": "The escalating sophistication and variety of cyber threats have rendered static honeypots inadequate, necessitating adaptive, intelligence-driven deception. In this work, ADLAH is introduced: an Adaptive Deep Learning Anomaly Detection Honeynet designed to maximize high-fidelity threat intelligence while minimizing cost through autonomous orchestration of infrastructure. The principal contribution is offered as an end-to-end architectural blueprint and vision for an AI-driven deception platform....",
+        "published": "2025-12-08T18:55:26Z",
+        "updated": "2025-12-08T18:55:26Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.07827v1",
+        "abs_url": "https://arxiv.org/abs/2512.07827v1",
+        "categories": [
+          "cs.CR",
+          "cs.DC",
+          "cs.LG"
+        ],
+        "primary_category": "cs.CR",
+        "analysis": {
+          "tldr": "This paper introduces a new system that uses deep learning to improve how we detect and analyze cyber threats, making traditional methods more adaptive and effective. The proposed architecture aims to provide better threat intelligence while being cost-efficient.",
+          "eli5": "Imagine you have a security system that gets better at catching burglars by learning from each break-in. This paper presents a smart system that not only tracks cyber threats but also learns from them to set up traps that trick hackers, all while saving money on resources.",
+          "key_contributions": [
+            "The introduction of ADLAH, a sophisticated framework that uses deep learning for better anomaly detection in cyber threats.",
+            "A blueprint for a multi-layered honeynet architecture that adapts to new threats automatically.",
+            "A focus on reducing operational costs while maximizing the effectiveness of threat intelligence."
+          ],
+          "why_care": "As cyber threats become more advanced, this research is crucial for organizations that need to protect sensitive data. A smarter security system helps reduce the risk of data breaches and can save companies money in the long run by preventing losses from attacks.",
+          "accessibility": "Tech-Savvy",
+          "spicy_take": "If traditional honeypots are like static scarecrows in a cornfield, ADLAH is the evolving AI scarecrow that learns and adapts to the crows' cunning tricks.",
+          "reading_time_minutes": 5
+        }
+      },
+      {
+        "id": "2512.07821v1",
+        "title": "WorldReel: 4D Video Generation with Consistent Geometry and Motion Modeling",
+        "authors": [
+          "Shaoheng Fang",
+          "Hanwen Jiang",
+          "Yunpeng Bai",
+          "Niloy J. Mitra",
+          "Qixing Huang"
+        ],
+        "abstract": "Recent video generators achieve striking photorealism, yet remain fundamentally inconsistent in 3D. We present WorldReel, a 4D video generator that is natively spatio-temporally consistent. WorldReel jointly produces RGB frames together with 4D scene representations, including pointmaps, camera trajectory, and dense flow mapping, enabling coherent geometry and appearance modeling over time. Our explicit 4D representation enforces a single underlying scene that persists across viewpoints and dyna...",
+        "published": "2025-12-08T18:54:12Z",
+        "updated": "2025-12-08T18:54:12Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.07821v1",
+        "abs_url": "https://arxiv.org/abs/2512.07821v1",
+        "categories": [
+          "cs.CV",
+          "cs.AI"
+        ],
+        "primary_category": "cs.CV",
+        "analysis": {
+          "tldr": "This paper introduces WorldReel, an advanced 4D video generator that creates videos with consistent geometry and motion over time, addressing the inconsistencies found in previous video generation models.",
+          "eli5": "Imagine taking a video that looks amazing but sometimes looks different depending on the angle you view it from. WorldReel solves this problem by generating videos that not only look good but also keep the same shape and motion throughout all the frames, like a magic show where the trick always works, no matter where you sit.",
+          "key_contributions": [
+            "Development of WorldReel, which generates spatio-temporally consistent 4D videos by producing RGB frames alongside 4D scene representations.",
+            "Introduction of explicit 4D representations that include pointmaps and camera trajectories, allowing for coherent geometry and appearance over time.",
+            "Establishment of a method that enforces a single underlying scene, ensuring that the video content remains consistent from various viewpoints."
+          ],
+          "why_care": "This technology can revolutionize industries like gaming, film, and virtual reality by making animated content more lifelike and immersive, enhancing user experience and storytelling.",
+          "accessibility": "Tech-Savvy",
+          "spicy_take": "WorldReel could be the first step towards a future where deepfake technology is seamlessly integrated into creative media, raising ethical questions we need to address immediately.",
+          "reading_time_minutes": 5
+        }
+      },
+      {
+        "id": "2512.07820v1",
+        "title": "Graph-Based Learning of Spectro-Topographical EEG Representations with Gradient Alignment for Brain-Computer Interfaces",
+        "authors": [
+          "Prithila Angkan",
+          "Amin Jalali",
+          "Paul Hungler",
+          "Ali Etemad"
+        ],
+        "abstract": "We present a novel graph-based learning of EEG representations with gradient alignment (GEEGA) that leverages multi-domain information to learn EEG representations for brain-computer interfaces. Our model leverages graph convolutional networks to fuse embeddings from frequency-based topographical maps and time-frequency spectrograms, capturing inter-domain relationships. GEEGA addresses the challenge of achieving high inter-class separability, which arises from the temporally dynamic and subject...",
+        "published": "2025-12-08T18:54:11Z",
+        "updated": "2025-12-08T18:54:11Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.07820v1",
+        "abs_url": "https://arxiv.org/abs/2512.07820v1",
+        "categories": [
+          "cs.HC",
+          "cs.LG"
+        ],
+        "primary_category": "cs.HC",
+        "analysis": {
+          "tldr": "This paper introduces a new method called GEEGA that improves how we interpret EEG data for brain-computer interfaces by combining different types of information. It aims to make it easier to distinguish between different brain states, which is crucial for better communication and control in BCI applications.",
+          "eli5": "Imagine your brain is like a radio station, sending out signals (EEG data) that can be hard to understand. GEEGA is like a super-smart radio that not only tunes into different frequencies (like music styles) but also connects the dots between different types of signals to better understand what you're thinking or feeling. This helps machines 'read' your brain more accurately.",
+          "key_contributions": [
+            "The introduction of a graph-based learning approach that combines different types of EEG data for improved interpretation.",
+            "Utilization of gradient alignment to enhance the separation between different brain activity classes.",
+            "Demonstration of how multi-domain information can be effectively fused using graph convolutional networks, offering a novel perspective on EEG representation."
+          ],
+          "why_care": "This research could lead to more effective brain-computer interfaces, which can significantly improve the quality of life for individuals with disabilities, allowing them to control devices or communicate more easily. This technology has the potential to revolutionize how we interact with machines and could eventually extend to enhancing cognitive capabilities.",
+          "accessibility": "Tech-Savvy",
+          "spicy_take": "If GEEGA delivers on its promises, it could be a game-changer in the BCI field, potentially turning sci-fi dreams of mind-controlled devices into a reality sooner than we think.",
+          "reading_time_minutes": 5
+        }
+      },
+      {
+        "id": "2512.07818v1",
+        "title": "Provable Long-Range Benefits of Next-Token Prediction",
+        "authors": [
+          "Xinyuan Cao",
+          "Santosh S. Vempala"
+        ],
+        "abstract": "Why do modern language models, trained to do well on next-word prediction, appear to generate coherent documents and capture long-range structure? Here we show that next-token prediction is provably powerful for learning longer-range structure, even with common neural network architectures. Specifically, we prove that optimizing next-token prediction over a Recurrent Neural Network (RNN) yields a model that closely approximates the training distribution: for held-out documents sampled from the t...",
+        "published": "2025-12-08T18:51:54Z",
+        "updated": "2025-12-08T18:51:54Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.07818v1",
+        "abs_url": "https://arxiv.org/abs/2512.07818v1",
+        "categories": [
+          "cs.LG",
+          "cs.AI",
+          "stat.ML"
+        ],
+        "primary_category": "cs.LG",
+        "analysis": {
+          "tldr": "This paper reveals that training language models to predict the next word not only helps them generate coherent text but also allows them to learn longer-range patterns effectively. By focusing on next-token prediction, these models can better replicate the structure of real-world documents.",
+          "eli5": "Imagine a robot that learns to write stories by guessing the next word based on what it has already written. This paper shows that by getting really good at this guessing game, the robot can understand the bigger picture and create longer, more connected stories that make sense.",
+          "key_contributions": [
+            "The authors prove that next-token prediction is effective for capturing long-range structures in text.",
+            "They demonstrate that optimizing this approach with Recurrent Neural Networks (RNNs) leads to a model that closely resembles the original training data.",
+            "The findings suggest that the mechanisms behind language models' success go deeper than just short-term word choices."
+          ],
+          "why_care": "Understanding how language models learn can improve applications like chatbots, content generation, and even tools for writers, making them more intuitive and effective. This research helps demystify why these models work so well, which can lead to better AI in everyday tools.",
+          "accessibility": "General Audience",
+          "spicy_take": null,
+          "reading_time_minutes": 5
+        }
+      },
+      {
+        "id": "2512.07814v1",
+        "title": "Understanding Privacy Risks in Code Models Through Training Dynamics: A Causal Approach",
+        "authors": [
+          "Hua Yang",
+          "Alejandro Velasco",
+          "Sen Fang",
+          "Bowen Xu",
+          "Denys Poshyvanyk"
+        ],
+        "abstract": "Large language models for code (LLM4Code) have greatly improved developer productivity but also raise privacy concerns due to their reliance on open-source repositories containing abundant personally identifiable information (PII). Prior work shows that commercial models can reproduce sensitive PII, yet existing studies largely treat PII as a single category and overlook the heterogeneous risks among different types. We investigate whether distinct PII types vary in their likelihood of being lea...",
+        "published": "2025-12-08T18:47:40Z",
+        "updated": "2025-12-08T18:47:40Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.07814v1",
+        "abs_url": "https://arxiv.org/abs/2512.07814v1",
+        "categories": [
+          "cs.SE",
+          "cs.AI",
+          "cs.CR"
+        ],
+        "primary_category": "cs.SE",
+        "analysis": {
+          "tldr": "This paper explores the privacy risks posed by large language models designed for code, focusing on how different types of personally identifiable information (PII) are at varying levels of risk during the model training process.",
+          "eli5": "Imagine if you trained a robot to write code by feeding it tons of example code from the internet, including some that accidentally reveals people's private information. This paper looks into how likely the robot is to accidentally share different kinds of that private info, because not all info is created equal.",
+          "key_contributions": [
+            "It identifies that different types of personally identifiable information (PII) have varying risks of being leaked by code models, rather than treating all PII as equally risky.",
+            "It uses a causal approach to analyze the training dynamics of large language models, providing a deeper understanding of how privacy risks occur.",
+            "It raises awareness and encourages further research on specific types of PII, prompting the need for improved privacy measures in the development of code models."
+          ],
+          "why_care": "With the increasing reliance on AI in software development, understanding these privacy risks is crucial to protect individuals' personal information and uphold trust in technology. If developers can mitigate these risks, it will lead to safer coding practices and potentially save companies from legal troubles.",
+          "accessibility": "Tech-Savvy",
+          "spicy_take": "Ignoring the nuances of PII in AI models is like building a house without checking the weather; eventually, something will leak!",
+          "reading_time_minutes": 5
+        }
+      },
+      {
+        "id": "2512.07810v1",
+        "title": "Auditing Games for Sandbagging",
+        "authors": [
+          "Jordan Taylor",
+          "Sid Black",
+          "Dillon Bowen",
+          "Thomas Read",
+          "Satvik Golechha"
+        ],
+        "abstract": "Future AI systems could conceal their capabilities ('sandbagging') during evaluations, potentially misleading developers and auditors. We stress-tested sandbagging detection techniques using an auditing game. First, a red team fine-tuned five models, some of which conditionally underperformed, as a proxy for sandbagging. Second, a blue team used black-box, model-internals, or training-based approaches to identify sandbagging models. We found that the blue team could not reliably discriminate san...",
+        "published": "2025-12-08T18:44:44Z",
+        "updated": "2025-12-08T18:44:44Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.07810v1",
+        "abs_url": "https://arxiv.org/abs/2512.07810v1",
+        "categories": [
+          "cs.AI"
+        ],
+        "primary_category": "cs.AI",
+        "analysis": {
+          "tldr": "This paper explores how AI models might intentionally underperform during evaluations, a tactic known as 'sandbagging,' and tests methods for detecting this behavior using a competitive game format.",
+          "eli5": "Imagine you have a friend who's really good at a video game but pretends to be bad to make it more fun for everyone else. This paper looks at how AI can do something similar by hiding its true abilities during tests, and then examines ways to catch it in the act.",
+          "key_contributions": [
+            "Introduces a novel auditing game framework to test AI model performance under deceptive conditions.",
+            "Evaluates the effectiveness of various detection strategies against models that exhibit sandbagging behaviors.",
+            "Reveals that current detection methods struggle to consistently identify when models are sandbagging."
+          ],
+          "why_care": "Understanding sandbagging in AI is crucial because it can lead to misleading evaluations, resulting in poorly developed systems. This has real-world implications, especially in fields like healthcare or autonomous driving, where trust in AI performance is essential.",
+          "accessibility": "Tech-Savvy",
+          "spicy_take": "If we can't even detect when AI is intentionally holding back, how can we trust its capabilities in critical applications?",
+          "reading_time_minutes": 5
+        }
+      }
+    ],
     "summary": {
-      "total_analyzed": 0,
+      "total_analyzed": 10,
       "by_accessibility": {
-        "General Audience": 0,
-        "Tech-Savvy": 0,
+        "General Audience": 2,
+        "Tech-Savvy": 8,
         "Researchers Only": 0
       },
-      "avg_reading_time": 0
+      "avg_reading_time": 5.1
     }
   },
   "metadata": {
@@ -21,19 +356,19 @@
     "style": "blog-accessible"
   },
   "costs": {
-    "execution_time": 0.5360510349273682,
-    "execution_minutes": 0.008934183915456136,
-    "github_actions": 7.14734713236491e-05,
+    "execution_time": 99.92341589927673,
+    "execution_minutes": 1.6653902649879455,
+    "github_actions": 0.013323122119903564,
     "openai": {
-      "input": 0.0,
-      "output": 0.0,
-      "total": 0.0
+      "input": 0.0004925999999999999,
+      "output": 0.0018323999999999999,
+      "total": 0.002325
     },
-    "total": 7.14734713236491e-05,
+    "total": 0.015648122119903563,
     "token_usage": {
-      "prompt_tokens": 0,
-      "completion_tokens": 0,
-      "total_tokens": 0
+      "prompt_tokens": 3284,
+      "completion_tokens": 3054,
+      "total_tokens": 6338
     }
   }
 }
