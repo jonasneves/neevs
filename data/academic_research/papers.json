@@ -1,37 +1,341 @@
 {
   "agent": "agent-a-paper-fetcher",
-  "timestamp": "2025-12-08T09:06:41.720551",
+  "timestamp": "2025-12-09T09:04:56.850960",
   "status": "completed",
   "data": {
-    "papers": [],
-    "count": 0,
+    "papers": [
+      {
+        "id": "2512.07833v1",
+        "title": "Relational Visual Similarity",
+        "authors": [
+          "Thao Nguyen",
+          "Sicheng Mo",
+          "Krishna Kumar Singh",
+          "Yilin Wang",
+          "Jing Shi"
+        ],
+        "abstract": "Humans do not just see attribute similarity -- we also see relational similarity. An apple is like a peach because both are reddish fruit, but the Earth is also like a peach: its crust, mantle, and core correspond to the peach's skin, flesh, and pit. This ability to perceive and recognize relational similarity, is arguable by cognitive scientist to be what distinguishes humans from other species. Yet, all widely used visual similarity metrics today (e.g., LPIPS, CLIP, DINO) focus solely on perce...",
+        "published": "2025-12-08T18:59:56Z",
+        "updated": "2025-12-08T18:59:56Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.07833v1",
+        "abs_url": "https://arxiv.org/abs/2512.07833v1",
+        "categories": [
+          "cs.CV",
+          "cs.AI",
+          "cs.LG"
+        ],
+        "primary_category": "cs.CV"
+      },
+      {
+        "id": "2512.07832v1",
+        "title": "Do Generalisation Results Generalise?",
+        "authors": [
+          "Matteo Boglioni",
+          "Andrea Sgobbi",
+          "Gabriel Tavernini",
+          "Francesco Rita",
+          "Marius Mosbach"
+        ],
+        "abstract": "A large language model's (LLM's) out-of-distribution (OOD) generalisation ability is crucial to its deployment. Previous work assessing LLMs' generalisation performance, however, typically focuses on a single out-of-distribution dataset. This approach may fail to precisely evaluate the capabilities of the model, as the data shifts encountered once a model is deployed are much more diverse. In this work, we investigate whether OOD generalisation results generalise. More specifically, we evaluate ...",
+        "published": "2025-12-08T18:59:51Z",
+        "updated": "2025-12-08T18:59:51Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.07832v1",
+        "abs_url": "https://arxiv.org/abs/2512.07832v1",
+        "categories": [
+          "cs.CL",
+          "cs.LG"
+        ],
+        "primary_category": "cs.CL"
+      },
+      {
+        "id": "2512.07829v1",
+        "title": "One Layer Is Enough: Adapting Pretrained Visual Encoders for Image Generation",
+        "authors": [
+          "Yuan Gao",
+          "Chen Chen",
+          "Tianrong Chen",
+          "Jiatao Gu"
+        ],
+        "abstract": "Visual generative models (e.g., diffusion models) typically operate in compressed latent spaces to balance training efficiency and sample quality. In parallel, there has been growing interest in leveraging high-quality pre-trained visual representations, either by aligning them inside VAEs or directly within the generative model. However, adapting such representations remains challenging due to fundamental mismatches between understanding-oriented features and generation-friendly latent spaces. ...",
+        "published": "2025-12-08T18:57:26Z",
+        "updated": "2025-12-08T18:57:26Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.07829v1",
+        "abs_url": "https://arxiv.org/abs/2512.07829v1",
+        "categories": [
+          "cs.CV",
+          "cs.AI"
+        ],
+        "primary_category": "cs.CV"
+      },
+      {
+        "id": "2512.07828v1",
+        "title": "The Adoption and Usage of AI Agents: Early Evidence from Perplexity",
+        "authors": [
+          "Jeremy Yang",
+          "Noah Yonack",
+          "Kate Zyskowski",
+          "Denis Yarats",
+          "Johnny Ho"
+        ],
+        "abstract": "This paper presents the first large-scale field study of the adoption, usage intensity, and use cases of general-purpose AI agents operating in open-world web environments. Our analysis centers on Comet, an AI-powered browser developed by Perplexity, and its integrated agent, Comet Assistant. Drawing on hundreds of millions of anonymized user interactions, we address three fundamental questions: Who is using AI agents? How intensively are they using them? And what are they using them for? Our fi...",
+        "published": "2025-12-08T18:56:10Z",
+        "updated": "2025-12-08T18:56:10Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.07828v1",
+        "abs_url": "https://arxiv.org/abs/2512.07828v1",
+        "categories": [
+          "cs.LG",
+          "econ.GN"
+        ],
+        "primary_category": "cs.LG"
+      },
+      {
+        "id": "2512.07827v1",
+        "title": "An Adaptive Multi-Layered Honeynet Architecture for Threat Behavior Analysis via Deep Learning",
+        "authors": [
+          "Lukas Johannes M\u00f6ller"
+        ],
+        "abstract": "The escalating sophistication and variety of cyber threats have rendered static honeypots inadequate, necessitating adaptive, intelligence-driven deception. In this work, ADLAH is introduced: an Adaptive Deep Learning Anomaly Detection Honeynet designed to maximize high-fidelity threat intelligence while minimizing cost through autonomous orchestration of infrastructure. The principal contribution is offered as an end-to-end architectural blueprint and vision for an AI-driven deception platform....",
+        "published": "2025-12-08T18:55:26Z",
+        "updated": "2025-12-08T18:55:26Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.07827v1",
+        "abs_url": "https://arxiv.org/abs/2512.07827v1",
+        "categories": [
+          "cs.CR",
+          "cs.DC",
+          "cs.LG"
+        ],
+        "primary_category": "cs.CR"
+      },
+      {
+        "id": "2512.07821v1",
+        "title": "WorldReel: 4D Video Generation with Consistent Geometry and Motion Modeling",
+        "authors": [
+          "Shaoheng Fang",
+          "Hanwen Jiang",
+          "Yunpeng Bai",
+          "Niloy J. Mitra",
+          "Qixing Huang"
+        ],
+        "abstract": "Recent video generators achieve striking photorealism, yet remain fundamentally inconsistent in 3D. We present WorldReel, a 4D video generator that is natively spatio-temporally consistent. WorldReel jointly produces RGB frames together with 4D scene representations, including pointmaps, camera trajectory, and dense flow mapping, enabling coherent geometry and appearance modeling over time. Our explicit 4D representation enforces a single underlying scene that persists across viewpoints and dyna...",
+        "published": "2025-12-08T18:54:12Z",
+        "updated": "2025-12-08T18:54:12Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.07821v1",
+        "abs_url": "https://arxiv.org/abs/2512.07821v1",
+        "categories": [
+          "cs.CV",
+          "cs.AI"
+        ],
+        "primary_category": "cs.CV"
+      },
+      {
+        "id": "2512.07820v1",
+        "title": "Graph-Based Learning of Spectro-Topographical EEG Representations with Gradient Alignment for Brain-Computer Interfaces",
+        "authors": [
+          "Prithila Angkan",
+          "Amin Jalali",
+          "Paul Hungler",
+          "Ali Etemad"
+        ],
+        "abstract": "We present a novel graph-based learning of EEG representations with gradient alignment (GEEGA) that leverages multi-domain information to learn EEG representations for brain-computer interfaces. Our model leverages graph convolutional networks to fuse embeddings from frequency-based topographical maps and time-frequency spectrograms, capturing inter-domain relationships. GEEGA addresses the challenge of achieving high inter-class separability, which arises from the temporally dynamic and subject...",
+        "published": "2025-12-08T18:54:11Z",
+        "updated": "2025-12-08T18:54:11Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.07820v1",
+        "abs_url": "https://arxiv.org/abs/2512.07820v1",
+        "categories": [
+          "cs.HC",
+          "cs.LG"
+        ],
+        "primary_category": "cs.HC"
+      },
+      {
+        "id": "2512.07818v1",
+        "title": "Provable Long-Range Benefits of Next-Token Prediction",
+        "authors": [
+          "Xinyuan Cao",
+          "Santosh S. Vempala"
+        ],
+        "abstract": "Why do modern language models, trained to do well on next-word prediction, appear to generate coherent documents and capture long-range structure? Here we show that next-token prediction is provably powerful for learning longer-range structure, even with common neural network architectures. Specifically, we prove that optimizing next-token prediction over a Recurrent Neural Network (RNN) yields a model that closely approximates the training distribution: for held-out documents sampled from the t...",
+        "published": "2025-12-08T18:51:54Z",
+        "updated": "2025-12-08T18:51:54Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.07818v1",
+        "abs_url": "https://arxiv.org/abs/2512.07818v1",
+        "categories": [
+          "cs.LG",
+          "cs.AI",
+          "stat.ML"
+        ],
+        "primary_category": "cs.LG"
+      },
+      {
+        "id": "2512.07814v1",
+        "title": "Understanding Privacy Risks in Code Models Through Training Dynamics: A Causal Approach",
+        "authors": [
+          "Hua Yang",
+          "Alejandro Velasco",
+          "Sen Fang",
+          "Bowen Xu",
+          "Denys Poshyvanyk"
+        ],
+        "abstract": "Large language models for code (LLM4Code) have greatly improved developer productivity but also raise privacy concerns due to their reliance on open-source repositories containing abundant personally identifiable information (PII). Prior work shows that commercial models can reproduce sensitive PII, yet existing studies largely treat PII as a single category and overlook the heterogeneous risks among different types. We investigate whether distinct PII types vary in their likelihood of being lea...",
+        "published": "2025-12-08T18:47:40Z",
+        "updated": "2025-12-08T18:47:40Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.07814v1",
+        "abs_url": "https://arxiv.org/abs/2512.07814v1",
+        "categories": [
+          "cs.SE",
+          "cs.AI",
+          "cs.CR"
+        ],
+        "primary_category": "cs.SE"
+      },
+      {
+        "id": "2512.07810v1",
+        "title": "Auditing Games for Sandbagging",
+        "authors": [
+          "Jordan Taylor",
+          "Sid Black",
+          "Dillon Bowen",
+          "Thomas Read",
+          "Satvik Golechha"
+        ],
+        "abstract": "Future AI systems could conceal their capabilities ('sandbagging') during evaluations, potentially misleading developers and auditors. We stress-tested sandbagging detection techniques using an auditing game. First, a red team fine-tuned five models, some of which conditionally underperformed, as a proxy for sandbagging. Second, a blue team used black-box, model-internals, or training-based approaches to identify sandbagging models. We found that the blue team could not reliably discriminate san...",
+        "published": "2025-12-08T18:44:44Z",
+        "updated": "2025-12-08T18:44:44Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.07810v1",
+        "abs_url": "https://arxiv.org/abs/2512.07810v1",
+        "categories": [
+          "cs.AI"
+        ],
+        "primary_category": "cs.AI"
+      },
+      {
+        "id": "2512.07808v1",
+        "title": "LUNA: LUT-Based Neural Architecture for Fast and Low-Cost Qubit Readout",
+        "authors": [
+          "M. A. Farooq",
+          "G. Di Guglielmo",
+          "A. Rajagopala",
+          "N. Tran",
+          "V. A. Chhabria"
+        ],
+        "abstract": "Qubit readout is a critical operation in quantum computing systems, which maps the analog response of qubits into discrete classical states. Deep neural networks (DNNs) have recently emerged as a promising solution to improve readout accuracy . Prior hardware implementations of DNN-based readout are resource-intensive and suffer from high inference latency, limiting their practical use in low-latency decoding and quantum error correction (QEC) loops. This paper proposes LUNA, a fast and efficien...",
+        "published": "2025-12-08T18:41:13Z",
+        "updated": "2025-12-08T18:41:13Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.07808v1",
+        "abs_url": "https://arxiv.org/abs/2512.07808v1",
+        "categories": [
+          "quant-ph",
+          "cs.LG"
+        ],
+        "primary_category": "quant-ph"
+      },
+      {
+        "id": "2512.07805v1",
+        "title": "Group Representational Position Encoding",
+        "authors": [
+          "Yifan Zhang",
+          "Zixiang Chen",
+          "Yifeng Liu",
+          "Zhen Qin",
+          "Huizhuo Yuan"
+        ],
+        "abstract": "We present GRAPE (Group RepresentAtional Position Encoding), a unified framework for positional encoding based on group actions. GRAPE brings together two families of mechanisms: (i) multiplicative rotations (Multiplicative GRAPE) in $\\mathrm{SO}(d)$ and (ii) additive logit biases (Additive GRAPE) arising from unipotent actions in the general linear group $\\mathrm{GL}$. In Multiplicative GRAPE, a position $n \\in \\mathbb{Z}$ (or $t \\in \\mathbb{R}$) acts as $\\mathbf{G}(n)=\\exp(n\\,\u03c9\\,\\mathbf{L})$ w...",
+        "published": "2025-12-08T18:39:13Z",
+        "updated": "2025-12-08T18:39:13Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.07805v1",
+        "abs_url": "https://arxiv.org/abs/2512.07805v1",
+        "categories": [
+          "cs.LG",
+          "cs.AI",
+          "cs.CL"
+        ],
+        "primary_category": "cs.LG"
+      },
+      {
+        "id": "2512.07801v1",
+        "title": "Collaborative Causal Sensemaking: Closing the Complementarity Gap in Human-AI Decision Support",
+        "authors": [
+          "Raunak Jain",
+          "Mudita Khurana"
+        ],
+        "abstract": "LLM-based agents are rapidly being plugged into expert decision-support, yet in messy, high-stakes settings they rarely make the team smarter: human-AI teams often underperform the best individual, experts oscillate between verification loops and over-reliance, and the promised complementarity does not materialise. We argue this is not just a matter of accuracy, but a fundamental gap in how we conceive AI assistance: expert decisions are made through collaborative cognitive processes where menta...",
+        "published": "2025-12-08T18:30:41Z",
+        "updated": "2025-12-08T18:30:41Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.07801v1",
+        "abs_url": "https://arxiv.org/abs/2512.07801v1",
+        "categories": [
+          "cs.CL",
+          "cs.AI",
+          "cs.HC",
+          "cs.LG"
+        ],
+        "primary_category": "cs.CL"
+      },
+      {
+        "id": "2512.07796v1",
+        "title": "Large Causal Models from Large Language Models",
+        "authors": [
+          "Sridhar Mahadevan"
+        ],
+        "abstract": "We introduce a new paradigm for building large causal models (LCMs) that exploits the enormous potential latent in today's large language models (LLMs). We describe our ongoing experiments with an implemented system called DEMOCRITUS (Decentralized Extraction of Manifold Ontologies of Causal Relations Integrating Topos Universal Slices) aimed at building, organizing, and visualizing LCMs that span disparate domains extracted from carefully targeted textual queries to LLMs. DEMOCRITUS is methodol...",
+        "published": "2025-12-08T18:28:04Z",
+        "updated": "2025-12-08T18:28:04Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.07796v1",
+        "abs_url": "https://arxiv.org/abs/2512.07796v1",
+        "categories": [
+          "cs.AI"
+        ],
+        "primary_category": "cs.AI"
+      },
+      {
+        "id": "2512.07795v1",
+        "title": "ReasonBENCH: Benchmarking the (In)Stability of LLM Reasoning",
+        "authors": [
+          "Nearchos Potamitis",
+          "Lars Klein",
+          "Akhil Arora"
+        ],
+        "abstract": "Large language models (LLMs) are increasingly deployed in settings where reasoning, such as multi-step problem solving and chain-of-thought, is essential. Yet, current evaluation practices overwhelmingly report single-run accuracy while ignoring the intrinsic uncertainty that naturally arises from stochastic decoding. This omission creates a blind spot because practitioners cannot reliably assess whether a method's reported performance is stable, reproducible, or cost-consistent. We introduce Re...",
+        "published": "2025-12-08T18:26:58Z",
+        "updated": "2025-12-08T18:26:58Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.07795v1",
+        "abs_url": "https://arxiv.org/abs/2512.07795v1",
+        "categories": [
+          "cs.AI",
+          "cs.CL",
+          "cs.LG"
+        ],
+        "primary_category": "cs.AI"
+      }
+    ],
+    "count": 15,
     "categories": [
       "cs.AI",
       "cs.LG",
       "cs.CL"
     ],
-    "fetch_date": "2025-12-08"
+    "fetch_date": "2025-12-09"
   },
   "metadata": {
     "source": "arXiv API",
     "query": "cat:cs.AI OR cat:cs.LG OR cat:cs.CL",
     "deduplication": {
-      "total_fetched": 0,
-      "new_papers": 0,
+      "total_fetched": 15,
+      "new_papers": 15,
       "duplicates_filtered": 0,
-      "last_fetch": "2025-12-07T09:02:51.766158"
+      "last_fetch": "2025-12-08T09:06:41.720551"
     }
   },
   "costs": {
-    "execution_time": 46.17347764968872,
-    "execution_minutes": 0.7695579608281453,
-    "github_actions": 0.006156463686625163,
+    "execution_time": 1.7623987197875977,
+    "execution_minutes": 0.029373311996459962,
+    "github_actions": 0.0002349864959716797,
     "openai": {
       "input": 0,
       "output": 0,
       "total": 0
     },
-    "total": 0.006156463686625163,
+    "total": 0.0002349864959716797,
     "token_usage": {}
   }
 }
