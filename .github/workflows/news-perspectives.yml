@@ -204,7 +204,7 @@ jobs:
     name: "Deploy Results"
     needs: synthesize-perspectives
     if: always() && !cancelled() && needs.synthesize-perspectives.result == 'success'
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04-arm
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
