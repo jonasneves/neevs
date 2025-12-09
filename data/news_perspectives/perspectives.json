@@ -1,19 +1,686 @@
 {
   "agent": "perspective-synthesizer",
-  "timestamp": "2025-12-08T18:11:18.578739",
+  "timestamp": "2025-12-09T00:31:44.800035",
   "status": "completed",
   "data": {
     "articles": [
       {
         "article": {
-          "id": "news_0_1765217434",
+          "id": "news_0_1765240239",
+          "title": "Tsunami Warning Is Downgraded After 7.6-Magnitude Earthquake in Japan - The New York Times",
+          "description": "Tsunami Warning Is Downgraded After 7.6-Magnitude Earthquake in Japan\u00a0\u00a0The New York TimesEvacuation orders issued in Japan after powerful earthquake triggers tsunami warning\u00a0\u00a0CNN10 reported hurt after big Japan quake, warning of more tremors\u00a0\u00a0YahooMagnitude 7.5 earthquake in north Japan injures 23 people\u00a0\u00a0Al Jazeera8 quakes strike San Ramon, powerful quake strikes Japan\u00a0\u00a0KTVU",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRF9JWWZQalc3X082Q1pJRVFGeXZkUTVOLXB1VHdfY1JPa1lkZEZ2SGlHR0w4bjhLbE44R01VMk5icGkwbmExLTdPWUlwUk1naU5DcDhrM0t6cm5iUmRHSHh6R3ZRZkFEVm1LelFURXlId29fdFlkZU9qMFdXY2FXdA?oc=5",
+          "source": "The New York Times",
+          "published": "Mon, 08 Dec 2025 21:33:37 GMT",
+          "topic": "WORLD",
+          "fetched_at": "2025-12-09T00:30:39.066380"
+        },
+        "perspectives": [
+          {
+            "model": "GPT-4o Mini",
+            "model_id": "openai/gpt-4o-mini",
+            "emoji": "\ud83d\udfe2",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-12-09T00:31:11.206154"
+          },
+          {
+            "model": "GPT-4o Mini",
+            "model_id": "openai/gpt-4o-mini",
+            "emoji": "\ud83d\udfe2",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-12-09T00:31:16.304492"
+          },
+          {
+            "model": "Llama 3.1 8B",
+            "model_id": "meta/meta-llama-3.1-8b-instruct",
+            "emoji": "\ud83d\udd35",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-12-09T00:31:12.219474"
+          },
+          {
+            "model": "Llama 3.1 8B",
+            "model_id": "meta/meta-llama-3.1-8b-instruct",
+            "emoji": "\ud83d\udd35",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-12-09T00:31:17.463941"
+          },
+          {
+            "model": "Phi-4 Mini",
+            "model_id": "microsoft/phi-4-mini-instruct",
+            "emoji": "\ud83d\udfe1",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-12-09T00:31:11.422524"
+          },
+          {
+            "model": "Phi-4 Mini",
+            "model_id": "microsoft/phi-4-mini-instruct",
+            "emoji": "\ud83d\udfe1",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-12-09T00:31:16.622747"
+          }
+        ],
+        "consensus": {
+          "dominant_sentiment": "mixed",
+          "agreement_percentage": 0,
+          "sentiment_distribution": {},
+          "models_analyzed": 6
+        }
+      },
+      {
+        "article": {
+          "id": "news_1_1765240239",
+          "title": "A year on from the ousting of Assad, Syrians remember the pain but rejoice at their freedom - CNN",
+          "description": "A year on from the ousting of Assad, Syrians remember the pain but rejoice at their freedom\u00a0\u00a0CNNJeremy Bowen: Syria feels lighter without the Assads' crushing weight - but now there are new problems\u00a0\u00a0BBCWith Fireworks and Parades, Syrians Celebrate Anniversary of al-Assad\u2019s Fall\u00a0\u00a0The New York TimesCan Syria\u2019s president turn wave of global goodwill into tangible results at home?\u00a0\u00a0The GuardianMemories of liberation and hope for the future: A Damascene\u2019s story\u00a0\u00a0Al Jazeera",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNU3NrX0pxU0VadWZ3QVZVcFEtMWVjTEtQZzg5ZUpPR1dFM2oyeDZOcGxUZm9BWHRQM196MzJxQTJhbUhzS1hwMDh3bXRXYjI2ZzlXS25WMVNocGxXaGxlczhVczM2aUx3RmRUS0dGdjZ3dkVYOXlSam00bjlsWEhVN3gzOUlQRXZMYTk2Q1h3?oc=5",
+          "source": "CNN",
+          "published": "Mon, 08 Dec 2025 15:20:29 GMT",
+          "topic": "WORLD",
+          "fetched_at": "2025-12-09T00:30:39.066415"
+        },
+        "perspectives": [
+          {
+            "model": "GPT-4o Mini",
+            "model_id": "openai/gpt-4o-mini",
+            "emoji": "\ud83d\udfe2",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-12-09T00:31:12.229317"
+          },
+          {
+            "model": "GPT-4o Mini",
+            "model_id": "openai/gpt-4o-mini",
+            "emoji": "\ud83d\udfe2",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-12-09T00:31:17.324406"
+          },
+          {
+            "model": "Llama 3.1 8B",
+            "model_id": "meta/meta-llama-3.1-8b-instruct",
+            "emoji": "\ud83d\udd35",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-12-09T00:31:13.264464"
+          },
+          {
+            "model": "Llama 3.1 8B",
+            "model_id": "meta/meta-llama-3.1-8b-instruct",
+            "emoji": "\ud83d\udd35",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-12-09T00:31:18.519602"
+          },
+          {
+            "model": "Phi-4 Mini",
+            "model_id": "microsoft/phi-4-mini-instruct",
+            "emoji": "\ud83d\udfe1",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-12-09T00:31:12.462555"
+          },
+          {
+            "model": "Phi-4 Mini",
+            "model_id": "microsoft/phi-4-mini-instruct",
+            "emoji": "\ud83d\udfe1",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-12-09T00:31:17.659443"
+          }
+        ],
+        "consensus": {
+          "dominant_sentiment": "mixed",
+          "agreement_percentage": 0,
+          "sentiment_distribution": {},
+          "models_analyzed": 6
+        }
+      },
+      {
+        "article": {
+          "id": "news_2_1765240239",
+          "title": "Bomb explosion kills over 30 in eastern Congo after army clashes with pro-government militia - AP News",
+          "description": "Bomb explosion kills over 30 in eastern Congo after army clashes with pro-government militia\u00a0\u00a0AP NewsCongo President Tshisekedi accuses Rwanda of violating peace deal\u00a0\u00a0ReutersWar Is Peace, the Dozing Don Edition\u00a0\u00a0The New YorkerTrump fumbles African leaders' names, jokes about 'killing each other'\u00a0\u00a0USA TodayHow to Actually Solve the Rwanda-DR Congo Conflict\u00a0\u00a0Time Magazine",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORHlsZElyMmVuT1lCcjdlZkZoaGxyM2JvZTN2OEpkR3RBREktSDE5SDBIVEU0dTFOODF0cVpSVDdSeGZuYTZvekZPNzFlak03UHpoRmRjNEJVRDllZTlqTmUwcU5PeGVRc3BFOFBERnNwdVhoZ2l2cmJqV2ZhWVhWajlIT2RNOWhqd0dCZF9tc2luRURpT0NZU2VKQnM2clAzTlE?oc=5",
+          "source": "AP News",
+          "published": "Mon, 08 Dec 2025 18:53:00 GMT",
+          "topic": "WORLD",
+          "fetched_at": "2025-12-09T00:30:39.066430"
+        },
+        "perspectives": [
+          {
+            "model": "GPT-4o Mini",
+            "model_id": "openai/gpt-4o-mini",
+            "emoji": "\ud83d\udfe2",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-12-09T00:31:13.250075"
+          },
+          {
+            "model": "GPT-4o Mini",
+            "model_id": "openai/gpt-4o-mini",
+            "emoji": "\ud83d\udfe2",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-12-09T00:31:18.341733"
+          },
+          {
+            "model": "Llama 3.1 8B",
+            "model_id": "meta/meta-llama-3.1-8b-instruct",
+            "emoji": "\ud83d\udd35",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-12-09T00:31:14.310781"
+          },
+          {
+            "model": "Llama 3.1 8B",
+            "model_id": "meta/meta-llama-3.1-8b-instruct",
+            "emoji": "\ud83d\udd35",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-12-09T00:31:19.566949"
+          },
+          {
+            "model": "Phi-4 Mini",
+            "model_id": "microsoft/phi-4-mini-instruct",
+            "emoji": "\ud83d\udfe1",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-12-09T00:31:13.506151"
+          },
+          {
+            "model": "Phi-4 Mini",
+            "model_id": "microsoft/phi-4-mini-instruct",
+            "emoji": "\ud83d\udfe1",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-12-09T00:31:18.698499"
+          }
+        ],
+        "consensus": {
+          "dominant_sentiment": "mixed",
+          "agreement_percentage": 0,
+          "sentiment_distribution": {},
+          "models_analyzed": 6
+        }
+      },
+      {
+        "article": {
+          "id": "news_3_1765240239",
+          "title": "China-made rocket among triggers for Thai airstrikes into Cambodia - Reuters",
+          "description": "China-made rocket among triggers for Thai airstrikes into Cambodia\u00a0\u00a0ReutersThai Jets Bomb Cambodia as at Least 5 Die in New Wave of Fighting\u00a0\u00a0The New York TimesTrump-brokered truce under threat as Thailand-Cambodia fighting reignites\u00a0\u00a0ReutersThailand-Cambodia conflict: Thousands flee disputed border after deadly clashes and air strikes\u00a0\u00a0BBCThailand launches airstrikes along border with Cambodia as tensions reignite\u00a0\u00a0NPR",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOT2lMd3kzNjhtalFlQldKeW9iSHJPczJtRjA5dUx4dUt5UDAtUVBuRENzMV9tTTVJdk1SX0xaN25FVUNuWnZTdGNJUHFnTFZtb2FHdHAyOVRwNFNtWlZuUGtIaDhYN0FDTndWR2g0UHJlTXlMTkt4a2x1MkRiUXdSQXRaVFJHNjZqZkI2bWpOM1E3anhyWE5KdUxaR3oxZFNLcF9ibGJpb2tnd21EMV9yN2tEOWlYNlhMcnlJbGxUbXNBMTQ?oc=5",
+          "source": "Reuters",
+          "published": "Mon, 08 Dec 2025 11:38:05 GMT",
+          "topic": "WORLD",
+          "fetched_at": "2025-12-09T00:30:39.066446"
+        },
+        "perspectives": [
+          {
+            "model": "GPT-4o Mini",
+            "model_id": "openai/gpt-4o-mini",
+            "emoji": "\ud83d\udfe2",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-12-09T00:31:14.268710"
+          },
+          {
+            "model": "GPT-4o Mini",
+            "model_id": "openai/gpt-4o-mini",
+            "emoji": "\ud83d\udfe2",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-12-09T00:31:19.361106"
+          },
+          {
+            "model": "Llama 3.1 8B",
+            "model_id": "meta/meta-llama-3.1-8b-instruct",
+            "emoji": "\ud83d\udd35",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-12-09T00:31:15.360045"
+          },
+          {
+            "model": "Llama 3.1 8B",
+            "model_id": "meta/meta-llama-3.1-8b-instruct",
+            "emoji": "\ud83d\udd35",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-12-09T00:31:20.615683"
+          },
+          {
+            "model": "Phi-4 Mini",
+            "model_id": "microsoft/phi-4-mini-instruct",
+            "emoji": "\ud83d\udfe1",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-12-09T00:31:14.543265"
+          },
+          {
+            "model": "Phi-4 Mini",
+            "model_id": "microsoft/phi-4-mini-instruct",
+            "emoji": "\ud83d\udfe1",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-12-09T00:31:19.736796"
+          }
+        ],
+        "consensus": {
+          "dominant_sentiment": "mixed",
+          "agreement_percentage": 0,
+          "sentiment_distribution": {},
+          "models_analyzed": 6
+        }
+      },
+      {
+        "article": {
+          "id": "news_4_1765240239",
+          "title": "Police raid UNRWA offices in East Jerusalem, raise Israeli flag over compound - The Times of Israel",
+          "description": "Police raid UNRWA offices in East Jerusalem, raise Israeli flag over compound\u00a0\u00a0The Times of IsraelIsraeli police raid UNRWA compound in East Jerusalem and replace UN flag with Israeli flag, head of the agency says\u00a0\u00a0CNNCondemnation as Israel raids UNRWA HQ in East Jerusalem, removes UN flag\u00a0\u00a0Al JazeeraUN Palestinian aid agency says Israeli police \u2018forcibly entered\u2019 its Jerusalem compound\u00a0\u00a0AP NewsUN chief Guterres condemns Israeli raid on UNRWA compound\u00a0\u00a0Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQOEFnRjk5dXpDRnotV01LeG5UWmNILWFUV3pCTFJ2YUc0YlFCOWFpZXJJcUxSN3pGa25JWmFKdFRvZEdGQ0tmLWt1UjVMNXhubkJrZVJQekpqZWhIaTIwdHVYN0FiMDJLNDJicGpQSHZhZXViWl9BOHRRTV8teHRhMklTOVpleVVod2Vpd1YzS3lsOWtIX1A2Zk9aM0tEbWN5d3hacjlnUTRTNUnSAbABQVVfeXFMTVFxazVodnNUMzBkVGVKXzlvaHlDUUFIaTQ0ZFRPemY0d3VWQUtoRVliM2g0Q3JaN0NfdGhRa2R3OUxEYWc0Q2RZX04zbjl0YjA2cXA4aGhXVVlnUjRQVXdSMVdrM0xEcnlzbmgxS2RGbjhLUnd5Mm1SZzd3VS1IbllqUEVqZEVxck1kWjYxSlN3aXdmNURCU2FWZDRVYUVheVJ6MXhYNmh0eXJNZ2xjWlA?oc=5",
+          "source": "The Times of Israel",
+          "published": "Mon, 08 Dec 2025 15:48:36 GMT",
+          "topic": "WORLD",
+          "fetched_at": "2025-12-09T00:30:39.066463"
+        },
+        "perspectives": [
+          {
+            "model": "GPT-4o Mini",
+            "model_id": "openai/gpt-4o-mini",
+            "emoji": "\ud83d\udfe2",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-12-09T00:31:15.286200"
+          },
+          {
+            "model": "GPT-4o Mini",
+            "model_id": "openai/gpt-4o-mini",
+            "emoji": "\ud83d\udfe2",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-12-09T00:31:20.379265"
+          },
+          {
+            "model": "Llama 3.1 8B",
+            "model_id": "meta/meta-llama-3.1-8b-instruct",
+            "emoji": "\ud83d\udd35",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-12-09T00:31:16.415584"
+          },
+          {
+            "model": "Llama 3.1 8B",
+            "model_id": "meta/meta-llama-3.1-8b-instruct",
+            "emoji": "\ud83d\udd35",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-12-09T00:31:21.663676"
+          },
+          {
+            "model": "Phi-4 Mini",
+            "model_id": "microsoft/phi-4-mini-instruct",
+            "emoji": "\ud83d\udfe1",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-12-09T00:31:15.583425"
+          },
+          {
+            "model": "Phi-4 Mini",
+            "model_id": "microsoft/phi-4-mini-instruct",
+            "emoji": "\ud83d\udfe1",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-12-09T00:31:20.775421"
+          }
+        ],
+        "consensus": {
+          "dominant_sentiment": "mixed",
+          "agreement_percentage": 0,
+          "sentiment_distribution": {},
+          "models_analyzed": 6
+        }
+      },
+      {
+        "article": {
+          "id": "news_0_1765240238",
+          "title": "Google Says First AI Glasses With Gemini Will Arrive in 2026 - Bloomberg.com",
+          "description": "Google Says First AI Glasses With Gemini Will Arrive in 2026\u00a0\u00a0Bloomberg.comI tried Google\u2019s prototype smart glasses and it almost made me forget about my phone\u00a0\u00a0CNNThe Android Show: New features for Galaxy XR and a look at future devices\u00a0\u00a0The KeywordA first look at Google\u2019s Project Aura glasses built with Xreal\u00a0\u00a0The VergeWarby Parker, Google to launch AI-powered smart glasses in 2026\u00a0\u00a0Reuters",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUWtub3NtWjE3Zko3N21nWV96cEo5ZmpoWXZISVFhME1kejJ6dkxRcEw3WFB6Ny1tS01kSUpSRl9KRDNZMHFNenZKOGpSMHkxNE1kaGU5QmZiTG1hejJyTGNDV1ZoUDlfdEdlOFZCLWpxV25WNXpuTXBLX2hpWERoNW9UOHd0eExOY0QzOTZHQWVmMjFhbEQ1aVFKZzdMRDV1R3lkVnNUOWlfTTZkM3FxRg?oc=5",
+          "source": "Bloomberg.com",
+          "published": "Mon, 08 Dec 2025 18:00:38 GMT",
+          "topic": "TECHNOLOGY",
+          "fetched_at": "2025-12-09T00:30:38.984661"
+        },
+        "perspectives": [
+          {
+            "model": "GPT-4o Mini",
+            "model_id": "openai/gpt-4o-mini",
+            "emoji": "\ud83d\udfe2",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-12-09T00:31:06.097995"
+          },
+          {
+            "model": "Llama 3.1 8B",
+            "model_id": "meta/meta-llama-3.1-8b-instruct",
+            "emoji": "\ud83d\udd35",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-12-09T00:31:06.979137"
+          },
+          {
+            "model": "Phi-4 Mini",
+            "model_id": "microsoft/phi-4-mini-instruct",
+            "emoji": "\ud83d\udfe1",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-12-09T00:31:06.222977"
+          }
+        ],
+        "consensus": {
+          "dominant_sentiment": "mixed",
+          "agreement_percentage": 0,
+          "sentiment_distribution": {},
+          "models_analyzed": 3
+        }
+      },
+      {
+        "article": {
+          "id": "news_1_1765240238",
+          "title": "16 new features coming in Windows 11\u2019s huge December update - PCWorld",
+          "description": "16 new features coming in Windows 11\u2019s huge December update\u00a0\u00a0PCWorldMicrosoft Confirms New Upgrade Decision For All Windows Users\u00a0\u00a0ForbesWindows 11 25H2 is coming to all PCs, whether you like it or not \u2013 but here's how to get it now if you're keen\u00a0\u00a0TechRadarConfirmed: The latest Windows 11 updates might break Start, Taskbar, more\u00a0\u00a0Windows CentralWindows Insiders get a glimpse of Redmond\u2019s agentic future\u00a0\u00a0theregister.com",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQWljRkUxLTdCQ3R2ZW1wbWRCRXZWME5zTVlIcGx2U1F3Nk1Tbm1oQnlfSTB1Y3lmNHV3SERsMEEzc0MtU1VJZUpnV2x5VUFyN2VzR01tNU0wUm9rVDFmOWxYMWdGSFZ2WHFTZ3J1ejR4VVBMLW04OUwtb0JOSzRTQ0JTbEZLQ1Jwc1RNdWZ6VVM0UWoxZ2RnTVUySmtaX1d3c3JSS3V3?oc=5",
+          "source": "PCWorld",
+          "published": "Mon, 08 Dec 2025 15:33:00 GMT",
+          "topic": "TECHNOLOGY",
+          "fetched_at": "2025-12-09T00:30:38.984689"
+        },
+        "perspectives": [
+          {
+            "model": "GPT-4o Mini",
+            "model_id": "openai/gpt-4o-mini",
+            "emoji": "\ud83d\udfe2",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-12-09T00:31:07.117185"
+          },
+          {
+            "model": "Llama 3.1 8B",
+            "model_id": "meta/meta-llama-3.1-8b-instruct",
+            "emoji": "\ud83d\udd35",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-12-09T00:31:08.025437"
+          },
+          {
+            "model": "Phi-4 Mini",
+            "model_id": "microsoft/phi-4-mini-instruct",
+            "emoji": "\ud83d\udfe1",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-12-09T00:31:07.263464"
+          }
+        ],
+        "consensus": {
+          "dominant_sentiment": "mixed",
+          "agreement_percentage": 0,
+          "sentiment_distribution": {},
+          "models_analyzed": 3
+        }
+      },
+      {
+        "article": {
+          "id": "news_2_1765240238",
+          "title": "Exynos 2600 Launch Tipped To Happen Much Sooner, With Rumor Claiming That The World\u2019s First 2nm GAA Chipset Will Have A Performance Advantage - Wccftech",
+          "description": "Exynos 2600 Launch Tipped To Happen Much Sooner, With Rumor Claiming That The World\u2019s First 2nm GAA Chipset Will Have A Performance Advantage\u00a0\u00a0WccftechSamsung all but confirms Exynos 2600 for the Galaxy S26 with full Stranger Things vibe\u00a0\u00a0Android AuthoritySamsung's started teasing one of its most important products for 2026\u00a0\u00a0Android PoliceSamsung's Exynos 2600 Chip Mass Production Delayed to Fix 2nm Yield\u00a0\u00a0Android HeadlinesSamsung\u2019s Exynos 2600 Might Only Launch in Korea After All\u00a0\u00a0Phandroid",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZFZoajEtMVVCMkVtZ0xHZDF4U2ItNUVvVW5VNmcwLUFYbzQwcWNPWExQcFJ5YjN6dDJVcnppYW85VVFyc1FlcEdVZExZdkNlZDJqdE5vRnRTTnJ5NGxnNVd0YUZKTFZ6dGtXSlk1dk9RWDRDMGtGV09aQUNvMjNRT3BFZTJiWGFF0gGOAUFVX3lxTE9MS0x4NlVGVldmVjFJUWwxNFNwT3RGVzdEWkhYSlQ3V0FkRGRmY3YyZVBYSkpsUTNQNkg4RmVIU0N5Y3JXVndKVU5LQXVJZldIVUp2VE9EVTh0SmJuNTJIS3BnbHctY1RIWXlLQ0ExN19lRm9qOXA0c1VxZDVDZ1ZGQlNib2xuNWVnSDZPaVE?oc=5",
+          "source": "Wccftech",
+          "published": "Mon, 08 Dec 2025 14:44:00 GMT",
+          "topic": "TECHNOLOGY",
+          "fetched_at": "2025-12-09T00:30:38.984708"
+        },
+        "perspectives": [
+          {
+            "model": "GPT-4o Mini",
+            "model_id": "openai/gpt-4o-mini",
+            "emoji": "\ud83d\udfe2",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-12-09T00:31:08.145288"
+          },
+          {
+            "model": "Llama 3.1 8B",
+            "model_id": "meta/meta-llama-3.1-8b-instruct",
+            "emoji": "\ud83d\udd35",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-12-09T00:31:09.076210"
+          },
+          {
+            "model": "Phi-4 Mini",
+            "model_id": "microsoft/phi-4-mini-instruct",
+            "emoji": "\ud83d\udfe1",
+            "summary": "Analysis failed: Unauthorized",
+            "key_points": [],
+            "sentiment": "unknown",
+            "confidence": "unknown",
+            "bias_check": "",
+            "missing_context": "",
+            "implications": "",
+            "analyzed_at": "2025-12-09T00:31:08.302421"
+          }
+        ],
+        "consensus": {
+          "dominant_sentiment": "mixed",
+          "agreement_percentage": 0,
+          "sentiment_distribution": {},
+          "models_analyzed": 3
+        }
+      },
+      {
+        "article": {
+          "id": "news_3_1765240238",
           "title": "iPhone 18 leak says Face ID moving under-display next year - 9to5Mac",
-          "description": "iPhone 18 leak says Face ID moving under-display next year\u00a0\u00a09to5MaciPhone 18 Pro Leak Adds New Evidence for Under-Display Face ID\u00a0\u00a0MacRumorsAfter years of rumors, we might actually see an under-display camera in the Apple iPhone 18\u00a0\u00a0TechRadarApple could cherish this five-year-old Android trend with its iPhone 18\u00a0\u00a0Digital TrendsiPhone 18 could borrow a feature from Samsung\u2019s foldable phones when it launches next year\u00a0\u00a0Tom's Guide",
+          "description": "iPhone 18 leak says Face ID moving under-display next year\u00a0\u00a09to5MacAfter years of rumors, we might actually see an under-display camera in the Apple iPhone 18\u00a0\u00a0TechRadarApple could cherish this five-year-old Android trend with its iPhone 18\u00a0\u00a0Digital TrendsiPhone 18 could borrow a feature from Samsung\u2019s foldable phones when it launches next year\u00a0\u00a0Tom's GuideiPhone 18 Pro Leak Adds New Evidence for Under-Display Face ID\u00a0\u00a0MacRumors",
           "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNeXdJby1faUlGaUlCN0M0Z1REcjJndFBVNHYtR18tTlFNUU1TQWwydG5TVzB1dzVzNC0tWjk4Ylk1aGFqREFGT1FCSnZDN3JCS1BwbmxSM05lNm9sWmVtNmpwNUZVTFEtNXpsZUJXSTNicTgwOGVESHhXZjRsSlNvdXhIQ0NJTWc3dnJhSDkwMWgxOXhS?oc=5",
           "source": "9to5Mac",
           "published": "Mon, 08 Dec 2025 14:24:00 GMT",
           "topic": "TECHNOLOGY",
-          "fetched_at": "2025-12-08T18:10:34.204559"
+          "fetched_at": "2025-12-09T00:30:38.984727"
         },
         "perspectives": [
           {
@@ -27,33 +694,7 @@
             "bias_check": "",
             "missing_context": "",
             "implications": "",
-            "analyzed_at": "2025-12-08T18:10:51.196752"
-          },
-          {
-            "model": "GPT-4o Mini",
-            "model_id": "openai/gpt-4o-mini",
-            "emoji": "\ud83d\udfe2",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-12-08T18:10:56.364459"
-          },
-          {
-            "model": "GPT-4o Mini",
-            "model_id": "openai/gpt-4o-mini",
-            "emoji": "\ud83d\udfe2",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-12-08T18:11:01.533534"
+            "analyzed_at": "2025-12-09T00:31:09.165796"
           },
           {
             "model": "Llama 3.1 8B",
@@ -66,33 +707,7 @@
             "bias_check": "",
             "missing_context": "",
             "implications": "",
-            "analyzed_at": "2025-12-08T18:10:47.968976"
-          },
-          {
-            "model": "Llama 3.1 8B",
-            "model_id": "meta/meta-llama-3.1-8b-instruct",
-            "emoji": "\ud83d\udd35",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-12-08T18:10:53.115959"
-          },
-          {
-            "model": "Llama 3.1 8B",
-            "model_id": "meta/meta-llama-3.1-8b-instruct",
-            "emoji": "\ud83d\udd35",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-12-08T18:10:58.262762"
+            "analyzed_at": "2025-12-09T00:31:10.123726"
           },
           {
             "model": "Phi-4 Mini",
@@ -105,52 +720,26 @@
             "bias_check": "",
             "missing_context": "",
             "implications": "",
-            "analyzed_at": "2025-12-08T18:10:52.406427"
-          },
-          {
-            "model": "Phi-4 Mini",
-            "model_id": "microsoft/phi-4-mini-instruct",
-            "emoji": "\ud83d\udfe1",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-12-08T18:10:57.794938"
-          },
-          {
-            "model": "Phi-4 Mini",
-            "model_id": "microsoft/phi-4-mini-instruct",
-            "emoji": "\ud83d\udfe1",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-12-08T18:11:03.159570"
+            "analyzed_at": "2025-12-09T00:31:09.343828"
           }
         ],
         "consensus": {
           "dominant_sentiment": "mixed",
           "agreement_percentage": 0,
           "sentiment_distribution": {},
-          "models_analyzed": 9
+          "models_analyzed": 3
         }
       },
       {
         "article": {
-          "id": "news_1_1765217434",
-          "title": "Samsung Launches One UI 8.5 Beta for Next-Level Ease of Use - samsung.com",
-          "description": "Samsung Launches One UI 8.5 Beta for Next-Level Ease of Use\u00a0\u00a0samsung.comHere\u2019s everything new in Samsung\u2019s One UI 8.5 update [Gallery]\u00a0\u00a09to5GoogleSamsung One UI 8.5 Release\u2014This Changes Android\u00a0\u00a0ForbesSamsung's My Files might soon know when you're on vacation \u2014 and act on it\u00a0\u00a0Android AuthorityOne UI 8.5 beta program: These are the participating countries\u00a0\u00a0SamMobile",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNR2NmcG41ampwSmR3emRaY3VHdjRzX1ZBZ2pPUkNfbGlKaFVvVm9RZnRHT1RxSUFoSTF2OW5pemd5M3BVOWl1MDYxcUpNRGZTS29SMGY3LTRPajg5aEtNSmE0bUdEaWxSaktGR2hnUHozNkx5QUZRTFByVEtydTNNVmtMaFhJdVBFM3dMOVZId3BpUjdpV2c?oc=5",
-          "source": "samsung.com",
-          "published": "Mon, 08 Dec 2025 12:00:00 GMT",
+          "id": "news_4_1765240238",
+          "title": "Google Drive\u2019s web file viewer finally gets the glow-up it deserves - Android Central",
+          "description": "Google Drive\u2019s web file viewer finally gets the glow-up it deserves\u00a0\u00a0Android CentralGoogle Drive is making it easier to know what's inside a folder\u00a0\u00a0Android PoliceGoogle Drive folders can now tell you exactly what\u2019s inside them before you even click a file\u00a0\u00a0Chrome UnboxedGoogle Rolls Out Gemini AI in Drive for Premium Subscribers\u00a0\u00a0WebProNewsGoogle Drive UI Refresh Brings Cleaner Navigation for Media and Documents\u00a0\u00a0Android Headlines",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOb3ZtVW5CT3FoUVF0d3VUYzNRTGd6Vzh6SlpraXNZX1ZJR2otSUszQmZVX0pPYXc3SGZnNDVVX0lDaHdmclJ0d0FSbmRNM2JpWFIyTl9iTGxKNmF4UVlaREZrblg2S1lsb1BQN2NkQ0x1VEZDcTI3bWZ2amFCeEM4S2FlMXFXQ0Q5TXJUWktvVnQ3Ml9JVnRrc1VOemthVGlyRzlsc1B3dlJ2eGc?oc=5",
+          "source": "Android Central",
+          "published": "Mon, 08 Dec 2025 15:11:00 GMT",
           "topic": "TECHNOLOGY",
-          "fetched_at": "2025-12-08T18:10:34.204588"
+          "fetched_at": "2025-12-09T00:30:38.984745"
         },
         "perspectives": [
           {
@@ -164,33 +753,7 @@
             "bias_check": "",
             "missing_context": "",
             "implications": "",
-            "analyzed_at": "2025-12-08T18:10:52.229848"
-          },
-          {
-            "model": "GPT-4o Mini",
-            "model_id": "openai/gpt-4o-mini",
-            "emoji": "\ud83d\udfe2",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-12-08T18:10:57.402336"
-          },
-          {
-            "model": "GPT-4o Mini",
-            "model_id": "openai/gpt-4o-mini",
-            "emoji": "\ud83d\udfe2",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-12-08T18:11:02.567306"
+            "analyzed_at": "2025-12-09T00:31:10.184672"
           },
           {
             "model": "Llama 3.1 8B",
@@ -203,33 +766,7 @@
             "bias_check": "",
             "missing_context": "",
             "implications": "",
-            "analyzed_at": "2025-12-08T18:10:48.985337"
-          },
-          {
-            "model": "Llama 3.1 8B",
-            "model_id": "meta/meta-llama-3.1-8b-instruct",
-            "emoji": "\ud83d\udd35",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-12-08T18:10:54.144170"
-          },
-          {
-            "model": "Llama 3.1 8B",
-            "model_id": "meta/meta-llama-3.1-8b-instruct",
-            "emoji": "\ud83d\udd35",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-12-08T18:10:59.280230"
+            "analyzed_at": "2025-12-09T00:31:11.170900"
           },
           {
             "model": "Phi-4 Mini",
@@ -242,451 +779,14 @@
             "bias_check": "",
             "missing_context": "",
             "implications": "",
-            "analyzed_at": "2025-12-08T18:10:53.490318"
-          },
-          {
-            "model": "Phi-4 Mini",
-            "model_id": "microsoft/phi-4-mini-instruct",
-            "emoji": "\ud83d\udfe1",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-12-08T18:10:58.864299"
-          },
-          {
-            "model": "Phi-4 Mini",
-            "model_id": "microsoft/phi-4-mini-instruct",
-            "emoji": "\ud83d\udfe1",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-12-08T18:11:04.240512"
+            "analyzed_at": "2025-12-09T00:31:10.382357"
           }
         ],
         "consensus": {
           "dominant_sentiment": "mixed",
           "agreement_percentage": 0,
           "sentiment_distribution": {},
-          "models_analyzed": 9
-        }
-      },
-      {
-        "article": {
-          "id": "news_2_1765217434",
-          "title": "Please send help. I can\u2019t stop playing these roguelikes. - Ars Technica",
-          "description": "Please send help. I can\u2019t stop playing these roguelikes.\u00a0\u00a0Ars Technica",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZF81YjlxQjZsZGV4Tjl4Sm9Ybkdnc3d5NXNkUlpCNFlrWkI5ai1ock1CSWFPeVBZTHltN1VMQWFaUVRWNFdYbU1QNlFQZXBFcEE0WndFNHItYnp6M2RnNGtxanBENGp6Xy0ySkJMZFhRTDRDZUZqVDVRcUgxOW9CYWdTbzljcVkzQ0F4T2cxeFlKNUdZa0ZIWg?oc=5",
-          "source": "Ars Technica",
-          "published": "Mon, 08 Dec 2025 12:00:14 GMT",
-          "topic": "TECHNOLOGY",
-          "fetched_at": "2025-12-08T18:10:34.204598"
-        },
-        "perspectives": [
-          {
-            "model": "GPT-4o Mini",
-            "model_id": "openai/gpt-4o-mini",
-            "emoji": "\ud83d\udfe2",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-12-08T18:10:53.264126"
-          },
-          {
-            "model": "GPT-4o Mini",
-            "model_id": "openai/gpt-4o-mini",
-            "emoji": "\ud83d\udfe2",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-12-08T18:10:58.436458"
-          },
-          {
-            "model": "GPT-4o Mini",
-            "model_id": "openai/gpt-4o-mini",
-            "emoji": "\ud83d\udfe2",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-12-08T18:11:03.602249"
-          },
-          {
-            "model": "Llama 3.1 8B",
-            "model_id": "meta/meta-llama-3.1-8b-instruct",
-            "emoji": "\ud83d\udd35",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-12-08T18:10:50.013908"
-          },
-          {
-            "model": "Llama 3.1 8B",
-            "model_id": "meta/meta-llama-3.1-8b-instruct",
-            "emoji": "\ud83d\udd35",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-12-08T18:10:55.187121"
-          },
-          {
-            "model": "Llama 3.1 8B",
-            "model_id": "meta/meta-llama-3.1-8b-instruct",
-            "emoji": "\ud83d\udd35",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-12-08T18:11:00.298692"
-          },
-          {
-            "model": "Phi-4 Mini",
-            "model_id": "microsoft/phi-4-mini-instruct",
-            "emoji": "\ud83d\udfe1",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-12-08T18:10:54.575921"
-          },
-          {
-            "model": "Phi-4 Mini",
-            "model_id": "microsoft/phi-4-mini-instruct",
-            "emoji": "\ud83d\udfe1",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-12-08T18:10:59.934761"
-          },
-          {
-            "model": "Phi-4 Mini",
-            "model_id": "microsoft/phi-4-mini-instruct",
-            "emoji": "\ud83d\udfe1",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-12-08T18:11:05.313704"
-          }
-        ],
-        "consensus": {
-          "dominant_sentiment": "mixed",
-          "agreement_percentage": 0,
-          "sentiment_distribution": {},
-          "models_analyzed": 9
-        }
-      },
-      {
-        "article": {
-          "id": "news_3_1765217434",
-          "title": "Latest Pixel 10 updates have improved performance, at least on benchmarks - 9to5Google",
-          "description": "Latest Pixel 10 updates have improved performance, at least on benchmarks\u00a0\u00a09to5GoogleGear News of the Week: Google Drops Another Android Update, and the Sony A7 V Is Here\u00a0\u00a0WIREDIs your Pixel getting Google\u2019s big Android 16 QPR2 update? Here's every supported phone\u00a0\u00a0Android AuthorityAndroid 16 QPR2 arrives: 3 new features to check out\u00a0\u00a0MashableStay organized and express yourself with Android 16\u2019s new updates\u00a0\u00a0The Keyword",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNUzRxelBYZzZFZndnYlNkN3FJMmtWSlRwS3BmOGltcmx2QnJpa0NTZ3ZSNEJ5a3dFcFNHVEs3S0hQZnNXQ2tuN08yTXpXd2JaNEtFYU9CaXU1RnJXN0RnOGx3YVU0bjdFUnJBV01jTjhPdk5hRWpUZ1JYcHZNaUNucWhybk5BZw?oc=5",
-          "source": "9to5Google",
-          "published": "Mon, 08 Dec 2025 15:05:00 GMT",
-          "topic": "TECHNOLOGY",
-          "fetched_at": "2025-12-08T18:10:34.204621"
-        },
-        "perspectives": [
-          {
-            "model": "GPT-4o Mini",
-            "model_id": "openai/gpt-4o-mini",
-            "emoji": "\ud83d\udfe2",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-12-08T18:10:54.298083"
-          },
-          {
-            "model": "GPT-4o Mini",
-            "model_id": "openai/gpt-4o-mini",
-            "emoji": "\ud83d\udfe2",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-12-08T18:10:59.468156"
-          },
-          {
-            "model": "GPT-4o Mini",
-            "model_id": "openai/gpt-4o-mini",
-            "emoji": "\ud83d\udfe2",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-12-08T18:11:04.633482"
-          },
-          {
-            "model": "Llama 3.1 8B",
-            "model_id": "meta/meta-llama-3.1-8b-instruct",
-            "emoji": "\ud83d\udd35",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-12-08T18:10:51.029086"
-          },
-          {
-            "model": "Llama 3.1 8B",
-            "model_id": "meta/meta-llama-3.1-8b-instruct",
-            "emoji": "\ud83d\udd35",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-12-08T18:10:56.216665"
-          },
-          {
-            "model": "Llama 3.1 8B",
-            "model_id": "meta/meta-llama-3.1-8b-instruct",
-            "emoji": "\ud83d\udd35",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-12-08T18:11:01.315306"
-          },
-          {
-            "model": "Phi-4 Mini",
-            "model_id": "microsoft/phi-4-mini-instruct",
-            "emoji": "\ud83d\udfe1",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-12-08T18:10:55.650501"
-          },
-          {
-            "model": "Phi-4 Mini",
-            "model_id": "microsoft/phi-4-mini-instruct",
-            "emoji": "\ud83d\udfe1",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-12-08T18:11:01.005845"
-          },
-          {
-            "model": "Phi-4 Mini",
-            "model_id": "microsoft/phi-4-mini-instruct",
-            "emoji": "\ud83d\udfe1",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-12-08T18:11:06.392426"
-          }
-        ],
-        "consensus": {
-          "dominant_sentiment": "mixed",
-          "agreement_percentage": 0,
-          "sentiment_distribution": {},
-          "models_analyzed": 9
-        }
-      },
-      {
-        "article": {
-          "id": "news_4_1765217434",
-          "title": "I tried Apple's app of the year. It's more than a tool for people with ADHD. - Business Insider",
-          "description": "I tried Apple's app of the year. It's more than a tool for people with ADHD.\u00a0\u00a0Business InsiderApple unveils the winners of the 2025 App Store Awards\u00a0\u00a0AppleAI finds its way into Apple\u2019s top apps of the year\u00a0\u00a0TechCrunchApple Announces 2025 App Store Award Winners, Including iPhone App of the Year\u00a0\u00a0MacRumorsPok\u00e9mon TCG Pocket has won another award, a win for gacha addicts everywhere\u00a0\u00a0AppSpy",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOSUVjUFpqbUdCeWhwNVpkRlNLX0hIanRuc3ZtS1NYaC1oMnZUckVjUFVTeXZaVW1ucllNMTZJREVxRXFwR0YxWmhzLWNKZ054eFdYQ0huN3BEUDJiMFYwV2taMkpXek56dWJmdHlPV0ZFSkJxN3FSd0wtQjN1V1pGUWpPNFJpcjE0T2c?oc=5",
-          "source": "Business Insider",
-          "published": "Sun, 07 Dec 2025 10:11:00 GMT",
-          "topic": "TECHNOLOGY",
-          "fetched_at": "2025-12-08T18:10:34.204662"
-        },
-        "perspectives": [
-          {
-            "model": "GPT-4o Mini",
-            "model_id": "openai/gpt-4o-mini",
-            "emoji": "\ud83d\udfe2",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-12-08T18:10:55.332204"
-          },
-          {
-            "model": "GPT-4o Mini",
-            "model_id": "openai/gpt-4o-mini",
-            "emoji": "\ud83d\udfe2",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-12-08T18:11:00.499899"
-          },
-          {
-            "model": "GPT-4o Mini",
-            "model_id": "openai/gpt-4o-mini",
-            "emoji": "\ud83d\udfe2",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-12-08T18:11:05.666272"
-          },
-          {
-            "model": "Llama 3.1 8B",
-            "model_id": "meta/meta-llama-3.1-8b-instruct",
-            "emoji": "\ud83d\udd35",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-12-08T18:10:52.065220"
-          },
-          {
-            "model": "Llama 3.1 8B",
-            "model_id": "meta/meta-llama-3.1-8b-instruct",
-            "emoji": "\ud83d\udd35",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-12-08T18:10:57.245420"
-          },
-          {
-            "model": "Llama 3.1 8B",
-            "model_id": "meta/meta-llama-3.1-8b-instruct",
-            "emoji": "\ud83d\udd35",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-12-08T18:11:02.345195"
-          },
-          {
-            "model": "Phi-4 Mini",
-            "model_id": "microsoft/phi-4-mini-instruct",
-            "emoji": "\ud83d\udfe1",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-12-08T18:10:56.720032"
-          },
-          {
-            "model": "Phi-4 Mini",
-            "model_id": "microsoft/phi-4-mini-instruct",
-            "emoji": "\ud83d\udfe1",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-12-08T18:11:02.083241"
-          },
-          {
-            "model": "Phi-4 Mini",
-            "model_id": "microsoft/phi-4-mini-instruct",
-            "emoji": "\ud83d\udfe1",
-            "summary": "Analysis failed: Unauthorized",
-            "key_points": [],
-            "sentiment": "unknown",
-            "confidence": "unknown",
-            "bias_check": "",
-            "missing_context": "",
-            "implications": "",
-            "analyzed_at": "2025-12-08T18:11:07.468728"
-          }
-        ],
-        "consensus": {
-          "dominant_sentiment": "mixed",
-          "agreement_percentage": 0,
-          "sentiment_distribution": {},
-          "models_analyzed": 9
+          "models_analyzed": 3
         }
       },
       {
@@ -954,7 +1054,7 @@
         }
       }
     ],
-    "count": 8,
+    "count": 13,
     "consensus": {
       "dominant_sentiment": "unknown",
       "sentiment_distribution": {
@@ -993,18 +1093,18 @@
       "Grok 3"
     ],
     "total_perspectives": 51,
-    "generated_at": "2025-12-08 18:11:18 UTC"
+    "generated_at": "2025-12-09 00:31:44 UTC"
   },
   "costs": {
-    "execution_time": 0.0007181167602539062,
-    "execution_minutes": 1.1968612670898438e-05,
-    "github_actions": 9.57489013671875e-08,
+    "execution_time": 0.0008051395416259766,
+    "execution_minutes": 1.3418992360432942e-05,
+    "github_actions": 1.0735193888346354e-07,
     "openai": {
       "input": 0,
       "output": 0,
       "total": 0
     },
-    "total": 9.57489013671875e-08,
+    "total": 1.0735193888346354e-07,
     "token_usage": {}
   }
 }
