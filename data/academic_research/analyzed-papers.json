@@ -1,349 +1,351 @@
 {
   "agent": "agent-b-paper-analyzer",
-  "timestamp": "2025-12-10T09:06:49.674179",
+  "timestamp": "2025-12-11T09:06:54.300304",
   "status": "completed",
   "input_from": "agent-a-paper-fetcher",
   "data": {
     "analyzed_papers": [
       {
-        "id": "2512.08931v1",
-        "title": "Astra: General Interactive World Model with Autoregressive Denoising",
+        "id": "2512.09929v1",
+        "title": "Closing the Train-Test Gap in World Models for Gradient-Based Planning",
         "authors": [
-          "Yixuan Zhu",
-          "Jiaqi Feng",
-          "Wenzhao Zheng",
-          "Yuan Gao",
-          "Xin Tao"
+          "Arjun Parthasarathy",
+          "Nimit Kalra",
+          "Rohun Agrawal",
+          "Yann LeCun",
+          "Oumayma Bounou"
         ],
-        "abstract": "Recent advances in diffusion transformers have empowered video generation models to generate high-quality video clips from texts or images. However, world models with the ability to predict long-horizon futures from past observations and actions remain underexplored, especially for general-purpose scenarios and various forms of actions. To bridge this gap, we introduce Astra, an interactive general world model that generates real-world futures for diverse scenarios (e.g., autonomous driving, rob...",
-        "published": "2025-12-09T18:59:57Z",
-        "updated": "2025-12-09T18:59:57Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.08931v1",
-        "abs_url": "https://arxiv.org/abs/2512.08931v1",
+        "abstract": "World models paired with model predictive control (MPC) can be trained offline on large-scale datasets of expert trajectories and enable generalization to a wide range of planning tasks at inference time. Compared to traditional MPC procedures, which rely on slow search algorithms or on iteratively solving optimization problems exactly, gradient-based planning offers a computationally efficient alternative. However, the performance of gradient-based planning has thus far lagged behind that of ot...",
+        "published": "2025-12-10T18:59:45Z",
+        "updated": "2025-12-10T18:59:45Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.09929v1",
+        "abs_url": "https://arxiv.org/abs/2512.09929v1",
         "categories": [
-          "cs.CV",
-          "cs.AI",
-          "cs.LG"
+          "cs.LG",
+          "cs.RO"
         ],
-        "primary_category": "cs.CV",
+        "primary_category": "cs.LG",
         "analysis": {
-          "tldr": "This paper presents Astra, a new model that predicts future events based on past actions, aiming to improve video generation and various real-world applications. It's especially useful for scenarios like autonomous driving and robotics.",
-          "eli5": "Imagine if you had a super-smart friend who could watch what you do and then predict what you'll do next, like a video game character that gets better at playing with each move. Astra does that for real-world situations, learning from past actions to forecast what might happen next, helping machines and robots act more intelligently.",
+          "tldr": "This paper tackles the challenge of improving the way AI models plan and execute tasks by making them better at understanding the world. It specifically focuses on closing the gap between how these models are trained and how they perform in real situations.",
+          "eli5": "Imagine you're teaching a robot to navigate a maze. Traditionally, it uses a complicated map and gets lost a lot. This research shows how to train the robot better on lots of examples so that when it's time to find its way out, it can do so more efficiently and doesn't get caught up in the details.",
           "key_contributions": [
-            "Astra creates a general world model that predicts long-term outcomes from short-term observations, filling a gap in current technology.",
-            "The model can handle a wide variety of actions and scenarios, making it versatile for different applications like self-driving cars or robotics.",
-            "It utilizes the latest advancements in diffusion transformers to enhance video generation quality, enabling more realistic simulations."
+            "The paper introduces a method to enhance the training of world models, making them more effective for gradient-based planning.",
+            "It identifies and addresses the discrepancies between how models are trained (using lots of expert data) and how they perform in real-time tasks.",
+            "The authors propose a novel approach that allows models to generalize better across various planning tasks, bridging the gap between theory and practice."
           ],
-          "why_care": "Understanding how machines can predict and plan for the future is crucial for safety and efficiency in technologies we use daily, like self-driving cars or automated systems in our homes.",
-          "accessibility": "General Audience",
-          "spicy_take": "Astra could redefine how we interact with machines in daily life, making sci-fi predictions about AI seem less like fantasy and more like imminent reality.",
-          "reading_time_minutes": 5
-        }
-      },
-      {
-        "id": "2512.08923v1",
-        "title": "Same Content, Different Answers: Cross-Modal Inconsistency in MLLMs",
-        "authors": [
-          "Angela van Sprang",
-          "Laurens Samson",
-          "Ana Lucic",
-          "Erman Acar",
-          "Sennay Ghebreab"
-        ],
-        "abstract": "We introduce two new benchmarks REST and REST+(Render-Equivalence Stress Tests) to enable systematic evaluation of cross-modal inconsistency in multimodal large language models (MLLMs). MLLMs are trained to represent vision and language in the same embedding space, yet they cannot perform the same tasks in both modalities. Our benchmarks contain samples with the same semantic information in three modalities (image, text, mixed) and we show that state-of-the-art MLLMs cannot consistently reason o...",
-        "published": "2025-12-09T18:57:07Z",
-        "updated": "2025-12-09T18:57:07Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.08923v1",
-        "abs_url": "https://arxiv.org/abs/2512.08923v1",
-        "categories": [
-          "cs.AI"
-        ],
-        "primary_category": "cs.AI",
-        "analysis": {
-          "tldr": "This paper explores how multimodal large language models (MLLMs), which are designed to understand both images and text, often give different answers to the same question depending on the input format. The authors introduce new benchmarks to test this inconsistency.",
-          "eli5": "Think of MLLMs as super-smart robots that can read and look at pictures. You expect them to give the same answer whether you show them a picture or tell them about it in words. But this research shows that if you ask them the same question using different methods, they sometimes give different answers, which is confusing!",
-          "key_contributions": [
-            "Introduction of two new benchmarks, REST and REST+, to evaluate how well MLLMs handle different types of input.",
-            "Demonstration that top-performing MLLMs struggle with consistency in reasoning across images and text, revealing a significant gap in their capabilities.",
-            "A systematic approach to identifying and analyzing cross-modal inconsistency, which could guide future improvements in model training."
-          ],
-          "why_care": "As MLLMs are increasingly used in applications like virtual assistants and content generation, inconsistency in responses can lead to confusion or mistrust among users. Understanding these limitations can help developers create more reliable AI systems.",
+          "why_care": "As AI becomes more integrated into everyday life\u2014think self-driving cars or robots in warehouses\u2014making these systems smarter and more reliable can lead to safer and more efficient technologies that impact our daily routines.",
           "accessibility": "Tech-Savvy",
-          "spicy_take": "If MLLMs can't reliably answer questions across different formats, we might need to rethink how we design and implement AI for real-world applications.",
+          "spicy_take": null,
           "reading_time_minutes": 5
         }
       },
       {
-        "id": "2512.08920v1",
-        "title": "OSMO: Open-Source Tactile Glove for Human-to-Robot Skill Transfer",
+        "id": "2512.09920v1",
+        "title": "LISN: Language-Instructed Social Navigation with VLM-based Controller Modulating",
         "authors": [
-          "Jessica Yin",
-          "Haozhi Qi",
-          "Youngsun Wi",
-          "Sayantan Kundu",
-          "Mike Lambeta"
+          "Junting Chen",
+          "Yunchuan Li",
+          "Panfeng Jiang",
+          "Jiacheng Du",
+          "Zixuan Chen"
         ],
-        "abstract": "Human video demonstrations provide abundant training data for learning robot policies, but video alone cannot capture the rich contact signals critical for mastering manipulation. We introduce OSMO, an open-source wearable tactile glove designed for human-to-robot skill transfer. The glove features 12 three-axis tactile sensors across the fingertips and palm and is designed to be compatible with state-of-the-art hand-tracking methods for in-the-wild data collection. We demonstrate that a robot p...",
-        "published": "2025-12-09T18:56:30Z",
-        "updated": "2025-12-09T18:56:30Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.08920v1",
-        "abs_url": "https://arxiv.org/abs/2512.08920v1",
+        "abstract": "Towards human-robot coexistence, socially aware navigation is significant for mobile robots. Yet existing studies on this area focus mainly on path efficiency and pedestrian collision avoidance, which are essential but represent only a fraction of social navigation. Beyond these basics, robots must also comply with user instructions, aligning their actions to task goals and social norms expressed by humans. In this work, we present LISN-Bench, the first simulation-based benchmark for language-in...",
+        "published": "2025-12-10T18:54:30Z",
+        "updated": "2025-12-10T18:54:30Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.09920v1",
+        "abs_url": "https://arxiv.org/abs/2512.09920v1",
         "categories": [
           "cs.RO",
-          "cs.LG"
+          "cs.AI",
+          "cs.CV"
         ],
         "primary_category": "cs.RO",
         "analysis": {
-          "tldr": "This paper introduces OSMO, a cool open-source glove that helps robots learn new skills from humans by capturing touch signals that videos miss. It uses advanced sensors to provide detailed feedback about how we manipulate objects.",
-          "eli5": "Imagine you want to teach a robot how to make a sandwich. While you can show it a video of you doing it, the robot can't feel what you're doing. The OSMO glove allows you to wear a special glove that records how you touch and move things, giving the robot a better understanding of the task. It's like giving the robot your sense of touch!",
+          "tldr": "This paper presents LISN, a new approach for teaching robots how to navigate socially while following human instructions. It focuses on more than just avoiding obstacles; it aims to make robots act in ways that are socially acceptable and helpful.",
+          "eli5": "Imagine a robot that can not only move from point A to point B but also do it in a way that respects people's space and responds to what you tell it to do. This paper introduces a system that helps robots understand and follow human instructions while navigating, making them better companions in our daily lives.",
           "key_contributions": [
-            "The development of an open-source tactile glove that enhances human-to-robot skill transfer by capturing detailed touch data.",
-            "Integration of 12 three-axis tactile sensors that provide nuanced feedback about hand movements.",
-            "Compatibility with existing hand-tracking methods, facilitating real-world data collection to improve robotic learning."
+            "The introduction of LISN-Bench, a benchmark for testing how well robots can understand and follow language instructions while navigating.",
+            "A focus on socially aware navigation, moving beyond just avoiding obstacles to include human social norms and expectations.",
+            "A framework that allows for the integration of visual and linguistic information to improve robot navigation in social contexts."
           ],
-          "why_care": "This research could revolutionize how robots are trained to perform tasks in our daily lives, from service robots in restaurants to assistive robots in healthcare. By improving the way robots learn from humans, we can create more effective and intuitive machines that work alongside us.",
+          "why_care": "As robots become more integrated into our daily lives, ensuring they can navigate social environments safely and effectively is crucial. This research could lead to robots that are not only efficient but also considerate of human interactions, enhancing human-robot coexistence.",
           "accessibility": "General Audience",
-          "spicy_take": "With the rise of AI and robotics, OSMO could be the key to making robots not just smart, but also sensitive\u2014an essential step towards truly collaborative machines.",
+          "spicy_take": "This research could be a game-changer for the future of robotics\u2014if robots can truly understand us socially, it might redefine our interactions with technology.",
           "reading_time_minutes": 5
         }
       },
       {
-        "id": "2512.08914v1",
-        "title": "SAQ: Stabilizer-Aware Quantum Error Correction Decoder",
+        "id": "2512.09914v1",
+        "title": "FALCON: Few-step Accurate Likelihoods for Continuous Flows",
         "authors": [
-          "David Zenati",
-          "Eliya Nachmani"
+          "Danyal Rehman",
+          "Tara Akhound-Sadegh",
+          "Artem Gazizov",
+          "Yoshua Bengio",
+          "Alexander Tong"
         ],
-        "abstract": "Quantum Error Correction (QEC) decoding faces a fundamental accuracy-efficiency tradeoff. Classical methods like Minimum Weight Perfect Matching (MWPM) exhibit variable performance across noise models and suffer from polynomial complexity, while tensor network decoders achieve high accuracy but at prohibitively high computational cost. Recent neural decoders reduce complexity but lack the accuracy needed to compete with computationally expensive classical methods. We introduce SAQ-Decoder, a uni...",
-        "published": "2025-12-09T18:51:35Z",
-        "updated": "2025-12-09T18:51:35Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.08914v1",
-        "abs_url": "https://arxiv.org/abs/2512.08914v1",
+        "abstract": "Scalable sampling of molecular states in thermodynamic equilibrium is a long-standing challenge in statistical physics. Boltzmann Generators tackle this problem by pairing a generative model, capable of exact likelihood computation, with importance sampling to obtain consistent samples under the target distribution. Current Boltzmann Generators primarily use continuous normalizing flows (CNFs) trained with flow matching for efficient training of powerful models. However, likelihood calculation f...",
+        "published": "2025-12-10T18:47:25Z",
+        "updated": "2025-12-10T18:47:25Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.09914v1",
+        "abs_url": "https://arxiv.org/abs/2512.09914v1",
         "categories": [
-          "quant-ph",
+          "cs.LG",
           "cs.AI"
         ],
-        "primary_category": "quant-ph",
+        "primary_category": "cs.LG",
         "analysis": {
-          "tldr": "This paper presents a new quantum error correction decoder called SAQ-Decoder, which balances accuracy and efficiency better than existing methods. It aims to improve the reliability of quantum computing systems by effectively managing errors at a lower computational cost.",
-          "eli5": "Imagine you have a super-sensitive radio that picks up signals but sometimes those signals get scrambled due to interference. Quantum computers are similar; they make calculations but can get messed up by errors. This paper introduces a new tool that helps fix those errors more effectively, without needing a supercomputer to do it.",
+          "tldr": "This paper introduces a new method called FALCON that improves the efficiency of generating molecular states in statistical physics by leveraging advanced machine learning techniques. It focuses on achieving accurate likelihoods with fewer computational steps.",
+          "eli5": "Imagine you're trying to find different Lego configurations that fit together perfectly without looking at all the possible combinations. FALCON is like a smart robot that helps you quickly find those perfect combinations using a special set of rules and shortcuts, making it much faster and more efficient to build what you want.",
           "key_contributions": [
-            "SAQ-Decoder addresses the accuracy-efficiency tradeoff in quantum error correction by utilizing a stabilizer-aware approach.",
-            "It combines the strengths of classical methods with neural network capabilities, achieving better performance across various noise models.",
-            "The decoder reduces computational complexity while maintaining high accuracy, making it more practical for real-world applications."
+            "FALCON enhances the speed and accuracy of likelihood calculations in molecular sampling, reducing the computational steps needed.",
+            "It introduces new techniques for training continuous normalizing flows that can produce better samples from complex distributions.",
+            "The paper provides a robust framework that combines generative models with importance sampling for improved consistency in sampling."
           ],
-          "why_care": "As quantum computing becomes more mainstream, ensuring that these systems can operate reliably is crucial. This decoder could enhance the stability of quantum technologies, leading to breakthroughs in fields like cryptography, materials science, and complex problem solving.",
+          "why_care": "Understanding molecular states better can lead to breakthroughs in drug discovery, materials science, and other fields that rely on molecular interactions, ultimately impacting industries like pharmaceuticals and renewable energy.",
           "accessibility": "Tech-Savvy",
-          "spicy_take": "The SAQ-Decoder could be the game changer that finally makes quantum computing practical for everyday applications\u2014if it lives up to the hype.",
+          "spicy_take": "FALCON could be a game changer, redefining how we approach molecular simulations and potentially making more complex physical systems accessible to researchers without extensive computational resources.",
           "reading_time_minutes": 5
         }
       },
       {
-        "id": "2512.08896v1",
-        "title": "Open Polymer Challenge: Post-Competition Report",
+        "id": "2512.09912v1",
+        "title": "Supervised learning pays attention",
         "authors": [
-          "Gang Liu",
-          "Sobin Alosious",
-          "Subhamoy Mahajan",
-          "Eric Inae",
-          "Yihan Zhu"
+          "Erin Craig",
+          "Robert Tibshirani"
         ],
-        "abstract": "Machine learning (ML) offers a powerful path toward discovering sustainable polymer materials, but progress has been limited by the lack of large, high-quality, and openly accessible polymer datasets. The Open Polymer Challenge (OPC) addresses this gap by releasing the first community-developed benchmark for polymer informatics, featuring a dataset with 10K polymers and 5 properties: thermal conductivity, radius of gyration, density, fractional free volume, and glass transition temperature. The ...",
-        "published": "2025-12-09T18:38:15Z",
-        "updated": "2025-12-09T18:38:15Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.08896v1",
-        "abs_url": "https://arxiv.org/abs/2512.08896v1",
+        "abstract": "In-context learning with attention enables large neural networks to make context-specific predictions by selectively focusing on relevant examples. Here, we adapt this idea to supervised learning procedures such as lasso regression and gradient boosting, for tabular data. Our goals are to (1) flexibly fit personalized models for each prediction point and (2) retain model simplicity and interpretability.\n  Our method fits a local model for each test observation by weighting the training data acco...",
+        "published": "2025-12-10T18:43:46Z",
+        "updated": "2025-12-10T18:43:46Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.09912v1",
+        "abs_url": "https://arxiv.org/abs/2512.09912v1",
         "categories": [
+          "stat.ML",
+          "cs.AI",
           "cs.LG"
         ],
-        "primary_category": "cs.LG",
+        "primary_category": "stat.ML",
         "analysis": {
-          "tldr": "The Open Polymer Challenge brings together the power of machine learning and polymer science by providing a huge, shared dataset of 10,000 polymers to help researchers discover new sustainable materials. This dataset includes crucial properties that can lead to innovations in various applications.",
-          "eli5": "Imagine if scientists had a magic book with information about 10,000 different kinds of plastics and how they behave. The Open Polymer Challenge created this book, so instead of guessing, researchers can use machine learning to find new materials that are better for our planet.",
+          "tldr": "This paper presents a new way of using attention mechanisms in supervised learning to create personalized models that remain simple and interpretable. The method allows for context-specific predictions by focusing on relevant training examples tailored to each specific observation.",
+          "eli5": "Imagine you\u2019re trying to predict how well a student will do on a test based on their past performance. Instead of looking at everyone's scores equally, this approach helps the model pay more attention to similar past students' scores that relate closely to the new student. This way, predictions are more personalized, and the model doesn't get confused by irrelevant data.",
           "key_contributions": [
-            "Creation of the first open benchmark dataset for polymer informatics, consisting of 10,000 polymers.",
-            "Inclusion of five important properties of polymers to facilitate research in sustainability.",
-            "Encouragement of community collaboration in polymer research through open access and shared resources."
+            "Introduces a flexible method for fitting personalized models for each prediction point in supervised learning.",
+            "Maintains simplicity and interpretability, making it easier for users to understand how predictions are made.",
+            "Adapts attention mechanisms from neural networks to traditional statistical methods like lasso regression and gradient boosting."
           ],
-          "why_care": "This work is vital because sustainable materials can help reduce environmental impact and lead to the development of better products in industries like packaging, construction, and electronics. By making this data available, it empowers more people to innovate in ways that could benefit everyone.",
-          "accessibility": "General Audience",
-          "spicy_take": "By making such a large dataset available to everyone, the Open Polymer Challenge could democratize advancements in material science, potentially leading to breakthroughs that a few labs alone might not have achieved.",
-          "reading_time_minutes": 5
-        }
-      },
-      {
-        "id": "2512.08895v1",
-        "title": "Unsupervised Learning of Density Estimates with Topological Optimization",
-        "authors": [
-          "Suina Tanweer",
-          "Firas A. Khasawneh"
-        ],
-        "abstract": "Kernel density estimation is a key component of a wide variety of algorithms in machine learning, Bayesian inference, stochastic dynamics and signal processing. However, the unsupervised density estimation technique requires tuning a crucial hyperparameter: the kernel bandwidth. The choice of bandwidth is critical as it controls the bias-variance trade-off by over- or under-smoothing the topological features. Topological data analysis provides methods to mathematically quantify topological chara...",
-        "published": "2025-12-09T18:35:51Z",
-        "updated": "2025-12-09T18:35:51Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.08895v1",
-        "abs_url": "https://arxiv.org/abs/2512.08895v1",
-        "categories": [
-          "cs.LG",
-          "stat.ML"
-        ],
-        "primary_category": "cs.LG",
-        "analysis": {
-          "tldr": "This paper explores a new method for estimating data density without needing to manually fine-tune a crucial parameter called bandwidth, using topological analysis to optimize the process. It aims to improve how we model data distributions in various applications.",
-          "eli5": "Imagine you're trying to figure out how many jellybeans are in a jar based on a handful of samples. You need to decide how closely to group those samples to make the best guess. This paper introduces a way to automatically find the right grouping size (bandwidth) using advanced math that looks at the shape of the data, making the guessing game smarter and easier.",
-          "key_contributions": [
-            "Introduces a novel approach to automatically optimize the bandwidth in kernel density estimation using topological data analysis.",
-            "Demonstrates how this method can improve the accuracy of density estimates across various applications.",
-            "Provides theoretical foundations and practical examples showing the effectiveness of the proposed technique."
-          ],
-          "why_care": "Understanding and modeling the distribution of data is crucial in fields like finance, healthcare, and social sciences. This research can lead to more accurate predictions and insights, impacting decision-making in real-world scenarios.",
+          "why_care": "Personalized predictions can improve decision-making in various fields such as healthcare, finance, and education by providing tailored insights rather than one-size-fits-all solutions. This could lead to better outcomes for individuals based on their unique circumstances.",
           "accessibility": "Tech-Savvy",
-          "spicy_take": "This research could revolutionize the way we approach density estimation, making it more reliable and less dependent on human intuition.",
+          "spicy_take": "This approach could be a game-changer in making complex models more user-friendly \u2013 a win for both data scientists and the people who rely on their predictions.",
           "reading_time_minutes": 5
         }
       },
       {
-        "id": "2512.08894v1",
-        "title": "Revisiting the Scaling Properties of Downstream Metrics in Large Language Model Training",
+        "id": "2512.09910v1",
+        "title": "Efficient Continual Learning in Neural Machine Translation: A Low-Rank Adaptation Approach",
         "authors": [
-          "Jakub Krajewski",
-          "Amitis Shidani",
-          "Dan Busbridge",
-          "Sam Wiseman",
-          "Jason Ramapuram"
+          "Salvador Carri\u00f3n",
+          "Francisco Casacuberta"
         ],
-        "abstract": "While scaling laws for Large Language Models (LLMs) traditionally focus on proxy metrics like pretraining loss, predicting downstream task performance has been considered unreliable. This paper challenges that view by proposing a direct framework to model the scaling of benchmark performance from the training budget. We find that for a fixed token-to-parameter ratio, a simple power law can accurately describe the scaling behavior of log accuracy on multiple popular downstream tasks. Our results ...",
-        "published": "2025-12-09T18:33:48Z",
-        "updated": "2025-12-09T18:33:48Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.08894v1",
-        "abs_url": "https://arxiv.org/abs/2512.08894v1",
-        "categories": [
-          "cs.LG",
-          "cs.AI",
-          "cs.CL"
-        ],
-        "primary_category": "cs.LG",
-        "analysis": {
-          "tldr": "This paper explores how we can better predict the performance of large language models (LLMs) on real-world tasks by looking at their training budgets. The authors propose a new framework that shows a simple power law can effectively describe how accuracy scales with training efforts.",
-          "eli5": "Imagine you're trying to predict how well a student will do on a test based on how much they study. Traditionally, we've relied on indirect signs of preparation, like how many hours they spent reading. This paper argues we can directly link study time to test scores, and they found a straightforward formula that works well for many subjects.",
-          "key_contributions": [
-            "They introduce a new framework for predicting downstream task performance based on training budget.",
-            "They demonstrate that a power law can effectively model the scaling of accuracy for various tasks.",
-            "They challenge the existing notion that predicting performance from training budgets is unreliable."
-          ],
-          "why_care": "Understanding how to effectively scale language models can lead to more efficient AI tools in real-world applications, such as chatbots, translation services, and content generation. This research can help developers create better models without wasting resources.",
-          "accessibility": "Tech-Savvy",
-          "spicy_take": "If we can predict performance with a simple model, it might be time to rethink how complex we make training processes for LLMs.",
-          "reading_time_minutes": 5
-        }
-      },
-      {
-        "id": "2512.08892v1",
-        "title": "Toward Faithful Retrieval-Augmented Generation with Sparse Autoencoders",
-        "authors": [
-          "Guangzhi Xiong",
-          "Zhenghao He",
-          "Bohan Liu",
-          "Sanchit Sinha",
-          "Aidong Zhang"
-        ],
-        "abstract": "Retrieval-Augmented Generation (RAG) improves the factuality of large language models (LLMs) by grounding outputs in retrieved evidence, but faithfulness failures, where generations contradict or extend beyond the provided sources, remain a critical challenge. Existing hallucination detection methods for RAG often rely either on large-scale detector training, which requires substantial annotated data, or on querying external LLM judges, which leads to high inference costs. Although some approach...",
-        "published": "2025-12-09T18:33:22Z",
-        "updated": "2025-12-09T18:33:22Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.08892v1",
-        "abs_url": "https://arxiv.org/abs/2512.08892v1",
+        "abstract": "Continual learning in Neural Machine Translation (NMT) faces the dual challenges of catastrophic forgetting and the high computational cost of retraining. This study establishes Low-Rank Adaptation (LoRA) as a parameter-efficient framework to address these challenges in dedicated NMT architectures. We first demonstrate that LoRA-based fine-tuning adapts NMT models to new languages and domains with performance on par with full-parameter techniques, while utilizing only a fraction of the parameter...",
+        "published": "2025-12-10T18:37:57Z",
+        "updated": "2025-12-10T18:37:57Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.09910v1",
+        "abs_url": "https://arxiv.org/abs/2512.09910v1",
         "categories": [
           "cs.CL",
           "cs.AI"
         ],
         "primary_category": "cs.CL",
         "analysis": {
-          "tldr": "This paper explores a method to improve the reliability of language models by ensuring their generated content is closely tied to verified information, addressing a common issue where AI sometimes makes stuff up. It introduces a novel approach using sparse autoencoders to boost the accuracy of retrieval-augmented generation (RAG) systems.",
-          "eli5": "Imagine you have a really smart friend who can tell stories, but sometimes they make things up. This paper is like showing your friend how to double-check their stories against reliable books to make sure they're accurate. It uses a special technique called sparse autoencoders to help them remember and use the right information when telling their tales.",
+          "tldr": "This paper introduces a smart way to keep neural translation systems up to date with new languages or topics without needing to start from scratch each time, making it cheaper and faster.",
+          "eli5": "Imagine if your translator app could learn new languages without forgetting the ones already installed. That's what the authors aim to achieve with a method called Low-Rank Adaptation, which allows the app to adapt to new languages or subjects by changing just a small part of its brain, rather than overhauling everything.",
           "key_contributions": [
-            "Introduces sparse autoencoders as a method to improve the faithfulness of retrieval-augmented generation.",
-            "Reduces reliance on large datasets and expensive inference methods for hallucination detection.",
-            "Presents experimental results that show enhanced factual accuracy in language model outputs."
+            "Introduces Low-Rank Adaptation (LoRA) as an efficient method for continual learning in neural translation models.",
+            "Demonstrates that LoRA can achieve the same performance as traditional methods while using significantly fewer resources.",
+            "Provides a framework that could make translation systems more adaptable and cost-effective for real-world applications."
           ],
-          "why_care": "As AI becomes more integrated into our lives\u2014think chatbots, automated content creation, and virtual assistants\u2014ensuring that these systems provide accurate information is crucial. This research could lead to more trustworthy AI, reducing misinformation and enhancing user experiences across various applications.",
+          "why_care": "As the world becomes increasingly globalized, efficient translation tools are crucial for communication. This research could lead to faster, cheaper, and more effective translation services, which benefits businesses, travelers, and tech developers alike.",
           "accessibility": "Tech-Savvy",
-          "spicy_take": "If AI is ever going to be trusted as a reliable source of information, we need more innovative solutions like this one that emphasize accuracy over sheer volume of data.",
+          "spicy_take": "If we can make translation models leaner without losing quality, it raises the question: are we really optimizing machine learning, or just making do with less?",
           "reading_time_minutes": 5
         }
       },
       {
-        "id": "2512.08889v1",
-        "title": "No Labels, No Problem: Training Visual Reasoners with Multimodal Verifiers",
+        "id": "2512.09909v1",
+        "title": "STACHE: Local Black-Box Explanations for Reinforcement Learning Policies",
         "authors": [
-          "Damiano Marsili",
-          "Georgia Gkioxari"
+          "Andrew Elashkin",
+          "Orna Grumberg"
         ],
-        "abstract": "Visual reasoning is challenging, requiring both precise object grounding and understanding complex spatial relationships. Existing methods fall into two camps: language-only chain-of-thought approaches, which demand large-scale (image, query, answer) supervision, and program-synthesis approaches which use pre-trained models and avoid training, but suffer from flawed logic and erroneous grounding. We propose an annotation-free training framework that improves both reasoning and grounding. Our fra...",
-        "published": "2025-12-09T18:30:23Z",
-        "updated": "2025-12-09T18:30:23Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.08889v1",
-        "abs_url": "https://arxiv.org/abs/2512.08889v1",
+        "abstract": "Reinforcement learning agents often behave unexpectedly in sparse-reward or safety-critical environments, creating a strong need for reliable debugging and verification tools. In this paper, we propose STACHE, a comprehensive framework for generating local, black-box explanations for an agent's specific action within discrete Markov games. Our method produces a Composite Explanation consisting of two complementary components: (1) a Robustness Region, the connected neighborhood of states where th...",
+        "published": "2025-12-10T18:37:28Z",
+        "updated": "2025-12-10T18:37:28Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.09909v1",
+        "abs_url": "https://arxiv.org/abs/2512.09909v1",
         "categories": [
-          "cs.CV",
+          "cs.LG",
           "cs.AI"
-        ],
-        "primary_category": "cs.CV",
-        "analysis": {
-          "tldr": "This paper introduces a new way to train visual reasoning systems without requiring complex annotations. The authors focus on improving how machines understand objects and their relationships in images.",
-          "eli5": "Imagine trying to teach a robot how to look at a picture and answer questions about what it sees. Traditionally, you\u2019d need to label every detail for it, but this paper explores a clever method that lets the robot learn just by using existing examples, making it smarter without all that tedious work.",
-          "key_contributions": [
-            "The development of an annotation-free training framework that enhances visual reasoning and grounding.",
-            "A demonstration that effective visual reasoning can be achieved without the need for extensive labeling.",
-            "Addressing the shortcomings of existing methods by improving the logic and accuracy of object identification."
-          ],
-          "why_care": "This research is significant because it can lead to smarter AI systems that understand images better, which can be applied in fields like autonomous driving, healthcare imaging, and smart home technology, making our lives easier and safer.",
-          "accessibility": "Tech-Savvy",
-          "spicy_take": "This approach could be a game changer in AI training, potentially making the tedious labeling process obsolete.",
-          "reading_time_minutes": 5
-        }
-      },
-      {
-        "id": "2512.08885v1",
-        "title": "Explainable Anomaly Detection for Industrial IoT Data Streams",
-        "authors": [
-          "Ana Rita Paup\u00e9rio",
-          "Diogo Risca",
-          "Afonso Louren\u00e7o",
-          "Goreti Marreiros",
-          "Ricardo Martins"
-        ],
-        "abstract": "Industrial maintenance is being transformed by the Internet of Things and edge computing, generating continuous data streams that demand real-time, adaptive decision-making under limited computational resources. While data stream mining (DSM) addresses this challenge, most methods assume fully supervised settings, yet in practice, ground-truth labels are often delayed or unavailable. This paper presents a collaborative DSM framework that integrates unsupervised anomaly detection with interactive...",
-        "published": "2025-12-09T18:20:35Z",
-        "updated": "2025-12-09T18:20:35Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.08885v1",
-        "abs_url": "https://arxiv.org/abs/2512.08885v1",
-        "categories": [
-          "cs.LG"
         ],
         "primary_category": "cs.LG",
         "analysis": {
-          "tldr": "This paper introduces a new way to detect unusual patterns in data from industrial machines using tools that don't rely on pre-labeled data. It suits real-time decision-making, which is crucial in today\u2019s fast-paced industrial environment.",
-          "eli5": "Imagine if your car had a smart system that could tell when something was wrong, like a weird sound or smell, without needing someone to tell it what 'wrong' means first. This paper is about making industrial machines do just that, by detecting problems in their data on the fly, even when they don\u2019t have all the answers at hand.",
+          "tldr": "This paper introduces STACHE, a framework that helps explain the sometimes puzzling decisions made by reinforcement learning agents in tricky situations. It aims to make it easier to understand why these agents do what they do, especially in important or dangerous scenarios.",
+          "eli5": "Imagine you have a robot that learns to play a game, but sometimes it makes silly moves that leave you scratching your head. STACHE is like a detective that looks into those confusing choices, revealing the reasons behind them and helping us see which situations can lead to better decisions.",
           "key_contributions": [
-            "A collaborative framework that uses unsupervised learning for detecting anomalies in data streams from industrial IoT devices.",
-            "Integration of interactive elements allowing human operators to engage with the system, helping improve its accuracy over time.",
-            "A focus on adapting to situations where traditional labeled data is scarce or delayed, making it practical for real-world applications."
+            "STACHE provides a systematic way to explain the actions of reinforcement learning agents in complex environments.",
+            "It offers a 'Robustness Region' which highlights the range of situations where an agent's decision is stable and reliable.",
+            "The framework creates a 'Composite Explanation', combining different elements to give a fuller understanding of an agent's behavior."
           ],
-          "why_care": "As industries increasingly rely on IoT technology for monitoring and maintenance, being able to identify potential issues in real-time without waiting for data labels can save companies time and money, prevent accidents, and improve operational efficiency.",
+          "why_care": "Understanding AI decision-making is crucial in areas like healthcare, finance, and autonomous vehicles. With robust explanations, we can trust these systems more and ensure they act safely and effectively in our daily lives.",
           "accessibility": "Tech-Savvy",
-          "spicy_take": "This research could be a game-changer for industries; however, it\u2019s still too reliant on user interaction, which might slow down the automation we seek.",
-          "reading_time_minutes": 7
+          "spicy_take": "If we want AI to be integrated into critical applications, transparency like what STACHE offers is not just a luxury\u2014it's a necessity.",
+          "reading_time_minutes": 5
+        }
+      },
+      {
+        "id": "2512.09908v1",
+        "title": "Bayesian Networks, Markov Networks, Moralisation, Triangulation: a Categorical Perspective",
+        "authors": [
+          "Antonio Lorenzin",
+          "Fabio Zanasi"
+        ],
+        "abstract": "Moralisation and Triangulation are transformations allowing to switch between different ways of factoring a probability distribution into a graphical model. Moralisation allows to view a Bayesian network (a directed model) as a Markov network (an undirected model), whereas triangulation addresses the opposite direction. We present a categorical framework where these transformations are modelled as functors between a category of Bayesian networks and one of Markov networks. The two kinds of netwo...",
+        "published": "2025-12-10T18:36:30Z",
+        "updated": "2025-12-10T18:36:30Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.09908v1",
+        "abs_url": "https://arxiv.org/abs/2512.09908v1",
+        "categories": [
+          "cs.AI",
+          "cs.LO",
+          "math.CT"
+        ],
+        "primary_category": "cs.AI",
+        "analysis": {
+          "tldr": "This paper explores how to transform graphical models of probability distributions from directed to undirected formats and vice versa. It presents a new framework that treats these transformations as functors within a mathematical structure.",
+          "eli5": "Imagine you have two types of maps: one that shows roads connecting cities (Bayesian networks) and another that shows just the cities connected by paths, without directions (Markov networks). This paper discusses how you can switch between these two kinds of maps using specific rules and how these rules can be understood through a special mathematical lens.",
+          "key_contributions": [
+            "The introduction of a categorical framework to analyze the transformations between Bayesian and Markov networks.",
+            "A formalization of the processes of moralization and triangulation within this categorical context.",
+            "New insights into how these transformations can improve our understanding of probabilistic relationships in various applications."
+          ],
+          "why_care": "Understanding these transformations can lead to better modeling of complex systems in fields like machine learning, statistics, and even artificial intelligence, making it easier to interpret data and draw insights from it.",
+          "accessibility": "Researchers Only",
+          "spicy_take": "While the math is undoubtedly intricate, the potential applications make this work a game-changer for those who can navigate through its complexities.",
+          "reading_time_minutes": 15
+        }
+      },
+      {
+        "id": "2512.09898v1",
+        "title": "Visual Heading Prediction for Autonomous Aerial Vehicles",
+        "authors": [
+          "Reza Ahmari",
+          "Ahmad Mohammadi",
+          "Vahid Hemmati",
+          "Mohammed Mynuddin",
+          "Parham Kebria"
+        ],
+        "abstract": "The integration of Unmanned Aerial Vehicles (UAVs) and Unmanned Ground Vehicles (UGVs) is increasingly central to the development of intelligent autonomous systems for applications such as search and rescue, environmental monitoring, and logistics. However, precise coordination between these platforms in real-time scenarios presents major challenges, particularly when external localization infrastructure such as GPS or GNSS is unavailable or degraded [1]. This paper proposes a vision-based, data...",
+        "published": "2025-12-10T18:27:37Z",
+        "updated": "2025-12-10T18:27:37Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.09898v1",
+        "abs_url": "https://arxiv.org/abs/2512.09898v1",
+        "categories": [
+          "cs.RO",
+          "cs.AI",
+          "cs.CV",
+          "cs.MA",
+          "eess.SY"
+        ],
+        "primary_category": "cs.RO",
+        "analysis": {
+          "tldr": "This paper presents a new method for helping drones and ground robots communicate and coordinate their movements without relying on GPS. It uses visual data to predict the headings of aerial vehicles, making their collaboration more efficient in challenging environments.",
+          "eli5": "Imagine you have a drone and a robot that need to work together, like a pair of friends finding their way in a big park without a map. This paper describes a smart system that lets the drone 'see' where it should go based on what it can visually recognize around it, so it can help the robot navigate better, especially when GPS isn't available.",
+          "key_contributions": [
+            "Introduction of a vision-based method for heading prediction that enhances real-time coordination between UAVs and UGVs.",
+            "Demonstration of this method's effectiveness in environments lacking reliable localization signals.",
+            "Development of algorithms that enable autonomous systems to operate more safely and reliably in complex scenarios."
+          ],
+          "why_care": "As drones and robots become more prevalent in our everyday lives, like in delivery services or disaster response, enhancing their ability to work together without relying on satellite signals is crucial. This research could lead to safer and more efficient systems that we might use for everything from saving lives to making our online shopping even faster.",
+          "accessibility": "Tech-Savvy",
+          "spicy_take": "This approach could redefine how we think about autonomous vehicle cooperation, suggesting that sight might just be as vital as GPS for future tech.",
+          "reading_time_minutes": 5
+        }
+      },
+      {
+        "id": "2512.09897v1",
+        "title": "SCOPE: Language Models as One-Time Teacher for Hierarchical Planning in Text Environments",
+        "authors": [
+          "Haoye Lu",
+          "Pavan Seshadri",
+          "Kaheer Suleman"
+        ],
+        "abstract": "Long-term planning in complex, text-based environments presents significant challenges due to open-ended action spaces, ambiguous observations, and sparse feedback. Recent research suggests that large language models (LLMs) encode rich semantic knowledge about the world, which can be valuable for guiding agents in high-level reasoning and planning across both embodied and purely textual settings. However, existing approaches often depend heavily on querying LLMs during training and inference, ma...",
+        "published": "2025-12-10T18:26:14Z",
+        "updated": "2025-12-10T18:26:14Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.09897v1",
+        "abs_url": "https://arxiv.org/abs/2512.09897v1",
+        "categories": [
+          "cs.AI",
+          "cs.CL"
+        ],
+        "primary_category": "cs.AI",
+        "analysis": {
+          "tldr": "This paper explores how large language models (LLMs) can be used to help create effective long-term plans in complex text-based environments without constantly needing to query these models. It proposes a new method that leverages LLMs as a one-time teacher for hierarchical planning.",
+          "eli5": "Imagine trying to solve a really complicated puzzle where the pieces are scattered in a big messy room. This paper shows how super-smart language models can act like a helpful guide or teacher, giving you valuable hints and instructions on how to put the puzzle together without needing to ask them for help every step of the way. It\u2019s like getting a one-time cheat sheet that helps you figure out your strategy.",
+          "key_contributions": [
+            "The paper introduces a new framework, called SCOPE, that allows agents to plan in complex environments without needing constant access to LLMs.",
+            "It demonstrates the effectiveness of using LLMs as a one-time teacher, potentially reducing the computational load during both training and execution.",
+            "The research showcases the application of this method across different scenarios, suggesting a flexible approach to hierarchical planning."
+          ],
+          "why_care": "This work is important because it could lead to more efficient AI systems that can plan and act in complex environments, which has real-world applications in anything from robotics to automated customer service. By reducing dependency on constant querying of LLMs, it could make these technologies faster and cheaper to run.",
+          "accessibility": "Tech-Savvy",
+          "spicy_take": "The reliance on constant querying of LLMs might be a crutch that hinders the development of more autonomous AI systems; SCOPE could be the shake-up we need.",
+          "reading_time_minutes": 5
+        }
+      },
+      {
+        "id": "2512.09895v1",
+        "title": "Human-in-the-Loop and AI: Crowdsourcing Metadata Vocabulary for Materials Science",
+        "authors": [
+          "Jane Greenberg",
+          "Scott McClellan",
+          "Addy Ireland",
+          "Robert Sammarco",
+          "Colton Gerber"
+        ],
+        "abstract": "Metadata vocabularies are essential for advancing FAIR and FARR data principles, but their development constrained by limited human resources and inconsistent standardization practices. This paper introduces MatSci-YAMZ, a platform that integrates artificial intelligence (AI) and human-in-the-loop (HILT), including crowdsourcing, to support metadata vocabulary development. The paper reports on a proof-of-concept use case evaluating the AI-HILT model in materials science, a highly interdisciplina...",
+        "published": "2025-12-10T18:22:57Z",
+        "updated": "2025-12-10T18:22:57Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.09895v1",
+        "abs_url": "https://arxiv.org/abs/2512.09895v1",
+        "categories": [
+          "cs.AI",
+          "cs.DL"
+        ],
+        "primary_category": "cs.AI",
+        "analysis": {
+          "tldr": "This paper discusses a new platform called MatSci-YAMZ that combines artificial intelligence and crowdsourcing to help create better metadata vocabularies for materials science, aiding in data sharing and accessibility.",
+          "eli5": "Imagine trying to find a book in a massive library without a clear label system. This paper introduces a smart platform that helps create consistent labels (or metadata vocabularies) for materials science research. By using both AI and crowdsourcing, it makes it easier for scientists to share and find data.",
+          "key_contributions": [
+            "Introduction of MatSci-YAMZ, a platform that blends AI and human input for better metadata development.",
+            "Demonstration of a successful proof-of-concept that shows how this model works effectively in materials science.",
+            "Addressing the issue of limited human resources in developing standardized vocabularies, paving the way for more efficient data sharing."
+          ],
+          "why_care": "Better metadata vocabularies can significantly enhance data accessibility and sharing in materials science, impacting industries like manufacturing, healthcare, and energy by fostering innovation and collaboration.",
+          "accessibility": "General Audience",
+          "spicy_take": "If we want to truly advance scientific research, we need to embrace AI-powered collaboration methods like this\u2014otherwise, we risk stagnation in the face of ever-increasing data complexity.",
+          "reading_time_minutes": 5
         }
       }
     ],
     "summary": {
       "total_analyzed": 10,
       "by_accessibility": {
-        "General Audience": 3,
+        "General Audience": 2,
         "Tech-Savvy": 7,
-        "Researchers Only": 0
+        "Researchers Only": 1
       },
-      "avg_reading_time": 5.2
+      "avg_reading_time": 6.0
     }
   },
   "metadata": {
@@ -352,19 +354,19 @@
     "style": "blog-accessible"
   },
   "costs": {
-    "execution_time": 88.75007724761963,
-    "execution_minutes": 1.4791679541269938,
-    "github_actions": 0.01183334363301595,
+    "execution_time": 79.0411605834961,
+    "execution_minutes": 1.3173526763916015,
+    "github_actions": 0.010538821411132812,
     "openai": {
-      "input": 0.00049035,
-      "output": 0.0018084,
-      "total": 0.00229875
+      "input": 0.0004902,
+      "output": 0.0018149999999999998,
+      "total": 0.0023052
     },
-    "total": 0.01413209363301595,
+    "total": 0.012844021411132812,
     "token_usage": {
-      "prompt_tokens": 3269,
-      "completion_tokens": 3014,
-      "total_tokens": 6283
+      "prompt_tokens": 3268,
+      "completion_tokens": 3025,
+      "total_tokens": 6293
     }
   }
 }
