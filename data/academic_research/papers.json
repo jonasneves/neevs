@@ -1,67 +1,65 @@
 {
   "agent": "agent-a-paper-fetcher",
-  "timestamp": "2025-12-11T09:05:08.733134",
+  "timestamp": "2025-12-12T09:05:07.346226",
   "status": "completed",
   "data": {
     "papers": [
       {
-        "id": "2512.09929v1",
-        "title": "Closing the Train-Test Gap in World Models for Gradient-Based Planning",
+        "id": "2512.10957v1",
+        "title": "SceneMaker: Open-set 3D Scene Generation with Decoupled De-occlusion and Pose Estimation Model",
         "authors": [
-          "Arjun Parthasarathy",
-          "Nimit Kalra",
-          "Rohun Agrawal",
-          "Yann LeCun",
-          "Oumayma Bounou"
+          "Yukai Shi",
+          "Weiyu Li",
+          "Zihao Wang",
+          "Hongyang Li",
+          "Xingyu Chen"
         ],
-        "abstract": "World models paired with model predictive control (MPC) can be trained offline on large-scale datasets of expert trajectories and enable generalization to a wide range of planning tasks at inference time. Compared to traditional MPC procedures, which rely on slow search algorithms or on iteratively solving optimization problems exactly, gradient-based planning offers a computationally efficient alternative. However, the performance of gradient-based planning has thus far lagged behind that of ot...",
-        "published": "2025-12-10T18:59:45Z",
-        "updated": "2025-12-10T18:59:45Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.09929v1",
-        "abs_url": "https://arxiv.org/abs/2512.09929v1",
+        "abstract": "We propose a decoupled 3D scene generation framework called SceneMaker in this work. Due to the lack of sufficient open-set de-occlusion and pose estimation priors, existing methods struggle to simultaneously produce high-quality geometry and accurate poses under severe occlusion and open-set settings. To address these issues, we first decouple the de-occlusion model from 3D object generation, and enhance it by leveraging image datasets and collected de-occlusion datasets for much more diverse o...",
+        "published": "2025-12-11T18:59:56Z",
+        "updated": "2025-12-11T18:59:56Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.10957v1",
+        "abs_url": "https://arxiv.org/abs/2512.10957v1",
         "categories": [
-          "cs.LG",
-          "cs.RO"
+          "cs.CV",
+          "cs.AI"
         ],
-        "primary_category": "cs.LG"
+        "primary_category": "cs.CV"
       },
       {
-        "id": "2512.09920v1",
-        "title": "LISN: Language-Instructed Social Navigation with VLM-based Controller Modulating",
+        "id": "2512.10953v1",
+        "title": "Bidirectional Normalizing Flow: From Data to Noise and Back",
         "authors": [
-          "Junting Chen",
-          "Yunchuan Li",
-          "Panfeng Jiang",
-          "Jiacheng Du",
-          "Zixuan Chen"
+          "Yiyang Lu",
+          "Qiao Sun",
+          "Xianbang Wang",
+          "Zhicheng Jiang",
+          "Hanhong Zhao"
         ],
-        "abstract": "Towards human-robot coexistence, socially aware navigation is significant for mobile robots. Yet existing studies on this area focus mainly on path efficiency and pedestrian collision avoidance, which are essential but represent only a fraction of social navigation. Beyond these basics, robots must also comply with user instructions, aligning their actions to task goals and social norms expressed by humans. In this work, we present LISN-Bench, the first simulation-based benchmark for language-in...",
-        "published": "2025-12-10T18:54:30Z",
-        "updated": "2025-12-10T18:54:30Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.09920v1",
-        "abs_url": "https://arxiv.org/abs/2512.09920v1",
+        "abstract": "Normalizing Flows (NFs) have been established as a principled framework for generative modeling. Standard NFs consist of a forward process and a reverse process: the forward process maps data to noise, while the reverse process generates samples by inverting it. Typical NF forward transformations are constrained by explicit invertibility, ensuring that the reverse process can serve as their exact analytic inverse. Recent developments in TARFlow and its variants have revitalized NF methods by com...",
+        "published": "2025-12-11T18:59:55Z",
+        "updated": "2025-12-11T18:59:55Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.10953v1",
+        "abs_url": "https://arxiv.org/abs/2512.10953v1",
         "categories": [
-          "cs.RO",
-          "cs.AI",
+          "cs.LG",
           "cs.CV"
         ],
-        "primary_category": "cs.RO"
+        "primary_category": "cs.LG"
       },
       {
-        "id": "2512.09914v1",
-        "title": "FALCON: Few-step Accurate Likelihoods for Continuous Flows",
+        "id": "2512.10952v1",
+        "title": "Hierarchical Dataset Selection for High-Quality Data Sharing",
         "authors": [
-          "Danyal Rehman",
-          "Tara Akhound-Sadegh",
-          "Artem Gazizov",
-          "Yoshua Bengio",
-          "Alexander Tong"
+          "Xiaona Zhou",
+          "Yingyan Zeng",
+          "Ran Jin",
+          "Ismini Lourentzou"
         ],
-        "abstract": "Scalable sampling of molecular states in thermodynamic equilibrium is a long-standing challenge in statistical physics. Boltzmann Generators tackle this problem by pairing a generative model, capable of exact likelihood computation, with importance sampling to obtain consistent samples under the target distribution. Current Boltzmann Generators primarily use continuous normalizing flows (CNFs) trained with flow matching for efficient training of powerful models. However, likelihood calculation f...",
-        "published": "2025-12-10T18:47:25Z",
-        "updated": "2025-12-10T18:47:25Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.09914v1",
-        "abs_url": "https://arxiv.org/abs/2512.09914v1",
+        "abstract": "The success of modern machine learning hinges on access to high-quality training data. In many real-world scenarios, such as acquiring data from public repositories or sharing across institutions, data is naturally organized into discrete datasets that vary in relevance, quality, and utility. Selecting which repositories or institutions to search for useful datasets, and which datasets to incorporate into model training are therefore critical decisions, yet most existing methods select individua...",
+        "published": "2025-12-11T18:59:55Z",
+        "updated": "2025-12-11T18:59:55Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.10952v1",
+        "abs_url": "https://arxiv.org/abs/2512.10952v1",
         "categories": [
           "cs.LG",
           "cs.AI"
@@ -69,240 +67,253 @@
         "primary_category": "cs.LG"
       },
       {
-        "id": "2512.09912v1",
-        "title": "Supervised learning pays attention",
+        "id": "2512.10949v1",
+        "title": "Are We Ready for RL in Text-to-3D Generation? A Progressive Investigation",
         "authors": [
-          "Erin Craig",
-          "Robert Tibshirani"
+          "Yiwen Tang",
+          "Zoey Guo",
+          "Kaixin Zhu",
+          "Ray Zhang",
+          "Qizhi Chen"
         ],
-        "abstract": "In-context learning with attention enables large neural networks to make context-specific predictions by selectively focusing on relevant examples. Here, we adapt this idea to supervised learning procedures such as lasso regression and gradient boosting, for tabular data. Our goals are to (1) flexibly fit personalized models for each prediction point and (2) retain model simplicity and interpretability.\n  Our method fits a local model for each test observation by weighting the training data acco...",
-        "published": "2025-12-10T18:43:46Z",
-        "updated": "2025-12-10T18:43:46Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.09912v1",
-        "abs_url": "https://arxiv.org/abs/2512.09912v1",
+        "abstract": "Reinforcement learning (RL), earlier proven to be effective in large language and multi-modal models, has been successfully extended to enhance 2D image generation recently. However, applying RL to 3D generation remains largely unexplored due to the higher spatial complexity of 3D objects, which require globally consistent geometry and fine-grained local textures. This makes 3D generation significantly sensitive to reward designs and RL algorithms. To address these challenges, we conduct the fir...",
+        "published": "2025-12-11T18:59:52Z",
+        "updated": "2025-12-11T18:59:52Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.10949v1",
+        "abs_url": "https://arxiv.org/abs/2512.10949v1",
         "categories": [
-          "stat.ML",
-          "cs.AI",
-          "cs.LG"
-        ],
-        "primary_category": "stat.ML"
-      },
-      {
-        "id": "2512.09910v1",
-        "title": "Efficient Continual Learning in Neural Machine Translation: A Low-Rank Adaptation Approach",
-        "authors": [
-          "Salvador Carri\u00f3n",
-          "Francisco Casacuberta"
-        ],
-        "abstract": "Continual learning in Neural Machine Translation (NMT) faces the dual challenges of catastrophic forgetting and the high computational cost of retraining. This study establishes Low-Rank Adaptation (LoRA) as a parameter-efficient framework to address these challenges in dedicated NMT architectures. We first demonstrate that LoRA-based fine-tuning adapts NMT models to new languages and domains with performance on par with full-parameter techniques, while utilizing only a fraction of the parameter...",
-        "published": "2025-12-10T18:37:57Z",
-        "updated": "2025-12-10T18:37:57Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.09910v1",
-        "abs_url": "https://arxiv.org/abs/2512.09910v1",
-        "categories": [
-          "cs.CL",
-          "cs.AI"
-        ],
-        "primary_category": "cs.CL"
-      },
-      {
-        "id": "2512.09909v1",
-        "title": "STACHE: Local Black-Box Explanations for Reinforcement Learning Policies",
-        "authors": [
-          "Andrew Elashkin",
-          "Orna Grumberg"
-        ],
-        "abstract": "Reinforcement learning agents often behave unexpectedly in sparse-reward or safety-critical environments, creating a strong need for reliable debugging and verification tools. In this paper, we propose STACHE, a comprehensive framework for generating local, black-box explanations for an agent's specific action within discrete Markov games. Our method produces a Composite Explanation consisting of two complementary components: (1) a Robustness Region, the connected neighborhood of states where th...",
-        "published": "2025-12-10T18:37:28Z",
-        "updated": "2025-12-10T18:37:28Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.09909v1",
-        "abs_url": "https://arxiv.org/abs/2512.09909v1",
-        "categories": [
-          "cs.LG",
-          "cs.AI"
-        ],
-        "primary_category": "cs.LG"
-      },
-      {
-        "id": "2512.09908v1",
-        "title": "Bayesian Networks, Markov Networks, Moralisation, Triangulation: a Categorical Perspective",
-        "authors": [
-          "Antonio Lorenzin",
-          "Fabio Zanasi"
-        ],
-        "abstract": "Moralisation and Triangulation are transformations allowing to switch between different ways of factoring a probability distribution into a graphical model. Moralisation allows to view a Bayesian network (a directed model) as a Markov network (an undirected model), whereas triangulation addresses the opposite direction. We present a categorical framework where these transformations are modelled as functors between a category of Bayesian networks and one of Markov networks. The two kinds of netwo...",
-        "published": "2025-12-10T18:36:30Z",
-        "updated": "2025-12-10T18:36:30Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.09908v1",
-        "abs_url": "https://arxiv.org/abs/2512.09908v1",
-        "categories": [
-          "cs.AI",
-          "cs.LO",
-          "math.CT"
-        ],
-        "primary_category": "cs.AI"
-      },
-      {
-        "id": "2512.09898v1",
-        "title": "Visual Heading Prediction for Autonomous Aerial Vehicles",
-        "authors": [
-          "Reza Ahmari",
-          "Ahmad Mohammadi",
-          "Vahid Hemmati",
-          "Mohammed Mynuddin",
-          "Parham Kebria"
-        ],
-        "abstract": "The integration of Unmanned Aerial Vehicles (UAVs) and Unmanned Ground Vehicles (UGVs) is increasingly central to the development of intelligent autonomous systems for applications such as search and rescue, environmental monitoring, and logistics. However, precise coordination between these platforms in real-time scenarios presents major challenges, particularly when external localization infrastructure such as GPS or GNSS is unavailable or degraded [1]. This paper proposes a vision-based, data...",
-        "published": "2025-12-10T18:27:37Z",
-        "updated": "2025-12-10T18:27:37Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.09898v1",
-        "abs_url": "https://arxiv.org/abs/2512.09898v1",
-        "categories": [
-          "cs.RO",
-          "cs.AI",
           "cs.CV",
-          "cs.MA",
-          "eess.SY"
-        ],
-        "primary_category": "cs.RO"
-      },
-      {
-        "id": "2512.09897v1",
-        "title": "SCOPE: Language Models as One-Time Teacher for Hierarchical Planning in Text Environments",
-        "authors": [
-          "Haoye Lu",
-          "Pavan Seshadri",
-          "Kaheer Suleman"
-        ],
-        "abstract": "Long-term planning in complex, text-based environments presents significant challenges due to open-ended action spaces, ambiguous observations, and sparse feedback. Recent research suggests that large language models (LLMs) encode rich semantic knowledge about the world, which can be valuable for guiding agents in high-level reasoning and planning across both embodied and purely textual settings. However, existing approaches often depend heavily on querying LLMs during training and inference, ma...",
-        "published": "2025-12-10T18:26:14Z",
-        "updated": "2025-12-10T18:26:14Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.09897v1",
-        "abs_url": "https://arxiv.org/abs/2512.09897v1",
-        "categories": [
           "cs.AI",
           "cs.CL"
         ],
-        "primary_category": "cs.AI"
+        "primary_category": "cs.CV"
       },
       {
-        "id": "2512.09895v1",
-        "title": "Human-in-the-Loop and AI: Crowdsourcing Metadata Vocabulary for Materials Science",
+        "id": "2512.10946v1",
+        "title": "ImplicitRDP: An End-to-End Visual-Force Diffusion Policy with Structural Slow-Fast Learning",
         "authors": [
-          "Jane Greenberg",
-          "Scott McClellan",
-          "Addy Ireland",
-          "Robert Sammarco",
-          "Colton Gerber"
+          "Wendi Chen",
+          "Han Xue",
+          "Yi Wang",
+          "Fangyuan Zhou",
+          "Jun Lv"
         ],
-        "abstract": "Metadata vocabularies are essential for advancing FAIR and FARR data principles, but their development constrained by limited human resources and inconsistent standardization practices. This paper introduces MatSci-YAMZ, a platform that integrates artificial intelligence (AI) and human-in-the-loop (HILT), including crowdsourcing, to support metadata vocabulary development. The paper reports on a proof-of-concept use case evaluating the AI-HILT model in materials science, a highly interdisciplina...",
-        "published": "2025-12-10T18:22:57Z",
-        "updated": "2025-12-10T18:22:57Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.09895v1",
-        "abs_url": "https://arxiv.org/abs/2512.09895v1",
+        "abstract": "Human-level contact-rich manipulation relies on the distinct roles of two key modalities: vision provides spatially rich but temporally slow global context, while force sensing captures rapid, high-frequency local contact dynamics. Integrating these signals is challenging due to their fundamental frequency and informational disparities. In this work, we propose ImplicitRDP, a unified end-to-end visual-force diffusion policy that integrates visual planning and reactive force control within a sing...",
+        "published": "2025-12-11T18:59:46Z",
+        "updated": "2025-12-11T18:59:46Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.10946v1",
+        "abs_url": "https://arxiv.org/abs/2512.10946v1",
         "categories": [
+          "cs.RO",
           "cs.AI",
-          "cs.DL"
-        ],
-        "primary_category": "cs.AI"
-      },
-      {
-        "id": "2512.09894v1",
-        "title": "Exploring Protein Language Model Architecture-Induced Biases for Antibody Comprehension",
-        "authors": [
-          " Mengren",
-          " Liu",
-          "Yixiang Zhang",
-          " Yiming",
-          " Zhang"
-        ],
-        "abstract": "Recent advances in protein language models (PLMs) have demonstrated remarkable capabilities in understanding protein sequences. However, the extent to which different model architectures capture antibody-specific biological properties remains unexplored. In this work, we systematically investigate how architectural choices in PLMs influence their ability to comprehend antibody sequence characteristics and functions. We evaluate three state-of-the-art PLMs-AntiBERTa, BioBERT, and ESM2--against a ...",
-        "published": "2025-12-10T18:22:51Z",
-        "updated": "2025-12-10T18:22:51Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.09894v1",
-        "abs_url": "https://arxiv.org/abs/2512.09894v1",
-        "categories": [
           "cs.LG"
         ],
-        "primary_category": "cs.LG"
+        "primary_category": "cs.RO"
       },
       {
-        "id": "2512.09892v1",
-        "title": "Provably Learning from Modern Language Models via Low Logit Rank",
+        "id": "2512.10943v1",
+        "title": "AlcheMinT: Fine-grained Temporal Control for Multi-Reference Consistent Video Generation",
         "authors": [
-          "Noah Golowich",
-          "Allen Liu",
-          "Abhishek Shetty"
+          "Sharath Girish",
+          "Viacheslav Ivanov",
+          "Tsai-Shien Chen",
+          "Hao Chen",
+          "Aliaksandr Siarohin"
         ],
-        "abstract": "While modern language models and their inner workings are incredibly complex, recent work (Golowich, Liu & Shetty; 2025) has proposed a simple and potentially tractable abstraction for them through the observation that empirically, these language models all seem to have approximately low logit rank. Roughly, this means that a matrix formed by the model's log probabilities of various tokens conditioned on certain sequences of tokens is well approximated by a low rank matrix.\n  In this paper, our ...",
-        "published": "2025-12-10T18:18:11Z",
-        "updated": "2025-12-10T18:18:11Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.09892v1",
-        "abs_url": "https://arxiv.org/abs/2512.09892v1",
+        "abstract": "Recent advances in subject-driven video generation with large diffusion models have enabled personalized content synthesis conditioned on user-provided subjects. However, existing methods lack fine-grained temporal control over subject appearance and disappearance, which are essential for applications such as compositional video synthesis, storyboarding, and controllable animation. We propose AlcheMinT, a unified framework that introduces explicit timestamps conditioning for subject-driven video...",
+        "published": "2025-12-11T18:59:34Z",
+        "updated": "2025-12-11T18:59:34Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.10943v1",
+        "abs_url": "https://arxiv.org/abs/2512.10943v1",
+        "categories": [
+          "cs.CV",
+          "cs.AI"
+        ],
+        "primary_category": "cs.CV"
+      },
+      {
+        "id": "2512.10941v1",
+        "title": "Mull-Tokens: Modality-Agnostic Latent Thinking",
+        "authors": [
+          "Arijit Ray",
+          "Ahmed Abdelkader",
+          "Chengzhi Mao",
+          "Bryan A. Plummer",
+          "Kate Saenko"
+        ],
+        "abstract": "Reasoning goes beyond language; the real world requires reasoning about space, time, affordances, and much more that words alone cannot convey. Existing multimodal models exploring the potential of reasoning with images are brittle and do not scale. They rely on calling specialist tools, costly generation of images, or handcrafted reasoning data to switch between text and image thoughts. Instead, we offer a simpler alternative -- Mull-Tokens -- modality-agnostic latent tokens pre-trained to hold...",
+        "published": "2025-12-11T18:59:08Z",
+        "updated": "2025-12-11T18:59:08Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.10941v1",
+        "abs_url": "https://arxiv.org/abs/2512.10941v1",
+        "categories": [
+          "cs.CV",
+          "cs.AI"
+        ],
+        "primary_category": "cs.CV"
+      },
+      {
+        "id": "2512.10940v1",
+        "title": "OmniView: An All-Seeing Diffusion Model for 3D and 4D View Synthesis",
+        "authors": [
+          "Xiang Fan",
+          "Sharath Girish",
+          "Vivek Ramanujan",
+          "Chaoyang Wang",
+          "Ashkan Mirzaei"
+        ],
+        "abstract": "Prior approaches injecting camera control into diffusion models have focused on specific subsets of 4D consistency tasks: novel view synthesis, text-to-video with camera control, image-to-video, amongst others. Therefore, these fragmented approaches are trained on disjoint slices of available 3D/4D data. We introduce OmniView, a unified framework that generalizes across a wide range of 4D consistency tasks. Our method separately represents space, time, and view conditions, enabling flexible comb...",
+        "published": "2025-12-11T18:59:05Z",
+        "updated": "2025-12-11T18:59:05Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.10940v1",
+        "abs_url": "https://arxiv.org/abs/2512.10940v1",
+        "categories": [
+          "cs.CV",
+          "cs.AI"
+        ],
+        "primary_category": "cs.CV"
+      },
+      {
+        "id": "2512.10938v1",
+        "title": "Stronger Normalization-Free Transformers",
+        "authors": [
+          "Mingzhi Chen",
+          "Taiming Lu",
+          "Jiachen Zhu",
+          "Mingjie Sun",
+          "Zhuang Liu"
+        ],
+        "abstract": "Although normalization layers have long been viewed as indispensable components of deep learning architectures, the recent introduction of Dynamic Tanh (DyT) has demonstrated that alternatives are possible. The point-wise function DyT constrains extreme values for stable convergence and reaches normalization-level performance; this work seeks further for function designs that can surpass it. We first study how the intrinsic properties of point-wise functions influence training and performance. B...",
+        "published": "2025-12-11T18:58:49Z",
+        "updated": "2025-12-11T18:58:49Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.10938v1",
+        "abs_url": "https://arxiv.org/abs/2512.10938v1",
         "categories": [
           "cs.LG",
           "cs.AI",
-          "cs.DS",
-          "stat.ML"
+          "cs.CL",
+          "cs.CV"
         ],
         "primary_category": "cs.LG"
       },
       {
-        "id": "2512.09890v1",
-        "title": "Analysis of Dirichlet Energies as Over-smoothing Measures",
+        "id": "2512.10937v1",
+        "title": "On Decision-Making Agents and Higher-Order Causal Processes",
         "authors": [
-          "Anna Bison",
-          "Alessandro Sperduti"
+          "Matt Wilson"
         ],
-        "abstract": "We analyze the distinctions between two functionals often used as over-smoothing measures: the Dirichlet energies induced by the unnormalized graph Laplacian and the normalized graph Laplacian. We demonstrate that the latter fails to satisfy the axiomatic definition of a node-similarity measure proposed by Rusch \\textit{et al.} By formalizing fundamental spectral properties of these two definitions, we highlight critical distinctions necessary to select the metric that is spectrally compatible w...",
-        "published": "2025-12-10T18:17:33Z",
-        "updated": "2025-12-10T18:17:33Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.09890v1",
-        "abs_url": "https://arxiv.org/abs/2512.09890v1",
-        "categories": [
-          "cs.LG"
-        ],
-        "primary_category": "cs.LG"
-      },
-      {
-        "id": "2512.09886v1",
-        "title": "HPM-KD: Hierarchical Progressive Multi-Teacher Framework for Knowledge Distillation and Efficient Model Compression",
-        "authors": [
-          "Gustavo Coelho Haase",
-          "Paulo Henrique Dourado da Silva"
-        ],
-        "abstract": "Knowledge Distillation (KD) has emerged as a promising technique for model compression but faces critical limitations: (1) sensitivity to hyperparameters requiring extensive manual tuning, (2) capacity gap when distilling from very large teachers to small students, (3) suboptimal coordination in multi-teacher scenarios, and (4) inefficient use of computational resources. We present \\textbf{HPM-KD}, a framework that integrates six synergistic components: (i) Adaptive Configuration Manager via met...",
-        "published": "2025-12-10T18:15:15Z",
-        "updated": "2025-12-10T18:15:15Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.09886v1",
-        "abs_url": "https://arxiv.org/abs/2512.09886v1",
-        "categories": [
-          "cs.LG",
-          "stat.AP"
-        ],
-        "primary_category": "cs.LG"
-      },
-      {
-        "id": "2512.09882v1",
-        "title": "Comparing AI Agents to Cybersecurity Professionals in Real-World Penetration Testing",
-        "authors": [
-          "Justin W. Lin",
-          "Eliot Krzysztof Jones",
-          "Donovan Julian Jasper",
-          "Ethan Jun-shen Ho",
-          "Anna Wu"
-        ],
-        "abstract": "We present the first comprehensive evaluation of AI agents against human cybersecurity professionals in a live enterprise environment. We evaluate ten cybersecurity professionals alongside six existing AI agents and ARTEMIS, our new agent scaffold, on a large university network consisting of ~8,000 hosts across 12 subnets. ARTEMIS is a multi-agent framework featuring dynamic prompt generation, arbitrary sub-agents, and automatic vulnerability triaging. In our comparative study, ARTEMIS placed se...",
-        "published": "2025-12-10T18:12:29Z",
-        "updated": "2025-12-10T18:12:29Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.09882v1",
-        "abs_url": "https://arxiv.org/abs/2512.09882v1",
+        "abstract": "We establish a precise correspondence between decision-making agents in partially observable Markov decision processes (POMDPs) and one-input process functions, the classical limit of higher-order quantum operations. In this identification an agent's policy and memory update combine into a process function w that interacts with a POMDP environment via the link product. This suggests a dual interpretation: in the physics view, the process function acts as the environment into which local operatio...",
+        "published": "2025-12-11T18:58:33Z",
+        "updated": "2025-12-11T18:58:33Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.10937v1",
+        "abs_url": "https://arxiv.org/abs/2512.10937v1",
         "categories": [
           "cs.AI",
-          "cs.CR",
-          "cs.CY"
+          "quant-ph"
         ],
         "primary_category": "cs.AI"
+      },
+      {
+        "id": "2512.10936v1",
+        "title": "Empirical evaluation of the Frank-Wolfe methods for constructing white-box adversarial attacks",
+        "authors": [
+          "Kristina Korotkova",
+          "Aleksandr Katrutsa"
+        ],
+        "abstract": "The construction of adversarial attacks for neural networks appears to be a crucial challenge for their deployment in various services. To estimate the adversarial robustness of a neural network, a fast and efficient approach is needed to construct adversarial attacks. Since the formalization of adversarial attack construction involves solving a specific optimization problem, we consider the problem of constructing an efficient and effective adversarial attack from a numerical optimization persp...",
+        "published": "2025-12-11T18:58:17Z",
+        "updated": "2025-12-11T18:58:17Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.10936v1",
+        "abs_url": "https://arxiv.org/abs/2512.10936v1",
+        "categories": [
+          "cs.LG",
+          "cs.AI"
+        ],
+        "primary_category": "cs.LG"
+      },
+      {
+        "id": "2512.10935v1",
+        "title": "Any4D: Unified Feed-Forward Metric 4D Reconstruction",
+        "authors": [
+          "Jay Karhade",
+          "Nikhil Keetha",
+          "Yuchen Zhang",
+          "Tanisha Gupta",
+          "Akash Sharma"
+        ],
+        "abstract": "We present Any4D, a scalable multi-view transformer for metric-scale, dense feed-forward 4D reconstruction. Any4D directly generates per-pixel motion and geometry predictions for N frames, in contrast to prior work that typically focuses on either 2-view dense scene flow or sparse 3D point tracking. Moreover, unlike other recent methods for 4D reconstruction from monocular RGB videos, Any4D can process additional modalities and sensors such as RGB-D frames, IMU-based egomotion, and Radar Doppler...",
+        "published": "2025-12-11T18:57:39Z",
+        "updated": "2025-12-11T18:57:39Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.10935v1",
+        "abs_url": "https://arxiv.org/abs/2512.10935v1",
+        "categories": [
+          "cs.CV",
+          "cs.AI",
+          "cs.LG",
+          "cs.RO"
+        ],
+        "primary_category": "cs.CV"
+      },
+      {
+        "id": "2512.10934v1",
+        "title": "Curriculum-Based Reinforcement Learning for Autonomous UAV Navigation in Unknown Curved Tubular Conduit",
+        "authors": [
+          "Zamirddine Mari",
+          "J\u00e9r\u00f4me Pasquet",
+          "Julien Seinturier"
+        ],
+        "abstract": "Autonomous drone navigation in confined tubular environments remains a major challenge due to the constraining geometry of the conduits, the proximity of the walls, and the perceptual limitations inherent to such scenarios. We propose a reinforcement learning approach enabling a drone to navigate unknown three-dimensional tubes without any prior knowledge of their geometry, relying solely on local observations from LiDAR and a conditional visual detection of the tube center. In contrast, the Pur...",
+        "published": "2025-12-11T18:57:29Z",
+        "updated": "2025-12-11T18:57:29Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.10934v1",
+        "abs_url": "https://arxiv.org/abs/2512.10934v1",
+        "categories": [
+          "cs.RO",
+          "cs.LG"
+        ],
+        "primary_category": "cs.RO"
+      },
+      {
+        "id": "2512.10932v1",
+        "title": "BabyVLM-V2: Toward Developmentally Grounded Pretraining and Benchmarking of Vision Foundation Models",
+        "authors": [
+          "Shengao Wang",
+          "Wenqi Wang",
+          "Zecheng Wang",
+          "Max Whitton",
+          "Michael Wakeham"
+        ],
+        "abstract": "Early children's developmental trajectories set up a natural goal for sample-efficient pretraining of vision foundation models. We introduce BabyVLM-V2, a developmentally grounded framework for infant-inspired vision-language modeling that extensively improves upon BabyVLM-V1 through a longitudinal, multifaceted pretraining set, a versatile model, and, most importantly, DevCV Toolbox for cognitive evaluation. The pretraining set maximizes coverage while minimizing curation of a longitudinal, inf...",
+        "published": "2025-12-11T18:57:05Z",
+        "updated": "2025-12-11T18:57:05Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.10932v1",
+        "abs_url": "https://arxiv.org/abs/2512.10932v1",
+        "categories": [
+          "cs.CV",
+          "cs.AI"
+        ],
+        "primary_category": "cs.CV"
+      },
+      {
+        "id": "2512.10931v1",
+        "title": "Asynchronous Reasoning: Training-Free Interactive Thinking LLMs",
+        "authors": [
+          "George Yakushev",
+          "Nataliia Babina",
+          "Masoud Vahid Dastgerdi",
+          "Vyacheslav Zhdanovskiy",
+          "Alina Shutova"
+        ],
+        "abstract": "Many state-of-the-art LLMs are trained to think before giving their answer. Reasoning can greatly improve language model capabilities and safety, but it also makes them less interactive: given a new input, a model must stop thinking before it can respond. Real-world use cases such as voice-based or embedded assistants require an LLM agent to respond and adapt to additional information in real time, which is incompatible with sequential interactions. In contrast, humans can listen, think, and act...",
+        "published": "2025-12-11T18:57:02Z",
+        "updated": "2025-12-11T18:57:02Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.10931v1",
+        "abs_url": "https://arxiv.org/abs/2512.10931v1",
+        "categories": [
+          "cs.LG",
+          "cs.CL"
+        ],
+        "primary_category": "cs.LG"
       }
     ],
     "count": 15,
@@ -311,7 +322,7 @@
       "cs.LG",
       "cs.CL"
     ],
-    "fetch_date": "2025-12-11"
+    "fetch_date": "2025-12-12"
   },
   "metadata": {
     "source": "arXiv API",
@@ -320,19 +331,19 @@
       "total_fetched": 15,
       "new_papers": 15,
       "duplicates_filtered": 0,
-      "last_fetch": "2025-12-10T09:04:57.135514"
+      "last_fetch": "2025-12-11T09:05:08.733134"
     }
   },
   "costs": {
-    "execution_time": 0.52516770362854,
-    "execution_minutes": 0.008752795060475667,
-    "github_actions": 7.002236048380534e-05,
+    "execution_time": 0.5968000888824463,
+    "execution_minutes": 0.009946668148040771,
+    "github_actions": 7.957334518432617e-05,
     "openai": {
       "input": 0,
       "output": 0,
       "total": 0
     },
-    "total": 7.002236048380534e-05,
+    "total": 7.957334518432617e-05,
     "token_usage": {}
   }
 }
