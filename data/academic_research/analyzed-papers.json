@@ -1,351 +1,358 @@
 {
   "agent": "agent-b-paper-analyzer",
-  "timestamp": "2025-12-11T09:06:54.300304",
+  "timestamp": "2025-12-12T09:06:41.624132",
   "status": "completed",
   "input_from": "agent-a-paper-fetcher",
   "data": {
     "analyzed_papers": [
       {
-        "id": "2512.09929v1",
-        "title": "Closing the Train-Test Gap in World Models for Gradient-Based Planning",
+        "id": "2512.10957v1",
+        "title": "SceneMaker: Open-set 3D Scene Generation with Decoupled De-occlusion and Pose Estimation Model",
         "authors": [
-          "Arjun Parthasarathy",
-          "Nimit Kalra",
-          "Rohun Agrawal",
-          "Yann LeCun",
-          "Oumayma Bounou"
+          "Yukai Shi",
+          "Weiyu Li",
+          "Zihao Wang",
+          "Hongyang Li",
+          "Xingyu Chen"
         ],
-        "abstract": "World models paired with model predictive control (MPC) can be trained offline on large-scale datasets of expert trajectories and enable generalization to a wide range of planning tasks at inference time. Compared to traditional MPC procedures, which rely on slow search algorithms or on iteratively solving optimization problems exactly, gradient-based planning offers a computationally efficient alternative. However, the performance of gradient-based planning has thus far lagged behind that of ot...",
-        "published": "2025-12-10T18:59:45Z",
-        "updated": "2025-12-10T18:59:45Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.09929v1",
-        "abs_url": "https://arxiv.org/abs/2512.09929v1",
+        "abstract": "We propose a decoupled 3D scene generation framework called SceneMaker in this work. Due to the lack of sufficient open-set de-occlusion and pose estimation priors, existing methods struggle to simultaneously produce high-quality geometry and accurate poses under severe occlusion and open-set settings. To address these issues, we first decouple the de-occlusion model from 3D object generation, and enhance it by leveraging image datasets and collected de-occlusion datasets for much more diverse o...",
+        "published": "2025-12-11T18:59:56Z",
+        "updated": "2025-12-11T18:59:56Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.10957v1",
+        "abs_url": "https://arxiv.org/abs/2512.10957v1",
+        "categories": [
+          "cs.CV",
+          "cs.AI"
+        ],
+        "primary_category": "cs.CV",
+        "analysis": {
+          "tldr": "This paper introduces SceneMaker, a new framework for generating 3D scenes that can handle the tricky problems of occlusion and pose estimation without getting tangled up. By separating the de-occlusion process from object generation, the authors improve the quality of 3D scene creation.",
+          "eli5": "Imagine trying to build a 3D model of a messy room where some objects are hidden behind others. SceneMaker helps by figuring out what those hidden objects are and where they should go without mixing that with the model-building process. It's like having a smart assistant that can both find hidden toys and build a great toy castle at the same time!",
+          "key_contributions": [
+            "The introduction of a decoupled model that separates de-occlusion from 3D object generation, improving accuracy and efficiency.",
+            "Leveraging diverse datasets to enhance the understanding and accuracy of occluded objects in various settings.",
+            "Providing a framework that can generate high-quality 3D scenes in challenging environments, addressing a significant gap in current technology."
+          ],
+          "why_care": "This research could lead to better augmented reality applications, more realistic virtual environments in games, and even advancements in robotics where understanding surroundings accurately is crucial. It could make our digital experiences much more immersive and lifelike.",
+          "accessibility": "General Audience",
+          "spicy_take": "By decoupling processes, SceneMaker could revolutionize how we think about 3D modeling\u2014making it less of a black box and more of a collaborative process between AI and human designers.",
+          "reading_time_minutes": 5
+        }
+      },
+      {
+        "id": "2512.10953v1",
+        "title": "Bidirectional Normalizing Flow: From Data to Noise and Back",
+        "authors": [
+          "Yiyang Lu",
+          "Qiao Sun",
+          "Xianbang Wang",
+          "Zhicheng Jiang",
+          "Hanhong Zhao"
+        ],
+        "abstract": "Normalizing Flows (NFs) have been established as a principled framework for generative modeling. Standard NFs consist of a forward process and a reverse process: the forward process maps data to noise, while the reverse process generates samples by inverting it. Typical NF forward transformations are constrained by explicit invertibility, ensuring that the reverse process can serve as their exact analytic inverse. Recent developments in TARFlow and its variants have revitalized NF methods by com...",
+        "published": "2025-12-11T18:59:55Z",
+        "updated": "2025-12-11T18:59:55Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.10953v1",
+        "abs_url": "https://arxiv.org/abs/2512.10953v1",
         "categories": [
           "cs.LG",
-          "cs.RO"
+          "cs.CV"
         ],
         "primary_category": "cs.LG",
         "analysis": {
-          "tldr": "This paper tackles the challenge of improving the way AI models plan and execute tasks by making them better at understanding the world. It specifically focuses on closing the gap between how these models are trained and how they perform in real situations.",
-          "eli5": "Imagine you're teaching a robot to navigate a maze. Traditionally, it uses a complicated map and gets lost a lot. This research shows how to train the robot better on lots of examples so that when it's time to find its way out, it can do so more efficiently and doesn't get caught up in the details.",
+          "tldr": "This paper introduces a novel approach to Normalizing Flows (NFs) that allows for a bidirectional transformation between data and noise, enhancing the generation of samples. The authors explore a new framework that improves the flexibility and efficiency of generative modeling.",
+          "eli5": "Imagine you have a magic machine that can turn your favorite toys (data) into fluffy clouds (noise) and then back into toys again. This paper presents an upgraded version of that machine, making it easier and better at transforming toys into clouds and vice versa, allowing us to create new toys from the clouds.",
           "key_contributions": [
-            "The paper introduces a method to enhance the training of world models, making them more effective for gradient-based planning.",
-            "It identifies and addresses the discrepancies between how models are trained (using lots of expert data) and how they perform in real-time tasks.",
-            "The authors propose a novel approach that allows models to generalize better across various planning tasks, bridging the gap between theory and practice."
+            "The introduction of a bidirectional framework for Normalizing Flows, enabling more efficient transformations between data and noise.",
+            "Enhancements over existing models like TARFlow, which increase the flexibility and capabilities of generative modeling.",
+            "The establishment of new theoretical insights that provide a deeper understanding of the invertibility constraints in Normalizing Flows."
           ],
-          "why_care": "As AI becomes more integrated into everyday life\u2014think self-driving cars or robots in warehouses\u2014making these systems smarter and more reliable can lead to safer and more efficient technologies that impact our daily routines.",
+          "why_care": "This research has the potential to improve how we generate data in various fields, from creating realistic images in gaming to more accurate simulations in science, impacting industries ranging from entertainment to healthcare.",
           "accessibility": "Tech-Savvy",
           "spicy_take": null,
           "reading_time_minutes": 5
         }
       },
       {
-        "id": "2512.09920v1",
-        "title": "LISN: Language-Instructed Social Navigation with VLM-based Controller Modulating",
+        "id": "2512.10952v1",
+        "title": "Hierarchical Dataset Selection for High-Quality Data Sharing",
         "authors": [
-          "Junting Chen",
-          "Yunchuan Li",
-          "Panfeng Jiang",
-          "Jiacheng Du",
-          "Zixuan Chen"
+          "Xiaona Zhou",
+          "Yingyan Zeng",
+          "Ran Jin",
+          "Ismini Lourentzou"
         ],
-        "abstract": "Towards human-robot coexistence, socially aware navigation is significant for mobile robots. Yet existing studies on this area focus mainly on path efficiency and pedestrian collision avoidance, which are essential but represent only a fraction of social navigation. Beyond these basics, robots must also comply with user instructions, aligning their actions to task goals and social norms expressed by humans. In this work, we present LISN-Bench, the first simulation-based benchmark for language-in...",
-        "published": "2025-12-10T18:54:30Z",
-        "updated": "2025-12-10T18:54:30Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.09920v1",
-        "abs_url": "https://arxiv.org/abs/2512.09920v1",
-        "categories": [
-          "cs.RO",
-          "cs.AI",
-          "cs.CV"
-        ],
-        "primary_category": "cs.RO",
-        "analysis": {
-          "tldr": "This paper presents LISN, a new approach for teaching robots how to navigate socially while following human instructions. It focuses on more than just avoiding obstacles; it aims to make robots act in ways that are socially acceptable and helpful.",
-          "eli5": "Imagine a robot that can not only move from point A to point B but also do it in a way that respects people's space and responds to what you tell it to do. This paper introduces a system that helps robots understand and follow human instructions while navigating, making them better companions in our daily lives.",
-          "key_contributions": [
-            "The introduction of LISN-Bench, a benchmark for testing how well robots can understand and follow language instructions while navigating.",
-            "A focus on socially aware navigation, moving beyond just avoiding obstacles to include human social norms and expectations.",
-            "A framework that allows for the integration of visual and linguistic information to improve robot navigation in social contexts."
-          ],
-          "why_care": "As robots become more integrated into our daily lives, ensuring they can navigate social environments safely and effectively is crucial. This research could lead to robots that are not only efficient but also considerate of human interactions, enhancing human-robot coexistence.",
-          "accessibility": "General Audience",
-          "spicy_take": "This research could be a game-changer for the future of robotics\u2014if robots can truly understand us socially, it might redefine our interactions with technology.",
-          "reading_time_minutes": 5
-        }
-      },
-      {
-        "id": "2512.09914v1",
-        "title": "FALCON: Few-step Accurate Likelihoods for Continuous Flows",
-        "authors": [
-          "Danyal Rehman",
-          "Tara Akhound-Sadegh",
-          "Artem Gazizov",
-          "Yoshua Bengio",
-          "Alexander Tong"
-        ],
-        "abstract": "Scalable sampling of molecular states in thermodynamic equilibrium is a long-standing challenge in statistical physics. Boltzmann Generators tackle this problem by pairing a generative model, capable of exact likelihood computation, with importance sampling to obtain consistent samples under the target distribution. Current Boltzmann Generators primarily use continuous normalizing flows (CNFs) trained with flow matching for efficient training of powerful models. However, likelihood calculation f...",
-        "published": "2025-12-10T18:47:25Z",
-        "updated": "2025-12-10T18:47:25Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.09914v1",
-        "abs_url": "https://arxiv.org/abs/2512.09914v1",
+        "abstract": "The success of modern machine learning hinges on access to high-quality training data. In many real-world scenarios, such as acquiring data from public repositories or sharing across institutions, data is naturally organized into discrete datasets that vary in relevance, quality, and utility. Selecting which repositories or institutions to search for useful datasets, and which datasets to incorporate into model training are therefore critical decisions, yet most existing methods select individua...",
+        "published": "2025-12-11T18:59:55Z",
+        "updated": "2025-12-11T18:59:55Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.10952v1",
+        "abs_url": "https://arxiv.org/abs/2512.10952v1",
         "categories": [
           "cs.LG",
           "cs.AI"
         ],
         "primary_category": "cs.LG",
         "analysis": {
-          "tldr": "This paper introduces a new method called FALCON that improves the efficiency of generating molecular states in statistical physics by leveraging advanced machine learning techniques. It focuses on achieving accurate likelihoods with fewer computational steps.",
-          "eli5": "Imagine you're trying to find different Lego configurations that fit together perfectly without looking at all the possible combinations. FALCON is like a smart robot that helps you quickly find those perfect combinations using a special set of rules and shortcuts, making it much faster and more efficient to build what you want.",
+          "tldr": "This paper proposes a new method for selecting the best datasets from various repositories to improve machine learning outcomes. It emphasizes the importance of choosing high-quality data for training models.",
+          "eli5": "Imagine you\u2019re trying to cook the best dish possible, but you have a huge pantry with lots of ingredients that vary in quality. This paper is like a recipe guide that helps you pick the best ingredients (datasets) from different cupboards (repositories) to make sure your dish (machine learning model) turns out great.",
           "key_contributions": [
-            "FALCON enhances the speed and accuracy of likelihood calculations in molecular sampling, reducing the computational steps needed.",
-            "It introduces new techniques for training continuous normalizing flows that can produce better samples from complex distributions.",
-            "The paper provides a robust framework that combines generative models with importance sampling for improved consistency in sampling."
+            "Introduces a hierarchical approach to dataset selection based on quality and relevance.",
+            "Demonstrates that using a structured method can significantly improve model performance compared to random dataset selection.",
+            "Provides a framework that can be applied across different domains and types of machine learning tasks."
           ],
-          "why_care": "Understanding molecular states better can lead to breakthroughs in drug discovery, materials science, and other fields that rely on molecular interactions, ultimately impacting industries like pharmaceuticals and renewable energy.",
+          "why_care": "In a world where machine learning applications are becoming increasingly prevalent\u2014from healthcare to finance\u2014the quality of data directly impacts the effectiveness of these technologies. Better data selection means better AI, which can lead to more accurate predictions and innovations.",
           "accessibility": "Tech-Savvy",
-          "spicy_take": "FALCON could be a game changer, redefining how we approach molecular simulations and potentially making more complex physical systems accessible to researchers without extensive computational resources.",
+          "spicy_take": "If we don't start prioritizing data quality as much as we do algorithm development, we might just be training AI to be glorified guessers.",
           "reading_time_minutes": 5
         }
       },
       {
-        "id": "2512.09912v1",
-        "title": "Supervised learning pays attention",
+        "id": "2512.10949v1",
+        "title": "Are We Ready for RL in Text-to-3D Generation? A Progressive Investigation",
         "authors": [
-          "Erin Craig",
-          "Robert Tibshirani"
+          "Yiwen Tang",
+          "Zoey Guo",
+          "Kaixin Zhu",
+          "Ray Zhang",
+          "Qizhi Chen"
         ],
-        "abstract": "In-context learning with attention enables large neural networks to make context-specific predictions by selectively focusing on relevant examples. Here, we adapt this idea to supervised learning procedures such as lasso regression and gradient boosting, for tabular data. Our goals are to (1) flexibly fit personalized models for each prediction point and (2) retain model simplicity and interpretability.\n  Our method fits a local model for each test observation by weighting the training data acco...",
-        "published": "2025-12-10T18:43:46Z",
-        "updated": "2025-12-10T18:43:46Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.09912v1",
-        "abs_url": "https://arxiv.org/abs/2512.09912v1",
+        "abstract": "Reinforcement learning (RL), earlier proven to be effective in large language and multi-modal models, has been successfully extended to enhance 2D image generation recently. However, applying RL to 3D generation remains largely unexplored due to the higher spatial complexity of 3D objects, which require globally consistent geometry and fine-grained local textures. This makes 3D generation significantly sensitive to reward designs and RL algorithms. To address these challenges, we conduct the fir...",
+        "published": "2025-12-11T18:59:52Z",
+        "updated": "2025-12-11T18:59:52Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.10949v1",
+        "abs_url": "https://arxiv.org/abs/2512.10949v1",
         "categories": [
-          "stat.ML",
-          "cs.AI",
-          "cs.LG"
-        ],
-        "primary_category": "stat.ML",
-        "analysis": {
-          "tldr": "This paper presents a new way of using attention mechanisms in supervised learning to create personalized models that remain simple and interpretable. The method allows for context-specific predictions by focusing on relevant training examples tailored to each specific observation.",
-          "eli5": "Imagine you\u2019re trying to predict how well a student will do on a test based on their past performance. Instead of looking at everyone's scores equally, this approach helps the model pay more attention to similar past students' scores that relate closely to the new student. This way, predictions are more personalized, and the model doesn't get confused by irrelevant data.",
-          "key_contributions": [
-            "Introduces a flexible method for fitting personalized models for each prediction point in supervised learning.",
-            "Maintains simplicity and interpretability, making it easier for users to understand how predictions are made.",
-            "Adapts attention mechanisms from neural networks to traditional statistical methods like lasso regression and gradient boosting."
-          ],
-          "why_care": "Personalized predictions can improve decision-making in various fields such as healthcare, finance, and education by providing tailored insights rather than one-size-fits-all solutions. This could lead to better outcomes for individuals based on their unique circumstances.",
-          "accessibility": "Tech-Savvy",
-          "spicy_take": "This approach could be a game-changer in making complex models more user-friendly \u2013 a win for both data scientists and the people who rely on their predictions.",
-          "reading_time_minutes": 5
-        }
-      },
-      {
-        "id": "2512.09910v1",
-        "title": "Efficient Continual Learning in Neural Machine Translation: A Low-Rank Adaptation Approach",
-        "authors": [
-          "Salvador Carri\u00f3n",
-          "Francisco Casacuberta"
-        ],
-        "abstract": "Continual learning in Neural Machine Translation (NMT) faces the dual challenges of catastrophic forgetting and the high computational cost of retraining. This study establishes Low-Rank Adaptation (LoRA) as a parameter-efficient framework to address these challenges in dedicated NMT architectures. We first demonstrate that LoRA-based fine-tuning adapts NMT models to new languages and domains with performance on par with full-parameter techniques, while utilizing only a fraction of the parameter...",
-        "published": "2025-12-10T18:37:57Z",
-        "updated": "2025-12-10T18:37:57Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.09910v1",
-        "abs_url": "https://arxiv.org/abs/2512.09910v1",
-        "categories": [
-          "cs.CL",
-          "cs.AI"
-        ],
-        "primary_category": "cs.CL",
-        "analysis": {
-          "tldr": "This paper introduces a smart way to keep neural translation systems up to date with new languages or topics without needing to start from scratch each time, making it cheaper and faster.",
-          "eli5": "Imagine if your translator app could learn new languages without forgetting the ones already installed. That's what the authors aim to achieve with a method called Low-Rank Adaptation, which allows the app to adapt to new languages or subjects by changing just a small part of its brain, rather than overhauling everything.",
-          "key_contributions": [
-            "Introduces Low-Rank Adaptation (LoRA) as an efficient method for continual learning in neural translation models.",
-            "Demonstrates that LoRA can achieve the same performance as traditional methods while using significantly fewer resources.",
-            "Provides a framework that could make translation systems more adaptable and cost-effective for real-world applications."
-          ],
-          "why_care": "As the world becomes increasingly globalized, efficient translation tools are crucial for communication. This research could lead to faster, cheaper, and more effective translation services, which benefits businesses, travelers, and tech developers alike.",
-          "accessibility": "Tech-Savvy",
-          "spicy_take": "If we can make translation models leaner without losing quality, it raises the question: are we really optimizing machine learning, or just making do with less?",
-          "reading_time_minutes": 5
-        }
-      },
-      {
-        "id": "2512.09909v1",
-        "title": "STACHE: Local Black-Box Explanations for Reinforcement Learning Policies",
-        "authors": [
-          "Andrew Elashkin",
-          "Orna Grumberg"
-        ],
-        "abstract": "Reinforcement learning agents often behave unexpectedly in sparse-reward or safety-critical environments, creating a strong need for reliable debugging and verification tools. In this paper, we propose STACHE, a comprehensive framework for generating local, black-box explanations for an agent's specific action within discrete Markov games. Our method produces a Composite Explanation consisting of two complementary components: (1) a Robustness Region, the connected neighborhood of states where th...",
-        "published": "2025-12-10T18:37:28Z",
-        "updated": "2025-12-10T18:37:28Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.09909v1",
-        "abs_url": "https://arxiv.org/abs/2512.09909v1",
-        "categories": [
-          "cs.LG",
-          "cs.AI"
-        ],
-        "primary_category": "cs.LG",
-        "analysis": {
-          "tldr": "This paper introduces STACHE, a framework that helps explain the sometimes puzzling decisions made by reinforcement learning agents in tricky situations. It aims to make it easier to understand why these agents do what they do, especially in important or dangerous scenarios.",
-          "eli5": "Imagine you have a robot that learns to play a game, but sometimes it makes silly moves that leave you scratching your head. STACHE is like a detective that looks into those confusing choices, revealing the reasons behind them and helping us see which situations can lead to better decisions.",
-          "key_contributions": [
-            "STACHE provides a systematic way to explain the actions of reinforcement learning agents in complex environments.",
-            "It offers a 'Robustness Region' which highlights the range of situations where an agent's decision is stable and reliable.",
-            "The framework creates a 'Composite Explanation', combining different elements to give a fuller understanding of an agent's behavior."
-          ],
-          "why_care": "Understanding AI decision-making is crucial in areas like healthcare, finance, and autonomous vehicles. With robust explanations, we can trust these systems more and ensure they act safely and effectively in our daily lives.",
-          "accessibility": "Tech-Savvy",
-          "spicy_take": "If we want AI to be integrated into critical applications, transparency like what STACHE offers is not just a luxury\u2014it's a necessity.",
-          "reading_time_minutes": 5
-        }
-      },
-      {
-        "id": "2512.09908v1",
-        "title": "Bayesian Networks, Markov Networks, Moralisation, Triangulation: a Categorical Perspective",
-        "authors": [
-          "Antonio Lorenzin",
-          "Fabio Zanasi"
-        ],
-        "abstract": "Moralisation and Triangulation are transformations allowing to switch between different ways of factoring a probability distribution into a graphical model. Moralisation allows to view a Bayesian network (a directed model) as a Markov network (an undirected model), whereas triangulation addresses the opposite direction. We present a categorical framework where these transformations are modelled as functors between a category of Bayesian networks and one of Markov networks. The two kinds of netwo...",
-        "published": "2025-12-10T18:36:30Z",
-        "updated": "2025-12-10T18:36:30Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.09908v1",
-        "abs_url": "https://arxiv.org/abs/2512.09908v1",
-        "categories": [
-          "cs.AI",
-          "cs.LO",
-          "math.CT"
-        ],
-        "primary_category": "cs.AI",
-        "analysis": {
-          "tldr": "This paper explores how to transform graphical models of probability distributions from directed to undirected formats and vice versa. It presents a new framework that treats these transformations as functors within a mathematical structure.",
-          "eli5": "Imagine you have two types of maps: one that shows roads connecting cities (Bayesian networks) and another that shows just the cities connected by paths, without directions (Markov networks). This paper discusses how you can switch between these two kinds of maps using specific rules and how these rules can be understood through a special mathematical lens.",
-          "key_contributions": [
-            "The introduction of a categorical framework to analyze the transformations between Bayesian and Markov networks.",
-            "A formalization of the processes of moralization and triangulation within this categorical context.",
-            "New insights into how these transformations can improve our understanding of probabilistic relationships in various applications."
-          ],
-          "why_care": "Understanding these transformations can lead to better modeling of complex systems in fields like machine learning, statistics, and even artificial intelligence, making it easier to interpret data and draw insights from it.",
-          "accessibility": "Researchers Only",
-          "spicy_take": "While the math is undoubtedly intricate, the potential applications make this work a game-changer for those who can navigate through its complexities.",
-          "reading_time_minutes": 15
-        }
-      },
-      {
-        "id": "2512.09898v1",
-        "title": "Visual Heading Prediction for Autonomous Aerial Vehicles",
-        "authors": [
-          "Reza Ahmari",
-          "Ahmad Mohammadi",
-          "Vahid Hemmati",
-          "Mohammed Mynuddin",
-          "Parham Kebria"
-        ],
-        "abstract": "The integration of Unmanned Aerial Vehicles (UAVs) and Unmanned Ground Vehicles (UGVs) is increasingly central to the development of intelligent autonomous systems for applications such as search and rescue, environmental monitoring, and logistics. However, precise coordination between these platforms in real-time scenarios presents major challenges, particularly when external localization infrastructure such as GPS or GNSS is unavailable or degraded [1]. This paper proposes a vision-based, data...",
-        "published": "2025-12-10T18:27:37Z",
-        "updated": "2025-12-10T18:27:37Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.09898v1",
-        "abs_url": "https://arxiv.org/abs/2512.09898v1",
-        "categories": [
-          "cs.RO",
-          "cs.AI",
           "cs.CV",
-          "cs.MA",
-          "eess.SY"
-        ],
-        "primary_category": "cs.RO",
-        "analysis": {
-          "tldr": "This paper presents a new method for helping drones and ground robots communicate and coordinate their movements without relying on GPS. It uses visual data to predict the headings of aerial vehicles, making their collaboration more efficient in challenging environments.",
-          "eli5": "Imagine you have a drone and a robot that need to work together, like a pair of friends finding their way in a big park without a map. This paper describes a smart system that lets the drone 'see' where it should go based on what it can visually recognize around it, so it can help the robot navigate better, especially when GPS isn't available.",
-          "key_contributions": [
-            "Introduction of a vision-based method for heading prediction that enhances real-time coordination between UAVs and UGVs.",
-            "Demonstration of this method's effectiveness in environments lacking reliable localization signals.",
-            "Development of algorithms that enable autonomous systems to operate more safely and reliably in complex scenarios."
-          ],
-          "why_care": "As drones and robots become more prevalent in our everyday lives, like in delivery services or disaster response, enhancing their ability to work together without relying on satellite signals is crucial. This research could lead to safer and more efficient systems that we might use for everything from saving lives to making our online shopping even faster.",
-          "accessibility": "Tech-Savvy",
-          "spicy_take": "This approach could redefine how we think about autonomous vehicle cooperation, suggesting that sight might just be as vital as GPS for future tech.",
-          "reading_time_minutes": 5
-        }
-      },
-      {
-        "id": "2512.09897v1",
-        "title": "SCOPE: Language Models as One-Time Teacher for Hierarchical Planning in Text Environments",
-        "authors": [
-          "Haoye Lu",
-          "Pavan Seshadri",
-          "Kaheer Suleman"
-        ],
-        "abstract": "Long-term planning in complex, text-based environments presents significant challenges due to open-ended action spaces, ambiguous observations, and sparse feedback. Recent research suggests that large language models (LLMs) encode rich semantic knowledge about the world, which can be valuable for guiding agents in high-level reasoning and planning across both embodied and purely textual settings. However, existing approaches often depend heavily on querying LLMs during training and inference, ma...",
-        "published": "2025-12-10T18:26:14Z",
-        "updated": "2025-12-10T18:26:14Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.09897v1",
-        "abs_url": "https://arxiv.org/abs/2512.09897v1",
-        "categories": [
           "cs.AI",
           "cs.CL"
         ],
-        "primary_category": "cs.AI",
+        "primary_category": "cs.CV",
         "analysis": {
-          "tldr": "This paper explores how large language models (LLMs) can be used to help create effective long-term plans in complex text-based environments without constantly needing to query these models. It proposes a new method that leverages LLMs as a one-time teacher for hierarchical planning.",
-          "eli5": "Imagine trying to solve a really complicated puzzle where the pieces are scattered in a big messy room. This paper shows how super-smart language models can act like a helpful guide or teacher, giving you valuable hints and instructions on how to put the puzzle together without needing to ask them for help every step of the way. It\u2019s like getting a one-time cheat sheet that helps you figure out your strategy.",
+          "tldr": "This paper explores the potential of using reinforcement learning (RL) to improve the generation of 3D objects from text descriptions, a step up from previous work in 2D image generation. The authors highlight the unique challenges of 3D generation and propose methods to tackle these issues.",
+          "eli5": "The researchers are trying to teach computers how to create 3D models based on written descriptions, similar to how they can currently make 2D images. However, crafting 3D objects is trickier because they need to look good from all angles and have detailed textures. They\u2019re figuring out how to use a learning method called reinforcement learning to make this process better.",
           "key_contributions": [
-            "The paper introduces a new framework, called SCOPE, that allows agents to plan in complex environments without needing constant access to LLMs.",
-            "It demonstrates the effectiveness of using LLMs as a one-time teacher, potentially reducing the computational load during both training and execution.",
-            "The research showcases the application of this method across different scenarios, suggesting a flexible approach to hierarchical planning."
+            "They identify the specific challenges of applying reinforcement learning to 3D generation, which is more complex than 2D.",
+            "They propose new reward designs tailored for 3D generation to improve the quality of the models created.",
+            "They share experimental results that demonstrate the effectiveness of their approach, paving the way for future research in this area."
           ],
-          "why_care": "This work is important because it could lead to more efficient AI systems that can plan and act in complex environments, which has real-world applications in anything from robotics to automated customer service. By reducing dependency on constant querying of LLMs, it could make these technologies faster and cheaper to run.",
+          "why_care": "3D generation has huge implications for industries like gaming, virtual reality, and architecture. By improving how we create 3D models from text, we could see more innovative designs and faster development cycles in these fields, ultimately enhancing user experiences.",
           "accessibility": "Tech-Savvy",
-          "spicy_take": "The reliance on constant querying of LLMs might be a crutch that hinders the development of more autonomous AI systems; SCOPE could be the shake-up we need.",
+          "spicy_take": "If this work succeeds, we might finally be on the brink of creating interactive 3D worlds just from our imagination, but the road ahead is filled with complex challenges!",
+          "reading_time_minutes": 6
+        }
+      },
+      {
+        "id": "2512.10946v1",
+        "title": "ImplicitRDP: An End-to-End Visual-Force Diffusion Policy with Structural Slow-Fast Learning",
+        "authors": [
+          "Wendi Chen",
+          "Han Xue",
+          "Yi Wang",
+          "Fangyuan Zhou",
+          "Jun Lv"
+        ],
+        "abstract": "Human-level contact-rich manipulation relies on the distinct roles of two key modalities: vision provides spatially rich but temporally slow global context, while force sensing captures rapid, high-frequency local contact dynamics. Integrating these signals is challenging due to their fundamental frequency and informational disparities. In this work, we propose ImplicitRDP, a unified end-to-end visual-force diffusion policy that integrates visual planning and reactive force control within a sing...",
+        "published": "2025-12-11T18:59:46Z",
+        "updated": "2025-12-11T18:59:46Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.10946v1",
+        "abs_url": "https://arxiv.org/abs/2512.10946v1",
+        "categories": [
+          "cs.RO",
+          "cs.AI",
+          "cs.LG"
+        ],
+        "primary_category": "cs.RO",
+        "analysis": {
+          "tldr": "This paper introduces ImplicitRDP, a new method that combines visual information and force sensing to improve robots' ability to manipulate objects in contact-rich environments. It addresses the challenge of synchronizing slow visual data with fast force data for better robotic performance.",
+          "eli5": "Imagine you're trying to catch a ball. Your eyes tell you where the ball is (that's the vision part), but your hands need to react quickly to grab it when it gets close (that's the force part). This paper shows how to teach robots to do something similar by merging their vision and touch in a smart way.",
+          "key_contributions": [
+            "The development of ImplicitRDP, a unified method that effectively combines visual planning and real-time force control.",
+            "A novel approach to handling the mismatch in speed between visual information and force sensing, enabling better interaction with complex objects.",
+            "Demonstrating the effectiveness of the model through various robotic manipulation tasks, showcasing its potential in practical applications."
+          ],
+          "why_care": "As robots are increasingly used in everyday tasks from delivery to healthcare, enhancing their ability to understand and react to their environments can lead to safer and more efficient interactions with humans and objects.",
+          "accessibility": "Tech-Savvy",
+          "spicy_take": "ImplicitRDP could revolutionize how we think about robotic interactions, making them not only smarter but also more intuitive and human-like in their handling of objects.",
           "reading_time_minutes": 5
         }
       },
       {
-        "id": "2512.09895v1",
-        "title": "Human-in-the-Loop and AI: Crowdsourcing Metadata Vocabulary for Materials Science",
+        "id": "2512.10943v1",
+        "title": "AlcheMinT: Fine-grained Temporal Control for Multi-Reference Consistent Video Generation",
         "authors": [
-          "Jane Greenberg",
-          "Scott McClellan",
-          "Addy Ireland",
-          "Robert Sammarco",
-          "Colton Gerber"
+          "Sharath Girish",
+          "Viacheslav Ivanov",
+          "Tsai-Shien Chen",
+          "Hao Chen",
+          "Aliaksandr Siarohin"
         ],
-        "abstract": "Metadata vocabularies are essential for advancing FAIR and FARR data principles, but their development constrained by limited human resources and inconsistent standardization practices. This paper introduces MatSci-YAMZ, a platform that integrates artificial intelligence (AI) and human-in-the-loop (HILT), including crowdsourcing, to support metadata vocabulary development. The paper reports on a proof-of-concept use case evaluating the AI-HILT model in materials science, a highly interdisciplina...",
-        "published": "2025-12-10T18:22:57Z",
-        "updated": "2025-12-10T18:22:57Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.09895v1",
-        "abs_url": "https://arxiv.org/abs/2512.09895v1",
+        "abstract": "Recent advances in subject-driven video generation with large diffusion models have enabled personalized content synthesis conditioned on user-provided subjects. However, existing methods lack fine-grained temporal control over subject appearance and disappearance, which are essential for applications such as compositional video synthesis, storyboarding, and controllable animation. We propose AlcheMinT, a unified framework that introduces explicit timestamps conditioning for subject-driven video...",
+        "published": "2025-12-11T18:59:34Z",
+        "updated": "2025-12-11T18:59:34Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.10943v1",
+        "abs_url": "https://arxiv.org/abs/2512.10943v1",
+        "categories": [
+          "cs.CV",
+          "cs.AI"
+        ],
+        "primary_category": "cs.CV",
+        "analysis": {
+          "tldr": "This paper introduces AlcheMinT, a new framework that enhances video generation by allowing precise control over when subjects appear and disappear. This advancement aims to improve personalized video creation, making it easier for users to create dynamic, story-driven content.",
+          "eli5": "Imagine you have a magic camera that can create videos based on your ideas. The problem is, sometimes the characters in your video show up at the wrong times. AlcheMinT is like giving that camera a time schedule, so it knows exactly when each character should appear or disappear, making your videos feel way more natural and exciting.",
+          "key_contributions": [
+            "AlcheMinT introduces a novel method for integrating explicit timestamps into video generation, allowing for detailed control over subject timing.",
+            "The framework enables personalized content synthesis based on user-defined subjects, improving the customization of video stories.",
+            "It enhances the capabilities of existing large diffusion models, pushing the boundaries of what's possible in video generation."
+          ],
+          "why_care": "As video content becomes a dominant form of communication, tools like AlcheMinT can empower creators\u2014marketers, educators, and even everyday users\u2014to produce high-quality, engaging videos easily. This could revolutionize industries like film, advertising, and online education.",
+          "accessibility": "Tech-Savvy",
+          "spicy_take": "AlcheMinT could set the stage for a new wave of video content creation that blurs the line between human creativity and machine capabilities, making traditional video editing feel obsolete.",
+          "reading_time_minutes": 5
+        }
+      },
+      {
+        "id": "2512.10941v1",
+        "title": "Mull-Tokens: Modality-Agnostic Latent Thinking",
+        "authors": [
+          "Arijit Ray",
+          "Ahmed Abdelkader",
+          "Chengzhi Mao",
+          "Bryan A. Plummer",
+          "Kate Saenko"
+        ],
+        "abstract": "Reasoning goes beyond language; the real world requires reasoning about space, time, affordances, and much more that words alone cannot convey. Existing multimodal models exploring the potential of reasoning with images are brittle and do not scale. They rely on calling specialist tools, costly generation of images, or handcrafted reasoning data to switch between text and image thoughts. Instead, we offer a simpler alternative -- Mull-Tokens -- modality-agnostic latent tokens pre-trained to hold...",
+        "published": "2025-12-11T18:59:08Z",
+        "updated": "2025-12-11T18:59:08Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.10941v1",
+        "abs_url": "https://arxiv.org/abs/2512.10941v1",
+        "categories": [
+          "cs.CV",
+          "cs.AI"
+        ],
+        "primary_category": "cs.CV",
+        "analysis": {
+          "tldr": "This paper introduces Mull-Tokens, a new way to think about reasoning that isn't limited by specific types of data, like text or images. It promises to make machine reasoning more flexible and effective without relying on complex setups.",
+          "eli5": "Imagine trying to solve a puzzle using only words or only pictures. It can be tough, right? Mull-Tokens are like magic tokens that help computers understand and reason across different types of information\u2014like a Swiss Army knife for thinking! Instead of needing fancy tools or tons of special data, these tokens can work with anything.",
+          "key_contributions": [
+            "Mull-Tokens provide a unified way to represent knowledge across different modalities, simplifying the reasoning process.",
+            "They require less specialized training and data, making them more scalable and adaptable for real-world applications.",
+            "The approach reduces reliance on complex multimodal tools and handcrafted datasets, streamlining the integration of text and images in reasoning."
+          ],
+          "why_care": "The ability to reason across different types of information is crucial for developing smarter AI systems that can understand our world more intuitively, which can lead to advancements in applications like robotics, autonomous vehicles, and more effective virtual assistants.",
+          "accessibility": "Tech-Savvy",
+          "spicy_take": "Mull-Tokens might just be the missing link that allows AI to finally move beyond its text-centric past, paving the way for a truly multimodal future.",
+          "reading_time_minutes": 5
+        }
+      },
+      {
+        "id": "2512.10940v1",
+        "title": "OmniView: An All-Seeing Diffusion Model for 3D and 4D View Synthesis",
+        "authors": [
+          "Xiang Fan",
+          "Sharath Girish",
+          "Vivek Ramanujan",
+          "Chaoyang Wang",
+          "Ashkan Mirzaei"
+        ],
+        "abstract": "Prior approaches injecting camera control into diffusion models have focused on specific subsets of 4D consistency tasks: novel view synthesis, text-to-video with camera control, image-to-video, amongst others. Therefore, these fragmented approaches are trained on disjoint slices of available 3D/4D data. We introduce OmniView, a unified framework that generalizes across a wide range of 4D consistency tasks. Our method separately represents space, time, and view conditions, enabling flexible comb...",
+        "published": "2025-12-11T18:59:05Z",
+        "updated": "2025-12-11T18:59:05Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.10940v1",
+        "abs_url": "https://arxiv.org/abs/2512.10940v1",
+        "categories": [
+          "cs.CV",
+          "cs.AI"
+        ],
+        "primary_category": "cs.CV",
+        "analysis": {
+          "tldr": "This paper introduces OmniView, a new framework that simplifies how we generate and manipulate 3D and 4D visual content, allowing for better consistency and flexibility across various applications.",
+          "eli5": "Imagine you want to create a movie scene where the camera smoothly moves around a 3D object. Most existing methods were like puzzle pieces that only fit certain scenarios. OmniView is like a universal puzzle piece that can work with many different parts of the 3D/4D puzzle, making it easier to create realistic animations and visuals.",
+          "key_contributions": [
+            "OmniView provides a unified framework that can handle multiple 4D tasks, unlike previous methods that focused on specific tasks.",
+            "It introduces a separate representation of space, time, and view conditions, making it easier to manipulate and generate views.",
+            "The model is capable of synthesizing images and videos in a consistent manner, increasing flexibility for researchers and creators."
+          ],
+          "why_care": "This work allows filmmakers, game developers, and VR designers to create more immersive experiences with less effort and more control, potentially changing how we interact with visual media.",
+          "accessibility": "Tech-Savvy",
+          "spicy_take": "OmniView could redefine the standards for visual content creation, making it a game-changer in the industry.",
+          "reading_time_minutes": 5
+        }
+      },
+      {
+        "id": "2512.10938v1",
+        "title": "Stronger Normalization-Free Transformers",
+        "authors": [
+          "Mingzhi Chen",
+          "Taiming Lu",
+          "Jiachen Zhu",
+          "Mingjie Sun",
+          "Zhuang Liu"
+        ],
+        "abstract": "Although normalization layers have long been viewed as indispensable components of deep learning architectures, the recent introduction of Dynamic Tanh (DyT) has demonstrated that alternatives are possible. The point-wise function DyT constrains extreme values for stable convergence and reaches normalization-level performance; this work seeks further for function designs that can surpass it. We first study how the intrinsic properties of point-wise functions influence training and performance. B...",
+        "published": "2025-12-11T18:58:49Z",
+        "updated": "2025-12-11T18:58:49Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.10938v1",
+        "abs_url": "https://arxiv.org/abs/2512.10938v1",
+        "categories": [
+          "cs.LG",
+          "cs.AI",
+          "cs.CL",
+          "cs.CV"
+        ],
+        "primary_category": "cs.LG",
+        "analysis": {
+          "tldr": "This paper explores new alternatives to normalization layers in deep learning by introducing innovative point-wise functions that can potentially outperform existing methods like Dynamic Tanh. The researchers investigate how these functions can improve training stability and model performance.",
+          "eli5": "In deep learning, we often use normalization layers to help models learn better, much like how a tutor helps students understand complex topics. However, this paper suggests that we can use different mathematical functions instead of these layers, which could make training faster and more effective. The authors are looking for new functions that can not only match but beat the performance of the current best alternative.",
+          "key_contributions": [
+            "Introduces new point-wise functions that could outperform Dynamic Tanh.",
+            "Analyzes how the properties of these functions impact training stability and model performance.",
+            "Provides insights into function design that may lead to better deep learning architectures."
+          ],
+          "why_care": "Improving deep learning models can lead to better AI applications in everyday life, from smarter virtual assistants to more accurate medical diagnostics. If we can make training more efficient and effective, it opens the door for even more powerful technologies that can benefit society.",
+          "accessibility": "Tech-Savvy",
+          "spicy_take": "If successful, this could signal the end of the normalization era in deep learning, reshaping how we think about model architecture design.",
+          "reading_time_minutes": 7
+        }
+      },
+      {
+        "id": "2512.10937v1",
+        "title": "On Decision-Making Agents and Higher-Order Causal Processes",
+        "authors": [
+          "Matt Wilson"
+        ],
+        "abstract": "We establish a precise correspondence between decision-making agents in partially observable Markov decision processes (POMDPs) and one-input process functions, the classical limit of higher-order quantum operations. In this identification an agent's policy and memory update combine into a process function w that interacts with a POMDP environment via the link product. This suggests a dual interpretation: in the physics view, the process function acts as the environment into which local operatio...",
+        "published": "2025-12-11T18:58:33Z",
+        "updated": "2025-12-11T18:58:33Z",
+        "pdf_url": "https://arxiv.org/pdf/2512.10937v1",
+        "abs_url": "https://arxiv.org/abs/2512.10937v1",
         "categories": [
           "cs.AI",
-          "cs.DL"
+          "quant-ph"
         ],
         "primary_category": "cs.AI",
         "analysis": {
-          "tldr": "This paper discusses a new platform called MatSci-YAMZ that combines artificial intelligence and crowdsourcing to help create better metadata vocabularies for materials science, aiding in data sharing and accessibility.",
-          "eli5": "Imagine trying to find a book in a massive library without a clear label system. This paper introduces a smart platform that helps create consistent labels (or metadata vocabularies) for materials science research. By using both AI and crowdsourcing, it makes it easier for scientists to share and find data.",
+          "tldr": "This paper connects how decision-making agents behave in complex environments with advanced concepts from quantum physics. It shows that agent behavior can be understood through a unique mathematical framework linking decisions to physical processes.",
+          "eli5": "Imagine you're playing a video game where you can't see everything happening around you (like a stealth game). The decisions you make are influenced by what you can see and remember about the game. This paper explains how these decision-making processes can be thought of in a similar way to some complex theories used in physics, where the rules of the game change based on how you play.",
           "key_contributions": [
-            "Introduction of MatSci-YAMZ, a platform that blends AI and human input for better metadata development.",
-            "Demonstration of a successful proof-of-concept that shows how this model works effectively in materials science.",
-            "Addressing the issue of limited human resources in developing standardized vocabularies, paving the way for more efficient data sharing."
+            "Establishes a new link between decision-making in uncertain environments (POMDPs) and higher-order quantum operations.",
+            "Introduces the concept of a process function that combines decision policies and memory updates into a cohesive framework.",
+            "Provides a dual interpretation of decision-making agents, enhancing understanding of their behavior in both classical and quantum contexts."
           ],
-          "why_care": "Better metadata vocabularies can significantly enhance data accessibility and sharing in materials science, impacting industries like manufacturing, healthcare, and energy by fostering innovation and collaboration.",
-          "accessibility": "General Audience",
-          "spicy_take": "If we want to truly advance scientific research, we need to embrace AI-powered collaboration methods like this\u2014otherwise, we risk stagnation in the face of ever-increasing data complexity.",
-          "reading_time_minutes": 5
+          "why_care": "Understanding how agents make decisions in uncertain environments can improve AI systems, enhance robotics, and influence economic models. This research bridges the gap between computational methods and physical theories, potentially leading to smarter, more adaptable technologies.",
+          "accessibility": "Tech-Savvy",
+          "spicy_take": "This paper may revolutionize how we think about AI decision-making, but it could also lead to debates about the nature of intelligence itself\u2014are we just complex algorithms playing a higher-order game?",
+          "reading_time_minutes": 8
         }
       }
     ],
     "summary": {
       "total_analyzed": 10,
       "by_accessibility": {
-        "General Audience": 2,
-        "Tech-Savvy": 7,
-        "Researchers Only": 1
+        "General Audience": 1,
+        "Tech-Savvy": 9,
+        "Researchers Only": 0
       },
-      "avg_reading_time": 6.0
+      "avg_reading_time": 5.6
     }
   },
   "metadata": {
@@ -354,19 +361,19 @@
     "style": "blog-accessible"
   },
   "costs": {
-    "execution_time": 79.0411605834961,
-    "execution_minutes": 1.3173526763916015,
-    "github_actions": 0.010538821411132812,
+    "execution_time": 70.02090644836426,
+    "execution_minutes": 1.1670151074727377,
+    "github_actions": 0.009336120859781902,
     "openai": {
-      "input": 0.0004902,
-      "output": 0.0018149999999999998,
-      "total": 0.0023052
+      "input": 0.0004967999999999999,
+      "output": 0.0018539999999999997,
+      "total": 0.0023507999999999997
     },
-    "total": 0.012844021411132812,
+    "total": 0.011686920859781902,
     "token_usage": {
-      "prompt_tokens": 3268,
-      "completion_tokens": 3025,
-      "total_tokens": 6293
+      "prompt_tokens": 3312,
+      "completion_tokens": 3090,
+      "total_tokens": 6402
     }
   }
 }
