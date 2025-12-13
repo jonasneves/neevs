@@ -1,349 +1,37 @@
 {
   "agent": "agent-a-paper-fetcher",
-  "timestamp": "2025-12-12T09:05:07.346226",
+  "timestamp": "2025-12-13T09:02:56.616786",
   "status": "completed",
   "data": {
-    "papers": [
-      {
-        "id": "2512.10957v1",
-        "title": "SceneMaker: Open-set 3D Scene Generation with Decoupled De-occlusion and Pose Estimation Model",
-        "authors": [
-          "Yukai Shi",
-          "Weiyu Li",
-          "Zihao Wang",
-          "Hongyang Li",
-          "Xingyu Chen"
-        ],
-        "abstract": "We propose a decoupled 3D scene generation framework called SceneMaker in this work. Due to the lack of sufficient open-set de-occlusion and pose estimation priors, existing methods struggle to simultaneously produce high-quality geometry and accurate poses under severe occlusion and open-set settings. To address these issues, we first decouple the de-occlusion model from 3D object generation, and enhance it by leveraging image datasets and collected de-occlusion datasets for much more diverse o...",
-        "published": "2025-12-11T18:59:56Z",
-        "updated": "2025-12-11T18:59:56Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.10957v1",
-        "abs_url": "https://arxiv.org/abs/2512.10957v1",
-        "categories": [
-          "cs.CV",
-          "cs.AI"
-        ],
-        "primary_category": "cs.CV"
-      },
-      {
-        "id": "2512.10953v1",
-        "title": "Bidirectional Normalizing Flow: From Data to Noise and Back",
-        "authors": [
-          "Yiyang Lu",
-          "Qiao Sun",
-          "Xianbang Wang",
-          "Zhicheng Jiang",
-          "Hanhong Zhao"
-        ],
-        "abstract": "Normalizing Flows (NFs) have been established as a principled framework for generative modeling. Standard NFs consist of a forward process and a reverse process: the forward process maps data to noise, while the reverse process generates samples by inverting it. Typical NF forward transformations are constrained by explicit invertibility, ensuring that the reverse process can serve as their exact analytic inverse. Recent developments in TARFlow and its variants have revitalized NF methods by com...",
-        "published": "2025-12-11T18:59:55Z",
-        "updated": "2025-12-11T18:59:55Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.10953v1",
-        "abs_url": "https://arxiv.org/abs/2512.10953v1",
-        "categories": [
-          "cs.LG",
-          "cs.CV"
-        ],
-        "primary_category": "cs.LG"
-      },
-      {
-        "id": "2512.10952v1",
-        "title": "Hierarchical Dataset Selection for High-Quality Data Sharing",
-        "authors": [
-          "Xiaona Zhou",
-          "Yingyan Zeng",
-          "Ran Jin",
-          "Ismini Lourentzou"
-        ],
-        "abstract": "The success of modern machine learning hinges on access to high-quality training data. In many real-world scenarios, such as acquiring data from public repositories or sharing across institutions, data is naturally organized into discrete datasets that vary in relevance, quality, and utility. Selecting which repositories or institutions to search for useful datasets, and which datasets to incorporate into model training are therefore critical decisions, yet most existing methods select individua...",
-        "published": "2025-12-11T18:59:55Z",
-        "updated": "2025-12-11T18:59:55Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.10952v1",
-        "abs_url": "https://arxiv.org/abs/2512.10952v1",
-        "categories": [
-          "cs.LG",
-          "cs.AI"
-        ],
-        "primary_category": "cs.LG"
-      },
-      {
-        "id": "2512.10949v1",
-        "title": "Are We Ready for RL in Text-to-3D Generation? A Progressive Investigation",
-        "authors": [
-          "Yiwen Tang",
-          "Zoey Guo",
-          "Kaixin Zhu",
-          "Ray Zhang",
-          "Qizhi Chen"
-        ],
-        "abstract": "Reinforcement learning (RL), earlier proven to be effective in large language and multi-modal models, has been successfully extended to enhance 2D image generation recently. However, applying RL to 3D generation remains largely unexplored due to the higher spatial complexity of 3D objects, which require globally consistent geometry and fine-grained local textures. This makes 3D generation significantly sensitive to reward designs and RL algorithms. To address these challenges, we conduct the fir...",
-        "published": "2025-12-11T18:59:52Z",
-        "updated": "2025-12-11T18:59:52Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.10949v1",
-        "abs_url": "https://arxiv.org/abs/2512.10949v1",
-        "categories": [
-          "cs.CV",
-          "cs.AI",
-          "cs.CL"
-        ],
-        "primary_category": "cs.CV"
-      },
-      {
-        "id": "2512.10946v1",
-        "title": "ImplicitRDP: An End-to-End Visual-Force Diffusion Policy with Structural Slow-Fast Learning",
-        "authors": [
-          "Wendi Chen",
-          "Han Xue",
-          "Yi Wang",
-          "Fangyuan Zhou",
-          "Jun Lv"
-        ],
-        "abstract": "Human-level contact-rich manipulation relies on the distinct roles of two key modalities: vision provides spatially rich but temporally slow global context, while force sensing captures rapid, high-frequency local contact dynamics. Integrating these signals is challenging due to their fundamental frequency and informational disparities. In this work, we propose ImplicitRDP, a unified end-to-end visual-force diffusion policy that integrates visual planning and reactive force control within a sing...",
-        "published": "2025-12-11T18:59:46Z",
-        "updated": "2025-12-11T18:59:46Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.10946v1",
-        "abs_url": "https://arxiv.org/abs/2512.10946v1",
-        "categories": [
-          "cs.RO",
-          "cs.AI",
-          "cs.LG"
-        ],
-        "primary_category": "cs.RO"
-      },
-      {
-        "id": "2512.10943v1",
-        "title": "AlcheMinT: Fine-grained Temporal Control for Multi-Reference Consistent Video Generation",
-        "authors": [
-          "Sharath Girish",
-          "Viacheslav Ivanov",
-          "Tsai-Shien Chen",
-          "Hao Chen",
-          "Aliaksandr Siarohin"
-        ],
-        "abstract": "Recent advances in subject-driven video generation with large diffusion models have enabled personalized content synthesis conditioned on user-provided subjects. However, existing methods lack fine-grained temporal control over subject appearance and disappearance, which are essential for applications such as compositional video synthesis, storyboarding, and controllable animation. We propose AlcheMinT, a unified framework that introduces explicit timestamps conditioning for subject-driven video...",
-        "published": "2025-12-11T18:59:34Z",
-        "updated": "2025-12-11T18:59:34Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.10943v1",
-        "abs_url": "https://arxiv.org/abs/2512.10943v1",
-        "categories": [
-          "cs.CV",
-          "cs.AI"
-        ],
-        "primary_category": "cs.CV"
-      },
-      {
-        "id": "2512.10941v1",
-        "title": "Mull-Tokens: Modality-Agnostic Latent Thinking",
-        "authors": [
-          "Arijit Ray",
-          "Ahmed Abdelkader",
-          "Chengzhi Mao",
-          "Bryan A. Plummer",
-          "Kate Saenko"
-        ],
-        "abstract": "Reasoning goes beyond language; the real world requires reasoning about space, time, affordances, and much more that words alone cannot convey. Existing multimodal models exploring the potential of reasoning with images are brittle and do not scale. They rely on calling specialist tools, costly generation of images, or handcrafted reasoning data to switch between text and image thoughts. Instead, we offer a simpler alternative -- Mull-Tokens -- modality-agnostic latent tokens pre-trained to hold...",
-        "published": "2025-12-11T18:59:08Z",
-        "updated": "2025-12-11T18:59:08Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.10941v1",
-        "abs_url": "https://arxiv.org/abs/2512.10941v1",
-        "categories": [
-          "cs.CV",
-          "cs.AI"
-        ],
-        "primary_category": "cs.CV"
-      },
-      {
-        "id": "2512.10940v1",
-        "title": "OmniView: An All-Seeing Diffusion Model for 3D and 4D View Synthesis",
-        "authors": [
-          "Xiang Fan",
-          "Sharath Girish",
-          "Vivek Ramanujan",
-          "Chaoyang Wang",
-          "Ashkan Mirzaei"
-        ],
-        "abstract": "Prior approaches injecting camera control into diffusion models have focused on specific subsets of 4D consistency tasks: novel view synthesis, text-to-video with camera control, image-to-video, amongst others. Therefore, these fragmented approaches are trained on disjoint slices of available 3D/4D data. We introduce OmniView, a unified framework that generalizes across a wide range of 4D consistency tasks. Our method separately represents space, time, and view conditions, enabling flexible comb...",
-        "published": "2025-12-11T18:59:05Z",
-        "updated": "2025-12-11T18:59:05Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.10940v1",
-        "abs_url": "https://arxiv.org/abs/2512.10940v1",
-        "categories": [
-          "cs.CV",
-          "cs.AI"
-        ],
-        "primary_category": "cs.CV"
-      },
-      {
-        "id": "2512.10938v1",
-        "title": "Stronger Normalization-Free Transformers",
-        "authors": [
-          "Mingzhi Chen",
-          "Taiming Lu",
-          "Jiachen Zhu",
-          "Mingjie Sun",
-          "Zhuang Liu"
-        ],
-        "abstract": "Although normalization layers have long been viewed as indispensable components of deep learning architectures, the recent introduction of Dynamic Tanh (DyT) has demonstrated that alternatives are possible. The point-wise function DyT constrains extreme values for stable convergence and reaches normalization-level performance; this work seeks further for function designs that can surpass it. We first study how the intrinsic properties of point-wise functions influence training and performance. B...",
-        "published": "2025-12-11T18:58:49Z",
-        "updated": "2025-12-11T18:58:49Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.10938v1",
-        "abs_url": "https://arxiv.org/abs/2512.10938v1",
-        "categories": [
-          "cs.LG",
-          "cs.AI",
-          "cs.CL",
-          "cs.CV"
-        ],
-        "primary_category": "cs.LG"
-      },
-      {
-        "id": "2512.10937v1",
-        "title": "On Decision-Making Agents and Higher-Order Causal Processes",
-        "authors": [
-          "Matt Wilson"
-        ],
-        "abstract": "We establish a precise correspondence between decision-making agents in partially observable Markov decision processes (POMDPs) and one-input process functions, the classical limit of higher-order quantum operations. In this identification an agent's policy and memory update combine into a process function w that interacts with a POMDP environment via the link product. This suggests a dual interpretation: in the physics view, the process function acts as the environment into which local operatio...",
-        "published": "2025-12-11T18:58:33Z",
-        "updated": "2025-12-11T18:58:33Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.10937v1",
-        "abs_url": "https://arxiv.org/abs/2512.10937v1",
-        "categories": [
-          "cs.AI",
-          "quant-ph"
-        ],
-        "primary_category": "cs.AI"
-      },
-      {
-        "id": "2512.10936v1",
-        "title": "Empirical evaluation of the Frank-Wolfe methods for constructing white-box adversarial attacks",
-        "authors": [
-          "Kristina Korotkova",
-          "Aleksandr Katrutsa"
-        ],
-        "abstract": "The construction of adversarial attacks for neural networks appears to be a crucial challenge for their deployment in various services. To estimate the adversarial robustness of a neural network, a fast and efficient approach is needed to construct adversarial attacks. Since the formalization of adversarial attack construction involves solving a specific optimization problem, we consider the problem of constructing an efficient and effective adversarial attack from a numerical optimization persp...",
-        "published": "2025-12-11T18:58:17Z",
-        "updated": "2025-12-11T18:58:17Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.10936v1",
-        "abs_url": "https://arxiv.org/abs/2512.10936v1",
-        "categories": [
-          "cs.LG",
-          "cs.AI"
-        ],
-        "primary_category": "cs.LG"
-      },
-      {
-        "id": "2512.10935v1",
-        "title": "Any4D: Unified Feed-Forward Metric 4D Reconstruction",
-        "authors": [
-          "Jay Karhade",
-          "Nikhil Keetha",
-          "Yuchen Zhang",
-          "Tanisha Gupta",
-          "Akash Sharma"
-        ],
-        "abstract": "We present Any4D, a scalable multi-view transformer for metric-scale, dense feed-forward 4D reconstruction. Any4D directly generates per-pixel motion and geometry predictions for N frames, in contrast to prior work that typically focuses on either 2-view dense scene flow or sparse 3D point tracking. Moreover, unlike other recent methods for 4D reconstruction from monocular RGB videos, Any4D can process additional modalities and sensors such as RGB-D frames, IMU-based egomotion, and Radar Doppler...",
-        "published": "2025-12-11T18:57:39Z",
-        "updated": "2025-12-11T18:57:39Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.10935v1",
-        "abs_url": "https://arxiv.org/abs/2512.10935v1",
-        "categories": [
-          "cs.CV",
-          "cs.AI",
-          "cs.LG",
-          "cs.RO"
-        ],
-        "primary_category": "cs.CV"
-      },
-      {
-        "id": "2512.10934v1",
-        "title": "Curriculum-Based Reinforcement Learning for Autonomous UAV Navigation in Unknown Curved Tubular Conduit",
-        "authors": [
-          "Zamirddine Mari",
-          "J\u00e9r\u00f4me Pasquet",
-          "Julien Seinturier"
-        ],
-        "abstract": "Autonomous drone navigation in confined tubular environments remains a major challenge due to the constraining geometry of the conduits, the proximity of the walls, and the perceptual limitations inherent to such scenarios. We propose a reinforcement learning approach enabling a drone to navigate unknown three-dimensional tubes without any prior knowledge of their geometry, relying solely on local observations from LiDAR and a conditional visual detection of the tube center. In contrast, the Pur...",
-        "published": "2025-12-11T18:57:29Z",
-        "updated": "2025-12-11T18:57:29Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.10934v1",
-        "abs_url": "https://arxiv.org/abs/2512.10934v1",
-        "categories": [
-          "cs.RO",
-          "cs.LG"
-        ],
-        "primary_category": "cs.RO"
-      },
-      {
-        "id": "2512.10932v1",
-        "title": "BabyVLM-V2: Toward Developmentally Grounded Pretraining and Benchmarking of Vision Foundation Models",
-        "authors": [
-          "Shengao Wang",
-          "Wenqi Wang",
-          "Zecheng Wang",
-          "Max Whitton",
-          "Michael Wakeham"
-        ],
-        "abstract": "Early children's developmental trajectories set up a natural goal for sample-efficient pretraining of vision foundation models. We introduce BabyVLM-V2, a developmentally grounded framework for infant-inspired vision-language modeling that extensively improves upon BabyVLM-V1 through a longitudinal, multifaceted pretraining set, a versatile model, and, most importantly, DevCV Toolbox for cognitive evaluation. The pretraining set maximizes coverage while minimizing curation of a longitudinal, inf...",
-        "published": "2025-12-11T18:57:05Z",
-        "updated": "2025-12-11T18:57:05Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.10932v1",
-        "abs_url": "https://arxiv.org/abs/2512.10932v1",
-        "categories": [
-          "cs.CV",
-          "cs.AI"
-        ],
-        "primary_category": "cs.CV"
-      },
-      {
-        "id": "2512.10931v1",
-        "title": "Asynchronous Reasoning: Training-Free Interactive Thinking LLMs",
-        "authors": [
-          "George Yakushev",
-          "Nataliia Babina",
-          "Masoud Vahid Dastgerdi",
-          "Vyacheslav Zhdanovskiy",
-          "Alina Shutova"
-        ],
-        "abstract": "Many state-of-the-art LLMs are trained to think before giving their answer. Reasoning can greatly improve language model capabilities and safety, but it also makes them less interactive: given a new input, a model must stop thinking before it can respond. Real-world use cases such as voice-based or embedded assistants require an LLM agent to respond and adapt to additional information in real time, which is incompatible with sequential interactions. In contrast, humans can listen, think, and act...",
-        "published": "2025-12-11T18:57:02Z",
-        "updated": "2025-12-11T18:57:02Z",
-        "pdf_url": "https://arxiv.org/pdf/2512.10931v1",
-        "abs_url": "https://arxiv.org/abs/2512.10931v1",
-        "categories": [
-          "cs.LG",
-          "cs.CL"
-        ],
-        "primary_category": "cs.LG"
-      }
-    ],
-    "count": 15,
+    "papers": [],
+    "count": 0,
     "categories": [
       "cs.AI",
       "cs.LG",
       "cs.CL"
     ],
-    "fetch_date": "2025-12-12"
+    "fetch_date": "2025-12-13"
   },
   "metadata": {
     "source": "arXiv API",
     "query": "cat:cs.AI OR cat:cs.LG OR cat:cs.CL",
     "deduplication": {
       "total_fetched": 15,
-      "new_papers": 15,
-      "duplicates_filtered": 0,
-      "last_fetch": "2025-12-11T09:05:08.733134"
+      "new_papers": 0,
+      "duplicates_filtered": 15,
+      "last_fetch": "2025-12-12T09:05:07.346226"
     }
   },
   "costs": {
-    "execution_time": 0.5968000888824463,
-    "execution_minutes": 0.009946668148040771,
-    "github_actions": 7.957334518432617e-05,
+    "execution_time": 0.5450830459594727,
+    "execution_minutes": 0.009084717432657877,
+    "github_actions": 7.267773946126302e-05,
     "openai": {
       "input": 0,
       "output": 0,
       "total": 0
     },
-    "total": 7.957334518432617e-05,
+    "total": 7.267773946126302e-05,
     "token_usage": {}
   }
 }
